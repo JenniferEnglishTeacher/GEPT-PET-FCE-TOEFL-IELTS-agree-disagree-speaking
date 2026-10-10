@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jennifer's English Class: basic, opinion, topic-based and descriptive speaking practice in one dashboard.">
+  <title>Speaking Practice | Jennifer's English Class</title>
+  <style>
+    :root{font-family:"Segoe UI",Arial,sans-serif;color:#202a29;background:#f5f7f7;line-height:1.5;color-scheme:light}
+    *{box-sizing:border-box}body{margin:0}button,input{font:inherit}a{color:inherit}button,a,input{-webkit-tap-highlight-color:transparent}
+    :focus-visible{outline:3px solid #067e68;outline-offset:4px}
+    header{background:#fff;border-bottom:1px solid #dce3e1}
+    .topbar{max-width:1140px;margin:auto;padding:22px 28px;display:flex;justify-content:space-between;gap:20px;align-items:center}
+    .brand{font-size:18px;font-weight:700}.exam-list{color:#566563;font-size:13px}
+    main{max-width:1140px;padding:36px 28px 48px;margin:auto}
+    .heading{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:28px}
+    h1{font-size:32px;line-height:1.2;margin:0}h2{font-size:23px;line-height:1.25;margin:0 0 12px}
+    .heading p{margin:8px 0 0;color:#566563}
+    #continueLink{font-size:14px;font-weight:600;color:#006c59;text-underline-offset:4px}
+    .toolbar{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;border-bottom:1px solid #dce3e1;padding-bottom:20px;margin-bottom:24px}
+    .filters{display:flex;flex-wrap:wrap;gap:4px}
+    .filters button{padding:9px 13px;border:0;background:transparent;color:#53615f;border-radius:5px;cursor:pointer;min-height:42px}
+    .filters button[aria-pressed="true"]{background:#dceee8;color:#005b49;font-weight:700}
+    .search{display:flex;align-items:center;gap:10px;font-size:13px;color:#53615f}
+    .search input{width:220px;max-width:100%;border:1px solid #bbc9c4;border-radius:5px;padding:10px 12px;background:#fff;color:#202a29}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+    article{background:#fff;border:1px solid #dce3e1;border-radius:8px;padding:25px;display:flex;flex-direction:column;min-height:270px;border-top:4px solid var(--accent)}
+    article[hidden]{display:none}
+    .meta{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-bottom:18px;color:var(--accent);font-size:13px;font-weight:700}
+    .count{color:#63716e;font-weight:400}
+    article p{margin:0 0 22px;color:#566563;font-size:15px}
+    .details{font-size:13px;color:#566563;display:flex;gap:8px 18px;flex-wrap:wrap;margin-top:auto;margin-bottom:18px}
+    .open{display:flex;align-items:center;justify-content:space-between;text-decoration:none;background:var(--accent);color:#fff;padding:11px 16px;border-radius:5px;font-size:15px;font-weight:700;min-height:46px}
+    .open:hover{filter:brightness(.92)}.arrow{font-size:22px;line-height:1}
+    footer{margin-top:24px;font-size:13px;color:#63716e;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+    #empty{padding:36px 0;text-align:center;color:#53615f}
+    [hidden]{display:none!important}
+    @media(max-width:700px){.topbar{padding:18px 20px;align-items:flex-start;flex-direction:column;gap:5px}main{padding:28px 20px}.heading{align-items:flex-start;flex-direction:column;gap:12px}h1{font-size:28px}.toolbar{align-items:stretch;flex-direction:column}.search input{flex:1;width:auto;min-width:0}.grid{grid-template-columns:1fr}article{padding:22px;min-height:250px}.filters button{padding:9px 10px}}
+  </style>
+</head>
+<body>
+  <header><div class="topbar"><div class="brand">Jennifer's English Class</div><div class="exam-list">GEPT &middot; PET &middot; FCE &middot; TOEFL &middot; IELTS &middot; iTEP</div></div></header>
+  <main>
+    <div class="heading"><div><h1>Speaking Practice</h1><p>Choose your practice.</p></div><a id="continueLink" href="#" target="_blank" rel="noopener" hidden></a></div>
+    <div class="toolbar">
+      <div class="filters" role="group" aria-label="Practice type">
+        <button type="button" data-filter="all" aria-pressed="true">All Practice</button>
+        <button type="button" data-filter="basic" aria-pressed="false">Basic</button>
+        <button type="button" data-filter="opinion" aria-pressed="false">Opinions</button>
+        <button type="button" data-filter="description" aria-pressed="false">Descriptions</button>
+      </div>
+      <label class="search">Search<input id="search" type="search" placeholder="Find a practice..." autocomplete="off"></label>
+    </div>
+    <div class="grid" id="activities">
+      <article data-id="basic" data-category="basic" style="--accent:#087b66">
+        <div class="meta"><span>Everyday English</span><span class="count">200 questions</span></div>
+        <h2>GEPT Basic Speaking</h2>
+        <p>Personal information, daily life, school, family and friends.</p>
+        <div class="details"><span>15 / 30 seconds</span><span>5 patterns + examples</span></div>
+        <a class="open" href="https://jenniferenglishteacher.github.io/GEPT-PET-FCE-TOEFL-IELTS-agree-disagree-speaking/" target="_blank" rel="noopener"><span>Start Basic Practice</span><span class="arrow" aria-hidden="true">&rarr;</span></a>
+      </article>
+      <article data-id="opinion" data-category="opinion" style="--accent:#ae4d45">
+        <div class="meta"><span>Agree / Disagree / Prefer</span><span class="count">120 questions</span></div>
+        <h2>Opinion Speaking</h2>
+        <p>Position, reasons, examples and a conclusion. Explore school, technology, society and more.</p>
+        <div class="details"><span>30 / 45 / 60 / 90 seconds</span><span>5 patterns + examples</span></div>
+        <a class="open" href="https://jenniferenglishteacher.github.io/GEPT-PET-FCE-TOEFL-IELTS-agree-disagree-speaking/opinion.html" target="_blank" rel="noopener"><span>Start Opinion Practice</span><span class="arrow" aria-hidden="true">&rarr;</span></a>
+      </article>
+      <article data-id="theme" data-category="opinion" style="--accent:#4265a0">
+        <div class="meta"><span>Topic Board</span><span class="count">iTEP / Exam Practice</span></div>
+        <h2>Theme Speaking</h2>
+        <p>Explore topic prompts and different viewpoints, then build your own spoken response.</p>
+        <div class="details"><span>30 seconds to 3 minutes</span><span>Viewpoints + model responses</span></div>
+        <a class="open" href="https://jenniferenglishteacher.github.io/TOEFL-IELTS-FCE-theme-iTEP-speaking/" target="_blank" rel="noopener"><span>Start Theme Practice</span><span class="arrow" aria-hidden="true">&rarr;</span></a>
+      </article>
+      <article data-id="description" data-category="description" style="--accent:#8b6b18">
+        <div class="meta"><span>People / Places / Objects / Events</span><span class="count">Descriptive Practice</span></div>
+        <h2>Descriptive Speaking</h2>
+        <p>Describe people, places, objects and experiences with model answers and key vocabulary.</p>
+        <div class="details"><span>30 / 45 / 60 / 90 seconds</span><span>Models + key words</span></div>
+        <a class="open" href="https://jenniferenglishteacher.github.io/TOEFL-IELTS-FCE-theme-iTEP-speaking/descriptive-speaking.html" target="_blank" rel="noopener"><span>Start Descriptive Practice</span><span class="arrow" aria-hidden="true">&rarr;</span></a>
+      </article>
+    </div>
+    <p id="empty" hidden>No matching practice.</p>
+    <footer><span id="resultCount" aria-live="polite">4 practice activities</span><span>Jennifer's English Class</span></footer>
+  </main>
+  <script>
+    const cards = [...document.querySelectorAll('article')];
+    const filters = [...document.querySelectorAll('[data-filter]')];
+    const search = document.querySelector('#search');
+    const resume = document.querySelector('#continueLink');
+    let selected = 'all';
+    function update() {
+      const term = search.value.trim().toLowerCase();
+      let count = 0;
+      cards.forEach(card => {
+        const visible = (selected === 'all' || card.dataset.category === selected) && card.textContent.toLowerCase().includes(term);
+        card.hidden = !visible;
+        if (visible) count++;
+      });
+      document.querySelector('#empty').hidden = count !== 0;
+      document.querySelector('#resultCount').textContent = `${count} practice ${count === 1 ? 'activity' : 'activities'}`;
+    }
+    function showResume(id) {
+      const card = cards.find(card => card.dataset.id === id);
+      if (!card) return;
+      resume.href = card.querySelector('a').href;
+      resume.textContent = `Return to ${card.querySelector('h2').textContent}`;
+      resume.hidden = false;
+    }
+    filters.forEach(button => button.addEventListener('click', () => {
+      selected = button.dataset.filter;
+      filters.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+      update();
+    }));
+    search.addEventListener('input', update);
+    cards.forEach(card => card.querySelector('a').addEventListener('click', () => {
+      try { localStorage.setItem('jennifer-speaking-last-practice', card.dataset.id); } catch {}
+      showResume(card.dataset.id);
+    }));
+    try { showResume(localStorage.getItem('jennifer-speaking-last-practice')); } catch {}
+  </script>
+</body>
+</html>
