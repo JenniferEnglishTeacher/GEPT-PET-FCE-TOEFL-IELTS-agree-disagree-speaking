@@ -24,8 +24,7 @@ const els = {
   timeSelect: $("#timeSelect"), timer: $("#timerDisplay"), timerFill: $("#timerFill"),
   recordBtn: $("#recordBtn"), stopBtn: $("#stopBtn"), resetBtn: $("#resetBtn"), speechStatus: $("#speechStatus"), audio: $("#audioPlayback"),
   transcript: $("#transcript"), stats: $("#statsText"),
-  cleanBtn: $("#cleanBtn"), restoreBtn: $("#restoreBtn"), copyBtn: $("#copyBtn"), gptBotBtn: $("#gptBotBtn"), sendBtn: $("#sendBtn"), botStatus: $("#botStatus"),
-  resultsPanel: $("#resultsPanel"), gradeBadge: $("#gradeBadge"), feedbackList: $("#feedbackList"), correctedText: $("#correctedText"),
+  cleanBtn: $("#cleanBtn"), restoreBtn: $("#restoreBtn"), copyBtn: $("#copyBtn"), gptBotBtn: $("#gptBotBtn"), botStatus: $("#botStatus"),
 };
 
 const categories = ["All", ...new Set(prompts.map(item => item.category))];
@@ -144,7 +143,6 @@ function select(item) {
   rawBeforeClean = null;
   els.restoreBtn.hidden = true;
   els.transcript.value = K.store.get(DRAFT_PREFIX + item.number, "");
-  els.resultsPanel.hidden = true;
   els.audio.hidden = true;
   els.audio.removeAttribute("src");
   try { history.replaceState(null, "", `#${item.number}`); } catch {}
@@ -287,7 +285,7 @@ async function startRecording() {
     : audioOn ? "Recording audio. Live typing is not supported in this browser — type your answer after speaking." : "Type your answer in the box.", live ? "active" : "warning");
 }
 
-function stopRecording(msg = "Stopped. Press <b>Clean Up Transcript</b>, check it, then copy it or send it for feedback.", kind = "") {
+function stopRecording(msg = "Stopped. Press <b>Clean Up Transcript</b>, check it, then copy it for feedback.", kind = "") {
   clearInterval(timer);
   timer = null;
   if (answerRec) { answerRec.stop(); answerRec = null; }
@@ -324,33 +322,6 @@ function cleanUpTranscript() {
   saveDraft();
   updateStats();
   setStatus(els.botStatus, "✨ Cleaned. Computers are not perfect — read it once, fix any wrong words, then copy it.", "active");
-}
-
-/* ---------- local feedback (ported) ---------- */
-function localFeedback() {
-  const text = els.transcript.value.trim();
-  if (!text) { setStatus(els.speechStatus, "Please record or type a response first.", "warning"); return; }
-  const lower = text.toLowerCase();
-  const words = text.split(/\s+/).filter(Boolean);
-  const used = active.keywords.filter(word => lower.includes(word.toLowerCase()));
-  const structureMarkers = ["I would like to talk about", "because", "whenever", "for example", "thanks to", "as a result", "overall"].filter(marker => lower.includes(marker.toLowerCase()));
-  const targetWords = Number(els.timeSelect.value) <= 45 ? 90 : 110;
-  const score = Math.min(100, 60 + used.length * 2 + structureMarkers.length * 4 + Math.min(18, Math.floor(words.length / 6)));
-
-  els.gradeBadge.textContent = `${score}/100`;
-  els.feedbackList.innerHTML = "";
-  [
-    structureMarkers.length ? `Structure: Good. You used ${structureMarkers.join(", ")}. Try to follow this order: opening, details, feeling/reason, ending.` : "Structure: Add clearer sequence words such as first, what I like most, for example, because, and overall.",
-    used.length ? `Vocabulary: You used ${used.slice(0, 8).join(", ")}. Add 2-3 more high-yield phrases from the key word list.` : "Vocabulary: Try to reuse phrases from the key word list, not only simple words.",
-    words.length < targetWords * 0.65 ? "Development: Your answer is short for this time limit. Add one extra detail and one feeling/reason sentence." : "Development: The response length is suitable. Make sure every detail connects to the prompt.",
-  ].forEach(item => {
-    const li = document.createElement("li");
-    li.textContent = item;
-    els.feedbackList.append(li);
-  });
-  els.correctedText.textContent = `Opening: I would like to talk about ${active.title.replace(/^\d+\.\s*/, "").toLowerCase()}.\nDetails: Add who/what/where/when clearly.\nReason or feeling: Explain why it is special, useful, meaningful, or memorable.\nEnding: Finish with one personal reflection, such as what you learned or why you still remember it.`;
-  els.resultsPanel.hidden = false;
-  els.resultsPanel.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 /* ---------- IELTS bot ---------- */
@@ -414,7 +385,6 @@ els.resetBtn.addEventListener("click", () => {
   elapsed = 0;
   rawBeforeClean = null;
   els.restoreBtn.hidden = true;
-  els.resultsPanel.hidden = true;
   els.audio.hidden = true;
   els.audio.removeAttribute("src");
   resetTimer();
@@ -438,7 +408,6 @@ els.copyBtn.addEventListener("click", async () => {
   const ok = await K.copyText(els.transcript.value.trim());
   setStatus(els.botStatus, ok ? "📋 Copied! Paste it into your document or chat to get feedback." : "Could not copy automatically — select the text and copy it manually.", ok ? "active" : "warning");
 });
-els.sendBtn.addEventListener("click", localFeedback);
 els.gptBotBtn.addEventListener("click", openIeltsBot);
 els.search.addEventListener("input", renderTopics);
 

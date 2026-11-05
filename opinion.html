@@ -56,18 +56,10 @@
             <ol id="practiceSentences"></ol>
           </div>
 
-          <div class="notes-block">
-            <div class="block-title">
-              <span>Your Turn &middot; Plan Your Answer</span>
-              <button id="clearNotesButton" class="small-button" type="button">Clear Notes</button>
-            </div>
-            <p class="notes-hint">Type key words only &mdash; not full sentences. Keep your notes in view while you speak.</p>
-            <div id="notesGrid" class="notes-grid"></div>
-          </div>
         </section>
       </main>
 
-      <aside class="feedback-pane" aria-label="Speech transcript and feedback">
+      <aside class="feedback-pane opinion-side" aria-label="Speech transcript and feedback">
         <div class="feedback-head">
           <div>
             <p class="eyebrow">Speech to Text</p>
@@ -96,6 +88,14 @@
           </div>
           <div class="status-line" id="statusLine">Click Start Recording, then speak in English.</div>
         </section>
+        <div class="notes-block notes-side">
+          <div class="block-title">
+            <span>&#9312; Plan Your Answer</span>
+            <button id="clearNotesButton" class="small-button" type="button">Clear Notes</button>
+          </div>
+          <p class="notes-hint">Type key words only &mdash; not full sentences. Keep your notes in view while you speak.</p>
+          <div id="notesGrid" class="notes-grid"></div>
+        </div>
         <textarea id="transcriptBox" placeholder="Your spoken English will appear here..."></textarea>
         <div class="transcript-actions">
           <button id="cleanButton" class="small-button primary-action" type="button">&#10024; Clean Up Transcript</button>

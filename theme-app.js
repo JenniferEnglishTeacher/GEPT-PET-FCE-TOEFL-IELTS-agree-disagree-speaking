@@ -15,9 +15,7 @@ const els = {
   timeSelect: $("#timeSelect"), timer: $("#timerDisplay"), timerFill: $("#timerFill"),
   recordBtn: $("#recordBtn"), stopBtn: $("#stopBtn"), resetBtn: $("#resetBtn"), speechStatus: $("#speechStatus"), audio: $("#audioPlayback"),
   transcript: $("#transcript"), stats: $("#statsText"), cleanBtn: $("#cleanBtn"), restoreBtn: $("#restoreBtn"), copyBtn: $("#copyBtn"),
-  gptBotBtn: $("#gptBotBtn"), sendBtn: $("#sendBtn"), botStatus: $("#botStatus"),
-  resultsPanel: $("#resultsPanel"), gradeBadge: $("#gradeBadge"), feedbackList: $("#feedbackList"),
-  correctedText: $("#correctedText"), upgradedSample: $("#upgradedSample"), exportBtn: $("#exportBtn"),
+  gptBotBtn: $("#gptBotBtn"), botStatus: $("#botStatus"),
 };
 
 const slug = title => title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
@@ -45,44 +43,6 @@ function targetWords(seconds) {
   if (seconds <= 90) return 155;
   if (seconds <= 120) return 200;
   return 250;
-}
-
-function chooseBestViewpoint(payload) {
-  const lower = payload.transcript.toLowerCase();
-  let best = payload.viewpoints[0];
-  let bestScore = -1;
-  payload.viewpoints.forEach(view => {
-    const keywordScore = view.keywords.filter(word => lower.includes(word.toLowerCase())).length * 2;
-    const bulletScore = view.bullets.filter(item => item.toLowerCase().split(/\W+/).filter(word => word.length > 5).some(word => lower.includes(word))).length;
-    const score = keywordScore + bulletScore;
-    if (score > bestScore) { best = view; bestScore = score; }
-  });
-  return best;
-}
-
-function polishStudentText(text) {
-  return text
-    .replace(/\bi think\b/gi, "I believe")
-    .replace(/\bai\b/g, "AI")
-    .replace(/\bi\b/g, "I")
-    .replace(/\ba lot of\b/gi, "many")
-    .replace(/\bkids\b/gi, "students")
-    .replace(/\bstuff\b/gi, "learning materials")
-    .replace(/\bget better\b/gi, "improve")
-    .replace(/\bfaster\b/gi, "more efficiently")
-    .trim();
-}
-
-function promptTopicText(prompt) {
-  return prompt
-    .replace(/^should students use /i, "using ")
-    .replace(/^should students /i, "students should ")
-    .replace(/^are /i, "")
-    .replace(/^is /i, "")
-    .replace(/^do /i, "")
-    .replace(/\?$/, "")
-    .toLowerCase()
-    .replace(/\bai\b/g, "AI");
 }
 
 function canPhrase(note) {
@@ -186,7 +146,6 @@ function selectTopic(topic) {
   rawBeforeClean = null;
   els.restoreBtn.hidden = true;
   els.transcript.value = K.store.get(DRAFT_PREFIX + slug(topic.title), "");
-  els.resultsPanel.hidden = true;
   els.audio.hidden = true;
   els.audio.removeAttribute("src");
   try { history.replaceState(null, "", `#${slug(topic.title)}`); } catch {}
@@ -293,7 +252,7 @@ async function startRecording() {
     els.timer.classList.toggle("warn", remaining <= 10);
     els.timerFill.style.width = `${Math.min(100, (elapsed / total) * 100)}%`;
     updateStats();
-    if (remaining <= 0) { K.beep(); stopRecording("⏰ Time's up! Now press <b>Clean Up Transcript</b>, check it, and send it for feedback."); }
+    if (remaining <= 0) { K.beep(); stopRecording("⏰ Time's up! Now press <b>Clean Up Transcript</b>, check it, and copy it for feedback."); }
   }, 1000);
 
   let audioOn = false;
@@ -368,62 +327,6 @@ function cleanUpTranscript() {
   setStatus(els.botStatus, "✨ Cleaned. Read it once, fix any wrong words, then send it for feedback.", "active");
 }
 
-/* ---------- local grading ---------- */
-function localGrade(payload) {
-  const text = payload.transcript;
-  const lower = text.toLowerCase();
-  const words = text.split(/\s+/).filter(Boolean);
-  const used = payload.keywords.filter(keyword => lower.includes(keyword.toLowerCase()));
-  const markers = ["because", "for example", "as a result", "overall", "however", "therefore"].filter(marker => lower.includes(marker));
-  const view = chooseBestViewpoint(payload);
-  const score = Math.min(100, 62 + used.length * 4 + markers.length * 5 + Math.min(20, Math.floor(words.length / 6)));
-  const polished = polishStudentText(text);
-  const mainKeyword = view.title.toLowerCase() || view.keywords[0];
-  const example = canPhrase(view.bullets[0] || "apply this idea in a real situation");
-  const effect = canPhrase(view.bullets[view.bullets.length - 1] || "create a stronger result");
-  return {
-    score,
-    band: score >= 90 ? "Excellent" : score >= 78 ? "Strong" : score >= 65 ? "Good" : score >= 50 ? "Developing" : "Needs Support",
-    correctedText: `Argument: I believe ${promptTopicText(payload.prompt)} is important, especially because it is connected to ${mainKeyword}. Explanation: ${polished} Concrete example: For example, students can ${example}, which makes the idea easier to understand in daily life. Effect: As a result, they can ${effect}, and the answer becomes more specific. Wrap-up: Overall, this response is stronger with clear structure, polished vocabulary, and one concrete example.`,
-    feedback: [
-      markers.length ? `Structure: You used ${markers.join(", ")}. To sound more test-ready, organize it as Argument → Explanation → Concrete example → Effect → Wrap-up.` : "Structure: Add clear structure words such as because, for example, as a result, and overall.",
-      used.length ? `Vocabulary: You used topic vocabulary: ${used.slice(0, 5).join(", ")}. Replace casual words with more polished terms when possible.` : "Vocabulary: Use more topic vocabulary from the viewpoint grid and avoid vague words such as good, bad, stuff, and things.",
-      words.length < targetWords(payload.seconds) * 0.55 ? `Development: For ${payload.seconds} seconds, this is a bit short. Add one concrete example and one effect sentence.` : "Development: The response length is suitable. Make the example more concrete and connected to the prompt.",
-      `Teacher focus: Your strongest content direction is "${view.title}". Build the whole answer around this one viewpoint.`,
-    ],
-    upgradedSample: buildModelResponse(payload.prompt, payload.seconds, view).replace(/\*\*/g, ""),
-  };
-}
-
-function gradeNow() {
-  const text = els.transcript.value.trim();
-  if (!text) { setStatus(els.botStatus, "Please record or type a response before grading.", "warning"); return; }
-  const payload = {
-    topic: activeTopic.title,
-    prompt: activeTopic.prompt,
-    transcript: text,
-    seconds: Number(els.timeSelect.value),
-    keywords: allKeywords(),
-    viewpoints: activeTopic.viewpoints,
-  };
-  renderResults(localGrade(payload));
-  setStatus(els.botStatus, "Quick local grade shown below. For real feedback, use <b>Copy + Open IELTS Bot</b>.", "active");
-}
-
-function renderResults(result) {
-  els.resultsPanel.hidden = false;
-  els.gradeBadge.textContent = `${result.score}/100 ${result.band || ""}`.trim();
-  els.correctedText.textContent = result.correctedText || "";
-  els.feedbackList.innerHTML = "";
-  (result.feedback || []).forEach(item => {
-    const li = document.createElement("li");
-    li.textContent = item;
-    els.feedbackList.append(li);
-  });
-  els.upgradedSample.textContent = result.upgradedSample || "";
-  els.resultsPanel.scrollIntoView({ behavior: "smooth", block: "start" });
-}
-
 /* ---------- IELTS bot ---------- */
 function buildIeltsBotPrompt() {
   const viewpointText = activeTopic.viewpoints.map(view => [
@@ -463,33 +366,6 @@ async function openIeltsBot() {
   window.open(IELTS_BOT_URL, "_blank", "noopener");
 }
 
-function exportResult() {
-  const content = [
-    "Theme Speaking Practice Result",
-    `Topic: ${activeTopic.title}`,
-    `Prompt: ${activeTopic.prompt}`,
-    "",
-    "Transcript:",
-    els.transcript.value.trim(),
-    "",
-    "Corrected Text:",
-    els.correctedText.textContent.trim(),
-    "",
-    "Feedback:",
-    [...els.feedbackList.querySelectorAll("li")].map(li => `- ${li.textContent}`).join("\n"),
-    "",
-    "Reference Model:",
-    els.upgradedSample.textContent.trim(),
-  ].join("\n");
-  const blob = new Blob([content], { type: "text/plain;charset=utf-8" });
-  const url = URL.createObjectURL(blob);
-  const link = document.createElement("a");
-  link.href = url;
-  link.download = `${slug(activeTopic.title)}-speaking-result.txt`;
-  link.click();
-  URL.revokeObjectURL(url);
-}
-
 /* ---------- events ---------- */
 els.readPromptBtn.addEventListener("click", () => {
   const words = activeTopic.viewpoints
@@ -511,7 +387,6 @@ els.resetBtn.addEventListener("click", () => {
   elapsed = 0;
   rawBeforeClean = null;
   els.restoreBtn.hidden = true;
-  els.resultsPanel.hidden = true;
   els.audio.hidden = true;
   els.audio.removeAttribute("src");
   resetTimer();
@@ -535,10 +410,8 @@ els.copyBtn.addEventListener("click", async () => {
   const ok = await K.copyText(els.transcript.value.trim());
   setStatus(els.botStatus, ok ? "📋 Copied! Paste it into your document or chat to get feedback." : "Could not copy automatically — select the text and copy it manually.", ok ? "active" : "warning");
 });
-els.sendBtn.addEventListener("click", gradeNow);
 els.gptBotBtn.addEventListener("click", openIeltsBot);
 els.search.addEventListener("input", renderTopics);
-els.exportBtn.addEventListener("click", exportResult);
 
 /* ---------- init ---------- */
 const fromHash = topics.find(t => slug(t.title) === location.hash.slice(1));

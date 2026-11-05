@@ -27,7 +27,6 @@
           <span>Search</span>
           <input id="searchInput" type="search" placeholder="AI, uniforms, travel..." autocomplete="off">
         </label>
-        <button id="exportBtn" class="ghost-button" type="button">Export Result</button>
       </div>
     </header>
 
@@ -122,33 +121,12 @@
               <button id="copyBtn" class="ghost-button" type="button">&#128203; Copy</button>
             </div>
             <div class="transcript-actions">
-              <button id="gptBotBtn" class="primary-button" type="button">Copy + Open IELTS Bot</button>
-              <button id="sendBtn" class="ghost-button" type="button">Quick Local Grade</button>
+              <button id="gptBotBtn" class="primary-button" type="button">&#129302; Copy + Open IELTS Bot</button>
             </div>
-            <p id="botStatus" class="status-text compact">After cleaning, use <b>Copy + Open IELTS Bot</b> for full feedback, or the quick local grade.</p>
+            <p id="botStatus" class="status-text compact">After cleaning, use <b>Copy + Open IELTS Bot</b> (or Copy, then paste to Claude) for full feedback.</p>
           </section>
         </div>
 
-        <section class="results-panel card" id="resultsPanel" hidden>
-          <div class="section-title">
-            <h2>Correction and Grade</h2>
-            <span id="gradeBadge" class="grade-badge"></span>
-          </div>
-          <div class="result-grid">
-            <div>
-              <h3>Feedback</h3>
-              <ul id="feedbackList"></ul>
-            </div>
-            <div>
-              <h3>Polished Revision</h3>
-              <p id="correctedText"></p>
-            </div>
-          </div>
-          <div>
-            <h3>Reference Model</h3>
-            <p id="upgradedSample"></p>
-          </div>
-        </section>
       </section>
     </main>
 

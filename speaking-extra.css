@@ -107,3 +107,35 @@
   .note-row label { padding-top: 0; }
   .transcript-actions { margin: 0 12px 12px; }
 }
+
+/* ---------- Opinion: notes beside the timer, right column pinned ---------- */
+.notes-side { margin: 14px 18px 0; padding: 14px; }
+.notes-side .notes-grid { gap: 8px; }
+.notes-side .note-row { grid-template-columns: 1fr; gap: 3px; }
+.notes-side .note-row label { padding-top: 0; font-size: 13px; }
+.notes-side .note-row textarea { min-height: 40px; font-size: 14px; padding: 6px 9px; }
+.notes-side + .speaking-panel { margin-top: 12px; }
+
+@media (min-width: 1181px) {
+  .feedback-pane {
+    position: sticky;
+    top: 18px;
+    align-self: start;
+    max-height: calc(100vh - 36px);
+    min-height: 0;
+    overflow-y: auto;
+  }
+  .feedback-pane textarea#transcriptBox { min-height: 150px; }
+}
+
+/* Opinion right column order: timer → notes → transcript (all visible together) */
+.opinion-side .feedback-head { padding: 12px 18px; }
+.opinion-side .feedback-head h2 { font-size: 18px; }
+.opinion-side .speaking-panel { margin-top: 12px; padding: 12px 14px; }
+.opinion-side .timer-display { width: 68px; height: 68px; font-size: 30px; }
+.opinion-side .record-row { margin-top: 10px; }
+.opinion-side .record-button { min-height: 44px; font-size: 16px; }
+.opinion-side .status-line { margin-top: 8px; font-size: 13px; min-height: 0; }
+.opinion-side .notes-side { margin-top: 10px; }
+.opinion-side .notes-side + .speaking-panel { margin-top: 10px; }
+.opinion-side .notes-hint { display: none; }
