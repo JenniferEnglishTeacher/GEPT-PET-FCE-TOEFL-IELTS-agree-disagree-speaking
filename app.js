@@ -86,6 +86,7 @@ function renderSelectedQuestion() {
   els.sampleAnswer.innerHTML = "";
   state.sampleSpans = K.wordSpans(els.sampleAnswer, item.answer);
   hideSampleAccuracy();
+  state.mindMap = window.MindMap ? MindMap.mount(document.querySelector("#mindMap"), { key: `basic-${item.id}`, center: item.question }) : null;
   els.questionTip.textContent = item.tip ? `Tip: ${item.tip}` : "";
   els.practiceSentences.innerHTML = "";
   practiceSentencesFor(item).forEach(entry => {
@@ -324,7 +325,7 @@ els.aiFeedbackButton.addEventListener("click", async () => {
 
 Question: ${item.question}
 
-My answer (speech-to-text):
+${state.mindMap && state.mindMap.text() ? `My mind map notes:\n${state.mindMap.text()}\n\n` : ""}My answer (speech-to-text):
 ${els.transcriptBox.value.trim()}
 
 Please give me:

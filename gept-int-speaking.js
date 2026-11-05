@@ -1,0 +1,287 @@
+/* GEPT Intermediate Speaking — 100 Q&A questions + 10 picture descriptions.
+   Mind map typing box, timer, live transcription, clean transcription. Uses speaking-kit.js + mindmap-kit.js. */
+const K = window.SpeakingKit;
+const UNITS = typeof GEPT_UNITS !== "undefined" ? GEPT_UNITS : [];
+const DRAFT_PREFIX = "gept-int-speak-draft-";
+
+const items = [];
+UNITS.forEach(u => u.speaking.forEach((q, i) => items.push({ id: `qa-${u.id}-${i + 1}`, kind: "qa", unit: u.id, theme: u.theme, n: i + 1, question: q })));
+UNITS.forEach(u => items.push({ id: `pic-${u.id}`, kind: "picture", unit: u.id, theme: u.theme, n: 1,
+  question: `Picture Description · Test ${u.id}`, prompts: u.picture.prompts, answer: u.picture.answer, img: `img/gept-int/test-${u.id}.jpg` }));
+
+const TIMES = { qa: [15, 30, 45, 60], picture: [30, 90, 120] };
+const DEFAULT_TIME = { qa: 30, picture: 90 };
+const BRANCHES = {
+  qa: [
+    { label: "Answer 回答", hint: "yes / no / my choice in a few words" },
+    { label: "Reason 原因", hint: "because …" },
+    { label: "Example 例子", hint: "for example / my experience …" },
+    { label: "Ending 結尾", hint: "so / that's why …" }
+  ],
+  picture: [
+    { label: "① Place 地點", hint: "This might be … / It looks like …" },
+    { label: "② People & actions 人物動作", hint: "who · doing what · why" },
+    { label: "③ My opinion / experience 我的經驗", hint: "I have / I think … because …" },
+    { label: "④ More details 細節", hint: "clothes · objects · background" }
+  ]
+};
+const TIPS = {
+  qa: "GEPT 中級第二部分：每題 15 秒作答。先回答 (Answer)，再給原因 (Reason) 和例子 (Example)，最後一句結尾。Practise with 30–60 seconds to build longer answers.",
+  picture: "GEPT 中級第三部分：先用 30 秒看圖和問題，再在 1 分半鐘 (90 sec) 內依序回答四個問題。Answer the four questions in order — do not read the question numbers aloud."
+};
+
+const state = { kind: "qa", selectedId: items[0] && items[0].id, duration: 30, remaining: 30, timerId: null, timerEndsAt: null,
+  recording: false, segments: [], baseText: "", rawBeforeClean: null, sampleSpans: [], stopListen: null, listening: false, readSampleMode: false, mindMap: null };
+
+const $ = id => document.getElementById(id);
+const els = {};
+["questionList", "searchInput", "countPill", "questionNumber", "unitTheme", "questionText", "pictureBlock", "pictureImg", "picturePrompts",
+  "sampleBlock", "sampleAnswer", "sampleBar", "sampleBarFill", "sampleAccuracy", "speakSampleButton", "readSampleButton", "toggleSampleButton",
+  "tipText", "timerDisplay", "timerControls", "recordButton", "resetButton", "statusLine", "transcriptBox", "wordCount",
+  "cleanButton", "restoreButton", "copyTranscriptButton", "aiFeedbackButton", "randomButton", "readQuestionButton"].forEach(id => { els[id] = $(id); });
+const kindTabs = [...document.querySelectorAll("[data-kind]")];
+
+const nounMap = K.properNouns(UNITS.flatMap(u => [...u.speaking, u.picture.answer]));
+const cleanText = K.cleaner(nounMap);
+let answerRec = null, readRec = null;
+
+const current = () => items.find(x => x.id === state.selectedId) || items[0];
+const words = t => (String(t).trim().match(/\b[\w’'-]+\b/g) || []).length;
+
+/* ---------- list ---------- */
+function renderList() {
+  const term = els.searchInput.value.trim().toLowerCase();
+  const list = items.filter(x => x.kind === state.kind &&
+    (!term || `${x.question} ${x.theme} unit ${x.unit} ${(x.prompts || []).join(" ")}`.toLowerCase().includes(term) || String(x.unit) === term));
+  els.countPill.textContent = list.length;
+  els.questionList.innerHTML = "";
+  let lastUnit = null;
+  list.forEach(x => {
+    if (x.kind === "qa" && x.unit !== lastUnit) {
+      const h = document.createElement("div"); h.className = "sw-group"; h.textContent = `Unit ${x.unit} · ${x.theme}`;
+      els.questionList.appendChild(h); lastUnit = x.unit;
+    }
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = `question-item${x.id === state.selectedId ? " active" : ""}`;
+    const label = x.kind === "qa" ? x.question : `${x.theme}`;
+    const num = x.kind === "qa" ? `${x.unit}.${x.n}` : `T${x.unit}`;
+    b.innerHTML = `<span class="question-id">${num}</span><span class="question-label">${K.escapeHtml(label)}</span>`;
+    b.addEventListener("click", () => select(x.id));
+    els.questionList.appendChild(b);
+  });
+}
+
+function renderTimerChoices() {
+  els.timerControls.innerHTML = "";
+  TIMES[state.kind].forEach(sec => {
+    const b = document.createElement("button");
+    b.type = "button"; b.className = `time-choice${sec === state.duration ? " active" : ""}`; b.dataset.seconds = sec;
+    b.textContent = sec >= 60 && sec % 60 === 0 ? `${sec / 60} min` : `${sec} sec`;
+    b.addEventListener("click", () => { state.duration = sec; renderTimerChoices(); resetTimer(); });
+    els.timerControls.appendChild(b);
+  });
+}
+
+/* ---------- question ---------- */
+function renderQuestion() {
+  const x = current();
+  els.questionNumber.textContent = x.kind === "qa" ? `Unit ${x.unit} · Question ${x.n} of 10` : `Unit ${x.unit} · Picture Description`;
+  els.unitTheme.textContent = `Theme: ${x.theme}`;
+  els.questionText.textContent = x.kind === "qa" ? x.question : "Look at the picture and answer the four questions. 請看圖回答下列四個問題。";
+  els.pictureBlock.hidden = x.kind !== "picture";
+  els.sampleBlock.hidden = x.kind !== "picture";
+  els.sampleAnswer.innerHTML = ""; state.sampleSpans = [];
+  hideSampleAccuracy();
+  if (x.kind === "picture") {
+    els.pictureImg.src = x.img;
+    els.pictureImg.alt = `GEPT Intermediate picture description, test ${x.unit}`;
+    els.picturePrompts.innerHTML = x.prompts.map(p => `<li>${K.escapeHtml(p)}</li>`).join("");
+    state.sampleSpans = K.wordSpans(els.sampleAnswer, x.answer);
+    els.sampleAnswer.hidden = true; els.toggleSampleButton.textContent = "Show";
+  }
+  els.tipText.textContent = TIPS[x.kind];
+  state.mindMap = MindMap.mount($("mindMap"), { key: `gept-int-${x.id}`, center: x.kind === "qa" ? x.question : `Picture ${x.unit}: ${x.theme}`, branches: BRANCHES[x.kind] });
+  renderList();
+}
+
+function select(id, keepTimer) {
+  stopEverything();
+  const x = items.find(i => i.id === id) || items[0];
+  state.selectedId = x.id;
+  if (x.kind !== state.kind) { state.kind = x.kind; kindTabs.forEach(t => t.setAttribute("aria-pressed", String(t.dataset.kind === x.kind))); }
+  if (!keepTimer || !TIMES[state.kind].includes(state.duration)) state.duration = DEFAULT_TIME[state.kind];
+  renderTimerChoices();
+  state.segments = []; state.rawBeforeClean = null; els.restoreButton.hidden = true;
+  els.transcriptBox.value = K.store.get(DRAFT_PREFIX + x.id, "");
+  updateCount();
+  resetTimer();
+  renderQuestion();
+  try { history.replaceState(null, "", `#${x.id}`); } catch {}
+}
+
+/* ---------- timer ---------- */
+function resetTimer() {
+  clearInterval(state.timerId); state.timerId = null; state.timerEndsAt = null;
+  state.remaining = state.duration; els.timerDisplay.textContent = state.remaining; els.timerDisplay.classList.remove("warning");
+}
+function tick() {
+  if (!state.timerEndsAt) return;
+  state.remaining = Math.max(0, Math.ceil((state.timerEndsAt - Date.now()) / 1000));
+  els.timerDisplay.textContent = state.remaining;
+  els.timerDisplay.classList.toggle("warning", state.remaining <= 5);
+  if (state.remaining <= 0) { K.beep(); stopRecording(); els.statusLine.textContent = "Time is up. Press Clean Transcription, then copy it for feedback."; }
+}
+function startTimer() {
+  clearInterval(state.timerId);
+  state.timerEndsAt = Date.now() + state.duration * 1000;
+  els.timerDisplay.classList.remove("warning");
+  state.timerId = setInterval(tick, 250); tick();
+}
+
+/* ---------- recording ---------- */
+const saveDraft = () => { K.store.set(DRAFT_PREFIX + state.selectedId, els.transcriptBox.value); updateCount(); };
+const updateCount = () => { els.wordCount.textContent = `${words(els.transcriptBox.value)} words`; };
+
+function startRecording() {
+  stopSampleActivity();
+  if (!K.SR) { els.statusLine.textContent = "Speech recognition is not available in this browser. Use Chrome or Edge, or type your answer. The timer is running."; startTimer(); return; }
+  state.baseText = els.transcriptBox.value.trim();
+  state.segments = state.baseText ? [state.baseText] : [];
+  state.rawBeforeClean = null; els.restoreButton.hidden = true;
+  answerRec = K.recognizer({
+    onUpdate(finals, interim) {
+      state.segments = (state.baseText ? [state.baseText] : []).concat(finals);
+      els.transcriptBox.value = `${state.segments.join(" ")} ${interim}`.trim();
+      saveDraft();
+    },
+    onBlocked(msg) { els.statusLine.textContent = msg; stopRecording(); }
+  });
+  state.recording = true;
+  els.recordButton.classList.add("recording");
+  els.recordButton.innerHTML = '<span class="record-dot"></span>Stop Recording';
+  els.statusLine.textContent = "Recording in English…";
+  startTimer();
+  if (!answerRec.start()) els.statusLine.textContent = "Speech-to-text is already active. The timer is still running.";
+}
+function stopRecording() {
+  clearInterval(state.timerId); state.timerId = null; state.timerEndsAt = null;
+  if (answerRec) { answerRec.stop(); answerRec = null; }
+  if (state.recording && state.segments.length) { els.transcriptBox.value = state.segments.join(" "); saveDraft(); }
+  state.recording = false;
+  els.recordButton.classList.remove("recording");
+  els.recordButton.innerHTML = '<span class="record-dot"></span>Start Recording';
+}
+
+function cleanUp() {
+  const raw = els.transcriptBox.value.trim();
+  if (!raw) { els.statusLine.textContent = "Record or type an answer first."; return; }
+  state.rawBeforeClean = raw;
+  els.transcriptBox.value = cleanText(raw, state.segments);
+  els.restoreButton.hidden = false; saveDraft();
+  els.statusLine.textContent = "Cleaned: punctuation, capitals and fillers fixed. Read it once and correct any wrong words.";
+}
+
+/* ---------- sample (picture) ---------- */
+function hideSampleAccuracy() {
+  els.sampleBar.hidden = true; els.sampleAccuracy.hidden = true;
+  state.sampleSpans.forEach(w => w.el.classList.remove("ok", "miss", "speaking"));
+}
+function stopSampleActivity() {
+  if (state.stopListen) { state.stopListen(); state.stopListen = null; }
+  if (state.readSampleMode) {
+    if (readRec) { readRec.stop(); readRec = null; }
+    state.readSampleMode = false;
+    updateSampleBar(K.align(state.sampleSpans, state.lastSampleSpoken || ""), true);
+  }
+  K.stopSpeech(); state.listening = false;
+  els.speakSampleButton.textContent = "🔈 Listen";
+  els.readSampleButton.textContent = "🎤 Read-Along Check";
+  els.readSampleButton.classList.remove("live");
+}
+function updateSampleBar(result, final) {
+  const sum = K.accuracySummary(result, final, "sample answer");
+  els.sampleBar.hidden = false; els.sampleAccuracy.hidden = false;
+  els.sampleBarFill.style.width = `${sum.pct}%`;
+  els.sampleBarFill.style.background = sum.pct >= 85 ? "var(--good)" : sum.pct >= 65 ? "var(--warm)" : "var(--danger)";
+  els.sampleAccuracy.innerHTML = sum.msg;
+}
+function showSample(show) { els.sampleAnswer.hidden = !show; els.toggleSampleButton.textContent = show ? "Hide" : "Show"; }
+function listenSample() {
+  if (state.listening) { stopSampleActivity(); return; }
+  stopSampleActivity(); hideSampleAccuracy(); showSample(true);
+  state.listening = true; els.speakSampleButton.textContent = "■ Stop";
+  state.stopListen = K.listenAlong(state.sampleSpans, 0.92, () => { state.listening = false; state.stopListen = null; els.speakSampleButton.textContent = "🔈 Listen"; });
+}
+function readSample() {
+  if (state.readSampleMode) { stopSampleActivity(); return; }
+  stopSampleActivity(); stopRecording(); showSample(true);
+  if (!K.SR) { els.sampleAccuracy.hidden = false; els.sampleAccuracy.textContent = "Live checking needs Chrome or Edge."; return; }
+  state.sampleSpans.forEach(w => w.el.classList.remove("ok", "miss")); state.lastSampleSpoken = "";
+  readRec = K.recognizer({
+    onUpdate(finals, interim) { state.lastSampleSpoken = `${finals.join(" ")} ${interim}`; updateSampleBar(K.align(state.sampleSpans, state.lastSampleSpoken), false); },
+    onBlocked(msg) { els.sampleAccuracy.hidden = false; els.sampleAccuracy.textContent = msg; stopSampleActivity(); }
+  });
+  state.readSampleMode = true;
+  els.readSampleButton.textContent = "■ Stop Check"; els.readSampleButton.classList.add("live");
+  els.sampleBar.hidden = false; els.sampleAccuracy.hidden = false; els.sampleAccuracy.textContent = "🎙 Listening… read the sample answer aloud.";
+  if (!readRec.start()) { els.sampleAccuracy.textContent = "Could not start the microphone. Try again."; stopSampleActivity(); }
+}
+function stopEverything() { stopRecording(); stopSampleActivity(); }
+
+/* ---------- events ---------- */
+kindTabs.forEach(tab => tab.addEventListener("click", () => {
+  const first = items.find(x => x.kind === tab.dataset.kind);
+  if (first) select(first.id);
+}));
+els.searchInput.addEventListener("input", renderList);
+els.recordButton.addEventListener("click", () => {
+  if (state.recording) { stopRecording(); els.statusLine.textContent = "Recording stopped. Press Clean Transcription, then copy it for feedback."; }
+  else startRecording();
+});
+els.resetButton.addEventListener("click", () => {
+  stopEverything(); state.segments = []; state.rawBeforeClean = null; els.restoreButton.hidden = true;
+  els.transcriptBox.value = ""; saveDraft(); resetTimer(); els.statusLine.textContent = "Ready for a new answer.";
+});
+els.transcriptBox.addEventListener("input", saveDraft);
+els.cleanButton.addEventListener("click", cleanUp);
+els.restoreButton.addEventListener("click", () => {
+  if (state.rawBeforeClean == null) return;
+  els.transcriptBox.value = state.rawBeforeClean; state.rawBeforeClean = null; els.restoreButton.hidden = true; saveDraft();
+  els.statusLine.textContent = "Original transcription restored.";
+});
+els.copyTranscriptButton.addEventListener("click", async () => {
+  const t = els.transcriptBox.value.trim();
+  if (!t) { els.statusLine.textContent = "Nothing to copy yet."; return; }
+  els.statusLine.textContent = (await K.copyText(t)) ? "Transcription copied." : "Clipboard was blocked — select the text and copy it manually.";
+});
+els.aiFeedbackButton.addEventListener("click", async () => {
+  const t = els.transcriptBox.value.trim();
+  if (!t) { els.statusLine.textContent = "Record or type an answer first."; return; }
+  const x = current();
+  const notes = state.mindMap ? state.mindMap.text() : "";
+  const q = x.kind === "qa" ? `Question: ${x.question}` : `Picture description questions:\n${x.prompts.map((p, i) => `${i + 1}. ${p}`).join("\n")}`;
+  const prompt = `Please correct my GEPT Intermediate (CEFR B1) speaking answer.
+
+${q}
+${notes ? `\nMy mind map notes:\n${notes}\n` : ""}
+My answer (speech-to-text, ${words(t)} words, ${state.duration}-second answer):
+${t}
+
+Please give me:
+1. My answer with correct punctuation and spelling.
+2. Grammar and word-choice corrections with short explanations.
+3. An improved B1-level answer that keeps my own ideas.
+4. Two useful phrases or sentence patterns I should practise.`;
+  els.statusLine.textContent = (await K.copyText(prompt)) ? "Copied with the question and your notes. Paste it to Claude or ChatGPT." : "Clipboard was blocked — copy your answer manually.";
+});
+els.randomButton.addEventListener("click", () => { const pool = items.filter(x => x.kind === state.kind); select(pool[Math.floor(Math.random() * pool.length)].id, true); });
+els.readQuestionButton.addEventListener("click", () => { const x = current(); K.speak(x.kind === "qa" ? x.question : "Look at the picture and answer the four questions.", 0.92); });
+els.speakSampleButton.addEventListener("click", listenSample);
+els.readSampleButton.addEventListener("click", readSample);
+els.toggleSampleButton.addEventListener("click", () => showSample(els.sampleAnswer.hidden));
+
+/* ---------- init ---------- */
+const start = items.find(x => x.id === decodeURIComponent(location.hash.slice(1))) || items[0];
+select(start.id);
+if (!K.SR) els.statusLine.textContent = "Live speech typing works in Chrome or Edge. In this browser you can still use the timer and type your answer.";

@@ -1,0 +1,56 @@
+/* sw-pages.css — extra styles for GEPT Intermediate Speaking/Writing and GEPT Basic Writing pages */
+.sw-group { margin: 10px 4px 4px; font-size: 12px; font-weight: 800; color: var(--accent-strong); text-transform: none; letter-spacing: .02em; }
+.question-list .sw-group:first-child { margin-top: 0; }
+.sw-picture { margin-top: 14px; border: 1px solid var(--line); border-radius: 8px; background: #fff; padding: 8px; text-align: center; }
+.sw-picture img { max-width: 100%; max-height: 640px; border-radius: 4px; }
+.sw-prompts { margin: 14px 0 0; padding-left: 22px; font-size: 17px; line-height: 1.8; }
+.sw-label { margin: 16px 18px 6px; font-weight: 800; font-size: 14px; display: flex; justify-content: space-between; color: var(--ink); }
+.sw-count { font-weight: 600; color: var(--muted); }
+.feedback-pane .sw-label + textarea { margin-top: 0; }
+
+/* two-column layout for writing pages */
+.app-shell.sw-two { grid-template-columns: 300px minmax(0, 1fr); }
+.sw-main { padding: 24px 28px 40px; background: rgba(255,255,255,.92); border: 1px solid var(--line); box-shadow: var(--shadow); border-radius: 8px; }
+.sw-main h2 { margin: 6px 0 10px; font-size: 26px; line-height: 1.3; }
+.sw-sub { color: var(--muted); margin: 0 0 6px; }
+.sw-prompt { white-space: pre-line; background: #fff8e6; border: 1px solid #f0dcaa; border-left: 5px solid #c07a12; border-radius: 8px; padding: 14px 16px; font-size: 17px; line-height: 1.8; }
+.sw-section { margin-top: 22px; }
+.sw-section > h3 { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin: 0 0 8px; font-size: 18px; color: var(--accent-strong); flex-wrap: wrap; }
+.sw-section > h3 > * { min-width: 0; max-width: 100%; }
+.sw-strip { border: 1px solid var(--line); border-radius: 8px; background: #fff; padding: 8px; text-align: center; }
+.sw-strip img { max-width: 100%; max-height: 300px; }
+.sw-scenes { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 10px; }
+.sw-scenes div { background: #fff8e6; border: 1px solid #f0dcaa; border-radius: 8px; padding: 12px; text-align: center; font-size: 15px; }
+.sw-scenes b { display: block; color: #7a4b00; margin-bottom: 4px; }
+.sw-grid { width: 100%; border-collapse: collapse; background: #fff; font-size: 15px; }
+.sw-grid th { background: #0f7c80; color: #fff; padding: 9px 10px; text-align: left; font-size: 14px; }
+.sw-grid td { border: 1px solid #cfe3df; padding: 8px 10px; vertical-align: top; line-height: 1.55; }
+.sw-grid tr:nth-child(even) td { background: #f4fafa; }
+.sw-grid td:first-child b { color: #0f7c80; display: block; }
+.sw-grid td:first-child small { color: var(--muted); }
+.sw-grid td:nth-child(2) { color: #7a4b00; font-size: 14px; }
+.sw-grid td:nth-child(3) strong { color: #0b5e61; }
+.sw-grid.hide-col3 td:nth-child(3) { color: transparent; background: repeating-linear-gradient(135deg,#f1f5f5,#f1f5f5 6px,#e6efee 6px,#e6efee 12px); }
+.sw-grid.hide-col3 td:nth-child(3) strong { color: transparent; }
+.sw-table-wrap { overflow-x: auto; }
+.sw-essay { background: #e3f2f2; border-left: 5px solid #0f7c80; border-radius: 6px; padding: 14px 16px; font-size: 17px; line-height: 1.8; margin: 0; }
+.sw-essay[hidden] { display: none; }
+.sw-write { width: 100%; margin: 0; display: block; min-height: 220px; border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; font-size: 17px; line-height: 1.7; resize: vertical; background: #fff; }
+.sw-write:focus { outline: 2px solid var(--accent); }
+.sw-meta { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; color: var(--muted); font-size: 14px; margin-top: 6px; }
+.sw-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.sw-timer { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.sw-timer .clock { font-size: 26px; font-weight: 800; font-variant-numeric: tabular-nums; min-width: 86px; color: var(--accent-strong); }
+.sw-timer .clock.warning { color: var(--danger); }
+.sw-feedback { margin-top: 12px; padding: 14px 16px; border: 1px solid var(--line); border-radius: 8px; background: #fff; }
+.sw-feedback[hidden] { display: none; }
+.sw-feedback .score { display: inline-flex; align-items: center; justify-content: center; width: 52px; height: 52px; border-radius: 50%; background: #0f7c80; color: #fff; font-weight: 800; font-size: 18px; margin-right: 10px; }
+.sw-feedback ul { margin: 10px 0 0; padding-left: 20px; line-height: 1.7; }
+.sw-download { display: inline-flex; gap: 6px; align-items: center; text-decoration: none; }
+@media (max-width: 1180px) { .app-shell.sw-two { grid-template-columns: 260px minmax(0,1fr); } }
+@media (max-width: 760px) {
+  .app-shell.sw-two { grid-template-columns: 1fr; }
+  .sw-main { padding: 18px 16px 28px; }
+  .sw-scenes { grid-template-columns: 1fr; }
+  .sw-grid { font-size: 14px; }
+}

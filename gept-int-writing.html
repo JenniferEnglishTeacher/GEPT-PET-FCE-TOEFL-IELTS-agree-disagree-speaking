@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GEPT Intermediate Writing | Jennifer Chen's Speaking &amp; Writing</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="speaking-extra.css">
+    <link rel="stylesheet" href="mindmap.css">
+    <link rel="stylesheet" href="sw-pages.css">
+  </head>
+  <body>
+    <div class="app-shell sw-two">
+      <aside class="question-sidebar" aria-label="Writing tasks">
+        <div class="sidebar-head">
+          <div>
+            <p class="eyebrow">GEPT Intermediate 全民英檢中級</p>
+            <h1>Writing Practice</h1>
+            <a class="dash-link" href="dashboard.html" style="margin-top:8px">&larr; Dashboard</a>
+          </div>
+          <span class="count-pill" id="countPill">20</span>
+        </div>
+        <div class="chips kind-tabs" role="group" aria-label="Task type">
+          <button class="chip" type="button" data-kind="all" aria-pressed="true">All</button>
+          <button class="chip" type="button" data-kind="translation" aria-pressed="false">中譯英 Translation</button>
+          <button class="chip" type="button" data-kind="essay" aria-pressed="false">英文作文 Essay</button>
+        </div>
+        <label class="search-box"><span>Search</span><input id="searchInput" type="search" placeholder="unit, topic…" autocomplete="off"></label>
+        <div id="taskList" class="question-list"></div>
+      </aside>
+
+      <main class="sw-main">
+        <p class="eyebrow" id="taskMeta"></p>
+        <h2 id="taskTitle"></h2>
+        <p class="sw-sub" id="taskSub"></p>
+        <div class="sw-prompt" id="taskPrompt"></div>
+
+        <div id="mindMap" hidden></div>
+
+        <section class="sw-section">
+          <h3><span>Your Writing 我的作答</span><span id="timerHost"></span></h3>
+          <textarea id="writeBox" class="sw-write" spellcheck="true" placeholder="Type your answer here… (saved automatically on this device)"></textarea>
+          <div class="sw-meta"><span id="saveStatus">Draft saved on this device</span><span id="wordCount">0 words</span></div>
+          <div class="sw-actions">
+            <button id="reviewButton" class="small-button primary-action" type="button">&#9989; Check My Writing</button>
+            <button id="sampleButton" class="small-button" type="button">Show Sample Answer</button>
+            <button id="listenButton" class="small-button" type="button">&#128264; Listen to Sample</button>
+            <button id="aiButton" class="small-button" type="button">&#129302; Copy for AI Feedback</button>
+            <button id="clearButton" class="small-button" type="button">Clear</button>
+          </div>
+          <div id="feedback" class="sw-feedback" hidden></div>
+        </section>
+
+        <section class="sw-section" id="sampleSection" hidden>
+          <h3>Sample Answer 範例</h3>
+          <p class="sw-essay" id="sampleText"></p>
+        </section>
+      </main>
+    </div>
+
+    <script src="gept-int-data.js"></script>
+    <script src="speaking-kit.js"></script>
+    <script src="mindmap-kit.js"></script>
+    <script src="writing-kit.js"></script>
+    <script src="gept-int-writing.js"></script>
+  </body>
+</html>

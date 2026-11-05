@@ -1,0 +1,29 @@
+/* mindmap.css — "My Mind Map" typing box (see mindmap-kit.js) */
+.mindmap { container-type: inline-size; margin: 16px 0 0; padding: 14px 14px 16px; border: 1px solid #cfe3df; border-radius: 10px; background: #f6fbfa; }
+.mm-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.mm-title { font-weight: 700; color: #0b5e52; font-size: 15px; }
+.mm-actions { display: flex; gap: 6px; }
+.mm-btn { border: 1px solid #b9d6d0; background: #fff; color: #0b5e52; border-radius: 6px; padding: 4px 10px; font-size: 12px; cursor: pointer; }
+.mm-btn:hover { background: #e3f2ef; }
+.mm-hint { margin: 4px 0 10px; color: #5d6875; font-size: 12.5px; }
+.mm-board { position: relative; display: grid; gap: 10px; grid-template-columns: 1fr; }
+.mm-center { display: flex; align-items: center; justify-content: center; text-align: center; padding: 12px 14px; border-radius: 999px; background: #0f7c80; color: #fff; font-weight: 700; font-size: 14px; line-height: 1.35; box-shadow: 0 4px 14px rgba(15,124,128,.25); position: relative; z-index: 1; }
+.mm-branch { display: flex; flex-direction: column; gap: 4px; padding: 8px 10px; background: #fff; border: 1px solid #d8e6e3; border-left: 5px solid var(--mm, #0f7c80); border-radius: 10px; position: relative; z-index: 1; }
+.mm-b0 { --mm: #2f7d4f; } .mm-b1 { --mm: #c07a12; } .mm-b2 { --mm: #6b3fa0; } .mm-b3 { --mm: #b33c3c; } .mm-b4 { --mm: #126c82; } .mm-b5 { --mm: #8b6b18; }
+.mm-label { font-size: 12.5px; font-weight: 700; color: var(--mm); }
+.mm-branch textarea { width: 100%; min-height: 46px; resize: vertical; border: 1px dashed #c9d8d5; border-radius: 6px; padding: 6px 8px; font: inherit; font-size: 14px; background: #fcfefe; color: #17202a; }
+.mm-branch textarea:focus { outline: 2px solid var(--mm); border-color: transparent; background: #fff; }
+/* radial layout when there is room: 4 bubbles around the centre */
+@container (min-width: 540px) {
+  .mm-board[data-n="4"] { grid-template-columns: 1fr minmax(150px, .8fr) 1fr; grid-template-rows: auto auto auto; align-items: center; }
+  .mm-board[data-n="4"]::before, .mm-board[data-n="4"]::after { content: ""; position: absolute; z-index: 0; border-color: #9cc9c2; border-style: dashed; }
+  .mm-board[data-n="4"]::before { left: 18%; right: 18%; top: 50%; border-width: 2px 0 0; }
+  .mm-board[data-n="4"]::after { top: 12%; bottom: 12%; left: 50%; border-width: 0 0 0 2px; }
+  .mm-board[data-n="4"] .mm-center { grid-column: 2; grid-row: 2; min-height: 64px; }
+  .mm-board[data-n="4"] .mm-b0 { grid-column: 1; grid-row: 1; }
+  .mm-board[data-n="4"] .mm-b1 { grid-column: 3; grid-row: 1; }
+  .mm-board[data-n="4"] .mm-b2 { grid-column: 1; grid-row: 3; }
+  .mm-board[data-n="4"] .mm-b3 { grid-column: 3; grid-row: 3; }
+  .mm-board:not([data-n="4"]) { grid-template-columns: 1fr 1fr; }
+  .mm-board:not([data-n="4"]) .mm-center { grid-column: 1 / -1; }
+}
