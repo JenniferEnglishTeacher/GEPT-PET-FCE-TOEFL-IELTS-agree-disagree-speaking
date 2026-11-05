@@ -27,3 +27,5 @@
   .mm-board:not([data-n="4"]) { grid-template-columns: 1fr 1fr; }
   .mm-board:not([data-n="4"]) .mm-center { grid-column: 1 / -1; }
 }
+/* the global `textarea { margin: 18px }` in styles.css pushed bubbles' boxes out of place */
+.mindmap .mm-branch textarea { margin: 0; box-sizing: border-box; }

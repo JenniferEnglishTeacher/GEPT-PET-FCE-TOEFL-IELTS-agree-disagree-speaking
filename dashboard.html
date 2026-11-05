@@ -52,6 +52,7 @@
         <button type="button" data-filter="gept" aria-pressed="false">GEPT 全民英檢</button>
         <button type="button" data-filter="opinion" aria-pressed="false">Opinions</button>
         <button type="button" data-filter="description" aria-pressed="false">Descriptions</button>
+        <button type="button" data-filter="toefl" aria-pressed="false">TOEFL</button>
         <button type="button" data-filter="ielts" aria-pressed="false">IELTS Part 2</button>
       </div>
       <label class="search">Search<input id="search" type="search" placeholder="Find a practice..." autocomplete="off"></label>
@@ -87,6 +88,13 @@
         <div class="details"><span>30 / 45 / 60 / 90 seconds</span><span>Read-along models + key words + notes</span></div>
         <a class="open" href="descriptive.html" target="_blank" rel="noopener"><span>Start Descriptive Practice</span><span class="arrow" aria-hidden="true">&rarr;</span></a>
       </article>
+      <article data-id="toefl" data-category="toefl speaking" style="--accent:#1f6f8b">
+        <div class="meta"><span>TOEFL Speaking Interview</span><span class="count">50 topics &middot; 200 questions</span></div>
+        <h2>TOEFL Speaking Interview</h2>
+        <p>Four questions per topic &mdash; introduction, description, explanation and comparison. Social trends and school life, with structures, sentence patterns and academic vocabulary.</p>
+        <div class="details"><span>20 / 30 / 45 / 60 / 90 seconds</span><span>Mind map + read-along model + vocabulary check</span></div>
+        <a class="open" href="toefl.html" target="_blank" rel="noopener"><span>Start TOEFL Interview</span><span class="arrow" aria-hidden="true">&rarr;</span></a>
+      </article>
       <article data-id="ielts-part2" data-category="ielts speaking" style="--accent:#6b3fa0">
         <div class="meta"><span>IELTS Speaking Part 2 &middot; Long Turn</span><span class="count">16 cue cards</span></div>
         <h2>IELTS Speaking Part 2: Monologue</h2>
@@ -116,7 +124,7 @@
       </div>
     </section>
     <p id="empty" hidden>No matching practice.</p>
-    <footer><span id="resultCount" aria-live="polite">7 practice activities</span><span>Jennifer Chen &middot; GEPT / KET / PET / TOEFL / IELTS</span></footer>
+    <footer><span id="resultCount" aria-live="polite">8 practice activities</span><span>Jennifer Chen &middot; GEPT / KET / PET / TOEFL / IELTS</span></footer>
   </main>
   <script>
     const cards = [...document.querySelectorAll('article')];

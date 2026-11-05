@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TOEFL Speaking Interview | Jennifer Chen's Speaking &amp; Writing</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="speaking-extra.css">
+    <link rel="stylesheet" href="mindmap.css">
+    <link rel="stylesheet" href="sw-pages.css">
+    <style>
+      .q-tabs { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin-top: 14px; }
+      .q-tab { display: grid; gap: 2px; padding: 9px 10px; border: 1px solid var(--line); border-radius: 8px; background: #fff; color: var(--ink); text-align: left; cursor: pointer; }
+      .q-tab strong { font-size: 15px; color: var(--accent-strong); }
+      .q-tab span { font-size: 12.5px; color: var(--muted); }
+      .q-tab small { font-size: 11.5px; color: var(--muted); }
+      .q-tab[aria-selected="true"] { border-color: var(--accent); background: #e8f4f7; box-shadow: 0 0 0 2px rgba(18,108,130,.15); }
+      .timing-badge { display: inline-block; margin-left: 8px; padding: 2px 9px; border-radius: 999px; background: #fff3d6; color: #7a4b00; font-size: 12.5px; font-weight: 800; vertical-align: middle; }
+      .support-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-top: 18px; }
+      .support-col { padding: 12px 14px; border: 1px solid var(--line); border-radius: 8px; background: var(--soft); }
+      .support-col h3 { margin: 0 0 8px; font-size: 13px; text-transform: uppercase; color: var(--accent-strong); letter-spacing: .02em; }
+      .support-col ol, .support-col ul { margin: 0; padding-left: 18px; font-size: 14.5px; line-height: 1.5; }
+      .support-col li { margin-bottom: 5px; }
+      .vocab-chips { display: flex; flex-wrap: wrap; gap: 5px; }
+      .vocab-chips span { padding: 4px 8px; border-radius: 5px; background: #fff; border: 1px solid var(--line); font-size: 13px; font-weight: 700; color: #263a35; }
+      .vocab-chips span.used { background: #dff4e8; border-color: #9fd3b4; color: #226240; }
+      #timerControls .time-choice { white-space: nowrap; font-size: 13px; padding: 0 6px; min-height: 36px; }
+      .topic-sub { font-size: 12px; color: var(--muted); display: block; margin-top: 2px; }
+      @media (max-width: 1180px) { .support-grid { grid-template-columns: 1fr; } }
+      @media (max-width: 760px) { .q-tabs { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    </style>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="question-sidebar" aria-label="Topic list">
+        <div class="sidebar-head">
+          <div>
+            <p class="eyebrow">TOEFL Speaking Interview</p>
+            <h1>50 Topics · 200 Questions</h1>
+            <a class="dash-link" href="dashboard.html" style="margin-top:8px">&larr; Dashboard</a>
+          </div>
+          <span class="count-pill" id="countPill">50</span>
+        </div>
+        <div id="categoryTabs" class="chips kind-tabs" role="group" aria-label="Category"></div>
+        <label class="search-box">
+          <span>Search</span>
+          <input id="searchInput" type="search" placeholder="clubs, AI, exams, number…" autocomplete="off">
+        </label>
+        <div id="questionList" class="question-list"></div>
+      </aside>
+
+      <main class="practice-pane">
+        <section class="question-panel">
+          <div class="question-meta">
+            <span id="topicLabel">Topic 1</span>
+            <span>
+              <button id="readQuestionButton" class="icon-button" type="button" title="Read the question aloud">&#128264; Read</button>
+              <button id="randomButton" class="icon-button" type="button" title="Random question">Random</button>
+            </span>
+          </div>
+          <div id="questionTabs" class="q-tabs" role="tablist" aria-label="Questions in this topic"></div>
+          <p id="questionMeta" class="question-tip" style="margin-top:14px"></p>
+          <h2 id="questionText"></h2>
+
+          <div id="mindMap"></div>
+
+          <div class="support-grid">
+            <section class="support-col">
+              <h3>Answer Structure</h3>
+              <ol id="structureList"></ol>
+            </section>
+            <section class="support-col">
+              <h3>Sentence Patterns</h3>
+              <ul id="patternList"></ul>
+            </section>
+            <section class="support-col">
+              <h3>Academic Vocabulary</h3>
+              <div id="vocabList" class="vocab-chips"></div>
+            </section>
+          </div>
+
+          <div class="answer-block" id="sampleBlock">
+            <div class="block-title">
+              <span>Model Answer 範例</span>
+              <span>
+                <button id="speakSampleButton" class="small-button" type="button">&#128264; Listen</button>
+                <button id="readSampleButton" class="small-button" type="button">&#127908; Read-Along Check</button>
+                <button id="toggleSampleButton" class="small-button" type="button">Show</button>
+              </span>
+            </div>
+            <p id="sampleAnswer" hidden></p>
+            <div class="accuracy-bar" id="sampleBar" hidden><span id="sampleBarFill"></span></div>
+            <p id="sampleAccuracy" class="accuracy-text" hidden></p>
+            <p class="accuracy-legend" id="sampleLegend" hidden><span class="w ok">matched</span> <span class="w miss">missed / unclear</span> <span class="w">not read yet</span></p>
+          </div>
+
+          <div class="tips-box">
+            <strong>How to answer 作答步驟</strong>
+            <p>Plan in the mind map with key words from the structure, use one sentence pattern and 2–3 vocabulary words, then speak within the time. Try answering first, then open the model answer.</p>
+          </div>
+        </section>
+      </main>
+
+      <aside class="feedback-pane" aria-label="Speech transcript and feedback">
+        <div class="feedback-head">
+          <div>
+            <p class="eyebrow">Speech to Text</p>
+            <h2>Your Answer</h2>
+          </div>
+        </div>
+        <section class="speaking-panel">
+          <div class="timer-row">
+            <div>
+              <p class="eyebrow">Timer</p>
+              <div class="timer-display" id="timerDisplay">45</div>
+            </div>
+            <div class="timer-controls" id="timerControls" role="group" aria-label="Answer length"></div>
+          </div>
+          <div class="record-row">
+            <button id="recordButton" class="record-button" type="button"><span class="record-dot"></span>Start Recording</button>
+            <button id="resetButton" class="secondary-button" type="button">Reset</button>
+          </div>
+          <div class="status-line" id="statusLine">Plan in your mind map, then click Start Recording and speak in English.</div>
+        </section>
+        <div class="sw-label">Transcription 逐字稿 <span id="wordCount" class="sw-count">0 words</span></div>
+        <textarea id="transcriptBox" placeholder="Your spoken English will appear here… (you can also type or edit)"></textarea>
+        <div class="transcript-actions">
+          <button id="cleanButton" class="small-button primary-action" type="button">&#10024; Clean Transcription</button>
+          <button id="restoreButton" class="small-button" type="button" hidden>&#8634; Show Original</button>
+          <button id="copyTranscriptButton" class="small-button" type="button">&#128203; Copy</button>
+        </div>
+        <button id="aiFeedbackButton" class="submit-answer-button" type="button">&#129302; Copy for AI Feedback</button>
+        <div class="tips-box">
+          <strong>Teacher note</strong>
+          <p>Record → <b>Clean Transcription</b> → fix any wrong words → <b>Copy for AI Feedback</b> and paste it to Claude or ChatGPT. Your transcript and mind map are saved on this device.</p>
+        </div>
+      </aside>
+    </div>
+
+    <script src="toefl-data.js"></script>
+    <script src="speaking-kit.js"></script>
+    <script src="mindmap-kit.js"></script>
+    <script src="toefl-app.js"></script>
+  </body>
+</html>
