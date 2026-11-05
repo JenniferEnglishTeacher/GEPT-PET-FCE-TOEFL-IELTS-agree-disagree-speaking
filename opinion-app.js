@@ -21,12 +21,9 @@ const state = {
   recording: false,
   segments: [],
   baseText: "",
-  correctedText: "",
-  readChecking: false,
   rawBeforeClean: null,
   scope: "all",
   sections: [],           // [{key, spans}]
-  readSpans: [],
   stopListen: null,
   listening: false,
   readSampleMode: false
@@ -37,8 +34,7 @@ const els = {};
   "speakSampleButton", "readSampleButton", "sampleBar", "sampleBarFill", "sampleAccuracy", "sampleLegend",
   "practiceSentences", "copySentencesButton", "notesGrid", "clearNotesButton",
   "timerDisplay", "recordButton", "resetButton", "statusLine", "transcriptBox",
-  "cleanButton", "restoreButton", "copyTranscriptButton", "aiFeedbackButton", "submitButton", "randomButton",
-  "mistakeReview", "correctedAnswer", "readAloudButton", "readCheckStatus", "readBar", "readBarFill", "readLegend", "unclearWords"]
+  "cleanButton", "restoreButton", "copyTranscriptButton", "aiFeedbackButton", "randomButton"]
   .forEach(id => { els[id] = document.querySelector(`#${id}`); });
 els.timeChoices = document.querySelectorAll(".time-choice");
 
@@ -173,24 +169,12 @@ function selectQuestion(id) {
   state.selectedId = id;
   state.scope = "all";
   state.segments = [];
-  state.correctedText = "";
   state.rawBeforeClean = null;
   els.restoreButton.hidden = true;
   els.transcriptBox.value = K.store.get(DRAFT_PREFIX + id, "");
-  resetFeedbackBoxes();
   resetTimer();
   renderSelectedQuestion();
   try { history.replaceState(null, "", `#${id}`); } catch {}
-}
-
-function resetFeedbackBoxes() {
-  els.mistakeReview.textContent = "Submit your answer to check grammar.";
-  els.correctedAnswer.textContent = "Click Submit Answer after recording.";
-  els.readCheckStatus.textContent = "Submit an answer first, then read the corrected version aloud.";
-  els.readBar.hidden = true;
-  els.readLegend.hidden = true;
-  els.unclearWords.innerHTML = "";
-  state.readSpans = [];
 }
 
 /* ---------- timer ---------- */
@@ -211,7 +195,7 @@ function updateTimerDisplay() {
   if (state.remaining <= 0) {
     K.beep();
     stopRecording();
-    els.statusLine.textContent = "Time is up. Clean up your transcript, then click Submit Answer.";
+    els.statusLine.textContent = "Time is up. Clean up your transcript, then copy it for feedback.";
   }
 }
 
@@ -226,7 +210,6 @@ function startTimer() {
 
 /* ---------- recording ---------- */
 function startRecording() {
-  stopReadAloudCheck();
   stopSampleActivity();
   if (!K.SR) {
     els.statusLine.textContent = "Speech recognition is not available in this browser. Try Chrome or Edge, or type your answer.";
@@ -277,79 +260,7 @@ function cleanUpTranscript() {
   els.transcriptBox.value = cleanText(current, state.segments);
   els.restoreButton.hidden = false;
   saveDraft();
-  els.statusLine.textContent = "Cleaned. Read it once, fix any wrong words, then click Submit Answer.";
-}
-
-function submitAnswer() {
-  stopRecording();
-  stopReadAloudCheck();
-  const transcript = els.transcriptBox.value.trim();
-  if (!transcript) {
-    els.mistakeReview.textContent = "Please record or type an answer first.";
-    els.correctedAnswer.textContent = "Please record or type an answer first.";
-    return;
-  }
-  const { text, notes } = K.grammarPolish(transcript);
-  state.correctedText = text;
-  const { originalHtml, correctedHtml } = K.diffHtml(transcript, text);
-  const noteHtml = notes.length
-    ? `<div class="correction-notes"><strong>Likely grammar fixes:</strong><ul>${notes.map(n => `<li>${K.escapeHtml(n)}</li>`).join("")}</ul></div>`
-    : `<div class="correction-notes"><strong>No major rule-based grammar issue was found.</strong> For deeper feedback, use Copy for AI Feedback.</div>`;
-  els.mistakeReview.innerHTML = `${originalHtml || "No answer submitted."}${noteHtml}`;
-  els.correctedAnswer.innerHTML = correctedHtml || "Please submit an answer first.";
-  els.readCheckStatus.textContent = "Click Read Aloud and read the corrected answer out loud.";
-  els.readBar.hidden = true;
-  els.readLegend.hidden = true;
-  els.unclearWords.innerHTML = "";
-  els.statusLine.textContent = "Answer submitted. Now read the corrected version aloud.";
-}
-
-/* ---------- read-aloud check on corrected answer ---------- */
-function startReadAloudCheck() {
-  stopRecording();
-  stopSampleActivity();
-  if (!state.correctedText) {
-    els.readCheckStatus.textContent = "Submit an answer first, then read the corrected version aloud.";
-    return;
-  }
-  if (!K.SR) { els.readCheckStatus.textContent = "Live checking needs Chrome or Edge."; return; }
-  els.correctedAnswer.innerHTML = "";
-  state.readSpans = K.wordSpans(els.correctedAnswer, state.correctedText);
-  els.readBar.hidden = false;
-  els.readLegend.hidden = false;
-  els.readBarFill.style.width = "0%";
-  els.unclearWords.innerHTML = "";
-  state.lastReadSpoken = "";
-  readRec = K.recognizer({
-    onUpdate(finals, interim) {
-      state.lastReadSpoken = `${finals.join(" ")} ${interim}`;
-      updateReadBar(K.align(state.readSpans, state.lastReadSpoken), false);
-    },
-    onBlocked(msg) { els.readCheckStatus.textContent = msg; stopReadAloudCheck(); }
-  });
-  state.readChecking = true;
-  els.readAloudButton.textContent = "Stop Check";
-  els.readAloudButton.classList.add("live");
-  els.readCheckStatus.textContent = "Listening. Read the corrected answer clearly.";
-  document.querySelector(".readcheck-box")?.classList.add("active");
-  if (!readRec.start()) els.readCheckStatus.textContent = "Read-aloud check could not start. Try again.";
-}
-
-function updateReadBar(result, final) {
-  const sum = K.accuracySummary(result, final, "answer");
-  els.readBarFill.style.width = `${sum.pct}%`;
-  els.readBarFill.style.background = sum.pct >= 85 ? "var(--good)" : sum.pct >= 65 ? "var(--warm)" : "var(--danger)";
-  els.readCheckStatus.innerHTML = sum.msg;
-}
-
-function stopReadAloudCheck() {
-  if (!state.readChecking) return;
-  if (readRec) { readRec.stop(); readRec = null; }
-  state.readChecking = false;
-  updateReadBar(K.align(state.readSpans, state.lastReadSpoken || ""), true);
-  els.readAloudButton.textContent = "Read Aloud";
-  els.readAloudButton.classList.remove("live");
-  document.querySelector(".readcheck-box")?.classList.remove("active");
+  els.statusLine.textContent = "Cleaned. Read it once, fix any wrong words, then copy it for feedback.";
 }
 
 /* ---------- model answer: listen + read-along ---------- */
@@ -407,7 +318,6 @@ function readSample() {
   if (state.readSampleMode) { stopSampleActivity(); return; }
   stopSampleActivity();
   stopRecording();
-  stopReadAloudCheck();
   if (!K.SR) { els.sampleAccuracy.hidden = false; els.sampleAccuracy.textContent = "Live checking needs Chrome or Edge."; return; }
   scopedSpans().forEach(w => w.el.classList.remove("ok", "miss"));
   state.lastSampleSpoken = "";
@@ -429,7 +339,6 @@ function readSample() {
 
 function stopEverything() {
   stopRecording();
-  stopReadAloudCheck();
   stopSampleActivity();
 }
 
@@ -470,7 +379,7 @@ els.timeChoices.forEach(button => {
 els.recordButton.addEventListener("click", () => {
   if (state.recording) {
     stopRecording();
-    els.statusLine.textContent = "Recording stopped. Clean up your transcript, then click Submit Answer.";
+    els.statusLine.textContent = "Recording stopped. Clean up your transcript, then copy it for feedback.";
   } else {
     startRecording();
   }
@@ -479,12 +388,10 @@ els.recordButton.addEventListener("click", () => {
 els.resetButton.addEventListener("click", () => {
   stopEverything();
   state.segments = [];
-  state.correctedText = "";
   state.rawBeforeClean = null;
   els.restoreButton.hidden = true;
   els.transcriptBox.value = "";
   K.store.set(DRAFT_PREFIX + state.selectedId, "");
-  resetFeedbackBoxes();
   els.statusLine.textContent = "Ready for a new answer.";
   resetTimer();
 });
@@ -510,14 +417,9 @@ els.aiFeedbackButton.addEventListener("click", async () => {
   els.statusLine.textContent = ok ? "Copied with the question and your notes. Paste it to Claude or ChatGPT for full feedback." : "Clipboard was blocked — copy the transcript manually.";
 });
 
-els.submitButton.addEventListener("click", submitAnswer);
 els.randomButton.addEventListener("click", () => selectQuestion(questions[Math.floor(Math.random() * questions.length)].id));
 els.speakSampleButton.addEventListener("click", listenSample);
 els.readSampleButton.addEventListener("click", readSample);
-els.readAloudButton.addEventListener("click", () => {
-  if (state.readChecking) stopReadAloudCheck();
-  else startReadAloudCheck();
-});
 els.clearNotesButton.addEventListener("click", () => {
   if (!window.confirm("Clear your notes for this question?")) return;
   K.store.set(NOTES_PREFIX + state.selectedId, {});
