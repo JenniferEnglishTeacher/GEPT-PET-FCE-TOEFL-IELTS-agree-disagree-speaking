@@ -1,4 +1,7 @@
+/* GEPT Basic Speaking Practice — uses speaking-kit.js for read-along, clean-up, grammar polish. */
+const K = window.SpeakingKit;
 const questions = window.GEPT_QUESTIONS || [];
+const DRAFT_PREFIX = "gept-basic-draft-";
 
 const state = {
   selectedId: 1,
@@ -6,57 +9,34 @@ const state = {
   remaining: 15,
   timerId: null,
   timerEndsAt: null,
-  recognition: null,
   recording: false,
-  finalTranscript: "",
+  segments: [],
+  baseText: "",
   correctedText: "",
-  readTranscript: "",
   readChecking: false,
-  lastCorrectionIssues: []
+  rawBeforeClean: null,
+  sampleSpans: [],
+  readSpans: [],
+  stopListen: null,
+  listening: false,
+  readSampleMode: false
 };
 
-const els = {
-  questionList: document.querySelector("#questionList"),
-  searchInput: document.querySelector("#searchInput"),
-  questionNumber: document.querySelector("#questionNumber"),
-  questionText: document.querySelector("#questionText"),
-  sampleAnswer: document.querySelector("#sampleAnswer"),
-  questionTip: document.querySelector("#questionTip"),
-  practiceSentences: document.querySelector("#practiceSentences"),
-  timerDisplay: document.querySelector("#timerDisplay"),
-  recordButton: document.querySelector("#recordButton"),
-  resetButton: document.querySelector("#resetButton"),
-  statusLine: document.querySelector("#statusLine"),
-  transcriptBox: document.querySelector("#transcriptBox"),
-  mistakeReview: document.querySelector("#mistakeReview"),
-  correctedAnswer: document.querySelector("#correctedAnswer"),
-  submitButton: document.querySelector("#submitButton"),
-  randomButton: document.querySelector("#randomButton"),
-  speakSampleButton: document.querySelector("#speakSampleButton"),
-  readAloudButton: document.querySelector("#readAloudButton"),
-  readCheckStatus: document.querySelector("#readCheckStatus"),
-  unclearWords: document.querySelector("#unclearWords"),
-  copySentencesButton: document.querySelector("#copySentencesButton"),
-  timeChoices: document.querySelectorAll(".time-choice")
-};
+const els = {};
+["questionList", "searchInput", "questionNumber", "questionText", "sampleAnswer", "sampleBar", "sampleBarFill", "sampleAccuracy",
+  "questionTip", "practiceSentences", "timerDisplay", "recordButton", "resetButton", "statusLine", "transcriptBox",
+  "mistakeReview", "correctedAnswer", "submitButton", "randomButton", "speakSampleButton", "readSampleButton",
+  "readAloudButton", "readCheckStatus", "readBar", "readBarFill", "readLegend", "unclearWords",
+  "cleanButton", "restoreButton", "copyTranscriptButton", "copySentencesButton"].forEach(id => { els[id] = document.querySelector(`#${id}`); });
+els.timeChoices = document.querySelectorAll(".time-choice");
+
+const nounMap = K.properNouns(questions.flatMap(q => [q.question, q.answer]));
+const cleanText = K.cleaner(nounMap);
+let answerRec = null;
+let readRec = null;
 
 function currentQuestion() {
-  return questions.find((item) => item.id === state.selectedId) || questions[0];
-}
-
-function splitSentences(text) {
-  return text
-    .replace(/\s+/g, " ")
-    .match(/[^.!?]+[.!?]+|[^.!?]+$/g)
-    ?.map((sentence) => cleanSentence(sentence))
-    .filter(Boolean) || [];
-}
-
-function cleanSentence(sentence) {
-  const compact = sentence.replace(/\s+/g, " ").trim();
-  if (!compact) return "";
-  const withPeriod = /[.!?]$/.test(compact) ? compact : `${compact}.`;
-  return withPeriod.charAt(0).toUpperCase() + withPeriod.slice(1);
+  return questions.find(item => item.id === state.selectedId) || questions[0];
 }
 
 function answerTopic(question) {
@@ -69,82 +49,34 @@ function answerTopic(question) {
     .toLowerCase() || "this question";
 }
 
-function practiceSentencesFor(item) {
-  if (item.patterns && item.patterns.length) {
-    return item.patterns;
-  }
+function splitSentences(text) {
+  return text.replace(/\s+/g, " ").match(/[^.!?]+[.!?]+|[^.!?]+$/g)?.map(s => s.trim()).filter(Boolean) || [];
+}
 
+function practiceSentencesFor(item) {
+  if (item.patterns && item.patterns.length) return item.patterns;
   const sentences = splitSentences(item.answer);
   const topic = answerTopic(item.question);
-  const first = sentences[0] || `I can answer this question clearly.`;
-  const second = sentences[1] || `It is a simple answer, but I can add one detail.`;
-  const lowerTopic = topic || "this topic";
-
-  let openingPattern = "I think (answer) because (reason).";
-  let openingExample = first;
-
-  if (/where were you born/i.test(item.question)) {
-    openingPattern = "I was born in (country/city name).";
-    openingExample = "I was born in Taipei City.";
-  } else if (/how old/i.test(item.question)) {
-    openingPattern = "I am (age) years old.";
-    openingExample = "I am fifteen years old.";
-  } else if (/favorite/i.test(item.question)) {
-    openingPattern = "My favorite (thing) is (answer) because (reason).";
-    openingExample = first;
-  } else if (/what time|when/i.test(item.question)) {
-    openingPattern = "I usually (verb phrase) at/on (time).";
-    openingExample = first;
-  } else if (/what did|last night|this morning/i.test(item.question)) {
-    openingPattern = "I (past-tense verb) (detail) because (reason).";
-    openingExample = first;
-  } else if (/do you|can you|have you|are you|is your/i.test(item.question)) {
-    openingPattern = "Yes/No, I (answer) because (reason).";
-    openingExample = first;
-  } else if (/tell me about|describe/i.test(item.question)) {
-    openingPattern = "There is/are (main detail), and (extra detail).";
-    openingExample = first;
-  } else if (/what would|if you|what do you say|what do you do/i.test(item.question)) {
-    openingPattern = "I would (action) because (reason).";
-    openingExample = first;
-  }
-
+  const first = sentences[0] || "I can answer this question clearly.";
+  const second = sentences[1] || "It is a simple answer, but I can add one detail.";
   return [
-    {
-      pattern: openingPattern,
-      example: openingExample
-    },
-    {
-      pattern: "It is/They are (a feature or description).",
-      example: second
-    },
-    {
-      pattern: "There is/are (feature/detail), so (result).",
-      example: `There are many things to say about ${lowerTopic}, so I can give one clear example.`
-    },
-    {
-      pattern: "For example, (specific detail).",
-      example: `For example, ${first.charAt(0).toLowerCase()}${first.slice(1)}`
-    },
-    {
-      pattern: "In my opinion, (your idea) is (adjective) because (reason).",
-      example: `In my opinion, ${lowerTopic} is important because it helps me speak more naturally.`
-    }
+    { pattern: "I think (answer) because (reason).", example: first },
+    { pattern: "It is/They are (a feature or description).", example: second },
+    { pattern: "There is/are (feature/detail), so (result).", example: `There are many things to say about ${topic}, so I can give one clear example.` },
+    { pattern: "For example, (specific detail).", example: `For example, ${first.charAt(0).toLowerCase()}${first.slice(1)}` },
+    { pattern: "In my opinion, (your idea) is (adjective) because (reason).", example: `In my opinion, ${topic} is important because it helps me speak more naturally.` }
   ];
 }
 
 function renderQuestionList(filter = "") {
   const term = filter.trim().toLowerCase();
-  const visible = questions.filter((item) => {
-    return !term || String(item.id) === term || item.question.toLowerCase().includes(term);
-  });
-
+  const visible = questions.filter(item => !term || String(item.id) === term || item.question.toLowerCase().includes(term));
   els.questionList.innerHTML = "";
-  visible.forEach((item) => {
+  visible.forEach(item => {
     const button = document.createElement("button");
     button.type = "button";
     button.className = `question-item${item.id === state.selectedId ? " active" : ""}`;
-    button.innerHTML = `<span class="question-id">${item.id}</span><span class="question-label">${item.question}</span>`;
+    button.innerHTML = `<span class="question-id">${item.id}</span><span class="question-label">${K.escapeHtml(item.question)}</span>`;
     button.addEventListener("click", () => selectQuestion(item.id));
     els.questionList.appendChild(button);
   });
@@ -153,44 +85,52 @@ function renderQuestionList(filter = "") {
 function renderSelectedQuestion() {
   const item = currentQuestion();
   if (!item) return;
-
   els.questionNumber.textContent = `Question ${item.id}`;
   els.questionText.textContent = item.question;
-  if (item.structured) {
-    els.sampleAnswer.innerHTML = `
-      <strong>Position:</strong> ${escapeHtml(item.structured.position)}<br>
-      <strong>Reason:</strong> ${escapeHtml(item.structured.reason)}<br>
-      <strong>Example:</strong> ${escapeHtml(item.structured.example)}<br>
-      <strong>Wrap-up:</strong> ${escapeHtml(item.structured.wrapUp)}
-    `;
-  } else {
-    els.sampleAnswer.textContent = item.answer;
-  }
+  els.sampleAnswer.innerHTML = "";
+  state.sampleSpans = K.wordSpans(els.sampleAnswer, item.answer);
+  hideSampleAccuracy();
   els.questionTip.textContent = item.tip ? `Tip: ${item.tip}` : "";
   els.practiceSentences.innerHTML = "";
-  practiceSentencesFor(item).forEach((entry) => {
+  practiceSentencesFor(item).forEach(entry => {
     const li = document.createElement("li");
-    li.innerHTML = `<div class="pattern-line">${escapeHtml(entry.pattern)}</div><div class="example-line">e.g. ${escapeHtml(entry.example)}</div>`;
+    li.innerHTML = `<div class="pattern-line">${K.escapeHtml(entry.pattern)}</div><div class="example-line">e.g. ${K.escapeHtml(entry.example)}</div>`;
     els.practiceSentences.appendChild(li);
   });
   renderQuestionList(els.searchInput.value);
 }
 
-function selectQuestion(id) {
-  stopRecording();
-  state.selectedId = id;
-  state.finalTranscript = "";
-  state.correctedText = "";
-  state.readTranscript = "";
-  els.transcriptBox.value = "";
+function hideSampleAccuracy() {
+  els.sampleBar.hidden = true;
+  els.sampleAccuracy.hidden = true;
+  state.sampleSpans.forEach(w => w.el.classList.remove("ok", "miss", "speaking"));
+}
+
+function resetFeedbackBoxes() {
   els.mistakeReview.textContent = "Submit your answer to check grammar.";
   els.correctedAnswer.textContent = "Click Submit Answer after recording.";
   els.readCheckStatus.textContent = "Submit an answer first, then read the corrected version aloud.";
+  els.readBar.hidden = true;
+  els.readLegend.hidden = true;
   els.unclearWords.innerHTML = "";
-  resetTimer();
-  renderSelectedQuestion();
+  state.readSpans = [];
 }
 
+function selectQuestion(id) {
+  stopEverything();
+  state.selectedId = id;
+  state.segments = [];
+  state.correctedText = "";
+  state.rawBeforeClean = null;
+  els.restoreButton.hidden = true;
+  els.transcriptBox.value = K.store.get(DRAFT_PREFIX + id, "");
+  resetFeedbackBoxes();
+  resetTimer();
+  renderSelectedQuestion();
+  try { history.replaceState(null, "", `#${id}`); } catch {}
+}
+
+/* ---------- timer ---------- */
 function resetTimer() {
   clearInterval(state.timerId);
   state.timerId = null;
@@ -206,8 +146,9 @@ function updateTimerDisplay() {
   els.timerDisplay.textContent = state.remaining;
   els.timerDisplay.classList.toggle("warning", state.remaining <= 5);
   if (state.remaining <= 0) {
-    stopRecording(true, true);
-    els.statusLine.textContent = "Time is up. Click Submit Answer to check your answer.";
+    K.beep();
+    stopRecording();
+    els.statusLine.textContent = "Time is up. Clean up your transcript, then click Submit Answer.";
   }
 }
 
@@ -220,263 +161,68 @@ function startTimer() {
   state.timerId = setInterval(updateTimerDisplay, 250);
 }
 
-function setupRecognition(mode = "answer") {
-  const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
-  if (!SpeechRecognition) {
-    els.statusLine.textContent = "Speech recognition is not available in this browser. Try Chrome or Edge.";
-    return null;
-  }
-
-  const recognition = new SpeechRecognition();
-  recognition.lang = "en-US";
-  recognition.interimResults = true;
-  recognition.continuous = true;
-
-  recognition.onresult = (event) => {
-    let interim = "";
-    for (let i = event.resultIndex; i < event.results.length; i += 1) {
-      const text = event.results[i][0].transcript;
-      if (event.results[i].isFinal) {
-        if (mode === "readcheck") {
-          state.readTranscript += `${text} `;
-        } else {
-          state.finalTranscript += `${text} `;
-        }
-      } else {
-        interim += text;
-      }
-    }
-    if (mode === "readcheck") {
-      updateReadAloudCheck(`${state.readTranscript}${interim}`.trim());
-    } else {
-      els.transcriptBox.value = `${state.finalTranscript}${interim}`.trim();
-    }
-  };
-
-  recognition.onerror = (event) => {
-    if (mode === "readcheck") {
-      els.readCheckStatus.textContent = `Read-aloud check stopped: ${event.error}.`;
-      stopReadAloudCheck(false);
-    } else {
-      els.statusLine.textContent = `Speech-to-text stopped: ${event.error}. The timer is still running.`;
-      stopRecording(false, false);
-    }
-  };
-
-  recognition.onend = () => {
-    if (mode === "readcheck" && state.readChecking) {
-      stopReadAloudCheck(false);
-    } else if (state.recording) {
-      stopRecording(false, false);
-    }
-  };
-
-  return recognition;
-}
-
+/* ---------- recording the answer ---------- */
 function startRecording() {
   stopReadAloudCheck();
-  const recognition = setupRecognition("answer");
-  if (!recognition) return;
-
-  state.recognition = recognition;
+  stopSampleActivity();
+  if (!K.SR) {
+    els.statusLine.textContent = "Speech recognition is not available in this browser. Try Chrome or Edge, or type your answer.";
+    startTimer();
+    return;
+  }
+  state.baseText = els.transcriptBox.value.trim();
+  state.segments = state.baseText ? [state.baseText] : [];
+  state.rawBeforeClean = null;
+  els.restoreButton.hidden = true;
+  answerRec = K.recognizer({
+    onUpdate(finals, interim) {
+      state.segments = (state.baseText ? [state.baseText] : []).concat(finals);
+      els.transcriptBox.value = `${state.segments.join(" ")} ${interim}`.trim();
+      saveDraft();
+    },
+    onBlocked(msg) {
+      els.statusLine.textContent = msg;
+      stopRecording();
+    }
+  });
   state.recording = true;
-  state.finalTranscript = "";
-  els.transcriptBox.value = "";
   els.mistakeReview.textContent = "Recording your answer...";
   els.correctedAnswer.textContent = "Click Submit Answer after recording.";
-  els.readCheckStatus.textContent = "Submit an answer first, then read the corrected version aloud.";
-  els.unclearWords.innerHTML = "";
   els.recordButton.classList.add("recording");
   els.recordButton.innerHTML = '<span class="record-dot"></span>Stop Recording';
   els.statusLine.textContent = "Recording in English...";
   startTimer();
-
-  try {
-    recognition.start();
-  } catch (error) {
-    els.statusLine.textContent = "Speech-to-text is already active. The timer is still running.";
-  }
+  if (!answerRec.start()) els.statusLine.textContent = "Speech-to-text is already active. The timer is still running.";
 }
 
-function stopRecording(callStop = true, clearTimer = true) {
-  if (clearTimer) {
-    clearInterval(state.timerId);
-    state.timerId = null;
-    state.timerEndsAt = null;
-  }
-  if (state.recording && callStop && state.recognition) {
-    state.recognition.stop();
+function stopRecording() {
+  clearInterval(state.timerId);
+  state.timerId = null;
+  state.timerEndsAt = null;
+  if (answerRec) { answerRec.stop(); answerRec = null; }
+  if (state.recording && state.segments.length) {
+    els.transcriptBox.value = state.segments.join(" ");
+    saveDraft();
   }
   state.recording = false;
   els.recordButton.classList.remove("recording");
   els.recordButton.innerHTML = '<span class="record-dot"></span>Start Recording';
 }
 
-function polishTranscript(text) {
-  let result = text.trim();
-  if (!result) return "";
+const saveDraft = () => K.store.set(DRAFT_PREFIX + state.selectedId, els.transcriptBox.value);
 
-  state.lastCorrectionIssues = [];
-
-  const replacements = [
-    { pattern: /\bi\b/g, value: "I", note: "Capitalize the pronoun I." },
-    { pattern: /\bim\b/gi, value: "I am", note: "Use the full form: I am." },
-    { pattern: /\bive\b/gi, value: "I have", note: "Use the full form: I have." },
-    { pattern: /\bid\b/gi, value: "I would", note: "Use the full form: I would." },
-    { pattern: /\bdont\b/gi, value: "do not", note: "Use do not." },
-    { pattern: /\bdoesnt\b/gi, value: "does not", note: "Use does not." },
-    { pattern: /\bdidnt\b/gi, value: "did not", note: "Use did not." },
-    { pattern: /\bcant\b/gi, value: "cannot", note: "Use cannot." },
-    { pattern: /\bwont\b/gi, value: "will not", note: "Use will not." },
-    { pattern: /\bisnt\b/gi, value: "is not", note: "Use is not." },
-    { pattern: /\barent\b/gi, value: "are not", note: "Use are not." },
-    { pattern: /\bwasnt\b/gi, value: "was not", note: "Use was not." },
-    { pattern: /\bwerent\b/gi, value: "were not", note: "Use were not." },
-    { pattern: /\bgonna\b/gi, value: "going to", note: "Use going to in formal speaking." },
-    { pattern: /\bwanna\b/gi, value: "want to", note: "Use want to in formal speaking." },
-    { pattern: /\bkinda\b/gi, value: "kind of", note: "Use kind of in formal speaking." },
-    { pattern: /\bcuz\b/gi, value: "because", note: "Use because." },
-    { pattern: /\bme and my ([a-z]+)/gi, value: "my $1 and I", note: "Put I after the other person as the subject." },
-    { pattern: /\bmore better\b/gi, value: "better", note: "Do not use more before better." },
-    { pattern: /\bmore easier\b/gi, value: "easier", note: "Do not use more before easier." },
-    { pattern: /\bmore cheaper\b/gi, value: "cheaper", note: "Do not use more before cheaper." },
-    { pattern: /\bvery like\b/gi, value: "really like", note: "Use really like, not very like." },
-    { pattern: /\bI am agree\b/gi, value: "I agree", note: "Use I agree." },
-    { pattern: /\bI born\b/gi, value: "I was born", note: "Use was born." },
-    { pattern: /\bI very\b/gi, value: "I am very", note: "Add be before an adjective." },
-    { pattern: /\bI so\b/gi, value: "I am so", note: "Add am before so + adjective." },
-    { pattern: /\bI go to home\b/gi, value: "I go home", note: "Do not use to before home." },
-    { pattern: /\bgo to there\b/gi, value: "go there", note: "Do not use to before there." },
-    { pattern: /\blisten music\b/gi, value: "listen to music", note: "Use listen to." },
-    { pattern: /\bdiscuss about\b/gi, value: "discuss", note: "Discuss does not need about." },
-    { pattern: /\bexplain me\b/gi, value: "explain to me", note: "Use explain to me." },
-    { pattern: /\bdepend on\b/gi, value: "depends on", note: "Use depends on for it/this/that." },
-    { pattern: /\bprefer ([a-z][a-z ]{1,30}) than ([a-z][a-z ]{1,30})(?=[,.!?]|$)/gi, value: "prefer $1 to $2", note: "Use prefer A to B." },
-    { pattern: /\bI am (student|teacher|engineer|doctor|nurse|artist|designer|worker|person)\b/gi, value: "I am a $1", note: "Add a/an before singular countable nouns." },
-    { pattern: /\bHe is (student|teacher|engineer|doctor|nurse|artist|designer|worker|person)\b/gi, value: "He is a $1", note: "Add a/an before singular countable nouns." },
-    { pattern: /\bShe is (student|teacher|engineer|doctor|nurse|artist|designer|worker|person)\b/gi, value: "She is a $1", note: "Add a/an before singular countable nouns." },
-    { pattern: /\bIt make me\b/gi, value: "It makes me", note: "Use makes with it." },
-    { pattern: /\bIt help me\b/gi, value: "It helps me", note: "Use helps with it." },
-    { pattern: /\bHe like\b/gi, value: "He likes", note: "Add -s for he/she/it in present tense." },
-    { pattern: /\bShe like\b/gi, value: "She likes", note: "Add -s for he/she/it in present tense." },
-    { pattern: /\bIt seem\b/gi, value: "It seems", note: "Add -s for it in present tense." },
-    { pattern: /\bpeople is\b/gi, value: "people are", note: "People is plural." },
-    { pattern: /\bstudents is\b/gi, value: "students are", note: "Students is plural." },
-    { pattern: /\bmany student\b/gi, value: "many students", note: "Use a plural noun after many." },
-    { pattern: /\bmany people lives\b/gi, value: "many people live", note: "Use live with plural people." },
-    { pattern: /\ba lot of homework are\b/gi, value: "a lot of homework is", note: "Homework is uncountable." },
-    { pattern: /\bhomeworks\b/gi, value: "homework", note: "Homework is uncountable." },
-    { pattern: /\binformations\b/gi, value: "information", note: "Information is uncountable." },
-    { pattern: /\badvices\b/gi, value: "advice", note: "Advice is uncountable." }
-  ];
-
-  replacements.forEach(({ pattern, value, note }) => {
-    pattern.lastIndex = 0;
-    if (pattern.test(result)) {
-      state.lastCorrectionIssues.push(note);
-      pattern.lastIndex = 0;
-      result = result.replace(pattern, value);
-    }
-  });
-
-  result = result
-    .replace(/\s+/g, " ")
-    .replace(/\s+([,.!?])/g, "$1")
-    .replace(/([.!?])(?=[A-Za-z])/g, "$1 ")
-    .trim();
-
-  const chunks = result.match(/[^.!?]+[.!?]*|$/g)
-    .map((part) => part.trim())
-    .filter(Boolean)
-    .map((part) => cleanSentence(part));
-
-  return chunks.join(" ");
+/* ---------- clean up transcript ---------- */
+function cleanUpTranscript() {
+  const current = els.transcriptBox.value.trim();
+  if (!current) { els.statusLine.textContent = "Record or type an answer first."; return; }
+  state.rawBeforeClean = current;
+  els.transcriptBox.value = cleanText(current, state.segments);
+  els.restoreButton.hidden = false;
+  saveDraft();
+  els.statusLine.textContent = "Cleaned. Read it once, fix any wrong words, then click Submit Answer.";
 }
 
-function escapeHtml(text) {
-  return text.replace(/[&<>"']/g, (char) => ({
-    "&": "&amp;",
-    "<": "&lt;",
-    ">": "&gt;",
-    '"': "&quot;",
-    "'": "&#39;"
-  })[char]);
-}
-
-function wordsFrom(text) {
-  return text.match(/[A-Za-z]+(?:'[A-Za-z]+)?|[0-9]+|[^\sA-Za-z0-9]/g) || [];
-}
-
-function normalizeWord(word) {
-  return word.toLowerCase().replace(/[^a-z0-9]/g, "");
-}
-
-function alignWords(originalWords, correctedWords) {
-  const a = originalWords.map(normalizeWord);
-  const b = correctedWords.map(normalizeWord);
-  const rows = a.length + 1;
-  const cols = b.length + 1;
-  const table = Array.from({ length: rows }, () => Array(cols).fill(0));
-
-  for (let i = a.length - 1; i >= 0; i -= 1) {
-    for (let j = b.length - 1; j >= 0; j -= 1) {
-      table[i][j] = a[i] && a[i] === b[j]
-        ? table[i + 1][j + 1] + 1
-        : Math.max(table[i + 1][j], table[i][j + 1]);
-    }
-  }
-
-  const originalMatched = new Set();
-  const correctedMatched = new Set();
-  let i = 0;
-  let j = 0;
-  while (i < a.length && j < b.length) {
-    if (a[i] && a[i] === b[j]) {
-      originalMatched.add(i);
-      correctedMatched.add(j);
-      i += 1;
-      j += 1;
-    } else if (table[i + 1][j] >= table[i][j + 1]) {
-      i += 1;
-    } else {
-      j += 1;
-    }
-  }
-
-  return { originalMatched, correctedMatched };
-}
-
-function renderGrammarReview(original, corrected) {
-  const originalWords = wordsFrom(original);
-  const correctedWords = wordsFrom(corrected);
-  const { originalMatched, correctedMatched } = alignWords(originalWords, correctedWords);
-
-  const originalHtml = originalWords.map((word, index) => {
-    const isWord = normalizeWord(word);
-    const html = escapeHtml(word);
-    return isWord && !originalMatched.has(index)
-      ? `<mark>${html}</mark>`
-      : html;
-  }).join(" ").replace(/\s+([,.!?;:])/g, "$1");
-
-  const correctedHtml = correctedWords.map((word, index) => {
-    const isWord = normalizeWord(word);
-    const html = escapeHtml(word);
-    return isWord && !correctedMatched.has(index)
-      ? `<span class="corrected-word">${html}</span>`
-      : html;
-  }).join(" ").replace(/\s+([,.!?;:])/g, "$1");
-
-  const notes = [...new Set(state.lastCorrectionIssues)];
-  const noteHtml = notes.length
-    ? `<div class="correction-notes"><strong>Likely grammar fixes:</strong><ul>${notes.map((note) => `<li>${escapeHtml(note)}</li>`).join("")}</ul></div>`
-    : `<div class="correction-notes"><strong>No major rule-based grammar issue was found.</strong> Check fluency and ideas next.</div>`;
-
-  els.mistakeReview.innerHTML = `${originalHtml || "No answer submitted."}${noteHtml}`;
-  els.correctedAnswer.innerHTML = correctedHtml || "Please submit an answer first.";
-}
-
+/* ---------- submit: grammar polish + diff ---------- */
 function submitAnswer() {
   stopRecording();
   stopReadAloudCheck();
@@ -486,131 +232,166 @@ function submitAnswer() {
     els.correctedAnswer.textContent = "Please record or type an answer first.";
     return;
   }
-  state.correctedText = polishTranscript(transcript);
-  renderGrammarReview(transcript, state.correctedText);
+  const { text, notes } = K.grammarPolish(transcript);
+  state.correctedText = text;
+  const { originalHtml, correctedHtml } = K.diffHtml(transcript, text);
+  const noteHtml = notes.length
+    ? `<div class="correction-notes"><strong>Likely grammar fixes:</strong><ul>${notes.map(n => `<li>${K.escapeHtml(n)}</li>`).join("")}</ul></div>`
+    : `<div class="correction-notes"><strong>No major rule-based grammar issue was found.</strong> Check fluency and ideas next.</div>`;
+  els.mistakeReview.innerHTML = `${originalHtml || "No answer submitted."}${noteHtml}`;
+  els.correctedAnswer.innerHTML = correctedHtml || "Please submit an answer first.";
   els.readCheckStatus.textContent = "Click Read Aloud and read the corrected answer out loud.";
+  els.readBar.hidden = true;
+  els.readLegend.hidden = true;
   els.unclearWords.innerHTML = "";
   els.statusLine.textContent = "Answer submitted. Now read the corrected version aloud.";
 }
 
-function compareReadAloud(expected, spoken) {
-  const expectedWords = wordsFrom(expected)
-    .map((word) => normalizeWord(word))
-    .filter(Boolean);
-  const spokenWords = wordsFrom(spoken)
-    .map((word) => normalizeWord(word))
-    .filter(Boolean);
-
-  const rows = expectedWords.length + 1;
-  const cols = spokenWords.length + 1;
-  const table = Array.from({ length: rows }, () => Array(cols).fill(0));
-
-  for (let i = expectedWords.length - 1; i >= 0; i -= 1) {
-    for (let j = spokenWords.length - 1; j >= 0; j -= 1) {
-      table[i][j] = expectedWords[i] === spokenWords[j]
-        ? table[i + 1][j + 1] + 1
-        : Math.max(table[i + 1][j], table[i][j + 1]);
-    }
-  }
-
-  const matched = new Set();
-  let i = 0;
-  let j = 0;
-  while (i < expectedWords.length && j < spokenWords.length) {
-    if (expectedWords[i] === spokenWords[j]) {
-      matched.add(i);
-      i += 1;
-      j += 1;
-    } else if (table[i + 1][j] >= table[i][j + 1]) {
-      i += 1;
-    } else {
-      j += 1;
-    }
-  }
-
-  const unclear = expectedWords.filter((word, index) => !matched.has(index));
-  const clarity = expectedWords.length
-    ? Math.round((matched.size / expectedWords.length) * 100)
-    : 0;
-  return { clarity, unclear };
-}
-
-function renderUnclearWords(words) {
-  els.unclearWords.innerHTML = "";
-  if (!words.length) {
-    const chip = document.createElement("span");
-    chip.className = "word-chip clear";
-    chip.textContent = "All words clear";
-    els.unclearWords.appendChild(chip);
-    return;
-  }
-
-  [...new Set(words)].slice(0, 24).forEach((word) => {
-    const chip = document.createElement("span");
-    chip.className = "word-chip";
-    chip.textContent = word;
-    els.unclearWords.appendChild(chip);
-  });
-}
-
-function updateReadAloudCheck(spokenText) {
-  const result = compareReadAloud(state.correctedText, spokenText);
-  els.readCheckStatus.textContent = `Clarity check: ${result.clarity}% matched. Keep reading clearly.`;
-  renderUnclearWords(result.unclear);
-}
-
+/* ---------- read-aloud check on corrected answer ---------- */
 function startReadAloudCheck() {
   stopRecording();
+  stopSampleActivity();
   if (!state.correctedText) {
     els.readCheckStatus.textContent = "Submit an answer first, then read the corrected version aloud.";
     return;
   }
-
-  const recognition = setupRecognition("readcheck");
-  if (!recognition) return;
-
-  state.recognition = recognition;
-  state.readChecking = true;
-  state.readTranscript = "";
+  if (!K.SR) { els.readCheckStatus.textContent = "Live checking needs Chrome or Edge."; return; }
+  els.correctedAnswer.innerHTML = "";
+  state.readSpans = K.wordSpans(els.correctedAnswer, state.correctedText);
+  els.readBar.hidden = false;
+  els.readLegend.hidden = false;
+  els.readBarFill.style.width = "0%";
   els.unclearWords.innerHTML = "";
+  let spoken = "";
+  readRec = K.recognizer({
+    onUpdate(finals, interim) {
+      spoken = `${finals.join(" ")} ${interim}`;
+      state.lastReadSpoken = spoken;
+      const result = K.align(state.readSpans, spoken);
+      updateReadBar(result, false);
+    },
+    onBlocked(msg) { els.readCheckStatus.textContent = msg; stopReadAloudCheck(); }
+  });
+  state.readChecking = true;
+  state.lastReadSpoken = "";
   els.readAloudButton.textContent = "Stop Check";
+  els.readAloudButton.classList.add("live");
   els.readCheckStatus.textContent = "Listening. Read the corrected answer clearly.";
   document.querySelector(".readcheck-box")?.classList.add("active");
-
-  try {
-    recognition.start();
-  } catch (error) {
-    els.readCheckStatus.textContent = "Read-aloud check is already active.";
-  }
+  if (!readRec.start()) els.readCheckStatus.textContent = "Read-aloud check could not start. Try again.";
 }
 
-function stopReadAloudCheck(callStop = true) {
-  if (state.readChecking && callStop && state.recognition) {
-    state.recognition.stop();
-  }
-  if (state.readChecking && state.readTranscript) {
-    updateReadAloudCheck(state.readTranscript.trim());
-  }
+function updateReadBar(result, final) {
+  const sum = K.accuracySummary(result, final, "answer");
+  els.readBarFill.style.width = `${sum.pct}%`;
+  els.readBarFill.style.background = sum.pct >= 85 ? "var(--good)" : sum.pct >= 65 ? "var(--warm)" : "var(--danger)";
+  els.readCheckStatus.innerHTML = sum.msg;
+}
+
+function stopReadAloudCheck() {
+  if (!state.readChecking) return;
+  if (readRec) { readRec.stop(); readRec = null; }
   state.readChecking = false;
+  const result = K.align(state.readSpans, state.lastReadSpoken || "");
+  updateReadBar(result, true);
+  const missed = state.readSpans.filter(w => w.el.classList.contains("miss")).map(w => w.el.textContent.replace(/[^A-Za-z'’-]+/g, "")).filter(Boolean);
+  els.unclearWords.innerHTML = "";
+  if (state.lastReadSpoken) {
+    if (!missed.length) {
+      const chip = document.createElement("span");
+      chip.className = "word-chip clear";
+      chip.textContent = "All words clear";
+      els.unclearWords.appendChild(chip);
+    } else {
+      [...new Set(missed)].slice(0, 24).forEach(word => {
+        const chip = document.createElement("span");
+        chip.className = "word-chip";
+        chip.textContent = word;
+        els.unclearWords.appendChild(chip);
+      });
+    }
+  }
   els.readAloudButton.textContent = "Read Aloud";
+  els.readAloudButton.classList.remove("live");
   document.querySelector(".readcheck-box")?.classList.remove("active");
 }
 
-function speak(text) {
-  if (!window.speechSynthesis || !text) return;
-  window.speechSynthesis.cancel();
-  const utterance = new SpeechSynthesisUtterance(text);
-  utterance.lang = "en-US";
-  utterance.rate = 0.9;
-  window.speechSynthesis.speak(utterance);
+/* ---------- sample answer: listen + read-along ---------- */
+function stopSampleActivity() {
+  if (state.stopListen) { state.stopListen(); state.stopListen = null; }
+  if (state.readSampleMode) {
+    if (readRec) { readRec.stop(); readRec = null; }
+    state.readSampleMode = false;
+    const result = K.align(state.sampleSpans, state.lastSampleSpoken || "");
+    updateSampleBar(result, true);
+  }
+  K.stopSpeech();
+  state.listening = false;
+  els.speakSampleButton.textContent = "🔈 Listen";
+  els.readSampleButton.textContent = "🎤 Read-Along Check";
+  els.readSampleButton.classList.remove("live");
+  state.sampleSpans.forEach(w => w.el.classList.remove("speaking"));
 }
 
+function listenSample() {
+  if (state.listening) { stopSampleActivity(); return; }
+  stopSampleActivity();
+  hideSampleAccuracy();
+  state.listening = true;
+  els.speakSampleButton.textContent = "■ Stop";
+  state.stopListen = K.listenAlong(state.sampleSpans, 0.9, () => {
+    state.listening = false;
+    state.stopListen = null;
+    els.speakSampleButton.textContent = "🔈 Listen";
+  });
+}
+
+function updateSampleBar(result, final) {
+  const sum = K.accuracySummary(result, final, "sample answer");
+  els.sampleBar.hidden = false;
+  els.sampleAccuracy.hidden = false;
+  els.sampleBarFill.style.width = `${sum.pct}%`;
+  els.sampleBarFill.style.background = sum.pct >= 85 ? "var(--good)" : sum.pct >= 65 ? "var(--warm)" : "var(--danger)";
+  els.sampleAccuracy.innerHTML = sum.msg;
+}
+
+function readSample() {
+  if (state.readSampleMode) { stopSampleActivity(); return; }
+  stopSampleActivity();
+  stopRecording();
+  stopReadAloudCheck();
+  if (!K.SR) { els.sampleAccuracy.hidden = false; els.sampleAccuracy.textContent = "Live checking needs Chrome or Edge."; return; }
+  state.sampleSpans.forEach(w => w.el.classList.remove("ok", "miss"));
+  state.lastSampleSpoken = "";
+  readRec = K.recognizer({
+    onUpdate(finals, interim) {
+      state.lastSampleSpoken = `${finals.join(" ")} ${interim}`;
+      updateSampleBar(K.align(state.sampleSpans, state.lastSampleSpoken), false);
+    },
+    onBlocked(msg) { els.sampleAccuracy.hidden = false; els.sampleAccuracy.textContent = msg; stopSampleActivity(); }
+  });
+  state.readSampleMode = true;
+  els.readSampleButton.textContent = "■ Stop Check";
+  els.readSampleButton.classList.add("live");
+  els.sampleBar.hidden = false;
+  els.sampleAccuracy.hidden = false;
+  els.sampleAccuracy.textContent = "🎙 Listening… read the sample answer aloud.";
+  if (!readRec.start()) { els.sampleAccuracy.textContent = "Could not start the microphone. Try again."; stopSampleActivity(); }
+}
+
+function stopEverything() {
+  stopRecording();
+  stopReadAloudCheck();
+  stopSampleActivity();
+}
+
+/* ---------- events ---------- */
 els.searchInput.addEventListener("input", () => renderQuestionList(els.searchInput.value));
 
-els.timeChoices.forEach((button) => {
+els.timeChoices.forEach(button => {
   button.addEventListener("click", () => {
     state.duration = Number(button.dataset.seconds);
-    els.timeChoices.forEach((choice) => choice.classList.toggle("active", choice === button));
+    els.timeChoices.forEach(choice => choice.classList.toggle("active", choice === button));
     resetTimer();
   });
 });
@@ -618,49 +399,62 @@ els.timeChoices.forEach((button) => {
 els.recordButton.addEventListener("click", () => {
   if (state.recording) {
     stopRecording();
-    els.statusLine.textContent = "Recording stopped. Click Submit Answer to check your answer.";
+    els.statusLine.textContent = "Recording stopped. Clean up your transcript, then click Submit Answer.";
   } else {
     startRecording();
   }
 });
 
 els.resetButton.addEventListener("click", () => {
-  stopRecording();
-  stopReadAloudCheck();
-  state.finalTranscript = "";
+  stopEverything();
+  state.segments = [];
   state.correctedText = "";
-  state.readTranscript = "";
+  state.rawBeforeClean = null;
+  els.restoreButton.hidden = true;
   els.transcriptBox.value = "";
-  els.mistakeReview.textContent = "Submit your answer to check grammar.";
-  els.correctedAnswer.textContent = "Click Submit Answer after recording.";
-  els.readCheckStatus.textContent = "Submit an answer first, then read the corrected version aloud.";
-  els.unclearWords.innerHTML = "";
+  K.store.set(DRAFT_PREFIX + state.selectedId, "");
+  resetFeedbackBoxes();
   els.statusLine.textContent = "Ready for a new answer.";
   resetTimer();
 });
 
+els.transcriptBox.addEventListener("input", saveDraft);
+els.cleanButton.addEventListener("click", cleanUpTranscript);
+els.restoreButton.addEventListener("click", () => {
+  if (state.rawBeforeClean == null) return;
+  els.transcriptBox.value = state.rawBeforeClean;
+  state.rawBeforeClean = null;
+  els.restoreButton.hidden = true;
+  saveDraft();
+  els.statusLine.textContent = "Original transcript restored.";
+});
+els.copyTranscriptButton.addEventListener("click", async () => {
+  if (!els.transcriptBox.value.trim()) { els.statusLine.textContent = "Nothing to copy yet."; return; }
+  const ok = await K.copyText(els.transcriptBox.value.trim());
+  els.statusLine.textContent = ok ? "Transcript copied." : "Clipboard was blocked — select the text and copy it manually.";
+});
+
 els.submitButton.addEventListener("click", submitAnswer);
 els.randomButton.addEventListener("click", () => selectQuestion(questions[Math.floor(Math.random() * questions.length)].id));
-els.speakSampleButton.addEventListener("click", () => speak(currentQuestion().answer));
+els.speakSampleButton.addEventListener("click", listenSample);
+els.readSampleButton.addEventListener("click", readSample);
 els.readAloudButton.addEventListener("click", () => {
-  if (state.readChecking) {
-    stopReadAloudCheck();
-  } else {
-    startReadAloudCheck();
-  }
+  if (state.readChecking) stopReadAloudCheck();
+  else startReadAloudCheck();
 });
 els.copySentencesButton.addEventListener("click", async () => {
   const text = practiceSentencesFor(currentQuestion())
     .map((entry, index) => `${index + 1}. ${entry.pattern}\ne.g. ${entry.example}`)
     .join("\n\n");
-  try {
-    await navigator.clipboard.writeText(text);
-    els.statusLine.textContent = "Practice sentences copied.";
-  } catch (error) {
-    els.statusLine.textContent = "Clipboard access was blocked, but the sentences are still shown above.";
-  }
+  const ok = await K.copyText(text);
+  els.statusLine.textContent = ok ? "Practice sentences copied." : "Clipboard access was blocked, but the sentences are still shown above.";
 });
 
+/* ---------- init ---------- */
+const hashId = Number(location.hash.slice(1));
+state.selectedId = questions.some(q => q.id === hashId) ? hashId : (questions[0] ? questions[0].id : 1);
+els.transcriptBox.value = K.store.get(DRAFT_PREFIX + state.selectedId, "");
 renderQuestionList();
 renderSelectedQuestion();
 resetTimer();
+if (!K.SR) els.statusLine.textContent = "Live speech typing is not supported in this browser. Open this page in Chrome or Edge, or type your answer.";

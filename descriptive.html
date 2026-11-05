@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Descriptive speaking practice: people, places, objects and events with model answers, read-along check, key vocabulary, notes and timed recording.">
+    <title>Descriptive Speaking | Jennifer's English Class</title>
+    <link rel="stylesheet" href="ielts-part2-base.css">
+    <link rel="stylesheet" href="ielts-part2.css">
+    <style>
+      :root { --p2: #8b6b18; --p2-soft: #f6f0dd; }
+      .sample-answer p { font-size: 16.5px; }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">People / Places / Objects / Events</p>
+        <h1>Descriptive Speaking</h1>
+      </div>
+      <div class="top-actions">
+        <a class="ghost-link" href="dashboard.html">&larr; Dashboard</a>
+        <label class="search">
+          <span>Search</span>
+          <input id="searchInput" type="search" placeholder="teacher, trip, device..." autocomplete="off">
+        </label>
+      </div>
+    </header>
+
+    <main class="app-shell">
+      <aside class="topic-panel" aria-label="Prompt board">
+        <div class="panel-heading">
+          <h2>Prompts</h2>
+          <span id="topicCount"></span>
+        </div>
+        <div class="category-tabs" id="categoryTabs"></div>
+        <div id="topicList" class="topic-list"></div>
+      </aside>
+
+      <section class="learning-panel" aria-label="Speaking content">
+        <div class="prompt-band">
+          <div>
+            <p class="eyebrow" id="categoryLabel"></p>
+            <h2 id="promptText"></h2>
+          </div>
+          <button id="readPromptBtn" class="ghost-button" type="button">&#128264; Read Prompt</button>
+        </div>
+
+        <section class="card">
+          <div class="section-title">
+            <h2><span class="step">1</span> Model Answer &middot; Read Along</h2>
+            <div class="inline-actions">
+              <label class="mini-label">Speed
+                <select id="rateSelect">
+                  <option value="0.8">Slow</option>
+                  <option value="0.92" selected>Normal</option>
+                  <option value="1.05">Fast</option>
+                </select>
+              </label>
+              <button id="listenBtn" class="ghost-button" type="button">&#128264; Listen</button>
+              <button id="readAlongBtn" class="primary-button" type="button">&#127908; Read-Along Check</button>
+              <button id="stopSampleBtn" class="ghost-button" type="button" disabled>Stop</button>
+            </div>
+          </div>
+          <div id="modelAnswer" class="sample-answer"></div>
+          <div class="accuracy" id="accuracyBox" hidden>
+            <div class="accuracy-bar"><span id="accuracyFill"></span></div>
+            <p id="accuracyText" class="status-text compact"></p>
+            <p class="legend"><span class="w ok">matched</span> <span class="w miss">missed / unclear</span> <span class="w">not read yet</span></p>
+          </div>
+          <p id="modelStatus" class="status-text compact">Listen first, then press <b>Read-Along Check</b> and read the model aloud. Words the computer hears correctly turn green.</p>
+        </section>
+
+        <section class="card">
+          <div class="section-title">
+            <h2><span class="step">2</span> Key Words and Phrases</h2>
+            <button id="readKeywordsBtn" class="ghost-button" type="button">&#128264; Read Words</button>
+          </div>
+          <div id="keywordGrid" class="keywords"></div>
+        </section>
+
+        <div class="turn-heading">
+          <h2>Your Turn</h2>
+          <p>Plan with key words, then describe it in your own words. Keep your notes in view while you talk.</p>
+        </div>
+
+        <div class="practice-area">
+          <section class="practice-box">
+            <div class="section-title">
+              <h2><span class="step">3</span> Your Notes</h2>
+              <button id="clearNotesBtn" class="ghost-button" type="button">Clear Notes</button>
+            </div>
+            <p class="status-text compact" style="margin-top:0">Key words only &mdash; not full sentences.</p>
+            <div id="notesGrid" class="notes-grid"></div>
+          </section>
+
+          <section class="practice-box">
+            <div class="section-title">
+              <h2><span class="step">4</span> Speak</h2>
+              <label class="mini-label">Response time
+                <select id="timeSelect">
+                  <option value="30">30 sec</option>
+                  <option value="45" selected>45 sec</option>
+                  <option value="60">1 min</option>
+                  <option value="90">1 min 30 sec</option>
+                </select>
+              </label>
+            </div>
+            <div id="timerDisplay" class="timer">00:45</div>
+            <div class="timer-progress"><span id="timerFill"></span></div>
+            <div class="record-actions">
+              <button id="recordBtn" class="danger-button" type="button">&#9679; Start Recording</button>
+              <button id="stopBtn" class="ghost-button" type="button" disabled>&#9632; Stop</button>
+              <button id="resetBtn" class="ghost-button" type="button">Reset</button>
+            </div>
+            <p id="speechStatus" class="status-text">Ready. Chrome or Edge works best for live speech typing.</p>
+            <audio id="audioPlayback" class="audio-playback" controls hidden></audio>
+          </section>
+        </div>
+
+        <section class="card transcript-card">
+          <div class="section-title">
+            <h2><span class="step">5</span> Your Transcript</h2>
+            <span id="statsText" class="hint"></span>
+          </div>
+          <textarea id="transcript" placeholder="Your spoken response will appear here. You can also type or edit."></textarea>
+          <div class="transcript-actions">
+            <button id="cleanBtn" class="primary-button" type="button">&#10024; Clean Up Transcript</button>
+            <button id="restoreBtn" class="ghost-button" type="button" hidden>&#8634; Show Original</button>
+            <button id="copyBtn" class="ghost-button" type="button">&#128203; Copy</button>
+            <button id="gptBotBtn" class="ghost-button" type="button">Copy + Open IELTS Bot</button>
+            <button id="sendBtn" class="ghost-button" type="button">Quick Local Feedback</button>
+          </div>
+          <p id="botStatus" class="status-text compact">After you stop, press <b>Clean Up Transcript</b>, check it, then copy it or send it for feedback.</p>
+        </section>
+
+        <section class="results-panel card" id="resultsPanel" hidden>
+          <div class="section-title">
+            <h2>Practice Feedback</h2>
+            <span id="gradeBadge" class="grade-badge"></span>
+          </div>
+          <div class="result-grid">
+            <div>
+              <h3>Organization Check</h3>
+              <ul id="feedbackList"></ul>
+            </div>
+            <div>
+              <h3>Suggested Revision Frame</h3>
+              <p id="correctedText"></p>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="descriptive-data.js"></script>
+    <script src="speaking-kit.js"></script>
+    <script src="descriptive-app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,109 @@
+/* speaking-extra.css — shared add-ons for the Basic and Opinion pages:
+   read-along highlighting, accuracy bar, transcript clean-up actions, opinion sections, notes. */
+
+.dash-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 5px 11px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 800;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.dash-link:hover { border-color: var(--accent); color: var(--accent-strong); }
+
+/* read-along words */
+.w { border-radius: 3px; padding: 0 1px; transition: background-color .15s; }
+.w.ok { background: #dff4e8; color: #226240; }
+.w.miss { background: #ffe0df; color: #8c2626; text-decoration: underline wavy; text-decoration-thickness: 1px; }
+.w.speaking { background: #ffe58a; }
+
+.accuracy-bar {
+  height: 10px;
+  margin-top: 12px;
+  border-radius: 999px;
+  background: #e6ebf1;
+  overflow: hidden;
+}
+.accuracy-bar span { display: block; height: 100%; width: 0; background: var(--good); transition: width .3s; }
+.accuracy-text { margin: 8px 0 0; color: var(--muted); font-size: 15px; line-height: 1.45; }
+.accuracy-legend { margin: 6px 0 0; font-size: 13px; color: var(--muted); display: flex; gap: 10px; flex-wrap: wrap; }
+.accuracy-legend .w { padding: 1px 6px; border: 1px solid var(--line); }
+
+/* transcript actions (clean up / restore / copy) */
+.transcript-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 18px 12px;
+}
+.transcript-actions .small-button { flex: 0 0 auto; }
+.transcript-actions .primary-action { background: var(--good); color: #fff; }
+
+#transcriptBox { margin-bottom: 10px; }
+
+/* buttons in recording state */
+.small-button.live, .primary-button.live { background: var(--danger); color: #fff; animation: kit-pulse 1.2s infinite; }
+@keyframes kit-pulse { 50% { box-shadow: 0 0 0 6px rgba(179, 60, 60, .18); } }
+
+/* ---------- opinion structured sections ---------- */
+.structure-cards { display: grid; gap: 12px; margin-top: 14px; }
+.structure-card {
+  border: 1px solid var(--line);
+  border-left: 6px solid var(--c, var(--accent));
+  border-radius: 8px;
+  background: #fff;
+  padding: 12px 14px;
+}
+.structure-card h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 0 0 7px;
+  color: var(--c, var(--accent));
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: .3px;
+}
+.structure-card h3 .small-button { min-height: 30px; padding: 0 10px; font-size: 12px; text-transform: none; }
+.structure-card p { margin: 0; font-size: 17px; line-height: 1.7; }
+.structure-card.dim { opacity: .4; }
+
+.scope-row { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+.scope-row .label { color: var(--muted); font-size: 13px; font-weight: 800; }
+.chip {
+  min-height: 32px;
+  padding: 5px 11px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 800;
+}
+.chip[aria-pressed="true"] { border-color: var(--accent); background: #e8f4f7; color: var(--accent-strong); }
+
+/* ---------- notes before speaking ---------- */
+.notes-block { margin-top: 22px; padding: 18px; border: 1px solid var(--line); border-radius: 8px; background: var(--soft); }
+.notes-grid { display: grid; gap: 10px; margin-top: 8px; }
+.note-row { display: grid; grid-template-columns: minmax(120px, .7fr) minmax(0, 1.3fr); gap: 10px; align-items: start; }
+.note-row label { font-weight: 800; font-size: 14px; line-height: 1.4; padding-top: 8px; color: var(--c, var(--ink)); }
+.note-row textarea {
+  min-height: 52px;
+  margin: 0;
+  padding: 8px 10px;
+  font-size: 15px;
+}
+.notes-hint { margin: 2px 0 0; color: var(--muted); font-size: 13px; }
+
+@media (max-width: 760px) {
+  .note-row { grid-template-columns: 1fr; gap: 4px; }
+  .note-row label { padding-top: 0; }
+  .transcript-actions { margin: 0 12px 12px; }
+}

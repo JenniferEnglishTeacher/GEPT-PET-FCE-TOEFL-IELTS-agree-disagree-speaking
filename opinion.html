@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Opinion Speaking Practice</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="speaking-extra.css">
   </head>
   <body>
     <div class="app-shell">
@@ -13,6 +14,7 @@
           <div>
             <p class="eyebrow">IELTS TOEFL FCE PET</p>
             <h1>Opinion Speaking</h1>
+            <a class="dash-link" href="dashboard.html" style="margin-top:8px">&larr; Dashboard</a>
           </div>
           <span class="count-pill">120</span>
         </div>
@@ -30,20 +32,37 @@
             <button id="randomButton" class="icon-button" type="button" title="Random question" aria-label="Random question">Random</button>
           </div>
           <h2 id="questionText"></h2>
-          <div class="answer-block">
-            <div class="block-title">
-              <span>Sample Answer</span>
-              <button id="speakSampleButton" class="small-button" type="button">Listen</button>
-            </div>
-            <p id="sampleAnswer"></p>
-            <p id="questionTip" class="question-tip"></p>
+          <p id="questionTip" class="question-tip"></p>
+
+          <div class="scope-row">
+            <span class="label">Model answer:</span>
+            <div id="scopeChips" class="chips" role="group" aria-label="Which part to practise"></div>
           </div>
+          <div class="scope-row" style="margin-top:8px">
+            <button id="speakSampleButton" class="small-button" type="button">&#128264; Listen</button>
+            <button id="readSampleButton" class="small-button primary-action" type="button">&#127908; Read-Along Check</button>
+          </div>
+
+          <div id="structureCards" class="structure-cards"></div>
+          <div class="accuracy-bar" id="sampleBar" hidden><span id="sampleBarFill"></span></div>
+          <p id="sampleAccuracy" class="accuracy-text" hidden></p>
+          <p class="accuracy-legend" id="sampleLegend" hidden><span class="w ok">matched</span> <span class="w miss">missed / unclear</span> <span class="w">not read yet</span></p>
+
           <div class="sentences-block">
             <div class="block-title">
               <span>5 Practice Sentences</span>
               <button id="copySentencesButton" class="small-button" type="button">Copy</button>
             </div>
             <ol id="practiceSentences"></ol>
+          </div>
+
+          <div class="notes-block">
+            <div class="block-title">
+              <span>Your Turn &middot; Plan Your Answer</span>
+              <button id="clearNotesButton" class="small-button" type="button">Clear Notes</button>
+            </div>
+            <p class="notes-hint">Type key words only &mdash; not full sentences. Keep your notes in view while you speak.</p>
+            <div id="notesGrid" class="notes-grid"></div>
           </div>
         </section>
       </main>
@@ -59,7 +78,7 @@
           <div class="timer-row">
             <div>
               <p class="eyebrow">Timer</p>
-              <div class="timer-display" id="timerDisplay">15</div>
+              <div class="timer-display" id="timerDisplay">30</div>
             </div>
             <div class="timer-controls" role="group" aria-label="Answer length">
               <button class="time-choice active" type="button" data-seconds="30">30 sec</button>
@@ -78,6 +97,12 @@
           <div class="status-line" id="statusLine">Click Start Recording, then speak in English.</div>
         </section>
         <textarea id="transcriptBox" placeholder="Your spoken English will appear here..."></textarea>
+        <div class="transcript-actions">
+          <button id="cleanButton" class="small-button primary-action" type="button">&#10024; Clean Up Transcript</button>
+          <button id="restoreButton" class="small-button" type="button" hidden>&#8634; Show Original</button>
+          <button id="copyTranscriptButton" class="small-button" type="button">&#128203; Copy</button>
+          <button id="aiFeedbackButton" class="small-button" type="button">&#129302; Copy for AI Feedback</button>
+        </div>
         <button id="submitButton" class="submit-answer-button" type="button">Submit Answer</button>
         <div class="mistakes-box">
           <div class="block-title">
@@ -97,16 +122,19 @@
             <button id="readAloudButton" class="small-button" type="button">Read Aloud</button>
           </div>
           <p id="readCheckStatus">Submit an answer first, then read the corrected version aloud.</p>
+          <div class="accuracy-bar" id="readBar" hidden><span id="readBarFill"></span></div>
+          <p class="accuracy-legend" id="readLegend" hidden><span class="w ok">matched</span> <span class="w miss">missed / unclear</span> <span class="w">not read yet</span></p>
           <div id="unclearWords" class="word-chip-list"></div>
         </div>
         <div class="tips-box">
           <strong>Teacher note</strong>
-          <p>This page checks common grammar, capitalization, spacing, and pronunciation clarity locally in the browser.</p>
+          <p>Follow the structure: Position &rarr; Reason &rarr; Example &rarr; Wrap-up. This page checks common grammar, capitalization, and pronunciation clarity locally in the browser.</p>
         </div>
       </aside>
     </div>
 
     <script src="opinion-questions.js"></script>
+    <script src="speaking-kit.js"></script>
     <script src="opinion-app.js"></script>
   </body>
 </html>

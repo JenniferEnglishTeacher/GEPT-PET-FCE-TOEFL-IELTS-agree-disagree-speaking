@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>GEPT Basic Speaking Practice</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="speaking-extra.css">
   </head>
   <body>
     <div class="app-shell">
@@ -13,6 +14,7 @@
           <div>
             <p class="eyebrow">GEPT Basic</p>
             <h1>Speaking Practice</h1>
+            <a class="dash-link" href="dashboard.html" style="margin-top:8px">&larr; Dashboard</a>
           </div>
           <span class="count-pill">200</span>
         </div>
@@ -33,9 +35,14 @@
           <div class="answer-block">
             <div class="block-title">
               <span>Sample Answer</span>
-              <button id="speakSampleButton" class="small-button" type="button">Listen</button>
+              <span>
+                <button id="speakSampleButton" class="small-button" type="button">&#128264; Listen</button>
+                <button id="readSampleButton" class="small-button" type="button">&#127908; Read-Along Check</button>
+              </span>
             </div>
             <p id="sampleAnswer"></p>
+            <div class="accuracy-bar" id="sampleBar" hidden><span id="sampleBarFill"></span></div>
+            <p id="sampleAccuracy" class="accuracy-text" hidden></p>
             <p id="questionTip" class="question-tip"></p>
           </div>
           <div class="sentences-block">
@@ -76,6 +83,11 @@
           <div class="status-line" id="statusLine">Click Start Recording, then speak in English.</div>
         </section>
         <textarea id="transcriptBox" placeholder="Your spoken English will appear here..."></textarea>
+        <div class="transcript-actions">
+          <button id="cleanButton" class="small-button primary-action" type="button">&#10024; Clean Up Transcript</button>
+          <button id="restoreButton" class="small-button" type="button" hidden>&#8634; Show Original</button>
+          <button id="copyTranscriptButton" class="small-button" type="button">&#128203; Copy</button>
+        </div>
         <button id="submitButton" class="submit-answer-button" type="button">Submit Answer</button>
         <div class="mistakes-box">
           <div class="block-title">
@@ -95,6 +107,8 @@
             <button id="readAloudButton" class="small-button" type="button">Read Aloud</button>
           </div>
           <p id="readCheckStatus">Submit an answer first, then read the corrected version aloud.</p>
+          <div class="accuracy-bar" id="readBar" hidden><span id="readBarFill"></span></div>
+          <p class="accuracy-legend" id="readLegend" hidden><span class="w ok">matched</span> <span class="w miss">missed / unclear</span> <span class="w">not read yet</span></p>
           <div id="unclearWords" class="word-chip-list"></div>
         </div>
         <div class="tips-box">
@@ -105,6 +119,7 @@
     </div>
 
     <script src="questions.js"></script>
+    <script src="speaking-kit.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
