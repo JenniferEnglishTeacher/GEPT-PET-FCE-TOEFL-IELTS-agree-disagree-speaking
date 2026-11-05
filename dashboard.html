@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Jennifer's English Class: basic, opinion, topic-based and descriptive speaking practice in one dashboard.">
+  <meta name="description" content="Jennifer's English Class: basic, opinion, topic-based, descriptive and IELTS Part 2 speaking practice in one dashboard.">
   <title>Speaking Practice | Jennifer's English Class</title>
   <style>
     :root{font-family:"Segoe UI",Arial,sans-serif;color:#202a29;background:#f5f7f7;line-height:1.5;color-scheme:light}
@@ -48,6 +48,7 @@
         <button type="button" data-filter="basic" aria-pressed="false">Basic</button>
         <button type="button" data-filter="opinion" aria-pressed="false">Opinions</button>
         <button type="button" data-filter="description" aria-pressed="false">Descriptions</button>
+        <button type="button" data-filter="ielts" aria-pressed="false">IELTS Part 2</button>
       </div>
       <label class="search">Search<input id="search" type="search" placeholder="Find a practice..." autocomplete="off"></label>
     </div>
@@ -80,9 +81,16 @@
         <div class="details"><span>30 / 45 / 60 / 90 seconds</span><span>Models + key words</span></div>
         <a class="open" href="https://jenniferenglishteacher.github.io/TOEFL-IELTS-FCE-theme-iTEP-speaking/descriptive-speaking.html" target="_blank" rel="noopener"><span>Start Descriptive Practice</span><span class="arrow" aria-hidden="true">&rarr;</span></a>
       </article>
+      <article data-id="ielts-part2" data-category="ielts" style="--accent:#6b3fa0">
+        <div class="meta"><span>IELTS Speaking Part 2 &middot; Long Turn</span><span class="count">16 cue cards</span></div>
+        <h2>IELTS Speaking Part 2: Monologue</h2>
+        <p>Cue cards on technology, social media and sports. Study a mind map and sample answer, check your reading aloud, take notes, then speak for up to 2 minutes.</p>
+        <div class="details"><span>60 / 90 / 120 seconds</span><span>Mind maps + read-along + live transcript</span></div>
+        <a class="open" href="https://jenniferenglishteacher.github.io/TOEFL-IELTS-FCE-theme-iTEP-speaking/ielts-part2.html" target="_blank" rel="noopener"><span>Start IELTS Part 2</span><span class="arrow" aria-hidden="true">&rarr;</span></a>
+      </article>
     </div>
     <p id="empty" hidden>No matching practice.</p>
-    <footer><span id="resultCount" aria-live="polite">4 practice activities</span><span>Jennifer's English Class</span></footer>
+    <footer><span id="resultCount" aria-live="polite">5 practice activities</span><span>Jennifer's English Class</span></footer>
   </main>
   <script>
     const cards = [...document.querySelectorAll('article')];
