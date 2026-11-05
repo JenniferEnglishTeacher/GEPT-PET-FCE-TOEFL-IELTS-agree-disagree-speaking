@@ -4,6 +4,14 @@ const K = window.SpeakingKit;
 const topics = window.THEME_TOPICS || [];
 const IELTS_BOT_URL = "https://chatgpt.com/g/g-2DNF8ArXs-grade-your-ielts-speaking";
 const DRAFT_PREFIX = "theme-draft-";
+const NOTES_PREFIX = "theme-notes-";
+const NOTE_FIELDS = [
+  { label: "Argument", hint: "my main point", color: "#087b66" },
+  { label: "Explanation", hint: "why / reason", color: "#4265a0" },
+  { label: "Concrete example", hint: "a real situation", color: "#8a6f24" },
+  { label: "Effect", hint: "result / impact", color: "#6b3fa0" },
+  { label: "Wrap-up", hint: "short conclusion", color: "#ae4d45" }
+];
 
 const $ = sel => document.querySelector(sel);
 const els = {
@@ -16,6 +24,7 @@ const els = {
   recordBtn: $("#recordBtn"), stopBtn: $("#stopBtn"), resetBtn: $("#resetBtn"), speechStatus: $("#speechStatus"), audio: $("#audioPlayback"),
   transcript: $("#transcript"), stats: $("#statsText"), cleanBtn: $("#cleanBtn"), restoreBtn: $("#restoreBtn"), copyBtn: $("#copyBtn"),
   gptBotBtn: $("#gptBotBtn"), botStatus: $("#botStatus"),
+  notesGrid: $("#notesGrid"), notesView: $("#notesView"), clearNotesBtn: $("#clearNotesBtn"),
 };
 
 const slug = title => title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
@@ -120,6 +129,7 @@ function renderActiveTopic() {
     els.viewChips.append(chip);
   });
   renderModel();
+  renderNotes();
 }
 
 function renderModel() {
@@ -153,6 +163,39 @@ function selectTopic(topic) {
   renderActiveTopic();
   resetTimer();
   updateStats();
+}
+
+/* ---------- notes ---------- */
+function notesKey() { return NOTES_PREFIX + slug(activeTopic.title); }
+function renderNotes() {
+  const saved = K.store.get(notesKey(), {});
+  els.notesView.innerHTML = "";
+  activeTopic.viewpoints.forEach((view, i) => {
+    const opt = document.createElement("option");
+    opt.value = String(i); opt.textContent = view.title;
+    els.notesView.append(opt);
+  });
+  els.notesView.value = String(saved.view != null ? saved.view : activeView);
+  els.notesGrid.innerHTML = "";
+  NOTE_FIELDS.forEach((field, i) => {
+    const row = document.createElement("div");
+    row.className = "note-row";
+    row.style.setProperty("--c", field.color);
+    const label = document.createElement("label");
+    label.htmlFor = `note-${i}`;
+    label.textContent = field.label;
+    const sub = document.createElement("span");
+    sub.textContent = field.hint;
+    label.append(sub);
+    const ta = document.createElement("textarea");
+    ta.id = `note-${i}`;
+    ta.rows = 2;
+    ta.placeholder = "key words…";
+    ta.value = saved[i] || "";
+    ta.addEventListener("input", () => { const all = K.store.get(notesKey(), {}); all[i] = ta.value; K.store.set(notesKey(), all); });
+    row.append(label, ta);
+    els.notesGrid.append(row);
+  });
 }
 
 /* ---------- model listen + read-along ---------- */
@@ -340,7 +383,7 @@ Test style: IELTS / iTEP / TOEFL speaking practice
 Topic: ${activeTopic.title}
 Prompt: ${activeTopic.prompt}
 Time limit: ${Number(els.timeSelect.value)} seconds
-
+${notesForPrompt()}
 My voice-typed response:
 ${els.transcript.value.trim()}
 
@@ -353,6 +396,14 @@ Please provide:
 3. A polished revision of my original response. Keep my meaning, but add clear structure words, improve grammar, and replace overly casual expressions with more polished terms.
 4. A full-mark model answer for the same time limit, based on my response and the topic reference content.
 5. Useful phrases and key words I should reuse next time.`;
+}
+
+function notesForPrompt() {
+  const saved = K.store.get(notesKey(), {});
+  const lines = NOTE_FIELDS.map((f, i) => (saved[i] ? `- ${f.label}: ${saved[i]}` : "")).filter(Boolean);
+  if (!lines.length) return "";
+  const view = activeTopic.viewpoints[Number(saved.view != null ? saved.view : activeView)];
+  return `\nMy notes (viewpoint: ${view ? view.title : ""}):\n${lines.join("\n")}\n`;
 }
 
 async function openIeltsBot() {
@@ -372,6 +423,12 @@ els.readPromptBtn.addEventListener("click", () => {
     .map(view => `${view.title}. ${view.bullets.join(". ")}. Key words: ${view.keywords.join(", ")}.`)
     .join(" ");
   K.speak(`${activeTopic.prompt}. ${words}`, 0.92);
+});
+els.notesView.addEventListener("change", () => { const all = K.store.get(notesKey(), {}); all.view = Number(els.notesView.value); K.store.set(notesKey(), all); });
+els.clearNotesBtn.addEventListener("click", () => {
+  if (!window.confirm("Clear your notes for this topic?")) return;
+  K.store.set(notesKey(), {});
+  renderNotes();
 });
 els.listenBtn.addEventListener("click", listenModel);
 els.readAlongBtn.addEventListener("click", readAlongModel);
@@ -422,3 +479,7 @@ renderActiveTopic();
 resetTimer();
 updateStats();
 if (!K.SR) setStatus(els.speechStatus, "Live speech typing is not supported in this browser. Open the page in Chrome or Edge, or type your answer.", "warning");
+window.addEventListener("hashchange", () => {
+  const t = topics.find(x => slug(x.title) === location.hash.slice(1));
+  if (t && t !== activeTopic) selectTopic(t);
+});
