@@ -1,10 +1,10 @@
-/* KET / PET / FCE / TOEFL email, letter & essay writing — phrase bank, formal/informal game, three levels of guided tasks, real-email reading.
+/* KET / PET / FCE / TOEFL email, letter & essay writing — phrase bank, formal/informal game, two levels of guided tasks (essays: fce-essay.html), real-email reading.
    Level 1: short notes 50–100 words (iTEP Set 1)   Level 2: FCE / TOEFL emails 150–180 words (iTEP Set 2 + Cambridge B2 First Part 2)
-   Level 3: FCE opinion essays 220–250 words (Cambridge B2 First Part 1).
+   FCE essays live on their own page: fce-essay.html.
    Uses email-writing-data.js + email-writing-fce-data.js, speaking-kit.js (speech), writing-kit.js (timer, word count, grammar checks). */
 const W = window.WritingKit, SK = window.SpeakingKit;
 const BANK = window.EMAIL_BANK || [], REAL = window.EMAIL_REAL, STEPS = window.EMAIL_STEPS || [];
-const NOTES = window.EMAIL_NOTES || [], SET2 = window.EMAIL_TASKS || [], FCE = window.EMAIL_FCE || [], ESSAYS = window.EMAIL_ESSAYS || [], FRAMES = window.FCE_FRAMES || [];
+const NOTES = window.EMAIL_NOTES || [], SET2 = window.EMAIL_TASKS || [], FCE = window.EMAIL_FCE || [], ESSAYS = [], FRAMES = window.FCE_FRAMES || [];
 const esc = W.esc;
 const $ = id => document.getElementById(id);
 const store = {
@@ -23,7 +23,7 @@ const TARGETS = [
 ];
 const TARGETS_FOR = { note: ["note", "pet", "fce"], email: ["pet", "fce"], essay: ["itep", "essay"] };
 
-/* Three levels. Each task carries .type so the shared views know how to behave. */
+/* Two levels. Each task carries .type so the shared views know how to behave. */
 NOTES.forEach(t => { t.type = "note"; t.level = 1; });
 SET2.forEach(t => { t.type = "email"; t.level = 2; t.source = t.source || "iTEP Set 2 · extended model"; });
 for (const t of [...NOTES, ...SET2, ...FCE, ...ESSAYS]) if (!t.words) t.words = W.wordCount(plain(t.els.map(e => `${e.html || ""} ${e.signoff || ""} ${e.name || ""}`).join(" ")));
@@ -33,9 +33,7 @@ const LEVELS = [
   { id: "level-1", n: 1, kind: "note", en: "Short Notes", zh: "短信", words: "50–100 words", tasks: NOTES, group: "Level 1 · KET / PET Short Notes 短信 50–100 字",
     sub: "iTEP Part 1 · 10 purposes (thank-you, apology, request, complaint…). One clear purpose, 5 minutes, match the tone to the reader. 一個目的、五分鐘、語氣要配合收件人。" },
   { id: "level-2", n: 2, kind: "email", en: "FCE / TOEFL Emails", zh: "FCE / TOEFL 書信", words: "150–180 words", tasks: [...SET2, ...FCE], group: "Level 2 · FCE / TOEFL Emails 書信 150–180 字",
-    sub: "17 emails: 10 school-life notes written at full length + 7 Cambridge B2 First Part 2 replies to a friend. Answer every point, use the bold B2 patterns, 150–180 words. 回答每一點、用粗體句型、150–180 字。" },
-  { id: "level-3", n: 3, kind: "essay", en: "FCE Essays", zh: "FCE 作文", words: "220–250 words", tasks: ESSAYS, group: "Level 3 · FCE Essays 作文 220–250 字",
-    sub: "10 Cambridge B2 First Part 1 essays: introduction, three body paragraphs (Topic sentence → Explain → Example → Effect), conclusion. 導論、三段主體、結論。" }
+    sub: "17 emails: 10 school-life notes written at full length + 7 Cambridge B2 First Part 2 replies to a friend. Answer every point, use the bold B2 patterns, 150–180 words. 回答每一點、用粗體句型、150–180 字。" }
 ];
 const ALL_TASKS = [...NOTES, ...SET2, ...FCE, ...ESSAYS];
 const levelOf = t => LEVELS[t.level - 1];
@@ -101,14 +99,14 @@ function viewGuide(v) {
     <h2>How to Build an Email 一封英文書信的結構</h2>
     <p class="sw-sub">Every KET, PET, FCE and TOEFL email follows the same six steps. Click a step to see the sentence patterns. 點每一步看句型。</p>
     <div class="em-steps">${STEPS.map(s => `<button type="button" class="em-step" data-go="${s.go}"><span class="n">${s.n}</span><b>${esc(s.en)}</b>${esc(s.zh)}<small>${esc(s.ex)}</small></button>`).join("")}</div>
-    <section class="sw-section"><h3>Three levels 三個級別</h3>
+    <section class="sw-section"><h3>Two levels 兩個級別</h3>
       <div class="em-levels">${LEVELS.map(L => `<button type="button" class="em-level l${L.n}" data-go="${L.id}"><span class="n">Level ${L.n}</span><b>${esc(L.en)} ${esc(L.zh)}</b><span class="w">${esc(L.words)} · ${L.tasks.length} tasks</span><small>${esc(L.sub)}</small></button>`).join("")}</div>
       <div class="sw-table-wrap" style="margin-top:12px"><table class="em-compare">
         <tr><th class="k">Exam 考試</th><th>Task 題型</th><th>Length 字數</th><th>Time 時間</th><th>Level here</th></tr>
         <tr><td>KET / iTEP Part 1</td><td>Short note or letter for one situation</td><td>50–75 words</td><td>5 min</td><td>Level 1</td></tr>
         <tr><td>PET Part 1</td><td>Reply to an email, 4 notes to answer</td><td>about 100 words</td><td>~20 min</td><td>Level 1 → 2</td></tr>
         <tr><td>FCE Part 2 / TOEFL</td><td>Email or letter answering every point</td><td>140–190 words (aim 150–180)</td><td>~40 min</td><td>Level 2</td></tr>
-        <tr><td>FCE Part 1 / iTEP Part 2</td><td>Opinion essay with 3 body paragraphs</td><td>220–250 words (iTEP 175–225)</td><td>40 min (iTEP 20)</td><td>Level 3</td></tr>
+        <tr><td>FCE Part 1 / iTEP Part 2</td><td>Opinion essay with 3 body paragraphs</td><td>220–250 words (iTEP 175–225)</td><td>40 min (iTEP 20)</td><td><a href="fce-essay.html" target="_blank" rel="noopener">FCE Essays page</a></td></tr>
       </table></div>
     </section>
     <section class="sw-section"><h3>Formal or informal? 正式還是非正式？</h3>
@@ -130,7 +128,7 @@ function viewGuide(v) {
         <li><b>Level 1–3 Tasks 寫作</b> — open a level to see the grid of all prompts, then pick one. Click a pattern to put it in your writing, write with the timer, <i>Check</i>, then compare with the model (<b>bold</b> = sentence pattern, <span class="kw">yellow</span> = topic vocabulary).</li>
         <li><b>Real Email 真實郵件</b> — read a real booking email, answer 8 questions, then write a reply to the support desk.</li>
       </ol>
-      <div class="sw-actions"><button class="small-button primary-action" type="button" data-go="level-2">Level 2: FCE / TOEFL Emails &rarr;</button><button class="small-button" type="button" data-go="level-1">Level 1: Short Notes</button><button class="small-button" type="button" data-go="level-3">Level 3: Essays</button><button class="small-button" type="button" data-go="game">Play the Game</button><button class="small-button" type="button" data-go="bank-request">Open the Phrase Bank</button></div>
+      <div class="sw-actions"><button class="small-button primary-action" type="button" data-go="level-2">Level 2: FCE / TOEFL Emails &rarr;</button><button class="small-button" type="button" data-go="level-1">Level 1: Short Notes</button><a class="small-button" href="fce-essay.html" target="_blank" rel="noopener">FCE Essays page &rarr;</a><button class="small-button" type="button" data-go="game">Play the Game</button><button class="small-button" type="button" data-go="bank-request">Open the Phrase Bank</button></div>
     </section>`;
   wireGo(v);
 }
@@ -143,7 +141,7 @@ function viewLevel(v, L) {
     : `<tr><td><b>${i + 1}</b><small>${esc(t.source || "iTEP Set 1")}</small></td><td><b>${esc(t.en)}</b><br><small>${esc(t.zh)}</small></td><td><span class="tone ${t.tone}">${TONE[t.tone]}</span><br><small>To ${esc(t.to)}</small></td><td>${esc(t.prompt)}${t.points ? `<div class="em-notes">${t.points.map(p => `<span>${esc(p)}</span>`).join("")}</div>` : ""}</td><td>${t.words}</td><td><button class="small-button primary-action" type="button" data-go="${t.id}">Open &rarr;</button></td></tr>`).join("");
   v.innerHTML = `<p class="eyebrow">Level ${L.n} · ${esc(L.words)}</p>
     <h2>${esc(L.en)} <span style="color:var(--muted);font-weight:600">${esc(L.zh)}</span></h2>
-    <p class="sw-sub">${esc(L.sub)}${L.n === 3 ? ' For the fill-in pattern check and typing game, open the <a href="fce-essay.html" target="_blank" rel="noopener">FCE Essays page</a>. 填空練習與打字遊戲請到 FCE 作文頁。' : ""}</p>
+    <p class="sw-sub">${esc(L.sub)}</p>
     <section class="sw-section"><h3><span>All ${L.tasks.length} prompts 題目總覽</span><span class="em-note">Model length = words in the sample ${isEssay ? "essay" : "email"}</span></h3>
       <div class="sw-table-wrap"><table class="sw-grid em-overview">
         <tr><th style="width:7%">#</th><th style="width:17%">${isEssay ? "Topic 主題" : "Purpose 目的"}</th><th style="width:${isEssay ? "46" : "14"}%">${isEssay ? "Question + notes 題目與要點" : "Reader 收件人"}</th>${isEssay ? "" : '<th>Prompt 題目</th>'}<th style="width:7%">Model</th><th style="width:9%"></th></tr>
@@ -152,7 +150,7 @@ function viewLevel(v, L) {
     </section>
     ${L.n >= 2 ? `<section class="sw-section"><h3>B2 sentence patterns in the models 範文中的高分句型 <small style="font-weight:400;color:var(--muted);font-size:13px">(shown in <b>bold</b>; the checker counts how many you use)</small></h3>
       <div class="em-frames">${FRAMES.map(f => `<span>${esc(f)}</span>`).join("")}</div></section>` : ""}
-    <section class="sw-section"><div class="em-links">${L.n > 1 ? `<button class="small-button" type="button" data-go="level-${L.n - 1}">&larr; Level ${L.n - 1}</button>` : ""}<button class="small-button primary-action" type="button" data-go="${L.tasks[0].id}">Start ${esc(L.tasks[0].en)} &rarr;</button>${L.n < 3 ? `<button class="small-button" type="button" data-go="level-${L.n + 1}">Level ${L.n + 1} &rarr;</button>` : ""}</div></section>`;
+    <section class="sw-section"><div class="em-links">${L.n > 1 ? `<button class="small-button" type="button" data-go="level-${L.n - 1}">&larr; Level ${L.n - 1}</button>` : ""}<button class="small-button primary-action" type="button" data-go="${L.tasks[0].id}">Start ${esc(L.tasks[0].en)} &rarr;</button>${L.n < LEVELS.length ? `<button class="small-button" type="button" data-go="level-${L.n + 1}">Level ${L.n + 1} &rarr;</button>` : ""}</div></section>`;
   wireGo(v);
 }
 
@@ -518,7 +516,7 @@ function viewTask(v, t) {
   $("colBtn").addEventListener("click", () => { const tb = $("planTable"); tb.classList.toggle("hide-col3"); $("colBtn").textContent = `${tb.classList.contains("hide-col3") ? "Show" : "Hide"} model ${isEssay ? "paragraphs" : "sentences"}`; });
   const nav = document.createElement("section"); nav.className = "sw-section";
   const prev = L.tasks[i - 1], next = L.tasks[i + 1];
-  nav.innerHTML = `<div class="em-links"><button class="small-button" type="button" data-go="${L.id}">☰ Level ${L.n} grid</button>${prev ? `<button class="small-button" type="button" data-go="${prev.id}">&larr; ${esc(prev.en)}</button>` : ""}${next ? `<button class="small-button primary-action" type="button" data-go="${next.id}">${esc(next.en)} &rarr;</button>` : L.n < 3 ? `<button class="small-button primary-action" type="button" data-go="level-${L.n + 1}">Level ${L.n + 1} &rarr;</button>` : `<button class="small-button" type="button" data-go="${REAL.id}">Real Email &rarr;</button>`}</div>`;
+  nav.innerHTML = `<div class="em-links"><button class="small-button" type="button" data-go="${L.id}">☰ Level ${L.n} grid</button>${prev ? `<button class="small-button" type="button" data-go="${prev.id}">&larr; ${esc(prev.en)}</button>` : ""}${next ? `<button class="small-button primary-action" type="button" data-go="${next.id}">${esc(next.en)} &rarr;</button>` : L.n < LEVELS.length ? `<button class="small-button primary-action" type="button" data-go="level-${L.n + 1}">Level ${L.n + 1} &rarr;</button>` : `<button class="small-button" type="button" data-go="${REAL.id}">Real Email &rarr;</button>`}</div>`;
   v.appendChild(nav);
   wireGo(nav);
 }
