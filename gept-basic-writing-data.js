@@ -1,4 +1,4 @@
-/* GEPT Basic (全民英檢初級) writing — 3-picture stories. Part A: 14 topics merged from Jennifer's handouts; Part B: 10 new topics.
+/* GEPT Basic (全民英檢初級) writing — 3-picture stories. Part A: 14 topics merged from Jennifer's handouts; Part B: 10 new topics; Part C: 24 topics from the added handouts and GEPT mock tests (第1–6回).
    rows: [element, key words, sentence pattern, model sentence (**bold** = pattern)] */
 window.GEPT_BASIC_STORIES = [
  {
@@ -7,7 +7,7 @@ window.GEPT_BASIC_STORIES = [
   "zh": "購物烏龍篇",
   "en": "The Wrong Shoes",
   "prompt": "陳小姐去百貨公司買了一雙漂亮的鞋子，回家後卻發現兩隻鞋尺寸不同。請依據圖片寫一篇短文。",
-  "img": null,
+  "img": "img/gept-basic-writing/shoes.jpg",
   "scenes": [
    "陳小姐去百貨公司，看到一雙漂亮的鞋子就買了",
    "回家打開盒子，發現兩隻鞋尺寸不同",
@@ -2212,5 +2212,2243 @@ window.GEPT_BASIC_STORIES = [
   ],
   "essay": "I am a 17-year-old senior high school student. To travel around Taiwan on my bike has always been my dream. This spring break, my dream came true. I started my trip from Taipei 101. I rode my bike toward the south, and I passed many cities. Some days were sunny, and some days were windy. In Taichung, I visited a beautiful park and ate Sun Cakes, the famous food there. However, on my way to Kenting National Park, I accidentally fell off my bike. I hurt my leg, and it was bleeding. It hurt so much, but I didn't give up. Two weeks later, when I finally got back home, my parents were waiting for me at the door. They were very proud of me, and I was very happy to see them. After the trip, I felt that I had grown up. Now I am brave enough to do things on my own.",
   "words": 154
+ },
+ {
+  "no": 25,
+  "part": "C",
+  "zh": "中秋烤肉遇雨篇",
+  "en": "A Rainy Mid-Autumn Barbecue",
+  "prompt": "Dorothy 和家人中秋節在公園烤肉，突然下起了大雨。爸爸靈機一動，搭了帳篷讓大家繼續烤肉。請依據下面的圖片，寫一篇短文。",
+  "img": "img/gept-basic-writing/c25.jpg",
+  "scenes": null,
+  "rows": [
+   [
+    "人物介紹 Who",
+    "elementary school student 小學生",
+    "S + is + a + 年齡-year-old + 職業.",
+    "**Dorothy is a** 12-**year-old** elementary school student."
+   ],
+   [
+    "喜好 Hobby",
+    "spend time 花時間; family 家人",
+    "S likes to V + with + 人.",
+    "**She likes to** spend time **with** her family on holidays."
+   ],
+   [
+    "圖一 時間地點",
+    "Mid-Autumn Festival 中秋節; had a barbecue 烤肉; park 公園",
+    "On + 節日, S + Ved + in + 地點.",
+    "**On** Mid-Autumn Festival, she and her family had a barbecue **in** the park."
+   ],
+   [
+    "圖一 動作",
+    "grilled 烤; meat 肉; meat stick 肉串",
+    "S + Ved + N, and S + Ved + N.",
+    "Her father grilled some meat and corn, **and** her little brother ate a meat stick happily."
+   ],
+   [
+    "心情 + 原因 Feeling",
+    "happy 開心; delicious 好吃",
+    "S felt + adj. + because + 句子.",
+    "**They felt** very happy **because** the food was so delicious."
+   ],
+   [
+    "圖二 時間 Suddenly",
+    "suddenly 突然; heavily 大量地",
+    "Suddenly, it started to V.",
+    "**Suddenly, it started to** rain very heavily."
+   ],
+   [
+    "反應 Reaction",
+    "surprised 驚訝; shouted 大叫",
+    "S was so + adj. + that + 句子.",
+    "Dorothy **was so** surprised **that** she shouted, \"Oh no!\""
+   ],
+   [
+    "問題 Problem",
+    "food 食物; get wet 淋濕",
+    "S didn't want + N + to V.",
+    "**They didn't want** the food **to** get wet."
+   ],
+   [
+    "行動 Action",
+    "ran 跑; tree 樹; wet 濕",
+    "S + Ved + to + 地點, but S still + Ved.",
+    "Everyone ran **to** a big tree, **but they still** got wet."
+   ],
+   [
+    "圖三 好主意 Idea",
+    "had a good idea 想到好主意; put up a tent 搭帳篷",
+    "Then S had a good idea. S + Ved + N.",
+    "**Then** her father **had a good idea.** He quickly put up a big tent."
+   ],
+   [
+    "結局 Ending",
+    "under the tent 在帳篷下; keep 繼續",
+    "As a result, S could keep Ving.",
+    "**As a result,** everyone **could keep** having the barbecue under the tent."
+   ],
+   [
+    "心情 Feeling",
+    "waved 揮手; laughed 笑",
+    "S + Ved and Ved + adv.",
+    "Dorothy waved **and** laughed happily."
+   ],
+   [
+    "想法 Thought",
+    "smart 聰明",
+    "S thought that + 句子.",
+    "**She thought that** her father was very smart."
+   ],
+   [
+    "萬用結尾 Lesson",
+    "best 最好的",
+    "For S, it was the + 最高級 + N + S had ever had.",
+    "**For her, it was the** best Mid-Autumn Festival **she had ever had.**"
+   ]
+  ],
+  "essay": "Dorothy is a 12-year-old elementary school student. She likes to spend time with her family on holidays. On Mid-Autumn Festival, she and her family had a barbecue in the park. Her father grilled some meat and corn, and her little brother ate a meat stick happily. They felt very happy because the food was so delicious. Suddenly, it started to rain very heavily. Dorothy was so surprised that she shouted, \"Oh no!\" They didn't want the food to get wet. Everyone ran to a big tree, but they still got wet. Then her father had a good idea. He quickly put up a big tent. As a result, everyone could keep having the barbecue under the tent. Dorothy waved and laughed happily. She thought that her father was very smart. For her, it was the best Mid-Autumn Festival she had ever had.",
+  "words": 142,
+  "src": "附件2"
+ },
+ {
+  "no": 26,
+  "part": "C",
+  "zh": "睡過頭遲到篇",
+  "en": "Justin Is Late Again",
+  "prompt": "Justin 因為睡過頭而上學遲到了。請根據這些圖片寫一篇約 50 字的短文。",
+  "img": "img/gept-basic-writing/c26.jpg",
+  "scenes": null,
+  "rows": [
+   [
+    "人物介紹 Who",
+    "junior high school student 國中生",
+    "S + is + a + 年齡-year-old + 職業.",
+    "**Justin is a** 13-**year-old** junior high school student."
+   ],
+   [
+    "個性 Personality",
+    "lazy 懶惰; stays up late 熬夜",
+    "S is a + adj. + N, and S often + Vs.",
+    "**He is a** lazy boy, **and he often** stays up late at night."
+   ],
+   [
+    "圖一 時間 + 動作",
+    "alarm clock 鬧鐘; didn't hear 沒聽到",
+    "This morning, S didn't V + N.",
+    "**This morning, he didn't** hear his alarm clock."
+   ],
+   [
+    "發現 Discovery",
+    "woke up 醒來; already 已經",
+    "When S + Ved, it was already + 時間.",
+    "**When he** woke up, **it was already** eight o'clock."
+   ],
+   [
+    "心情 + 原因 Feeling",
+    "shocked 震驚; late for school 上學遲到",
+    "S felt + adj. + because + 句子.",
+    "**He felt** shocked **because** he was going to be late for school."
+   ],
+   [
+    "動作 Action",
+    "jumped out of bed 跳下床; got dressed 穿衣服",
+    "S + Ved and Ved + adv.",
+    "He jumped out of bed **and** got dressed quickly."
+   ],
+   [
+    "早餐 Breakfast",
+    "had no time 沒時間; breakfast 早餐",
+    "S had no time to V.",
+    "He **had no time to** eat breakfast."
+   ],
+   [
+    "圖二 時間地點",
+    "bus stop 公車站; leaving 正在離開",
+    "When S + Ved, S was already Ving.",
+    "**When he** ran to the bus stop, the bus **was already** leaving."
+   ],
+   [
+    "錯過 Missed",
+    "ran after 追趕; catch 趕上",
+    "S + Ved, but S couldn't V.",
+    "He ran after the bus, **but he couldn't** catch it."
+   ],
+   [
+    "結果 Result",
+    "walk to school 走路上學",
+    "In the end, S had to V.",
+    "**In the end, he had to** walk to school."
+   ],
+   [
+    "圖三 時間地點",
+    "arrived at 抵達; angry 生氣",
+    "When S arrived at + 地點, S + Ved + adj.",
+    "**When he arrived at** school, his teacher looked very angry with him."
+   ],
+   [
+    "老師 Teacher",
+    "on time 準時",
+    "S told + 人 + to V.",
+    "She **told** him **to** come to school on time in the future."
+   ],
+   [
+    "心情 Feeling",
+    "sorry 抱歉; looked down 低頭",
+    "S felt + adj., so S + Ved.",
+    "Justin **felt** sorry, **so he** looked down and said nothing."
+   ],
+   [
+    "萬用結尾 Lesson",
+    "important lesson 重要的教訓; go to bed early 早睡",
+    "S has learned an important lesson: S should V.",
+    "**He has learned an important lesson: he should** go to bed early and get up on time."
+   ]
+  ],
+  "essay": "Justin is a 13-year-old junior high school student. He is a lazy boy, and he often stays up late at night. This morning, he didn't hear his alarm clock. When he woke up, it was already eight o'clock. He felt shocked because he was going to be late for school. He jumped out of bed and got dressed quickly. He had no time to eat breakfast. When he ran to the bus stop, the bus was already leaving. He ran after the bus, but he couldn't catch it. In the end, he had to walk to school. When he arrived at school, his teacher looked very angry with him. She told him to come to school on time in the future. Justin felt sorry, so he looked down and said nothing. He has learned an important lesson: he should go to bed early and get up on time.",
+  "words": 148,
+  "src": "附件3"
+ },
+ {
+  "no": 27,
+  "part": "C",
+  "zh": "關掉鬧鐘睡過頭篇",
+  "en": "Anna Oversleeps",
+  "prompt": "昨天早上 Anna 聽到鬧鐘的聲響後直接伸手關掉，因此睡過頭了。請根據以下的圖片寫一篇約 50 字的短文。注意：未依提示作答者，將予扣分。",
+  "img": "img/gept-basic-writing/c27.jpg",
+  "scenes": null,
+  "rows": [
+   [
+    "人物介紹 Who",
+    "senior high school student 高中生",
+    "S + is + a + 年齡-year-old + 職業.",
+    "**Anna is a** 16-**year-old** senior high school student."
+   ],
+   [
+    "習慣 Habit",
+    "get up early 早起; morning 早上",
+    "S doesn't like to V because + 句子.",
+    "**She doesn't like to** get up early in the morning **because** she always feels sleepy."
+   ],
+   [
+    "圖一 時間地點",
+    "yesterday morning 昨天早上; alarm clock 鬧鐘; rang 響",
+    "Yesterday morning, at + 時間, S + Ved.",
+    "**Yesterday morning, at** 7:30, her alarm clock rang."
+   ],
+   [
+    "圖一 動作",
+    "turned off 關掉; went back to sleep 繼續睡",
+    "S + Ved + N + and + Ved.",
+    "She turned it off **and** went back to sleep."
+   ],
+   [
+    "圖二 時間",
+    "woke up 醒來; already 已經",
+    "When S + Ved, it was already + 時間.",
+    "**When she** woke up again, **it was already** 8:00."
+   ],
+   [
+    "發現 Discovery",
+    "overslept 睡過頭",
+    "S found that + 句子.",
+    "**She found that** she had overslept."
+   ],
+   [
+    "心情 Feeling",
+    "shocked 震驚; screamed 尖叫",
+    "S was so + adj. + that + 句子.",
+    "**She was so** shocked **that** she screamed."
+   ],
+   [
+    "動作 Action",
+    "in a hurry 匆忙地; ran out of 跑出",
+    "S + Ved + in a hurry and Ved.",
+    "She got dressed **in a hurry and** ran out of the house."
+   ],
+   [
+    "早餐 Breakfast",
+    "have time 有時間; breakfast 早餐",
+    "S didn't even have time to V.",
+    "She **didn't even have time to** eat breakfast."
+   ],
+   [
+    "圖三 時間地點",
+    "bus stop 公車站; coming 來了",
+    "When S arrived at + 地點, S saw that + 句子.",
+    "**When she arrived at** the bus stop, **she saw that** Bus 232 was coming."
+   ],
+   [
+    "動作 Action",
+    "hurried 趕快; catch 趕上",
+    "S + Ved as fast as S could to V.",
+    "She hurried **as fast as she could to** catch it."
+   ],
+   [
+    "心情 Feeling",
+    "tired 累; sweating 流汗",
+    "S was + adj., and S was Ving.",
+    "**She was** very tired, **and she was** sweating a lot."
+   ],
+   [
+    "結局 Ending",
+    "luckily 幸運地; just in time 剛好及時",
+    "Luckily, S + Ved + just in time.",
+    "**Luckily,** she got on the bus **just in time.**"
+   ],
+   [
+    "萬用結尾 Lesson",
+    "never 絕不; again 再",
+    "S has learned an important lesson. S will never V again.",
+    "**She has learned an important lesson. She will never** turn off her alarm clock and go back to sleep **again.**"
+   ]
+  ],
+  "essay": "Anna is a 16-year-old senior high school student. She doesn't like to get up early in the morning because she always feels sleepy. Yesterday morning, at 7:30, her alarm clock rang. She turned it off and went back to sleep. When she woke up again, it was already 8:00. She found that she had overslept. She was so shocked that she screamed. She got dressed in a hurry and ran out of the house. She didn't even have time to eat breakfast. When she arrived at the bus stop, she saw that Bus 232 was coming. She hurried as fast as she could to catch it. She was very tired, and she was sweating a lot. Luckily, she got on the bus just in time. She has learned an important lesson. She will never turn off her alarm clock and go back to sleep again.",
+  "words": 147,
+  "src": "附件4"
+ },
+ {
+  "no": 28,
+  "part": "C",
+  "zh": "暑假打工篇",
+  "en": "Ben's Summer Job",
+  "prompt": "Ben 去年暑假去打工。請根據以下的圖片寫一篇約 50 字的短文。注意：未依提示作答者，將予扣分。",
+  "img": "img/gept-basic-writing/c28.jpg",
+  "scenes": null,
+  "rows": [
+   [
+    "人物介紹 Who",
+    "senior high school student 高中生",
+    "S + is + a + 年齡-year-old + 職業.",
+    "**Ben is a** 17-**year-old** senior high school student."
+   ],
+   [
+    "喜好 Hobby",
+    "shopping 購物; money 錢",
+    "S likes + Ving, but S doesn't have much + N.",
+    "**He likes** shopping, **but he doesn't have much** money."
+   ],
+   [
+    "圖一 時間地點",
+    "last summer 去年夏天; worked part-time 打工; store 商店",
+    "Last summer, S + Ved + at + 地點.",
+    "**Last summer,** he worked part-time **at** a store."
+   ],
+   [
+    "圖一 動作",
+    "clerk 店員; sold 賣; customers 顧客",
+    "S was a + N, and S + Ved + N + to + 人.",
+    "**He was a** clerk, **and he** sold things **to** customers."
+   ],
+   [
+    "努力 Hard Work",
+    "worked hard 努力工作; smiled 微笑",
+    "S always + Ved and Ved + at + 人.",
+    "He **always** worked hard **and** smiled **at** every customer."
+   ],
+   [
+    "心情 + 原因 Feeling",
+    "happy 開心; friendly 友善",
+    "S felt + adj. + because + 句子.",
+    "**He felt** happy **because** the customers were friendly to him."
+   ],
+   [
+    "圖二 時間地點",
+    "payday 發薪日; boss 老闆; pay 薪水",
+    "On + 日期, it was + N, and S gave + 人 + N.",
+    "**On** August 1, **it was** payday, **and** his boss **gave** him his first pay."
+   ],
+   [
+    "心情 Feeling",
+    "excited 興奮; smiling 微笑",
+    "S was so + adj. + that + 句子.",
+    "Ben **was so** excited **that** he couldn't stop smiling."
+   ],
+   [
+    "圖三 時間地點",
+    "the next day 隔天; went shopping 去購物",
+    "The next day, S + Ved + at + 地點.",
+    "**The next day,** he went shopping **at** a big store."
+   ],
+   [
+    "動作 Action",
+    "bought 買; a lot of 很多",
+    "S + Ved + a lot of + N.",
+    "He bought **a lot of** clothes, shoes, and bags."
+   ],
+   [
+    "花費 Spending",
+    "price 價格; at all 一點也不",
+    "S didn't think about + N + at all.",
+    "He **didn't think about** the price **at all.**"
+   ],
+   [
+    "發現 Discovery",
+    "spent 花; all 全部",
+    "Soon, S found that + 句子.",
+    "**Soon, he found that** he had spent all his money."
+   ],
+   [
+    "心情 Feeling",
+    "sad 難過; empty wallet 空錢包",
+    "S felt + adj., and S + Ved.",
+    "**He felt** very sad, **and he** cried with his empty wallet in his hands."
+   ],
+   [
+    "萬用結尾 Lesson",
+    "important lesson 重要的教訓; save money 存錢",
+    "S has learned an important lesson: it is + adj. + to V.",
+    "**He has learned an important lesson: it is** important **to** save money and spend it carefully."
+   ]
+  ],
+  "essay": "Ben is a 17-year-old senior high school student. He likes shopping, but he doesn't have much money. Last summer, he worked part-time at a store. He was a clerk, and he sold things to customers. He always worked hard and smiled at every customer. He felt happy because the customers were friendly to him. On August 1, it was payday, and his boss gave him his first pay. Ben was so excited that he couldn't stop smiling. The next day, he went shopping at a big store. He bought a lot of clothes, shoes, and bags. He didn't think about the price at all. Soon, he found that he had spent all his money. He felt very sad, and he cried with his empty wallet in his hands. He has learned an important lesson: it is important to save money and spend it carefully.",
+  "words": 144,
+  "src": "附件5"
+ },
+ {
+  "no": 29,
+  "part": "C",
+  "zh": "颱風停電篇",
+  "en": "The Typhoon Night",
+  "prompt": "某天颱風來了，我便去便利商店買了些東西以做準備，回家後果然停電。請依照下面的圖片，寫一篇約 50 字的故事。注意：未依提示作答者，將予扣分。",
+  "img": "img/gept-basic-writing/c29.jpg",
+  "scenes": null,
+  "rows": [
+   [
+    "人物介紹 Who",
+    "junior high school student 國中生",
+    "I + am + a + 年齡-year-old + 職業.",
+    "**I am a** 14-**year-old** junior high school student."
+   ],
+   [
+    "個性 Personality",
+    "careful 細心; plan ahead 事先計畫",
+    "I am a + adj. + person, and I always + V.",
+    "**I am a** careful **person, and I always** plan ahead."
+   ],
+   [
+    "圖一 時間",
+    "typhoon 颱風; strong 強烈的",
+    "One day, S + Ved + to + 地點.",
+    "**One day,** a strong typhoon came **to** Taiwan."
+   ],
+   [
+    "天氣 Weather",
+    "wind 風; heavily 大量地",
+    "The wind was + adj., and it + Ved + adv.",
+    "**The wind was** very strong, **and it** rained heavily."
+   ],
+   [
+    "圖一 動作",
+    "umbrella 雨傘; convenience store 便利商店",
+    "I took + N and went to + 地點.",
+    "**I took** my umbrella **and went to** a convenience store."
+   ],
+   [
+    "心情 + 原因 Feeling",
+    "worried 擔心; power 電力; go out 停電",
+    "I felt + adj. + because + 句子.",
+    "**I felt** worried **because** the power might go out at night."
+   ],
+   [
+    "圖二 地點 + 動作",
+    "instant noodles 泡麵; batteries 電池",
+    "At + 地點, I bought + N, N, and N.",
+    "**At** the store, **I bought** instant noodles, a bottle of water, **and** some batteries."
+   ],
+   [
+    "動作 Action",
+    "paid 付錢; clerk 店員",
+    "I + Ved + N, and then I + Ved.",
+    "I paid the clerk, **and then I** went home quickly."
+   ],
+   [
+    "圖三 時間",
+    "that night 那天晚上; went out 熄滅",
+    "That night, after I got home, S + Ved.",
+    "**That night, after I got home,** the power went out suddenly."
+   ],
+   [
+    "發現 Discovery",
+    "dark 暗; anything 任何東西",
+    "It was so + adj. + that I couldn't V.",
+    "**It was so** dark **that I couldn't** see anything in my room."
+   ],
+   [
+    "行動 Action",
+    "lit a candle 點蠟燭; radio 收音機",
+    "Luckily, I + Ved + N and Ved + N.",
+    "**Luckily, I** lit a candle **and** turned on my radio."
+   ],
+   [
+    "結局 Ending",
+    "ate 吃; listened to 聽",
+    "I + Ved + N while I + Ved + N.",
+    "I ate my instant noodles **while I** listened to the news about the typhoon."
+   ],
+   [
+    "萬用結尾 Lesson",
+    "glad 高興; prepared 做好準備",
+    "I was glad that + 句子. It is + adj. + to V.",
+    "**I was glad that** I was ready. **It is** important **to** be prepared for a typhoon."
+   ]
+  ],
+  "essay": "I am a 14-year-old junior high school student. I am a careful person, and I always plan ahead. One day, a strong typhoon came to Taiwan. The wind was very strong, and it rained heavily. I took my umbrella and went to a convenience store. I felt worried because the power might go out at night. At the store, I bought instant noodles, a bottle of water, and some batteries. I paid the clerk, and then I went home quickly. That night, after I got home, the power went out suddenly. It was so dark that I couldn't see anything in my room. Luckily, I lit a candle and turned on my radio. I ate my instant noodles while I listened to the news about the typhoon. I was glad that I was ready. It is important to be prepared for a typhoon.",
+  "words": 143,
+  "src": "附件6"
+ },
+ {
+  "no": 30,
+  "part": "C",
+  "zh": "百貨公司特賣篇",
+  "en": "The Big Shoe Sale",
+  "prompt": "昨天你去逛百貨公司時，看到一張特賣會的海報。請根據以下的圖片寫一篇約 50 字的短文。注意：未依提示作答者，將予扣分。",
+  "img": "img/gept-basic-writing/c30.jpg",
+  "scenes": null,
+  "rows": [
+   [
+    "人物介紹 Who",
+    "college student 大學生",
+    "I + am + a + 年齡-year-old + 職業.",
+    "**I am a** 20-**year-old** college student."
+   ],
+   [
+    "喜好 Hobby",
+    "sports 運動; sneakers 運動鞋",
+    "I like + N, and I love + N.",
+    "**I like** sports, **and I love** sneakers."
+   ],
+   [
+    "圖一 時間地點",
+    "department store 百貨公司; downtown 市中心",
+    "Yesterday afternoon, I + Ved + to + 地點.",
+    "**Yesterday afternoon, I** went **to** a department store downtown."
+   ],
+   [
+    "圖一 原因 Reason",
+    "look around 四處逛逛; free 有空",
+    "I wanted to V because + 句子.",
+    "**I wanted to** look around **because** I had nothing to do."
+   ],
+   [
+    "圖二 時間地點",
+    "poster 海報; wall 牆",
+    "When I + Ved, I saw + N.",
+    "**When I** walked inside, **I saw** a poster on the wall."
+   ],
+   [
+    "海報 Poster",
+    "sale 特賣; 30% off 打七折",
+    "It said, \"...\"",
+    "**It said,** \"SALE! All 30% off!\" in big letters."
+   ],
+   [
+    "發現 Discovery",
+    "on sale 特價",
+    "I found that + 句子.",
+    "**I found that** the sneakers were on sale."
+   ],
+   [
+    "樣子 Look",
+    "black 黑色; cool 酷",
+    "S were + adj. and adj.",
+    "**They were** black **and** very cool."
+   ],
+   [
+    "心情 + 原因 Feeling",
+    "excited 興奮; cheaper 更便宜",
+    "I felt + adj. + because + 句子.",
+    "**I felt** excited **because** they were much cheaper than usual."
+   ],
+   [
+    "動作 Action",
+    "tried on 試穿; fit 合身",
+    "I + Ved + N, and they + Ved + 人 + adv.",
+    "I tried on a pair of sneakers, **and they** fit me perfectly."
+   ],
+   [
+    "決定 Decision",
+    "decided 決定; buy 買",
+    "I decided to V + N.",
+    "**I decided to** buy them."
+   ],
+   [
+    "圖三 結果",
+    "paid for 付錢; counter 櫃台; right away 立刻",
+    "So I + Ved + N + at + 地點 + right away.",
+    "**So I** paid for them **at** the counter **right away.**"
+   ],
+   [
+    "結局 Ending",
+    "left 離開; shopping bag 購物袋",
+    "When I left + 地點, I was Ving + N.",
+    "**When I left** the department store, **I was** carrying a big shopping bag with my new shoes in it."
+   ],
+   [
+    "心情 Feeling",
+    "couldn't wait 等不及; wear 穿",
+    "I couldn't wait to V.",
+    "**I couldn't wait to** wear them to school."
+   ],
+   [
+    "萬用結尾 Lesson",
+    "luckiest 最幸運的",
+    "For me, it was the + 最高級 + N.",
+    "**For me, it was the** luckiest shopping day of the year."
+   ]
+  ],
+  "essay": "I am a 20-year-old college student. I like sports, and I love sneakers. Yesterday afternoon, I went to a department store downtown. I wanted to look around because I had nothing to do. When I walked inside, I saw a poster on the wall. It said, \"SALE! All 30% off!\" in big letters. I found that the sneakers were on sale. They were black and very cool. I felt excited because they were much cheaper than usual. I tried on a pair of sneakers, and they fit me perfectly. I decided to buy them. So I paid for them at the counter right away. When I left the department store, I was carrying a big shopping bag with my new shoes in it. I couldn't wait to wear them to school. For me, it was the luckiest shopping day of the year.",
+  "words": 142,
+  "src": "附件7"
+ },
+ {
+  "no": 31,
+  "part": "C",
+  "zh": "倒楣透頂的一天篇",
+  "en": "My Unlucky Day",
+  "prompt": "昨天你一整天的運氣都很壞，請根據圖片以約 50 字敘述其中過程。",
+  "img": "img/gept-basic-writing/c31.jpg",
+  "scenes": null,
+  "rows": [
+   [
+    "人物介紹 Who",
+    "junior high school student 國中生",
+    "S + am + a + 年齡-year-old + 職業.",
+    "**I am a** 13-**year-old** junior high school student."
+   ],
+   [
+    "個性 Personality",
+    "friendly 友善的; set my alarm clock 設定鬧鐘",
+    "S am a + adj. + N, but S often + V",
+    "**I am a** friendly boy, **but I often** forget to set my alarm clock."
+   ],
+   [
+    "圖一 時間",
+    "woke up 醒來; already 已經",
+    "Yesterday morning, when S woke up, it was already + 時間.",
+    "**Yesterday morning, when I woke up, it was already** nine o'clock."
+   ],
+   [
+    "心情 + 原因 Feeling",
+    "shocked 震驚的; late for school 上學遲到",
+    "S felt + adj. + because + 句子",
+    "**I felt** shocked **because** I was going to be late for school."
+   ],
+   [
+    "圖二 動作",
+    "grabbed 抓起; bus stop 公車站",
+    "S + Ved + N and ran to + 地點.",
+    "**I** quickly grabbed my school bag **and ran to** the bus stop."
+   ],
+   [
+    "錯過 Missed",
+    "was already leaving 已經要開走了",
+    "When S got there, N was already Ving.",
+    "**When I got there, the bus was already** leaving."
+   ],
+   [
+    "細節 Details",
+    "waved 揮手; shouted 大喊; driver 司機",
+    "S + Ved and Ved, but S didn't V",
+    "**I** waved **and** shouted, **but the driver didn't** stop."
+   ],
+   [
+    "圖三 時間地點",
+    "English teacher 英文老師; angry 生氣的",
+    "When S arrived at + 地點, S was very + adj. with + 人.",
+    "**When I arrived at** school, my English teacher **was very** angry **with** me."
+   ],
+   [
+    "圖三 動作",
+    "pointed at 指著; scolded 責罵",
+    "S + Ved at + 人 and Ved + 人 + for + V-ing.",
+    "She pointed **at** me **and** scolded me **for** being late."
+   ],
+   [
+    "心情 Feeling",
+    "embarrassed 丟臉的; almost cried 差點哭了",
+    "S was so + adj. + that + 句子",
+    "**I was so** embarrassed **that** I almost cried."
+   ],
+   [
+    "圖四 時間地點",
+    "on my way home 在回家的路上; ran after 追趕",
+    "After school, on S's way home, S + Ved",
+    "**After school, on my way home,** an angry dog suddenly **ran after** me."
+   ],
+   [
+    "結局 Ending",
+    "barked at 對…吠叫; bit 咬; as fast as I could 盡全力快跑",
+    "S + Ved at + 人 and almost Ved + N, so S + Ved as + adv. + as S could.",
+    "It barked **at** me **and almost** bit my leg, **so I** ran home **as** fast **as I could.**"
+   ],
+   [
+    "萬用結尾 Lesson",
+    "the worst 最糟的",
+    "For S, it was the 最高級 + N + of + N.",
+    "**For me, it was the** worst day **of** my life."
+   ]
+  ],
+  "essay": "I am a 13-year-old junior high school student. I am a friendly boy, but I often forget to set my alarm clock. Yesterday morning, when I woke up, it was already nine o'clock. I felt shocked because I was going to be late for school. I quickly grabbed my school bag and ran to the bus stop. When I got there, the bus was already leaving. I waved and shouted, but the driver didn't stop. When I arrived at school, my English teacher was very angry with me. She pointed at me and scolded me for being late. I was so embarrassed that I almost cried. After school, on my way home, an angry dog suddenly ran after me. It barked at me and almost bit my leg, so I ran home as fast as I could. For me, it was the worst day of my life.",
+  "words": 147,
+  "src": "附件8"
+ },
+ {
+  "no": 32,
+  "part": "C",
+  "zh": "上課偷玩手機篇",
+  "en": "Jack's Phone Games",
+  "prompt": "在上課時，Jack 總是在偷偷玩手機遊戲。他在測驗中的表現非常不理想。爸爸很生氣，不允許他用電腦或手機。請根據這些圖片寫一篇約 50 字的短文。注意：未依提示作答者，將予扣分。",
+  "img": "img/gept-basic-writing/c32.jpg",
+  "scenes": null,
+  "rows": [
+   [
+    "人物介紹 Who",
+    "elementary school student 小學生",
+    "S + is + a + 年齡-year-old + 職業.",
+    "**Jack is a** 12-**year-old** elementary school student."
+   ],
+   [
+    "喜好 Hobby",
+    "phone games 手機遊戲",
+    "S loves + V-ing + N very much, and S + Vs + every day.",
+    "**He loves** playing phone games **very much, and he** plays them **every day.**"
+   ],
+   [
+    "圖一 時間地點",
+    "in class 上課時; secretly 偷偷地",
+    "In class, S always + Ved + adv.",
+    "**In class, he always** played games on his phone **secretly.**"
+   ],
+   [
+    "圖一 動作",
+    "teaching 教課; listening 聽講",
+    "While S was Ving, S wasn't Ving at all.",
+    "**While the teacher was** teaching English, Jack **wasn't** listening **at all.**"
+   ],
+   [
+    "圖二 時間",
+    "gave back 發回; test papers 考卷",
+    "One day, S gave back + N.",
+    "**One day, the teacher gave back** the English test papers to the students."
+   ],
+   [
+    "發現 Discovery",
+    "looked at 看; bad grade 爛成績",
+    "When S + Ved, S found that + 句子",
+    "**When Jack** looked at his paper, **he found that** he got a very bad grade."
+   ],
+   [
+    "心情 + 原因 Feeling",
+    "shocked 震驚的; wrong 錯的",
+    "S felt + adj. + because + 句子",
+    "**He felt** shocked **because** most of his answers were wrong."
+   ],
+   [
+    "圖三 時間地點",
+    "got home 到家; showed 給…看",
+    "When S got home, S + Ved + N + to + 人.",
+    "**When he got home, he** showed the test paper **to** his father."
+   ],
+   [
+    "心情 Feeling",
+    "angry 生氣的; shouted at 對…大吼",
+    "S was very + adj. + with + 人 and + Ved",
+    "His father **was very** angry **with** him **and** shouted at him."
+   ],
+   [
+    "結局 Ending",
+    "computer 電腦; anymore 不再",
+    "S told + 人 + that + 句子",
+    "**He told** Jack **that** he couldn't use the computer or his phone anymore."
+   ],
+   [
+    "心情 Feeling",
+    "sad 難過的; cried 哭了",
+    "S felt + adj. and + Ved.",
+    "**Jack felt** very sad **and** cried."
+   ],
+   [
+    "反省 Reflection",
+    "made a big mistake 犯了大錯",
+    "S knew that + 句子",
+    "**He knew that** he made a big mistake."
+   ],
+   [
+    "萬用結尾 Lesson",
+    "important lesson 重要的教訓; carefully 專心地",
+    "S has learned an important lesson: 句子",
+    "**He has learned an important lesson:** he should listen carefully in class and stop playing games."
+   ]
+  ],
+  "essay": "Jack is a 12-year-old elementary school student. He loves playing phone games very much, and he plays them every day. In class, he always played games on his phone secretly. While the teacher was teaching English, Jack wasn't listening at all. One day, the teacher gave back the English test papers to the students. When Jack looked at his paper, he found that he got a very bad grade. He felt shocked because most of his answers were wrong. When he got home, he showed the test paper to his father. His father was very angry with him and shouted at him. He told Jack that he couldn't use the computer or his phone anymore. Jack felt very sad and cried. He knew that he made a big mistake. He has learned an important lesson: he should listen carefully in class and stop playing games.",
+  "words": 145,
+  "src": "附件9"
+ },
+ {
+  "no": 33,
+  "part": "C",
+  "zh": "Tom 忘了帶作業篇",
+  "en": "Tom's Forgotten Homework",
+  "prompt": "這是 Tom 今天到學校去上課的情景。請根據以下三張圖片，描寫出一篇約 50 字的「Tom 的一日記事」。注意：未依提示作答者，將予以扣分。",
+  "img": "img/gept-basic-writing/c33.jpg",
+  "scenes": null,
+  "rows": [
+   [
+    "人物介紹 Who",
+    "elementary school student 小學生",
+    "S + is + a + 年齡-year-old + 職業.",
+    "**Tom is a** 12-**year-old** elementary school student."
+   ],
+   [
+    "個性 Personality",
+    "friendly 友善; forgetful 健忘",
+    "S is a + adj. + N, but S is often + adj.",
+    "**He is a** friendly boy, **but he is often** forgetful."
+   ],
+   [
+    "圖一 時間地點",
+    "alarm clock 鬧鐘; rang 響",
+    "This morning, S + Ved at + 時間, but S was still Ving.",
+    "**This morning,** his alarm clock rang **at** 6:30, **but** he was still sleeping."
+   ],
+   [
+    "圖一 動作",
+    "sleepy 想睡; get up 起床",
+    "S was so + adj. + that + 句子",
+    "**He was so** sleepy **that** he didn't want to get up."
+   ],
+   [
+    "圖一 結果",
+    "in a hurry 匆忙; packed 收拾",
+    "In the end, S + Ved and Ved + N in a hurry.",
+    "**In the end,** he got up **and** packed his schoolbag **in a hurry.**"
+   ],
+   [
+    "圖二 時間地點",
+    "walked to school 走路上學; backpack 背包",
+    "Then S + Ved to + 地點 with + N.",
+    "**Then he** walked **to** school **with** his backpack."
+   ],
+   [
+    "心情 + 原因 Feeling",
+    "happy 開心; see his friends 見到朋友",
+    "S felt + adj. + because + 句子",
+    "**He felt** happy **because** he could see his friends and play with them at school."
+   ],
+   [
+    "圖三 時間地點",
+    "first class 第一堂課; hand in 繳交",
+    "When S + Ved, S asked + 人 + to V",
+    "**When** the first class started, **his teacher asked** the students **to** hand in their homework."
+   ],
+   [
+    "發現 Discovery",
+    "forgot to bring 忘了帶; homework 作業",
+    "S found that + 句子",
+    "**Tom found that** he forgot to bring his homework."
+   ],
+   [
+    "結局 Ending",
+    "angry 生氣; scolded 責罵",
+    "S was very + adj., and S + Ved + 人.",
+    "His teacher **was very** angry, **and she** scolded him in front of the whole class."
+   ],
+   [
+    "心情 Feeling",
+    "embarrassed 尷尬; said sorry 道歉",
+    "S felt + adj., and S said sorry to + 人.",
+    "**He felt** embarrassed, **and he said sorry to** his teacher again and again."
+   ],
+   [
+    "萬用結尾 Lesson",
+    "check 檢查; the night before 前一晚",
+    "S has learned an important lesson: S will always V",
+    "**He has learned an important lesson:** he **will always** check his schoolbag the night before."
+   ]
+  ],
+  "essay": "Tom is a 12-year-old elementary school student. He is a friendly boy, but he is often forgetful. This morning, his alarm clock rang at 6:30, but he was still sleeping. He was so sleepy that he didn't want to get up. In the end, he got up and packed his schoolbag in a hurry. Then he walked to school with his backpack. He felt happy because he could see his friends and play with them at school. When the first class started, his teacher asked the students to hand in their homework. Tom found that he forgot to bring his homework. His teacher was very angry, and she scolded him in front of the whole class. He felt embarrassed, and he said sorry to his teacher again and again. He has learned an important lesson: he will always check his schoolbag the night before.",
+  "words": 145,
+  "src": "附件10"
+ },
+ {
+  "no": 34,
+  "part": "C",
+  "zh": "和媽媽逛市場篇",
+  "en": "A Trip to the Market",
+  "prompt": "星期天，你和媽媽去市場買菜。市場好熱鬧喔！請根據這些圖片，寫一篇約 50 字的短文。",
+  "img": "img/gept-basic-writing/c34.jpg",
+  "scenes": null,
+  "rows": [
+   [
+    "人物介紹 Who",
+    "elementary school student 小學生",
+    "I + am + a + 年齡-year-old + 職業.",
+    "**I am a** 10-**year-old** elementary school student."
+   ],
+   [
+    "個性 Personality",
+    "helpful 樂於助人; housework 家事",
+    "I am + adj., and I often V",
+    "**I am** helpful, **and I often** help my mother with housework."
+   ],
+   [
+    "圖一 時間地點",
+    "last Sunday 上星期天; market 市場",
+    "Last Sunday, S asked + 人 + to V with her.",
+    "**Last Sunday morning,** my mother **asked** me **to** go to the market **with her.**"
+   ],
+   [
+    "心情 + 原因 Feeling",
+    "happy 開心; love 喜愛",
+    "I felt + adj. + because + 句子",
+    "**I felt** happy **because** I love going to the market with her."
+   ],
+   [
+    "圖二 時間地點",
+    "lively 熱鬧; arrived 到達",
+    "When we arrived, S was very + adj.",
+    "**When we arrived,** the market **was very** lively."
+   ],
+   [
+    "圖二 景色 Scene",
+    "stalls 攤位; colorful 色彩繽紛",
+    "The stalls were full of + N.",
+    "**The stalls were full of** colorful vegetables, fruit, and meat."
+   ],
+   [
+    "圖二 動作",
+    "sellers 小販; shouting 叫賣",
+    "There were many + N, and S were Ving",
+    "**There were many** people and sellers, **and** some sellers **were** shouting loudly."
+   ],
+   [
+    "細節 Details",
+    "friendly 友善; fresh 新鮮",
+    "One + N + Ved at us and said, \"...\"",
+    "**One** friendly seller **smiled at us and said,** \"My vegetables are very fresh!\""
+   ],
+   [
+    "細節 2 Details",
+    "waved 揮手; take a look 看一看",
+    "Another + N + Ved at us and said, \"...\"",
+    "**Another** seller **waved at us and said,** \"Come and take a look!\""
+   ],
+   [
+    "購物 Shopping",
+    "bought 買; vegetables 蔬菜; fruit 水果",
+    "We + Ved + N, N, and N.",
+    "**We bought** some fresh vegetables, meat, **and** fruit for dinner."
+   ],
+   [
+    "圖三 時間地點",
+    "on the way home 回家路上; carried 提",
+    "On the way home, I + Ved + N for + 人.",
+    "**On the way home, I** carried a heavy bag **for** my mother."
+   ],
+   [
+    "心情 Feeling",
+    "thanked 謝謝; proud 驕傲",
+    "S thanked me, and I felt + adj.",
+    "My mother **thanked me, and I felt** very proud of myself."
+   ],
+   [
+    "萬用結尾 Ending",
+    "best 最棒; Sunday 星期天",
+    "For me, it was the + 最高級 + N.",
+    "**For me, it was the** best Sunday **of the month.**"
+   ]
+  ],
+  "essay": "I am a 10-year-old elementary school student. I am helpful, and I often help my mother with housework. Last Sunday morning, my mother asked me to go to the market with her. I felt happy because I love going to the market with her. When we arrived, the market was very lively. The stalls were full of colorful vegetables, fruit, and meat. There were many people and sellers, and some sellers were shouting loudly. One friendly seller smiled at us and said, \"My vegetables are very fresh!\" Another seller waved at us and said, \"Come and take a look!\" We bought some fresh vegetables, meat, and fruit for dinner. On the way home, I carried a heavy bag for my mother. My mother thanked me, and I felt very proud of myself. For me, it was the best Sunday of the month.",
+  "words": 142,
+  "src": "附件16"
+ },
+ {
+  "no": 35,
+  "part": "C",
+  "zh": "邊走邊滑手機篇",
+  "en": "Eric and the Sleeping Dog",
+  "prompt": "昨天 Eric 走路回家時邊走邊使用手機。請根據以下的圖片寫一篇約 50 字的短文。注意：未依提示作答者，將予扣分。",
+  "img": "img/gept-basic-writing/c35.jpg",
+  "scenes": null,
+  "rows": [
+   [
+    "人物介紹 Who",
+    "senior high school student 高中生",
+    "S + is + a + 年齡-year-old + 職業.",
+    "**Eric is a** 16-**year-old** senior high school student."
+   ],
+   [
+    "喜好 Hobby",
+    "phone 手機; all the time 一直",
+    "S loves + N, and S + Vs + N + all the time.",
+    "**He loves** his phone, **and he** uses it **all the time.**"
+   ],
+   [
+    "圖一 時間 + 動作",
+    "walking home 走路回家; looking at 看著",
+    "Yesterday, when S was Ving, S was Ving.",
+    "**Yesterday, when he was** walking home, **he was** looking at his phone."
+   ],
+   [
+    "圖一 細節",
+    "sleeping 睡覺; sidewalk 人行道",
+    "There was a + N + Ving + on + 地點.",
+    "**There was a** dog sleeping **on** the sidewalk near the bushes."
+   ],
+   [
+    "原因 Reason",
+    "busy with 忙於; notice 注意到",
+    "S was so + adj. + that + S didn't V.",
+    "**He was so** busy with his phone **that he didn't** notice the dog."
+   ],
+   [
+    "圖二 動作",
+    "suddenly 突然; stepped on 踩到",
+    "Suddenly, S + Ved + N.",
+    "**Suddenly,** he stepped on the dog."
+   ],
+   [
+    "反應 Reaction",
+    "woke up 醒來; angrily 生氣地",
+    "S + Ved and Ved + 人 + adv.",
+    "The dog woke up **and** looked at him angrily."
+   ],
+   [
+    "痛 Pain",
+    "hurt 受傷; cried out 叫出來",
+    "S + Ved because + 句子.",
+    "It cried out **because** it was hurt."
+   ],
+   [
+    "圖三 動作",
+    "stood up 站起來; barked at 對…吠叫",
+    "Then, S + Ved and Ved at + 人 + adv.",
+    "**Then,** it stood up **and** barked **at** Eric loudly and angrily."
+   ],
+   [
+    "心情 Feeling",
+    "scared 害怕; jumped back 往後跳",
+    "S felt + adj., and S + Ved.",
+    "Eric **felt** very scared, **and he** jumped back with his hands up."
+   ],
+   [
+    "發現 Discovery",
+    "dropped 掉落; screen 螢幕; broken 破掉的",
+    "S found that + 句子.",
+    "**He found that** he had dropped his phone, and the screen was broken."
+   ],
+   [
+    "心情 + 原因 Feeling",
+    "sad 難過",
+    "S felt + adj. + because + 句子.",
+    "**He felt** sad **because** his phone was broken."
+   ],
+   [
+    "結局 Ending",
+    "picked up 撿起; carefully 小心地",
+    "After that, S + Ved + N and Ved + adv.",
+    "**After that,** he picked up his phone **and** walked home carefully."
+   ],
+   [
+    "萬用結尾 Lesson",
+    "important lesson 重要的教訓; while walking 走路時",
+    "S has learned an important lesson: S should not V.",
+    "**He has learned an important lesson: he should not** use his phone while walking on the street."
+   ]
+  ],
+  "essay": "Eric is a 16-year-old senior high school student. He loves his phone, and he uses it all the time. Yesterday, when he was walking home, he was looking at his phone. There was a dog sleeping on the sidewalk near the bushes. He was so busy with his phone that he didn't notice the dog. Suddenly, he stepped on the dog. The dog woke up and looked at him angrily. It cried out because it was hurt. Then, it stood up and barked at Eric loudly and angrily. Eric felt very scared, and he jumped back with his hands up. He found that he had dropped his phone, and the screen was broken. He felt sad because his phone was broken. After that, he picked up his phone and walked home carefully. He has learned an important lesson: he should not use his phone while walking on the street.",
+  "words": 149,
+  "src": "附件17"
+ },
+ {
+  "no": 36,
+  "part": "C",
+  "zh": "海邊快樂的一天篇",
+  "en": "A Happy Day at the Beach",
+  "prompt": "金城武 (Takeshi) 和徐若瑄 (Vivian) 今天早上開車去海邊。他們玩得很開心，還認識了新朋友。請依據下面的圖片，寫一篇約 50 字的短文，描述金城武 (Takeshi) 和徐若瑄 (Vivian) 快樂的一天。注意：未依提示作答者，將予扣分。",
+  "img": "img/gept-basic-writing/c36.jpg",
+  "scenes": null,
+  "rows": [
+   [
+    "人物介紹 Who",
+    "young couple 年輕夫妻",
+    "S + are + a + adj. + N.",
+    "**Takeshi and Vivian are a** young couple."
+   ],
+   [
+    "喜好 Hobby",
+    "beach 海邊; sunshine 陽光",
+    "S love + Ving + at + 地點.",
+    "**They love** playing **at** the beach."
+   ],
+   [
+    "圖一 時間地點",
+    "this morning 今天早上; drove 開車",
+    "This morning, S + Ved + to + 地點.",
+    "**This morning,** they drove **to** the beach in their green sports car."
+   ],
+   [
+    "沿途 On the Way",
+    "palm trees 棕櫚樹; blue sea 藍色的海",
+    "On the way, S saw + N and N.",
+    "**On the way, they saw** many palm trees **and** the blue sea."
+   ],
+   [
+    "心情 + 天氣 Feeling",
+    "sunny 晴朗; excited 興奮",
+    "It was + adj. and adj., and S felt + adj.",
+    "**It was** sunny **and** hot, **and they felt** very excited."
+   ],
+   [
+    "圖二 時間 + 動作",
+    "arrived 抵達; frisbee 飛盤",
+    "When S + Ved, S + Ved + N.",
+    "**When they** arrived, Vivian played frisbee on the beach."
+   ],
+   [
+    "動作 Action",
+    "swimming 游泳; sea 海",
+    "At the same time, S was Ving.",
+    "**At the same time,** Takeshi **was** swimming in the sea."
+   ],
+   [
+    "發現 Discovery",
+    "cute 可愛的; caught 接住",
+    "S + Ved over, Ved + adv., and Ved + N.",
+    "A cute dog ran **over,** jumped up high, **and** caught the frisbee."
+   ],
+   [
+    "心情 Feeling",
+    "laughed 笑; had fun 玩得開心",
+    "S + Ved and had a lot of fun.",
+    "They laughed **and had a lot of fun.**"
+   ],
+   [
+    "新朋友 New Friends",
+    "met 認識; new friends 新朋友",
+    "On + 地點, S also + Ved + N.",
+    "**On** the beach, they **also** met two new friends, a man and a woman."
+   ],
+   [
+    "聊天 Chat",
+    "talked 聊天; for a long time 很久",
+    "S + Ved with + 人 + for a long time.",
+    "They talked **with** them **for a long time.**"
+   ],
+   [
+    "圖三 時間 + 動作",
+    "invited 邀請; beach house 海邊小屋",
+    "In the afternoon, S invited + 人 + to V.",
+    "**In the afternoon,** they **invited** their new friends **to** visit their beach house."
+   ],
+   [
+    "說話 Speech",
+    "welcome 歡迎",
+    "S said + adv., \"...\"",
+    "Vivian **said** happily, \"Welcome to our home!\""
+   ],
+   [
+    "結局 Ending",
+    "had dinner 吃晚餐; together 一起",
+    "Then, S + Ved + N + together.",
+    "**Then,** they had dinner **together.**"
+   ],
+   [
+    "萬用結尾 Lesson",
+    "happiest 最快樂的",
+    "For S, it was the + 最高級 + N.",
+    "**For them, it was the** happiest day of the whole year."
+   ]
+  ],
+  "essay": "Takeshi and Vivian are a young couple. They love playing at the beach. This morning, they drove to the beach in their green sports car. On the way, they saw many palm trees and the blue sea. It was sunny and hot, and they felt very excited. When they arrived, Vivian played frisbee on the beach. At the same time, Takeshi was swimming in the sea. A cute dog ran over, jumped up high, and caught the frisbee. They laughed and had a lot of fun. On the beach, they also met two new friends, a man and a woman. They talked with them for a long time. In the afternoon, they invited their new friends to visit their beach house. Vivian said happily, \"Welcome to our home!\" Then, they had dinner together. For them, it was the happiest day of the whole year.",
+  "words": 144,
+  "src": "附件18"
+ },
+ {
+  "no": 37,
+  "part": "C",
+  "zh": "睡過頭錯過公車篇",
+  "en": "Missing the School Bus",
+  "prompt": "請依據下面的圖片，寫一篇約 50 字的短文，描寫圖片的情節。",
+  "img": "img/gept-basic-writing/c37.jpg",
+  "scenes": null,
+  "rows": [
+   [
+    "人物介紹 Who",
+    "junior high school student 國中生",
+    "S + is + a + 年齡-year-old + 職業.",
+    "**Amy is a** 13-**year-old** junior high school student."
+   ],
+   [
+    "個性 Personality",
+    "kind 善良的; stays up late 熬夜",
+    "S is a + adj. + N, but S often + Vs",
+    "**She is a** kind girl, **but she often** stays up late."
+   ],
+   [
+    "前因 Cause",
+    "computer games 電腦遊戲; midnight 午夜",
+    "Last night, S + Ved until + 時間.",
+    "**Last night, she** played computer games **until** midnight."
+   ],
+   [
+    "圖一 時間地點",
+    "alarm clock 鬧鐘; rang 響了",
+    "At + 時間 + this morning, S + Ved.",
+    "**At** 6:30 **this morning,** her alarm clock rang."
+   ],
+   [
+    "圖一 動作",
+    "sleepy 想睡的; turned it off 關掉; went back to sleep 又睡著",
+    "S was so + adj. + that + 句子",
+    "**She was so** sleepy **that** she turned it off and went back to sleep."
+   ],
+   [
+    "圖二 時間",
+    "woke up 醒來; already 已經",
+    "When S + Ved, it was already + 時間.",
+    "**When she** woke up again, **it was already** 7:30."
+   ],
+   [
+    "心情 + 原因 Feeling",
+    "shocked 震驚的; school bus 校車",
+    "S felt + adj. + because + 句子",
+    "**She felt** shocked **because** her school bus came at 7:40."
+   ],
+   [
+    "動作 Action",
+    "jumped out of bed 跳下床; got dressed 穿好衣服",
+    "S + Ved and Ved as + adv. + as possible.",
+    "She jumped out of bed **and** got dressed **as quickly as possible.**"
+   ],
+   [
+    "圖三 時間地點",
+    "bus stop 公車站; leaving 正要離開",
+    "When S arrived at + 地點, S found that + 句子",
+    "**When she arrived at** the bus stop, **she found that** Bus 304 was already leaving."
+   ],
+   [
+    "動作 Action",
+    "ran after 追趕; shouted 大喊",
+    "S + Ved and Ved, \"...\"",
+    "She **ran after** the bus **and shouted,** \"Wait for me!\""
+   ],
+   [
+    "結局 Ending",
+    "driver 司機; walk to school 走路上學",
+    "However, S didn't V, so S had to V",
+    "**However,** the driver **didn't** see her, **so she had to** walk to school."
+   ],
+   [
+    "心情 Feeling",
+    "late for school 上學遲到; upset 沮喪的",
+    "As a result, S was + adj., and S felt + adj.",
+    "**As a result,** she **was** late for school, **and she felt** very upset."
+   ],
+   [
+    "萬用結尾 Lesson",
+    "important lesson 重要的教訓; school nights 上學日前一晚",
+    "S has learned an important lesson: 句子",
+    "**She has learned an important lesson:** never stay up late on school nights."
+   ]
+  ],
+  "essay": "Amy is a 13-year-old junior high school student. She is a kind girl, but she often stays up late. Last night, she played computer games until midnight. At 6:30 this morning, her alarm clock rang. She was so sleepy that she turned it off and went back to sleep. When she woke up again, it was already 7:30. She felt shocked because her school bus came at 7:40. She jumped out of bed and got dressed as quickly as possible. When she arrived at the bus stop, she found that Bus 304 was already leaving. She ran after the bus and shouted, \"Wait for me!\" However, the driver didn't see her, so she had to walk to school. As a result, she was late for school, and she felt very upset. She has learned an important lesson: never stay up late on school nights.",
+  "words": 147,
+  "src": "附件19"
+ },
+ {
+  "no": 38,
+  "part": "C",
+  "zh": "帶外國朋友遊台南篇",
+  "en": "My Weekend with Tom",
+  "prompt": "上周五你的外國朋友Tom來台灣拜訪你，請描述你上周末帶他出遊台灣知名景點的旅程。",
+  "img": "img/gept-basic-writing/c38.jpg",
+  "scenes": null,
+  "rows": [
+   [
+    "人物介紹 Who",
+    "junior high school student 國中生; Tainan 台南",
+    "S + am + a + 年齡-year-old + 職業 + in + 地點.",
+    "**I am a** 14-**year-old** junior high school student **in** Tainan."
+   ],
+   [
+    "朋友 Friend",
+    "foreign friend 外國朋友; named 名叫",
+    "I have a + adj. + N + named + 名字, and S lives in + 地點.",
+    "**I have a** foreign friend **named** Tom, **and he lives in** America."
+   ],
+   [
+    "喜好 Hobby",
+    "interested in 對…有興趣; culture 文化",
+    "S is interested in + N and N.",
+    "He **is interested in** Taiwanese culture **and** food."
+   ],
+   [
+    "圖一 時間地點",
+    "railway station 火車站; meet 迎接",
+    "Last Friday, S went to + 地點 + to V",
+    "**Last Friday, I went to** Tainan Railway Station **to** meet him."
+   ],
+   [
+    "圖一 動作",
+    "arrived 抵達; late at night 深夜",
+    "S + Ved at + 時間, so + 句子",
+    "His train **arrived at** 11:45 p.m., **so** it was very late at night."
+   ],
+   [
+    "心情 + 原因 Feeling",
+    "excited 興奮的; show him around 帶他四處看看",
+    "S felt + adj. + because + 句子",
+    "**I felt** very excited **because** I wanted to show him around my city."
+   ],
+   [
+    "圖二 時間地點",
+    "famous 有名的; temple 廟宇",
+    "On + 星期, S took + 人 + to + 地點.",
+    "**On Saturday, I took him to** a famous old temple."
+   ],
+   [
+    "圖二 動作",
+    "noodles 麵; shop 小店; near 在…附近",
+    "After that, S + Ved + N at + 地點 + near + N.",
+    "**After that, we** ate noodles **at** a small shop **near** the temple."
+   ],
+   [
+    "心情 Feeling",
+    "thumbs-up 豎起大拇指; delicious 美味的",
+    "S gave me a thumbs-up and said, \"...\"",
+    "Tom **gave me a thumbs-up and said,** \"This is delicious!\""
+   ],
+   [
+    "圖三 時間地點",
+    "go back to 回去; by bus 搭公車",
+    "On + 星期, S had to V + by + 交通工具, so S + Ved",
+    "**On Sunday, Tom had to** go back to Taipei **by** bus, **so I** took him to the bus stop."
+   ],
+   [
+    "結局 Ending",
+    "got on 上車; thanked 感謝; wonderful 很棒的",
+    "Before S + Ved, S + Ved + 人 + for + N.",
+    "**Before he** got on the bus, **he** thanked me **for** the wonderful trip."
+   ],
+   [
+    "心情 Feeling",
+    "sad 難過; said goodbye 道別",
+    "S felt a little + adj. when S + Ved.",
+    "**I felt a little** sad **when we** said goodbye."
+   ],
+   [
+    "萬用結尾 Lesson",
+    "the best 最棒的; weekend 週末",
+    "For S, it was the 最高級 + N + of + N.",
+    "**For me, it was the** best weekend **of** the year."
+   ]
+  ],
+  "essay": "I am a 14-year-old junior high school student in Tainan. I have a foreign friend named Tom, and he lives in America. He is interested in Taiwanese culture and food. Last Friday, I went to Tainan Railway Station to meet him. His train arrived at 11:45 p.m., so it was very late at night. I felt very excited because I wanted to show him around my city. On Saturday, I took him to a famous old temple. After that, we ate noodles at a small shop near the temple. Tom gave me a thumbs-up and said, \"This is delicious!\" On Sunday, Tom had to go back to Taipei by bus, so I took him to the bus stop. Before he got on the bus, he thanked me for the wonderful trip. I felt a little sad when we said goodbye. For me, it was the best weekend of the year.",
+  "words": 152,
+  "src": "附件20"
+ },
+ {
+  "no": 39,
+  "part": "C",
+  "zh": "高雄親戚家遊記篇",
+  "en": "My Trip to Kaohsiung",
+  "prompt": "上個星期，你到高雄（Kaohsiung）的親戚家玩，下面是你每天的活動，請根據這些圖片寫一篇約 50 字的簡短遊記。",
+  "img": "img/gept-basic-writing/c39.jpg",
+  "scenes": null,
+  "rows": [
+   [
+    "人物介紹 Who",
+    "elementary school student 小學生",
+    "S + am + a + 年齡-year-old + 職業.",
+    "**I am a** 12-**year-old** elementary school student."
+   ],
+   [
+    "喜好 Hobby",
+    "travel 旅行; cousins 表兄弟姊妹",
+    "S like(s) to V and V + with + 人.",
+    "**I like to** travel **and** play **with** my cousins."
+   ],
+   [
+    "圖一 時間地點",
+    "took a train 搭火車; relatives 親戚",
+    "Last Friday, S took a train to + 地點 + to V",
+    "**Last Friday, I took a train to** Kaohsiung **to** visit my relatives."
+   ],
+   [
+    "圖一 動作",
+    "were waiting for 正在等; gate 出口",
+    "When S arrived at + 地點, S were waiting for + 人.",
+    "**When I arrived at** Kaohsiung Station, my uncle, my aunt and my cousin Lily **were waiting for** me."
+   ],
+   [
+    "心情 + 原因 Feeling",
+    "waved 揮手; excited 興奮的",
+    "S + Ved + to + 人 + because + 句子",
+    "**I** waved **to** them happily **because** I could stay with them for three days."
+   ],
+   [
+    "圖二 時間地點",
+    "stayed at 待在; brother 哥哥/弟弟",
+    "On + 星期, S stayed at + 地點 + with + 人.",
+    "**On Saturday, I stayed at** my uncle's house **with** Lily and her brother, Ben."
+   ],
+   [
+    "圖二 動作",
+    "sat on the floor 坐在地上; played cards 玩撲克牌",
+    "S sat on the floor and Ved + N + together.",
+    "**We sat on the floor and** played cards **together.**"
+   ],
+   [
+    "心情 Feeling",
+    "won 贏; had a lot of fun 玩得很開心",
+    "S + Ved + N, but S still had a lot of fun.",
+    "Lily won almost every game, **but we still had a lot of fun.**"
+   ],
+   [
+    "圖三 時間地點",
+    "sunny 晴朗的; beach 海灘",
+    "On + 星期, the weather was + adj., so S went to + 地點.",
+    "**On Sunday, the weather was** sunny, **so we went to** the beach."
+   ],
+   [
+    "圖三 動作",
+    "beach ball 海灘球; sand 沙灘",
+    "S + Ved + with + N and Ved + 地點.",
+    "We played **with** a beach ball **and** ran on the sand."
+   ],
+   [
+    "細節 Details",
+    "hot 炎熱的; cool 涼爽的",
+    "The N was + adj., but the N was + adj.",
+    "**The** sun **was** hot, **but the** wind **was** cool."
+   ],
+   [
+    "結局 Ending",
+    "said goodbye to 和…道別; took the train home 搭火車回家",
+    "That evening, S said goodbye to + 人 and Ved.",
+    "**That evening, I said goodbye to** my relatives **and** took the train home."
+   ],
+   [
+    "萬用結尾 Lesson",
+    "happiest 最快樂的; trip 旅行",
+    "For S, it was the 最高級 + N + of + N.",
+    "**For me, it was the** happiest trip **of** the year."
+   ]
+  ],
+  "essay": "I am a 12-year-old elementary school student. I like to travel and play with my cousins. Last Friday, I took a train to Kaohsiung to visit my relatives. When I arrived at Kaohsiung Station, my uncle, my aunt and my cousin Lily were waiting for me. I waved to them happily because I could stay with them for three days. On Saturday, I stayed at my uncle's house with Lily and her brother, Ben. We sat on the floor and played cards together. Lily won almost every game, but we still had a lot of fun. On Sunday, the weather was sunny, so we went to the beach. We played with a beach ball and ran on the sand. The sun was hot, but the wind was cool. That evening, I said goodbye to my relatives and took the train home. For me, it was the happiest trip of the year.",
+  "words": 151,
+  "src": "附件20"
+ },
+ {
+  "no": 40,
+  "part": "C",
+  "zh": "夜班Jeff的作息篇",
+  "en": "Jeff's Night Shift",
+  "prompt": "夜班Jeff每天的作息。請依據下面的圖片，寫一篇約 50 字的短文，描述 Jeff 每天的作息。",
+  "img": "img/gept-basic-writing/c40.jpg",
+  "scenes": null,
+  "rows": [
+   [
+    "人物介紹 Who",
+    "nurse 護理師",
+    "S + is + a + 年齡-year-old + 職業.",
+    "**Jeff is a** 30-**year-old** nurse."
+   ],
+   [
+    "工作 Job",
+    "hospital 醫院; night shift 夜班",
+    "S works at + 地點, and S always + Vs",
+    "**He works at** a hospital, **and he always** works the night shift."
+   ],
+   [
+    "作息 Routine",
+    "during the day 白天; at night 晚上",
+    "S usually + Vs + during + N because + 句子",
+    "**He usually** sleeps **during** the day **because** he works at night."
+   ],
+   [
+    "起床 Get Up",
+    "gets up 起床; afternoon 下午",
+    "Every day, S gets up at + 時間.",
+    "**Every day, he gets up at** about five o'clock in the afternoon."
+   ],
+   [
+    "圖一 時間地點",
+    "dinner 晚餐; restaurant 餐廳; near 在…附近",
+    "At + 時間, S + Vs + N at + 地點.",
+    "**At** 5:30 p.m., **he** eats dinner **at** a restaurant near his home."
+   ],
+   [
+    "心情 + 原因 Feeling",
+    "sleepy 想睡的; has just woken up 剛睡醒",
+    "S often looks + adj. because + 句子",
+    "**He often looks** sleepy **because** he has just woken up."
+   ],
+   [
+    "圖二 時間地點",
+    "sofa 沙發; living room 客廳",
+    "At + 時間, S sits on + N and + Vs + N.",
+    "**At** 8:30 p.m., **he sits on** the sofa **and** watches TV in the living room."
+   ],
+   [
+    "圖二 動作",
+    "funny shows 搞笑節目; laughs out loud 大聲笑",
+    "S likes + N, so S often + Vs",
+    "**He likes** funny shows, **so he often** laughs out loud."
+   ],
+   [
+    "心情 Feeling",
+    "relaxed 放鬆的; before work 上班前",
+    "V-ing + makes + 人 + feel + adj.",
+    "**Watching TV makes him feel** relaxed before work."
+   ],
+   [
+    "圖三 時間地點",
+    "drives to 開車去; start his work 開始工作",
+    "At + 時間, S drives to + 地點 + to V",
+    "**At** 9:00 p.m., **he drives to** the hospital **to** start his work."
+   ],
+   [
+    "細節 Details",
+    "dark 黑暗的; quiet 安靜的",
+    "The N is + adj., and the N are + adj.",
+    "**The** sky **is** dark, **and the** streets **are** quiet."
+   ],
+   [
+    "工作 Work",
+    "takes care of 照顧; all night 整晚",
+    "At + 地點, S takes care of + 人 + all night.",
+    "**At the hospital, he takes care of** sick people **all night.**"
+   ],
+   [
+    "萬用結尾 Lesson",
+    "not easy 不容易; loves his job 熱愛工作",
+    "For S, it is not easy to V, but S + Vs",
+    "**For Jeff, it is not easy to** work at night, **but he** loves his job."
+   ]
+  ],
+  "essay": "Jeff is a 30-year-old nurse. He works at a hospital, and he always works the night shift. He usually sleeps during the day because he works at night. Every day, he gets up at about five o'clock in the afternoon. At 5:30 p.m., he eats dinner at a restaurant near his home. He often looks sleepy because he has just woken up. At 8:30 p.m., he sits on the sofa and watches TV in the living room. He likes funny shows, so he often laughs out loud. Watching TV makes him feel relaxed before work. At 9:00 p.m., he drives to the hospital to start his work. The sky is dark, and the streets are quiet. At the hospital, he takes care of sick people all night. For Jeff, it is not easy to work at night, but he loves his job.",
+  "words": 148,
+  "src": "附件20"
+ },
+ {
+  "no": 41,
+  "part": "C",
+  "zh": "放學後不得閒篇",
+  "en": "Alice's Busy Afternoon",
+  "prompt": "放學了，但 Alice 可不得閒。請根據圖片寫一篇約 50 字的短文。",
+  "img": "img/gept-basic-writing/c41.jpg",
+  "scenes": null,
+  "rows": [
+   [
+    "人物介紹 Who",
+    "elementary school student 小學生",
+    "S + is + a + 年齡-year-old + 職業.",
+    "**Alice is a** 12-**year-old** elementary school student."
+   ],
+   [
+    "喜好 Hobby",
+    "play basketball 打籃球",
+    "S likes to V with + 人, but S is always + adj.",
+    "**She likes to** play basketball **with** her friends, **but she is always** busy after school."
+   ],
+   [
+    "圖一 時間地點",
+    "school was over 放學了",
+    "Yesterday, school was over at + 時間.",
+    "**Yesterday, school was over at** four o'clock in the afternoon."
+   ],
+   [
+    "圖一 動作",
+    "classmates 同學; asked 邀請",
+    "S asked + 人 + to V + with + 人.",
+    "Two of her classmates **asked her to** play basketball **with** them."
+   ],
+   [
+    "心情 + 原因 Feeling",
+    "sad 難過的; say no 拒絕",
+    "S felt + adj. + because + S had to V",
+    "**She felt** sad **because she had to** say no to them."
+   ],
+   [
+    "圖二 時間地點",
+    "cram school 補習班; study 讀書",
+    "At + 時間, S went to + 地點 + to V",
+    "**At** 4:30, **she went to** a cram school **to** study English and math."
+   ],
+   [
+    "圖二 動作",
+    "blackboard 黑板; carefully 仔細地",
+    "S + Ved + N, and S + Ved + adv.",
+    "The teacher wrote many things on the blackboard, **and** Alice listened carefully."
+   ],
+   [
+    "心情 Feeling",
+    "tired 累的; go home 回家",
+    "S was so + adj. + that + 句子",
+    "**She was so** tired **that** she wanted to go home."
+   ],
+   [
+    "圖三 時間地點",
+    "practiced the piano 練鋼琴; in the evening 傍晚",
+    "At + 時間 + in the evening, S + Ved + N.",
+    "**At** seven o'clock **in the evening, she** practiced the piano at home for two hours."
+   ],
+   [
+    "動作 Action",
+    "didn't want to 不想; finish 完成",
+    "S didn't want to V, but S had to V",
+    "**She didn't want to** play, **but she had to** finish her practice."
+   ],
+   [
+    "結局 Ending",
+    "unhappy 不開心的; at the end of the day 一天結束時",
+    "As a result, S felt + adj. and adj. + 時間.",
+    "**As a result, she felt** unhappy **and** very tired **at the end of the day.**"
+   ],
+   [
+    "萬用結尾 Lesson",
+    "more time 更多時間",
+    "S thought to herself, \"...\"",
+    "**She thought to herself,** \"I want more time to play with my friends!\""
+   ]
+  ],
+  "essay": "Alice is a 12-year-old elementary school student. She likes to play basketball with her friends, but she is always busy after school. Yesterday, school was over at four o'clock in the afternoon. Two of her classmates asked her to play basketball with them. She felt sad because she had to say no to them. At 4:30, she went to a cram school to study English and math. The teacher wrote many things on the blackboard, and Alice listened carefully. She was so tired that she wanted to go home. At seven o'clock in the evening, she practiced the piano at home for two hours. She didn't want to play, but she had to finish her practice. As a result, she felt unhappy and very tired at the end of the day. She thought to herself, \"I want more time to play with my friends!\"",
+  "words": 145,
+  "src": "附件20"
+ },
+ {
+  "no": 42,
+  "part": "C",
+  "zh": "馬克夏日消暑篇",
+  "en": "Mark's Cool Summer",
+  "prompt": "夏天到了，馬克（Mark）常常在夏天的時候用許多方式來消暑，請依據下面的圖片，寫一篇約 50 字的短文，描寫圖片的情節。",
+  "img": "img/gept-basic-writing/c42.jpg",
+  "scenes": null,
+  "rows": [
+   [
+    "人物介紹 Who",
+    "junior high school student 國中生",
+    "S + is + a + 年齡-year-old + 職業.",
+    "**Mark is a** 13-**year-old** junior high school student."
+   ],
+   [
+    "喜好 Hobby",
+    "summer 夏天; hot weather 炎熱的天氣",
+    "S likes + N, but S doesn't like + N.",
+    "**He likes** summer vacation, **but he doesn't like** the hot weather."
+   ],
+   [
+    "天氣 Weather",
+    "very hot 非常熱; Taiwan 台灣",
+    "In + 季節, it is + adj. + in + 地點, and + 句子",
+    "**In** summer, **it is** very hot **in** Taiwan, **and** the sun is very strong."
+   ],
+   [
+    "圖一 動作",
+    "skateboard 滑板; under the hot sun 在大太陽下",
+    "Sometimes S + Vs + N + under + N.",
+    "**Sometimes he** rides his skateboard in the park **under** the hot sun."
+   ],
+   [
+    "心情 + 原因 Feeling",
+    "sweats 流汗; uncomfortable 不舒服的",
+    "S + Vs a lot, so S feels + adj.",
+    "**He** sweats **a lot, so he feels** very uncomfortable."
+   ],
+   [
+    "圖二 動作",
+    "cool down 降溫; shaved ice 剉冰",
+    "To V, S often + Vs + N.",
+    "**To** cool down, **he often** eats a big plate of shaved ice with fruit on top."
+   ],
+   [
+    "細節 Details",
+    "cold juice 冰果汁; straw 吸管",
+    "S also + Vs + N + with + N.",
+    "**He also** drinks a glass of cold juice **with** a straw."
+   ],
+   [
+    "心情 Feeling",
+    "cool 涼快的; happy 開心的",
+    "N + makes + 人 + feel + adj. and adj.",
+    "The ice **makes him feel** cool **and** happy."
+   ],
+   [
+    "圖三 時間地點",
+    "on weekends 週末; swimming pool 游泳池",
+    "On + 時間, S goes + V-ing + in + 地點.",
+    "**On** weekends, **he goes** swimming **in** the swimming pool."
+   ],
+   [
+    "圖三 動作",
+    "animal float 動物造型游泳圈; in the water 在水裡",
+    "S plays with + N + in the water and has a great time.",
+    "**He plays with** a cute animal float **in the water and has a great time.**"
+   ],
+   [
+    "喜好 Favorite",
+    "favorite 最喜歡的; stay cool 保持涼爽",
+    "V-ing + is + S's favorite way to V",
+    "**Swimming is** his **favorite way to** stay cool."
+   ],
+   [
+    "萬用結尾 Lesson",
+    "many ways 很多方法; enjoy 享受",
+    "S thinks that + 句子",
+    "**He thinks that** there are many ways to enjoy the hot summer, and he loves all of them."
+   ],
+   [
+    "結尾 Ending",
+    "the most fun 最好玩的; season 季節",
+    "For S, N is the 最高級 + N + of + N.",
+    "**For Mark, summer is the** most fun season **of** the year."
+   ]
+  ],
+  "essay": "Mark is a 13-year-old junior high school student. He likes summer vacation, but he doesn't like the hot weather. In summer, it is very hot in Taiwan, and the sun is very strong. Sometimes he rides his skateboard in the park under the hot sun. He sweats a lot, so he feels very uncomfortable. To cool down, he often eats a big plate of shaved ice with fruit on top. He also drinks a glass of cold juice with a straw. The ice makes him feel cool and happy. On weekends, he goes swimming in the swimming pool. He plays with a cute animal float in the water and has a great time. Swimming is his favorite way to stay cool. He thinks that there are many ways to enjoy the hot summer, and he loves all of them. For Mark, summer is the most fun season of the year.",
+  "words": 150,
+  "src": "附件20"
+ },
+ {
+  "no": 43,
+  "part": "C",
+  "zh": "動物園家庭日篇",
+  "en": "A Fun Day at the Zoo",
+  "prompt": "現在是星期天早上八點鐘，小芳（Shiau-fang）的媽媽叫她起床，因為爸爸打算帶全家出去玩。請根據下面的圖片寫一篇約50字的短文，描述小芳將如何與家人度過今天。",
+  "img": "img/gept-basic-writing/c43.jpg",
+  "scenes": null,
+  "rows": [
+   [
+    "人物介紹 Who",
+    "elementary school student 小學生",
+    "S + is + a + 年齡-year-old + 職業.",
+    "**Shiau-fang is a** 10-**year-old** elementary school student."
+   ],
+   [
+    "喜好 Hobby",
+    "loves animals 喜愛動物; especially 尤其",
+    "S loves + N, especially + N.",
+    "**She loves** animals, **especially** monkeys."
+   ],
+   [
+    "圖一 時間地點",
+    "Sunday 星期天; eight o'clock 八點",
+    "Today is + 星期, and it is + 時間 + in the morning.",
+    "**Today is** Sunday, **and it is** eight o'clock **in the morning.**"
+   ],
+   [
+    "圖一 動作",
+    "opened the curtains 拉開窗簾; woke up 叫醒",
+    "S + Vs + N and Vs + 人 + up.",
+    "Her mother **opens** the curtains **and wakes** her **up** with a smile."
+   ],
+   [
+    "天氣 Weather",
+    "nice 很好; shining 照耀",
+    "The weather is very + adj., and the sun is Ving.",
+    "**The weather is very** nice, **and the sun is** shining."
+   ],
+   [
+    "計畫 Plan",
+    "is going to 將要; take 帶",
+    "S is going to V + 人 + to + 地點.",
+    "Her father **is going to** take the whole family **to** the zoo."
+   ],
+   [
+    "心情 + 原因 Feeling",
+    "excited 興奮; can't wait 等不及",
+    "S feels + adj. + because + 句子",
+    "**She feels** very excited **because** she can't wait to see the animals."
+   ],
+   [
+    "圖二 時間地點",
+    "at the zoo 在動物園; monkeys 猴子; bears 熊; elephants 大象",
+    "At + 地點, S will V + N, such as + N, N, and N.",
+    "**At the zoo, they will** see a lot of cute animals, **such as** monkeys, bears, **and** elephants."
+   ],
+   [
+    "圖二 細節 Details",
+    "laugh at 笑; funny 好笑的; cage 籠子",
+    "S will V + N in + 地點.",
+    "**They will** laugh at the funny monkeys **in** the big cage."
+   ],
+   [
+    "圖二 動作 2",
+    "take pictures 拍照",
+    "S will also V + N of + N.",
+    "**They will also** take many pictures **of** the animals."
+   ],
+   [
+    "圖三 時間地點",
+    "fast food restaurant 速食店; lunch 午餐",
+    "After that, S are going to V at + 地點.",
+    "**After that, they are going to** have lunch **at** a fast food restaurant."
+   ],
+   [
+    "圖三 動作",
+    "hamburgers 漢堡; French fries 薯條",
+    "S will V + N and V + N.",
+    "**They will** eat hamburgers and French fries **and** drink cola together."
+   ],
+   [
+    "萬用結尾 Ending",
+    "have a good time 玩得愉快; happiest 最快樂",
+    "S will have a good time. It will be the + 最高級 + N.",
+    "**They will have a good time. It will be the** happiest day **of the week.**"
+   ]
+  ],
+  "essay": "Shiau-fang is a 10-year-old elementary school student. She loves animals, especially monkeys. Today is Sunday, and it is eight o'clock in the morning. Her mother opens the curtains and wakes her up with a smile. The weather is very nice, and the sun is shining. Her father is going to take the whole family to the zoo. She feels very excited because she can't wait to see the animals. At the zoo, they will see a lot of cute animals, such as monkeys, bears, and elephants. They will laugh at the funny monkeys in the big cage. They will also take many pictures of the animals. After that, they are going to have lunch at a fast food restaurant. They will eat hamburgers and French fries and drink cola together. They will have a good time. It will be the happiest day of the week.",
+  "words": 145,
+  "src": "模擬試題第1回"
+ },
+ {
+  "no": 44,
+  "part": "C",
+  "zh": "樓上麻將聲篇",
+  "en": "Mahjong at Midnight",
+  "prompt": "永明(Yung-ming)一直到今天凌晨兩點才睡覺，原因是他樓上的鄰居王太太(Mrs. Wang)在凌晨一點還在跟朋友打麻將(mahjong)。請依照下面的圖片，寫一篇約50字的故事。",
+  "img": "img/gept-basic-writing/c44.jpg",
+  "scenes": null,
+  "rows": [
+   [
+    "人物介紹 Who",
+    "office worker 上班族",
+    "S + is + a + 年齡-year-old + 職業.",
+    "**Yung-ming is a** 30-**year-old** office worker."
+   ],
+   [
+    "個性 Personality",
+    "hard-working 認真; go to bed early 早睡",
+    "S is + adj., and S usually + Vs",
+    "**He is** hard-working, **and he usually** goes to bed early."
+   ],
+   [
+    "圖一 時間地點",
+    "one o'clock in the morning 凌晨一點; awake 醒著",
+    "Last night, it was already + 時間, but S was still + adj.",
+    "**Last night, it was already** one o'clock in the morning, **but** Yung-ming **was still** awake."
+   ],
+   [
+    "圖一 原因 Reason",
+    "neighbor 鄰居; upstairs 樓上; mahjong 麻將",
+    "That was because S was Ving + N with + 人.",
+    "**That was because** his neighbor, Mrs. Wang, **was** playing mahjong upstairs **with** her friends."
+   ],
+   [
+    "噪音 Noise",
+    "noisy 吵; cover his ears 摀住耳朵",
+    "S were so + adj. + that + 句子",
+    "They **were so** noisy **that** he couldn't sleep and had to cover his ears."
+   ],
+   [
+    "心情 + 原因 Feeling",
+    "angry 生氣; work 上班",
+    "S became + adj. + because + 句子",
+    "**He became** very angry **because** he had to work the next day."
+   ],
+   [
+    "圖二 動作",
+    "went upstairs 上樓; knocked on 敲",
+    "Finally, S + Ved, Ved, and Ved on + N.",
+    "**Finally, he** got out of bed, went upstairs, **and** knocked **on** her door."
+   ],
+   [
+    "要求 Request",
+    "asked 要求; stop 停止",
+    "S asked + 人 + to V",
+    "**He asked** Mrs. Wang **to** stop the game because it was too late."
+   ],
+   [
+    "圖二 反應 Reaction",
+    "felt bad 感到抱歉; right away 立刻",
+    "S felt + adj., and S said S would V + right away.",
+    "**Mrs. Wang felt** bad, **and she said she would** stop playing **right away.**"
+   ],
+   [
+    "道歉 Apology",
+    "said sorry 道歉",
+    "S also said sorry to + 人.",
+    "**She also said sorry to** him."
+   ],
+   [
+    "圖三 時間地點",
+    "quiet 安靜; lights 燈",
+    "Soon, S became + adj., and S + Ved.",
+    "**Soon,** the building **became** quiet, **and** the lights upstairs went off."
+   ],
+   [
+    "結局 Ending",
+    "went back to bed 回去睡; fell asleep 睡著",
+    "So S + Ved and Ved at + 時間.",
+    "**So** Yung-ming went back to bed **and** fell asleep **at** two o'clock."
+   ],
+   [
+    "萬用結尾 Lesson",
+    "good neighbors 好鄰居; others 別人",
+    "S thought, \"S should always V.\"",
+    "**He thought,** \"Good neighbors **should always** think of others.\""
+   ]
+  ],
+  "essay": "Yung-ming is a 30-year-old office worker. He is hard-working, and he usually goes to bed early. Last night, it was already one o'clock in the morning, but Yung-ming was still awake. That was because his neighbor, Mrs. Wang, was playing mahjong upstairs with her friends. They were so noisy that he couldn't sleep and had to cover his ears. He became very angry because he had to work the next day. Finally, he got out of bed, went upstairs, and knocked on her door. He asked Mrs. Wang to stop the game because it was too late. Mrs. Wang felt bad, and she said she would stop playing right away. She also said sorry to him. Soon, the building became quiet, and the lights upstairs went off. So Yung-ming went back to bed and fell asleep at two o'clock. He thought, \"Good neighbors should always think of others.\"",
+  "words": 148,
+  "src": "模擬試題第2回"
+ },
+ {
+  "no": 45,
+  "part": "C",
+  "zh": "十五歲生日派對篇",
+  "en": "Betty's Birthday Party",
+  "prompt": "昨天是Betty十五歲的生日，她請了一些朋友到家裡玩。請依照下面的圖片，寫一篇約五十字的短文描述她過生日的情形。",
+  "img": "img/gept-basic-writing/c45.jpg",
+  "scenes": null,
+  "rows": [
+   [
+    "人物介紹 Who",
+    "junior high school student 國中生",
+    "S + is + a + 年齡-year-old + 職業.",
+    "**Betty is a** 15-**year-old** junior high school student."
+   ],
+   [
+    "個性 Personality",
+    "outgoing 外向; many friends 很多朋友",
+    "S is + adj., and S has + N",
+    "**She is** outgoing, **and she has** many good friends."
+   ],
+   [
+    "圖一 時間地點",
+    "birthday 生日; invited 邀請",
+    "Yesterday was + N, and S + Ved + 人 + to + 地點.",
+    "**Yesterday was** her fifteenth birthday, **and she** invited three good friends **to** her home."
+   ],
+   [
+    "圖一 動作",
+    "chatted 聊天; listened to music 聽音樂",
+    "At first, S + Ved, Ved, and Ved",
+    "**At first,** they sat on the sofa, chatted, **and** listened to music together."
+   ],
+   [
+    "圖二 時間地點",
+    "birthday cake 生日蛋糕; candles 蠟燭",
+    "Then S + Ved + N with + N on + 地點.",
+    "**Then they** put a big birthday cake **with** fifteen candles **on** the table."
+   ],
+   [
+    "唱歌 Singing",
+    "sang 唱; clapped 拍手",
+    "S + Ved + N to + 人 and Ved + N.",
+    "Her friends **sang** the \"Happy Birthday\" song **to** her **and** clapped their hands happily."
+   ],
+   [
+    "心情 Feeling",
+    "happy 開心; made a wish 許願",
+    "S was very + adj., so S + Ved and Ved",
+    "**She was very** happy, **so she** closed her eyes **and** made a wish."
+   ],
+   [
+    "吃蛋糕 Cake",
+    "delicious 美味; presents 禮物",
+    "After S + Ved, S + Ved",
+    "**After they** ate the delicious cake, **Betty** opened her presents one by one."
+   ],
+   [
+    "圖三 發現 Discovery",
+    "panda doll 熊貓玩偶; hat 帽子; bag 包包",
+    "S found + N, N, and N in + N.",
+    "**She found** a panda doll, a hat, **and** a small pink bag **in** the boxes."
+   ],
+   [
+    "喜好 Favorite",
+    "liked 喜歡; especially 尤其",
+    "S liked + N, especially + N.",
+    "**She liked** all the presents, **especially** the small pink bag."
+   ],
+   [
+    "感謝 Thanks",
+    "thanked 感謝; nice gifts 好禮物",
+    "S thanked + 人 + for + N.",
+    "**She thanked** her friends **for** the nice gifts."
+   ],
+   [
+    "萬用結尾 Ending",
+    "happiest 最快樂; wonderful 很棒",
+    "For S, it was the + 最高級 + N. What a + adj. + N!",
+    "**For her, it was the** happiest day **of the year. What a** wonderful birthday!"
+   ]
+  ],
+  "essay": "Betty is a 15-year-old junior high school student. She is outgoing, and she has many good friends. Yesterday was her fifteenth birthday, and she invited three good friends to her home. At first, they sat on the sofa, chatted, and listened to music together. Then they put a big birthday cake with fifteen candles on the table. Her friends sang the \"Happy Birthday\" song to her and clapped their hands happily. She was very happy, so she closed her eyes and made a wish. After they ate the delicious cake, Betty opened her presents one by one. She found a panda doll, a hat, and a small pink bag in the boxes. She liked all the presents, especially the small pink bag. She thanked her friends for the nice gifts. For her, it was the happiest day of the year. What a wonderful birthday!",
+  "words": 144,
+  "src": "模擬試題第3回"
+ },
+ {
+  "no": 46,
+  "part": "C",
+  "zh": "棒球打到狗篇",
+  "en": "The Angry Dog",
+  "prompt": "上週六Jack和他的朋友在公園裡打棒球。請根據以下的圖片寫一篇約50字的短文。",
+  "img": "img/gept-basic-writing/c46.jpg",
+  "scenes": null,
+  "rows": [
+   [
+    "人物介紹 Who",
+    "elementary school student 小學生",
+    "S + is + a + 年齡-year-old + 職業.",
+    "**Jack is a** 12-**year-old** elementary school student."
+   ],
+   [
+    "喜好 Hobby",
+    "favorite sport 最喜歡的運動; baseball 棒球",
+    "S's favorite + N + is + N.",
+    "**His favorite** sport **is** baseball."
+   ],
+   [
+    "圖一 時間地點",
+    "last Saturday 上週六; park 公園",
+    "Last Saturday, S and S's friends went to + 地點 to V.",
+    "**Last Saturday, Jack and his friends went to** the park **to** play baseball."
+   ],
+   [
+    "圖一 角色 Roles",
+    "batter 打擊者; catch 接",
+    "S was the + N, and S were ready to V.",
+    "Jack **was the** batter, **and** his two friends **were ready to** catch the ball."
+   ],
+   [
+    "圖一 動作",
+    "bat 球棒; hit 打擊",
+    "S + Ved + N and Ved + N very hard.",
+    "Jack **held** the bat **and hit** the ball **very hard.**"
+   ],
+   [
+    "心情 + 原因 Feeling",
+    "surprised 驚訝; flew far 飛得很遠",
+    "S were + adj. + because + 句子",
+    "His friends **were** surprised **because** the ball flew very far and very fast."
+   ],
+   [
+    "圖二 時間地點",
+    "sleeping 睡覺; on the grass 在草地上",
+    "At that time, S was Ving + 地點.",
+    "**At that time,** a big dog **was** sleeping **on the grass.**"
+   ],
+   [
+    "沒注意 Didn't see",
+    "didn't see 沒看到",
+    "But S didn't V + N.",
+    "**But the boys didn't** see the dog at all."
+   ],
+   [
+    "圖三 意外 Accident",
+    "suddenly 突然; eye 眼睛",
+    "Suddenly, S + Ved + N!",
+    "**Suddenly,** the ball hit the dog right in the eye!"
+   ],
+   [
+    "圖三 反應",
+    "woke up 醒來; angry 生氣",
+    "S woke up and was very + adj.",
+    "**The dog woke up** in pain **and was very** angry."
+   ],
+   [
+    "圖四 動作",
+    "ran after 追趕; barked 吠叫",
+    "S + Ved + 人 and Ved at + 人 loudly.",
+    "It **ran after** the boys **and barked at** them **loudly.**"
+   ],
+   [
+    "結局 Ending",
+    "afraid 害怕; as fast as they could 盡快",
+    "S were so + adj. that S + Ved as fast as S could.",
+    "**The boys were so** afraid **that they** ran away **as fast as they could.**"
+   ],
+   [
+    "萬用結尾 Lesson",
+    "be careful 小心; play ball 打球",
+    "S has learned an important lesson: S should V",
+    "**Jack has learned an important lesson:** he **should** be careful when he plays ball in the park."
+   ]
+  ],
+  "essay": "Jack is a 12-year-old elementary school student. His favorite sport is baseball. Last Saturday, Jack and his friends went to the park to play baseball. Jack was the batter, and his two friends were ready to catch the ball. Jack held the bat and hit the ball very hard. His friends were surprised because the ball flew very far and very fast. At that time, a big dog was sleeping on the grass. But the boys didn't see the dog at all. Suddenly, the ball hit the dog right in the eye! The dog woke up in pain and was very angry. It ran after the boys and barked at them loudly. The boys were so afraid that they ran away as fast as they could. Jack has learned an important lesson: he should be careful when he plays ball in the park.",
+  "words": 143,
+  "src": "模擬試題第4回"
+ },
+ {
+  "no": 47,
+  "part": "C",
+  "zh": "狗狗走失篇",
+  "en": "Where Is Lucky?",
+  "prompt": "上星期日Jack帶他的狗（Lucky）去公園。請根據以下的圖片寫一篇約50字的短文。",
+  "img": "img/gept-basic-writing/c47.jpg",
+  "scenes": null,
+  "rows": [
+   [
+    "人物介紹 Who",
+    "college student 大學生",
+    "S + is + a + 年齡-year-old + 職業.",
+    "**Jack is a** 20-**year-old** college student."
+   ],
+   [
+    "喜好 Hobby",
+    "reading 閱讀; named 名叫",
+    "S likes + Ving, and S has a dog named + N.",
+    "**He likes** reading, **and he has a dog named** Lucky."
+   ],
+   [
+    "圖一 時間地點",
+    "last Sunday 上星期日; took 帶",
+    "Last Sunday, S + Ved + N to + 地點.",
+    "**Last Sunday,** Jack took Lucky **to** the park near his home."
+   ],
+   [
+    "圖一 動作",
+    "bench 長椅; bird 鳥",
+    "While S was Ving, S + Ved + N.",
+    "**While he was** reading a book on a bench, Lucky **saw** a bird."
+   ],
+   [
+    "圖一 動作 2",
+    "chased 追; ran away 跑走",
+    "S + Ved + N and Ved away.",
+    "Lucky **chased** the bird **and** quickly **ran away.**"
+   ],
+   [
+    "圖二 發現 Discovery",
+    "looked up 抬頭; gone 不見了",
+    "Later, when S + Ved, S found that + 句子",
+    "**Later, when** Jack looked up from his book, **he found that** Lucky was gone."
+   ],
+   [
+    "心情 + 原因 Feeling",
+    "worried 擔心; couldn't find 找不到",
+    "S felt + adj. + because + 句子",
+    "**He felt** very worried **because** he couldn't find his dog anywhere."
+   ],
+   [
+    "圖二 動作",
+    "called 呼喊; looked for 尋找",
+    "S + Ved + N and Ved for + N for a long time.",
+    "He **called** Lucky's name again and again **and looked for** him **for a long time.**"
+   ],
+   [
+    "圖三 時間地點",
+    "got home 到家; in front of 在…前面",
+    "When S got home, S saw + 人 + Ving",
+    "**When he got home, he saw** Lucky waiting for him **in front of** the door."
+   ],
+   [
+    "心情 Feeling",
+    "glad 高興; again 再次",
+    "S was so + adj. + to V",
+    "**He was so** glad and surprised **to** see his dog again."
+   ],
+   [
+    "結局 Ending",
+    "ran to 跑向; big smile 大大的微笑",
+    "S + Ved to + N with a big smile.",
+    "He **ran to** Lucky **with a big smile** and took him into the house."
+   ],
+   [
+    "萬用結尾 Lesson",
+    "keep an eye on 注意; pet 寵物",
+    "S has learned an important lesson: S should always V",
+    "**He has learned an important lesson:** he **should always** keep an eye on his pet."
+   ]
+  ],
+  "essay": "Jack is a 20-year-old college student. He likes reading, and he has a dog named Lucky. Last Sunday, Jack took Lucky to the park near his home. While he was reading a book on a bench, Lucky saw a bird. Lucky chased the bird and quickly ran away. Later, when Jack looked up from his book, he found that Lucky was gone. He felt very worried because he couldn't find his dog anywhere. He called Lucky's name again and again and looked for him for a long time. When he got home, he saw Lucky waiting for him in front of the door. He was so glad and surprised to see his dog again. He ran to Lucky with a big smile and took him into the house. He has learned an important lesson: he should always keep an eye on his pet.",
+  "words": 143,
+  "src": "模擬試題第5回"
+ },
+ {
+  "no": 48,
+  "part": "C",
+  "zh": "打破花瓶篇",
+  "en": "The Broken Vase",
+  "prompt": "上星期一，Candy去百貨公司買花瓶（vase）。請根據以下的圖片寫一篇約50字的短文。注意：未依提示作答者，將予扣分。",
+  "img": "img/gept-basic-writing/c48.jpg",
+  "scenes": null,
+  "rows": [
+   [
+    "人物介紹 Who",
+    "office worker 上班族",
+    "S + is + a + 年齡-year-old + 職業.",
+    "**Candy is a** 25-**year-old** office worker."
+   ],
+   [
+    "喜好 Hobby",
+    "flowers 花; vases 花瓶",
+    "S loves + N, and S often + Vs",
+    "**She loves** flowers, **and she often** puts them in vases at home."
+   ],
+   [
+    "圖一 時間地點",
+    "department store 百貨公司; buy 買",
+    "Last Monday, S went to + 地點 to V.",
+    "**Last Monday, she went to** a department store **to** buy a vase."
+   ],
+   [
+    "圖一 動作",
+    "shelf 架子; picked up 拿起",
+    "There, S saw + N on + N and Ved it up.",
+    "**There, she saw** a beautiful vase **on** the shelf **and** picked **it up.**"
+   ],
+   [
+    "圖一 細節 Details",
+    "pretty 漂亮; wanted to 想要",
+    "It was + adj. and + adj., and S wanted to V.",
+    "**It was** white **and** very pretty, **and she wanted to** buy it."
+   ],
+   [
+    "圖一 店員 Clerk",
+    "clerk 店員; next to 在旁邊",
+    "S stood next to + 人 and Ved.",
+    "A clerk **stood next to** her **and** watched quietly."
+   ],
+   [
+    "圖二 意外 Accident",
+    "careless 粗心; dropped 掉落",
+    "However, S was so + adj. + that + 句子",
+    "**However, she was so** careless **that** she dropped the vase."
+   ],
+   [
+    "結果 Result",
+    "fell 掉落; broke into pieces 碎成片",
+    "S fell onto + N and Ved into pieces.",
+    "It **fell onto** the floor **and** broke **into pieces.**"
+   ],
+   [
+    "心情 Feeling",
+    "shocked 震驚; embarrassed 尷尬",
+    "S was + adj. and + adj.",
+    "Candy **was** shocked **and** embarrassed."
+   ],
+   [
+    "店員 Clerk",
+    "came over 走過來; pay for 賠償",
+    "S came over and said, \"...\"",
+    "The clerk **came over and said,** \"Miss, you have to pay for it.\""
+   ],
+   [
+    "圖三 結局 Ending",
+    "pay 付錢; one thousand dollars 一千元",
+    "In the end, S had to V + 金額 + for + N.",
+    "**In the end, she had to** pay one thousand dollars **for** the broken vase."
+   ],
+   [
+    "心情 + 原因 Feeling",
+    "terrible 很糟; didn't get 沒得到",
+    "S felt + adj. + because + 句子",
+    "**She felt** terrible **because** she spent money but didn't even get a new vase."
+   ],
+   [
+    "萬用結尾 Lesson",
+    "be more careful 更小心; bad day 倒楣的一天",
+    "S thought to herself, \"...\"",
+    "**She thought to herself,** \"I should be more careful next time. What a bad day!\""
+   ]
+  ],
+  "essay": "Candy is a 25-year-old office worker. She loves flowers, and she often puts them in vases at home. Last Monday, she went to a department store to buy a vase. There, she saw a beautiful vase on the shelf and picked it up. It was white and very pretty, and she wanted to buy it. A clerk stood next to her and watched quietly. However, she was so careless that she dropped the vase. It fell onto the floor and broke into pieces. Candy was shocked and embarrassed. The clerk came over and said, \"Miss, you have to pay for it.\" In the end, she had to pay one thousand dollars for the broken vase. She felt terrible because she spent money but didn't even get a new vase. She thought to herself, \"I should be more careful next time. What a bad day!\"",
+  "words": 144,
+  "src": "模擬試題第6回"
  }
 ];

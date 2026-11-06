@@ -10,7 +10,8 @@ Live site: https://jenniferenglishteacher.github.io/GEPT-PET-FCE-TOEFL-IELTS-agr
 - `ielts-part2.html` — IELTS Speaking Part 2
 
 ## Writing
-- `gept-basic-writing.html` — GEPT Basic Writing: 24 three-picture stories with a 3-column sentence-pattern grid and 150-word model essays (Word file in `downloads/`)
+- `gept-basic-sentences.html?part=1|2|3` — GEPT Basic Writing Part 1 句子改寫 / Part 2 合併 / Part 3 重組: 238 questions × (original + 3 similar), grouped by grammar block → sub-category, instant check, wrong answers must be rewritten (Word file with answer key in `downloads/`)
+- `gept-basic-writing.html` — GEPT Basic Writing Part 4: 48 three-picture stories with a 3-column sentence-pattern grid and 150-word model essays (Word file in `downloads/`)
 - `gept-int-writing.html` — GEPT Intermediate Writing: 10 translations + 10 essays
 
 Shared code: `speaking-kit.js` (speech recognition, transcript clean-up, read-along), `mindmap-kit.js` + `mindmap.css` (mind map typing box), `writing-kit.js` (writing timer, instant writing check).

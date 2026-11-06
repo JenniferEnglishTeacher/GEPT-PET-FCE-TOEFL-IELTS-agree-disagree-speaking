@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GEPT Basic Writing: Sentence Practice | Jennifer Chen's Speaking &amp; Writing</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="speaking-extra.css">
+    <link rel="stylesheet" href="sw-pages.css">
+    <link rel="stylesheet" href="gept-basic-sentences.css">
+  </head>
+  <body>
+    <div class="app-shell sw-two">
+      <aside class="question-sidebar" aria-label="Grammar blocks">
+        <div class="sidebar-head">
+          <div>
+            <p class="eyebrow">GEPT Basic 全民英檢初級寫作</p>
+            <h1 id="partTitle">Sentence Practice</h1>
+            <a class="dash-link" href="dashboard.html" style="margin-top:8px">&larr; Dashboard</a>
+          </div>
+          <span class="count-pill" id="countPill">0</span>
+        </div>
+        <div class="chips kind-tabs" role="group" aria-label="Part">
+          <button class="chip" type="button" data-part="1" aria-pressed="false">Part 1 改寫</button>
+          <button class="chip" type="button" data-part="2" aria-pressed="false">Part 2 合併</button>
+          <button class="chip" type="button" data-part="3" aria-pressed="false">Part 3 重組</button>
+        </div>
+        <label class="search-box"><span>Search</span><input id="searchInput" type="search" placeholder="passive, because, since…" autocomplete="off"></label>
+        <div id="blockList" class="question-list"></div>
+        <p style="padding:0 18px 18px;margin:0"><a class="dash-link sw-download" href="downloads/GEPT-basic-writing-sentences-Part1-3.docx" download>&#11015; Word file with answer key</a></p>
+      </aside>
+
+      <main class="sw-main">
+        <p class="eyebrow" id="subMeta"></p>
+        <h2 id="subTitle"></h2>
+        <div class="sw-prompt" id="howTo"></div>
+        <div class="bs-progress"><div class="bs-bar"><span id="progressBar"></span></div><span id="progressText"></span>
+          <button id="resetButton" class="small-button" type="button">Reset this section</button></div>
+        <div id="questionHost"></div>
+        <div class="bs-nav"><button id="prevButton" class="small-button" type="button">&larr; Previous section</button>
+          <button id="nextButton" class="small-button primary-action" type="button">Next section &rarr;</button></div>
+      </main>
+    </div>
+
+    <script src="gept-basic-sentences-data.js"></script>
+    <script src="gept-basic-sentences.js"></script>
+  </body>
+</html>

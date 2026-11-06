@@ -1,0 +1,49 @@
+/* GEPT Basic sentence practice (Part 1 改寫 / Part 2 合併 / Part 3 重組) */
+.bs-block { margin: 12px 4px 4px; font-size: 13px; font-weight: 800; color: #7a4b00; line-height: 1.4; }
+.question-list .bs-block:first-child { margin-top: 0; }
+.bs-sub { display: flex; justify-content: space-between; align-items: center; gap: 8px; width: 100%; text-align: left; border: 1px solid var(--line); background: #fff; border-radius: 8px; padding: 8px 10px; margin: 4px 0; font: inherit; font-size: 14px; cursor: pointer; color: var(--ink); }
+.bs-sub:hover { border-color: var(--accent); }
+.bs-sub.active { border-color: #0f7c80; background: #e3f2f2; font-weight: 700; }
+.bs-sub small { flex: 0 0 auto; color: var(--muted); font-weight: 700; font-variant-numeric: tabular-nums; }
+.bs-sub small.done { color: var(--good); }
+.bs-progress { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin: 14px 0 6px; color: var(--muted); font-size: 14px; }
+.bs-bar { flex: 1 1 200px; height: 10px; background: #e6eef0; border-radius: 6px; overflow: hidden; }
+.bs-bar span { display: block; height: 100%; width: 0; background: #0f7c80; transition: width .3s; }
+.bs-set { margin-top: 18px; border: 1px solid #cfe3df; border-radius: 10px; background: #fbfdfd; padding: 4px 14px 12px; }
+.bs-set-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; margin: 10px 0 2px; }
+.bs-set-head b { color: #0f7c80; font-size: 17px; }
+.bs-card { border-top: 1px dashed #cfe3df; padding: 12px 0 6px; }
+.bs-card:first-of-type { border-top: 0; }
+.bs-tag { display: inline-block; font-size: 12px; font-weight: 800; border-radius: 4px; padding: 1px 7px; margin-right: 6px; color: #fff; background: #0f7c80; vertical-align: 2px; }
+.bs-tag.var { background: #c07a12; }
+.bs-note { color: var(--muted); font-size: 13px; }
+.bs-q { font-size: 17px; line-height: 1.75; margin: 6px 0 2px 2px; }
+.bs-q .stem { color: #0b4f60; font-weight: 600; }
+.bs-q .blank { display: inline-block; min-width: 70px; border-bottom: 2px solid #9fb8bd; margin: 0 3px; }
+.bs-chunks { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0; }
+.bs-chunk { border: 1px solid #e0c58f; background: #fff8e6; color: #7a4b00; border-radius: 6px; padding: 4px 10px; font: inherit; font-size: 15px; cursor: pointer; }
+.bs-chunk.used { opacity: .35; text-decoration: line-through; }
+.bs-answer-row { display: flex; gap: 8px; align-items: flex-start; flex-wrap: wrap; margin-top: 6px; }
+.bs-input { flex: 1 1 320px; min-height: 44px; border: 1px solid var(--line); border-radius: 8px; padding: 9px 12px; font: inherit; font-size: 17px; line-height: 1.5; resize: vertical; background: #fff; }
+.bs-input:focus { outline: 2px solid var(--accent); }
+.bs-input.ok { border-color: var(--good); background: #f0faf3; }
+.bs-input.bad { border-color: var(--danger); background: #fdf2f2; }
+.bs-result { margin-top: 8px; border-radius: 8px; padding: 10px 12px; font-size: 16px; line-height: 1.6; }
+.bs-result[hidden] { display: none; }
+.bs-result.ok { background: #eaf6ee; border: 1px solid #b9dcc4; }
+.bs-result.bad { background: #fdf0f0; border: 1px solid #ecc2c2; }
+.bs-result .verdict { font-weight: 800; }
+.bs-result.ok .verdict { color: var(--good); }
+.bs-result.bad .verdict { color: var(--danger); }
+.bs-model { display: block; margin-top: 4px; }
+.bs-model strong { color: #0b5e61; }
+.bs-diff del { color: var(--danger); text-decoration: line-through; }
+.bs-diff ins { color: var(--good); text-decoration: none; font-weight: 700; }
+.bs-retry { margin-top: 8px; }
+.bs-retry label { display: block; font-weight: 700; color: var(--danger); font-size: 14px; margin-bottom: 4px; }
+.bs-expl { margin-top: 10px; background: #fff8e6; border-left: 4px solid #c07a12; border-radius: 6px; padding: 8px 12px; font-size: 15px; line-height: 1.7; }
+.bs-expl[hidden] { display: none; }
+.bs-status { font-size: 13px; font-weight: 800; }
+.bs-status.ok { color: var(--good); } .bs-status.bad { color: var(--danger); } .bs-status.fixed { color: #c07a12; }
+.bs-nav { display: flex; justify-content: space-between; gap: 8px; margin-top: 22px; flex-wrap: wrap; }
+@media (max-width: 760px) { .bs-q { font-size: 16px; } .bs-set { padding: 4px 10px 10px; } }

@@ -9,6 +9,8 @@ const BRANCHES = [
   { label: "圖三 + 結尾 Picture 3 & Ending", hint: "In the end … / learned a lesson" }
 ];
 const $ = id => document.getElementById(id);
+const PART_LABEL = { A: "Part A · 講義整合 (14)", B: "Part B · 新增題目 (10)", C: "Part C · 附件新增 + 模擬試題 (24)" };
+const PART_META = { A: "Part A 講義整合", B: "Part B 新增題目", C: "Part C 附件新增" };
 let story = STORIES[0], mm = null, timerApi = null, spans = [], stopListen = null;
 const esc = W.esc;
 const bold = s => esc(s).replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
@@ -20,7 +22,7 @@ function list() {
   const box = $("storyList"); box.innerHTML = "";
   let part = null;
   shown.forEach(s => {
-    if (s.part !== part) { const g = document.createElement("div"); g.className = "sw-group"; g.textContent = s.part === "A" ? "Part A · 講義整合 (14)" : "Part B · 新增題目 (10)"; box.appendChild(g); part = s.part; }
+    if (s.part !== part) { const g = document.createElement("div"); g.className = "sw-group"; g.textContent = PART_LABEL[s.part]; box.appendChild(g); part = s.part; }
     const b = document.createElement("button"); b.type = "button";
     b.className = `question-item${s.no === story.no ? " active" : ""}`;
     b.innerHTML = `<span class="question-id">${s.no}</span><span class="question-label">${esc(s.zh)}<br><small style="color:var(--muted)">${esc(s.en)}</small></span>`;
@@ -32,7 +34,7 @@ function list() {
 function select(no) {
   if (stopListen) { stopListen(); stopListen = null; }
   story = STORIES.find(s => s.no === no) || STORIES[0];
-  $("storyMeta").textContent = `Topic ${story.no} · ${story.part === "A" ? "Part A 講義整合" : "Part B 新增題目"}`;
+  $("storyMeta").textContent = `Topic ${story.no} · ${PART_META[story.part]}${story.src ? ` · ${story.src}` : ""}`;
   $("storyTitle").textContent = `${story.zh} · ${story.en}`;
   $("storyPrompt").textContent = `題目：${story.prompt}`;
   $("pictureHost").innerHTML = story.img
