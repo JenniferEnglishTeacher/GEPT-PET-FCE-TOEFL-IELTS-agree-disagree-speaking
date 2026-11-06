@@ -14,5 +14,8 @@ Live site: https://jenniferenglishteacher.github.io/GEPT-PET-FCE-TOEFL-IELTS-agr
 - `gept-basic-writing.html` — GEPT Basic Writing Part 4: 49 three-picture stories (grouped into 12 situation themes) with a 3-column sentence-pattern grid and 150-word model essays (Word file in `downloads/`)
 - `gept-int-writing.html` — GEPT Intermediate Writing: 10 translations + 10 essays
 
+## Reading & Use of English
+- `fce-uoe.html?part=1|2|3` — FCE (B2 First) Use of English Part 1 multiple-choice cloze / Part 2 open cloze / Part 3 word formation: 17 original texts per part (8 gaps each), instant check with English + 繁中 explanations. Data in `fce-uoe-data.js`, engine `fce-uoe.js`, styles `fce-uoe.css`.
+
 Shared code: `speaking-kit.js` (speech recognition, transcript clean-up, read-along), `mindmap-kit.js` + `mindmap.css` (mind map typing box), `writing-kit.js` (writing timer, instant writing check).
 The GEPT Intermediate content was merged from the former `GEPT-intermediate-writing-speaking` site.

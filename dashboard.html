@@ -54,6 +54,7 @@
         <button type="button" data-filter="description" aria-pressed="false">Descriptions</button>
         <button type="button" data-filter="toefl" aria-pressed="false">TOEFL</button>
         <button type="button" data-filter="ielts" aria-pressed="false">IELTS Part 2</button>
+        <button type="button" data-filter="fce" aria-pressed="false">FCE Use of English</button>
       </div>
       <label class="search">Search<input id="search" type="search" placeholder="Find a practice..." autocomplete="off"></label>
     </div>
@@ -151,8 +152,34 @@
       </article>
       </div>
     </section>
+    <section class="skill" data-skill="uoe">
+      <div class="skill-head"><h2>Reading &amp; Use of English 閱讀與語言運用</h2><span>Fill the gaps &middot; instant check &middot; 中英解析</span></div>
+      <div class="grid">
+      <article data-id="fce-uoe-1" data-category="fce uoe" style="--accent:#5b3f8c">
+        <div class="meta"><span>FCE B2 First &middot; Use of English Part 1</span><span class="count">17 texts</span></div>
+        <h2>FCE Use of English Part 1: Multiple-choice Cloze 選擇克漏字</h2>
+        <p>Read a short text with 8 gaps and choose A, B, C or D. Practises collocations, fixed phrases, phrasal verbs and linking words.</p>
+        <div class="details"><span>136 questions</span><span>Instant check + 繁中解析</span></div>
+        <a class="open" href="fce-uoe.html?part=1" target="_blank" rel="noopener"><span>Start Part 1</span><span class="arrow" aria-hidden="true">&rarr;</span></a>
+      </article>
+      <article data-id="fce-uoe-2" data-category="fce uoe" style="--accent:#5b3f8c">
+        <div class="meta"><span>FCE B2 First &middot; Use of English Part 2</span><span class="count">17 texts</span></div>
+        <h2>FCE Use of English Part 2: Open Cloze 填一個字</h2>
+        <p>Type ONE word in each of the 8 gaps: prepositions, articles, pronouns, auxiliaries, relatives and linkers.</p>
+        <div class="details"><span>136 questions</span><span>Instant check + 繁中解析</span></div>
+        <a class="open" href="fce-uoe.html?part=2" target="_blank" rel="noopener"><span>Start Part 2</span><span class="arrow" aria-hidden="true">&rarr;</span></a>
+      </article>
+      <article data-id="fce-uoe-3" data-category="fce uoe" style="--accent:#5b3f8c">
+        <div class="meta"><span>FCE B2 First &middot; Use of English Part 3</span><span class="count">17 texts</span></div>
+        <h2>FCE Use of English Part 3: Word Formation 詞性變化</h2>
+        <p>Change the word in CAPITALS to fit each of the 8 gaps: prefixes, suffixes, negatives, plurals and spelling changes.</p>
+        <div class="details"><span>136 questions</span><span>Instant check + 繁中解析</span></div>
+        <a class="open" href="fce-uoe.html?part=3" target="_blank" rel="noopener"><span>Start Part 3</span><span class="arrow" aria-hidden="true">&rarr;</span></a>
+      </article>
+      </div>
+    </section>
     <p id="empty" hidden>No matching practice.</p>
-    <footer><span id="resultCount" aria-live="polite">9 practice activities</span><span>Jennifer Chen &middot; GEPT / KET / PET / TOEFL / IELTS</span></footer>
+    <footer><span id="resultCount" aria-live="polite">15 practice activities</span><span>Jennifer Chen &middot; GEPT / KET / PET / TOEFL / IELTS</span></footer>
   </main>
   <script>
     const cards = [...document.querySelectorAll('article')];

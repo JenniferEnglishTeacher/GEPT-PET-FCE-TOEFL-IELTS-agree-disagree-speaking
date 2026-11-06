@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FCE Use of English Parts 1-3 | Jennifer Chen's Speaking &amp; Writing</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="speaking-extra.css">
+    <link rel="stylesheet" href="sw-pages.css">
+    <link rel="stylesheet" href="fce-uoe.css">
+  </head>
+  <body>
+    <div class="app-shell sw-two">
+      <aside class="question-sidebar" aria-label="Practice sets">
+        <div class="sidebar-head">
+          <div>
+            <p class="eyebrow">FCE B2 First · Reading &amp; Use of English</p>
+            <h1>Use of English</h1>
+            <a class="dash-link" href="dashboard.html" style="margin-top:8px">&larr; Dashboard</a>
+          </div>
+          <span class="count-pill" id="countPill">0</span>
+        </div>
+        <div class="chips kind-tabs" role="group" aria-label="Part">
+          <button class="chip" type="button" data-part="1" aria-pressed="false">Part 1 選擇</button>
+          <button class="chip" type="button" data-part="2" aria-pressed="false">Part 2 填字</button>
+          <button class="chip" type="button" data-part="3" aria-pressed="false">Part 3 詞性</button>
+        </div>
+        <label class="search-box"><span>Search</span><input id="searchInput" type="search" placeholder="Find a title…" autocomplete="off"></label>
+        <div id="setList" class="question-list"></div>
+      </aside>
+
+      <main class="sw-main">
+        <p class="eyebrow" id="partMeta"></p>
+        <h2 id="taskTitle"></h2>
+        <div class="sw-prompt" id="howTo"></div>
+        <div class="uoe-example" id="example"></div>
+        <div class="uoe-passage" id="passage"></div>
+        <div class="uoe-actions">
+          <button id="checkButton" class="small-button primary-action" type="button">Check answers 對答案</button>
+          <button id="showButton" class="small-button" type="button">Show answers 看解答</button>
+          <button id="resetButton" class="small-button" type="button">Reset 重做</button>
+          <span class="score" id="score" aria-live="polite"></span>
+        </div>
+        <p class="uoe-nokey" id="noKey" hidden>This set has no answer key. Check your answers with your teacher. 本題組沒有提供解答，請與老師核對。</p>
+        <div id="feedback"></div>
+        <div class="uoe-nav"><button id="prevButton" class="small-button" type="button">&larr; Previous set</button>
+          <button id="nextButton" class="small-button primary-action" type="button">Next set &rarr;</button></div>
+      </main>
+    </div>
+    <script src="fce-uoe-data.js"></script>
+    <script src="fce-uoe.js"></script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+/* FCE Reading & Use of English Parts 1-3 quiz */
+.uoe-set { display: flex; justify-content: space-between; align-items: center; gap: 8px; width: 100%; text-align: left; border: 1px solid var(--line); background: #fff; border-radius: 8px; padding: 8px 10px; margin: 4px 0; font: inherit; font-size: 14px; cursor: pointer; color: var(--ink); }
+.uoe-set:hover { border-color: #5b3f8c; }
+.uoe-set.active { border-color: #5b3f8c; background: #f1ecf8; font-weight: 700; }
+.uoe-set em { display: block; font-style: normal; font-weight: 400; font-size: 12px; color: var(--muted); }
+.uoe-set small { flex: 0 0 auto; color: var(--muted); font-weight: 700; font-variant-numeric: tabular-nums; }
+.uoe-set small.done { color: var(--good); }
+.uoe-example { margin: 14px 0 4px; font-size: 16px; color: #3b2a5c; }
+.uoe-exans { font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+.uoe-passage { margin-top: 10px; background: #fff; border: 1px solid #e3dbef; border-radius: 10px; padding: 8px 18px; }
+.uoe-passage p { font-family: "Times New Roman", Georgia, serif; font-size: 19px; line-height: 2.1; margin: 12px 0; }
+.uoe-zero { font-weight: 700; color: #5b3f8c; }
+.uoe-gap { display: inline-flex; align-items: center; gap: 4px; white-space: nowrap; margin: 0 2px; font-family: "Segoe UI", Arial, sans-serif; font-size: 15px; }
+.uoe-gap b { color: #5b3f8c; }
+.uoe-gap select, .uoe-gap input { font: inherit; font-size: 15px; border: 1px solid #b9a9d3; border-radius: 6px; padding: 3px 6px; background: #fcfaff; color: var(--ink); }
+.uoe-gap input { width: 9.5em; }
+.uoe-gap select { max-width: 13em; }
+.uoe-gap .ok { border-color: var(--good); background: #eaf6ee; }
+.uoe-gap .bad { border-color: var(--danger); background: #fdf0f0; }
+.uoe-gap .shown { border-color: #c07a12; background: #fff8e6; }
+.uoe-stem { font-weight: 800; letter-spacing: .03em; color: #7a4b00; background: #fff3d6; border-radius: 4px; padding: 0 5px; font-size: 13px; }
+.uoe-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 16px 0 6px; }
+.uoe-actions .score { font-weight: 800; color: #5b3f8c; margin-left: 6px; }
+.uoe-nokey { background: #fff8e6; border: 1px solid #f0dcaa; border-radius: 8px; padding: 8px 12px; font-size: 14px; }
+.uoe-fb { list-style: none; padding: 0; margin: 10px 0 0; display: grid; gap: 6px; }
+.uoe-fb li { background: #fbfaff; border: 1px solid #e6def2; border-radius: 8px; padding: 8px 12px; font-size: 15px; line-height: 1.6; }
+.uoe-fb .v { font-weight: 800; margin-right: 6px; }
+.uoe-fb .v.ok { color: var(--good); } .uoe-fb .v.bad { color: var(--danger); }
+.uoe-fb .yours { color: var(--muted); font-size: 13px; }
+.uoe-fb .why { color: #4a4a4a; font-size: 14px; margin-top: 2px; }
+.uoe-nav { display: flex; justify-content: space-between; gap: 8px; margin-top: 22px; flex-wrap: wrap; }
+@media (max-width: 760px) { .uoe-passage { padding: 4px 12px; } .uoe-passage p { font-size: 17px; line-height: 2.2; } .uoe-gap input { width: 7.5em; } .uoe-gap select { max-width: 11em; } }
