@@ -2135,6 +2135,1219 @@ window.EMAIL_ESSAYS = [
     "html": "<b>In conclusion,</b> <span class=\"kw\">computer games</span> are neither inherently <span class=\"kw\">good nor bad</span> — <span class=\"kw\">balance</span> is everything. <b>The best way to ensure they benefit</b> teenagers is through <span class=\"kw\">responsible</span>, <span class=\"kw\">time-limited</span>, and <span class=\"kw\">diverse</span> usage."
    }
   ]
- }
+ },
+{
+ "id": "fce-essay-11",
+ "n": 11,
+ "en": "Life Today vs. 100 Years Ago",
+ "zh": "今昔生活比較",
+ "source": "FCE practice Book 1 · Test 1",
+ "topic": "Life is better today than it was 100 years ago. Do you agree?",
+ "notes": [
+  "health",
+  "entertainment",
+  "(your own idea)"
+ ],
+ "els": [
+  {
+   "el": "Introduction",
+   "pats": [
+    "When it comes to, …",
+    "From my perspective, …"
+   ],
+   "html": "<b>When it comes to</b> the question of progress, many people look back at the past with <span class=\"kw\">nostalgia</span>. <b>From my perspective,</b> however, I firmly believe that life today is far better than it was a century ago."
+  },
+  {
+   "el": "Body 1: Health",
+   "pats": [
+    "First and foremost, …",
+    "… has a more positive impact on …",
+    "To explain, …",
+    "For example, …",
+    "As a result, …",
+    "… have the chance to …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Example → Effect</i>\n<b>First and foremost,</b> <span class=\"kw\">modern medicine</span> <b>has a more positive impact on</b> our lives than anything else. <b>To explain,</b> a hundred years ago, common illnesses such as <span class=\"kw\">flu</span> or <span class=\"kw\">infections</span> often killed people, <b>so</b> <span class=\"kw\">life expectancy</span> was much lower. <b>For example,</b> my great-grandmother lost two of her children to diseases that a simple <span class=\"kw\">vaccine</span> would prevent today. <b>As a result,</b> families now <b>have the chance to</b> grow up together and grow old together.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 2: Entertainment",
+   "pats": [
+    "Beyond, …",
+    "… whereas …",
+    "Admittedly, …",
+    "However, …",
+    "… enables people to …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Concession → Counter-point</i>\n<b>Beyond</b> health, the <span class=\"kw\">range of entertainment</span> available today is truly remarkable. In the past, people had to rely on books, radio or local <span class=\"kw\">festivals</span>, <b>whereas</b> we can now stream films, music and games from anywhere in the world. <b>Admittedly,</b> some people spend too much time in front of a screen. <b>However,</b> modern entertainment also <b>enables people to</b> <span class=\"kw\">discover other cultures</span> and <span class=\"kw\">connect with friends</span> online.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 3: Education and Opportunities (Own Idea)",
+   "pats": [
+    "Finally, …",
+    "… in order to …",
+    "For instance, …",
+    "… while …",
+    "… have the opportunity to …",
+    "Consequently, …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Example → Effect</i>\n<b>Finally,</b> <span class=\"kw\">education</span> is now open to almost everyone. A century ago, many children, especially girls, had to leave school early <b>in order to</b> work. <b>For instance,</b> my grandmother left school at twelve, <b>while</b> I <b>have the opportunity to</b> go to university. <b>Consequently,</b> young people today can <span class=\"kw\">choose their own future</span>.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Conclusion",
+   "pats": [
+    "In conclusion, …",
+    "… although …",
+    "… prove that …"
+   ],
+   "html": "<b>In conclusion,</b> <b>although</b> the past may seem <span class=\"kw\">peaceful</span>, better <span class=\"kw\">healthcare</span>, richer entertainment and wider <span class=\"kw\">opportunities</span> <b>prove that</b> life today is far better."
+  }
+ ]
+},
+{
+ "id": "fce-essay-12",
+ "n": 12,
+ "en": "Friends or Family?",
+ "zh": "朋友與家人哪個重要",
+ "source": "FCE practice Book 1 · Test 2",
+ "topic": "Which is more important — friends or family?",
+ "notes": [
+  "who you can enjoy yourself with",
+  "who will help you when you have problems",
+  "(your own idea)"
+ ],
+ "els": [
+  {
+   "el": "Introduction",
+   "pats": [
+    "It is widely believed that, …",
+    "For most teenagers, …",
+    "In my view, …",
+    "… although …"
+   ],
+   "html": "<b>It is widely believed that</b> the people around us shape who we become. <b>For most teenagers,</b> both <span class=\"kw\">friends</span> and <span class=\"kw\">family</span> play an important role in daily life. <b>In my view,</b> <b>although</b> friends are wonderful company, family is ultimately more important."
+  },
+  {
+   "el": "Body 1: Who You Can Enjoy Yourself With",
+   "pats": [
+    "Admittedly, …",
+    "… it is easier for …",
+    "To explain, …",
+    "For example, …",
+    "However, …",
+    "Therefore, …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Example → Counter-point → Wrap-up</i>\n<b>Admittedly,</b> <b>it is easier for</b> young people <b>to</b> <span class=\"kw\">have fun</span> with friends than with their parents. <b>To explain,</b> friends share our <span class=\"kw\">interests</span>, our <span class=\"kw\">sense of humour</span> and our <span class=\"kw\">taste in music</span>. <b>For example,</b> I would rather go to a <span class=\"kw\">concert</span> with my classmates than with my mum. <b>However,</b> some of my happiest memories are <span class=\"kw\">family trips</span> and <span class=\"kw\">dinners</span> at my grandparents' house. <b>Therefore,</b> enjoyment is not only found among friends.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 2: Who Will Help You When You Have Problems",
+   "pats": [
+    "More importantly, …",
+    "… when …",
+    "… whereas …",
+    "For instance, …",
+    "… helped me to …",
+    "As a result, …",
+    "This demonstrates that, …",
+    "… has a more lasting impact on …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Example → Effect → Wrap-up</i>\n<b>More importantly,</b> family is usually there <b>when</b> we face <span class=\"kw\">serious problems</span>. Friends may move away or <span class=\"kw\">drift apart</span>, <b>whereas</b> family members tend to offer <span class=\"kw\">unconditional support</span>. <b>For instance,</b> when I failed an important exam last year, it was my parents who <span class=\"kw\">encouraged</span> me and <b>helped me to</b> make a study plan. <b>As a result,</b> I passed the next test with a much better score. <b>This demonstrates that</b> family support <b>has a more lasting impact on</b> our lives.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 3: Learning Values (Own Idea)",
+   "pats": [
+    "Finally, …",
+    "… provides …",
+    "… with …",
+    "In fact, …",
+    "… help us to …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Effect</i>\n<b>Finally,</b> family <b>provides</b> us <b>with</b> the <span class=\"kw\">values</span> that guide our choices. Our parents teach us <span class=\"kw\">honesty</span>, <span class=\"kw\">respect</span> and <span class=\"kw\">responsibility</span> long before we choose our friends. <b>In fact,</b> these values even <b>help us to</b> choose <span class=\"kw\">good friends</span> in the first place.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Conclusion",
+   "pats": [
+    "In conclusion, …",
+    "… but …",
+    "For this reason, …"
+   ],
+   "html": "<b>In conclusion,</b> friends make life fun, <b>but</b> family gives us <span class=\"kw\">support</span> and <span class=\"kw\">direction</span>. <b>For this reason,</b> I believe family is more important."
+  }
+ ]
+},
+{
+ "id": "fce-essay-13",
+ "n": 13,
+ "en": "Money or Job Satisfaction?",
+ "zh": "高薪還是熱愛工作",
+ "source": "FCE practice Book 1 · Test 3",
+ "topic": "Is it better to earn a lot of money or to enjoy your job?",
+ "notes": [
+  "how much time is spent at work",
+  "the type of work which is done",
+  "(your own idea)"
+ ],
+ "els": [
+  {
+   "el": "Introduction",
+   "pats": [
+    "When choosing a career, …",
+    "From my perspective, …"
+   ],
+   "html": "<b>When choosing a career,</b> many young people face a difficult <span class=\"kw\">dilemma</span>. Should they follow the <span class=\"kw\">money</span>, or should they follow their <span class=\"kw\">passion</span>? <b>From my perspective,</b> enjoying your job is far more important than earning a <span class=\"kw\">high salary</span>."
+  },
+  {
+   "el": "Body 1: How Much Time Is Spent at Work",
+   "pats": [
+    "First of all, …",
+    "It is estimated that, …",
+    "… for …",
+    "With, …",
+    "… it is essential for …",
+    "For example, …",
+    "… but …",
+    "As a result, …",
+    "Therefore, …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Example → Effect → Wrap-up</i>\n<b>First of all,</b> we spend a huge part of our lives at work. <b>It is estimated that</b> most adults work around forty hours a week <b>for</b> more than forty years. <b>With</b> so much time at work, <b>it is essential for</b> people <b>to</b> feel <span class=\"kw\">satisfied</span> with what they do. <b>For example,</b> my uncle earns a lot as a lawyer, <b>but</b> he often feels <span class=\"kw\">exhausted</span> and <span class=\"kw\">stressed</span>. <b>As a result,</b> he rarely enjoys the money he makes. <b>Therefore,</b> time spent in an <span class=\"kw\">unhappy job</span> is time lost.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 2: The Type of Work Which Is Done",
+   "pats": [
+    "Secondly, …",
+    "… are more likely to …",
+    "For instance, …",
+    "… yet …",
+    "Consequently, …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Example → Effect</i>\n<b>Secondly,</b> the <span class=\"kw\">type of work</span> we do affects our <span class=\"kw\">motivation</span>. People who love their work <b>are more likely to</b> work hard, learn new skills and <span class=\"kw\">achieve success</span>. <b>For instance,</b> my art teacher could have chosen a <span class=\"kw\">better-paid career</span>, <b>yet</b> she clearly loves inspiring students. <b>Consequently,</b> her lessons are creative and her students <span class=\"kw\">admire</span> her.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 3: Health and Relationships (Own Idea)",
+   "pats": [
+    "Finally, …",
+    "… has a positive impact on …",
+    "… can lead to …",
+    "By contrast, …",
+    "… allows us to …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Effect</i>\n<b>Finally,</b> job satisfaction <b>has a positive impact on</b> our <span class=\"kw\">health</span> and <span class=\"kw\">relationships</span>. A stressful job <b>can lead to</b> <span class=\"kw\">sleeping problems</span> and less time with family. <b>By contrast,</b> a job we enjoy <b>allows us to</b> come home <span class=\"kw\">relaxed</span> and happy.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Conclusion",
+   "pats": [
+    "In conclusion, …",
+    "… while …",
+    "For this reason, …",
+    "… it is better to …"
+   ],
+   "html": "<b>In conclusion,</b> <b>while</b> money is useful, it cannot buy <span class=\"kw\">happiness</span>. <b>For this reason,</b> I believe <b>it is better to</b> enjoy your job."
+  }
+ ]
+},
+{
+ "id": "fce-essay-14",
+ "n": 14,
+ "en": "Saving Endangered Animals",
+ "zh": "拯救瀕危動物",
+ "source": "FCE practice Book 1 · Test 4",
+ "topic": "We should do everything we can to save animals which are in danger of disappearing from our planet. Do you agree?",
+ "notes": [
+  "the kind of animals which are in danger",
+  "the reasons for protecting these animals",
+  "(your own idea)"
+ ],
+ "els": [
+  {
+   "el": "Introduction",
+   "pats": [
+    "In today's world, …",
+    "I strongly agree that, …"
+   ],
+   "html": "<b>In today's world,</b> thousands of <span class=\"kw\">species</span> are disappearing faster than ever before. <span class=\"kw\">Habitat loss</span>, <span class=\"kw\">pollution</span> and <span class=\"kw\">climate change</span> are pushing many animals to the edge. <b>I strongly agree that</b> we should do everything we can to save them."
+  },
+  {
+   "el": "Body 1: The Kind of Animals Which Are in Danger",
+   "pats": [
+    "To begin with, …",
+    "In fact, …",
+    "For example, …",
+    "As a result, …",
+    "Therefore, …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Example → Effect → Wrap-up</i>\n<b>To begin with,</b> <span class=\"kw\">endangered animals</span> are not only famous ones such as <span class=\"kw\">pandas</span> and <span class=\"kw\">tigers</span>. <b>In fact,</b> many smaller creatures, like <span class=\"kw\">bees</span>, <span class=\"kw\">frogs</span> and <span class=\"kw\">coral</span>, are also at risk. <b>For example,</b> in Taiwan, the <span class=\"kw\">Formosan black bear</span> and the <span class=\"kw\">pangolin</span> are both <span class=\"kw\">protected species</span>. <b>As a result,</b> people are starting to realise that the problem is close to home. <b>Therefore,</b> we must protect all kinds of animals, not just the popular ones.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 2: The Reasons for Protecting These Animals",
+   "pats": [
+    "The main reason, …",
+    "… for …",
+    "… it can affect …",
+    "For instance, …",
+    "… which would lead to …",
+    "Consequently, …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Example → Effect</i>\n<b>The main reason</b> <b>for</b> protecting animals is that every species plays a role in the <span class=\"kw\">ecosystem</span>. <b>If</b> one species disappears, <b>it can affect</b> the whole <span class=\"kw\">food chain</span>. <b>For instance,</b> without bees, many <span class=\"kw\">crops</span> could not be <span class=\"kw\">pollinated</span>, <b>which would lead to</b> food shortages. <b>Consequently,</b> saving animals also means protecting <span class=\"kw\">human survival</span>.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 3: Responsibility to Future Generations (Own Idea)",
+   "pats": [
+    "Finally, …",
+    "It would be a shame for, …",
+    "… can make sure that …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Effect</i>\n<b>Finally,</b> we have a <span class=\"kw\">responsibility</span> to future generations. <b>It would be a shame for</b> our grandchildren <b>to</b> see elephants or whales only in books. <b>By</b> supporting <span class=\"kw\">conservation projects</span> today, we <b>can make sure that</b> these animals survive.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Conclusion",
+   "pats": [
+    "In conclusion, …",
+    "That is why, …"
+   ],
+   "html": "<b>In conclusion,</b> endangered animals are <span class=\"kw\">valuable</span> for nature, for people and for the future. <b>That is why</b> we should do everything in our power to save them."
+  }
+ ]
+},
+{
+ "id": "fce-essay-15",
+ "n": 15,
+ "en": "Screen Entertainment",
+ "zh": "年輕人只會看螢幕嗎",
+ "source": "FCE practice Book 2 · Test 1",
+ "topic": "Some people say that young people can only entertain themselves in front of a screen. What do you think?",
+ "notes": [
+  "why screen entertainment is so popular",
+  "books and reading",
+  "(your own idea)"
+ ],
+ "els": [
+  {
+   "el": "Introduction",
+   "pats": [
+    "Nowadays, …",
+    "Because of this, …",
+    "From my perspective, …",
+    "… although …"
+   ],
+   "html": "<b>Nowadays,</b> it is common to see teenagers looking at their <span class=\"kw\">phones</span> on the MRT, in restaurants and even at family dinners. <b>Because of this,</b> some adults believe that young people cannot enjoy themselves without a <span class=\"kw\">screen</span>. <b>From my perspective,</b> this view is <span class=\"kw\">exaggerated</span>, <b>although</b> screens are certainly popular."
+  },
+  {
+   "el": "Body 1: Why Screen Entertainment Is So Popular",
+   "pats": [
+    "There is no doubt that, …",
+    "To explain, …",
+    "With, …",
+    "… have the chance to …",
+    "For example, …",
+    "Therefore, …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Example → Wrap-up</i>\n<b>There is no doubt that</b> <span class=\"kw\">screen entertainment</span> is extremely popular. <b>To explain,</b> it is <span class=\"kw\">cheap</span>, <span class=\"kw\">convenient</span> and available <span class=\"kw\">24 hours a day</span>. <b>With</b> just one phone, teenagers <b>have the chance to</b> watch videos, play games and chat with friends. <b>For example,</b> my brother can spend a whole Sunday watching <span class=\"kw\">online streams</span>. <b>Therefore,</b> it is easy to understand why screens <span class=\"kw\">attract</span> young people.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 2: Books and Reading",
+   "pats": [
+    "However, …",
+    "For instance, …",
+    "… and …",
+    "As a result, …",
+    "… improve …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Example → Effect</i>\n<b>However,</b> many young people still enjoy <span class=\"kw\">reading</span>. <span class=\"kw\">Fantasy novels</span> and <span class=\"kw\">comics</span> remain <span class=\"kw\">best-sellers</span> among teenagers, and school libraries are often busy. <b>For instance,</b> my classmates and I started a <span class=\"kw\">book club</span> last year, <b>and</b> we meet every month to discuss a novel. <b>As a result,</b> we <b>improve</b> our <span class=\"kw\">imagination</span> and our <span class=\"kw\">communication skills</span>.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 3: Sports and Outdoor Activities (Own Idea)",
+   "pats": [
+    "Finally, …",
+    "On weekends, …",
+    "For example, …",
+    "This shows that, …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Example → Effect</i>\n<b>Finally,</b> <span class=\"kw\">sports</span> and <span class=\"kw\">outdoor activities</span> are still a big part of teenage life. <b>On weekends,</b> parks and <span class=\"kw\">basketball courts</span> are full of young people. <b>For example,</b> many of my friends go <span class=\"kw\">hiking</span> or <span class=\"kw\">cycling</span> along the riverside. <b>This shows that</b> teenagers can <span class=\"kw\">have fun</span> without technology.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Conclusion",
+   "pats": [
+    "In conclusion, …",
+    "… but …",
+    "It is unfair to, …"
+   ],
+   "html": "<b>In conclusion,</b> screens are popular, <b>but</b> young people also enjoy <span class=\"kw\">reading</span>, <span class=\"kw\">sports</span> and <span class=\"kw\">spending time together</span>. <b>It is unfair to</b> say that they can only be entertained by a screen."
+  }
+ ]
+},
+{
+ "id": "fce-essay-16",
+ "n": 16,
+ "en": "What Makes a Good Teacher",
+ "zh": "好老師需要什麼",
+ "source": "FCE practice Book 2 · Test 2",
+ "topic": "Teachers need more than just a good knowledge of their subject. What do you think?",
+ "notes": [
+  "patience",
+  "friendliness",
+  "(your own idea)"
+ ],
+ "els": [
+  {
+   "el": "Introduction",
+   "pats": [
+    "It is often said that, …",
+    "… since …",
+    "However, …"
+   ],
+   "html": "<b>It is often said that</b> a good teacher can change a student's life. <span class=\"kw\">Subject knowledge</span> is obviously important, <b>since</b> teachers must explain ideas correctly. <b>However,</b> I strongly believe that teachers need much more than knowledge to be <span class=\"kw\">effective</span>."
+  },
+  {
+   "el": "Body 1: Patience",
+   "pats": [
+    "First and foremost, …",
+    "To explain, …",
+    "… it is important for …",
+    "For example, …",
+    "As a result, …",
+    "Therefore, …",
+    "… can make a huge difference to …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Example → Effect → Wrap-up</i>\n<b>First and foremost,</b> teachers need <span class=\"kw\">patience</span>. <b>To explain,</b> students learn at different speeds, <b>so</b> <b>it is important for</b> teachers <b>to</b> explain things more than once. <b>For example,</b> when I <span class=\"kw\">struggled with</span> maths in junior high, my teacher stayed after class to go through each problem with me. <b>As a result,</b> I slowly gained <span class=\"kw\">confidence</span> and my grades <span class=\"kw\">improved</span>. <b>Therefore,</b> a patient teacher <b>can make a huge difference to</b> weaker students.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 2: Friendliness",
+   "pats": [
+    "Secondly, …",
+    "… helps …",
+    "… feel …",
+    "When, …",
+    "… are more likely to …",
+    "For instance, …",
+    "Consequently, …",
+    "Therefore, …",
+    "… encourages …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Example → Effect → Wrap-up</i>\n<b>Secondly,</b> <span class=\"kw\">friendliness</span> <b>helps</b> students <b>feel</b> <span class=\"kw\">comfortable</span> in class. <b>When</b> teachers are <span class=\"kw\">approachable</span>, students <b>are more likely to</b> ask questions and <span class=\"kw\">take part in</span> discussions. <b>For instance,</b> my English teacher always greets us with a smile and remembers our <span class=\"kw\">hobbies</span>. <b>Consequently,</b> even shy students are willing to speak English in her lessons. <b>Therefore,</b> a friendly atmosphere <b>encourages</b> students <b>to</b> learn actively.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 3: Creativity (Own Idea)",
+   "pats": [
+    "Finally, …",
+    "Instead of, …",
+    "For example, …",
+    "This makes it easier for, …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Example → Effect</i>\n<b>Finally,</b> good teachers need <span class=\"kw\">creativity</span>. <b>Instead of</b> simply reading from the textbook, they use <span class=\"kw\">games</span>, <span class=\"kw\">videos</span> and <span class=\"kw\">real-life examples</span>. <b>For example,</b> my history teacher once turned a lesson into a <span class=\"kw\">role-play</span> about ancient Rome. <b>This makes it easier for</b> students <b>to</b> remember what they learn.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Conclusion",
+   "pats": [
+    "In conclusion, …",
+    "… are what turn …"
+   ],
+   "html": "<b>In conclusion,</b> knowledge is only the <span class=\"kw\">starting point</span>. <span class=\"kw\">Patience</span>, <span class=\"kw\">friendliness</span> and <span class=\"kw\">creativity</span> <b>are what turn</b> a knowledgeable teacher into a great one."
+  }
+ ]
+},
+{
+ "id": "fce-essay-17",
+ "n": 17,
+ "en": "Privacy of Famous People",
+ "zh": "名人的私生活",
+ "source": "FCE practice Book 2 · Test 3",
+ "topic": "The private lives of famous people should not be made public. What do you think?",
+ "notes": [
+  "public interest in famous people",
+  "famous people as role models",
+  "(your own idea)"
+ ],
+ "els": [
+  {
+   "el": "Introduction",
+   "pats": [
+    "These days, …",
+    "In my opinion, …"
+   ],
+   "html": "<b>These days,</b> <span class=\"kw\">celebrities</span> can hardly leave their homes without being <span class=\"kw\">photographed</span>. <span class=\"kw\">Gossip websites</span> and <span class=\"kw\">social media</span> report every detail of their lives. <b>In my opinion,</b> the private lives of famous people should <span class=\"kw\">generally</span> remain private."
+  },
+  {
+   "el": "Body 1: Public Interest in Famous People",
+   "pats": [
+    "Admittedly, …",
+    "To explain, …",
+    "However, …",
+    "For example, …",
+    "… which makes …",
+    "As a result, …",
+    "Therefore, …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Counter-point → Example → Effect → Wrap-up</i>\n<b>Admittedly,</b> the public is very <span class=\"kw\">curious</span> about famous people. <b>To explain,</b> fans want to know what their <span class=\"kw\">idols</span> eat, wear and do in their free time. <b>However,</b> being curious does not give anyone the right to <span class=\"kw\">invade</span> someone's <span class=\"kw\">privacy</span>. <b>For example,</b> some <span class=\"kw\">paparazzi</span> follow actors' children to school, <b>which makes</b> the children feel <span class=\"kw\">frightened</span>. <b>As a result,</b> innocent family members suffer. <b>Therefore,</b> public interest should have <span class=\"kw\">limits</span>.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 2: Famous People as Role Models",
+   "pats": [
+    "It is true that, …",
+    "For this reason, …",
+    "Nevertheless, …",
+    "For instance, …",
+    "… whereas …",
+    "Therefore, …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Counter-point → Example → Wrap-up</i>\n<b>It is true that</b> famous people are <span class=\"kw\">role models</span> for young people. <b>For this reason,</b> some argue that the public should know if a star behaves badly. <b>Nevertheless,</b> I believe only <span class=\"kw\">public behaviour</span>, such as <span class=\"kw\">breaking the law</span>, should be reported. <b>For instance,</b> a singer's <span class=\"kw\">relationship problems</span> are not our business, <b>whereas</b> <span class=\"kw\">drink-driving</span> is. <b>Therefore,</b> only behaviour that affects the public should be <span class=\"kw\">reported</span>.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 3: Mental Health (Own Idea)",
+   "pats": [
+    "Finally, …",
+    "… has a negative impact on …",
+    "… would be able to …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Effect</i>\n<b>Finally,</b> constant <span class=\"kw\">media attention</span> <b>has a negative impact on</b> celebrities' <span class=\"kw\">mental health</span>. Many stars have spoken about <span class=\"kw\">anxiety</span> caused by <span class=\"kw\">online criticism</span>. <b>If</b> the media respected their privacy, they <b>would be able to</b> live more <span class=\"kw\">normal lives</span>.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Conclusion",
+   "pats": [
+    "In conclusion, …",
+    "… although …"
+   ],
+   "html": "<b>In conclusion,</b> <b>although</b> people are curious about celebrities, their private lives should not be <span class=\"kw\">made public</span>. Famous people deserve the same <span class=\"kw\">respect</span> as everyone else."
+  }
+ ]
+},
+{
+ "id": "fce-essay-18",
+ "n": 18,
+ "en": "Learning Your Country's History",
+ "zh": "學習本國歷史",
+ "source": "FCE practice Book 2 · Test 4",
+ "topic": "Everyone should be taught the history of their own country. Do you agree?",
+ "notes": [
+  "what people can learn from the past",
+  "it's more important to think about the future",
+  "(your own idea)"
+ ],
+ "els": [
+  {
+   "el": "Introduction",
+   "pats": [
+    "In many schools, …",
+    "Some students, …",
+    "Nevertheless, …",
+    "I firmly believe that, …"
+   ],
+   "html": "<b>In many schools,</b> <span class=\"kw\">history</span> is seen as a boring subject full of <span class=\"kw\">dates</span> and <span class=\"kw\">names</span>. <b>Some students</b> even ask why they should study events that happened hundreds of years ago. <b>Nevertheless,</b> <b>I firmly believe that</b> everyone should learn the history of their own country."
+  },
+  {
+   "el": "Body 1: What People Can Learn from the Past",
+   "pats": [
+    "First of all, …",
+    "… allows us to …",
+    "To explain, …",
+    "For example, …",
+    "… helps …",
+    "… understand …",
+    "As a result, …",
+    "… are more likely to …",
+    "Therefore, …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Example → Effect → Wrap-up</i>\n<b>First of all,</b> history <b>allows us to</b> learn from past <span class=\"kw\">mistakes</span>. <b>To explain,</b> by studying <span class=\"kw\">wars</span>, <span class=\"kw\">disasters</span> and <span class=\"kw\">economic crises</span>, we can understand what went wrong. <b>For example,</b> learning about Taiwan's <span class=\"kw\">White Terror</span> period <b>helps</b> young people <b>understand</b> why <span class=\"kw\">freedom of speech</span> is so important. <b>As a result,</b> they <b>are more likely to</b> <span class=\"kw\">protect</span> these rights. <b>Therefore,</b> history is a valuable <span class=\"kw\">guide</span> for the present.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 2: It's More Important to Think about the Future",
+   "pats": [
+    "Admittedly, …",
+    "However, …",
+    "For instance, …",
+    "… in order to …",
+    "This shows that, …"
+   ],
+   "html": "<i class=\"step\">Concession → Counter-point → Example → Effect</i>\n<b>Admittedly,</b> some people argue that we should focus on the <span class=\"kw\">future</span>, such as <span class=\"kw\">technology</span> and <span class=\"kw\">climate change</span>. <b>However,</b> we cannot plan the future well without understanding the past. <b>For instance,</b> <span class=\"kw\">city planners</span> study past <span class=\"kw\">floods</span> and <span class=\"kw\">earthquakes</span> <b>in order to</b> build safer buildings. <b>This shows that</b> the past and the future are <span class=\"kw\">closely connected</span>.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 3: National Identity (Own Idea)",
+   "pats": [
+    "Finally, …",
+    "… gives …",
+    "When, …",
+    "Consequently, …",
+    "… are more likely to …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Effect</i>\n<b>Finally,</b> history <b>gives</b> people a sense of <span class=\"kw\">identity</span>. <b>When</b> we know where our <span class=\"kw\">traditions</span> and <span class=\"kw\">festivals</span> come from, we feel more <span class=\"kw\">connected</span> to our community. <b>Consequently,</b> we <b>are more likely to</b> <span class=\"kw\">preserve</span> our culture.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Conclusion",
+   "pats": [
+    "In conclusion, …",
+    "… helps us to …",
+    "For these reasons, …"
+   ],
+   "html": "<b>In conclusion,</b> learning national history <b>helps us to</b> avoid mistakes, plan the future and understand who we are. <b>For these reasons,</b> it should be taught to everyone."
+  }
+ ]
+},
+{
+ "id": "fce-essay-19",
+ "n": 19,
+ "en": "Pay for Sports Stars",
+ "zh": "運動明星收入太高嗎",
+ "source": "FCE practice Book 3 · Test 1",
+ "topic": "Famous sports people are paid too much money. Do you agree?",
+ "notes": [
+  "the entertainment they provide",
+  "how hard they work",
+  "(your own idea)"
+ ],
+ "els": [
+  {
+   "el": "Introduction",
+   "pats": [
+    "It is no secret that, …",
+    "Meanwhile, …",
+    "Although, …",
+    "I do not believe that, …"
+   ],
+   "html": "<b>It is no secret that</b> top footballers and basketball players earn <span class=\"kw\">millions of dollars</span> a year. <b>Meanwhile,</b> <span class=\"kw\">nurses</span> and <span class=\"kw\">teachers</span> earn only a small fraction of that. <b>Although</b> this seems <span class=\"kw\">unfair</span>, <b>I do not believe that</b> sports stars are paid too much."
+  },
+  {
+   "el": "Body 1: The Entertainment They Provide",
+   "pats": [
+    "First and foremost, …",
+    "To explain, …",
+    "For example, …",
+    "As a result, …",
+    "… it is only reasonable for …",
+    "Therefore, …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Example → Effect → Wrap-up</i>\n<b>First and foremost,</b> sports stars <span class=\"kw\">entertain</span> millions of people around the world. <b>To explain,</b> <span class=\"kw\">fans</span> pay for <span class=\"kw\">tickets</span>, <span class=\"kw\">TV subscriptions</span> and <span class=\"kw\">shirts</span>, <b>so</b> the players <span class=\"kw\">generate</span> huge amounts of money. <b>For example,</b> when a star like Shohei Ohtani plays, <span class=\"kw\">stadiums</span> are full and <span class=\"kw\">viewing figures</span> rise. <b>As a result,</b> <b>it is only reasonable for</b> players <b>to</b> receive a share of the profits. <b>Therefore,</b> their salaries reflect the value they create.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 2: How Hard They Work",
+   "pats": [
+    "Secondly, …",
+    "… in order to …",
+    "For instance, …",
+    "Consequently, …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Example → Effect</i>\n<b>Secondly,</b> professional athletes work <span class=\"kw\">extremely hard</span>. They train for hours every day and follow <span class=\"kw\">strict diets</span> <b>in order to</b> stay at the top. <b>For instance,</b> many <span class=\"kw\">Olympic athletes</span> start training at the age of six and give up a normal <span class=\"kw\">social life</span>. <b>Consequently,</b> their success is the result of years of <span class=\"kw\">sacrifice</span>.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 3: Short Careers (Own Idea)",
+   "pats": [
+    "Finally, …",
+    "That is why, …",
+    "… it is important for …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Effect</i>\n<b>Finally,</b> sports careers are very <span class=\"kw\">short</span>. Most athletes retire before thirty-five, and a serious <span class=\"kw\">injury</span> can end a career overnight. <b>That is why</b> <b>it is important for</b> them <b>to</b> earn enough money while they can.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Conclusion",
+   "pats": [
+    "In conclusion, …",
+    "… considering …",
+    "In my view, …"
+   ],
+   "html": "<b>In conclusion,</b> <b>considering</b> the entertainment they provide, their <span class=\"kw\">hard work</span> and their short careers, famous sports people are not <span class=\"kw\">overpaid</span>. <b>In my view,</b> they deserve every dollar they earn."
+  }
+ ]
+},
+{
+ "id": "fce-essay-20",
+ "n": 20,
+ "en": "Self-Employed or Employee?",
+ "zh": "自己創業還是受僱",
+ "source": "FCE practice Book 3 · Test 2",
+ "topic": "Is it better to be self-employed or to work for somebody else?",
+ "notes": [
+  "being independent",
+  "job security",
+  "(your own idea)"
+ ],
+ "els": [
+  {
+   "el": "Introduction",
+   "pats": [
+    "In recent years, …",
+    "Social media, …",
+    "However, …",
+    "… from my perspective …"
+   ],
+   "html": "<b>In recent years,</b> more and more young people dream of <span class=\"kw\">running their own business</span>. <b>Social media</b> is full of success stories about young <span class=\"kw\">entrepreneurs</span>. <b>However,</b> <b>from my perspective,</b> working for somebody else is the better choice for most people."
+  },
+  {
+   "el": "Body 1: Being Independent",
+   "pats": [
+    "Admittedly, …",
+    "… allows …",
+    "To explain, …",
+    "However, …",
+    "For example, …",
+    "… but …",
+    "As a result, …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Counter-point → Example → Effect</i>\n<b>Admittedly,</b> being <span class=\"kw\">self-employed</span> <b>allows</b> people <b>to</b> be <span class=\"kw\">independent</span>. <b>To explain,</b> they can choose their own <span class=\"kw\">working hours</span> and make their own decisions. <b>However,</b> <span class=\"kw\">independence</span> also means taking full <span class=\"kw\">responsibility</span> for everything. <b>For example,</b> my aunt opened a small café, <b>but</b> she now works seven days a week and rarely takes a holiday. <b>As a result,</b> her freedom is more limited than she expected.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 2: Job Security",
+   "pats": [
+    "More importantly, …",
+    "… provides …",
+    "… with …",
+    "… even if …",
+    "For instance, …",
+    "… while …",
+    "Consequently, …",
+    "… are less likely to …",
+    "Therefore, …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Example → Effect → Wrap-up</i>\n<b>More importantly,</b> working for a company <b>provides</b> employees <b>with</b> <span class=\"kw\">job security</span>. Employees receive a <span class=\"kw\">regular salary</span>, <span class=\"kw\">health insurance</span> and <span class=\"kw\">paid holidays</span>, <b>even if</b> business is slow. <b>For instance,</b> during the <span class=\"kw\">pandemic</span>, many small business owners lost their <span class=\"kw\">income</span>, <b>while</b> employees of large companies were <span class=\"kw\">protected</span>. <b>Consequently,</b> employees <b>are less likely to</b> worry about money. <b>Therefore,</b> security is a strong reason to work for someone else.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 3: Learning from Others (Own Idea)",
+   "pats": [
+    "Finally, …",
+    "… gives …",
+    "… the chance to …",
+    "Later on, …",
+    "… will be better prepared to …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Effect</i>\n<b>Finally,</b> working in a company <b>gives</b> young people <b>the chance to</b> learn from <span class=\"kw\">experienced colleagues</span>. They can develop <span class=\"kw\">skills</span> and <span class=\"kw\">contacts</span> before taking bigger <span class=\"kw\">risks</span>. <b>Later on,</b> they <b>will be better prepared to</b> start their own business.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Conclusion",
+   "pats": [
+    "In conclusion, …",
+    "… although …",
+    "… provides …",
+    "For this reason, …"
+   ],
+   "html": "<b>In conclusion,</b> <b>although</b> self-employment offers freedom, working for somebody else <b>provides</b> <span class=\"kw\">stability</span> and valuable <span class=\"kw\">experience</span>. <b>For this reason,</b> I believe it is the better option."
+  }
+ ]
+},
+{
+ "id": "fce-essay-21",
+ "n": 21,
+ "en": "Advertising and Society",
+ "zh": "廣告對社會好嗎",
+ "source": "FCE practice Book 3 · Test 3",
+ "topic": "Advertising is a very good thing for society. Do you agree?",
+ "notes": [
+  "keeping people informed",
+  "encouraging competition between companies",
+  "(your own idea)"
+ ],
+ "els": [
+  {
+   "el": "Introduction",
+   "pats": [
+    "Every day, …",
+    "… but …",
+    "In my view, …",
+    "… as long as …"
+   ],
+   "html": "<b>Every day,</b> we see hundreds of <span class=\"kw\">advertisements</span> on TV, on buses and on our phones. Many people find them <span class=\"kw\">annoying</span>, <b>but</b> advertising also has a serious purpose. <b>In my view,</b> advertising is mostly a good thing for society, <b>as long as</b> it is <span class=\"kw\">honest</span>."
+  },
+  {
+   "el": "Body 1: Keeping People Informed",
+   "pats": [
+    "First of all, …",
+    "Without, …",
+    "For example, …",
+    "… because …",
+    "As a result, …",
+    "Therefore, …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Example → Effect → Wrap-up</i>\n<b>First of all,</b> advertising <span class=\"kw\">keeps people informed</span> about new products and services. <b>Without</b> adverts, it would be <span class=\"kw\">difficult for</span> consumers <b>to</b> know what is available. <b>For example,</b> I only found out about a new <span class=\"kw\">language-learning app</span> <b>because</b> I saw an advert on YouTube. <b>As a result,</b> my English has <span class=\"kw\">improved</span>. <b>Therefore,</b> advertising can <span class=\"kw\">benefit</span> consumers directly.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 2: Encouraging Competition between Companies",
+   "pats": [
+    "Secondly, …",
+    "When, …",
+    "For instance, …",
+    "Consequently, …",
+    "… benefit from …",
+    "Therefore, …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Example → Effect → Wrap-up</i>\n<b>Secondly,</b> advertising <span class=\"kw\">encourages competition</span> between companies. <b>When</b> companies <span class=\"kw\">compete for</span> customers, they must offer <span class=\"kw\">lower prices</span> and <span class=\"kw\">better quality</span>. <b>For instance,</b> <span class=\"kw\">mobile phone companies</span> in Taiwan often advertise cheaper <span class=\"kw\">data plans</span> to attract new users. <b>Consequently,</b> customers <b>benefit from</b> more choice and better deals. <b>Therefore,</b> competition driven by advertising <span class=\"kw\">benefits</span> everyone.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 3: Misleading Adverts (Own Idea)",
+   "pats": [
+    "Admittedly, …",
+    "For example, …",
+    "It is difficult for, …",
+    "However, …",
+    "… this problem can be solved by …",
+    "As a result, …",
+    "… without …"
+   ],
+   "html": "<i class=\"step\">Concession → Explain → Counter-point → Effect</i>\n<b>Admittedly,</b> some adverts are <span class=\"kw\">misleading</span>. <b>For example,</b> <span class=\"kw\">junk food</span> adverts often target children with <span class=\"kw\">colourful cartoons</span>. <b>It is difficult for</b> young children <b>to</b> tell the difference between an advert and real information. <b>However,</b> <b>this problem can be solved by</b> <span class=\"kw\">stricter rules</span> rather than by banning advertising. <b>As a result,</b> advertising could stay <span class=\"kw\">useful</span> <b>without</b> harming young viewers.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Conclusion",
+   "pats": [
+    "In conclusion, …",
+    "… keeps …",
+    "… informed …",
+    "… encourages …",
+    "Provided that, …"
+   ],
+   "html": "<b>In conclusion,</b> advertising <b>keeps</b> us <b>informed</b> and <b>encourages</b> healthy competition. <b>Provided that</b> it is <span class=\"kw\">controlled</span>, it is a very good thing for society."
+  }
+ ]
+},
+{
+ "id": "fce-essay-22",
+ "n": 22,
+ "en": "Long-Lasting Products",
+ "zh": "耐用的產品是好是壞",
+ "source": "FCE practice Book 3 · Test 4",
+ "topic": "Is it a good or bad thing to have products that last a long time?",
+ "notes": [
+  "changing technology",
+  "fashion",
+  "(your own idea)"
+ ],
+ "els": [
+  {
+   "el": "Introduction",
+   "pats": [
+    "In the past, …",
+    "Today, …",
+    "From my perspective, …",
+    "… both …",
+    "… and …"
+   ],
+   "html": "<b>In the past,</b> people used the same <span class=\"kw\">fridge</span> or <span class=\"kw\">radio</span> for twenty years. <b>Today,</b> many products seem to break or go out of date after just a few years. <b>From my perspective,</b> having <span class=\"kw\">long-lasting products</span> is a good thing, <b>both</b> for consumers <b>and</b> for the planet."
+  },
+  {
+   "el": "Body 1: Changing Technology",
+   "pats": [
+    "Admittedly, …",
+    "For example, …",
+    "However, …",
+    "… allows …",
+    "For instance, …",
+    "Therefore, …"
+   ],
+   "html": "<i class=\"step\">Concession → Explain → Counter-point → Example → Wrap-up</i>\n<b>Admittedly,</b> <span class=\"kw\">technology</span> changes so quickly that some people want to <span class=\"kw\">upgrade</span> often. <b>For example,</b> a new phone model is released every year with a better <span class=\"kw\">camera</span>. <b>However,</b> a phone that lasts five years <b>allows</b> users <b>to</b> <span class=\"kw\">save money</span> and still do everything they need. <b>For instance,</b> my father has used the same <span class=\"kw\">laptop</span> for six years, and it still works perfectly for his job. <b>Therefore,</b> new technology does not always mean we need <span class=\"kw\">new products</span>.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 2: Fashion",
+   "pats": [
+    "Similarly, …",
+    "… are more likely to …",
+    "For example, …",
+    "… whereas …",
+    "As a result, …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Example → Effect</i>\n<b>Similarly,</b> <span class=\"kw\">fast fashion</span> encourages people to buy clothes that <span class=\"kw\">fall apart</span> quickly. <b>If</b> clothes are made to last, people <b>are more likely to</b> buy fewer, <span class=\"kw\">higher-quality</span> items. <b>For example,</b> a good pair of <span class=\"kw\">leather shoes</span> can last ten years, <b>whereas</b> cheap trainers may last only one season. <b>As a result,</b> durable products are better value in the long run.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 3: Protecting the Environment (Own Idea)",
+   "pats": [
+    "Finally, …",
+    "… have a positive impact on …",
+    "The fewer, …",
+    "… the less …",
+    "This means that, …",
+    "… help …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Effect</i>\n<b>Finally,</b> long-lasting products <b>have a positive impact on</b> the <span class=\"kw\">environment</span>. <b>The fewer</b> things we throw away, <b>the less</b> <span class=\"kw\">waste</span> ends up in <span class=\"kw\">landfills</span>. <b>This means that</b> durable products <b>help</b> reduce <span class=\"kw\">pollution</span> and save <span class=\"kw\">natural resources</span>.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Conclusion",
+   "pats": [
+    "In conclusion, …",
+    "That is why, …"
+   ],
+   "html": "<b>In conclusion,</b> products that last a long time save money, reduce waste and <span class=\"kw\">protect</span> the planet. <b>That is why</b> I believe they are a very good thing."
+  }
+ ]
+},
+{
+ "id": "fce-essay-23",
+ "n": 23,
+ "en": "Walking or Cycling to School",
+ "zh": "學生該走路或騎車上學嗎",
+ "source": "Cambridge B2 First Trainer · Test 2 (Training)",
+ "topic": "Students should have to walk or cycle to school. Do you agree?",
+ "notes": [
+  "the environment",
+  "where people live",
+  "(your own idea)"
+ ],
+ "els": [
+  {
+   "el": "Introduction",
+   "pats": [
+    "Every morning, …",
+    "As a result, …",
+    "In my view, …",
+    "… but …"
+   ],
+   "html": "<b>Every morning,</b> the roads outside schools are full of <span class=\"kw\">cars</span> and <span class=\"kw\">scooters</span> dropping students off. <b>As a result,</b> some people believe that all students should have to walk or <span class=\"kw\">cycle</span> to school. <b>In my view,</b> this is a good idea for many students, <b>but</b> it should not be <span class=\"kw\">compulsory</span> for everyone."
+  },
+  {
+   "el": "Body 1: The Environment",
+   "pats": [
+    "First and foremost, …",
+    "To explain, …",
+    "For example, …",
+    "As a result, …",
+    "Therefore, …",
+    "… it is beneficial for …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Example → Effect → Wrap-up</i>\n<b>First and foremost,</b> walking and cycling are much better for the <span class=\"kw\">environment</span>. <b>To explain,</b> fewer cars on the road means less <span class=\"kw\">air pollution</span> and a smaller <span class=\"kw\">carbon footprint</span>. <b>For example,</b> when my school held a \"Walk to School Week\", the <span class=\"kw\">traffic jam</span> at the gate almost disappeared. <b>As a result,</b> the air around the school felt <span class=\"kw\">cleaner</span>. <b>Therefore,</b> <b>it is beneficial for</b> the environment <b>to</b> encourage <span class=\"kw\">green travel</span>.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 2: Where People Live",
+   "pats": [
+    "However, …",
+    "… it is not realistic for …",
+    "… where …",
+    "For instance, …",
+    "Consequently, …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Example → Effect</i>\n<b>However,</b> <b>it is not realistic for</b> every student <b>to</b> walk or cycle. Some students live in <span class=\"kw\">remote</span> areas, many kilometres from school, <b>where</b> there is no safe route. <b>For instance,</b> one of my classmates lives in the mountains and needs an hour by bus to get to school. <b>Consequently,</b> forcing him to cycle would be <span class=\"kw\">dangerous</span> and <span class=\"kw\">exhausting</span>.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 3: Health and Safety (Own Idea)",
+   "pats": [
+    "Finally, …",
+    "… improves …",
+    "It enables, …",
+    "On the other hand, …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Concession</i>\n<b>Finally,</b> walking or cycling <b>improves</b> students' <span class=\"kw\">health</span>. <b>It enables</b> teenagers <b>to</b> get <span class=\"kw\">daily exercise</span> without extra time in the gym. <b>On the other hand,</b> cycling can be <span class=\"kw\">risky</span> in busy cities without <span class=\"kw\">bike lanes</span>.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Conclusion",
+   "pats": [
+    "In conclusion, …",
+    "However, …",
+    "… it would be unfair to …"
+   ],
+   "html": "<b>In conclusion,</b> students who live nearby should be <span class=\"kw\">encouraged</span> to walk or cycle. <b>However,</b> <b>it would be unfair to</b> make it <span class=\"kw\">compulsory</span> for everyone."
+  }
+ ]
+},
+{
+ "id": "fce-essay-24",
+ "n": 24,
+ "en": "Learning to Cook at School",
+ "zh": "學校該教烹飪嗎",
+ "source": "Cambridge B2 First Trainer · Test 1 (Training)",
+ "topic": "What are the advantages and disadvantages of everyone learning to cook at school?",
+ "notes": [
+  "health benefits",
+  "school timetable",
+  "(your own idea)"
+ ],
+ "els": [
+  {
+   "el": "Introduction",
+   "pats": [
+    "Nowadays, …",
+    "For this reason, …",
+    "This essay will discuss, …"
+   ],
+   "html": "<b>Nowadays,</b> many teenagers rely on <span class=\"kw\">convenience stores</span> and <span class=\"kw\">food delivery apps</span> for their meals. <b>For this reason,</b> some people suggest that cooking should be taught to everyone at school. <b>This essay will discuss</b> the advantages and disadvantages of this idea."
+  },
+  {
+   "el": "Body 1: Health Benefits",
+   "pats": [
+    "The main advantage, …",
+    "… have a positive impact on …",
+    "To explain, …",
+    "… are more likely to …",
+    "For example, …",
+    "As a result, …",
+    "Therefore, …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Example → Effect → Wrap-up</i>\n<b>The main advantage</b> is that cooking lessons <b>have a positive impact on</b> students' <span class=\"kw\">health</span>. <b>To explain,</b> students who can cook <b>are more likely to</b> choose <span class=\"kw\">fresh ingredients</span> instead of <span class=\"kw\">processed food</span>. <b>For example,</b> after a <span class=\"kw\">cooking club</span> at my school, many members started making their own <span class=\"kw\">lunch boxes</span>. <b>As a result,</b> they ate more <span class=\"kw\">vegetables</span> and less <span class=\"kw\">fried food</span>. <b>Therefore,</b> cooking is a valuable <span class=\"kw\">life skill</span>.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 2: School Timetable",
+   "pats": [
+    "On the other hand, …",
+    "For instance, …",
+    "Consequently, …",
+    "Therefore, …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Example → Effect → Wrap-up</i>\n<b>On the other hand,</b> the school <span class=\"kw\">timetable</span> is already very full. Students in Taiwan have many <span class=\"kw\">exams</span> to prepare for, <b>so</b> adding cooking lessons could mean less time for <span class=\"kw\">core subjects</span>. <b>For instance,</b> our school would have to cut one <span class=\"kw\">PE</span> or <span class=\"kw\">art</span> lesson a week. <b>Consequently,</b> some parents and teachers might <span class=\"kw\">object</span>. <b>Therefore,</b> schools would need to <span class=\"kw\">plan the timetable</span> carefully.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 3: Cost and Equipment (Own Idea)",
+   "pats": [
+    "Another disadvantage, …",
+    "… which would be …",
+    "For example, …",
+    "However, …",
+    "… could …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Example → Counter-point</i>\n<b>Another disadvantage</b> is the <span class=\"kw\">cost</span>. Schools would need <span class=\"kw\">kitchens</span>, <span class=\"kw\">equipment</span> and <span class=\"kw\">trained teachers</span>, <b>which would be</b> expensive. <b>For example,</b> <span class=\"kw\">parents</span> might have to pay extra for <span class=\"kw\">ingredients</span> every week. <b>However,</b> schools <b>could</b> <span class=\"kw\">share facilities</span> with local community centres to save money.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Conclusion",
+   "pats": [
+    "In conclusion, …",
+    "… although …",
+    "… bring …",
+    "On balance, …",
+    "… the advantages outweigh the disadvantages …"
+   ],
+   "html": "<b>In conclusion,</b> <b>although</b> cooking lessons <b>bring</b> some <span class=\"kw\">practical problems</span>, their health benefits are significant. <b>On balance,</b> I believe <b>the advantages outweigh the disadvantages</b>."
+  }
+ ]
+},
+{
+ "id": "fce-essay-25",
+ "n": 25,
+ "en": "Qualities in a Best Friend",
+ "zh": "好朋友的特質",
+ "source": "FCE practice Book 5 · Test 1 (Part 2)",
+ "topic": "What qualities do you look for in a best friend?",
+ "notes": [
+  "honesty (suggested)",
+  "loyalty (suggested)",
+  "(your own idea)"
+ ],
+ "els": [
+  {
+   "el": "Introduction",
+   "pats": [
+    "It is often said that, …",
+    "However, …",
+    "In my opinion, …"
+   ],
+   "html": "<b>It is often said that</b> a true friend is one of life's greatest <span class=\"kw\">treasures</span>. <b>However,</b> not everyone we meet becomes a <span class=\"kw\">best friend</span>. <b>In my opinion,</b> the most important qualities in a best friend are <span class=\"kw\">honesty</span>, <span class=\"kw\">loyalty</span> and a good <span class=\"kw\">sense of humour</span>."
+  },
+  {
+   "el": "Body 1: Honesty",
+   "pats": [
+    "First and foremost, …",
+    "To explain, …",
+    "… even when …",
+    "For example, …",
+    "As a result, …",
+    "Therefore, …",
+    "… helps …",
+    "… grow …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Example → Effect → Wrap-up</i>\n<b>First and foremost,</b> I look for a friend who is <span class=\"kw\">honest</span>. <b>To explain,</b> a real friend tells you the <span class=\"kw\">truth</span>, <b>even when</b> it is difficult to hear. <b>For example,</b> my best friend once told me that I was spending too much time on my phone and <span class=\"kw\">ignoring</span> my family. <b>As a result,</b> I changed my <span class=\"kw\">habits</span> and felt much happier. <b>Therefore,</b> honesty <b>helps</b> friends <b>grow</b> together.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 2: Loyalty",
+   "pats": [
+    "Secondly, …",
+    "This means that, …",
+    "For instance, …",
+    "Consequently, …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Example → Effect</i>\n<b>Secondly,</b> a best friend must be <span class=\"kw\">loyal</span>. <b>This means that</b> they <span class=\"kw\">support</span> you in difficult times and keep your <span class=\"kw\">secrets</span>. <b>For instance,</b> when other students <span class=\"kw\">spread rumours</span> about me, my best friend <span class=\"kw\">stood up for</span> me. <b>Consequently,</b> our <span class=\"kw\">friendship</span> became even stronger.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 3: A Sense of Humour (Own Idea)",
+   "pats": [
+    "Finally, …",
+    "… makes it easier for …",
+    "For example, …",
+    "In fact, …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Example → Effect</i>\n<b>Finally,</b> I value a friend with a good <span class=\"kw\">sense of humour</span>. Laughing together <b>makes it easier for</b> us <b>to</b> deal with <span class=\"kw\">stress</span> and bad days. <b>For example,</b> when I was nervous before a <span class=\"kw\">competition</span>, my best friend made me laugh until I relaxed. <b>In fact,</b> some of my happiest memories are of <span class=\"kw\">silly jokes</span> we shared.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Conclusion",
+   "pats": [
+    "In conclusion, …",
+    "When, …"
+   ],
+   "html": "<b>In conclusion,</b> a best friend should be honest, loyal and fun to be with. <b>When</b> you find someone like that, you should <span class=\"kw\">treasure</span> them."
+  }
+ ]
+},
+{
+ "id": "fce-essay-26",
+ "n": 26,
+ "en": "Clothes and Personality",
+ "zh": "穿著與個性",
+ "source": "FCE practice Book 5 · Test 3 (Part 2)",
+ "topic": "The clothes you wear show a lot about your personality. What do the clothes people wear show about their personalities?",
+ "notes": [
+  "colours and style (suggested)",
+  "following trends (suggested)",
+  "(your own idea)"
+ ],
+ "els": [
+  {
+   "el": "Introduction",
+   "pats": [
+    "They say that, …",
+    "Yet, …",
+    "… when we meet …",
+    "From my perspective, …",
+    "… although …"
+   ],
+   "html": "<b>They say that</b> you should never judge a book by its <span class=\"kw\">cover</span>. <b>Yet</b> <b>when we meet</b> someone new, the first thing we notice is often their <span class=\"kw\">clothes</span>. <b>From my perspective,</b> clothes can show a lot about a person's <span class=\"kw\">personality</span>, <b>although</b> not everything."
+  },
+  {
+   "el": "Body 1: Colours and Style",
+   "pats": [
+    "To begin with, …",
+    "To explain, …",
+    "… while …",
+    "For example, …",
+    "As a result, …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Example → Effect</i>\n<b>To begin with,</b> the <span class=\"kw\">colours</span> and <span class=\"kw\">style</span> people choose often reflect their <span class=\"kw\">character</span>. <b>To explain,</b> <span class=\"kw\">outgoing</span> people tend to wear <span class=\"kw\">bright colours</span>, <b>while</b> <span class=\"kw\">quiet</span> people often prefer <span class=\"kw\">dark</span> or <span class=\"kw\">neutral</span> shades. <b>For example,</b> my cousin, who loves performing on stage, always wears <span class=\"kw\">bold patterns</span> and <span class=\"kw\">eye-catching</span> accessories. <b>As a result,</b> people can guess she is <span class=\"kw\">confident</span> before she even speaks.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 2: Following Trends",
+   "pats": [
+    "Secondly, …",
+    "… tells us …",
+    "Those who, …",
+    "… are often …",
+    "By contrast, …",
+    "For instance, …",
+    "… because …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Example</i>\n<b>Secondly,</b> whether people follow <span class=\"kw\">fashion trends</span> <b>tells us</b> something about them. <b>Those who</b> always wear the latest styles <b>are often</b> <span class=\"kw\">sociable</span> and care about what others think. <b>By contrast,</b> people who ignore trends may be more <span class=\"kw\">independent</span> or <span class=\"kw\">practical</span>. <b>For instance,</b> my grandfather has worn the same type of shirt for years <b>because</b> he values <span class=\"kw\">comfort</span> over fashion.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 3: Limits of First Impressions (Own Idea)",
+   "pats": [
+    "However, …",
+    "For example, …",
+    "In these cases, …"
+   ],
+   "html": "<i class=\"step\">Concession → Explain → Example → Effect</i>\n<b>However,</b> clothes do not always show who we really are. Many students must wear <span class=\"kw\">school uniforms</span>, and many adults wear <span class=\"kw\">formal suits</span> for work. <b>For example,</b> a lawyer in a dark suit may actually be <span class=\"kw\">cheerful</span> and <span class=\"kw\">creative</span> at the weekend. <b>In these cases,</b> clothes show the <span class=\"kw\">situation</span> rather than the personality.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Conclusion",
+   "pats": [
+    "In conclusion, …",
+    "Nevertheless, …",
+    "… it is important to …"
+   ],
+   "html": "<b>In conclusion,</b> clothes can reveal our <span class=\"kw\">confidence</span>, our <span class=\"kw\">interests</span> and our <span class=\"kw\">values</span>. <b>Nevertheless,</b> <b>it is important to</b> get to know someone before <span class=\"kw\">judging</span> them."
+  }
+ ]
+},
+{
+ "id": "fce-essay-27",
+ "n": 27,
+ "en": "Is School a Waste of Time?",
+ "zh": "學校教的東西浪費時間嗎",
+ "source": "FCE practice Book 4 · Test 1 (Part 2)",
+ "topic": "\"Much of what is taught in schools nowadays is a waste of students' time.\" Write a composition on this subject, with reference to your own learning experiences.",
+ "notes": [
+  "memorising facts (suggested)",
+  "useful skills (suggested)",
+  "(your own idea)"
+ ],
+ "els": [
+  {
+   "el": "Introduction",
+   "pats": [
+    "Many students, …",
+    "Because of this, …",
+    "From my own experience, …",
+    "… but …"
+   ],
+   "html": "<b>Many students</b> sometimes ask themselves, \"When will I ever use this in real life?\" <b>Because of this,</b> some people claim that much of what is taught at school is a <span class=\"kw\">waste of time</span>. <b>From my own experience,</b> I partly agree, <b>but</b> I believe most school subjects are still <span class=\"kw\">valuable</span>."
+  },
+  {
+   "el": "Body 1: Memorising Facts",
+   "pats": [
+    "Admittedly, …",
+    "For example, …",
+    "As a result, …",
+    "In this sense, …"
+   ],
+   "html": "<i class=\"step\">Concession → Explain → Effect → Wrap-up</i>\n<b>Admittedly,</b> some lessons focus too much on <span class=\"kw\">memorising</span> facts. <b>For example,</b> in junior high, I had to <span class=\"kw\">learn by heart</span> long lists of dates and <span class=\"kw\">formulas</span> for exams. <b>As a result,</b> I forgot most of them a few weeks later. <b>In this sense,</b> <span class=\"kw\">rote learning</span> can waste students' time.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 2: Useful Skills",
+   "pats": [
+    "However, …",
+    "… teaches …",
+    "… help …",
+    "For instance, …",
+    "… made it easier for …",
+    "Consequently, …",
+    "Therefore, …",
+    "… but …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Example → Effect → Wrap-up</i>\n<b>However,</b> school also <b>teaches</b> us important <span class=\"kw\">skills</span> that we use every day. Subjects like English and maths <b>help</b> us <b>to</b> <span class=\"kw\">communicate</span>, <span class=\"kw\">solve problems</span> and think <span class=\"kw\">logically</span>. <b>For instance,</b> the <span class=\"kw\">presentations</span> I gave in English class <b>made it easier for</b> me <b>to</b> speak confidently at my first job interview. <b>Consequently,</b> I now see these lessons as an <span class=\"kw\">investment</span>. <b>Therefore,</b> the problem is not the subjects themselves, <b>but</b> the way they are taught.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Body 3: Social Skills (Own Idea)",
+   "pats": [
+    "Finally, …",
+    "… gives …",
+    "… the chance to …"
+   ],
+   "html": "<i class=\"step\">Topic sentence → Explain → Effect</i>\n<b>Finally,</b> school <b>gives</b> students <b>the chance to</b> develop <span class=\"kw\">social skills</span>. Through <span class=\"kw\">group projects</span> and <span class=\"kw\">clubs</span>, we learn <span class=\"kw\">teamwork</span>, <span class=\"kw\">patience</span> and <span class=\"kw\">respect</span>. These skills are just as important as <span class=\"kw\">academic knowledge</span>.",
+   "flow": "Topic sentence → Explain → Example → Effect → Wrap-up"
+  },
+  {
+   "el": "Conclusion",
+   "pats": [
+    "In conclusion, …",
+    "… although …",
+    "What schools need is, …"
+   ],
+   "html": "<b>In conclusion,</b> <b>although</b> some teaching methods could be improved, most of what we learn at school is far from a waste of time. <b>What schools need is</b> more <span class=\"kw\">practical learning</span>, not fewer subjects."
+  }
+ ]
+}
 ];
 
