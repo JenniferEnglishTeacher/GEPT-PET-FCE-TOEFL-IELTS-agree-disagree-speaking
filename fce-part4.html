@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FCE Use of English Part 4 | Jennifer Chen's Speaking &amp; Writing</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="speaking-extra.css">
+    <link rel="stylesheet" href="sw-pages.css">
+    <link rel="stylesheet" href="fce-uoe.css">
+    <style>
+      .p4-group { margin: 14px 4px 4px; font-size: 13px; font-weight: 800; color: #5b3f8c; }
+      .question-list .p4-group:first-child { margin-top: 0; }
+      .p4-cat { display: flex; justify-content: space-between; align-items: center; gap: 8px; width: 100%; text-align: left; border: 1px solid var(--line); background: #fff; border-radius: 8px; padding: 7px 10px; margin: 4px 0; font: inherit; font-size: 14px; cursor: pointer; color: var(--ink); }
+      .p4-cat:hover { border-color: #5b3f8c; } .p4-cat.active { border-color: #5b3f8c; background: #f1ecf8; font-weight: 700; }
+      .p4-cat em { display: block; font-style: normal; font-weight: 400; font-size: 12px; color: var(--muted); }
+      .p4-cat small { flex: 0 0 auto; color: var(--muted); font-weight: 700; font-variant-numeric: tabular-nums; } .p4-cat small.done { color: var(--good); }
+      .p4-zh { margin: -4px 0 12px; color: #5b3f8c; font-weight: 700; }
+      .p4-grid { width: 100%; border-collapse: collapse; margin: 6px 0 18px; font-size: 15px; line-height: 1.6; background: #fff; }
+      .p4-grid th { background: #3b2a5c; color: #fff; text-align: left; padding: 8px 10px; font-size: 14px; }
+      .p4-grid td { border: 1px solid #e0d7ee; padding: 8px 10px; vertical-align: top; }
+      .p4-grid td:first-child { width: 36%; background: #f7f3fc; font-weight: 600; }
+      .p4-grid .ex { margin-bottom: 4px; } .p4-hl { color: #1f3864; background: #fff3d6; border-radius: 3px; padding: 0 2px; }
+      .p4-q { border: 1px solid #e3dbef; border-radius: 10px; background: #fff; padding: 12px 16px; margin: 10px 0; }
+      .p4-first { font-family: "Times New Roman", Georgia, serif; font-size: 18px; line-height: 1.6; } .p4-first b { color: #5b3f8c; font-family: "Segoe UI", Arial, sans-serif; margin-right: 6px; }
+      .p4-key { margin: 6px 0 4px 26px; font-weight: 800; letter-spacing: .04em; color: #7a4b00; }
+      .p4-second { margin-left: 26px; font-family: "Times New Roman", Georgia, serif; font-size: 18px; line-height: 2; }
+      .p4-input { font: 15px "Segoe UI", Arial, sans-serif; width: min(19em, 100%); border: 1px solid #b9a9d3; border-radius: 6px; padding: 4px 8px; margin: 0 4px; background: #fcfaff; }
+      .p4-input.ok { border-color: var(--good); background: #eaf6ee; } .p4-input.bad { border-color: var(--danger); background: #fdf0f0; }
+      .p4-actions { display: flex; gap: 8px; align-items: center; margin: 8px 0 0 26px; flex-wrap: wrap; } .p4-count { color: var(--muted); font-size: 13px; }
+      .p4-result { margin: 8px 0 0 26px; border-radius: 8px; padding: 8px 12px; font-size: 15px; line-height: 1.6; }
+      .p4-result.ok { background: #eaf6ee; border: 1px solid #b9dcc4; } .p4-result.ok .v { color: var(--good); }
+      .p4-result.bad { background: #fdf0f0; border: 1px solid #ecc2c2; } .p4-result.bad .v { color: var(--danger); }
+      .p4-result.shown { background: #fff8e6; border: 1px solid #f0dcaa; }
+      @media (max-width: 760px) { .p4-grid, .p4-grid tbody, .p4-grid tr, .p4-grid td { display: block; width: 100% !important; } .p4-grid thead { display: none; } .p4-grid td:first-child { border-bottom: 0; } .p4-key, .p4-second, .p4-actions, .p4-result { margin-left: 0; } }
+    </style>
+  </head>
+  <body>
+    <div class="app-shell sw-two">
+      <aside class="question-sidebar" aria-label="Grammar categories">
+        <div class="sidebar-head">
+          <div>
+            <p class="eyebrow">FCE B2 First · Use of English</p>
+            <h1>Part 4 Key Word Transformation</h1>
+            <a class="dash-link" href="dashboard.html" style="margin-top:8px">&larr; Dashboard</a>
+          </div>
+          <span class="count-pill" id="countPill">0</span>
+        </div>
+        <label class="search-box"><span>Search</span><input id="searchInput" type="search" placeholder="passive, wish, despite…" autocomplete="off"></label>
+        <div id="catList" class="question-list"></div>
+      </aside>
+      <main class="sw-main">
+        <p class="eyebrow" id="catMeta"></p>
+        <h2 id="catTitle"></h2>
+        <p class="p4-zh" id="catZh"></p>
+        <div class="sw-prompt">Study the 常考句型 and 例句 first, then do the questions. Complete the second sentence so it means the same as the first. Use the word given — do not change it — and 2–5 words in total.
+先讀常考句型與例句，再做練習：用粗體關鍵字（不可變形）填 2–5 個字，使第二句與第一句意思相同。</div>
+        <div id="grid"></div>
+        <h3 id="qCount" style="margin:18px 0 4px"></h3>
+        <div id="questions"></div>
+        <div class="uoe-nav"><button id="prevButton" class="small-button" type="button">&larr; Previous pattern</button>
+          <button id="nextButton" class="small-button primary-action" type="button">Next pattern &rarr;</button></div>
+      </main>
+    </div>
+    <script src="fce-part4-data.js"></script>
+    <script src="fce-part4.js"></script>
+  </body>
+</html>
