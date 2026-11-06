@@ -1,7 +1,10 @@
-/* KET / PET / FCE email & letter writing — phrase bank, formal/informal game, 10 guided tasks, real-email reading.
-   Uses email-writing-data.js, speaking-kit.js (speech), writing-kit.js (timer, word count, grammar checks). */
+/* KET / PET / FCE / TOEFL email, letter & essay writing — phrase bank, formal/informal game, three levels of guided tasks, real-email reading.
+   Level 1: short notes 50–100 words (iTEP Set 1)   Level 2: FCE / TOEFL emails 150–180 words (iTEP Set 2 + Cambridge B2 First Part 2)
+   Level 3: FCE opinion essays 220–250 words (Cambridge B2 First Part 1).
+   Uses email-writing-data.js + email-writing-fce-data.js, speaking-kit.js (speech), writing-kit.js (timer, word count, grammar checks). */
 const W = window.WritingKit, SK = window.SpeakingKit;
-const BANK = window.EMAIL_BANK || [], TASKS = window.EMAIL_TASKS || [], REAL = window.EMAIL_REAL, STEPS = window.EMAIL_STEPS || [];
+const BANK = window.EMAIL_BANK || [], REAL = window.EMAIL_REAL, STEPS = window.EMAIL_STEPS || [];
+const NOTES = window.EMAIL_NOTES || [], SET2 = window.EMAIL_TASKS || [], FCE = window.EMAIL_FCE || [], ESSAYS = window.EMAIL_ESSAYS || [], FRAMES = window.FCE_FRAMES || [];
 const esc = W.esc;
 const $ = id => document.getElementById(id);
 const store = {
@@ -9,22 +12,45 @@ const store = {
   set: (k, v) => { try { localStorage.setItem(k, v); } catch {} },
   del: k => { try { localStorage.removeItem(k); } catch {} }
 };
-const plain = h => String(h).replace(/<[^>]+>/g, "").replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">");
+const plain = h => String(h).replace(/<i class="step">[^<]*<\/i>/g, "").replace(/<[^>]+>/g, "").replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">");
 const TONE = { formal: "Formal 正式", informal: "Informal 非正式", semi: "Neutral 中性" };
 const TARGETS = [
-  { id: "note", label: "Short note 50–75", min: 50, max: 75 },
-  { id: "pet", label: "PET Part 1 · ~100", min: 80, max: 120 },
-  { id: "fce", label: "FCE Part 2 · 140–190", min: 140, max: 190 }
+  { id: "note", label: "Short note 50–75", min: 50, max: 75, mins: [5, 10, 15] },
+  { id: "pet", label: "PET · 80–120", min: 80, max: 120, mins: [10, 15, 20] },
+  { id: "fce", label: "FCE / TOEFL · 150–180", min: 150, max: 180, mins: [20, 30, 40] },
+  { id: "itep", label: "iTEP essay · 175–225", min: 175, max: 225, mins: [20, 30, 40] },
+  { id: "essay", label: "FCE essay · 220–250", min: 220, max: 250, mins: [30, 40, 50] }
 ];
+const TARGETS_FOR = { note: ["note", "pet", "fce"], email: ["pet", "fce"], essay: ["itep", "essay"] };
+
+/* Three levels. Each task carries .type so the shared views know how to behave. */
+NOTES.forEach(t => { t.type = "note"; t.level = 1; });
+SET2.forEach(t => { t.type = "email"; t.level = 2; t.source = t.source || "iTEP Set 2 · extended model"; });
+for (const t of [...NOTES, ...SET2, ...FCE, ...ESSAYS]) if (!t.words) t.words = W.wordCount(plain(t.els.map(e => `${e.html || ""} ${e.signoff || ""} ${e.name || ""}`).join(" ")));
+FCE.forEach(t => { t.type = "email"; t.level = 2; });
+ESSAYS.forEach(t => { t.type = "essay"; t.level = 3; });
+const LEVELS = [
+  { id: "level-1", n: 1, kind: "note", en: "Short Notes", zh: "短信", words: "50–100 words", tasks: NOTES, group: "Level 1 · KET / PET Short Notes 短信 50–100 字",
+    sub: "iTEP Part 1 · 10 purposes (thank-you, apology, request, complaint…). One clear purpose, 5 minutes, match the tone to the reader. 一個目的、五分鐘、語氣要配合收件人。" },
+  { id: "level-2", n: 2, kind: "email", en: "FCE / TOEFL Emails", zh: "FCE / TOEFL 書信", words: "150–180 words", tasks: [...SET2, ...FCE], group: "Level 2 · FCE / TOEFL Emails 書信 150–180 字",
+    sub: "17 emails: 10 school-life notes written at full length + 7 Cambridge B2 First Part 2 replies to a friend. Answer every point, use the bold B2 patterns, 150–180 words. 回答每一點、用粗體句型、150–180 字。" },
+  { id: "level-3", n: 3, kind: "essay", en: "FCE Essays", zh: "FCE 作文", words: "220–250 words", tasks: ESSAYS, group: "Level 3 · FCE Essays 作文 220–250 字",
+    sub: "10 Cambridge B2 First Part 1 essays: introduction, three body paragraphs (Topic sentence → Explain → Example → Effect), conclusion. 導論、三段主體、結論。" }
+];
+const ALL_TASKS = [...NOTES, ...SET2, ...FCE, ...ESSAYS];
+const levelOf = t => LEVELS[t.level - 1];
 
 /* ---------- navigation ---------- */
 const NAV = [
-  { id: "guide", kind: "start", group: "Start Here 從這裡開始", icon: "1", label: "How to Build an Email 書信結構", search: "structure steps formal informal guide 結構" },
+  { id: "guide", kind: "start", group: "Start Here 從這裡開始", icon: "1", label: "How to Build an Email 書信結構", search: "structure steps formal informal guide 結構 levels" },
   { id: "game", kind: "start", group: "Start Here 從這裡開始", icon: "?", label: "Game: Formal or Informal? 正式還是非正式", search: "game quiz formal informal 遊戲" },
   ...BANK.map(s => ({ id: `bank-${s.id}`, kind: "bank", group: { Start: "Phrase Bank · Opening 開頭", Purpose: "Phrase Bank · Purpose 寫信目的", End: "Phrase Bank · Ending 結尾" }[s.group],
     icon: s.num || (s.group === "Start" ? "A" : "Z"), label: `${s.en} ${s.zh}`, search: JSON.stringify(s) })),
-  ...TASKS.map(t => ({ id: t.id, kind: "task", group: "PET / FCE Writing Tasks 寫作練習", icon: t.n, label: `${t.en} ${t.zh}`, search: `${t.en} ${t.zh} ${t.prompt} ${t.to}` })),
-  { id: REAL.id, kind: "task", group: "Real-world Email 真實郵件", icon: "✉", label: `${REAL.title.replace("Real Email: ", "")} ${REAL.zh}`, search: `${REAL.title} ${REAL.zh} disney booking hotel` }
+  ...LEVELS.flatMap(L => [
+    { id: L.id, kind: L.kind, group: L.group, icon: "☰", label: `All ${L.tasks.length} prompts 總覽 · ${L.words}`, search: `${L.en} ${L.zh} overview grid all prompts ${L.words}` },
+    ...L.tasks.map((t, i) => ({ id: t.id, kind: L.kind, group: L.group, icon: i + 1, label: `${t.en} ${t.zh}`, search: `${t.en} ${t.zh} ${t.prompt || t.topic} ${t.to || ""} ${t.source || ""}` }))
+  ]),
+  { id: REAL.id, kind: "email", group: "Real-world Email 真實郵件", icon: "✉", label: `${REAL.title.replace("Real Email: ", "")} ${REAL.zh}`, search: `${REAL.title} ${REAL.zh} disney booking hotel` }
 ];
 let kind = "all", current = null, cleanup = [];
 
@@ -51,15 +77,18 @@ function go(id, focus) {
   if (!NAV.some(n => n.id === id)) id = "guide";
   current = id;
   const v = $("view"); v.innerHTML = "";
+  const L = LEVELS.find(l => l.id === id), t = ALL_TASKS.find(x => x.id === id);
   if (id === "guide") viewGuide(v);
   else if (id === "game") viewGame(v);
   else if (id.startsWith("bank-")) viewBank(v, BANK.find(s => `bank-${s.id}` === id));
   else if (id === REAL.id) viewReal(v);
-  else viewTask(v, TASKS.find(t => t.id === id));
+  else if (L) viewLevel(v, L);
+  else if (t) viewTask(v, t);
   renderNav();
   try { history.replaceState(null, "", `#${id}`); } catch {}
   if (focus) { window.scrollTo({ top: 0 }); v.focus({ preventScroll: true }); }
 }
+const wireGo = root => root.querySelectorAll("[data-go]").forEach(b => b.addEventListener("click", () => go(b.dataset.go, true)));
 
 function sayBtn(text) { return `<button type="button" class="say" title="Listen 聽" aria-label="Listen" data-say="${esc(text)}">&#128264;</button>`; }
 function wireSay(root) {
@@ -70,8 +99,18 @@ function wireSay(root) {
 function viewGuide(v) {
   v.innerHTML = `<p class="eyebrow">Start Here 從這裡開始</p>
     <h2>How to Build an Email 一封英文書信的結構</h2>
-    <p class="sw-sub">Every KET, PET and FCE email follows the same six steps. Click a step to see the sentence patterns. 點每一步看句型。</p>
+    <p class="sw-sub">Every KET, PET, FCE and TOEFL email follows the same six steps. Click a step to see the sentence patterns. 點每一步看句型。</p>
     <div class="em-steps">${STEPS.map(s => `<button type="button" class="em-step" data-go="${s.go}"><span class="n">${s.n}</span><b>${esc(s.en)}</b>${esc(s.zh)}<small>${esc(s.ex)}</small></button>`).join("")}</div>
+    <section class="sw-section"><h3>Three levels 三個級別</h3>
+      <div class="em-levels">${LEVELS.map(L => `<button type="button" class="em-level l${L.n}" data-go="${L.id}"><span class="n">Level ${L.n}</span><b>${esc(L.en)} ${esc(L.zh)}</b><span class="w">${esc(L.words)} · ${L.tasks.length} tasks</span><small>${esc(L.sub)}</small></button>`).join("")}</div>
+      <div class="sw-table-wrap" style="margin-top:12px"><table class="em-compare">
+        <tr><th class="k">Exam 考試</th><th>Task 題型</th><th>Length 字數</th><th>Time 時間</th><th>Level here</th></tr>
+        <tr><td>KET / iTEP Part 1</td><td>Short note or letter for one situation</td><td>50–75 words</td><td>5 min</td><td>Level 1</td></tr>
+        <tr><td>PET Part 1</td><td>Reply to an email, 4 notes to answer</td><td>about 100 words</td><td>~20 min</td><td>Level 1 → 2</td></tr>
+        <tr><td>FCE Part 2 / TOEFL</td><td>Email or letter answering every point</td><td>140–190 words (aim 150–180)</td><td>~40 min</td><td>Level 2</td></tr>
+        <tr><td>FCE Part 1 / iTEP Part 2</td><td>Opinion essay with 3 body paragraphs</td><td>220–250 words (iTEP 175–225)</td><td>40 min (iTEP 20)</td><td>Level 3</td></tr>
+      </table></div>
+    </section>
     <section class="sw-section"><h3>Formal or informal? 正式還是非正式？</h3>
       <div class="sw-table-wrap"><table class="em-compare">
         <tr><th class="k">Check 檢查</th><th class="f">Formal 正式 (teacher, school, company)</th><th class="i">Informal 非正式 (friend, classmate, family)</th></tr>
@@ -88,12 +127,33 @@ function viewGuide(v) {
       <ol style="line-height:1.9;margin:0;padding-left:22px">
         <li><b>Phrase Bank 句型庫</b> — 22 purposes, formal and informal. Turn on <i>Self-test</i> to hide the examples and quiz yourself. 🔊 listens.</li>
         <li><b>Game</b> — decide if each sentence is formal or informal.</li>
-        <li><b>Writing Tasks 寫作</b> — 10 PET/FCE prompts. Click a pattern to put it in your email, write with the timer, then <i>Check My Email</i> and compare with the model.</li>
+        <li><b>Level 1–3 Tasks 寫作</b> — open a level to see the grid of all prompts, then pick one. Click a pattern to put it in your writing, write with the timer, <i>Check</i>, then compare with the model (<b>bold</b> = sentence pattern, <span class="kw">yellow</span> = topic vocabulary).</li>
         <li><b>Real Email 真實郵件</b> — read a real booking email, answer 8 questions, then write a reply to the support desk.</li>
       </ol>
-      <div class="sw-actions"><button class="small-button primary-action" type="button" data-go="task-1">Start Task 1 &rarr;</button><button class="small-button" type="button" data-go="game">Play the Game</button><button class="small-button" type="button" data-go="bank-request">Open the Phrase Bank</button></div>
+      <div class="sw-actions"><button class="small-button primary-action" type="button" data-go="level-2">Level 2: FCE / TOEFL Emails &rarr;</button><button class="small-button" type="button" data-go="level-1">Level 1: Short Notes</button><button class="small-button" type="button" data-go="level-3">Level 3: Essays</button><button class="small-button" type="button" data-go="game">Play the Game</button><button class="small-button" type="button" data-go="bank-request">Open the Phrase Bank</button></div>
     </section>`;
-  v.querySelectorAll("[data-go]").forEach(b => b.addEventListener("click", () => go(b.dataset.go, true)));
+  wireGo(v);
+}
+
+/* ---------- level overview: the compiled grid of prompts ---------- */
+function viewLevel(v, L) {
+  const isEssay = L.kind === "essay";
+  const rows = L.tasks.map((t, i) => isEssay
+    ? `<tr><td><b>${i + 1}</b><small>${esc(t.source || "")}</small></td><td><b>${esc(t.en)}</b><br><small>${esc(t.zh)}</small></td><td>${esc(t.topic)}<div class="em-notes">${t.notes.map(n => `<span>${esc(n)}</span>`).join("")}</div></td><td>${t.words}</td><td><button class="small-button primary-action" type="button" data-go="${t.id}">Open &rarr;</button></td></tr>`
+    : `<tr><td><b>${i + 1}</b><small>${esc(t.source || "iTEP Set 1")}</small></td><td><b>${esc(t.en)}</b><br><small>${esc(t.zh)}</small></td><td><span class="tone ${t.tone}">${TONE[t.tone]}</span><br><small>To ${esc(t.to)}</small></td><td>${esc(t.prompt)}${t.points ? `<div class="em-notes">${t.points.map(p => `<span>${esc(p)}</span>`).join("")}</div>` : ""}</td><td>${t.words}</td><td><button class="small-button primary-action" type="button" data-go="${t.id}">Open &rarr;</button></td></tr>`).join("");
+  v.innerHTML = `<p class="eyebrow">Level ${L.n} · ${esc(L.words)}</p>
+    <h2>${esc(L.en)} <span style="color:var(--muted);font-weight:600">${esc(L.zh)}</span></h2>
+    <p class="sw-sub">${esc(L.sub)}${L.n === 3 ? ' For the fill-in pattern check and typing game, open the <a href="fce-essay.html" target="_blank" rel="noopener">FCE Essays page</a>. 填空練習與打字遊戲請到 FCE 作文頁。' : ""}</p>
+    <section class="sw-section"><h3><span>All ${L.tasks.length} prompts 題目總覽</span><span class="em-note">Model length = words in the sample ${isEssay ? "essay" : "email"}</span></h3>
+      <div class="sw-table-wrap"><table class="sw-grid em-overview">
+        <tr><th style="width:7%">#</th><th style="width:17%">${isEssay ? "Topic 主題" : "Purpose 目的"}</th><th style="width:${isEssay ? "46" : "14"}%">${isEssay ? "Question + notes 題目與要點" : "Reader 收件人"}</th>${isEssay ? "" : '<th>Prompt 題目</th>'}<th style="width:7%">Model</th><th style="width:9%"></th></tr>
+        ${rows}
+      </table></div>
+    </section>
+    ${L.n >= 2 ? `<section class="sw-section"><h3>B2 sentence patterns in the models 範文中的高分句型 <small style="font-weight:400;color:var(--muted);font-size:13px">(shown in <b>bold</b>; the checker counts how many you use)</small></h3>
+      <div class="em-frames">${FRAMES.map(f => `<span>${esc(f)}</span>`).join("")}</div></section>` : ""}
+    <section class="sw-section"><div class="em-links">${L.n > 1 ? `<button class="small-button" type="button" data-go="level-${L.n - 1}">&larr; Level ${L.n - 1}</button>` : ""}<button class="small-button primary-action" type="button" data-go="${L.tasks[0].id}">Start ${esc(L.tasks[0].en)} &rarr;</button>${L.n < 3 ? `<button class="small-button" type="button" data-go="level-${L.n + 1}">Level ${L.n + 1} &rarr;</button>` : ""}</div></section>`;
+  wireGo(v);
 }
 
 /* ---------- phrase bank ---------- */
@@ -149,13 +209,13 @@ function viewBank(v, s) {
     $("tryStatus").textContent = (await SK.copyText(prompt)) ? "Copied. Paste it to Claude or ChatGPT." : "Clipboard blocked — copy manually.";
   });
   const idx = BANK.indexOf(s), prev = BANK[idx - 1], next = BANK[idx + 1];
-  const related = TASKS.filter(t => t.links.includes(s.id));
+  const related = ALL_TASKS.filter(t => (t.links || []).includes(s.id)).slice(0, 4);
   $("nextLinks").innerHTML = [
     prev ? `<button class="small-button" type="button" data-go="bank-${prev.id}">&larr; ${esc(prev.en)}</button>` : "",
     next ? `<button class="small-button" type="button" data-go="bank-${next.id}">${esc(next.en)} &rarr;</button>` : "",
-    ...related.map(t => `<button class="small-button primary-action" type="button" data-go="${t.id}">✍ Use it: Task ${t.n} ${esc(t.en)}</button>`)
+    ...related.map(t => `<button class="small-button primary-action" type="button" data-go="${t.id}">✍ Use it: L${t.level} ${esc(t.en)}</button>`)
   ].join("");
-  $("nextLinks").querySelectorAll("[data-go]").forEach(b => b.addEventListener("click", () => go(b.dataset.go, true)));
+  wireGo($("nextLinks"));
 }
 
 /* ---------- formal / informal game ---------- */
@@ -205,8 +265,28 @@ function viewGame(v) {
   start();
 }
 
+/* ---------- B2 pattern counter (shared by email + essay checkers) ---------- */
+const FRAME_RX = [
+  [/\b(enable|allow)(s|ed)?\s+\w+(\s+\w+)?\s+to\b/i, "enable / allow sb to V"],
+  [/\bprovid(e|es|ed|ing)\s+\w+(\s+\w+)?\s+with\b/i, "provide sb with N"],
+  [/\bmak(e|es|ing)\s+it\s+(easier|harder|more difficult|difficult|hard|possible|more enjoyable)\s+for\b/i, "make it easier for sb to V"],
+  [/\bit\s+is\s+(important|difficult|beneficial|impossible|essential|natural|reasonable|more effective)\s+for\b/i, "It is important for sb to V"],
+  [/\bhave\s+(the|a)\s+(chance|opportunity)\s+to\b/i, "have the chance to V"],
+  [/\b(as a result|consequently|therefore|thus)\b/i, "As a result / Therefore"],
+  [/\b(for example|for instance)\b/i, "For example"],
+  [/\b(compared to|in contrast|on the other hand|however)\b/i, "Compared to / In contrast / However"],
+  [/\b(is|are|be)\s+more\s+likely\s+to\b/i, "be more likely to V"],
+  [/\bbenefi(t|ts|ted)\s+from\b|\b(is|are|be)\s+(more\s+)?beneficial\b|\bbrings?\s+more\s+benefits\b/i, "benefit from / be more beneficial"],
+  [/\bha(s|ve|d)\s+a\s+(more\s+)?(positive|negative)\s+impact\s+on\b/i, "have a positive impact on N"],
+  [/\bthe\s+best\s+way\s+to\b/i, "the best way to V"],
+  [/\b(improv|enhanc|boost)(e|es|ed|ing)\b/i, "improve / enhance / boost"],
+  [/\b(through|by)\s+\w+ing\b|\bthrough\s+(the|a|an|shared|daily|music)\b/i, "through N / by V-ing"],
+  [/\bit\s+is\s+(well known|well documented|estimated|clear)\s+that\b/i, "It is well known that"]
+];
+const countFrames = text => FRAME_RX.filter(([rx]) => rx.test(text)).map(([, n]) => n);
+
 /* ---------- email checker ---------- */
-function checkEmail(text, tone, target) {
+function checkEmail(text, tone, target, cfg) {
   const issues = [], good = [];
   let score = 100;
   if (!text.trim()) return { score: 0, issues: ["Please write your email first. 請先寫信。"] };
@@ -217,16 +297,17 @@ function checkEmail(text, tone, target) {
   if (/^(dear|hi|hello|hey|to whom|good (morning|afternoon)|to all|to my)\b/i.test(first)) {
     good.push("Greeting ✓"); if (!/[,!:]$/.test(first)) { issues.push(`Put a comma after the greeting: “${first.replace(/[.\s]*$/, "")},” 稱呼後加逗號。`); score -= 3; }
   } else { issues.push("Start with a greeting on its own line: Dear Ms. Tan, / Hi Lucy, 第一行要先稱呼對方。"); score -= 12; }
-  if (/\b(regards|sincerely|faithfully|wishes|warmly|take care|cheers|love|see you|talk soon|respectfully|appreciation|gratitude|yours|your (friend|classmate|biggest|new)|class leader|apologetically|can'?t wait)\b/i.test(lastLines)) good.push("Sign-off ✓");
+  if (/\b(regards|sincerely|faithfully|wishes|warmly|take care|cheers|love|see you|talk soon|respectfully|appreciation|gratitude|yours|your (friend|classmate|biggest|new)|class leader|apologetically|can'?t wait|best|write back soon|good luck)\b/i.test(lastLines)) good.push("Sign-off ✓");
   else { issues.push("End with a sign-off and your name: Best regards, / Take care, + name. 結尾要有敬辭和署名。"); score -= 12; }
   if (/[,!]$/.test(lines[lines.length - 1] || "")) { issues.push("Write your name on the last line, after the sign-off. 敬辭下一行寫名字。"); score -= 4; }
-  if (paras.length < 4) { issues.push(`Use paragraphs (now ${paras.length}). Leave a blank line between greeting / purpose / details / closing / sign-off. 分段，段落之間空一行。`); score -= 8; }
+  const minParas = target.id === "fce" ? 5 : 4;
+  if (paras.length < minParas) { issues.push(`Use paragraphs (now ${paras.length}). ${target.id === "fce" ? "Greeting / opening / one paragraph per point / closing / sign-off." : "Leave a blank line between greeting / purpose / details / closing / sign-off."} 分段，段落之間空一行。`); score -= 8; }
   else good.push(`${paras.length} paragraphs ✓`);
   const body = paras.slice(1, 3).join(" ");
-  if (!/\b(I am writing|I'?m writing|I wanted to|I would like to|I'?d like to|just wanted|I am contacting|just letting you know|heads up|I owe|congratulations|thank you for|thanks (a ton |so much )?for|as you (probably )?know|since you asked|this is (a|just a) (friendly |quick )?reminder|I regret|I just heard|I am so)\b/i.test(body)) {
-    issues.push("Say why you are writing near the start: I am writing to… / I just wanted to… 開頭要說明寫信目的。"); score -= 8;
-  } else good.push("Purpose sentence ✓");
-  if (!/\b(look(ing)? forward|let me know|hope to|hope you|can'?t wait|see you|hear from you|feel free|please contact|if you have any questions|thank you (again|once again|for your time|in advance)|once again)\b/i.test(paras.slice(-3).join(" "))) {
+  if (!/\b(I am writing|I'?m writing|I wanted to|I would like to|I'?d like to|just wanted|I am contacting|just letting you know|heads up|I owe|congratulations|thank you for|thanks (a ton |so much )?for|as you (probably )?know|since you asked|this is (a|just a) (friendly |quick )?reminder|I regret|I just heard|I am so|I'?m so|how exciting|great to hear|thanks for your (email|message|letter)|I (totally|completely) (understand|get)|let me (answer|help)|I can (totally |really )?(relate|understand))\b/i.test(body)) {
+    issues.push("Say why you are writing near the start: I am writing to… / Thanks for your email — … 開頭要說明寫信目的或回應來信。"); score -= 8;
+  } else good.push("Purpose / reply sentence ✓");
+  if (!/\b(look(ing)? forward|let me know|hope to|hope you|hope this helps|can'?t wait|see you|hear from you|feel free|please contact|if you have any questions|thank you (again|once again|for your time|in advance)|once again|good luck|write back|you'?ve got this)\b/i.test(paras.slice(-3).join(" "))) {
     issues.push("Add a ‘before the end’ line: I look forward to hearing from you. / Let me know what you think! 結尾前加一句。"); score -= 6;
   }
   const contr = (text.match(/\b\w+'(m|re|s|ve|d|ll|t)\b|\b\w+’(m|re|s|ve|d|ll|t)\b/gi) || []).filter(c => !/^(let'?s|let’s)$/i.test(c));
@@ -244,49 +325,101 @@ function checkEmail(text, tone, target) {
   if (words < target.min) { issues.push(`Too short: ${words} words. Aim for ${target.min}–${target.max}. 字數不足。`); score -= words < target.min * .7 ? 15 : 8; }
   else if (words > target.max * 1.15) { issues.push(`Too long for this target: ${words} words (aim ${target.min}–${target.max}). Cut extra details. 字數太多。`); score -= 6; }
   else good.push(`${words} words ✓`);
+  if (cfg && cfg.points) {
+    const ticked = cfg.points.filter((_, i) => store.get(`${cfg.key}-pt${i}`) === "1").length;
+    if (ticked < cfg.points.length) { issues.push(`Points covered: ${ticked} / ${cfg.points.length}. Tick each point in the checklist after you answer it — FCE marks every point. 每一點都要回答並勾選。`); score -= (cfg.points.length - ticked) * 5; }
+    else good.push("All points ticked ✓");
+  }
+  if (target.id === "fce") {
+    const used = countFrames(text);
+    if (used.length >= 3) good.push(`${used.length} B2 patterns ✓ (${used.slice(0, 4).join(", ")})`);
+    else { issues.push(`Only ${used.length} B2 pattern${used.length === 1 ? "" : "s"} so far — borrow some bold ones from the grid: enable sb to V, provide sb with, make it easier for sb to, As a result,… 多用粗體句型。`); score -= 5; }
+  }
   const g = W.review(text, null, "email", 1).issues.filter(m => !/^(Good length|Develop your answer|Use more complete|Grammar and structure look|End your last sentence)/.test(m));
   g.forEach(m => { issues.push(m); score -= 4; });
   if (!issues.length) issues.push("Great email! Read it aloud once more and check spelling. 很棒！再朗讀一次檢查拼字。");
   return { score: Math.max(0, Math.min(100, score)), issues, good };
 }
 
-/* ---------- writing area (tasks + real email) ---------- */
+/* ---------- essay checker ---------- */
+function checkEssay(text, target, t) {
+  const issues = [], good = [];
+  let score = 100;
+  if (!text.trim()) return { score: 0, issues: ["Please write your essay first. 請先寫作文。"] };
+  const words = W.wordCount(text);
+  const paras = text.split(/\n\s*\n/).map(p => p.trim()).filter(Boolean);
+  if (paras.length < 5) { issues.push(`Use 5 paragraphs (now ${paras.length}): introduction, three body paragraphs, conclusion. Leave a blank line between them. 五段：導論、三段主體、結論。`); score -= 10; }
+  else good.push(`${paras.length} paragraphs ✓`);
+  const intro = paras[0] || "", concl = paras[paras.length - 1] || "", bodies = paras.slice(1, -1);
+  if (/\b(I (strongly |firmly )?(believe|think|agree|disagree)|from my perspective|in my (opinion|view)|I am convinced)\b/i.test(intro)) good.push("Opinion in the introduction ✓");
+  else { issues.push("State your opinion in the introduction: From my perspective, I strongly believe that… 導論要先表態。"); score -= 8; }
+  if (/\b(in conclusion|to conclude|to sum up|overall|all in all)\b/i.test(concl)) good.push("Conclusion signal ✓");
+  else { issues.push("Start the last paragraph with In conclusion, … and restate your opinion. 結論用 In conclusion 並重述立場。"); score -= 8; }
+  const noEx = bodies.filter(p => !/\b(for example|for instance|such as|when my|at my school|in my (school|class|experience)|research shows|studies show|recently|last year)\b/i.test(p)).length;
+  if (bodies.length && noEx) { issues.push(`${noEx} body paragraph${noEx > 1 ? "s have" : " has"} no example. Each body: Topic sentence → Explain → Example → Effect. 每段都要有例子。`); score -= noEx * 5; }
+  else if (bodies.length) good.push("Examples in every body paragraph ✓");
+  const noEff = bodies.filter(p => !/\b(as a result|consequently|therefore|thus|this means|which means|so that|leads? to|led to)\b/i.test(p)).length;
+  if (bodies.length && noEff) { issues.push(`${noEff} body paragraph${noEff > 1 ? "s lack" : " lacks"} an effect sentence: As a result, … / Therefore, … 加上結果句。`); score -= noEff * 4; }
+  if (t && t.notes) {
+    const miss = t.notes.filter(n => !/own idea/i.test(n)).filter(n => { const kw = n.toLowerCase().match(/[a-z]{4,}/g) || []; return kw.length && !kw.some(k => text.toLowerCase().includes(k.slice(0, 5))); });
+    if (miss.length) { issues.push(`Did you write about: ${miss.join("; ")}? Both notes must be covered, plus your own idea. 兩個提示要點都要寫到。`); score -= miss.length * 6; }
+    else good.push("Both notes covered ✓");
+  }
+  const used = countFrames(text);
+  if (used.length >= 5) good.push(`${used.length} B2 patterns ✓ (${used.slice(0, 5).join(", ")})`);
+  else { issues.push(`${used.length} B2 pattern${used.length === 1 ? "" : "s"} so far — aim for 5+: enable sb to V, provide sb with, make it easier for sb to, be more likely to, have a positive impact on, Compared to… 多用粗體高分句型。`); score -= 6; }
+  if (words < target.min) { issues.push(`Too short: ${words} words. Aim for ${target.min}–${target.max}. 字數不足。`); score -= words < target.min * .75 ? 15 : 8; }
+  else if (words > target.max * 1.12) { issues.push(`Over length: ${words} words (aim ${target.min}–${target.max}). Examiners stop reading at the limit. 字數太多。`); score -= 6; }
+  else good.push(`${words} words ✓`);
+  const g = W.review(text, null, "essay", 1).issues.filter(m => !/^(Good length|Develop your answer|Use more complete|Grammar and structure look|End your last sentence|Add linking words)/.test(m));
+  g.forEach(m => { issues.push(m); score -= 4; });
+  if (!issues.length) issues.push("Strong essay! Read it once more for spelling and article/plural errors. 很棒！再檢查拼字、冠詞與複數。");
+  return { score: Math.max(0, Math.min(100, score)), issues, good };
+}
+
+/* ---------- writing area (tasks, essays, real email) ---------- */
 function writingArea(v, cfg) {
-  /* cfg: { key, tone, to, prompt, purpose, modelText, modelHtml, defaultTarget } */
-  let target = TARGETS.find(t => t.id === (store.get(`${cfg.key}-target`) || cfg.defaultTarget)) || TARGETS[0];
+  /* cfg: { key, type: note|email|essay, tone, to, prompt, purpose, modelText, modelHtml, defaultTarget, outline, points, task } */
+  const type = cfg.type || "email";
+  const targets = TARGETS.filter(t => (TARGETS_FOR[type] || TARGETS_FOR.email).includes(t.id));
+  let target = targets.find(t => t.id === (store.get(`${cfg.key}-target`) || cfg.defaultTarget)) || targets[0];
   const sec = document.createElement("section");
   sec.className = "sw-section";
-  sec.innerHTML = `<h3><span>Your Email 我的書信</span><span id="timerHost"></span></h3>
-    <div class="em-targets">Target 字數目標: ${TARGETS.map(t => `<button class="chip" type="button" data-target="${t.id}">${t.label}</button>`).join("")}</div>
-    <textarea id="writeBox" class="sw-write" spellcheck="true" style="margin-top:8px;min-height:280px" placeholder="Dear …,&#10;&#10;I am writing to …&#10;&#10;…&#10;&#10;Best regards,&#10;Your name&#10;&#10;(Click a pattern above to add it here. Saved automatically on this device.)"></textarea>
+  const isEssay = type === "essay";
+  sec.innerHTML = `<h3><span>${isEssay ? "Your Essay 我的作文" : "Your Email 我的書信"}</span><span id="timerHost"></span></h3>
+    <div class="em-targets">Target 字數目標: ${targets.map(t => `<button class="chip" type="button" data-target="${t.id}">${t.label}</button>`).join("")}</div>
+    <textarea id="writeBox" class="sw-write" spellcheck="true" style="margin-top:8px;min-height:${isEssay ? 360 : 280}px" placeholder="${isEssay ? "Introduction with your opinion…&#10;&#10;Body 1: topic sentence → explain → example → effect&#10;&#10;Body 2…&#10;&#10;Body 3 (your own idea)…&#10;&#10;In conclusion, …" : "Dear …,&#10;&#10;I am writing to …&#10;&#10;…&#10;&#10;Best regards,&#10;Your name"}&#10;&#10;(Click a pattern above to add it here. Saved automatically on this device.)"></textarea>
     <div class="sw-meta"><span id="saveStatus">Draft saved on this device</span><span id="wordCount"></span></div>
     <div class="sw-actions">
-      <button class="small-button primary-action" type="button" id="checkBtn">&#9989; Check My Email</button>
+      <button class="small-button primary-action" type="button" id="checkBtn">&#9989; Check My ${isEssay ? "Essay" : "Email"}</button>
       <button class="small-button" type="button" id="outlineBtn">&#128221; Add Outline</button>
-      <button class="small-button" type="button" id="modelBtn">Show Model Email</button>
+      <button class="small-button" type="button" id="modelBtn">Show Model ${isEssay ? "Essay" : "Email"}</button>
       <button class="small-button" type="button" id="listenBtn">&#128264; Listen to Model</button>
       <button class="small-button" type="button" id="aiBtn">&#129302; Copy for AI Feedback</button>
       <button class="small-button" type="button" id="clearBtn">Clear</button>
     </div>
     <div id="feedback" class="sw-feedback" hidden></div>
-    <section class="sw-section" id="modelSec" hidden><h3>Model Email 範文 <small style="font-weight:400;color:var(--muted);font-size:13px">(sentence patterns in bold)</small></h3><div class="em-model" id="modelBox"></div>
-      <p class="em-note">The model is a full, extended version. Borrow its patterns, then keep your own email to the word target. 範文較長，學句型、字數依目標調整。</p></section>`;
+    <section class="sw-section" id="modelSec" hidden><h3>Model ${isEssay ? "Essay" : "Email"} 範文 <small style="font-weight:400;color:var(--muted);font-size:13px">(<b>bold</b> = sentence pattern · <span class="kw">yellow</span> = topic vocabulary${cfg.modelWords ? ` · ${cfg.modelWords} words` : ""})</small></h3><div class="em-model" id="modelBox"></div>
+      <p class="em-note">${isEssay ? "Borrow the patterns and the paragraph plan, but use your own examples. 借句型與段落架構，例子要自己想。" : "Borrow its patterns, then keep your own email to the word target. 學句型、字數依目標調整。"}</p></section>`;
   v.appendChild(sec);
   const box = $("writeBox"), DK = `${cfg.key}-draft`;
   box.value = store.get(DK) || "";
   const count = () => { $("wordCount").textContent = `${W.wordCount(box.value)} words · target ${target.min}–${target.max}`; };
   const markT = () => sec.querySelectorAll("[data-target]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.target === target.id)));
-  sec.querySelectorAll("[data-target]").forEach(b => b.addEventListener("click", () => { target = TARGETS.find(t => t.id === b.dataset.target); store.set(`${cfg.key}-target`, target.id); markT(); count(); }));
-  markT(); count();
-  const mins = target.id === "fce" ? [20, 30, 40] : [10, 15, 20];
-  const timer = W.timer($("timerHost"), { minutes: mins, start: mins[1], onEnd: () => { $("saveStatus").textContent = "⏰ Time is up! Finish your sentence, then check your email."; } });
-  cleanup.push(() => timer.stop());
+  let timer = null;
+  const makeTimer = () => {
+    if (timer) timer.stop();
+    timer = W.timer($("timerHost"), { minutes: target.mins, start: target.mins[1], onEnd: () => { $("saveStatus").textContent = "⏰ Time is up! Finish your sentence, then check your writing."; } });
+  };
+  sec.querySelectorAll("[data-target]").forEach(b => b.addEventListener("click", () => { target = targets.find(t => t.id === b.dataset.target); store.set(`${cfg.key}-target`, target.id); markT(); count(); makeTimer(); }));
+  markT(); count(); makeTimer();
+  cleanup.push(() => timer && timer.stop());
   box.addEventListener("input", () => { store.set(DK, box.value); $("saveStatus").textContent = "Draft saved on this device"; count(); });
   $("modelBox").innerHTML = cfg.modelHtml;
   $("checkBtn").addEventListener("click", () => {
-    const r = checkEmail(box.value, cfg.tone, target);
+    const r = isEssay ? checkEssay(box.value, target, cfg.task) : checkEmail(box.value, cfg.tone, target, cfg);
     const fb = $("feedback"); fb.hidden = false;
-    fb.innerHTML = `<div><span class="score">${r.score}</span><b>Email checker 書信檢查</b> <small style="color:var(--muted)">— greeting, purpose, paragraphs, tone, sign-off, length and common grammar. For full corrections use “Copy for AI Feedback”.</small></div>
+    fb.innerHTML = `<div><span class="score">${r.score}</span><b>${isEssay ? "Essay checker 作文檢查" : "Email checker 書信檢查"}</b> <small style="color:var(--muted)">— ${isEssay ? "paragraphs, opinion, examples, effects, notes covered, B2 patterns, length and common grammar" : "greeting, purpose, paragraphs, tone, sign-off, points, patterns, length and common grammar"}. For full corrections use “Copy for AI Feedback”.</small></div>
       ${r.good && r.good.length ? `<p style="margin:10px 0 0;color:var(--good);font-weight:700">${r.good.map(esc).join(" · ")}</p>` : ""}
       <ul>${r.issues.map(i => `<li>${esc(i)}</li>`).join("")}</ul>`;
   });
@@ -295,22 +428,25 @@ function writingArea(v, cfg) {
     const o = cfg.outline || "Dear …,\n\n[Why you are writing]\n\n[Details]\n\n[Before the end]\n\n[Sign-off],\n[Your name]";
     box.value = box.value.trim() ? `${box.value.trim()}\n\n${o}` : o; box.dispatchEvent(new Event("input")); box.focus();
   });
-  $("modelBtn").addEventListener("click", () => { const s = $("modelSec"); s.hidden = !s.hidden; $("modelBtn").textContent = s.hidden ? "Show Model Email" : "Hide Model Email"; });
+  $("modelBtn").addEventListener("click", () => { const s = $("modelSec"); s.hidden = !s.hidden; $("modelBtn").textContent = `${s.hidden ? "Show" : "Hide"} Model ${isEssay ? "Essay" : "Email"}`; });
   let speaking = false;
   $("listenBtn").addEventListener("click", () => {
     if (speaking) { SK.stopSpeech(); speaking = false; $("listenBtn").innerHTML = "&#128264; Listen to Model"; return; }
-    $("modelSec").hidden = false; $("modelBtn").textContent = "Hide Model Email";
+    $("modelSec").hidden = false; $("modelBtn").textContent = `Hide Model ${isEssay ? "Essay" : "Email"}`;
     SK.stopSpeech(); SK.speak(cfg.modelText, 0.92); speaking = true; $("listenBtn").textContent = "■ Stop";
     const poll = setInterval(() => { if (!speechSynthesis.speaking) { clearInterval(poll); speaking = false; const b = $("listenBtn"); if (b) b.innerHTML = "&#128264; Listen to Model"; } }, 500);
     cleanup.push(() => clearInterval(poll));
   });
   $("aiBtn").addEventListener("click", async () => {
     const t = box.value.trim();
-    if (!t) { $("saveStatus").textContent = "Write your email first. 請先寫信。"; return; }
-    const prompt = `Please check my English email for the Cambridge ${target.id === "fce" ? "B2 First (FCE)" : "B1 Preliminary (PET) / A2 Key (KET)"} writing test.\n\nTask (${cfg.purpose}; reader: ${cfg.to}; tone: ${TONE[cfg.tone]}):\n${cfg.prompt}\n\nMy email (${W.wordCount(t)} words; target ${target.min}–${target.max}):\n${t}\n\nPlease give me:\n1. Grammar, spelling and word-choice corrections with short explanations in Traditional Chinese.\n2. Did I answer every point of the task? Is the tone right for the reader?\n3. Better sentence patterns I could use (opening, purpose, before the end, sign-off).\n4. An improved version that keeps my ideas.\n5. A Cambridge-style score (Content, Communicative Achievement, Organisation, Language: 0–5 each).`;
-    $("saveStatus").textContent = (await SK.copyText(prompt)) ? "Copied with the task. Paste it to Claude or ChatGPT." : "Clipboard was blocked — copy your email manually.";
+    if (!t) { $("saveStatus").textContent = `Write your ${isEssay ? "essay" : "email"} first. 請先寫。`; return; }
+    const exam = target.id === "essay" ? "Cambridge B2 First (FCE) Writing Part 1 essay" : target.id === "itep" ? "iTEP Writing Part 2 opinion essay" : target.id === "fce" ? "Cambridge B2 First (FCE) Part 2 / TOEFL email" : "Cambridge B1 Preliminary (PET) / A2 Key (KET) email";
+    const prompt = isEssay
+      ? `Please check my English essay for the ${exam}.\n\nEssay question:\n${cfg.prompt}\nNotes to cover: ${(cfg.task.notes || []).join("; ")}\n\nMy essay (${W.wordCount(t)} words; target ${target.min}–${target.max}):\n${t}\n\nPlease give me:\n1. Grammar, spelling and word-choice corrections with short explanations in Traditional Chinese.\n2. Did I cover both notes and add my own idea? Does every body paragraph have Topic sentence → Explain → Example → Effect?\n3. Which B2 sentence patterns did I use well (enable sb to V, provide sb with, make it easier for sb to, As a result, Compared to…) and where could I add more?\n4. An improved version that keeps my ideas and stays within ${target.min}–${target.max} words.\n5. A Cambridge-style score (Content, Communicative Achievement, Organisation, Language: 0–5 each).`
+      : `Please check my English email for the ${exam} writing test.\n\nTask (${cfg.purpose}; reader: ${cfg.to}; tone: ${TONE[cfg.tone]}):\n${cfg.prompt}${cfg.points ? `\nPoints I must cover: ${cfg.points.join("; ")}` : ""}\n\nMy email (${W.wordCount(t)} words; target ${target.min}–${target.max}):\n${t}\n\nPlease give me:\n1. Grammar, spelling and word-choice corrections with short explanations in Traditional Chinese.\n2. Did I answer every point of the task? Is the tone right for the reader?\n3. Better sentence patterns I could use (opening, purpose, before the end, sign-off${target.id === "fce" ? "; B2 patterns such as enable sb to V, provide sb with, make it easier for sb to, As a result" : ""}).\n4. An improved version that keeps my ideas.\n5. A Cambridge-style score (Content, Communicative Achievement, Organisation, Language: 0–5 each).`;
+    $("saveStatus").textContent = (await SK.copyText(prompt)) ? "Copied with the task. Paste it to Claude or ChatGPT." : "Clipboard was blocked — copy your writing manually.";
   });
-  $("clearBtn").addEventListener("click", () => { if (!box.value.trim() || confirm("Clear this email?")) { box.value = ""; store.del(DK); count(); $("feedback").hidden = true; } });
+  $("clearBtn").addEventListener("click", () => { if (!box.value.trim() || confirm(`Clear this ${isEssay ? "essay" : "email"}?`)) { box.value = ""; store.del(DK); count(); $("feedback").hidden = true; } });
   return box;
 }
 function insertAt(box, text) {
@@ -329,34 +465,62 @@ const chipText = (el, p) => {
   return t + " ";
 };
 
-/* ---------- task view ---------- */
+/* ---------- task view: notes (L1), emails (L2), essays (L3) ---------- */
 function viewTask(v, t) {
+  const L = levelOf(t), isEssay = t.type === "essay";
   const model = [];
   t.els.forEach(e => { if (e.html) model.push(e.html); if (e.signoff) model.push(`${esc(e.signoff)}\n${esc(e.name)}`); });
   const modelHtml = model.join("\n\n");
-  v.innerHTML = `<p class="eyebrow">PET / FCE Writing Task ${t.n} · ${esc(t.en)} ${esc(t.zh)}</p>
-    <h2>${esc(t.en)} <span style="color:var(--muted);font-weight:600">${esc(t.zh)}</span></h2>
-    <div class="em-meta"><span>To 收件人: <b>${esc(t.to)}</b></span><span class="tone ${t.tone}">${TONE[t.tone]}</span></div>
-    <div class="sw-prompt">${esc(t.prompt)}</div>
+  const i = L.tasks.indexOf(t);
+  let head;
+  if (isEssay) {
+    head = `<p class="eyebrow">Level 3 · FCE Essay ${i + 1} · ${esc(t.source || "")}</p>
+      <h2>${esc(t.en)} <span style="color:var(--muted);font-weight:600">${esc(t.zh)}</span></h2>
+      <div class="em-meta"><span>Write an essay 寫一篇作文</span><span class="tone semi">Formal / neutral 正式</span><span>220–250 words · 40 min</span></div>
+      <div class="sw-prompt"><b>${esc(t.topic)}</b></div>
+      <div class="em-notes big">${t.notes.map((n, k) => `<span><b>Note ${k + 1}</b> ${esc(n)}</span>`).join("")}</div>
+      <p class="em-hint">Write about the two notes and add your own idea (Body 3). Each body paragraph: Topic sentence → Explain → Example → Effect → Wrap-up. 兩個要點＋自己的想法。</p>`;
+  } else if (t.friend) {
+    head = `<p class="eyebrow">Level 2 · FCE / TOEFL Email ${i + 1} · ${esc(t.source || "")}</p>
+      <h2>${esc(t.en)} <span style="color:var(--muted);font-weight:600">${esc(t.zh)}</span></h2>
+      <div class="em-meta"><span>Reply to 回信給: <b>${esc(t.to)}</b></span><span class="tone ${t.tone}">${TONE[t.tone]}</span><span>150–180 words</span></div>
+      <div class="em-mail"><div class="em-mail-head"><div><b>From</b> ${esc(t.friend)}</div><div><b>Subject</b> ${esc(t.en)}</div></div><div class="em-mail-body"><p>Hi!</p>${t.prompt.split("\n").map(p => `<p>${esc(p)}</p>`).join("")}<p>Write back soon,<br>${esc(t.friend)}</p></div></div>
+      <section class="sw-section" style="margin-top:12px"><h3><span>Points to answer 要回答的要點</span><span class="em-note">tick each one when it is in your email</span></h3>
+        <div class="em-points">${t.points.map((p, k) => `<label><input type="checkbox" data-pt="${k}"> <b>${k + 1}.</b> ${esc(p)}</label>`).join("")}</div></section>`;
+  } else {
+    head = `<p class="eyebrow">Level ${L.n} · ${esc(L.en)} ${i + 1} · ${esc(t.source || "iTEP Set 1")}</p>
+      <h2>${esc(t.en)} <span style="color:var(--muted);font-weight:600">${esc(t.zh)}</span></h2>
+      <div class="em-meta"><span>To 收件人: <b>${esc(t.to)}</b></span><span class="tone ${t.tone}">${TONE[t.tone]}</span><span>${esc(L.words)}</span></div>
+      <div class="sw-prompt">${esc(t.prompt)}</div>`;
+  }
+  v.innerHTML = `${head}
     <section class="sw-section">
-      <h3><span>Plan with the patterns 用句型規劃</span><span><button class="small-button" type="button" id="colBtn">Show model sentences</button></span></h3>
-      <div class="sw-table-wrap"><table class="sw-grid em-plan hide-col3" id="planTable">
-        <tr><th style="width:16%">Part 段落</th><th style="width:40%">Key Sentence Patterns — click to add 點句型加入</th><th>Model Writing 範例</th></tr>
-        ${t.els.map(e => `<tr><td><b>${esc(e.el)}</b></td><td>${e.pats.map(p => `<button type="button" class="pchip" data-el="${esc(e.el)}" data-p="${esc(p)}">${esc(p)}</button>`).join("")}</td><td>${e.html || ""}${e.signoff ? `${e.html ? "<br><br>" : ""}${esc(e.signoff)}<br>${esc(e.name)}` : ""}</td></tr>`).join("")}
+      <h3><span>Plan with the patterns 用句型規劃</span><span><button class="small-button" type="button" id="colBtn">Show model ${isEssay ? "paragraphs" : "sentences"}</button></span></h3>
+      <div class="sw-table-wrap"><table class="sw-grid em-plan hide-col3${isEssay ? " essay" : ""}" id="planTable">
+        <tr><th style="width:16%">${isEssay ? "Paragraph 段落" : "Part 段落"}</th><th style="width:${isEssay ? 30 : 40}%">Key Sentence Patterns — click to add 點句型加入</th><th>Model Writing 範例</th></tr>
+        ${t.els.map(e => `<tr><td><b>${esc(e.el)}</b>${e.flow ? `<small>◆ ${esc(e.flow)}</small>` : ""}</td><td>${e.pats.map(p => `<button type="button" class="pchip" data-el="${esc(e.el)}" data-p="${esc(p)}">${esc(p)}</button>`).join("")}</td><td>${(e.html || "").replace(/\n/g, "<br>")}${e.signoff ? `${e.html ? "<br><br>" : ""}${esc(e.signoff)}<br>${esc(e.name)}` : ""}</td></tr>`).join("")}
       </table></div>
-      <p class="em-hint">Tip: replace … and [Name] with your own ideas. 把 … 和 [Name] 換成你自己的內容。</p>
+      <p class="em-hint">Tip: replace … / N / V / sb / [Name] with your own ideas. 把 … 、N、V、sb 和 [Name] 換成你自己的內容。</p>
     </section>
-    <section class="sw-section"><h3>More phrases for this email 相關句型庫</h3><div class="em-links">${t.links.map(id => { const s = BANK.find(b => b.id === id); return s ? `<button class="small-button" type="button" data-go="bank-${s.id}">${esc(s.en)} ${esc(s.zh)}</button>` : ""; }).join("")}</div></section>`;
-  v.querySelectorAll("[data-go]").forEach(b => b.addEventListener("click", () => go(b.dataset.go, true)));
-  const outline = t.els.map(e => /greeting/i.test(e.el) ? "Dear …," : /sign-?off/i.test(e.el) && !/closing/i.test(e.el) ? "[Sign-off],\n[Your name]" : /closing \/ sign-?off/i.test(e.el) ? `[${e.el.split("/")[0].trim()}]\n\n[Sign-off],\n[Your name]` : `[${e.el}]`).join("\n\n");
-  const box = writingArea(v, { key: `email-${t.id}`, tone: t.tone, to: t.to, prompt: t.prompt, purpose: t.en, modelHtml, modelText: plain(modelHtml), defaultTarget: "note", outline });
+    ${t.links && t.links.length ? `<section class="sw-section"><h3>More phrases for this ${isEssay ? "essay" : "email"} 相關句型庫</h3><div class="em-links">${t.links.map(id => { const s = BANK.find(b => b.id === id); return s ? `<button class="small-button" type="button" data-go="bank-${s.id}">${esc(s.en)} ${esc(s.zh)}</button>` : ""; }).join("")}</div></section>` : ""}`;
+  wireGo(v);
+  const key = `email-${t.id}`;
+  v.querySelectorAll("[data-pt]").forEach(cb => {
+    cb.checked = store.get(`${key}-pt${cb.dataset.pt}`) === "1";
+    cb.addEventListener("change", () => store.set(`${key}-pt${cb.dataset.pt}`, cb.checked ? "1" : "0"));
+  });
+  const outline = isEssay
+    ? `[Introduction: topic + your opinion]\n\n[Body 1: ${t.notes[0] || "note 1"} — topic sentence → explain → example → effect]\n\n[Body 2: ${t.notes[1] || "note 2"} — topic sentence → explain → example → effect]\n\n[Body 3: your own idea]\n\nIn conclusion, [restate your opinion]`
+    : t.els.map(e => /greeting/i.test(e.el) ? "Dear …," : /sign-?off/i.test(e.el) && !/closing/i.test(e.el) ? "[Sign-off],\n[Your name]" : /closing \/ sign-?off/i.test(e.el) ? `[${e.el.split("/")[0].trim()}]\n\n[Sign-off],\n[Your name]` : `[${e.el}]`).join("\n\n");
+  const box = writingArea(v, { key, type: t.type, tone: t.tone || "semi", to: t.to || "the examiner", prompt: isEssay ? t.topic : t.prompt, purpose: t.en, modelHtml, modelText: plain(modelHtml), modelWords: t.words,
+    defaultTarget: isEssay ? "essay" : t.type === "note" ? "note" : "fce", outline, points: t.points, task: t });
   v.querySelectorAll(".pchip").forEach(b => b.addEventListener("click", () => insertAt(box, chipText(b.dataset.el, b.dataset.p))));
-  $("colBtn").addEventListener("click", () => { const tb = $("planTable"); tb.classList.toggle("hide-col3"); $("colBtn").textContent = tb.classList.contains("hide-col3") ? "Show model sentences" : "Hide model sentences"; });
-  const i = TASKS.indexOf(t);
+  $("colBtn").addEventListener("click", () => { const tb = $("planTable"); tb.classList.toggle("hide-col3"); $("colBtn").textContent = `${tb.classList.contains("hide-col3") ? "Show" : "Hide"} model ${isEssay ? "paragraphs" : "sentences"}`; });
   const nav = document.createElement("section"); nav.className = "sw-section";
-  nav.innerHTML = `<div class="em-links">${i > 0 ? `<button class="small-button" type="button" data-go="${TASKS[i - 1].id}">&larr; Task ${i}</button>` : ""}${i < TASKS.length - 1 ? `<button class="small-button" type="button" data-go="${TASKS[i + 1].id}">Task ${i + 2} &rarr;</button>` : `<button class="small-button" type="button" data-go="${REAL.id}">Real Email &rarr;</button>`}</div>`;
+  const prev = L.tasks[i - 1], next = L.tasks[i + 1];
+  nav.innerHTML = `<div class="em-links"><button class="small-button" type="button" data-go="${L.id}">☰ Level ${L.n} grid</button>${prev ? `<button class="small-button" type="button" data-go="${prev.id}">&larr; ${esc(prev.en)}</button>` : ""}${next ? `<button class="small-button primary-action" type="button" data-go="${next.id}">${esc(next.en)} &rarr;</button>` : L.n < 3 ? `<button class="small-button primary-action" type="button" data-go="level-${L.n + 1}">Level ${L.n + 1} &rarr;</button>` : `<button class="small-button" type="button" data-go="${REAL.id}">Real Email &rarr;</button>`}</div>`;
   v.appendChild(nav);
-  nav.querySelectorAll("[data-go]").forEach(b => b.addEventListener("click", () => go(b.dataset.go, true)));
+  wireGo(nav);
 }
 
 /* ---------- real email ---------- */
@@ -407,7 +571,7 @@ function viewReal(v) {
     cleanup.push(() => clearInterval(poll));
   });
   const modelHtml = esc(r.task.model).replace(/(I am writing to inquire about|My reservation number is|Unfortunately|Could you please confirm whether|I would also like to know|Thank you in advance for your help\.|I look forward to hearing from you\.|may I)/g, "<b>$1</b>");
-  const box = writingArea(v, { key: "email-real-booking", tone: "formal", to: r.task.to, prompt: r.task.prompt, purpose: "Requesting information", modelHtml, modelText: r.task.model, defaultTarget: "pet",
+  const box = writingArea(v, { key: "email-real-booking", type: "email", tone: "formal", to: r.task.to, prompt: r.task.prompt, purpose: "Requesting information", modelHtml, modelText: r.task.model, defaultTarget: "pet",
     outline: "Dear Sir or Madam,\n\n[Who you are + reservation number]\n\n[Your problem + questions]\n\n[Before the end]\n\nYours faithfully,\n[Your name]" });
   v.querySelectorAll(".pchip").forEach(b => b.addEventListener("click", () => insertAt(box, /^Yours/.test(b.dataset.p) ? "\n\nYours faithfully,\n" : b.dataset.p + " ")));
 }
