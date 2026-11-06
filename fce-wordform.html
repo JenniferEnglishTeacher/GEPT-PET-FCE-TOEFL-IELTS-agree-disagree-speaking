@@ -18,6 +18,18 @@
       .wf-members { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 16px; }
       .wf-mem { background: #f1ecf8; border: 1px solid #ddd0ee; border-radius: 8px; padding: 6px 12px; font-size: 15px; }
       .wf-mem i { color: #2e75b6; font-size: 13px; } .wf-mem span { display: block; font-size: 13px; color: var(--muted); }
+      .wf-mem { cursor: pointer; font: inherit; text-align: left; color: var(--ink); }
+      .wf-mem:hover { border-color: #5b3f8c; } .wf-mem.speaking { background: #e3d7f5; border-color: #5b3f8c; }
+      .wf-mem b::after { content: " 🔊"; font-size: 12px; opacity: .6; }
+      .wf-bank-wrap { position: sticky; top: 0; z-index: 5; background: #fff; border: 1px solid #e3dbef; border-radius: 10px; padding: 8px 12px 10px; margin: 0 0 6px; box-shadow: 0 2px 6px rgba(0,0,0,.05); }
+      .wf-bank-label { margin: 0 0 6px; font-size: 13px; font-weight: 800; color: #5b3f8c; }
+      .wf-bank { display: flex; flex-wrap: wrap; gap: 8px; }
+      .wf-chip { font: 16px "Segoe UI", Arial, sans-serif; border: 1px solid #b9a9d3; background: #fcfaff; border-radius: 999px; padding: 5px 14px; cursor: pointer; color: var(--ink); }
+      .wf-chip:hover { border-color: #5b3f8c; } .wf-chip.sel { background: #5b3f8c; border-color: #5b3f8c; color: #fff; }
+      .wf-blank { display: inline-block; min-width: 9em; min-height: 1.6em; line-height: 1.5; vertical-align: middle; font: 15px "Segoe UI", Arial, sans-serif; border: 1px dashed #b9a9d3; border-radius: 6px; padding: 2px 10px; margin: 0 4px; background: #fcfaff; cursor: pointer; color: var(--ink); text-align: center; }
+      .wf-blank.filled { border-style: solid; font-weight: 700; color: #3d2a63; }
+      .wf-blank.armed { border-color: #5b3f8c; box-shadow: 0 0 0 2px #e3d7f5; }
+      .wf-blank.ok { border-color: var(--good); background: #eaf6ee; } .wf-blank.bad { border-color: var(--danger); background: #fdf0f0; }
       .p4-q { border: 1px solid #e3dbef; border-radius: 10px; background: #fff; padding: 10px 16px; margin: 10px 0; }
       .p4-second { font-family: "Times New Roman", Georgia, serif; font-size: 18px; line-height: 2; }
       .wf-n { color: #5b3f8c; font-family: "Segoe UI", Arial, sans-serif; margin-right: 6px; }
@@ -50,8 +62,9 @@
       <main class="sw-main">
         <p class="eyebrow">Word family 字族</p>
         <h2 id="famTitle"></h2>
-        <div class="sw-prompt">Type the correct form of the word in brackets. 依括號內提示字，填入正確的詞性或詞形（名詞／動詞／形容詞／副詞、單複數、時態、否定字首）。</div>
+        <div class="sw-prompt">Tap a word in the word bank, then tap the blank. 先點字庫中的單字，再點題目空格（可再點空格清除）。Tap a word card above to hear it. 點上方字卡可聽發音。</div>
         <div class="wf-members" id="members"></div>
+        <div class="wf-bank-wrap"><p class="wf-bank-label">Word bank 字庫</p><div class="wf-bank" id="bank"></div></div>
         <div id="items"></div>
         <div class="uoe-nav"><button id="prevButton" class="small-button" type="button">&larr; Previous family</button>
           <button id="nextButton" class="small-button primary-action" type="button">Next family &rarr;</button></div>
