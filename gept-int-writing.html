@@ -6,8 +6,50 @@
     <title>GEPT Intermediate Writing | Jennifer Chen's Speaking &amp; Writing</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="speaking-extra.css">
-    <link rel="stylesheet" href="mindmap.css">
     <link rel="stylesheet" href="sw-pages.css">
+    <style>
+      [hidden] { display: none !important; }
+      /* ---- translation: passage with sentence highlights ---- */
+      .tr-passage { white-space: normal; }
+      .tr-s { cursor: pointer; border-radius: 4px; padding: 1px 2px; transition: background .15s; }
+      .tr-s:hover { background: #fde9b8; }
+      .tr-s.on { background: #ffd66b; box-shadow: 0 0 0 2px #e0a400; }
+      .tr-s.ok { color: #1c7a3e; }
+      .tr-s.part { color: #a35d00; }
+      .tr-s.ok::after { content: " ✓"; font-size: 13px; }
+      .tr-dots { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+      .tr-dots button { width: 34px; height: 34px; border-radius: 50%; border: 2px solid var(--line); background: #fff; font-weight: 800; cursor: pointer; color: var(--muted); }
+      .tr-dots button.on { border-color: var(--accent); color: var(--accent); box-shadow: 0 0 0 3px rgba(18,108,130,.15); }
+      .tr-dots button.ok { background: #1c7a3e; border-color: #1c7a3e; color: #fff; }
+      .tr-dots button.part { background: #ffe9c2; border-color: #e0a400; color: #8a5a00; }
+      .tr-card { border: 1px solid var(--line); border-radius: 10px; background: #fff; padding: 16px; }
+      .tr-zh { font-size: 20px; line-height: 1.7; margin: 0 0 12px; padding: 10px 14px; background: #fff8e6; border-left: 5px solid #c07a12; border-radius: 6px; }
+      .tr-zh small { display: block; font-size: 13px; color: #8a5a00; font-weight: 800; }
+      .tr-input { min-height: 96px; }
+      .tr-fb { margin-top: 12px; border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; background: #fbfcfd; }
+      .tr-score { display: flex; align-items: center; gap: 10px; font-weight: 800; margin-bottom: 8px; flex-wrap: wrap; }
+      .tr-score .score { display: inline-flex; align-items: center; justify-content: center; min-width: 58px; height: 40px; padding: 0 10px; border-radius: 999px; color: #fff; background: #1c7a3e; font-size: 17px; }
+      .tr-score .score.mid { background: #c07a12; } .tr-score .score.low { background: var(--danger); }
+      .tr-keys { list-style: none; padding: 0; margin: 0; display: grid; gap: 4px; }
+      .tr-keys li { padding: 4px 8px; border-radius: 6px; font-size: 15px; }
+      .tr-keys .y { background: #e7f5ec; color: #1c5e33; } .tr-keys .n { background: #fdecec; color: #8f2b2b; } .tr-keys .w { background: #fff3dc; color: #7a4b00; }
+      .tr-model { margin-top: 10px; padding: 10px 14px; background: #e3f2f2; border-left: 5px solid #0f7c80; border-radius: 6px; font-size: 17px; line-height: 1.7; }
+      .tr-model strong { color: #0b5e61; }
+      .tr-hint { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 6px; }
+      .tr-hint span { background: #f2f6fa; border: 1px solid #d6e2ee; border-radius: 999px; padding: 3px 10px; font-size: 14px; }
+      .tr-all { white-space: pre-line; background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; font-size: 17px; line-height: 1.75; min-height: 60px; }
+      .tr-all .gap { color: #b0b7c0; font-style: italic; }
+      .kbd { font-size: 12px; color: var(--muted); }
+      /* ---- essay grid ---- */
+      .es-grid td:nth-child(2) { padding: 6px; background: #fffdf5 !important; }
+      .es-grid textarea { box-sizing: border-box; display: block; width: 100%; max-width: 100%; margin: 0; min-height: 84px; border: 1px dashed #c9b98a; border-radius: 6px; padding: 8px 10px; font: inherit; font-size: 15px; line-height: 1.55; resize: vertical; background: transparent; color: #222; }
+      .es-grid textarea:focus { outline: 2px solid var(--accent); border-style: solid; background: #fff; }
+      .es-grid td:first-child i { display: block; margin-top: 6px; font-size: 13px; color: #6b5a2a; font-style: normal; line-height: 1.5; }
+      .es-grid.hide-hints td:first-child i { display: none; }
+      .es-grid th:nth-child(2) { background: #8a5a00; }
+      .es-grid tr.para td { background: #0b4f60 !important; color: #fff; font-weight: 800; font-size: 14px; padding: 6px 10px; }
+      .es-q { margin: 10px 0 0; }
+    </style>
   </head>
   <body>
     <div class="app-shell sw-two">
@@ -33,34 +75,86 @@
         <p class="eyebrow" id="taskMeta"></p>
         <h2 id="taskTitle"></h2>
         <p class="sw-sub" id="taskSub"></p>
-        <div class="sw-prompt" id="taskPrompt"></div>
 
-        <div id="mindMap" hidden></div>
+        <!-- ===== Translation: one sentence at a time ===== -->
+        <div id="trView" hidden>
+          <div class="sw-prompt tr-passage" id="trPassage" aria-label="Chinese passage — click a sentence to jump to it"></div>
 
-        <section class="sw-section">
-          <h3><span>Your Writing 我的作答</span><span id="timerHost"></span></h3>
-          <textarea id="writeBox" class="sw-write" spellcheck="true" placeholder="Type your answer here… (saved automatically on this device)"></textarea>
-          <div class="sw-meta"><span id="saveStatus">Draft saved on this device</span><span id="wordCount">0 words</span></div>
-          <div class="sw-actions">
-            <button id="reviewButton" class="small-button primary-action" type="button">&#9989; Check My Writing</button>
-            <button id="sampleButton" class="small-button" type="button">Show Sample Answer</button>
-            <button id="listenButton" class="small-button" type="button">&#128264; Listen to Sample</button>
-            <button id="aiButton" class="small-button" type="button">&#129302; Copy for AI Feedback</button>
-            <button id="clearButton" class="small-button" type="button">Clear</button>
-          </div>
-          <div id="feedback" class="sw-feedback" hidden></div>
-        </section>
+          <section class="sw-section">
+            <h3><span>Sentence by sentence 逐句翻譯</span><span id="trTimerHost"></span></h3>
+            <div class="tr-dots" id="trDots"></div>
+            <div class="tr-card" style="margin-top:10px">
+              <p class="tr-zh" id="trZh"></p>
+              <textarea id="trInput" class="sw-write tr-input" spellcheck="true" placeholder="Type your English sentence here… 在這裡寫這一句的英文"></textarea>
+              <div class="sw-meta"><span class="kbd">Enter = Check 檢查 · Shift+Enter = new line</span><span id="trCount"></span></div>
+              <div class="sw-actions">
+                <button id="trCheck" class="small-button primary-action" type="button">&#9989; Check this sentence 檢查</button>
+                <button id="trHintBtn" class="small-button" type="button">&#128161; Hint 提示</button>
+                <button id="trShow" class="small-button" type="button">Show answer 看答案</button>
+                <button id="trPrev" class="small-button" type="button">&larr; Prev</button>
+                <button id="trNext" class="small-button" type="button">Next sentence &rarr;</button>
+              </div>
+              <div class="tr-hint" id="trHints" hidden></div>
+              <div class="tr-fb" id="trFb" hidden></div>
+            </div>
+          </section>
 
-        <section class="sw-section" id="sampleSection" hidden>
-          <h3>Sample Answer 範例</h3>
-          <p class="sw-essay" id="sampleText"></p>
-        </section>
+          <section class="sw-section">
+            <h3><span>My whole translation 我的完整譯文 <small id="trWords" style="color:var(--muted);font-weight:600"></small></span>
+              <span><button id="trFull" class="small-button" type="button">Show full sample</button> <button id="trListen" class="small-button" type="button">&#128264; Listen</button></span></h3>
+            <div class="tr-all" id="trAll"></div>
+            <div class="sw-essay" id="trSample" style="margin-top:10px" hidden></div>
+            <div class="sw-actions">
+              <button id="trAI" class="small-button" type="button">&#129302; Copy for AI Feedback</button>
+              <button id="trReset" class="small-button" type="button">Start over 重新開始</button>
+            </div>
+            <div class="sw-meta"><span id="trStatus">Your sentences are saved on this device.</span></div>
+          </section>
+        </div>
+
+        <!-- ===== Essay: 3-column grid ===== -->
+        <div id="esView" hidden>
+          <div class="sw-prompt" id="esPrompt"></div>
+          <p class="sw-sub es-q">Column 1 gives the structure and <b>key words</b>. Write <b>your own</b> sentence for each row in column 2 — copy the <b>bold sentence patterns</b> from column 3 and change the ideas to fit you.</p>
+
+          <section class="sw-section">
+            <h3><span>Sentence-Pattern Grid 句型表</span>
+              <span><button id="esHints" class="small-button" type="button">Hide key words</button> <button id="esCol3" class="small-button" type="button">Hide Column 3</button></span></h3>
+            <div class="sw-table-wrap">
+              <table class="sw-grid es-grid" id="esGrid">
+                <thead><tr><th style="width:22%">Element &amp; key words<br><small>寫作結構＋關鍵字</small></th><th style="width:39%">My writing 我的句子<br><small>用欄 3 的粗體句型寫自己的內容</small></th><th>Sample essay 範文<br><small>bold = sentence pattern 句型</small></th></tr></thead>
+                <tbody></tbody>
+              </table>
+            </div>
+            <div class="sw-actions" style="margin-top:10px">
+              <button id="esBuild" class="small-button primary-action" type="button">&#11015; Put my sentences into one essay</button>
+            </div>
+          </section>
+
+          <section class="sw-section">
+            <h3><span>Sample Essay 範文 <small id="esWordsSample" style="color:var(--muted);font-weight:600"></small></span>
+              <span><button id="esShow" class="small-button" type="button">Show</button> <button id="esListen" class="small-button" type="button">&#128264; Listen</button></span></h3>
+            <div id="esSample" hidden></div>
+          </section>
+
+          <section class="sw-section sw-your-turn">
+            <h3><span>My Essay 我的作文</span><span id="esTimerHost"></span></h3>
+            <textarea id="esWrite" class="sw-write" spellcheck="true" placeholder="Build your essay from the grid, then polish it here. (saved automatically on this device)"></textarea>
+            <div class="sw-meta"><span id="esStatus">GEPT Intermediate · about 120–150 words · 2 paragraphs</span><span id="esCount">0 words</span></div>
+            <div class="sw-actions">
+              <button id="esReview" class="small-button primary-action" type="button">&#9989; Check My Writing</button>
+              <button id="esAI" class="small-button" type="button">&#129302; Copy for AI Feedback</button>
+              <button id="esClear" class="small-button" type="button">Clear</button>
+            </div>
+            <div id="esFeedback" class="sw-feedback" hidden></div>
+          </section>
+        </div>
       </main>
     </div>
 
     <script src="gept-int-data.js"></script>
+    <script src="gept-int-writing-data.js"></script>
     <script src="speaking-kit.js"></script>
-    <script src="mindmap-kit.js"></script>
     <script src="writing-kit.js"></script>
     <script src="gept-int-writing.js"></script>
   </body>
