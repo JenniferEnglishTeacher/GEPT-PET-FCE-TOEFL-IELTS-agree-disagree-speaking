@@ -3,22 +3,48 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>GEPT Scenario Speaking Practice</title>
+    <title>GEPT Speaking: What-if Scenarios | Jennifer Chen's Speaking &amp; Writing</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="speaking-extra.css">
+    <link rel="stylesheet" href="mindmap.css">
+    <link rel="stylesheet" href="sw-pages.css">
+    <style>
+      .q-tabs { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin-top: 14px; }
+      .q-tab { display: grid; gap: 2px; padding: 9px 10px; border: 1px solid var(--line); border-radius: 8px; background: #fff; color: var(--ink); text-align: left; cursor: pointer; }
+      .q-tab strong { font-size: 15px; color: var(--accent-strong); }
+      .q-tab span { font-size: 12.5px; color: var(--muted); }
+      .q-tab small { font-size: 11.5px; color: var(--muted); }
+      .q-tab[aria-selected="true"] { border-color: var(--accent); background: #e8f4f7; box-shadow: 0 0 0 2px rgba(18,108,130,.15); }
+      .timing-badge { display: inline-block; margin-left: 8px; padding: 2px 9px; border-radius: 999px; background: #fff3d6; color: #7a4b00; font-size: 12.5px; font-weight: 800; vertical-align: middle; }
+      .support-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-top: 18px; }
+      .support-col { padding: 12px 14px; border: 1px solid var(--line); border-radius: 8px; background: var(--soft); }
+      .support-col h3 { margin: 0 0 8px; font-size: 13px; text-transform: uppercase; color: var(--accent-strong); letter-spacing: .02em; }
+      .support-col ol, .support-col ul { margin: 0; padding-left: 18px; font-size: 14.5px; line-height: 1.5; }
+      .support-col li { margin-bottom: 5px; }
+      .vocab-chips { display: flex; flex-wrap: wrap; gap: 5px; }
+      .vocab-chips span { padding: 4px 8px; border-radius: 5px; background: #fff; border: 1px solid var(--line); font-size: 13px; font-weight: 700; color: #263a35; }
+      .vocab-chips span.used { background: #dff4e8; border-color: #9fd3b4; color: #226240; }
+      #timerControls .time-choice { white-space: nowrap; font-size: 13px; padding: 0 6px; min-height: 36px; }
+      .topic-sub { font-size: 12px; color: var(--muted); display: block; margin-top: 2px; }
+      @media (max-width: 1180px) { .support-grid { grid-template-columns: 1fr; } }
+      @media (max-width: 760px) { .q-tabs { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    </style>
   </head>
   <body>
     <div class="app-shell">
-      <aside class="question-sidebar" aria-label="Question list">
+      <aside class="question-sidebar" aria-label="Topic list">
         <div class="sidebar-head">
           <div>
-            <p class="eyebrow">GEPT Scenario</p>
-            <h1>Exam Speaking</h1>
+            <p class="eyebrow">GEPT Basic / Intermediate</p>
+            <h1>What-if Scenarios</h1>
+            <a class="dash-link" href="dashboard.html" style="margin-top:8px">&larr; Dashboard</a>
           </div>
-          <span class="count-pill">100</span>
+          <span class="count-pill" id="countPill">100</span>
         </div>
+        <div id="categoryTabs" class="chips kind-tabs" role="group" aria-label="Category"></div>
         <label class="search-box">
           <span>Search</span>
-          <input id="searchInput" type="search" placeholder="question or number">
+          <input id="searchInput" type="search" placeholder="phone, friend, exam, number…" autocomplete="off">
         </label>
         <div id="questionList" class="question-list"></div>
       </aside>
@@ -26,24 +52,43 @@
       <main class="practice-pane">
         <section class="question-panel">
           <div class="question-meta">
-            <span id="questionNumber">Question 1</span>
-            <button id="randomButton" class="icon-button" type="button" title="Random question" aria-label="Random question">Random</button>
+            <span id="topicLabel">Question 1</span>
+            <span>
+              <button id="readQuestionButton" class="icon-button" type="button" title="Read the question aloud">&#128264; Read</button>
+              <button id="randomButton" class="icon-button" type="button" title="Random question">Random</button>
+            </span>
           </div>
+          <p id="questionMeta" class="question-tip" style="margin-top:14px"></p>
           <h2 id="questionText"></h2>
-          <div class="answer-block">
-            <div class="block-title">
-              <span>Sample Answer</span>
-              <button id="speakSampleButton" class="small-button" type="button">Listen</button>
-            </div>
-            <p id="sampleAnswer"></p>
-            <p id="questionTip" class="question-tip"></p>
-          </div>
+
+          <div id="mindMap"></div>
+
           <div class="sentences-block">
             <div class="block-title">
-              <span>5 Practice Sentences</span>
+              <span>5 Sentence Patterns 句型練習</span>
               <button id="copySentencesButton" class="small-button" type="button">Copy</button>
             </div>
             <ol id="practiceSentences"></ol>
+          </div>
+
+          <div class="answer-block" id="sampleBlock">
+            <div class="block-title">
+              <span>Sample Answer 範例</span>
+              <span>
+                <button id="speakSampleButton" class="small-button" type="button">&#128264; Listen</button>
+                <button id="readSampleButton" class="small-button" type="button">&#127908; Read-Along Check</button>
+                <button id="toggleSampleButton" class="small-button" type="button">Show</button>
+              </span>
+            </div>
+            <p id="sampleAnswer" hidden></p>
+            <div class="accuracy-bar" id="sampleBar" hidden><span id="sampleBarFill"></span></div>
+            <p id="sampleAccuracy" class="accuracy-text" hidden></p>
+            <p class="accuracy-legend" id="sampleLegend" hidden><span class="w ok">matched</span> <span class="w miss">missed / unclear</span> <span class="w">not read yet</span></p>
+          </div>
+
+          <div class="tips-box">
+            <strong>How to answer 作答步驟</strong>
+            <p id="tipText"></p>
           </div>
         </section>
       </main>
@@ -59,54 +104,34 @@
           <div class="timer-row">
             <div>
               <p class="eyebrow">Timer</p>
-              <div class="timer-display" id="timerDisplay">15</div>
+              <div class="timer-display" id="timerDisplay">30</div>
             </div>
-            <div class="timer-controls" role="group" aria-label="Answer length">
-              <button class="time-choice active" type="button" data-seconds="30">30 sec</button>
-              <button class="time-choice" type="button" data-seconds="45">45 sec</button>
-              <button class="time-choice" type="button" data-seconds="60">60 sec</button>
-              <button class="time-choice" type="button" data-seconds="90">90 sec</button>
-            </div>
+            <div class="timer-controls" id="timerControls" role="group" aria-label="Answer length"></div>
           </div>
           <div class="record-row">
-            <button id="recordButton" class="record-button" type="button">
-              <span class="record-dot"></span>
-              Start Recording
-            </button>
+            <button id="recordButton" class="record-button" type="button"><span class="record-dot"></span>Start Recording</button>
             <button id="resetButton" class="secondary-button" type="button">Reset</button>
           </div>
-          <div class="status-line" id="statusLine">Click Start Recording, then speak in English.</div>
+          <div class="status-line" id="statusLine">Plan in your mind map, then click Start Recording and speak in English.</div>
         </section>
-        <textarea id="transcriptBox" placeholder="Your spoken English will appear here..."></textarea>
-        <button id="submitButton" class="submit-answer-button" type="button">Submit Answer</button>
-        <div class="mistakes-box">
-          <div class="block-title">
-            <span>Original Mistakes</span>
-          </div>
-          <p id="mistakeReview">Submit your answer to check grammar.</p>
+        <div class="sw-label">Transcription 逐字稿 <span id="wordCount" class="sw-count">0 words</span></div>
+        <textarea id="transcriptBox" placeholder="Your spoken English will appear here… (you can also type or edit)"></textarea>
+        <div class="transcript-actions">
+          <button id="cleanButton" class="small-button primary-action" type="button">&#10024; Clean Transcription</button>
+          <button id="restoreButton" class="small-button" type="button" hidden>&#8634; Show Original</button>
+          <button id="copyTranscriptButton" class="small-button" type="button">&#128203; Copy</button>
         </div>
-        <div class="correction-box">
-          <div class="block-title">
-            <span>Corrected Answer</span>
-          </div>
-          <p id="correctedAnswer">Click Submit Answer after recording.</p>
-        </div>
-        <div class="readcheck-box">
-          <div class="block-title">
-            <span>Read-Aloud Check</span>
-            <button id="readAloudButton" class="small-button" type="button">Read Aloud</button>
-          </div>
-          <p id="readCheckStatus">Submit an answer first, then read the corrected version aloud.</p>
-          <div id="unclearWords" class="word-chip-list"></div>
-        </div>
+        <button id="aiFeedbackButton" class="submit-answer-button" type="button">&#129302; Copy for AI Feedback</button>
         <div class="tips-box">
           <strong>Teacher note</strong>
-          <p>This page checks common grammar, capitalization, spacing, and pronunciation clarity locally in the browser.</p>
+          <p>Record → <b>Clean Transcription</b> → fix any wrong words → <b>Copy for AI Feedback</b> and paste it to Claude or ChatGPT. Your transcript and mind map are saved on this device.</p>
         </div>
       </aside>
     </div>
 
-    <script src="scenario-questions.js"></script>
+    <script src="scenario-data.js"></script>
+    <script src="speaking-kit.js"></script>
+    <script src="mindmap-kit.js"></script>
     <script src="scenario-app.js"></script>
   </body>
 </html>

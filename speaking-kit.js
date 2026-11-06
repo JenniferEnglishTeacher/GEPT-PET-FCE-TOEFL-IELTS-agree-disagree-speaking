@@ -94,9 +94,12 @@ window.SpeakingKit = (() => {
       for (let i = 1; i <= n; i++) for (let j = 1; j <= m; j++)
         dp[i * W + j] = sTok[i - 1].n === hTok[j - 1] ? dp[(i - 1) * W + j - 1] + 1 : Math.max(dp[(i - 1) * W + j], dp[i * W + j - 1]);
       let i = n, j = m;
+      // Backtrack preferring the EARLIEST matching sample word (students read from the start),
+      // so a repeated word like "every … every … every" is credited at the right place.
       while (i > 0 && j > 0) {
-        if (sTok[i - 1].n === hTok[j - 1]) { matchedWord[sTok[i - 1].wi] = 1; i--; j--; }
-        else if (dp[(i - 1) * W + j] >= dp[i * W + j - 1]) i--; else j--;
+        const up = dp[(i - 1) * W + j];
+        if (sTok[i - 1].n === hTok[j - 1] && up < dp[i * W + j]) { matchedWord[sTok[i - 1].wi] = 1; i--; j--; }
+        else if (up >= dp[i * W + j - 1]) i--; else j--;
       }
     }
     let reach = -1; matchedWord.forEach((v, i) => { if (v) reach = i; });
