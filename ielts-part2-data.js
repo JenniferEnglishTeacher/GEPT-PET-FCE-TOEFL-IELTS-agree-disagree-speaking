@@ -1,4 +1,4 @@
-// IELTS Speaking Part 2 cue cards. Source: Jennifer's Google Docs (Technology, Social Media, Sports sets).
+// IELTS Speaking Part 2 cue cards. Source: Jennifer's Google Docs (Technology, Social Media, Sports, Travel sets).
 window.IELTS_PART2 = [
  {
   "id": "tech-1",
@@ -813,6 +813,516 @@ window.IELTS_PART2 = [
    {
     "q": "Do young people exercise less than in the past?",
     "a": "**In some ways, yes.** A lot of young people spend hours on their phones or studying, **so** they sit down most of the day. **On the other hand,** gym culture and running clubs are really popular now, especially on social media. **So I’d say** young people are split: some are fitter than ever, **while** others barely move at all."
+   }
+  ]
+ },
+ {
+  "id": "travel-1",
+  "theme": "Travel & Tourism",
+  "themeZh": "旅遊",
+  "setLabel": "Set 1",
+  "title": "Describe a memorable trip you took.",
+  "cues": [
+   "where you went and when",
+   "who you went with",
+   "what you did there",
+   "and explain why this trip was so memorable for you."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Kyoto – late Nov last year – 5 days – w/ mom, her first trip abroad in 10 yrs"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "autumn leaves at peak; Kiyomizu-dera at 6 a.m. (beat the tour groups), Arashiyama bamboo grove, hot tofu in Nanzen-ji; bus day pass, walked 20,000 steps a day"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "Eikan-dō night light-up → red maples reflected in the pond like a mirror → mom silent, then teared up: “I waited my whole life to see this”"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "memorable b/c 1st trip I planned + paid for myself; roles reversed – I took care of her; saw her as a person, not just “mom”; now saving for a spring trip → cherry blossoms"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the most memorable trip I’ve ever taken was a five-day trip to Kyoto in late November last year. I went with my mom, **and** it was actually her first trip abroad in about ten years.",
+   "**We picked late November because** that’s when the autumn leaves are at their peak, **and** honestly, the whole city looked like a painting. **Every morning,** we got up really early. **For example,** we got to Kiyomizu-dera Temple at six a.m., **just before** the tour groups arrived, **so** we had the view almost to ourselves. We also walked through the bamboo grove in Arashiyama and had a hot tofu lunch near Nanzen-ji Temple. We used a bus day pass, **but** we still walked about twenty thousand steps a day.",
+   "**The moment I’ll never forget was** on our last night. We went to a night light-up at Eikan-dō, a temple famous for its maple trees. The red leaves were reflected in the pond like a mirror. My mom went completely quiet, **and then** she started tearing up and said, “I’ve waited my whole life to see this.” **To be honest,** I got a bit emotional too.",
+   "**The main reason it was so memorable is that** it was the first trip I planned and paid for by myself. **Usually** my mom takes care of me, **but this time** the roles were reversed: I booked everything, read the maps, and ordered the food. **I think** I got to see her as a person, not just as “Mom.” **Now** we’re already saving up for another trip in spring, **so** we can see the cherry blossoms together."
+  ],
+  "followUps": [
+   {
+    "q": "Do you prefer travelling with family or with friends? Why?",
+    "a": "**It depends on the kind of trip.** With friends, it’s more spontaneous: we stay up late, try weird food, and change plans all the time. **With family,** it’s slower and more relaxing, **but** it can be really meaningful, like my Kyoto trip with my mom. **So I’d say** friends for fun, family for memories."
+   },
+   {
+    "q": "Why do so many people in Taiwan like travelling to Japan?",
+    "a": "**I think there are a few reasons.** **First of all,** it’s close: a flight is only about three hours. **Second,** it feels safe and clean, **and** the food is amazing. **On top of that,** a lot of us grew up with Japanese anime and dramas, **so** visiting feels familiar. **And** when the yen is weak, it’s actually pretty affordable."
+   },
+   {
+    "q": "Is it better to plan every detail of a trip or to be spontaneous?",
+    "a": "**Personally, I like a mix of both.** I plan the big things, like flights, hotels, and one or two must-see spots, **because** otherwise you waste time and money. **But** I leave some free time every day, **since** the best moments often happen by accident, like finding a tiny café down a side street."
+   }
+  ]
+ },
+ {
+  "id": "travel-2",
+  "theme": "Travel & Tourism",
+  "themeZh": "旅遊",
+  "setLabel": "Set 2",
+  "title": "Describe a tourist attraction in your country that you would recommend to visitors.",
+  "cues": [
+   "what it is and where it is",
+   "how to get there",
+   "what visitors can do there",
+   "and explain why you would recommend it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Jiufen – old mining town on a mountainside, NE coast, ~1 hr from Taipei"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "gold rush → abandoned → film location (A City of Sadness) → famous; get there: bus 1062 from Zhongxiao Fuxing or train to Ruifang + bus; narrow old street, red lanterns, stone steps"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "took Canadian friend Sarah last spring; taro balls, peanut ice cream roll; teahouse at sunset → lanterns on, sea view, fog rolling in → she said “it feels like a movie”"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "mix of history + food + view; tips: go on weekday, after 5 p.m., bring umbrella (rains a lot); cons: weekends packed, shoulder to shoulder; combine w/ Shifen sky lanterns"
+   }
+  ],
+  "sample": [
+   "**Okay, so** if a friend from abroad visited Taiwan, I would definitely take them to Jiufen. It’s an old mining town built on the side of a mountain on the northeast coast, **and** it’s only about an hour from Taipei.",
+   "**To give you some background,** Jiufen was a gold-mining town about a hundred years ago. **After** the gold ran out, it was almost abandoned, **but then** it appeared in some famous films, **and** it became a big tourist attraction. **Getting there is easy.** You can take the 1062 bus from Zhongxiao Fuxing MRT station, **or** take a train to Ruifang and then a short bus ride up the hill. The old street is really narrow, with red lanterns hanging everywhere and steep stone steps going up and down the mountain.",
+   "**I took my Canadian friend Sarah there last spring.** **First,** we tried the famous taro balls and a peanut ice cream roll, which is basically ice cream with peanut candy wrapped in a thin pancake. **Then,** we found a teahouse with a sea view and stayed there until sunset. **As it got dark,** all the lanterns lit up and fog started rolling in from the sea. Sarah just stared out the window and said, “This feels like a movie.”",
+   "**I’d recommend it because** it has a bit of everything: history, street food, and an amazing view. **But I’d give visitors a few tips.** **First,** go on a weekday, **because** on weekends it’s so packed you’re literally shoulder to shoulder. **Second,** go after five p.m. to see the lanterns. **And** bring an umbrella, **since** it rains a lot up there. **If you have time,** you can combine it with Shifen, where you can write your wishes on a sky lantern and let it go."
+  ],
+  "followUps": [
+   {
+    "q": "What makes a tourist attraction popular?",
+    "a": "**I think the main thing is** that it has something unique, like a special view or a story behind it. **These days,** being “Instagrammable” also matters a lot. **If** a place looks great in photos, it can go viral overnight. **And of course,** it needs to be easy to get to, **otherwise** most tourists won’t bother."
+   },
+   {
+    "q": "Do tourist attractions always benefit local people?",
+    "a": "**Not always.** **On the plus side,** tourism brings jobs and money, **so** shops and restaurants can survive. **On the downside,** locals have to deal with traffic, noise, and rubbish, **and** rents often go up. **In some places,** the shops end up selling the same souvenirs, **so** the town loses its original character."
+   },
+   {
+    "q": "Should famous tourist sites charge an entry fee?",
+    "a": "**I think a small fee is reasonable,** especially for places that are getting too crowded. The money can be used to clean and protect the site, **and** it might stop some people from coming just for a quick photo. **But** it shouldn’t be too expensive, **because** everyone should have the chance to enjoy their own country’s heritage."
+   }
+  ]
+ },
+ {
+  "id": "travel-3",
+  "theme": "Travel & Tourism",
+  "themeZh": "旅遊",
+  "setLabel": "Set 3",
+  "title": "Describe a time when something went wrong on a trip.",
+  "cues": [
+   "where you were and who you were with",
+   "what went wrong",
+   "how you dealt with it",
+   "and explain what you learned from this experience."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Osaka – summer 2 yrs ago – w/ 2 college friends – missed the last train back to hotel"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "Dōtonbori, takoyaki, karaoke → lost track of time; hotel near Kyoto-bound line, 40 min away; ran to Namba stn at 12:20 → gates shut, last train gone at 12:05"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "taxi ¥15,000+ ≈ NT$3,000 → no way; phones at 10%; station staff → manga café (net café) round the corner; tiny booths, free drinks, slept 4 hrs on reclining chair"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "panic at first → laughed about it later, best story of the trip; lessons: check last train time, set phone alarm, carry power bank; things going wrong = memorable"
+   }
+  ],
+  "sample": [
+   "**Okay, so** I’m going to talk about the night my friends and I missed the last train in Osaka. It was two summers ago, **and** I was travelling with two friends from college.",
+   "**What happened was,** we spent the whole evening in Dōtonbori, the famous food and nightlife area. We ate takoyaki, went shopping, **and then** we decided to go to karaoke, **and** we completely lost track of time. Our hotel was about forty minutes away by train. **By the time** we ran to Namba Station, it was twelve-twenty, **and** the gates were already shut. The last train had left at five past twelve.",
+   "**At first, we panicked.** We checked the taxi fare, **and** it was more than fifteen thousand yen, which is over three thousand NT dollars. **On top of that,** all our phones were down to about ten percent. **Luckily,** a station staff member told us there was a manga café just around the corner. **If you’ve never been to one,** it’s basically a place full of comics with tiny private booths, **and** you can stay overnight quite cheaply. They even had free drinks. **In the end,** we slept for about four hours on reclining chairs and caught the first train at five a.m.",
+   "**Looking back,** it was actually the best story of the whole trip, **and** we still laugh about it. **But** I definitely learned a few lessons. **First,** always check the time of the last train, **because** in Japan trains stop much earlier than you think. **Second,** set an alarm on your phone, **and** always carry a power bank. **More importantly,** I learned that when things go wrong, staying calm and asking locals for help really works."
+  ],
+  "followUps": [
+   {
+    "q": "What are some common problems people have when travelling?",
+    "a": "**I’d say** the most common ones are delayed flights, lost luggage, and getting sick from food. **Another big one** is the language barrier, **especially** when you need to ask for help in an emergency. **And these days,** losing your phone is a nightmare, **because** that’s where your tickets, maps, and money all are."
+   },
+   {
+    "q": "Do you think people should buy travel insurance?",
+    "a": "**Yes, definitely,** especially for longer trips. It only costs a few hundred NT dollars, **but** if you get sick or your flight is cancelled, it can save you a fortune. **A friend of mine** broke her ankle skiing in Japan, **and** without insurance the hospital bill would have been huge."
+   },
+   {
+    "q": "Is it better to travel alone or in a group when things go wrong?",
+    "a": "**In my opinion, a group is better** when things go wrong. You can share costs, **and** someone always stays calm while the others panic. **That said,** travelling alone makes you more independent, **because** you have no choice but to solve problems yourself. **So** both have their advantages."
+   }
+  ]
+ },
+ {
+  "id": "travel-4",
+  "theme": "Travel & Tourism",
+  "themeZh": "旅遊",
+  "setLabel": "Set 4",
+  "title": "Describe a souvenir you bought on a trip.",
+  "cues": [
+   "what it is",
+   "where and when you bought it",
+   "why you chose it",
+   "and explain what it means to you now."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "phin = small aluminum drip filter for Vietnamese coffee – Hanoi Old Quarter – trip w/ coworkers last Oct"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "palm-sized, 3 parts: cup, press, lid; cost ~ 50,000 dong ≈ NT$60; how it works: ground coffee + hot water → drips slowly 5 min into glass w/ condensed milk"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "every morning: plastic stools on sidewalk, scooters everywhere; egg coffee at tiny café up narrow stairs → creamy, like tiramisu; old lady at market taught me to use phin, bargained for 2"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "cheap but meaningful; use it every Sunday morning → smell takes me back to Hanoi streets; reminds me to slow down; better than fridge magnets: useful + daily memory"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the souvenir I want to talk about is a little Vietnamese coffee filter called a phin. I bought it in the Old Quarter of Hanoi last October, when I went on a trip with some coworkers.",
+   "**So what is it exactly?** It’s a small aluminum filter, about the size of my palm, **and** it has three parts: a cup with tiny holes, a press, and a lid. It only cost about fifty thousand dong, which is around sixty NT dollars. **The way it works is** you put ground coffee in it, place it on top of a glass, **and** pour in hot water. **Then** the coffee drips really slowly, for about five minutes, onto some sweet condensed milk at the bottom.",
+   "**The reason I chose it is** that coffee was a big part of that trip. **Every morning,** we sat on tiny plastic stools on the sidewalk, drinking iced coffee while thousands of scooters rushed past. **One afternoon,** we found a café up a narrow staircase that served egg coffee, which tastes creamy, almost like tiramisu. **On my last day,** an old lady at a market stall showed me how to use a phin properly, **and** I ended up bargaining with her to buy two.",
+   "**Even though** it was really cheap, it means a lot to me now. I use it every Sunday morning, **and** as soon as I smell the coffee, I’m taken right back to those noisy streets in Hanoi. **It also reminds me to** slow down, **because** you can’t rush a phin; you just have to wait. **To me,** it’s much better than a fridge magnet, **since** it’s useful and it gives me a little memory every week."
+  ],
+  "followUps": [
+   {
+    "q": "Why do people like buying souvenirs?",
+    "a": "**Mainly because** they want something to remind them of the trip. A photo is nice, **but** an object you can touch brings back the memory in a different way. **Also,** in Taiwan we have a strong culture of bringing back gifts for family and coworkers, **so** a lot of people feel they have to buy something."
+   },
+   {
+    "q": "Do you think souvenirs today are too commercial?",
+    "a": "**To some extent, yes.** In a lot of tourist areas, you see the same keychains and T-shirts everywhere, **and** many of them are mass-produced in factories far away. **That’s why** I prefer things that locals actually use, like food, tea, or a small handmade item. **That way,** the money also goes to local people."
+   },
+   {
+    "q": "Is it better to bring back gifts or experiences from a trip?",
+    "a": "**Honestly, I think experiences matter more.** Most souvenirs end up in a drawer, **but** the stories and the things you learn stay with you. **That said,** a small, meaningful gift can be a nice way to share the experience with people who couldn’t come, **so** I don’t think it has to be one or the other."
+   }
+  ]
+ },
+ {
+  "id": "travel-5",
+  "theme": "Travel & Tourism",
+  "themeZh": "旅遊",
+  "setLabel": "Set 5",
+  "title": "Describe a place you would like to visit in the future.",
+  "cues": [
+   "where it is",
+   "how you learned about it",
+   "what you would like to do there",
+   "and explain why you would like to go there."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Iceland – small island country near Arctic Circle – plan: winter, in ~3 yrs, w/ best friend"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "learned from travel vlogger on YouTube + photos on IG; volcanoes, glaciers, black sand beaches, waterfalls; Ring Road ≈ 1,300 km around whole island"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "plan: rent a car, drive Ring Road 10 days; ice cave in glacier; soak in hot spring in snow; #1 dream → see northern lights, green curtains dancing in sky"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "why: Taiwan = no snow, totally different landscape; feel tiny in front of nature; challenge: super expensive (meal ≈ NT$1,000) → saving NT$3,000/month; worried climate change → glaciers melting → go sooner"
+   }
+  ],
+  "sample": [
+   "**Okay, so** a place I’d really love to visit in the future is Iceland. It’s a small island country in the North Atlantic, close to the Arctic Circle. **My plan is** to go in winter in about three years, with my best friend.",
+   "**I first learned about it from** a travel vlogger I follow on YouTube, **and since then** I’ve seen loads of amazing photos on Instagram. **Basically,** Iceland is full of volcanoes, glaciers, black sand beaches, and huge waterfalls. **There’s also** a famous road called the Ring Road, which goes all the way around the island. It’s about thirteen hundred kilometers long.",
+   "**What I’d like to do there is** rent a car and drive the whole Ring Road in about ten days. **Along the way,** I’d love to walk inside an ice cave in a glacier, **and** soak in a natural hot spring while it’s snowing. **But my number one dream is** to see the northern lights. **In the videos,** they look like green curtains dancing across the night sky, **and** I really want to see that with my own eyes, not just on a screen.",
+   "**The main reason I want to go is that** the landscape is completely different from Taiwan. It never snows where I live, **so** everything there feels like another planet. **I think** standing in front of a glacier would make me feel really small, in a good way. **The biggest challenge, of course,** is money: Iceland is super expensive, **and** a simple meal can cost around a thousand NT dollars. **So** I’m saving three thousand NT dollars a month. **Also,** because of climate change, the glaciers are melting, **so** I’d like to go sooner rather than later."
+  ],
+  "followUps": [
+   {
+    "q": "Do you prefer to travel to famous places or places few people know about?",
+    "a": "**These days, I prefer quieter places.** Famous spots are often so crowded that you spend more time queuing than enjoying the view. **That said,** places become famous for a reason, **so** for a first visit to a country, I’d still see the highlights, **and then** explore some lesser-known spots."
+   },
+   {
+    "q": "How does social media influence where people choose to travel?",
+    "a": "**Hugely, I’d say.** A lot of people choose places just because they look great on Instagram or TikTok. **On the positive side,** it helps people discover new destinations. **On the negative side,** one viral video can bring thousands of tourists to a tiny village overnight, **and** the locals just can’t cope."
+   },
+   {
+    "q": "Will people travel more or less in the future?",
+    "a": "**I think people will travel more,** **because** flights are getting cheaper and more people can work remotely. **However,** climate change might change how we travel. **For example,** some people already choose trains instead of planes for short trips, **and** I think that trend will grow."
+   }
+  ]
+ },
+ {
+  "id": "travel-6",
+  "theme": "Travel & Tourism",
+  "themeZh": "旅遊",
+  "setLabel": "Set 6",
+  "title": "Describe a long journey you went on.",
+  "cues": [
+   "where you went and how you travelled",
+   "who you went with",
+   "what you did during the journey",
+   "and explain how you felt about the journey."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "train trip around southern Taiwan – summer vacation last yr – w/ younger brother – HSR to Zuoying → Blue Train (藍皮解憂號) Fangliao → Taitung"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "Blue Train = 1970s-style blue carriages, no air-con, windows open, ceiling fans; tourist train since 2021; ~3 hrs, ~6 hrs whole day w/ HSR"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "Pacific Ocean appears suddenly after tunnels; sea breeze, salty air; stops at small stations → photos; bought bento w/ braised pork on platform; brother turned off phone, no complaining"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "felt slow = relaxing, travel itself was the destination; hot + sweaty but fun; reconnected w/ brother; lesson: Taiwan's east coast underrated"
+   }
+  ],
+  "sample": [
+   "**Okay, so** I’d like to talk about a long train journey I took through southern Taiwan last summer vacation with my younger brother. **First,** we took the high-speed rail from Taipei down to Kaohsiung, **and then** we transferred to a special sightseeing train called the Blue Train, which runs from Fangliao in Pingtung to Taitung on the east coast.",
+   "**To give you some background,** the Blue Train uses old blue carriages that look like they’re from the 1970s. There’s no air-conditioning, **just** ceiling fans, **and** you can actually open the windows. It became a tourist train in 2021, **and** tickets sell out really quickly. The ride itself takes about three hours, **so** the whole journey that day was about six hours.",
+   "**The best part was when** the train came out of a long tunnel, **and suddenly** the Pacific Ocean was right there, bright blue, **just** a few meters away. We stuck our heads out of the window, **and** we could feel the sea breeze and smell the salty air. The train stopped at some tiny stations for a few minutes, **so** we could get off and take photos. **At one stop,** we bought bento boxes with braised pork right on the platform. **What surprised me most was that** my brother, who is always glued to his phone, actually turned it off and just looked out the window.",
+   "**Overall,** I felt really relaxed. **Usually** I just want to get somewhere as fast as possible, **but** on this trip, the journey itself was the destination. **Of course,** it was hot and sweaty, **but** that was part of the fun. **On top of that,** I got to spend real time with my brother, **which** we hardly ever do at home. **It also made me realize** how beautiful and underrated Taiwan’s east coast is."
+  ],
+  "followUps": [
+   {
+    "q": "Do you prefer travelling by train or by plane? Why?",
+    "a": "**For trips within Asia, I actually prefer trains when possible.** You can see the scenery, walk around, **and** there’s no airport security to deal with. **Plus,** stations are usually right in the city center. **But** for long distances, like Europe, planes are obviously more practical, **because** nobody wants to spend three days on a train."
+   },
+   {
+    "q": "What can people do to make a long journey less boring?",
+    "a": "**I think the key is preparation.** Download some movies or podcasts before you go, **and** bring snacks and a neck pillow. **Another idea is** to talk to the people you’re travelling with, or even strangers. **Honestly,** some of my best conversations have happened on long trains and buses."
+   },
+   {
+    "q": "Is slow travel becoming more popular? Why?",
+    "a": "**Yes, I think so.** A lot of people are tired of rushing from one sight to another and coming home exhausted. Slow travel lets you stay longer in one place and really get to know it. **It’s also** better for the environment, **because** you take fewer flights. **So** I can see why more people are choosing it."
+   }
+  ]
+ },
+ {
+  "id": "travel-7",
+  "theme": "Travel & Tourism",
+  "themeZh": "旅遊",
+  "setLabel": "Set 7",
+  "title": "Describe a time you helped a tourist from another country.",
+  "cues": [
+   "when and where it happened",
+   "who the tourist was",
+   "what help they needed",
+   "and explain how you felt after helping them."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Taipei Main Station – Sat afternoon last month – Spanish backpacker, Lucía, early 20s, huge backpack, staring at map"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "station = maze: MRT, HSR, TRA, airport MRT, underground malls; wanted Beitou hot springs; Google Maps confusing, signs = many exits (M1–M8, Z, Y…)"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "walked her to red line; showed EasyCard top-up machine; explained transfer at Beitou → Xinbeitou branch line; tips: public hot spring ≈ NT$60, bring towel, swimsuit required; added on IG"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "felt proud + useful; practiced my English for real; she sent photo from hot spring → “Taiwanese people are so kind”; small act = big impression of a country"
+   }
+  ],
+  "sample": [
+   "**Okay, so** I’m going to talk about a time I helped a tourist at Taipei Main Station. It was a Saturday afternoon last month. I noticed a young woman with a huge backpack standing in the middle of the hall, staring at her phone and looking completely lost. **It turned out** she was a backpacker from Spain called Lucía.",
+   "**To be fair,** Taipei Main Station is a maze, even for locals. It has the MRT, the high-speed rail, regular trains, the airport MRT, **and** several underground shopping malls, **all** connected by long tunnels with dozens of exits. Lucía wanted to go to the Beitou hot springs, **but** Google Maps kept sending her to the wrong exit, **and** she was getting really frustrated.",
+   "**So** I offered to help. **First,** I walked her to the red MRT line and showed her how to top up her EasyCard at the machine. **Then** I explained that she had to change trains at Beitou station and take a short branch line to Xinbeitou, **because** a lot of tourists miss that part. **I also gave her a few tips:** the public hot spring only costs about sixty NT dollars, **but** you have to wear a swimsuit, **and** it’s a good idea to bring your own towel. **Before she left,** we added each other on Instagram.",
+   "**Afterwards,** I felt really proud and useful. **To be honest,** I was a bit nervous about speaking English at first, **but** it was great practice in a real situation. **That evening,** she sent me a photo of herself relaxing in the hot spring, with a message saying, “Taiwanese people are so kind!” **It made me realize that** a small act of kindness can shape someone’s whole impression of a country."
+  ],
+  "followUps": [
+   {
+    "q": "Why do some people hesitate to help strangers?",
+    "a": "**I think the main reason is** that they’re shy, **especially** if they need to speak a foreign language. **Some people** are also worried about being tricked, **because** there are scams that start with a stranger asking for help. **And in big cities,** everyone’s in a hurry, **so** people just assume someone else will help."
+   },
+   {
+    "q": "How can a city become more tourist-friendly?",
+    "a": "**First,** clear signs in English and other languages make a huge difference. **Second,** free Wi-Fi and easy ways to pay, like tap-to-pay cards, really help. **Taipei is already pretty good,** **but** I think more information centers in big stations, with staff who speak several languages, would make tourists feel even more welcome."
+   },
+   {
+    "q": "What can tourists do to be respectful in another country?",
+    "a": "**I think the most important thing is** to learn a bit about local customs before you go. **For example,** in Japan you shouldn’t eat while walking in some areas, **and** in Thailand you should cover your shoulders in temples. **Even** learning to say “hello” and “thank you” in the local language shows respect."
+   }
+  ]
+ },
+ {
+  "id": "travel-8",
+  "theme": "Travel & Tourism",
+  "themeZh": "旅遊",
+  "setLabel": "Set 8",
+  "title": "Describe an interesting place you stayed on holiday.",
+  "cues": [
+   "where it was and when you stayed there",
+   "what it looked like",
+   "what you did there",
+   "and explain why it was interesting."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "hanok guesthouse (traditional Korean house) – Bukchon, Seoul – 3 nights last Dec – w/ 2 roommates"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "~100-yr-old house, wooden beams, curved tile roof, small courtyard w/ persimmon tree; room: no bed → sleep on thick blankets on floor; ondol = heated floor"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "–8°C outside but floor warm like a heated blanket; owner, Mr. Kim → homemade breakfast: rice, soup, kimchi, side dishes; tried on hanbok, photos in alleys"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "interesting b/c lived like locals 100 yrs ago, not just looked; cons: thin walls, shared bathroom; Bukchon now curfew (tourists out 5 p.m.–10 a.m., red zone) → respect residents, keep voices down"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the most interesting place I’ve ever stayed is a traditional Korean guesthouse called a hanok, in Bukchon, Seoul. I stayed there for three nights last December with my two roommates.",
+   "**So what did it look like?** The house was about a hundred years old, **with** dark wooden beams, a curved tile roof, **and** a small courtyard with a persimmon tree in the middle. **What surprised me most was that** there was no bed in our room. **Instead,** we slept on thick blankets on the floor. **But** the floor wasn’t cold at all, **because** hanok houses have a traditional heating system called ondol, which warms the floor from underneath.",
+   "**I remember that** it was minus eight degrees outside, **but** lying on that floor felt like lying on a giant heated blanket. **Every morning,** the owner, Mr. Kim, made us a homemade breakfast: rice, soup, kimchi, and lots of little side dishes. **On our second day,** we rented hanbok, which is traditional Korean clothing, and took photos in the narrow alleys around the guesthouse. **In the evening,** Mr. Kim even taught us a few Korean words over a cup of hot citron tea.",
+   "**The reason it was so interesting is that** we didn’t just look at old houses; we actually lived like people did a hundred years ago. **Of course,** it wasn’t perfect. The walls were thin, **and** we had to share a bathroom. **I also learned that** Bukchon is a real neighborhood where people live, **and** because of overtourism, there’s now a curfew. Tourists aren’t allowed in the main area between five p.m. and ten a.m. **So** we made sure to keep our voices down and respect the residents."
+  ],
+  "followUps": [
+   {
+    "q": "Do you prefer staying in hotels or in more local places like guesthouses?",
+    "a": "**It depends on the trip.** For a short business trip, I’d choose a hotel, **because** it’s convenient and predictable. **But** for a holiday, I prefer guesthouses or B&Bs. You get to meet the owners, **and** they often give you great local tips that you’d never find online."
+   },
+   {
+    "q": "How has Airbnb changed the way people travel?",
+    "a": "**It’s made travel much more flexible.** You can rent a whole apartment, cook your own meals, **and** live like a local. **However,** it’s also caused problems. **In some cities,** so many apartments are rented to tourists that rents go up, **and** local people can’t afford to live in their own neighborhoods anymore."
+   },
+   {
+    "q": "Should tourist numbers be limited in historic areas?",
+    "a": "**I think so, at least in the most crowded places.** **If** too many people visit, buildings get damaged and residents can’t live normal lives. **Things like** time limits, booking systems, or small fees can help. **The goal shouldn’t be** to stop tourism, **but** to make sure both visitors and locals can enjoy the place."
+   }
+  ]
+ },
+ {
+  "id": "travel-9",
+  "theme": "Travel & Tourism",
+  "themeZh": "旅遊",
+  "setLabel": "Set 9",
+  "title": "Describe a city you visited that impressed you.",
+  "cues": [
+   "what city it was and when you went",
+   "what you saw and did there",
+   "what was special about it",
+   "and explain why it impressed you."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Singapore – 4 days during Lunar New Year holiday this yr – w/ my family"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "Changi Airport: Jewel → world’s tallest indoor waterfall (~40 m) under glass dome; MRT spotless, no eating/drinking (fine); green everywhere: plants on buildings"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "Gardens by the Bay → Supertrees light + music show at night, lying on ground looking up; hawker centre → chicken rice ≈ S$5, chili crab; Little India + Chinatown in same afternoon"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "impressed: clean, safe, efficient + nature in a dense city; multicultural – 4 official languages; cons: hot + humid, pricey (hotels, alcohol), strict rules; idea for Taipei: more greenery on buildings"
+   }
+  ],
+  "sample": [
+   "**Okay, so** a city that really impressed me is Singapore. I went there with my family for four days during the Lunar New Year holiday this year.",
+   "**Actually,** I was impressed before I even left the airport. Changi Airport has a huge glass dome called Jewel, **and** inside there’s a waterfall that’s about forty meters high. It’s the tallest indoor waterfall in the world, **and** it’s surrounded by a whole indoor forest. **Then,** when we took the MRT into the city, I noticed how spotless everything was. You’re not even allowed to eat or drink on the trains, **or** you can get fined. **What I loved most was that** the city was so green. Lots of buildings had plants and even trees growing on their walls and roofs.",
+   "**The highlight of the trip was** Gardens by the Bay. **At night,** there’s a free light and music show at the Supertrees, which are giant metal structures covered in plants. We lay on the ground and looked up while they changed colors to the music. **We also ate at hawker centres,** which are big food courts with dozens of stalls. A plate of chicken rice was only about five Singapore dollars, **and** we also tried chili crab. **In the same afternoon,** we walked around Chinatown and Little India, **and** it felt like visiting two different countries.",
+   "**It impressed me because** it’s clean, safe, and super efficient, **but** it still has lots of nature, **even though** it’s so crowded. It’s also really multicultural; there are four official languages. **Of course,** it’s hot and humid all year, **and** things like hotels are pretty expensive. **But overall,** I think Taipei could learn something from Singapore, **especially** about adding more greenery to buildings."
+  ],
+  "followUps": [
+   {
+    "q": "What makes a city a good place for tourists?",
+    "a": "**I think** good public transport is number one, **because** tourists need to get around easily. **Safety** is also really important, **especially** for people travelling alone. **And of course,** a city needs things that make it unique: its own food, culture, and atmosphere. **Otherwise,** it just feels like any other big city."
+   },
+   {
+    "q": "Do you think big cities are becoming more and more similar?",
+    "a": "**In some ways, yes.** You see the same chain stores, coffee shops, and glass skyscrapers in almost every city. **But** I think the real character of a city is in its food, its old neighborhoods, and its people. **That’s why** I always try to go to local markets and side streets instead of just shopping malls."
+   },
+   {
+    "q": "Would you prefer to live in a big city or a small town?",
+    "a": "**Right now, a big city,** **because** there are more job opportunities, better transport, and so much to do. **But** when I’m older, I can see myself moving to a small town, maybe near the sea in Hualien or Taitung. Life there is slower and less stressful, **and** the air is much cleaner."
+   }
+  ]
+ },
+ {
+  "id": "travel-10",
+  "theme": "Travel & Tourism",
+  "themeZh": "旅遊",
+  "setLabel": "Set 10",
+  "title": "Describe a tourist place that has become too crowded.",
+  "cues": [
+   "where it is",
+   "why it became so popular",
+   "what problems the crowds have caused",
+   "and explain what you think should be done about it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Lawson convenience store in Fujikawaguchiko, near Mt. Fuji, Japan – visited last spring w/ friends"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "cause: photo of Mt. Fuji “sitting” on top of Lawson roof → viral on IG/TikTok → hundreds of tourists a day, esp. after Japan reopened + weak yen"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "effects: crowd on narrow sidewalk, people crossing road w/o looking, littering, trespassing at dental clinic next door; May 2024 town put up black screen 2.5 m × 20 m → blocked view; when I went: people photographing the screen"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "felt sorry for locals + a bit embarrassed as a tourist; what to do: tourists → research + respect local rules; govts → spread tourists to other spots, tourist tax, limit numbers; social media → think before posting"
+   }
+  ],
+  "sample": [
+   "**Okay, so** I’d like to talk about a convenience store in Japan that became a little too famous. It’s a Lawson store in a small town called Fujikawaguchiko, right near Mount Fuji. I went there with some friends last spring.",
+   "**So why did it become so popular?** **Basically,** from a certain spot on the sidewalk, it looks like Mount Fuji is sitting right on top of the store’s roof. **A few years ago,** someone posted a photo of this view, **and** it went viral on Instagram and TikTok. **Then,** after Japan reopened to tourists and the yen got weaker, hundreds of visitors started showing up every day, **just** to take the same photo.",
+   "**This caused a lot of problems for local people.** The sidewalk is really narrow, **so** tourists crowded onto the road and crossed without looking, **which** was dangerous. **Some people** left rubbish everywhere, **and** others even climbed onto the roof of the dental clinic next door to get a better angle. **As a result,** in May 2024 the town put up a big black screen, about two and a half meters high and twenty meters long, to block the view. **When we went there,** **funnily enough,** people were taking photos of the screen instead.",
+   "**Honestly,** I felt sorry for the locals, **and** a bit embarrassed to be a tourist. **I think** everyone needs to do their part. **First,** tourists should do some research and respect local rules. **Second,** governments could spread tourists out by promoting less famous places, **or** introduce a small tourist tax to limit the numbers. **And finally,** we should all think twice before posting, **because** one viral photo can change a small town overnight."
+  ],
+  "followUps": [
+   {
+    "q": "What are the positive and negative effects of tourism on a local area?",
+    "a": "**On the positive side,** tourism brings money and jobs, **and** it can help keep traditional crafts and festivals alive. **On the negative side,** it can lead to crowds, pollution, and higher prices, **so** local people sometimes feel like strangers in their own town. **The key is** finding a balance."
+   },
+   {
+    "q": "Should tourists pay extra taxes when they visit popular places?",
+    "a": "**I think a small tax is fair.** Tourists use local roads, toilets, and public services, **so** it makes sense for them to help pay for these. **For example,** Kyoto and Venice already charge visitors extra. **As long as** the money is used to protect the place and support residents, I don’t think most travelers would mind."
+   },
+   {
+    "q": "How can social media be used to make tourism better?",
+    "a": "**Actually, it can be really helpful.** Influencers could promote lesser-known places, **so** tourists spread out instead of all going to the same spot. Cities could also use social media to share real-time crowd levels **or** remind visitors about local etiquette. **So** social media isn’t the problem itself; **it’s** how we use it."
    }
   ]
  }
