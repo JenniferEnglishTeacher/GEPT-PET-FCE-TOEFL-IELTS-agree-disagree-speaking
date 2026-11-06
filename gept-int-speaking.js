@@ -256,24 +256,18 @@ els.copyTranscriptButton.addEventListener("click", async () => {
   els.statusLine.textContent = (await K.copyText(t)) ? "Transcription copied." : "Clipboard was blocked — select the text and copy it manually.";
 });
 els.aiFeedbackButton.addEventListener("click", async () => {
-  const t = els.transcriptBox.value.trim();
-  if (!t) { els.statusLine.textContent = "Record or type an answer first."; return; }
+  if (!els.transcriptBox.value.trim()) { els.statusLine.textContent = "Record or type an answer first."; return; }
+  if (state.rawBeforeClean == null) cleanUp(); // always send the clean transcription
   const x = current();
-  const notes = state.mindMap ? state.mindMap.text() : "";
-  const q = x.kind === "qa" ? `Question: ${x.question}` : `Picture description questions:\n${x.prompts.map((p, i) => `${i + 1}. ${p}`).join("\n")}`;
-  const prompt = `Please correct my GEPT Intermediate (CEFR B1) speaking answer.
-
-${q}
-${notes ? `\nMy mind map notes:\n${notes}\n` : ""}
-My answer (speech-to-text, ${words(t)} words, ${state.duration}-second answer):
-${t}
-
-Please give me:
-1. My answer with correct punctuation and spelling.
-2. Grammar and word-choice corrections with short explanations.
-3. An improved B1-level answer that keeps my own ideas.
-4. Two useful phrases or sentence patterns I should practise.`;
-  els.statusLine.textContent = (await K.copyText(prompt)) ? "Copied with the question and your notes. Paste it to Claude or ChatGPT." : "Clipboard was blocked — copy your answer manually.";
+  const prompt = K.feedbackPrompt({
+    test: x.kind === "qa" ? "GEPT Intermediate (全民英檢中級) Answer Questions" : "GEPT Intermediate (全民英檢中級) Picture Description",
+    level: "CEFR B1",
+    question: x.kind === "qa" ? x.question : `Look at the picture (Test ${x.unit}: ${x.theme}) and answer these questions in order:`,
+    context: x.kind === "qa" ? [] : x.prompts.map((p, i) => `${i + 1}. ${p}`),
+    mindmap: state.mindMap ? state.mindMap.entries() : [],
+    transcript: els.transcriptBox.value.trim(), seconds: state.duration
+  });
+  els.statusLine.textContent = (await K.copyText(prompt)) ? "Copied: question + your mind map + clean transcription. Paste it into Claude or ChatGPT." : "Clipboard was blocked — copy your answer manually.";
 });
 els.randomButton.addEventListener("click", () => { const pool = items.filter(x => x.kind === state.kind); select(pool[Math.floor(Math.random() * pool.length)].id, true); });
 els.readQuestionButton.addEventListener("click", () => { const x = current(); K.speak(x.kind === "qa" ? x.question : "Look at the picture and answer the four questions.", 0.92); });

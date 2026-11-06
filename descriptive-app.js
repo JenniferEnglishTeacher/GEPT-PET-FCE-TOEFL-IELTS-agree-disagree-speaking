@@ -327,29 +327,12 @@ function cleanUpTranscript() {
 /* ---------- IELTS bot ---------- */
 function buildBotPrompt() {
   const notes = K.store.get(NOTES_PREFIX + active.number, {});
-  const noteLines = NOTE_FIELDS.map((f, i) => (notes[i] ? `- ${f.label}: ${notes[i]}` : "")).filter(Boolean).join("\n");
-  return `Please grade and revise my descriptive speaking response.
-
-Test style: iTEP / IELTS-style descriptive speaking
-Target level: CEFR B1
-Prompt: ${active.prompt}
-Time limit: ${els.timeSelect.value} seconds
-${noteLines ? `\nMy notes:\n${noteLines}\n` : ""}
-My voice-typed response:
-${els.transcript.value.trim()}
-
-Reference model answer:
-${active.model}
-
-Useful key words and phrases:
-${active.keywords.join(", ")}
-
-Please provide:
-1. A fair B1-level speaking score. Do not be overly strict.
-2. Organized feedback on fluency/coherence, vocabulary, grammar, and topic development.
-3. A polished revision of my original response. Keep my meaning, but add structure words and improve casual or unclear expressions.
-4. A full-mark model answer within the same time limit.
-5. Useful phrases I should reuse next time.`;
+  return K.feedbackPrompt({
+    test: "iTEP / IELTS-style descriptive", level: "CEFR B1", question: active.prompt,
+    context: [`Category: ${active.category}`, `Useful key words and phrases: ${active.keywords.join(", ")}`],
+    mindmap: NOTE_FIELDS.map((f, i) => ({ clue: f.label, hint: f.hint, text: (notes[i] || "").trim() })),
+    transcript: els.transcript.value.trim(), seconds: Number(els.timeSelect.value)
+  });
 }
 
 async function openIeltsBot() {
@@ -358,8 +341,9 @@ async function openIeltsBot() {
     els.transcript.focus();
     return;
   }
+  if (rawBeforeClean == null) cleanUpTranscript(); // always send the clean transcription
   const ok = await K.copyText(buildBotPrompt());
-  setStatus(els.botStatus, ok ? "Copied. The IELTS grading bot is opening. Paste the prompt into ChatGPT." : "Could not copy automatically. Please copy manually.", ok ? "active" : "warning");
+  setStatus(els.botStatus, ok ? "Copied: prompt + your notes + clean transcription. The IELTS bot is opening — paste it there (or into Claude)." : "Could not copy automatically. Please copy manually.", ok ? "active" : "warning");
   window.open(IELTS_BOT_URL, "_blank", "noopener");
 }
 

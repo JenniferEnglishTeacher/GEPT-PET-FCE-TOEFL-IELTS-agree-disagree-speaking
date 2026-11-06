@@ -521,25 +521,17 @@ function stopEverything() {
 function aiFeedbackPrompt() {
   const item = current();
   const notes = K.store.get(notesKey(), {});
-  const sections = sectionTexts(item);
-  const noteLines = sections.map((s, i) => (notes[i] ? `- ${s.note}: ${notes[i]}` : "")).filter(Boolean).join("\n");
-  const header = item.kind === "topic"
-    ? `Topic: ${item.title}\nQuestion: ${item.question}\nMy chosen viewpoint: ${(item.viewpoints[state.view] || {}).title || ""}\nReference viewpoints:\n${item.viewpoints.map(v => `- ${v.title}: ${v.bullets.join("; ")} (key words: ${v.keywords.join(", ")})`).join("\n")}`
-    : `Question: ${item.question}\nQuestion type: ${item.type}`;
-  return `Please correct my opinion speaking response.
-
-${header}
-Time limit: ${state.duration} seconds
-${noteLines ? `\nMy notes:\n${noteLines}\n` : ""}
-My transcript (speech-to-text):
-${els.transcriptBox.value.trim()}
-
-Please give me:
-1. My original response with proper punctuation and spelling.
-2. A short summary: main thesis → supporting argument, examples, effects, conclusion.
-3. Grammar corrections.
-4. Transition corrections: add or fix transitions I omitted or misused. Use "First" and "Second", not "Firstly" or "Secondly".
-5. An improved version that keeps my own structure, with a formal opening thesis, added examples where I gave none, and a brief, precise conclusion. Put important words and transitions in bold.`;
+  const mindmap = sectionTexts(item).map((s, i) => ({ clue: s.note, hint: s.label, text: (notes[i] || "").trim() }));
+  const context = item.kind === "topic"
+    ? [`Topic: ${item.title}`, `My chosen viewpoint: ${(item.viewpoints[state.view] || {}).title || ""}`,
+       "Viewpoints on the topic board:", ...item.viewpoints.map(v => `- ${v.title}: ${v.bullets.join("; ")} (key words: ${v.keywords.join(", ")})`),
+       "Structure: Argument → Explanation → Example → Effect → Wrap-up"]
+    : [`Question type: ${item.type}`, "Structure: Position → Reason → Example → Wrap-up"];
+  return K.feedbackPrompt({
+    test: item.kind === "topic" ? "iTEP / TOEFL / IELTS topic-board opinion" : "IELTS / TOEFL / FCE / PET opinion",
+    level: "CEFR B1–B2", question: item.question, context, mindmap,
+    transcript: els.transcriptBox.value.trim(), seconds: state.duration
+  });
 }
 
 /* ---------- events ---------- */
@@ -592,8 +584,9 @@ els.copyTranscriptButton.addEventListener("click", async () => {
 });
 els.aiFeedbackButton.addEventListener("click", async () => {
   if (!els.transcriptBox.value.trim()) { els.statusLine.textContent = "Record or type an answer first."; return; }
+  if (state.rawBeforeClean == null) cleanUpTranscript(); // always send the clean transcription
   const ok = await K.copyText(aiFeedbackPrompt());
-  els.statusLine.textContent = ok ? "Copied with the question and your notes. Paste it to Claude or ChatGPT for full feedback." : "Clipboard was blocked — copy the transcript manually.";
+  els.statusLine.textContent = ok ? "Copied: question + your notes + clean transcription. Paste it into Claude or ChatGPT." : "Clipboard was blocked — copy the transcript manually.";
 });
 
 els.randomButton.addEventListener("click", () => {

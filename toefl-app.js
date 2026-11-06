@@ -262,24 +262,12 @@ function select(key) {
 /* ---------- AI feedback (Jennifer's correction format) ---------- */
 function aiPrompt() {
   const x = current();
-  const notes = state.mindMap ? state.mindMap.text() : "";
-  return `Please correct my TOEFL speaking interview response.
-
-Topic: ${x.topicTitle}
-Question (${x.id} · ${x.type}, suggested time ${x.timing}): ${x.prompt}
-Answer structure: ${x.structure.join(" → ")}
-Target vocabulary: ${x.vocabulary.join(", ")}
-Time limit I used: ${state.duration} seconds
-${notes ? `\nMy mind map notes:\n${notes}\n` : ""}
-My transcript (speech-to-text):
-${els.transcriptBox.value.trim()}
-
-Please give me:
-1. My original response with proper punctuation and spelling.
-2. A short summary: main thesis → supporting argument, examples, effects, conclusion.
-3. Grammar corrections.
-4. Transition corrections: add or fix transitions I omitted or misused. Use "First" and "Second", not "Firstly" or "Secondly".
-5. An improved version that keeps my own structure, with a formal opening, added examples where I gave none, a brief conclusion, and some of the target vocabulary. Put important words and transitions in bold.`;
+  return K.feedbackPrompt({
+    test: "TOEFL Speaking Interview", level: "CEFR B1–B2", question: x.prompt,
+    context: [`Topic: ${x.topicTitle}`, `Question type: ${x.id} ${x.type} (suggested time ${x.timing})`, `Answer structure: ${x.structure.join(" → ")}`, `Target vocabulary: ${x.vocabulary.join(", ")}`],
+    mindmap: state.mindMap ? state.mindMap.entries() : [],
+    transcript: els.transcriptBox.value.trim(), seconds: state.duration
+  });
 }
 
 /* ---------- events ---------- */
@@ -295,14 +283,15 @@ els.resetButton.addEventListener("click", () => {
   els.statusLine.textContent = "Ready for a new answer."; resetTimer();
 });
 els.transcriptBox.addEventListener("input", () => { saveDraft(); updateCount(); markVocab(); });
-els.cleanButton.addEventListener("click", () => {
+function cleanUp() {
   const t = els.transcriptBox.value.trim();
   if (!t) { els.statusLine.textContent = "Record or type an answer first."; return; }
   state.rawBeforeClean = t;
   els.transcriptBox.value = cleanText(t, state.segments);
   els.restoreButton.hidden = false; saveDraft(); updateCount();
   els.statusLine.textContent = "Cleaned. Read it once, fix any wrong words, then copy it for feedback.";
-});
+}
+els.cleanButton.addEventListener("click", cleanUp);
 els.restoreButton.addEventListener("click", () => {
   if (state.rawBeforeClean == null) return;
   els.transcriptBox.value = state.rawBeforeClean; state.rawBeforeClean = null; els.restoreButton.hidden = true;
@@ -315,8 +304,9 @@ els.copyTranscriptButton.addEventListener("click", async () => {
 });
 els.aiFeedbackButton.addEventListener("click", async () => {
   if (!els.transcriptBox.value.trim()) { els.statusLine.textContent = "Record or type an answer first."; return; }
+  if (state.rawBeforeClean == null) cleanUp(); // always send the clean transcription
   const ok = await K.copyText(aiPrompt());
-  els.statusLine.textContent = ok ? "Copied with the question and your mind map. Paste it to Claude or ChatGPT for full feedback." : "Clipboard was blocked — copy the transcript manually.";
+  els.statusLine.textContent = ok ? "Copied: question + your mind map + clean transcription. Paste it into Claude or ChatGPT." : "Clipboard was blocked — copy the transcript manually.";
 });
 els.speakSampleButton.addEventListener("click", listenSample);
 els.readSampleButton.addEventListener("click", readSample);

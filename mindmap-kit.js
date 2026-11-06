@@ -46,6 +46,11 @@ window.MindMap = (() => {
       saved = read(key); saved[a.dataset.i] = a.value; write(key, saved);
     }));
     const api = {
+      // [{ clue, hint, text }] — every bubble, including empty ones (used by "Copy for AI Feedback")
+      entries() {
+        const s = read(key);
+        return branches.map((b, i) => ({ clue: b.label, hint: b.hint || "", text: (s[i] || "").trim() }));
+      },
       text() {
         const s = read(key);
         return branches.map((b, i) => (s[i] && s[i].trim() ? `- ${b.label}: ${s[i].trim()}` : "")).filter(Boolean).join("\n");

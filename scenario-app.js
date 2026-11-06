@@ -244,22 +244,12 @@ function select(n) {
 /* ---------- AI feedback ---------- */
 function aiPrompt() {
   const x = current();
-  const notes = state.mindMap ? state.mindMap.text() : "";
-  return `Please correct my GEPT speaking answer (situation question). I am a CEFR A2–B1 English learner.
-
-Question ${x.n}: ${x.question}
-Task: ${x.tag}
-Time limit I used: ${state.duration} seconds
-${notes ? `\nMy mind map notes:\n${notes}\n` : ""}
-My transcript (speech-to-text):
-${els.transcriptBox.value.trim()}
-
-Please give me:
-1. My original response with proper punctuation and spelling.
-2. A short summary of what I said (feeling → action / words → reason → ending).
-3. Grammar corrections with simple explanations.
-4. Transition corrections: add or fix linking words I omitted or misused. Use "First" and "Second", not "Firstly" or "Secondly".
-5. An improved version that keeps my own ideas and structure, natural for GEPT Basic/Intermediate, with important words and transitions in bold.`;
+  return K.feedbackPrompt({
+    test: "GEPT Basic/Intermediate situation (What-if scenario)", level: "CEFR A2–B1", question: x.question,
+    context: [`Task: ${x.tag}`],
+    mindmap: state.mindMap ? state.mindMap.entries() : [],
+    transcript: els.transcriptBox.value.trim(), seconds: state.duration
+  });
 }
 
 /* ---------- events ---------- */
@@ -275,14 +265,15 @@ els.resetButton.addEventListener("click", () => {
   els.statusLine.textContent = "Ready for a new answer."; resetTimer();
 });
 els.transcriptBox.addEventListener("input", () => { saveDraft(); updateCount(); });
-els.cleanButton.addEventListener("click", () => {
+function cleanUp() {
   const t = els.transcriptBox.value.trim();
   if (!t) { els.statusLine.textContent = "Record or type an answer first."; return; }
   state.rawBeforeClean = t;
   els.transcriptBox.value = cleanText(t, state.segments);
   els.restoreButton.hidden = false; saveDraft(); updateCount();
   els.statusLine.textContent = "Cleaned. Read it once, fix any wrong words, then copy it for feedback.";
-});
+}
+els.cleanButton.addEventListener("click", cleanUp);
 els.restoreButton.addEventListener("click", () => {
   if (state.rawBeforeClean == null) return;
   els.transcriptBox.value = state.rawBeforeClean; state.rawBeforeClean = null; els.restoreButton.hidden = true;
@@ -295,8 +286,9 @@ els.copyTranscriptButton.addEventListener("click", async () => {
 });
 els.aiFeedbackButton.addEventListener("click", async () => {
   if (!els.transcriptBox.value.trim()) { els.statusLine.textContent = "Record or type an answer first."; return; }
+  if (state.rawBeforeClean == null) cleanUp(); // always send the clean transcription
   const ok = await K.copyText(aiPrompt());
-  els.statusLine.textContent = ok ? "Copied with the question and your mind map. Paste it to Claude or ChatGPT for full feedback." : "Clipboard was blocked — copy the transcript manually.";
+  els.statusLine.textContent = ok ? "Copied: question + your mind map + clean transcription. Paste it into Claude or ChatGPT." : "Clipboard was blocked — copy the transcript manually.";
 });
 els.copySentencesButton.addEventListener("click", async () => {
   const text = current().patterns.map((p, i) => `${i + 1}. ${p.pattern}\ne.g. ${p.example}`).join("\n\n");

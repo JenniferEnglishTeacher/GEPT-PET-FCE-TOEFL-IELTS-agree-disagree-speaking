@@ -519,26 +519,16 @@
   }
   function botPrompt() {
     const notes = store.get(`ielts-p2-notes-${active.id}`, {});
-    const noteLines = active.cues.map((c, i) => notes[i] ? `- ${c.replace(/\.$/, "")}: ${notes[i]}` : "").filter(Boolean).join("\n");
-    return `Please correct my IELTS Speaking Part 2 (long turn) response.
-
-Cue card: ${active.title}
-You should say:
-${active.cues.map(c => `- ${c}`).join("\n")}
-${noteLines ? `\nMy notes:\n${noteLines}\n` : ""}
-Speaking time: ${elapsed ? fmt(elapsed) : "not timed"} (target: 1–2 minutes)
-
-My transcript (speech-to-text):
-${el.transcript.value.trim()}
-
-Please give me:
-1. My original response with correct punctuation and spelling.
-2. A short summary of my structure (introduction → description → story → reflection).
-3. Grammar and word-choice corrections.
-4. Transition corrections (missing or misused linking words).
-5. An improved version that keeps my own ideas and structure, with key words and transitions in bold.
-6. An estimated IELTS band for Fluency & Coherence, Lexical Resource and Grammatical Range & Accuracy.`;
+    const label = c => c.replace(/^and /, "").replace(/\.$/, "").replace(/^./, x => x.toUpperCase());
+    return window.SpeakingKit.feedbackPrompt({
+      test: "IELTS Speaking Part 2 (long turn)", level: "IELTS band 6–7 (CEFR B1–B2)",
+      question: active.title,
+      context: ["You should say:", ...active.cues.map(c => `- ${c}`), `My actual speaking time: ${elapsed ? fmt(elapsed) : "not timed"} (target: 1–2 minutes)`],
+      mindmap: active.cues.map((c, i) => ({ clue: label(c), hint: `Stage ${i + 1}`, text: (notes[i] || "").trim() })),
+      transcript: el.transcript.value.trim(), seconds: Number(el.timeSelect.value)
+    });
   }
+
 
   /* ---------- events ---------- */
   el.search.addEventListener("input", renderTopics);
@@ -576,8 +566,9 @@ Please give me:
   });
   el.botBtn.addEventListener("click", async () => {
     if (!el.transcript.value.trim()) { setStatus(el.transcriptStatus, "Record or type your answer first.", "warning"); return; }
+    if (rawBeforeClean == null) cleanTranscript(); // always send the clean transcription
     const ok = await copyText(botPrompt());
-    setStatus(el.transcriptStatus, ok ? "Copied with the cue card. Paste it into the IELTS bot that just opened." : "Could not copy automatically — copy your transcript manually.", ok ? "active" : "warning");
+    setStatus(el.transcriptStatus, ok ? "Copied: cue card + your notes + clean transcription. Paste it into the IELTS bot that just opened (or into Claude)." : "Could not copy automatically — copy your transcript manually.", ok ? "active" : "warning");
     window.open(IELTS_BOT_URL, "_blank", "noopener");
   });
   function confirmClear(what) { return window.confirm(`Clear your ${what} for this cue card?`); }

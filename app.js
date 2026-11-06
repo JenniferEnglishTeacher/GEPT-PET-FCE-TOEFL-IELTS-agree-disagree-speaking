@@ -320,21 +320,15 @@ els.copyTranscriptButton.addEventListener("click", async () => {
 
 els.aiFeedbackButton.addEventListener("click", async () => {
   if (!els.transcriptBox.value.trim()) { els.statusLine.textContent = "Record or type an answer first."; return; }
+  if (state.rawBeforeClean == null) cleanUpTranscript(); // always send the clean transcription
   const item = currentQuestion();
-  const prompt = `Please correct my GEPT Basic speaking answer. I am a beginner (CEFR A2) English learner.
-
-Question: ${item.question}
-
-${state.mindMap && state.mindMap.text() ? `My mind map notes:\n${state.mindMap.text()}\n\n` : ""}My answer (speech-to-text):
-${els.transcriptBox.value.trim()}
-
-Please give me:
-1. My answer with correct punctuation and spelling.
-2. Grammar corrections with simple explanations.
-3. An improved answer in 2-3 simple, natural sentences (A2 level), keeping my own ideas.
-4. Two useful sentence patterns I should practise, with examples.`;
+  const prompt = K.feedbackPrompt({
+    test: "GEPT Basic (全民英檢初級)", level: "CEFR A2", question: item.question,
+    mindmap: state.mindMap ? state.mindMap.entries() : [],
+    transcript: els.transcriptBox.value.trim(), seconds: state.duration
+  });
   const ok = await K.copyText(prompt);
-  els.statusLine.textContent = ok ? "Copied with the question. Paste it to Claude or ChatGPT for a full correction." : "Clipboard was blocked - copy your answer manually.";
+  els.statusLine.textContent = ok ? "Copied: question + your mind map + clean transcription. Paste it into Claude or ChatGPT." : "Clipboard was blocked - copy your answer manually.";
 });
 els.randomButton.addEventListener("click", () => selectQuestion(questions[Math.floor(Math.random() * questions.length)].id));
 els.speakSampleButton.addEventListener("click", listenSample);

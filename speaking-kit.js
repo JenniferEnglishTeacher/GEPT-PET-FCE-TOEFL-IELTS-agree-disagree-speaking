@@ -360,5 +360,36 @@ window.SpeakingKit = (() => {
     return { originalHtml, correctedHtml };
   }
 
-  return { SR, store, fmt, beep, copyText, escapeHtml, normParts, stem, wordSpans, align, accuracySummary, pickVoice, speak, listenAlong, stopSpeech, recognizer, properNouns, cleaner, grammarPolish, diffHtml, wordsFrom, normalizeWord };
+
+  /* ---------- "Copy for AI Feedback" prompt (shared by every speaking page) ----------
+     opts: { test, level, question, context: [lines], mindmap: [{clue, hint, text}], transcript, seconds } */
+  function feedbackPrompt(opts) {
+    const o = opts || {};
+    const context = (o.context || []).filter(Boolean);
+    const mm = (o.mindmap || []).filter(e => e && e.clue);
+    const typed = mm.filter(e => e.text);
+    const realHint = h => h && !/^key words/i.test(h) && !/^stage \d+$/i.test(h);
+    const mmLines = mm.length
+      ? mm.map(e => `- ${e.clue}${realHint(e.hint) ? ` (clue: ${e.hint})` : ""}: ${e.text || "(left blank)"}`).join("\n")
+      : "(no mind map on this page)";
+    const testName = /speaking/i.test(o.test || "") ? o.test : `${o.test || "English"} speaking`;
+    return `Here is my oral response to the ${testName} question prompt, my mind map text for my response, and the clean transcription of my speech to text. Please provide a clear improved revision, highlighting in **bold** every revision you made.
+
+=== 1. ${testName} question prompt ===
+${o.question || ""}${context.length ? `\n${context.join("\n")}` : ""}${o.seconds ? `\nTime limit: ${o.seconds} seconds` : ""}
+
+=== 2. My mind map (leading clues → what I typed before speaking) ===
+${typed.length ? mmLines : `${mmLines}\n(I did not type any mind map notes this time.)`}
+
+=== 3. Clean transcription of my speech-to-text response ===
+${o.transcript || ""}
+
+=== What I need ===
+1. An improved revision of my response. Keep my own ideas, structure and voice. Fix grammar, word choice and transitions, and add a missing example or conclusion if needed. Put **every change or addition in bold** so I can see exactly what was revised.
+2. A short list of the main corrections (my words → revised words), each with a one-line reason.
+3. One tip comparing my mind map plan with what I actually said (anything I planned but forgot to say).
+Keep the language natural for a ${o.level || "CEFR B1"} learner. Use "First" and "Second", not "Firstly" or "Secondly".`;
+  }
+
+  return { SR, store, fmt, beep, copyText, escapeHtml, normParts, stem, wordSpans, align, accuracySummary, pickVoice, speak, listenAlong, stopSpeech, recognizer, properNouns, cleaner, grammarPolish, feedbackPrompt, diffHtml, wordsFrom, normalizeWord };
 })();
