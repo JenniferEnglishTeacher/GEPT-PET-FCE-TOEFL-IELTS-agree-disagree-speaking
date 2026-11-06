@@ -60,9 +60,4 @@
 .sw-write-ref { display: grid; gap: 10px; margin-bottom: 12px; }
 .sw-write-ref .sw-prompt { font-size: 16px; padding: 10px 14px; }
 .sw-write-ref .sw-strip img { max-height: 240px; }
-.sw-mm-ref { margin-bottom: 12px; background: #f3f8fb; border: 1px solid #cfe0ea; border-radius: 8px; padding: 10px 14px; }
-.sw-mm-ref-title { display: block; color: #0f5a75; margin-bottom: 6px; }
-.sw-mm-ref-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 8px; }
-.sw-mm-ref-grid div { white-space: pre-line; font-size: 15px; line-height: 1.6; background: #fff; border-radius: 6px; padding: 6px 10px; }
-.sw-mm-ref-grid b { display: block; font-size: 13px; color: #7a4b00; }
-@media (max-width: 700px) { .sw-mm-ref-grid { grid-template-columns: 1fr; } }
+.sw-your-turn #mindMap { margin-bottom: 12px; }

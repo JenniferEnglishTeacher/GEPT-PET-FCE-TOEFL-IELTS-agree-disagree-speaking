@@ -14,7 +14,7 @@ const groupSize = g => STORIES.filter(s => s.group === g).length;
 const GROUP_LABEL = g => `主題 ${g}｜${GROUPS[g - 1]} (${groupSize(g)})`;
 const GROUP_META = g => `主題 ${g}｜${GROUPS[g - 1].split(" ")[0]}`;
 const skey = s => s.key || s.no;
-let story = STORIES[0], mm = null, timerApi = null, spans = [], stopListen = null;
+let story = STORIES[0], mm = null, timerApi = null, spans = [], stopListen = null, rec = null;
 const esc = W.esc;
 const bold = s => esc(s).replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
 
@@ -35,7 +35,8 @@ function list() {
 }
 
 function select(no) {
-  if (stopListen) { stopListen(); stopListen = null; }
+  if (stopListen) { stopListen(); stopListen = null; $("listenButton").innerHTML = "&#128264; Listen"; }
+  stopRead(false); ["readBar", "readStatus", "readLegend"].forEach(id => { $(id).hidden = true; });
   story = STORIES.find(s => s.no === no) || STORIES[0];
   $("storyMeta").textContent = `Topic ${story.no} · ${GROUP_META(story.group)}${story.src ? ` · ${story.src}` : ""}`;
   $("storyTitle").textContent = `${story.zh} · ${story.en}`;
@@ -46,7 +47,6 @@ function select(no) {
        <p class="sw-sub" style="margin-top:6px;font-size:13px">（本題沒有圖片，以情境描述代替）</p>`;
   $("writeRef").innerHTML = `<div class="sw-prompt">${esc(`題目：${story.prompt}`)}</div>${$("pictureHost").innerHTML}`;
   mm = MindMap.mount($("mindMap"), { key: `gept-basic-write-${skey(story)}`, center: story.en, branches: BRANCHES, title: "My Story Map 心智圖" });
-  showNotes();
   $("grid").querySelector("tbody").innerHTML = story.rows.map(r =>
     `<tr><td><b>${esc(r[0])}</b><small>${esc(r[1])}</small></td><td>${esc(r[2])}</td><td>${bold(r[3])}</td></tr>`).join("");
   $("essayText").innerHTML = ""; spans = SpeakingKit.wordSpans($("essayText"), story.essay);
@@ -70,14 +70,6 @@ function select(no) {
   list();
   try { history.replaceState(null, "", `#${story.no}`); } catch {}
 }
-function showNotes() {
-  const box = $("mmRef"), items = mm ? mm.entries() : [];
-  box.hidden = !items.some(e => e.text);
-  box.innerHTML = `<b class="sw-mm-ref-title">My Story Map 心智圖</b><div class="sw-mm-ref-grid">${items.map(e =>
-    `<div><b>${esc(e.clue)}</b>${e.text ? esc(e.text) : '<span style="color:var(--muted)">—</span>'}</div>`).join("")}</div>`;
-}
-$("mindMap").addEventListener("input", showNotes);
-$("mindMap").addEventListener("click", () => setTimeout(showNotes, 0));
 function count() { $("wordCount").textContent = `${W.wordCount($("writeBox").value)} words`; }
 
 $("writeBox").addEventListener("input", () => { try { localStorage.setItem(DRAFT + skey(story), $("writeBox").value); } catch {} count(); });
@@ -88,6 +80,7 @@ $("hideCol3").addEventListener("click", () => {
 });
 $("essayButton").addEventListener("click", () => { const e = $("essayText"); e.hidden = !e.hidden; $("shortHost").hidden = e.hidden; $("essayButton").textContent = e.hidden ? "Show" : "Hide"; });
 $("listenButton").addEventListener("click", () => {
+  stopRead();
   if (stopListen) { stopListen(); stopListen = null; $("listenButton").innerHTML = "&#128264; Listen"; return; }
   $("essayText").hidden = false; $("shortHost").hidden = false; $("essayButton").textContent = "Hide"; $("listenButton").textContent = "■ Stop";
   stopListen = SpeakingKit.listenAlong(spans, 0.9, () => { stopListen = null; $("listenButton").innerHTML = "&#128264; Listen"; });
@@ -103,5 +96,32 @@ $("aiButton").addEventListener("click", async () => {
   $("saveStatus").textContent = (await SpeakingKit.copyText(prompt)) ? "Copied with the topic. Paste it to Claude or ChatGPT." : "Clipboard was blocked — copy your story manually.";
 });
 $("searchInput").addEventListener("input", list);
+
+/* Optional read-aloud check on the model essay (speech-to-text, Chrome/Edge) */
+function showRead(final) {
+  const heard = rec ? `${rec.finals.join(" ")} ${rec.lastInterim || ""}` : "";
+  const res = SpeakingKit.accuracySummary(SpeakingKit.align(spans, heard), final, "essay");
+  $("readStatus").innerHTML = res.msg; $("readBarFill").style.width = `${res.pct}%`;
+}
+function stopRead(final = true) {
+  if (!rec) return;
+  rec.stop(); if (final) showRead(true);
+  rec = null; $("readButton").innerHTML = "&#127908; Read Aloud (optional)";
+}
+$("readButton").addEventListener("click", () => {
+  if (rec) { stopRead(); return; }
+  if (!SpeakingKit.SR) { $("readStatus").hidden = false; $("readStatus").textContent = "Read-aloud needs Chrome or Edge with a microphone."; return; }
+  if (stopListen) { stopListen(); stopListen = null; $("listenButton").innerHTML = "&#128264; Listen"; }
+  $("essayText").hidden = false; $("shortHost").hidden = false; $("essayButton").textContent = "Hide";
+  ["readBar", "readStatus", "readLegend"].forEach(id => { $(id).hidden = false; });
+  spans.forEach(w => w.el.classList.remove("ok", "miss"));
+  rec = SpeakingKit.recognizer({
+    onUpdate: () => showRead(false),
+    onBlocked: msg => { $("readStatus").textContent = msg; stopRead(false); }
+  });
+  if (!rec || !rec.start()) { $("readStatus").textContent = "Could not start the microphone."; rec = null; return; }
+  $("readStatus").textContent = "Listening… read the essay aloud from the start."; $("readBarFill").style.width = "0";
+  $("readButton").textContent = "■ Stop Reading";
+});
 
 select(Number(location.hash.slice(1)) || 1);

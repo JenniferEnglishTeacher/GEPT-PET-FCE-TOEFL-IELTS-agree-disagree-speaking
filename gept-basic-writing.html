@@ -40,8 +40,6 @@
           <div id="vocabHost"></div>
         </section>
 
-        <div id="mindMap"></div>
-
         <section class="sw-section">
           <h3><span>Sentence Patterns 句型表</span>
             <span><button id="hideCol3" class="small-button" type="button">Hide Column 3 (try it yourself)</button></span></h3>
@@ -54,9 +52,19 @@
         </section>
 
         <section class="sw-section">
+          <h3><span>Model Essay 範文 <small id="essayWords" style="color:var(--muted);font-weight:600"></small></span>
+            <span><button id="essayButton" class="small-button" type="button">Show</button> <button id="listenButton" class="small-button" type="button">&#128264; Listen</button> <button id="readButton" class="small-button" type="button">&#127908; Read Aloud (optional)</button></span></h3>
+          <p class="sw-essay" id="essayText" hidden></p>
+          <div class="accuracy-bar" id="readBar" hidden><span id="readBarFill"></span></div>
+          <p id="readStatus" class="accuracy-text" hidden></p>
+          <p class="accuracy-legend" id="readLegend" hidden><span class="w ok">matched</span> <span class="w miss">missed / unclear</span> <span class="w">not read yet</span></p>
+          <div id="shortHost" hidden></div>
+        </section>
+
+        <section class="sw-section sw-your-turn">
           <h3><span>Your Story 我的作文</span><span id="timerHost"></span></h3>
           <div class="sw-write-ref" id="writeRef"></div>
-          <div class="sw-mm-ref" id="mmRef" hidden></div>
+          <div id="mindMap"></div>
           <textarea id="writeBox" class="sw-write" spellcheck="true" placeholder="One day, … (use the past tense; saved automatically on this device)"></textarea>
           <div class="sw-meta"><span id="saveStatus">GEPT 初級: about 50 words · this page's model essays are about 150 words</span><span id="wordCount">0 words</span></div>
           <div class="sw-actions">
@@ -65,13 +73,6 @@
             <button id="clearButton" class="small-button" type="button">Clear</button>
           </div>
           <div id="feedback" class="sw-feedback" hidden></div>
-        </section>
-
-        <section class="sw-section">
-          <h3><span>Model Essay 範文 <small id="essayWords" style="color:var(--muted);font-weight:600"></small></span>
-            <span><button id="essayButton" class="small-button" type="button">Show</button> <button id="listenButton" class="small-button" type="button">&#128264; Listen</button></span></h3>
-          <p class="sw-essay" id="essayText" hidden></p>
-          <div id="shortHost" hidden></div>
         </section>
       </main>
     </div>
