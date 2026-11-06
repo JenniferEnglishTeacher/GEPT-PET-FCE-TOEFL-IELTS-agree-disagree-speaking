@@ -1,0 +1,86 @@
+/* fce-large.css — bigger, easier-to-read text on every FCE Use of English page
+   (fce-uoe.html Parts 1–3, fce-part4.html, fce-wordform.html).
+   Loaded LAST so it overrides styles.css, sw-pages.css, fce-uoe.css and each page's own <style>.
+   "html body" raises specificity so these win over same-named page rules. */
+
+/* ---------- layout: a little wider sidebar for the larger list text ---------- */
+html body .app-shell.sw-two { grid-template-columns: 340px minmax(0, 1fr); }
+@media (max-width: 1180px) { html body .app-shell.sw-two { grid-template-columns: 300px minmax(0, 1fr); } }
+@media (max-width: 900px) { html body .app-shell.sw-two { grid-template-columns: 1fr; } }
+
+/* ---------- sidebar ---------- */
+html body .question-sidebar .eyebrow { font-size: 14px; }
+html body .question-sidebar h1 { font-size: 28px; }
+html body .dash-link { font-size: 15px; min-height: 38px; }
+html body .count-pill { font-size: 18px; }
+html body .search-box span { font-size: 15px; }
+html body .search-box input { font-size: 17px; min-height: 46px; }
+html body .chips .chip { font-size: 15px; min-height: 36px; }
+html body .p4-group,
+html body .sw-group { font-size: 16px; }
+html body .uoe-set,
+html body .p4-cat { font-size: 17px; padding: 10px 12px; line-height: 1.35; }
+html body .uoe-set em,
+html body .p4-cat em { font-size: 15px; margin-top: 2px; }
+html body .uoe-set small,
+html body .p4-cat small { font-size: 15px; }
+
+/* ---------- main column headings ---------- */
+html body .sw-main .eyebrow { font-size: 14px; }
+html body .sw-main h2 { font-size: 32px; }
+html body .p4-zh { font-size: 19px; }
+html body .sw-prompt { font-size: 20px; line-height: 1.75; }
+html body .uoe-nokey { font-size: 17px; }
+
+/* ---------- Parts 1–3: passage, gaps, example ---------- */
+html body .uoe-example { font-size: 19px; }
+html body .uoe-passage p { font-size: 23px; line-height: 2.15; }
+html body .uoe-gap { font-size: 18px; }
+html body .uoe-gap select,
+html body .uoe-gap input { font-size: 18px; padding: 5px 8px; }
+html body .uoe-gap input { width: 10em; }
+html body .uoe-gap select { max-width: 14em; }
+html body .uoe-stem { font-size: 16px; padding: 1px 6px; }
+
+/* ---------- Part 4 + Word Formation: sentences, key word, inputs ---------- */
+html body .p4-first { font-size: 22px; line-height: 1.65; }
+html body .p4-key { font-size: 19px; }
+html body .p4-second { font-size: 22px; line-height: 2.1; }
+html body .p4-input { font-size: 18px; padding: 6px 10px; }
+html body .fce-wordform .p4-input,
+html body .wf-in { width: 12em; }
+html body .p4-count { font-size: 16px; }
+html body .wf-n { font-size: 20px; }
+html body .wf-mem { font-size: 18px; padding: 8px 14px; }
+html body .wf-mem i,
+html body .wf-mem span { font-size: 16px; }
+html body .wf-note { font-size: 17px; }
+
+/* Part 4 pattern table */
+html body .p4-grid { font-size: 18px; line-height: 1.65; }
+html body .p4-grid th { font-size: 17px; }
+
+/* ---------- buttons ---------- */
+html body .sw-main .small-button,
+html body .uoe-actions .small-button,
+html body .uoe-nav .small-button,
+html body .p4-actions .small-button { font-size: 18px; min-height: 44px; padding: 0 16px; }
+html body .uoe-actions .score { font-size: 19px; }
+
+/* ---------- feedback / explanations ---------- */
+html body .uoe-fb li,
+html body .p4-result { font-size: 18px; line-height: 1.65; }
+html body .uoe-fb .yours { font-size: 16px; }
+html body .uoe-fb .why { font-size: 17px; }
+
+/* ---------- phones ---------- */
+@media (max-width: 760px) {
+  html body .uoe-passage p { font-size: 20px; line-height: 2.2; }
+  html body .p4-first,
+  html body .p4-second { font-size: 19px; }
+  html body .sw-main h2 { font-size: 26px; }
+  html body .uoe-gap input { width: 8em; }
+  html body .uoe-gap select { max-width: 12em; }
+  html body .p4-input,
+  html body .wf-in { width: 9em; }
+}
