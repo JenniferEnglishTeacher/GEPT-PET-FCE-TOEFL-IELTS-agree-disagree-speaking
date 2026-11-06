@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Word Formation 詞類變化 | Jennifer Chen's Speaking &amp; Writing</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="speaking-extra.css">
+    <link rel="stylesheet" href="sw-pages.css">
+    <link rel="stylesheet" href="fce-uoe.css">
+    <style>
+      .p4-group { margin: 14px 4px 4px; font-size: 13px; font-weight: 800; color: #5b3f8c; }
+      .question-list .p4-group:first-child { margin-top: 0; }
+      .p4-cat { display: flex; justify-content: space-between; align-items: center; gap: 8px; width: 100%; text-align: left; border: 1px solid var(--line); background: #fff; border-radius: 8px; padding: 7px 10px; margin: 4px 0; font: inherit; font-size: 14px; cursor: pointer; color: var(--ink); }
+      .p4-cat:hover { border-color: #5b3f8c; } .p4-cat.active { border-color: #5b3f8c; background: #f1ecf8; font-weight: 700; }
+      .p4-cat em { display: block; font-style: normal; font-weight: 400; font-size: 12px; color: var(--muted); }
+      .p4-cat small { flex: 0 0 auto; color: var(--muted); font-weight: 700; font-variant-numeric: tabular-nums; } .p4-cat small.done { color: var(--good); }
+      .wf-members { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 16px; }
+      .wf-mem { background: #f1ecf8; border: 1px solid #ddd0ee; border-radius: 8px; padding: 6px 12px; font-size: 15px; }
+      .wf-mem i { color: #2e75b6; font-size: 13px; } .wf-mem span { display: block; font-size: 13px; color: var(--muted); }
+      .p4-q { border: 1px solid #e3dbef; border-radius: 10px; background: #fff; padding: 10px 16px; margin: 10px 0; }
+      .p4-second { font-family: "Times New Roman", Georgia, serif; font-size: 18px; line-height: 2; }
+      .wf-n { color: #5b3f8c; font-family: "Segoe UI", Arial, sans-serif; margin-right: 6px; }
+      .p4-input { font: 15px "Segoe UI", Arial, sans-serif; width: 11em; border: 1px solid #b9a9d3; border-radius: 6px; padding: 4px 8px; margin: 0 4px; background: #fcfaff; }
+      .p4-input.ok { border-color: var(--good); background: #eaf6ee; } .p4-input.bad { border-color: var(--danger); background: #fdf0f0; }
+      .p4-actions { display: flex; gap: 8px; margin-top: 6px; flex-wrap: wrap; }
+      .p4-result { margin-top: 8px; border-radius: 8px; padding: 8px 12px; font-size: 15px; line-height: 1.6; }
+      .p4-result.ok { background: #eaf6ee; border: 1px solid #b9dcc4; } .p4-result.ok .v { color: var(--good); }
+      .p4-result.bad { background: #fdf0f0; border: 1px solid #ecc2c2; } .p4-result.bad .v { color: var(--danger); }
+      .p4-result.shown { background: #fff8e6; border: 1px solid #f0dcaa; }
+      .wf-note { color: #4a4a4a; font-size: 14px; margin-top: 2px; }
+      @media (max-width: 760px) { .p4-input { width: 8.5em; } }
+    </style>
+  </head>
+  <body>
+    <div class="app-shell sw-two">
+      <aside class="question-sidebar" aria-label="Word families">
+        <div class="sidebar-head">
+          <div>
+            <p class="eyebrow">FCE Part 3 skills · 高中詞類變化</p>
+            <h1>Word Formation 詞類變化</h1>
+            <a class="dash-link" href="dashboard.html" style="margin-top:8px">&larr; Dashboard</a>
+          </div>
+          <span class="count-pill" id="countPill">0</span>
+        </div>
+        <label class="search-box"><span>Search</span><input id="searchInput" type="search" placeholder="e.g. create, 污染…" autocomplete="off"></label>
+        <div id="famList" class="question-list"></div>
+      </aside>
+      <main class="sw-main">
+        <p class="eyebrow">Word family 字族</p>
+        <h2 id="famTitle"></h2>
+        <div class="sw-prompt">Type the correct form of the word in brackets. 依括號內提示字，填入正確的詞性或詞形（名詞／動詞／形容詞／副詞、單複數、時態、否定字首）。</div>
+        <div class="wf-members" id="members"></div>
+        <div id="items"></div>
+        <div class="uoe-nav"><button id="prevButton" class="small-button" type="button">&larr; Previous family</button>
+          <button id="nextButton" class="small-button primary-action" type="button">Next family &rarr;</button></div>
+      </main>
+    </div>
+    <script src="fce-wordform-data.js"></script>
+    <script src="fce-wordform.js"></script>
+  </body>
+</html>
