@@ -1,9 +1,10 @@
-/* PET / KET agree–disagree essays (about 200 words).
+/* PET / KET essay engine (about 200 words) — shared by pet-essay.html (agree/disagree) and pet-pros-cons.html (pros & cons; window.PET_ESSAY_CFG).
    Teacher's AGREE sentences (bold = pattern) in column 3; students type the DISAGREE side row by row in column 2,
    then join the rows into a 4-paragraph essay. Drafts are saved on this device. */
 const W = window.WritingKit;
 const ESSAYS = window.PET_ESSAYS || [], EL = window.PET_ESSAY_ELEMENTS, PARAS = window.PET_ESSAY_PARAS;
-const ROWKEY = "pet-essay-rows-", DRAFT = "pet-essay-draft-";
+const CFG = Object.assign({ store: "pet-essay-", suffix: " Write an essay giving your opinion.", kind: "opinion essay", position: "My position: DISAGREE.\n", aiCheck: "Is my opinion clear? Do I have two reasons with examples, a contrast and a conclusion?" }, window.PET_ESSAY_CFG || {});
+const ROWKEY = CFG.store + "rows-", DRAFT = CFG.store + "draft-";
 const $ = id => document.getElementById(id);
 const esc = W.esc;
 const bold = s => esc(s).replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
@@ -33,7 +34,7 @@ function select(no) {
   topic = ESSAYS.find(e => e.no === no) || ESSAYS[0];
   $("topicMeta").textContent = `Topic ${topic.no} / ${ESSAYS.length} · ${topic.theme} · PET B1 · about 200 words`;
   $("topicTitle").textContent = `${topic.en} · ${topic.zh}`;
-  $("topicPrompt").textContent = `${topic.prompt} Write an essay giving your opinion.\nWrite about 200 words.`;
+  $("topicPrompt").textContent = `${topic.prompt}${CFG.suffix}\nWrite about 200 words.`;
   const rows = load(ROWKEY + topic.no, []);
   $("grid").querySelector("tbody").innerHTML = topic.rows.map((r, i) =>
     `<tr><td><b>${esc(EL[i][0])}</b><small>${esc(EL[i][1])}</small><i>✎ idea: ${esc(r[0])}</i></td>
@@ -95,7 +96,7 @@ $("clearButton").addEventListener("click", () => {
 $("aiButton").addEventListener("click", async () => {
   const t = $("writeBox").value.trim();
   if (!t) { $("saveStatus").textContent = "Write your essay first."; return; }
-  const prompt = `Please check my Cambridge B1 Preliminary (PET) opinion essay.\n\nTask: ${topic.prompt} Write an essay giving your opinion. Write about 200 words.\nMy position: DISAGREE.\n\nMy essay (${W.wordCount(t)} words):\n${t}\n\nPlease give me:\n1. Grammar, spelling and punctuation corrections with short explanations in Traditional Chinese.\n2. Is my opinion clear? Do I have two reasons with examples, a contrast and a conclusion?\n3. Better linking words or sentence patterns I could use (B1 level).\n4. An improved B1 version (about 200 words) that keeps my ideas.\n5. A PET writing score estimate (Content, Communicative Achievement, Organisation, Language: 0–5 each).`;
+  const prompt = `Please check my Cambridge B1 Preliminary (PET) ${CFG.kind}.\n\nTask: ${topic.prompt}${CFG.suffix} Write about 200 words.\n${CFG.position || ""}\nMy essay (${W.wordCount(t)} words):\n${t}\n\nPlease give me:\n1. Grammar, spelling and punctuation corrections with short explanations in Traditional Chinese.\n2. ${CFG.aiCheck}\n3. Better linking words or sentence patterns I could use (B1 level).\n4. An improved B1 version (about 200 words) that keeps my ideas.\n5. A PET writing score estimate (Content, Communicative Achievement, Organisation, Language: 0–5 each).`;
   $("saveStatus").textContent = (await SpeakingKit.copyText(prompt)) ? "Copied with the task. Paste it to Claude or ChatGPT." : "Clipboard was blocked — copy your essay manually.";
 });
 $("searchInput").addEventListener("input", list);
