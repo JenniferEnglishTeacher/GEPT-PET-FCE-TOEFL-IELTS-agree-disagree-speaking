@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FCE Essay Writing | Jennifer Chen's Speaking &amp; Writing</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="speaking-extra.css">
+    <link rel="stylesheet" href="sw-pages.css">
+    <style>
+      .fe-notes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-top: 10px; }
+      .fe-notes div { background: #fff; border: 1px solid #f0dcaa; border-radius: 8px; padding: 8px 12px; font-size: 15px; }
+      .fe-notes b { display: block; font-size: 12px; color: #8a5a00; }
+      .fe-tabs { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 20px; border-bottom: 2px solid #cfe3df; }
+      .fe-tabs button { border: 0; background: transparent; padding: 10px 14px; font: inherit; font-weight: 800; color: var(--muted); cursor: pointer; border-bottom: 3px solid transparent; margin-bottom: -2px; }
+      .fe-tabs button.on { color: #0f7c80; border-bottom-color: #0f7c80; }
+      .fe-pane[hidden] { display: none; }
+      .p { color: #0b5e61; font-weight: 800; }
+      .v { background: #fff3a8; border-radius: 3px; padding: 0 2px; }
+      .fe-grid td:nth-child(2) { padding: 6px; background: #fffdf5 !important; }
+      .fe-grid textarea { box-sizing: border-box; display: block; width: 100%; min-height: 64px; border: 1px dashed #c9b98a; border-radius: 6px; padding: 7px 9px; font: inherit; font-size: 15px; line-height: 1.5; resize: vertical; background: transparent; color: #222; }
+      .fe-grid textarea:focus { outline: 2px solid var(--accent); border-style: solid; background: #fff; }
+      .fe-grid td:first-child i { display: block; margin-top: 4px; font-size: 12.5px; color: #8a5a00; font-style: normal; }
+      .fe-grid tr.sec td { background: #d5ecea !important; color: #0b5e61; font-weight: 800; }
+      .fe-grid.hide-vocab .v { background: none; }
+      .fe-legend { font-size: 13px; color: var(--muted); margin: 0 0 8px; }
+      /* cloze */
+      .fe-cloze p { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 12px 16px; font-size: 16.5px; line-height: 2.1; margin: 0 0 10px; }
+      .fe-cloze p b.sec { display: block; font-size: 13px; color: #0f7c80; line-height: 1.4; margin-bottom: 2px; }
+      .fe-cloze input { font: inherit; font-size: 15.5px; border: 0; border-bottom: 2px solid #0f7c80; background: #eef7f6; border-radius: 4px 4px 0 0; padding: 1px 6px; margin: 0 2px; color: #0b5e61; font-weight: 700; }
+      .fe-cloze input.ok { background: #dcf3e2; border-color: #2e8b57; }
+      .fe-cloze input.bad { background: #fde3e1; border-color: #c0392b; }
+      .fe-ans { font-size: 12.5px; color: #2e8b57; font-weight: 800; margin-left: 2px; }
+      .fe-bank { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 12px; }
+      .fe-bank span { background: #e3f2f2; border: 1px solid #b9d8d4; border-radius: 999px; padding: 3px 10px; font-size: 13.5px; color: #0b5e61; }
+      .fe-bank span.used { opacity: .35; text-decoration: line-through; }
+      .fe-score { font-weight: 800; color: #0f7c80; font-size: 17px; }
+      /* typing game */
+      .fe-game { background: #0f2f33; color: #e8f4f2; border-radius: 10px; padding: 18px 20px; }
+      .fe-stats { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; margin-bottom: 14px; }
+      .fe-stats div { background: rgba(255,255,255,.07); border-radius: 8px; padding: 8px 10px; text-align: center; }
+      .fe-stats b { display: block; font-size: 22px; color: #7fe0d4; font-variant-numeric: tabular-nums; }
+      .fe-stats small { font-size: 11.5px; color: #a9c7c3; text-transform: uppercase; letter-spacing: .04em; }
+      .fe-role { font-size: 13px; color: #ffd27a; font-weight: 800; margin-bottom: 6px; }
+      .fe-target { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 19px; line-height: 1.75; background: rgba(255,255,255,.04); border-radius: 8px; padding: 12px 14px; min-height: 60px; transition: filter .2s; }
+      .fe-target.blur { filter: blur(6px); }
+      .fe-target span.ok { color: #7fe0d4; } .fe-target span.bad { color: #fff; background: #c0392b; border-radius: 2px; }
+      .fe-target span.cur { border-bottom: 3px solid #ffd27a; } .fe-target span.todo { color: #8fa9a6; }
+      .fe-target span.pp { text-decoration: underline; text-decoration-color: #ffd27a; text-underline-offset: 4px; }
+      #typeBox { width: 100%; box-sizing: border-box; margin-top: 10px; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 17px; padding: 10px 12px; border-radius: 8px; border: 2px solid #2b5c60; background: #f7fbfb; color: #111; resize: none; min-height: 70px; }
+      #typeBox:focus { outline: none; border-color: #7fe0d4; }
+      .fe-game .sw-actions .small-button { background: #1d4a4f; color: #e8f4f2; border-color: #2b5c60; }
+      .fe-game .sw-actions .small-button.primary-action { background: #ffd27a; color: #3a2a00; border-color: #ffd27a; }
+      .fe-game label { font-size: 14px; color: #cfe3df; display: inline-flex; gap: 6px; align-items: center; }
+      .fe-game select { font: inherit; font-size: 14px; border-radius: 6px; padding: 3px 6px; }
+      .fe-bar { height: 6px; background: rgba(255,255,255,.1); border-radius: 999px; overflow: hidden; margin: 0 0 12px; }
+      .fe-bar i { display: block; height: 100%; background: #7fe0d4; width: 0; transition: width .3s; }
+      .fe-msg { margin-top: 10px; font-size: 15px; color: #ffd27a; min-height: 22px; }
+      .fe-result { background: #fff; color: #222; border-radius: 10px; padding: 14px 16px; margin-top: 12px; }
+      .fe-result[hidden] { display: none; }
+      .fe-checklist { list-style: none; padding: 0 !important; }
+      .fe-checklist li { padding: 3px 0; }
+      @media (max-width: 760px) { .fe-notes { grid-template-columns: 1fr; } .fe-stats { grid-template-columns: repeat(3, minmax(0,1fr)); } .fe-target { font-size: 16px; } }
+    </style>
+  </head>
+  <body>
+    <div class="app-shell sw-two">
+      <aside class="question-sidebar" aria-label="Essay topics">
+        <div class="sidebar-head">
+          <div>
+            <p class="eyebrow">B2 First · Writing Part 1 · 220–250 words</p>
+            <h1>FCE Essays 論說文</h1>
+            <a class="dash-link" href="dashboard.html" style="margin-top:8px">&larr; Dashboard</a>
+          </div>
+          <span class="count-pill" id="countPill">10</span>
+        </div>
+        <label class="search-box"><span>Search</span><input id="searchInput" type="search" placeholder="games, food, cars…" autocomplete="off"></label>
+        <div id="topicList" class="question-list"></div>
+        <p style="padding:0 18px 18px;margin:0"><a class="dash-link sw-download" href="downloads/FCE-B2-essays-10-topics-3-column-grid.docx" download>&#11015; Download all 10 (Word)</a></p>
+      </aside>
+
+      <main class="sw-main">
+        <p class="eyebrow" id="topicMeta"></p>
+        <h2 id="topicTitle"></h2>
+        <div class="sw-prompt" id="topicPrompt"></div>
+        <div class="fe-notes" id="notesHost"></div>
+
+        <nav class="fe-tabs" id="tabs">
+          <button type="button" data-tab="grid" class="on">① Pattern Grid 句型表</button>
+          <button type="button" data-tab="cloze">② Pattern Check 句型填空</button>
+          <button type="button" data-tab="game">③ Typing Game 範文打字</button>
+          <button type="button" data-tab="write">④ My Essay + Check 寫作檢查</button>
+        </nav>
+
+        <!-- ① GRID -->
+        <section class="sw-section fe-pane" data-pane="grid">
+          <h3><span>3-Column Sentence-Pattern Grid 三欄句型表</span>
+            <span><button id="hideCol3" class="small-button" type="button">Hide Column 3</button> <button id="hideVocab" class="small-button" type="button">Hide highlights</button></span></h3>
+          <p class="fe-legend"><span class="p">Bold teal</span> = sentence pattern 句型 · <span class="v">highlight</span> = key vocabulary 重點詞彙. Write your own sentence in column 2 with the same pattern.</p>
+          <div class="sw-table-wrap">
+            <table class="sw-grid fe-grid" id="grid">
+              <thead><tr><th style="width:22%">Structure &amp; Pattern<br><small>寫作結構與句型</small></th><th style="width:36%">My Sentence<br><small>我的句子（用句型寫）</small></th><th>Model Sentence<br><small>老師範例句</small></th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+          <div class="sw-actions">
+            <button id="buildButton" class="small-button primary-action" type="button">&#11015; Put my sentences into one essay</button>
+            <span id="gridStatus" style="align-self:center;color:var(--muted);font-size:14px"></span>
+          </div>
+
+          <h3 style="margin-top:22px"><span>Model Essay 範文 <small id="essayWords" style="color:var(--muted);font-weight:600"></small></span>
+            <span><button id="essayButton" class="small-button" type="button">Show</button> <button id="listenButton" class="small-button" type="button">&#128264; Listen</button></span></h3>
+          <div id="essayHost" hidden></div>
+        </section>
+
+        <!-- ② CLOZE -->
+        <section class="sw-section fe-pane" data-pane="cloze" hidden>
+          <h3><span>Pattern Check 句型填空 — fill in the missing sentence patterns</span>
+            <span><button id="bankButton" class="small-button" type="button">Show word bank</button> <button id="hintButton" class="small-button" type="button">First-letter hints</button></span></h3>
+          <div class="fe-bank" id="bankHost" hidden></div>
+          <div class="fe-cloze" id="clozeHost"></div>
+          <div class="sw-actions">
+            <button id="clozeCheck" class="small-button primary-action" type="button">&#9989; Check</button>
+            <button id="clozeShow" class="small-button" type="button">Show answers</button>
+            <button id="clozeReset" class="small-button" type="button">Try again</button>
+            <span class="fe-score" id="clozeScore" style="align-self:center"></span>
+          </div>
+        </section>
+
+        <!-- ③ TYPING GAME -->
+        <section class="sw-section fe-pane" data-pane="game" hidden>
+          <h3><span>Sample Essay Typing Game 範文打字遊戲</span><span id="bestHost" style="font-size:14px;color:var(--muted)"></span></h3>
+          <div class="fe-game">
+            <div class="fe-stats">
+              <div><b id="gTime">0:00</b><small>Time</small></div>
+              <div><b id="gWpm">0</b><small>WPM</small></div>
+              <div><b id="gAcc">100%</b><small>Accuracy</small></div>
+              <div><b id="gSent">0/0</b><small>Sentences</small></div>
+              <div><b id="gScore">0</b><small>Score</small></div>
+            </div>
+            <div class="fe-bar"><i id="gBar"></i></div>
+            <div class="fe-role" id="gRole"></div>
+            <div class="fe-target" id="gTarget"></div>
+            <textarea id="typeBox" spellcheck="false" autocomplete="off" autocapitalize="off" placeholder="Click ▶ Start, then type the sentence above. Press Enter when you finish a sentence."></textarea>
+            <div class="sw-actions">
+              <button id="gStart" class="small-button primary-action" type="button">▶ Start</button>
+              <button id="gSkip" class="small-button" type="button">Skip sentence</button>
+              <label>Part <select id="gPart"><option value="all">Whole essay</option></select></label>
+              <label><input type="checkbox" id="gBlur"> Memory mode 記憶模式 (text blurred — hold <kbd>Ctrl</kbd> to peek)</label>
+            </div>
+            <div class="fe-msg" id="gMsg">Type each sentence exactly — capitals and punctuation count. Underlined words = sentence patterns.</div>
+          </div>
+          <div class="fe-result" id="gResult" hidden></div>
+        </section>
+
+        <!-- ④ WRITE + CHECK -->
+        <section class="sw-section fe-pane sw-your-turn" data-pane="write" hidden>
+          <h3><span>My Essay 我的作文</span><span id="timerHost"></span></h3>
+          <textarea id="writeBox" class="sw-write" spellcheck="true" placeholder="Write 220–250 words: introduction, 3 body paragraphs (Note 1, Note 2, your own idea), conclusion. Saved automatically on this device."></textarea>
+          <div class="sw-meta"><span id="saveStatus">B2 First · 220–250 words · 5 paragraphs</span><span id="wordCount">0 words</span></div>
+          <div class="sw-actions">
+            <button id="reviewButton" class="small-button primary-action" type="button">&#9989; Check My Essay</button>
+            <button id="aiButton" class="small-button" type="button">&#129302; Copy for AI Feedback</button>
+            <button id="clearButton" class="small-button" type="button">Clear</button>
+          </div>
+          <div id="feedback" class="sw-feedback" hidden></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="fce-essay-data.js"></script>
+    <script src="speaking-kit.js"></script>
+    <script src="writing-kit.js"></script>
+    <script src="fce-essay.js"></script>
+  </body>
+</html>
