@@ -44,6 +44,7 @@ function select(no) {
     ? `<div class="sw-strip"><img src="${story.img}" alt="Three pictures for: ${esc(story.en)}"></div>`
     : `<div class="sw-scenes">${story.scenes.map((t, i) => `<div><b>圖${"一二三"[i]} Picture ${i + 1}</b>${esc(t)}</div>`).join("")}</div>
        <p class="sw-sub" style="margin-top:6px;font-size:13px">（本題沒有圖片，以情境描述代替）</p>`;
+  $("writeRef").innerHTML = `<div class="sw-prompt">${esc(`題目：${story.prompt}`)}</div>${$("pictureHost").innerHTML}`;
   mm = MindMap.mount($("mindMap"), { key: `gept-basic-write-${skey(story)}`, center: story.en, branches: BRANCHES, title: "My Story Map 心智圖" });
   $("grid").querySelector("tbody").innerHTML = story.rows.map(r =>
     `<tr><td><b>${esc(r[0])}</b><small>${esc(r[1])}</small></td><td>${esc(r[2])}</td><td>${bold(r[3])}</td></tr>`).join("");

@@ -55,3 +55,8 @@
   .sw-grid { font-size: 14px; }
 }
 .sw-section[hidden], #shortHost[hidden] { display: none; }
+
+/* Reference copy of the prompt + pictures shown right above the writing box */
+.sw-write-ref { display: grid; gap: 10px; margin-bottom: 12px; }
+.sw-write-ref .sw-prompt { font-size: 16px; padding: 10px 14px; }
+.sw-write-ref .sw-strip img { max-height: 240px; }
