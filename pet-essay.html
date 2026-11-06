@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PET Agree / Disagree Essays | Jennifer Chen's Speaking &amp; Writing</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="speaking-extra.css">
+    <link rel="stylesheet" href="sw-pages.css">
+    <style>
+      .pe-grid td:nth-child(2) { padding: 6px; background: #fffdf5 !important; }
+      .pe-grid textarea { box-sizing: border-box; display: block; width: 100%; min-height: 92px; border: 1px dashed #c9b98a; border-radius: 6px; padding: 8px 10px; font: inherit; font-size: 15px; line-height: 1.55; resize: vertical; background: transparent; color: #222; }
+      .pe-grid textarea:focus { outline: 2px solid var(--accent); border-style: solid; background: #fff; }
+      .pe-grid td:first-child i { display: block; margin-top: 6px; font-size: 12.5px; color: #8a8a8a; }
+      .pe-grid.hide-hints td:first-child i { display: none; }
+      .pe-grid th:nth-child(2) { background: #8a5a00; }
+      .pe-stance { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 12px; font-weight: 800; margin-left: 6px; vertical-align: 2px; }
+      .pe-agree { background: #d8ecff; color: #1d4f8a; } .pe-disagree { background: #ffe9c2; color: #8a5a00; }
+      .pe-vocab { display: flex; flex-wrap: wrap; gap: 8px; }
+      .pe-vocab span { background: #f2f6fa; border: 1px solid #d6e2ee; border-radius: 999px; padding: 4px 12px; font-size: 14px; }
+      .pe-vocab b { color: #1d4f8a; margin-right: 4px; }
+      .pe-row-count { font-size: 12px; color: var(--muted); float: right; }
+    </style>
+  </head>
+  <body>
+    <div class="app-shell sw-two">
+      <aside class="question-sidebar" aria-label="Essay topics">
+        <div class="sidebar-head">
+          <div>
+            <p class="eyebrow">KET · PET B1 · 200 words</p>
+            <h1>Agree / Disagree Essays 正反立場短文</h1>
+            <a class="dash-link" href="dashboard.html" style="margin-top:8px">&larr; Dashboard</a>
+          </div>
+          <span class="count-pill" id="countPill">15</span>
+        </div>
+        <label class="search-box"><span>Search</span><input id="searchInput" type="search" placeholder="phone, homework, AI…" autocomplete="off"></label>
+        <div id="topicList" class="question-list"></div>
+        <p style="padding:0 18px 18px;margin:0"><a class="dash-link sw-download" href="downloads/PET-B1-agree-disagree-essays-15-topics.docx" download>&#11015; Download all 15 (Word)</a></p>
+      </aside>
+
+      <main class="sw-main">
+        <p class="eyebrow" id="topicMeta"></p>
+        <h2 id="topicTitle"></h2>
+        <div class="sw-prompt" id="topicPrompt"></div>
+        <p class="sw-sub" style="margin:10px 0 0">The teacher writes <span class="pe-stance pe-agree">AGREE</span>. You write <span class="pe-stance pe-disagree">DISAGREE</span> — borrow the <b>bold sentence patterns</b> in column 3.</p>
+
+        <section class="sw-section">
+          <h3><span>Sentence-Pattern Grid 句型表</span>
+            <span><button id="hideHints" class="small-button" type="button">Hide ✎ ideas</button> <button id="hideCol3" class="small-button" type="button">Hide Column 3</button></span></h3>
+          <div class="sw-table-wrap">
+            <table class="sw-grid pe-grid" id="grid">
+              <thead><tr><th style="width:20%">Element 寫作結構</th><th style="width:40%">My writing — DISAGREE<br><small>我的寫作（反對）</small></th><th>Teacher's sample — AGREE<br><small>老師範例（贊成）· bold = sentence pattern 句型</small></th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+          <div class="sw-actions" style="margin-top:10px">
+            <button id="buildButton" class="small-button primary-action" type="button">&#11015; Put my sentences into one essay</button>
+          </div>
+        </section>
+
+        <section class="sw-section">
+          <h3>Key Vocab 重點單字</h3>
+          <div class="pe-vocab" id="vocabHost"></div>
+        </section>
+
+        <section class="sw-section">
+          <h3><span>Teacher's Model Essay — AGREE 範文 <small id="essayWords" style="color:var(--muted);font-weight:600"></small></span>
+            <span><button id="essayButton" class="small-button" type="button">Show</button> <button id="listenButton" class="small-button" type="button">&#128264; Listen</button></span></h3>
+          <div id="essayHost" hidden></div>
+        </section>
+
+        <section class="sw-section sw-your-turn">
+          <h3><span>My Essay — DISAGREE 我的作文</span><span id="timerHost"></span></h3>
+          <textarea id="writeBox" class="sw-write" spellcheck="true" placeholder="In my opinion, I disagree that … (saved automatically on this device)"></textarea>
+          <div class="sw-meta"><span id="saveStatus">PET B1 · aim for about 200 words · 4 paragraphs</span><span id="wordCount">0 words</span></div>
+          <div class="sw-actions">
+            <button id="reviewButton" class="small-button primary-action" type="button">&#9989; Check My Writing</button>
+            <button id="aiButton" class="small-button" type="button">&#129302; Copy for AI Feedback</button>
+            <button id="clearButton" class="small-button" type="button">Clear</button>
+          </div>
+          <div id="feedback" class="sw-feedback" hidden></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="pet-essay-data.js"></script>
+    <script src="speaking-kit.js"></script>
+    <script src="writing-kit.js"></script>
+    <script src="pet-essay.js"></script>
+  </body>
+</html>
