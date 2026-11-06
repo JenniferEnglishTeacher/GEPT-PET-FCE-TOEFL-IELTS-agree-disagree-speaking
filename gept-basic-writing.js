@@ -46,6 +46,7 @@ function select(no) {
        <p class="sw-sub" style="margin-top:6px;font-size:13px">（本題沒有圖片，以情境描述代替）</p>`;
   $("writeRef").innerHTML = `<div class="sw-prompt">${esc(`題目：${story.prompt}`)}</div>${$("pictureHost").innerHTML}`;
   mm = MindMap.mount($("mindMap"), { key: `gept-basic-write-${skey(story)}`, center: story.en, branches: BRANCHES, title: "My Story Map 心智圖" });
+  showNotes();
   $("grid").querySelector("tbody").innerHTML = story.rows.map(r =>
     `<tr><td><b>${esc(r[0])}</b><small>${esc(r[1])}</small></td><td>${esc(r[2])}</td><td>${bold(r[3])}</td></tr>`).join("");
   $("essayText").innerHTML = ""; spans = SpeakingKit.wordSpans($("essayText"), story.essay);
@@ -69,6 +70,14 @@ function select(no) {
   list();
   try { history.replaceState(null, "", `#${story.no}`); } catch {}
 }
+function showNotes() {
+  const box = $("mmRef"), items = mm ? mm.entries() : [];
+  box.hidden = !items.some(e => e.text);
+  box.innerHTML = `<b class="sw-mm-ref-title">My Story Map 心智圖</b><div class="sw-mm-ref-grid">${items.map(e =>
+    `<div><b>${esc(e.clue)}</b>${e.text ? esc(e.text) : '<span style="color:var(--muted)">—</span>'}</div>`).join("")}</div>`;
+}
+$("mindMap").addEventListener("input", showNotes);
+$("mindMap").addEventListener("click", () => setTimeout(showNotes, 0));
 function count() { $("wordCount").textContent = `${W.wordCount($("writeBox").value)} words`; }
 
 $("writeBox").addEventListener("input", () => { try { localStorage.setItem(DRAFT + skey(story), $("writeBox").value); } catch {} count(); });
