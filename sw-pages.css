@@ -54,3 +54,4 @@
   .sw-scenes { grid-template-columns: 1fr; }
   .sw-grid { font-size: 14px; }
 }
+.sw-section[hidden], #shortHost[hidden] { display: none; }
