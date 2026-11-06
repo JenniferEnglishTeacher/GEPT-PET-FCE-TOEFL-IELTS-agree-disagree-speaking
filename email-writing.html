@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KET / PET / FCE Email Writing | Jennifer Chen's Speaking &amp; Writing</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="speaking-extra.css">
+    <link rel="stylesheet" href="sw-pages.css">
+    <link rel="stylesheet" href="email-writing.css">
+  </head>
+  <body>
+    <div class="app-shell sw-two">
+      <aside class="question-sidebar" aria-label="Email writing sections">
+        <div class="sidebar-head">
+          <div>
+            <p class="eyebrow">KET · PET · FCE · iTEP · TOEFL</p>
+            <h1>Email &amp; Letter Writing</h1>
+            <a class="dash-link" href="dashboard.html" style="margin-top:8px">&larr; Dashboard</a>
+          </div>
+          <span class="count-pill" id="countPill">0</span>
+        </div>
+        <div class="chips kind-tabs" role="group" aria-label="Section">
+          <button class="chip" type="button" data-kind="all" aria-pressed="true">All</button>
+          <button class="chip" type="button" data-kind="bank" aria-pressed="false">句型庫 Phrases</button>
+          <button class="chip" type="button" data-kind="task" aria-pressed="false">寫作 Tasks</button>
+        </div>
+        <label class="search-box"><span>Search</span><input id="searchInput" type="search" placeholder="apology, invite, 邀請…" autocomplete="off"></label>
+        <div id="navList" class="question-list"></div>
+      </aside>
+
+      <main class="sw-main" id="view" tabindex="-1"></main>
+    </div>
+
+    <script src="email-writing-data.js"></script>
+    <script src="speaking-kit.js"></script>
+    <script src="writing-kit.js"></script>
+    <script src="email-writing.js"></script>
+  </body>
+</html>

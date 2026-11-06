@@ -12,6 +12,7 @@ Live site: https://jenniferenglishteacher.github.io/GEPT-PET-FCE-TOEFL-IELTS-agr
 ## Writing
 - `gept-basic-sentences.html?part=1|2|3` — GEPT Basic Writing Part 1 句子改寫 / Part 2 合併 / Part 3 重組: 238 questions × (original + 3 similar), grouped by grammar block → sub-category, instant check, wrong answers must be rewritten (Word file with answer key in `downloads/`)
 - `gept-basic-writing.html` — GEPT Basic Writing Part 4: 49 three-picture stories (grouped into 12 situation themes) with a 3-column sentence-pattern grid and 150-word model essays (Word file in `downloads/`)
+- `email-writing.html` — KET/PET/FCE Email & Letter Writing: phrase bank (22 purposes + openings, replies, last lines, sign-offs; formal vs informal, self-test, 🔊), Formal-or-Informal game, 10 PET/FCE tasks (click-to-add patterns, timer, email checker, bold-pattern model emails, AI-feedback prompt), and a real booking email (personal details removed) with an 8-question reading check and a reply task. Data `email-writing-data.js`, engine `email-writing.js`, styles `email-writing.css`.
 - `gept-int-writing.html` — GEPT Intermediate Writing: 10 translations + 10 essays
 
 ## Reading & Use of English
