@@ -18,12 +18,16 @@ const norm = s => String(s).toLowerCase().replace(/[’‘]/g, "'").replace(/[^a
 let E = ESSAYS[0], flat = [], spans = [], stopListen = null, timerApi = null, tab = "grid";
 
 /* ---------- sidebar ---------- */
+const group = e => /^Test/.test(e.test) ? "B2 First Tests 1–4" : /Trainer/.test(e.test) ? "B2 First Trainer" : (e.test.match(/FCE Book \d/) || ["Other"])[0] + (/Book [45]/.test(e.test) ? " (older exam)" : "");
 function list() {
   const term = $("searchInput").value.trim().toLowerCase();
   const shown = ESSAYS.filter(e => !term || `${e.title} ${e.zh} ${e.topic} ${e.notes.join(" ")}`.toLowerCase().includes(term) || String(e.no) === term);
   $("countPill").textContent = shown.length;
   $("topicList").innerHTML = "";
+  let lastGroup = "";
   shown.forEach(e => {
+    const g = group(e);
+    if (g !== lastGroup) { const d = document.createElement("p"); d.className = "sw-group"; d.textContent = g; $("topicList").appendChild(d); lastGroup = g; }
     const n = e.sections.reduce((a, s) => a + s.rows.length, 0);
     const done = load(K.rows + e.no, []).filter(t => t && t.trim()).length;
     const cz = load(K.cloze + e.no, null), gm = load(K.game + e.no + "-all", null);
@@ -280,7 +284,7 @@ document.addEventListener("keyup", ev => { if (ev.key === "Control" && G && G.on
 /* ---------- ④ my essay + FCE check ---------- */
 function count() { $("wordCount").textContent = `${W.wordCount($("writeBox").value)} words`; }
 $("writeBox").addEventListener("input", () => { save(K.draft + E.no, $("writeBox").value); count(); });
-const STOP = new Set("the a an and or to of in on at for is are it they their them what when how much your own idea with from about".split(" "));
+const STOP = new Set("suggested the a an and or to of in on at for is are it they their them what when how much your own idea with from about".split(" "));
 function fceCheck(text) {
   const out = [], words = W.wordCount(text);
   const paras = text.split(/\n+/).map(p => p.trim()).filter(Boolean);
