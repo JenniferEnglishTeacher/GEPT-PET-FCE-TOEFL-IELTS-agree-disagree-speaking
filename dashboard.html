@@ -55,6 +55,7 @@
         <button type="button" data-filter="toefl" aria-pressed="false">TOEFL</button>
         <button type="button" data-filter="ielts" aria-pressed="false">IELTS Part 2</button>
         <button type="button" data-filter="fce" aria-pressed="false">FCE Use of English</button>
+        <button type="button" data-filter="tests" aria-pressed="false">Listening &amp; Reading 聽力閱讀</button>
       </div>
       <label class="search">Search<input id="search" type="search" placeholder="Find a practice..." autocomplete="off"></label>
     </div>
@@ -152,6 +153,25 @@
       </article>
       </div>
     </section>
+    <section class="skill" data-skill="tests">
+      <div class="skill-head"><h2>Listening &amp; Reading Tests 聽力與閱讀測驗</h2><span>Full Cambridge tests &middot; instant check &middot; 點字查中文</span></div>
+      <div class="grid">
+      <article data-id="fce-listening" data-category="fce tests" style="--accent:#7254a3">
+        <div class="meta"><span>FCE B2 First &middot; Listening</span><span class="count">5 tests</span></div>
+        <h2>FCE Listening 聽力測驗</h2>
+        <p>Full B2 First listening tests, Parts 1–4. Play each part on the page, answer online, and jump to the exact question in the recording. Study notes and the audio script unlock when you finish a part.</p>
+        <div class="details"><span>30 questions per test</span><span>Audio script + 中文單字</span></div>
+        <a class="open" href="https://jenniferenglishteacher.github.io/KET-PET-FCE-reading-test-HTML-quiz/#fce-listening" target="_blank" rel="noopener"><span>Start FCE Listening</span><span class="arrow" aria-hidden="true">&rarr;</span></a>
+      </article>
+      <article data-id="fce-reading" data-category="fce tests" style="--accent:#113c3b">
+        <div class="meta"><span>FCE B2 First &middot; Reading</span><span class="count">8 tests</span></div>
+        <h2>FCE Reading 閱讀測驗</h2>
+        <p>FCE Practice Tests 1–4 and Cambridge English First for Schools 3, Tests 1–4. Read the original pages, answer each part, and save useful words to your review list.</p>
+        <div class="details"><span>Reading Parts 1–7</span><span>Answer evidence + 中文單字</span></div>
+        <a class="open" href="https://jenniferenglishteacher.github.io/KET-PET-FCE-reading-test-HTML-quiz/#fce-reading" target="_blank" rel="noopener"><span>Start FCE Reading</span><span class="arrow" aria-hidden="true">&rarr;</span></a>
+      </article>
+      </div>
+    </section>
     <section class="skill" data-skill="uoe">
       <div class="skill-head"><h2>Reading &amp; Use of English 閱讀與語言運用</h2><span>Fill the gaps &middot; instant check &middot; 中英解析</span></div>
       <div class="grid">
@@ -193,7 +213,7 @@
       </div>
     </section>
     <p id="empty" hidden>No matching practice.</p>
-    <footer><span id="resultCount" aria-live="polite">17 practice activities</span><span>Jennifer Chen &middot; GEPT / KET / PET / TOEFL / IELTS</span></footer>
+    <footer><span id="resultCount" aria-live="polite">19 practice activities</span><span>Jennifer Chen &middot; GEPT / KET / PET / TOEFL / IELTS</span></footer>
   </main>
   <script>
     const cards = [...document.querySelectorAll('article')];
