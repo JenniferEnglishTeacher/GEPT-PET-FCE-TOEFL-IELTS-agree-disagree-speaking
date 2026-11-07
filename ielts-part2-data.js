@@ -307,6 +307,210 @@ window.IELTS_PART2 = [
   ]
  },
  {
+  "id": "tech-7",
+  "theme": "Technology & Modern Life",
+  "themeZh": "科技與現代生活",
+  "setLabel": "Set 7",
+  "title": "Describe a useful app that you check every day.",
+  "cues": [
+   "what the app is",
+   "what you use it for",
+   "how often and when you check it",
+   "and explain why you find it so useful."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "official weather app 中央氣象署 W → Central Weather Administration (renamed 2023) → free, no ads"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "hourly forecast + rain-chance %; rain radar map → colours move = storm coming; typhoon tracks + earthquake reports"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "July, Taipei afternoon storms → radar: red blob 20 min away → left café early → got home dry; friends soaked on scooters"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "check 2–3×/day: morning + before leaving work; plan umbrella, laundry, bike vs. MRT → small app, big stress-saver"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the app I check every single day is the official weather app from Taiwan’s Central Weather Administration. **A lot of people** still call it the Weather Bureau, **because** the agency only got its new name back in 2023. **The best part is** it’s completely free and there are no annoying ads, which is pretty rare these days.",
+   "**In terms of what it does,** the home screen shows an hourly forecast for wherever you are, plus the chance of rain as a percentage. **But** the feature I use most is the rain radar map. You can watch coloured patches move across the island, **so** you know exactly when a storm is about to hit your neighbourhood. **On top of that,** it shows typhoon tracks and earthquake reports, which matter a lot in Taiwan.",
+   "**I remember one time** last July, I was studying in a café in Da’an. The sky looked totally fine, **but** when I opened the radar, there was a huge red blob about twenty minutes away. **So** I packed up and walked straight to the MRT. **Sure enough,** just as I got home, it started pouring. **Meanwhile,** my friends who stayed were completely soaked on their scooters.",
+   "**These days,** I check it two or three times a day, usually in the morning and right before I leave work. It helps me decide whether to bring an umbrella, whether to hang my laundry outside, **and** whether to ride a YouBike or take the MRT. **So all in all,** it’s a tiny app, **but** it saves me a surprising amount of stress, especially in summer."
+  ],
+  "followUps": [
+   {
+    "q": "Why do people today rely so much on apps?",
+    "a": "**Well,** I think it’s mainly about convenience. **For example,** instead of reading a newspaper or calling a shop, you can get the answer in two taps. **On top of that,** apps are personalised, **so** they show you exactly what you care about. **The downside is** that people forget how to manage without them when their phone dies."
+   },
+   {
+    "q": "Should important public information only be available online?",
+    "a": "**Personally,** I don’t think so. **Of course,** online information is fast and easy to update. **However,** some older people don’t own smartphones, and during a big earthquake or typhoon the internet might go down. **So** I believe the government should also use TV, radio and loudspeakers, **just to be safe.**"
+   },
+   {
+    "q": "Do you think weather forecasts are reliable nowadays?",
+    "a": "**Generally speaking,** they’re much more accurate than before, **thanks to** satellites and computer models. **That said,** Taiwan’s weather can change really quickly, especially in summer when afternoon thunderstorms pop up out of nowhere. **So** I treat the forecast as a useful guide **rather than** a promise, and I always carry a small umbrella."
+   }
+  ]
+ },
+ {
+  "id": "tech-8",
+  "theme": "Technology & Modern Life",
+  "themeZh": "科技與現代生活",
+  "setLabel": "Set 8",
+  "title": "Describe a smart device in your home that makes your life easier.",
+  "cues": [
+   "what the device is",
+   "how you got it",
+   "how you use it",
+   "and explain how it has changed your daily routine."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "smart dehumidifier 除濕機 w/ Wi-Fi → in my rented flat in New Taipei"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "Taipei humidity → mould on walls + shoes, clothes smell damp; bought on sale last spring, ~NT$10,000; connects to app → humidity reading, timer, tank-full alert"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "plum-rain season → 3-day trip to Hualien → switched on from train → came home: dry air, no musty smell; phone ping = empty tank"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "laundry dries indoors overnight, sleep better, fewer allergies; downside: electricity bill ↑ → but worth it in TW climate"
+   }
+  ],
+  "sample": [
+   "**Alright, so** the device I want to describe is a smart dehumidifier in my rented flat in New Taipei. **I know** it doesn’t sound very exciting, **but** if you’ve ever lived through a Taipei summer, you’ll understand why I think it’s one of the best things I’ve ever bought.",
+   "**To give you some background,** the air here is incredibly humid, **so** before I got it, there were little spots of mould on my bedroom wall, and even my leather shoes went green. **Besides that,** my clothes never fully dried and always smelled a bit damp. **So** last spring I bought this dehumidifier during a sale for around ten thousand Taiwan dollars. **What makes it smart is** that it connects to an app on my phone, **so** I can see the humidity level, set a timer, and get an alert when the water tank is full.",
+   "**The moment I really appreciated it** was during the plum rain season. I went on a three-day trip to Hualien, **and** on the train back I switched it on from my phone. **By the time** I opened my front door, the air felt fresh and dry instead of musty. **Funnily enough,** an hour later my phone pinged to tell me the tank was already full.",
+   "**As for my routine,** I now hang my laundry indoors at night and it’s dry by the morning. **On top of that,** I sleep better and my allergies aren’t as bad. **The only drawback is** that my electricity bill has gone up a little. **But overall,** in Taiwan’s climate, I’d say it’s definitely worth it."
+  ],
+  "followUps": [
+   {
+    "q": "Why are smart home devices becoming more popular?",
+    "a": "**I think** the main reason is that they save time. **For instance,** you can turn on the air conditioner before you get home, so the room is already cool. **Also,** prices have dropped a lot in recent years. **On top of that,** young people are used to controlling everything with their phones, **so** it feels natural."
+   },
+   {
+    "q": "Are there any risks in having lots of smart devices at home?",
+    "a": "**Definitely,** there are a few. **First of all,** if a device is hacked, strangers might be able to collect your personal data. **Another problem is** that when the Wi-Fi goes down, some devices become almost useless. **So personally,** I only buy smart versions of things I really need, **rather than** connecting absolutely everything."
+   },
+   {
+    "q": "Do you think homes in the future will be fully automated?",
+    "a": "**To some extent,** yes. **I imagine** lights, cleaning and security will mostly run on their own. **However,** I don’t think homes will be completely automated, **because** people still enjoy doing some things by hand, like cooking. **Besides,** many older people prefer simple switches, so traditional appliances will probably stay around for a while."
+   }
+  ]
+ },
+ {
+  "id": "tech-9",
+  "theme": "Technology & Modern Life",
+  "themeZh": "科技與現代生活",
+  "setLabel": "Set 9",
+  "title": "Describe a time when a piece of technology let you down.",
+  "cues": [
+   "what the technology was",
+   "when and where it happened",
+   "what went wrong",
+   "and explain how you dealt with the situation."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "my old laptop → froze during online job interview, Google Meet, last March"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "marketing assistant role, Taichung company; tested camera + mic night before; wore shirt + pyjama trousers"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "10 min in → screen froze mid-sentence → blue screen → panic; rejoined from phone via hotspot → apologised, cracked a joke"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "got 2nd interview → HR said I stayed calm; lesson: always have Plan B → now keep phone charged + backup device"
+   }
+  ],
+  "sample": [
+   "**Okay, so** I’d like to talk about the day my old laptop let me down at the worst possible moment. **It was** last March, **and** I had an online job interview for a marketing assistant position at a company in Taichung. **Since** I live in Taipei, they suggested doing the first round on Google Meet.",
+   "**To be fair,** I thought I’d prepared really well. **The night before,** I tested my camera and microphone, cleaned up my desk, and even put some books on the shelf behind me so the background looked nice and professional. **I have to admit,** I was only wearing a nice shirt on top, with my pyjama trousers underneath, **because** I assumed nobody would ever see them.",
+   "**Anyway,** about ten minutes into the interview, right in the middle of a sentence, the screen just froze. **Then** it went completely blue and the laptop restarted. At that point, I was panicking so much that my hands were shaking. **Luckily,** I remembered I had the Meet app on my phone, **so** I turned on my mobile hotspot and rejoined in about two minutes. **When I came back,** I apologised and joked that my laptop was more nervous than I was, **and** the interviewers laughed.",
+   "**In the end,** I actually got invited to a second interview, **and** the HR manager told me she liked how calmly I handled the problem. **Looking back,** the lesson was simple: always have a Plan B. **Since then,** I make sure my phone is fully charged before any online meeting, **and** I bought a new laptop a month later."
+  ],
+  "followUps": [
+   {
+    "q": "Why do people get so stressed when their technology stops working?",
+    "a": "**Well,** I think it’s because we depend on it for almost everything. **For example,** our bank details, work files and photos are all on our phones and computers. **So** when something crashes, we feel like we’ve lost control. **On top of that,** problems usually happen at the worst time, **like** right before a deadline."
+   },
+   {
+    "q": "Should companies interview job candidates online or face to face?",
+    "a": "**Personally,** I think a mix is best. **On the one hand,** online interviews save candidates a lot of travel time and money, **especially** if they live in another city. **On the other hand,** meeting in person helps both sides get a real feel for each other. **So** I’d suggest online first rounds and face-to-face final interviews."
+   },
+   {
+    "q": "Do you think people today are too dependent on technology?",
+    "a": "**To some extent,** yes. **For instance,** many people can’t find their way anywhere without Google Maps, and some students can’t even remember their parents’ phone numbers. **However,** technology also makes life much more efficient. **So** I don’t think the answer is using less of it, **but rather** having a backup plan when it fails."
+   }
+  ]
+ },
+ {
+  "id": "tech-10",
+  "theme": "Technology & Modern Life",
+  "themeZh": "科技與現代生活",
+  "setLabel": "Set 10",
+  "title": "Describe a change that technology has brought to a public service in your country.",
+  "cues": [
+   "what the service is",
+   "how it used to work",
+   "how technology has changed it",
+   "and explain what effects this change has had on people."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "seeing a doctor in TW → online booking + live queue numbers 看診進度 + NHI Express app 健保快易通"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "before: go to clinic, take number, wait 1 hr in crowded room w/ coughing ppl; now: book online, check current no. on website/LINE → leave home when ~5 ahead"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "causes: everyone has smartphone + COVID 2020 → mask pre-orders thru NHI app → millions downloaded; my flu last winter → waited at home on sofa, not in clinic"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "effects: less waiting + less infection, see own records & test results in app; but grandma can’t use it → depends on me → digital gap"
+   }
+  ],
+  "sample": [
+   "**Okay, so** I’d like to talk about how technology has changed the way we see a doctor in Taiwan. **Basically,** we now have online booking, live queue numbers for clinics, **and** an official app called NHI Express, which links to your National Health Insurance card. **For me,** it’s one of the most practical changes in recent years.",
+   "**To give you some background,** when I was a kid, seeing a doctor meant going to the clinic, taking a paper number, **and then** waiting for about an hour in a crowded room full of coughing people. **These days, however,** most clinics let you book online, **and** you can check which number the doctor is seeing on their website or even through LINE. As a result, you can stay at home until there are only a few patients ahead of you.",
+   "**As for the causes,** I’d say the first one is simply that almost everyone has a smartphone now. **The second big reason** was COVID. **Back in 2020,** people could pre-order face masks through the NHI app, **so** huge numbers of people downloaded it for the first time. For example, when I had the flu last winter, I waited on my sofa wrapped in a blanket **instead of** sitting in a waiting room.",
+   "**In terms of effects,** the most obvious one is less waiting, **and** probably fewer infections too. **On top of that,** I can see my own medical records and test results in the app. **The downside is** that my grandma can’t use any of it, **so** she has to ask me to check for her. **So overall,** it’s a great change, **but** it shows the digital gap between generations."
+  ],
+  "followUps": [
+   {
+    "q": "What are the advantages of governments putting services online?",
+    "a": "**I think** the biggest advantage is saving time. **For example,** instead of queuing at a government office, you can renew documents or pay bills at midnight from your bed. **Also,** it reduces paperwork, which saves public money. **On top of that,** online systems can be updated quickly, **so** information stays accurate and easy to find."
+   },
+   {
+    "q": "How can older people be helped to use digital services?",
+    "a": "**Well,** one simple idea is free classes at community centres or libraries. **In addition,** apps could have a large-text mode with fewer buttons. **More importantly,** I think families have a role to play, **so** young people should be patient and show their grandparents step by step **rather than** just doing everything for them."
+   },
+   {
+    "q": "Do you think technology will change the way doctors work in the future?",
+    "a": "**Definitely.** **For instance,** AI can already help doctors read X-rays and spot problems more quickly. **Also,** online video appointments could be really useful for people living in remote mountain areas. **However,** I believe patients will still want a real doctor for serious problems, **because** trust and human care can’t be fully replaced by a machine."
+   }
+  ]
+ },
+ {
   "id": "social-1",
   "theme": "Social Media & Its Influence",
   "themeZh": "社群媒體與影響力",
@@ -562,6 +766,261 @@ window.IELTS_PART2 = [
   ]
  },
  {
+  "id": "social-6",
+  "theme": "Social Media & Its Influence",
+  "themeZh": "社群媒體與影響力",
+  "setLabel": "Set 6",
+  "title": "Describe a social media platform that you use the most.",
+  "cues": [
+   "what the platform is",
+   "how you use it",
+   "how long you have been using it",
+   "and explain why you prefer it to other platforms."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Threads 脆 → text-based app by Meta, linked to Instagram; on it ~2 yrs, many times a day"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "short posts, replies, polls; feels like chatting in a big café; topics: job hunting, MRT complaints, cat photos, exam tips; I mostly read + reply, post ~1×/week"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "asked “best cheap dentist near Gongguan?” → 80+ replies in 1 night, strangers shared tips → booked one, great experience"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "vs Instagram: less pressure to look perfect, words > photos; vs Facebook: younger crowd; downside: arguments, rude replies → mute words, keep it light"
+   }
+  ],
+  "sample": [
+   "**Alright, so** the platform I use the most these days is Threads, which people in Taiwan jokingly call “脆”, because the name sounds a bit like “crispy” in Chinese. It’s a text-based app made by Meta, and it’s linked to your Instagram account. **I’d say** I’ve been using it for about two years, and I check it many times a day.",
+   "**Basically,** it works like a giant online conversation. You write short posts, and other people reply, share or vote in polls. **To me,** it feels like chatting in a huge, noisy café. People post about everything – job hunting, complaints about the MRT, cat photos and exam tips. **Personally,** I mostly read and reply, **and** I only post something of my own about once a week.",
+   "**The moment I really fell for it** was last spring. I had a terrible toothache, **so** I posted a quick question asking if anyone knew a good, affordable dentist near Gongguan. **To my surprise,** I got more than eighty replies in one night. Total strangers shared names, prices and even tips about which dentist was gentle with nervous patients. **In the end,** I booked one of them, and it turned out to be a great experience.",
+   "**As for why I prefer it,** compared with Instagram, there’s much less pressure to look perfect, **because** it’s more about words than pretty photos. **And compared with Facebook,** the crowd is younger, so the topics feel closer to my life. **That said,** it’s not perfect. Some threads turn into nasty arguments, **so** I mute certain words and try to keep my feed light. **Overall, though,** it’s the app I open first every morning."
+  ],
+  "followUps": [
+   {
+    "q": "Why do different age groups prefer different social media platforms?",
+    "a": "**I think** it’s mainly about who is already there. **For example,** my parents stick to Facebook and LINE **because** their friends use them. **On the other hand,** young people often move to newer apps partly to escape their parents’ eyes. **So** each platform slowly develops its own generation and style."
+   },
+   {
+    "q": "Is text-based social media better than video-based platforms?",
+    "a": "**In some ways,** yes. Text lets people share opinions and ask practical questions quickly. **However,** video is much better for showing things, like recipes or travel spots. **Personally,** I think text platforms encourage more real discussion, **whereas** short videos are more about entertainment and quickly grabbing attention."
+   },
+   {
+    "q": "Should social media companies do more to stop online arguments?",
+    "a": "**To some extent,** they should. **For instance,** they could hide extremely rude replies or slow down users who post too often. **But** I don’t think they should delete every heated debate, **because** disagreement is normal. **Ideally,** platforms should give users better tools to control what they see themselves."
+   }
+  ]
+ },
+ {
+  "id": "social-7",
+  "theme": "Social Media & Its Influence",
+  "themeZh": "社群媒體與影響力",
+  "setLabel": "Set 7",
+  "title": "Describe a time when you took a break from social media.",
+  "cues": [
+   "when it was",
+   "why you decided to take a break",
+   "what you did instead",
+   "and explain how you felt during and after the break."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "2 wks off ALL social apps → last winter, before my IELTS test"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "why: screen time ~6 hrs/day, couldn’t focus on reading passages; deleted IG, Threads, YouTube from phone; told friends → “call me or LINE if urgent”"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "day 1–3: reached for phone every 10 min, FOMO, “phantom” checking; instead: library near Daan Park, jogging, paper novel, cooked w/ Mum; day 5 → calmer, slept by midnight"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "during: bored → peaceful; after: band 7 in reading, missed nothing important; now: apps back but no phone in bed + Sunday “offline morning”"
+   }
+  ],
+  "sample": [
+   "**Okay, so** I’d like to talk about the time I took a two-week break from all social media. It was last winter, **just before** my IELTS test, and it was one of the best decisions I’ve made in a long time.",
+   "**The reason was pretty simple.** My phone told me my screen time was around six hours a day, and I kept losing focus whenever I practised reading passages. **So one evening,** I deleted Instagram, Threads and YouTube from my phone. I also told my friends that if anything was urgent, they could call me or send me a LINE message, **since** I still needed that for school.",
+   "**To be fair,** the first three days were really tough. I kept reaching for my phone every ten minutes, **and** I had this strong fear of missing out. **Instead of scrolling,** I studied at a library near Daan Park, went jogging in the evenings and read a paper novel for the first time in ages. **I even** cooked dinner with my mum a few times, which she loved. **By around day five,** something changed. My mind felt calmer, **and** I was actually falling asleep before midnight.",
+   "**Looking back,** I went from feeling bored to feeling quite peaceful. **Afterwards,** I realised I hadn’t missed anything important at all. **On top of that,** I got a band seven in reading, **which** I’m sure was partly thanks to the break. **These days,** I’ve got my apps back, **but** I keep two rules: no phone in bed, and an offline morning every Sunday. **So all in all,** it taught me that I control my phone, not the other way round."
+  ],
+  "followUps": [
+   {
+    "q": "Why do people find it hard to stop using social media?",
+    "a": "**Well,** the apps are designed to keep us hooked. **For example,** endless scrolling and notifications give us small rewards all the time. **Besides that,** people worry about missing news or jokes their friends are talking about. **As a result,** even when we feel tired of it, logging off feels like being left out."
+   },
+   {
+    "q": "Do you think schools should teach students how to manage screen time?",
+    "a": "**Definitely.** **In my opinion,** it’s just as important as learning about healthy food. **For instance,** teachers could show students how to check their screen-time reports and set limits. **However,** lessons alone won’t work **unless** parents also set a good example at home by putting their own phones down."
+   },
+   {
+    "q": "Will people use social media more or less in the future?",
+    "a": "**I suspect** overall use will keep growing, **because** more services are moving online. **At the same time,** I think more people will take regular breaks, **especially** young people who are already tired of constant comparison. **So** we might see a balance, with heavy use on weekdays and offline time at weekends."
+   }
+  ]
+ },
+ {
+  "id": "social-8",
+  "theme": "Social Media & Its Influence",
+  "themeZh": "社群媒體與影響力",
+  "setLabel": "Set 8",
+  "title": "Describe a post you shared online that got a big reaction.",
+  "cues": [
+   "what the post was about",
+   "where and when you posted it",
+   "how people reacted to it",
+   "and explain why you think it got such a big reaction."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "photo + short story of lost wallet returned → Threads, ~1 yr ago, rainy Tues night"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "dropped wallet on city bus → ID, EasyCard, NT$3,000; bus driver kept it, phoned me via card in wallet; refused my red envelope, said “just doing my job”"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "posted thank-you + photo of the bus (no faces) → woke up: 20k+ likes, 1,000+ comments; ppl tagged bus company; local news site wrote short story; company praised driver"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "why: good news is rare online, Taiwan pride in honesty, simple + emotional; felt happy but a bit nervous → privacy, now think before posting"
+   }
+  ],
+  "sample": [
+   "**Alright, so** the post I want to talk about is a short thank-you story I shared on Threads about a year ago. **Funnily enough,** I wrote it in about five minutes on a rainy Tuesday night, **and** I never expected anyone except my friends to read it.",
+   "**To give you some background,** earlier that day I’d dropped my wallet on a city bus in Taipei. It had my ID card, my EasyCard and around three thousand Taiwan dollars inside. **Luckily,** the bus driver found it and kept it safe. He even found a business card in the wallet and called me. **When I went to collect it,** I tried to give him a small red envelope, **but** he refused and just said, “I’m only doing my job.”",
+   "**So that night,** I posted a thank-you message with a photo of the bus, **making sure** no one’s face was in it. **The next morning,** I woke up to over twenty thousand likes and more than a thousand comments. **Then** people started tagging the bus company, **and** a local news website wrote a short article about it. **A few days later,** the company publicly praised the driver, which made me really happy for him.",
+   "**As for why it got such a big reaction,** I think good news is quite rare online. **Most of the time,** our feeds are full of arguments and bad news, **so** a simple, kind story feels refreshing. **Also,** many Taiwanese people are proud of how honest our society is. **Even so,** I felt a bit nervous when so many strangers were reading my words. **Since then,** I always think twice about privacy before I post."
+  ],
+  "followUps": [
+   {
+    "q": "Why do some posts go viral while others are ignored?",
+    "a": "**I think** timing and emotion matter most. **For instance,** posts that make people laugh, cry or feel angry are shared much faster. **Besides,** if a well-known account shares your post early, it can reach thousands of people in hours. **In contrast,** posts that are long or complicated usually disappear quickly."
+   },
+   {
+    "q": "What are the risks of sharing personal stories online?",
+    "a": "**The biggest risk** is privacy. **For example,** a photo might accidentally show your address or school uniform. **On top of that,** once something goes viral, you can’t control the comments, **and** some can be really hurtful. **So** I’d say people should share feelings freely but keep personal details to themselves."
+   },
+   {
+    "q": "Do you think social media makes people kinder or less kind?",
+    "a": "**It works both ways.** **On the one hand,** stories like mine spread kindness and inspire people. **On the other hand,** being anonymous makes some users say cruel things they’d never say face to face. **Overall,** I think social media simply magnifies whatever people already have inside them."
+   }
+  ]
+ },
+ {
+  "id": "social-9",
+  "theme": "Social Media & Its Influence",
+  "themeZh": "社群媒體與影響力",
+  "setLabel": "Set 9",
+  "title": "Describe a person who became well known because of social media.",
+  "cues": [
+   "who this person is",
+   "what he or she does",
+   "how he or she became well known",
+   "and explain what you think of this person’s success."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Uncle Lin 林伯 → old-style barber in Wanhua, near Longshan Temple, cutting hair 40+ yrs"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "tiny shop: red leather chairs, straight razor, hot towel, NT$200 haircut; customers = mostly retired men; quiet, funny, tells stories while cutting"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "grandson home from uni → filmed slow-motion fade cut + hot-towel shave → Reels + TikTok → millions of views; now young ppl + tourists queue on weekends; I went → waited 1.5 hrs, best haircut ever"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "great: old skill valued again, more income, grandson learning trade; worry: too busy, regulars can’t get in, back pain → hope he keeps weekday mornings for old customers"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the person I’d like to describe is an elderly barber called Uncle Lin. He runs a tiny, old-style barber shop in Wanhua, not far from Longshan Temple, **and** he’s been cutting hair there for more than forty years. **Recently,** he’s become a bit of a local celebrity online.",
+   "**To give you a picture,** his shop has only two red leather chairs, a mirror with old calendars stuck around it, **and** a radio playing Taiwanese songs. He still uses a straight razor and a hot towel, **and** a haircut costs about two hundred Taiwan dollars. **For decades,** his customers were mostly retired men from the neighbourhood. **On top of that,** he’s quiet but really funny, **and** he tells stories while he works.",
+   "**Things changed** when his grandson came home from university for the summer. **Just for fun,** he filmed his grandpa doing a fade cut and a hot-towel shave in slow motion, with relaxing music. **Before long,** the clips had millions of views on Instagram and TikTok. **Now,** young people and even foreign tourists queue outside on weekends. Out of curiosity, I went last month and waited about an hour and a half, **but** it was the best haircut I’ve ever had.",
+   "**In my view,** his success is mostly great news. An old skill is being valued again, he’s earning more, **and** his grandson has even started learning the trade. **However,** I do worry a little. He’s in his seventies, **so** long queues mean back pain, **and** some of his loyal regulars can’t get a seat anymore. **Hopefully,** he’ll keep weekday mornings just for his old customers."
+  ],
+  "followUps": [
+   {
+    "q": "Why do traditional businesses benefit from social media?",
+    "a": "**I think** it’s because they have real stories and skills that look great on camera. **For example,** watching a craftsman at work feels authentic compared with polished adverts. **Also,** social media is basically free, **so** small shops can reach young customers **without** spending money on marketing campaigns."
+   },
+   {
+    "q": "Can sudden online fame cause problems for small businesses?",
+    "a": "**Absolutely.** **First of all,** a small shop may not be able to handle huge crowds, **so** quality and service can drop. **Besides that,** neighbours might complain about noise and queues. And online fame often fades quickly, **which** leaves the owner struggling if they’ve already invested in expanding."
+   },
+   {
+    "q": "Should young people be encouraged to learn traditional trades?",
+    "a": "**Yes, I think so.** **Many of these skills** are disappearing because the older generation is retiring. **On the other hand,** young people need to see that they can earn a decent living. **That’s where** social media helps, **since** it shows that traditional trades can be modern and attractive too."
+   }
+  ]
+ },
+ {
+  "id": "social-10",
+  "theme": "Social Media & Its Influence",
+  "themeZh": "社群媒體與影響力",
+  "setLabel": "Set 10",
+  "title": "Describe an effect that social media has on teenagers in your country.",
+  "cues": [
+   "what the effect is",
+   "how you know about it",
+   "who is most affected by it",
+   "and explain what causes this effect and what could be done about it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "effect on teens’ self-image 自我形象 → comparing selves w/ filtered photos; plus late-night scrolling → less sleep"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "know via: younger cousin (15, junior high in Taichung) + tutoring students; beauty filters → smaller face, bigger eyes, perfect skin; likes = score; “everyone is prettier + richer than me”"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "cousin refused to post w/o filter, deleted photo w/ few likes, asked Mum for skincare + diet pills → family worried; phone in bed till 2 a.m. → tired in class"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "causes: algorithms push perfect bodies, influencer culture, teens’ need to fit in; solutions: media-literacy lessons, phones out of bedroom, parents talk not ban; Australia → under-16 ban (Dec 2025), debate in TW"
+   }
+  ],
+  "sample": [
+   "**Alright, so** the effect I want to talk about is how social media shapes the way teenagers in Taiwan see themselves. **In particular,** I mean their self-image, **although** it also affects how much they sleep.",
+   "**I know about this mainly from** my younger cousin, who’s fifteen and goes to junior high school in Taichung, **and also** from the high school students I tutor. **Most of them** use beauty filters that make their faces slimmer, their eyes bigger and their skin perfect. **On top of that,** they treat likes almost like an exam score. **As one student told me,** “Everyone online is prettier and richer than me.”",
+   "**A clear example** is my cousin. **Last year,** she refused to post any selfie without a filter, **and** if a photo didn’t get enough likes, she simply deleted it. Then she started asking her mum for expensive skincare and even diet products, **which** really worried the whole family. **What’s more,** she often scrolled in bed until two in the morning, **so** she was completely exhausted in class the next day.",
+   "**As for the causes,** I think algorithms keep pushing images of perfect bodies, **because** that content gets attention. Teenagers also feel a strong need to fit in with their classmates and friends. **To deal with this,** schools could teach media literacy, so students learn how edited most photos are. **At home,** parents could keep phones out of bedrooms at night and talk to their kids rather than just banning apps. **Interestingly,** Australia banned social media accounts for under-sixteens in December 2025, **and** I think it’s worth watching whether it actually works."
+  ],
+  "followUps": [
+   {
+    "q": "Should governments ban teenagers from using social media?",
+    "a": "**I have mixed feelings about it.** **On the one hand,** a ban could protect young people’s sleep and mental health. **On the other hand,** teenagers are very good at finding ways around rules. **So** I think stronger age checks and better education would probably work better than a complete ban."
+   },
+   {
+    "q": "Who is more responsible for protecting teenagers online: parents or tech companies?",
+    "a": "**In my opinion,** both share the responsibility. **Parents** know their children best and can set rules at home. **However,** tech companies design the apps, **so** they should make safer default settings for young users, **for example** turning off notifications late at night and hiding like counts for teenagers."
+   },
+   {
+    "q": "Has social media had any positive effects on young people?",
+    "a": "**Yes, definitely.** **For instance,** shy teenagers can find friends with the same hobbies, like drawing or coding. **Also,** many students learn useful skills from free online tutorials. **What matters most** is how they use it, **so** guiding teenagers is better than simply blaming the technology."
+   }
+  ]
+ },
+ {
   "id": "sports-1",
   "theme": "Sports & Exercise",
   "themeZh": "運動與健身",
@@ -813,6 +1272,261 @@ window.IELTS_PART2 = [
    {
     "q": "Do young people exercise less than in the past?",
     "a": "**In some ways, yes.** A lot of young people spend hours on their phones or studying, **so** they sit down most of the day. **On the other hand,** gym culture and running clubs are really popular now, especially on social media. **So I’d say** young people are split: some are fitter than ever, **while** others barely move at all."
+   }
+  ]
+ },
+ {
+  "id": "sports-6",
+  "theme": "Sports & Exercise",
+  "themeZh": "運動與健身",
+  "setLabel": "Set 6",
+  "title": "Describe a sports team that you support.",
+  "cues": [
+   "which team it is",
+   "how you started supporting it",
+   "how you follow the team",
+   "and explain why you support this team."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "CTBC Brothers 中信兄弟 → CPBL baseball team, yellow jerseys, elephant logo → fans = 象迷"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "home = Taichung Intercontinental Stadium; started b/c uncle → took me at age 10; follow: live stream on phone, LINE group w/ cousins, 1–2 home games a yr"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "2024 Taiwan Series → Brothers won title in Game 5 vs Uni-Lions; watched at uncle’s place, whole family shouting; uncle cried"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "why: loyal fans, cheering songs + drums, family tradition; bad seasons too → teaches patience; team = link to my uncle"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the team I support is the CTBC Brothers, a team in the CPBL, Taiwan’s professional baseball league. You can spot their fans easily, **because** they always wear bright yellow jerseys, and their logo is an elephant. **In fact,** their fans are nicknamed “elephant fans” in Chinese, **and** I’m proud to be one of them.",
+   "**To give you some background,** their home ground is the Intercontinental Baseball Stadium in Taichung. **The reason I started supporting them is** my uncle, who has been a fan for over thirty years. **When I was about ten,** he took me to my first game, and I was amazed by the noise, the drums and the cheering songs. **These days,** I mostly follow them on a live stream on my phone, **and** my cousins and I have a LINE group where we complain about every bad decision the coach makes. **Whenever I can,** I go to one or two home games a year.",
+   "**The most memorable moment** was the 2024 Taiwan Series. The Brothers played the Uni-Lions, **and** they won the championship in Game 5. **That night,** the whole family squeezed into my uncle’s living room. **When the last out was caught,** everyone jumped up and shouted, **and** my uncle, who is usually a very quiet man, actually cried.",
+   "**As for why I support them,** it’s partly the atmosphere. Their fans are incredibly loyal and the cheering at the stadium is so loud that you can’t hear yourself think. **Of course,** they have bad seasons too, **so** being a fan has taught me a bit of patience. **But more importantly,** the team connects me with my uncle and my cousins. **For me,** baseball is really a family tradition."
+  ],
+  "followUps": [
+   {
+    "q": "Why are some people so loyal to one sports team?",
+    "a": "**I think** a team gives people a sense of belonging. **For example,** many fans support the team from their hometown, **so** it becomes part of their identity. **On top of that,** loyalty is often passed down in families, **just like** my uncle passed it to me. Changing teams would almost feel like betraying your own relatives."
+   },
+   {
+    "q": "Is it better to watch a game at the stadium or at home?",
+    "a": "**It depends on** what you want. **On the one hand,** the stadium has an amazing atmosphere, with drums, songs and thousands of fans. **On the other hand,** watching at home is cheaper and you can see replays clearly. **Personally,** I prefer the stadium for big games, **but** I watch normal games at home."
+   },
+   {
+    "q": "Do professional athletes earn too much money?",
+    "a": "**To some extent,** yes, especially global stars in football or basketball. **However,** most professional players in Taiwan earn far less than people imagine, **and** their careers are very short. Also, they risk serious injuries. **So in my view,** top stars may be overpaid, **but** ordinary athletes deserve decent salaries for their hard work."
+   }
+  ]
+ },
+ {
+  "id": "sports-7",
+  "theme": "Sports & Exercise",
+  "themeZh": "運動與健身",
+  "setLabel": "Set 7",
+  "title": "Describe a piece of sports equipment that you own.",
+  "cues": [
+   "what it is",
+   "when and how you got it",
+   "how often you use it",
+   "and explain why it is important to you."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "my old basketball → orange, worn-out, nearly smooth now; had it since junior high"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "birthday gift from Dad, age 13; outdoor rubber ball → good on concrete courts; my name in marker, almost faded"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "after school 3-on-3 鬥牛 w/ classmates; once left it at the park → rode back in the rain at night → still there under the bench"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "now use ~once a week at riverside court; reminds me of school friends + Dad; won’t replace it, even though new one is cheap"
+   }
+  ],
+  "sample": [
+   "**Alright, so** the piece of sports equipment I’d like to talk about is my old basketball. **To be fair,** it doesn’t look very special. It’s orange, a bit dirty, **and** the surface is so worn out that it’s almost smooth. **But** I’ve had it since junior high school, **so** it means a lot more to me than its price.",
+   "**To give you some background,** my dad gave it to me for my thirteenth birthday. **Back then,** basketball was the most popular sport at my school, **and** I really wanted to fit in with the other boys. It’s an outdoor rubber ball, **which** is perfect for the concrete courts you find in almost every school and park in Taiwan. **On the first day,** I wrote my name on it with a black marker, **although** you can barely see it now.",
+   "**Throughout junior high,** my classmates and I played three-on-three games on the school court almost every day after class. **I remember one time** I left the ball at a park near my home. **Later that night,** I suddenly realised it was missing, **so** I rode my bike back there in the pouring rain. **Luckily,** it was still sitting under a bench, completely soaked. I was so relieved that I hugged it all the way home.",
+   "**These days,** I still use it about once a week at a riverside court with a few old friends. Every time I hold it, it reminds me of those carefree afternoons after school and of my dad. **Of course,** a new ball would only cost a few hundred dollars, **but** I just can’t replace it. **For me,** it’s full of memories."
+  ],
+  "followUps": [
+   {
+    "q": "Why do people spend a lot of money on sports equipment?",
+    "a": "**I think** there are two main reasons. **First,** good equipment can really improve performance and prevent injuries, **like** proper running shoes. **Second,** a lot of people buy expensive gear as a kind of fashion statement. **To be honest,** some beginners spend more on clothes and gadgets than on actually practising the sport."
+   },
+   {
+    "q": "Should schools provide sports equipment for students?",
+    "a": "**Absolutely,** I believe they should. **For one thing,** not every family can afford rackets, balls or bikes, **so** free equipment gives every child a fair chance. **For another,** it encourages students to try sports they might never choose by themselves. The only problem is that shared equipment often gets damaged quickly, **so** schools need a decent budget."
+   },
+   {
+    "q": "Do you think technology has changed sports equipment?",
+    "a": "**Definitely.** **For example,** running shoes now have special foam that helps athletes run faster, **and** some people say it gives them an unfair advantage. **Also,** smart sensors can track your speed and heart rate during training. **As a result,** even amateur players can now train in a much more scientific way than before."
+   }
+  ]
+ },
+ {
+  "id": "sports-8",
+  "theme": "Sports & Exercise",
+  "themeZh": "運動與健身",
+  "setLabel": "Set 8",
+  "title": "Describe a sports day or sports competition you took part in at school.",
+  "cues": [
+   "when and where it took place",
+   "what you did",
+   "who you were with",
+   "and explain how you felt about the experience."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "school sports day 運動會 → 2nd yr of senior high, Taichung; whole school on the track"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "opening parade by class, cheering w/ banners + matching T-shirts; highlight = class relay 大隊接力 → every student runs ~100 m"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "I ran 2nd-to-last leg; classmate in front dropped baton → we fell to last; ran my hardest, passed 2 people; finished 3rd overall"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "felt nervous → then proud; class didn’t blame him → hugged him; learned: team spirit > winning; still talk about it at reunions"
+   }
+  ],
+  "sample": [
+   "**Okay, so** I’d like to describe my school sports day in my second year of senior high school in Taichung. **Basically,** in Taiwan almost every school has a big sports day once a year, **and** the whole school spends the day on the running track instead of in the classroom.",
+   "**To start with,** there was an opening parade, where each class marched past the teachers holding a banner. **On top of that,** every class designed matching T-shirts, **so** the stands looked like a rainbow of different colours. **But the real highlight** was the class relay race, **because** every single student in the class has to run about a hundred metres, even the ones who hate sport. So naturally, everyone takes it really seriously, **and** we practised for weeks during lunch breaks.",
+   "**On the day itself,** I was given the second-to-last leg. **Unfortunately,** just before me, one of my classmates dropped the baton, **and** our class suddenly fell to last place. **At that moment,** my heart was pounding, **but** I grabbed the baton and ran as fast as I possibly could. Somehow I managed to pass two runners, **and in the end** we finished third out of ten classes.",
+   "**Looking back,** I remember feeling incredibly nervous before my leg, and then really proud afterwards. **What touched me most was that** nobody blamed the boy who dropped the baton. Instead, we all ran over and hugged him. **That day taught me** that team spirit matters more than winning. **Even now,** when we meet up at class reunions, we still laugh about that race."
+  ],
+  "followUps": [
+   {
+    "q": "Why do schools hold sports days?",
+    "a": "**Well,** the obvious reason is to encourage students to exercise. **But beyond that,** sports days build class spirit, **because** students have to practise and cheer together. **In addition,** they give students who aren’t good at exams a chance to shine. **For many people,** sports day is one of the happiest memories of school life."
+   },
+   {
+    "q": "Is competition in school sports good for children?",
+    "a": "**Generally speaking,** I think a little competition is healthy. **For example,** it teaches children to set goals and deal with losing. **However,** if teachers or parents put too much pressure on them, sport can become stressful rather than fun. **So ideally,** schools should focus on effort and teamwork **rather than** just the results."
+   },
+   {
+    "q": "Do students in your country get enough physical exercise?",
+    "a": "**To be honest,** not really. **In Taiwan,** many high school students spend most of the evening at cram school. **As a result,** PE lessons are sometimes the only exercise they get. **What’s worse,** some teachers even use PE time for extra exam practice before big tests, **which** I think is a real shame."
+   }
+  ]
+ },
+ {
+  "id": "sports-9",
+  "theme": "Sports & Exercise",
+  "themeZh": "運動與健身",
+  "setLabel": "Set 9",
+  "title": "Describe a sports stadium or venue you have visited.",
+  "cues": [
+   "where it is",
+   "what it looks like",
+   "what you did there",
+   "and explain how you felt about visiting it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Taipei Dome 臺北大巨蛋 → Xinyi District, next to Sun Yat-sen Memorial Hall; Taiwan’s first big indoor baseball stadium"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "huge silver roof, like a UFO; opened end of 2023 after decades of delays; ~40,000 seats; air-con → no rain, no heat"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "CPBL game last summer w/ 3 coworkers; bought tickets online in minutes → sold out; seats high up → players tiny, but noise amazing; Wave around the whole dome"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "felt proud → world-class venue in TW; downsides: pricey food, crowded MRT after; want to go back for concert"
+   }
+  ],
+  "sample": [
+   "**Alright, so** the venue I’d like to describe is the Taipei Dome. It’s in Xinyi District, right next to Sun Yat-sen Memorial Hall, **and** it’s Taiwan’s first large indoor baseball stadium. **To be honest,** for years it was more famous for delays than for sport, **because** the project was stuck for a very long time.",
+   "**In terms of appearance,** it has a huge, rounded silver roof, **so** from a distance it looks a bit like a giant UFO that has landed in the middle of the city. Inside, it can hold around forty thousand people, **which** is far bigger than any other baseball stadium in Taiwan. **Best of all,** it’s fully air-conditioned, **so** games aren’t cancelled because of rain or ruined by the summer heat.",
+   "**I went there for the first time** last summer to watch a CPBL game with three coworkers. Surprisingly, the tickets sold out within minutes, **so** we were lucky to get any seats at all. Admittedly, our seats were right up near the roof, **and** the players looked like tiny ants running around on a green carpet. **However,** the atmosphere was unbelievable. **At one point,** the whole crowd started doing a Mexican wave, **and** it went round the entire dome about five times.",
+   "**Overall,** I felt quite proud that Taiwan finally has a world-class venue like this. It felt like the city had been waiting for it for decades. **Of course,** it isn’t perfect. The food inside is pretty expensive, **and** the MRT station is packed after a game. **Even so,** I’d love to go back, maybe for a big concert next time."
+  ],
+  "followUps": [
+   {
+    "q": "Why do cities spend so much money on building stadiums?",
+    "a": "**I think** governments see stadiums as a way to boost the city’s image. **For example,** a modern venue can attract international tournaments and concerts, **which** brings in tourists and money. **However,** some stadiums end up empty most of the year, **so** cities need a clear plan to use them regularly."
+   },
+   {
+    "q": "What are the advantages of watching sport live rather than on TV?",
+    "a": "**The biggest advantage** is definitely the atmosphere. **When you’re there in person,** you can feel the excitement of thousands of fans around you. **Also,** you can see the whole field, not just what the camera shows you. **On top of that,** it’s a great day out with friends or family."
+   },
+   {
+    "q": "Do big sports events bring more benefits or problems to a city?",
+    "a": "**It’s a bit of both.** **On the plus side,** big events create jobs and help local shops and hotels. **On the downside,** they can cause traffic jams, noise and huge crowds on public transport. **Overall,** I think the benefits are greater, **as long as** the city plans transport and security carefully."
+   }
+  ]
+ },
+ {
+  "id": "sports-10",
+  "theme": "Sports & Exercise",
+  "themeZh": "運動與健身",
+  "setLabel": "Set 10",
+  "title": "Describe a change in the way people in your country exercise.",
+  "cues": [
+   "what the change is",
+   "when you noticed it",
+   "who it affects most",
+   "and explain what has caused this change and what effects it has had."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "change: from jogging + morning tai chi in parks → gyms + weight training, esp. young people in cities"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "noticed ~5 yrs ago; chain gyms near MRT stations, district sports centres in Taipei; many young women lifting weights now"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "my sister: used to hate sport → follows fitness creators on IG → joined gym, squats 3×/wk; convenience stores now sell chicken breast + protein drinks"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "causes: social media, health awareness after pandemic, convenient + cheap gyms; effects: fitter, more confident; but injuries from bad form, body-image pressure"
+   }
+  ],
+  "sample": [
+   "**Okay, so** one big change I’ve noticed in Taiwan is the way people exercise. **In the past,** exercise usually meant jogging around a school track or doing tai chi in the park early in the morning. **Nowadays, however,** a lot of people, especially young people in big cities, go to the gym and do weight training.",
+   "**I first noticed this** about five years ago. Suddenly, there seemed to be a gym near almost every MRT station, **and** many of them stay open very late or even all night. **On top of that,** every district in Taipei has its own public sports centre, **where** you can work out quite cheaply. **What surprised me most is that** many of the people lifting weights are young women, **which** was quite rare when I was a teenager.",
+   "**A good example** is my younger sister. She used to hate PE at school, **but** a few years ago she started following some fitness creators on Instagram. Before long, she joined a gym, **and** now she does squats and deadlifts three times a week. **Interestingly,** you can see this trend even in convenience stores, which now sell ready-to-eat chicken breast and protein drinks next to the snacks.",
+   "**As for the causes,** I’d say social media is the biggest one, **along with** greater health awareness after the pandemic. Also, gyms are simply convenient and affordable now. **The effects** are mostly positive, **because** people are getting fitter and more confident. **On the other hand,** some beginners get injured because of bad technique, **and** there’s more pressure to have a perfect body."
+  ],
+  "followUps": [
+   {
+    "q": "Why do some people prefer exercising at a gym rather than outdoors?",
+    "a": "**I think** the main reason is the weather. **In Taiwan,** summers are extremely hot and it rains a lot, **so** an air-conditioned gym is much more comfortable. **Besides that,** gyms have all the equipment in one place, **and** you can get advice from trainers. For busy office workers, a gym near the MRT is also very convenient."
+   },
+   {
+    "q": "Is social media a good influence on people’s fitness habits?",
+    "a": "**It’s a double-edged sword.** **On the one hand,** fitness videos motivate people and teach them free workouts at home. **On the other hand,** many influencers show unrealistic bodies, **and** some even use filters. **As a result,** young people may feel bad about themselves. So viewers need to watch these videos with a critical eye."
+   },
+   {
+    "q": "What can the government do to encourage people to exercise more?",
+    "a": "**First of all,** the government could build more affordable sports centres and safe bike paths. **In addition,** companies could be encouraged to give staff time to exercise, **for example** with a short break in the afternoon. **Finally,** schools should protect PE lessons, **because** habits formed in childhood usually last for life."
    }
   ]
  },
