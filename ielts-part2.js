@@ -37,7 +37,7 @@
   }
   const fmt = s => `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(Math.floor(s % 60)).padStart(2, "0")}`;
   const plain = md => md.replace(/\*\*/g, "");
-  const shortTheme = t => t.split(" & ")[0].replace("Social Media", "Social Media");
+  const shortTheme = t => t.split(/ & |, /)[0];
 
   /* ---------- word normalisation (for read-along matching) ---------- */
   const ONES = "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split(" ");
