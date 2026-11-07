@@ -7649,6 +7649,516 @@ window.IELTS_PART2 = [
     "a": "**In many cases,** yes. **For instance,** some kids in Taipei have piano, English, swimming and maths classes every week. **As a result,** they hardly have any free time to just play. **Of course,** parents mean well, **but** I think children also need time to rest and discover what they really enjoy."
    }
   ]
+ },
+ {
+  "id": "animals-1",
+  "theme": "Animals & Pets",
+  "themeZh": "動物與寵物",
+  "setLabel": "Set 1",
+  "title": "Describe a pet that you or someone you know has.",
+  "cues": [
+   "what kind of animal it is",
+   "who it belongs to",
+   "what it is like",
+   "and explain why this pet is special."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Mochi 麻糬 → orange tabby cat, belongs to my older sister, lives in her flat in Banqiao"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "adopted from shelter ~4 yrs ago, tiny + skinny → now chubby; sleeps 16 hrs, loves cardboard boxes > expensive cat bed"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "sister had flu → Mochi sat on her chest all day, wouldn’t leave; knocks cups off table at 6 a.m. = alarm clock"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "sister lives alone → company + routine; cats less independent than people think"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the pet I’d like to talk about is a cat called Mochi, which is the Japanese word for a sticky rice cake. She belongs to my older sister, who lives on her own in a small flat in Banqiao, **and** I go round to visit them almost every weekend. **To start with,** she’s an orange tabby with a round face and a very loud purr.",
+   "**As for how they met,** my sister adopted her from an animal shelter about four years ago. **At that time,** Mochi was tiny and really skinny, and the volunteers said nobody wanted her because she was a bit shy. **Nowadays, though,** she’s definitely on the chubby side, **because** my sister spoils her with treats. **Funnily enough,** my sister bought her an expensive cat bed, **but** Mochi totally ignores it and sleeps in old cardboard boxes instead. **Apparently,** cats sleep for most of the day, **and** Mochi certainly does.",
+   "**What really made me see her differently** was last winter, when my sister had a bad flu and stayed in bed for three days. **The whole time,** Mochi lay on her chest and refused to leave, even when we tried to feed her in the kitchen. **On the other hand,** she can be really annoying. **For example,** every morning at six she knocks cups off the table, **so** she’s basically a furry alarm clock.",
+   "**For me,** Mochi is special because she gives my sister company and a daily routine, especially since she lives alone and works from home. **Before that,** I always thought cats were cold and independent, **but** she’s completely changed my mind. **In fact,** I’m now thinking about adopting a cat myself."
+  ],
+  "followUps": [
+   {
+    "q": "Why do so many people keep pets nowadays?",
+    "a": "**I think** loneliness is a big reason. **For example,** many young people in Taiwan live alone in the city, **so** a cat or dog gives them company when they get home. **On top of that,** pets help people relax after a stressful day at work. **Some people also** see pets as a cheaper and easier alternative to having children."
+   },
+   {
+    "q": "Are cats or dogs better pets for people living in flats?",
+    "a": "**Generally speaking,** cats are a better choice for small flats. **For one thing,** they don’t need to be walked twice a day, **and** they’re usually quieter, so neighbours don’t complain. **Dogs, however,** can still be happy in a flat if the owner exercises them properly. **In the end,** it really depends on the owner’s lifestyle and working hours."
+   },
+   {
+    "q": "Should people adopt pets from shelters rather than buy them?",
+    "a": "**In my opinion,** yes, in most cases. **First of all,** shelters in Taiwan are often overcrowded, **so** adopting gives an animal a second chance. **Besides that,** buying from pet shops can support irresponsible breeding. **Having said that,** some people need a certain breed because of allergies or space, which is completely understandable as long as they choose a responsible breeder."
+   }
+  ]
+ },
+ {
+  "id": "animals-2",
+  "theme": "Animals & Pets",
+  "themeZh": "動物與寵物",
+  "setLabel": "Set 2",
+  "title": "Describe a place where you can see animals.",
+  "cues": [
+   "where it is",
+   "what animals you can see there",
+   "who you went there with",
+   "and explain how you felt about visiting this place."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Taipei Zoo 臺北市立動物園 → Muzha, end of MRT brown line, near Maokong Gondola"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "huge, hilly → takes a whole day; giant pandas, koalas, penguins, Formosan animals area; indoor houses w/ AC"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "went last summer w/ 6-yr-old nephew; pandas asleep → he was disappointed; then a keeper fed the hippos → he screamed w/ joy"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "cheap ticket, educational; mixed feelings → some enclosures small; but zoo does conservation + rescue"
+   }
+  ],
+  "sample": [
+   "**Alright, so** the place I’m going to describe is Taipei Zoo, **which** is in Muzha, in the southern part of the city. **Getting there** is really easy, **because** it’s right at the end of the brown MRT line, **and** it’s also next to the station for the Maokong Gondola, so a lot of people combine the two in one day.",
+   "**In terms of size,** it’s huge and quite hilly, **so** you really need a whole day to see everything. **Of course,** the most famous residents are the giant pandas, **but** there are also koalas, penguins, elephants and a section just for animals native to Taiwan, like the Formosan black bear and the pangolin. **Luckily,** some of the animals live in indoor houses with air conditioning, **which** is a relief for visitors in the middle of summer too.",
+   "**The last time I went** was last July with my six-year-old nephew. **Naturally,** the first thing he wanted to see was the pandas, but when we finally got to the front of the queue, both of them were fast asleep with their backs to us. **For a moment,** I thought he was going to cry. **Then, luckily,** we walked past the hippo pool just as a keeper was throwing them watermelons, and my nephew screamed with joy. **For the rest of the day,** he talked about nothing else.",
+   "**Overall,** I had quite mixed feelings about the visit. **On the one hand,** the ticket is cheap and it’s a great way for kids to learn about animals. **On the other hand,** some of the enclosures looked a bit small. **Still,** I know the zoo also does conservation and rescue work, so I think it plays a useful role."
+  ],
+  "followUps": [
+   {
+    "q": "Do you think zoos are still necessary today?",
+    "a": "**To some extent,** yes. **For instance,** zoos help protect endangered species through breeding programmes, **and** they let city children see animals they would never meet otherwise. **However,** I think zoos need to keep changing, so animals have bigger and more natural spaces. **Otherwise,** they risk becoming places that are only for entertainment rather than education."
+   },
+   {
+    "q": "Why do children love visiting zoos?",
+    "a": "**Well,** I think it’s mainly because everything feels big and exciting. **For example,** seeing a real elephant is completely different from seeing one on a screen. **On top of that,** zoos are full of noises, smells and movement, **so** children never get bored. **Also,** many zoos have feeding times and play areas specially designed for young visitors."
+   },
+   {
+    "q": "Is it better to watch animals in the wild than in a zoo?",
+    "a": "**Ideally,** yes, **because** animals in the wild behave naturally. **For example,** watching dolphins off the coast of Hualien is far more exciting than seeing them in a tank. **Having said that,** wildlife trips can be expensive and sometimes disturb the animals. **So in reality,** a well-run zoo is a reasonable alternative for most families."
+   }
+  ]
+ },
+ {
+  "id": "animals-3",
+  "theme": "Animals & Pets",
+  "themeZh": "動物與寵物",
+  "setLabel": "Set 3",
+  "title": "Describe an animal that is special in your culture.",
+  "cues": [
+   "what the animal is",
+   "what it looks like",
+   "why people in your country think it is important",
+   "and explain what this animal means to you."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "water buffalo 水牛 → symbol of hard work + farming life in old Taiwan"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "big, dark grey, curved horns; loves mud + water to stay cool; pulled ploughs in rice paddies before machines"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "grandpa in Yunlin had one as a boy → rode on its back to the fields; cried when it was sold; saying “work like an ox”"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "few left on farms now → seen in tourist areas; reminds me of grandparents’ generation + values: patient, hard-working"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the animal I’d like to talk about is the water buffalo, **which** has a really special place in Taiwanese culture. **These days,** you hardly ever see one in the city, **but** for older generations it was a symbol of hard work and the simple farming life that most families depended on.",
+   "**In terms of appearance,** water buffalo are big, dark grey animals with long, curved horns that sweep backwards. **Interestingly,** they don’t sweat very much, **so** on hot days they love lying in mud or rivers to stay cool. **Back in the old days,** before tractors became common, farmers relied on them to pull ploughs through the rice paddies. **As a result,** people saw them almost as members of the family **rather than** just working animals. **In fact,** many older farmers refused to eat beef out of respect for them.",
+   "**The reason it matters to me** is my grandpa, who grew up on a farm in Yunlin. **When he was a boy,** his family had a buffalo, **and** his job was to ride on its back and take it to the fields every morning. **He once told me** that when his father finally sold it, he hid behind the house and cried. **Even now,** whenever he sees someone working too hard, he jokes that they’re working like an ox.",
+   "**Nowadays,** there are very few buffalo left on farms, and you mostly see them in tourist areas or old photos. **Still,** for me the animal represents my grandparents’ generation and their values – being patient, humble and hard-working. **So whenever I see one,** I can’t help thinking of my grandpa."
+  ],
+  "followUps": [
+   {
+    "q": "Why do some animals become symbols of a country?",
+    "a": "**I think** it’s usually because they were part of people’s daily lives for a long time. **For example,** the water buffalo helped Taiwanese farmers for generations. **Besides that,** some animals are unique to one place, **so** they become a source of national pride. **Finally,** governments often use them in logos and mascots, which makes the symbol even stronger."
+   },
+   {
+    "q": "Do young people still care about traditional symbols?",
+    "a": "**To be fair,** many young people don’t think about them very often. **However,** I’ve noticed that traditional symbols are becoming trendy again, **especially** in design and souvenirs. **For instance,** you can now buy cute buffalo stickers and T-shirts in Taipei. **So** I’d say young people care, but in a more playful way."
+   },
+   {
+    "q": "Should animals be used for work nowadays?",
+    "a": "**In my view,** it depends on how they’re treated. **On the one hand,** guide dogs and police dogs do really valuable jobs **and** are usually well cared for. **On the other hand,** using animals for heavy work is mostly unnecessary now, **since** we have machines. So I think animal work is fine only when their welfare comes first."
+   }
+  ]
+ },
+ {
+  "id": "animals-4",
+  "theme": "Animals & Pets",
+  "themeZh": "動物與寵物",
+  "setLabel": "Set 4",
+  "title": "Describe a time when an animal surprised you.",
+  "cues": [
+   "what the animal was",
+   "where and when it happened",
+   "what the animal did",
+   "and explain why it surprised you."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Formosan rock macaque 台灣獼猴 → Shoushan 壽山, Kaohsiung, hiking trip"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "2 yrs ago, Lunar New Year w/ uni friends; signs everywhere: don’t feed monkeys; monkeys sitting on railings, watching hikers"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "friend opened bag of crisps → big male jumped down, grabbed whole bag + ran up a tree; ate it in front of us; friend frozen"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "so fast + clever, not scared at all; learned: wild animals ≠ pets; people feeding them → monkeys depend on humans"
+   }
+  ],
+  "sample": [
+   "**Right, so** I’d like to talk about the time a monkey surprised me at Shoushan in Kaohsiung. **If you’ve never heard of it,** Shoushan is a hill right next to the city centre, **and** it’s famous for its Formosan rock macaques, **which** are the only native monkeys in Taiwan.",
+   "**It happened** about two years ago, during the Lunar New Year holiday, when I went hiking there with three friends from university. **Right from the start,** we noticed signs everywhere telling visitors not to feed the monkeys or carry food in plastic bags. **Along the trail,** there were monkeys sitting on the railings, calmly watching every hiker who walked past. **To be fair,** they looked quite relaxed, **so** we didn’t think much of it. **In fact,** we stopped to take loads of selfies with them in the background.",
+   "**Then, halfway up,** one of my friends got hungry and opened a bag of crisps. **Within seconds,** a big male monkey jumped down from a tree, grabbed the whole bag right out of his hands **and** ran back up the branch. **What shocked me most** was that he sat there and ate the crisps one by one, staring straight at us. **Meanwhile,** my friend just stood there frozen with his mouth open, **while** the rest of us burst out laughing.",
+   "**Looking back,** I was surprised by how fast and clever the monkey was, **and** by the fact that it wasn’t scared of people at all. **More importantly,** it taught me that wild animals are not pets. **Sadly,** when people keep feeding them, they start to depend on humans, which is bad for everyone."
+  ],
+  "followUps": [
+   {
+    "q": "Why should people not feed wild animals?",
+    "a": "**Well,** the main problem is that animals lose their natural behaviour. **For example,** monkeys that are fed by tourists often stop searching for their own food. **On top of that,** human food like crisps and bread is bad for their health. **As a result,** they can become aggressive, **and** people may end up getting bitten or scratched."
+   },
+   {
+    "q": "How can cities and wild animals live together peacefully?",
+    "a": "**I think** education is the first step. **For instance,** clear signs and fines can stop people feeding animals. **In addition,** cities can build green corridors or wildlife bridges **so that** animals can move safely between parks. **Finally,** rubbish should be kept in closed bins, because open bins attract animals into residential areas."
+   },
+   {
+    "q": "Do you think people today know enough about animals?",
+    "a": "**Not really, in my opinion.** **Most people** know a lot about pets, **but** they know very little about local wildlife. **For example,** many Taiwanese have never heard of the pangolin, even though it lives here. **So** I think schools should take students outdoors more often, rather than only teaching about animals from textbooks."
+   }
+  ]
+ },
+ {
+  "id": "animals-5",
+  "theme": "Animals & Pets",
+  "themeZh": "動物與寵物",
+  "setLabel": "Set 5",
+  "title": "Describe a problem caused by stray animals in your city.",
+  "cues": [
+   "what the problem is",
+   "where you have noticed it",
+   "how it affects people and animals",
+   "and explain what you think should be done about it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "stray dogs 流浪狗 → packs near riverside parks + edges of the city, e.g. my old route to school in Tainan"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "shelters stopped putting animals down (2017 rule) → shelters full; some owners abandon pets; people feed strays w/o neutering"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "cycling home → 4 dogs chased me, barking; fell off bike, scraped knee; mum scared → drove me for a month"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "cause: abandonment + no neutering; effect: danger + dogs suffer too; solution: microchips, free neutering, fines, adopt don’t shop"
+   }
+  ],
+  "sample": [
+   "**Okay, so** a problem I’ve noticed in many Taiwanese cities is stray dogs, **especially** around riverside parks and on the edges of town. **For example,** in Tainan, where I grew up, my route to high school went past a long riverbank, **and** there was a pack of about five or six dogs that lived there.",
+   "**As for the causes,** there are a few. **First of all,** some owners simply abandon their pets when they move house or get bored of them. **On top of that,** a few years ago Taiwan stopped putting down animals in public shelters, **which** was a kind decision, **but** it means many shelters are now overcrowded. **Meanwhile,** some kind-hearted people feed strays every day without getting them neutered, **so** the number of puppies keeps growing.",
+   "**I experienced the problem myself** when I was about sixteen. **One evening,** I was cycling home after cram school when four dogs suddenly ran out barking and started chasing me. **In a panic,** I tried to pedal faster, lost my balance and fell off my bike, scraping my knee badly. **Luckily,** a man nearby shouted and the dogs ran off. **After that,** my mum was so worried that she drove me to school for a whole month.",
+   "**In my view,** the stray problem hurts both people and animals, **because** the dogs suffer from hunger and disease too. **So,** I think the government should make microchips compulsory, offer free neutering and fine people who abandon pets. **Above all,** people should adopt rather than buy, and think carefully before getting a pet at all."
+  ],
+  "followUps": [
+   {
+    "q": "Who should be responsible for stray animals: owners or the government?",
+    "a": "**I’d say** both have a role. **First of all,** owners are responsible for not abandoning their pets in the first place. **However,** once animals are on the streets, **only** the government has the money and power to deal with them. **So ideally,** strict laws for owners should go together with proper funding for shelters."
+   },
+   {
+    "q": "Is it a good idea for people to feed stray animals?",
+    "a": "**It’s a tricky question.** **On the one hand,** feeding them shows kindness, **and** it stops them from starving. **On the other hand,** regular feeding without neutering just leads to more strays. **So personally,** I think people who feed strays should also work with animal groups to catch and neuter them."
+   },
+   {
+    "q": "How can schools teach children to be responsible pet owners?",
+    "a": "**Well,** one way is to invite volunteers from animal shelters to give talks. **For example,** they could explain how much time and money a pet really needs. **In addition,** schools could organise visits to shelters, **so** students see the result of abandonment with their own eyes. **That would probably** make a deeper impression than any textbook."
+   }
+  ]
+ },
+ {
+  "id": "animals-6",
+  "theme": "Animals & Pets",
+  "themeZh": "動物與寵物",
+  "setLabel": "Set 6",
+  "title": "Describe a person you know who loves animals.",
+  "cues": [
+   "who this person is",
+   "how you know him or her",
+   "what he or she does for animals",
+   "and explain how you feel about this person."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Amy, colleague at my old office → crazy about animals, volunteers at a cat shelter in Taipei"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "every Sat a.m.: cleans litter boxes, takes photos for adoption posts on IG; fosters kittens at home (3 at once!); vegetarian"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "found injured kitten under scooter in rain → took it to vet at 11 p.m., paid herself; nursed it 2 wks → adopted by her neighbour"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "admire patience + kindness; she inspired me → now donate monthly + share adoption posts; small actions matter"
+   }
+  ],
+  "sample": [
+   "**Well,** the person I’d like to describe is my friend Amy, **who** used to sit next to me at my old office. **Right from the first week,** I could tell she was crazy about animals, **because** her desk was covered in cat photos and her phone case had a picture of a dog on it.",
+   "**Every Saturday morning,** she volunteers at a small cat shelter in Taipei. **Basically,** she cleans litter boxes, feeds the cats and takes nice photos of them for adoption posts on Instagram. **On top of that,** she often fosters kittens at home until they find new owners, **and** once she had three at the same time in her tiny flat. **What impresses me most** is that she never complains about the mess or the cost. **In fact,** she even became vegetarian a few years ago **because** she didn’t want to harm animals.",
+   "**One story that really sums her up** happened last winter. **On a rainy night,** she heard a weak crying sound and found an injured kitten hiding under a parked scooter. **Without hesitating,** she wrapped it in her scarf and took it to an emergency vet at eleven o’clock, paying the bill herself. **For the next two weeks,** she fed it with a tiny bottle every few hours. **In the end,** her neighbour fell in love with it and adopted it.",
+   "**To me,** Amy is a great example of patience and kindness. **Thanks to her,** I now donate a small amount to the shelter every month and share adoption posts online. **She’s taught me** that small actions really can make a difference."
+  ],
+  "followUps": [
+   {
+    "q": "Why do some people care more about animals than others?",
+    "a": "**I think** it often depends on how they grew up. **For example,** children who had pets usually feel more connected to animals as adults. **Also,** some people are naturally more sensitive to suffering. **On the other hand,** people who are busy or stressed may simply have less energy **to** think about animals."
+   },
+   {
+    "q": "Is volunteering at an animal shelter a good activity for young people?",
+    "a": "**Definitely.** **First of all,** it teaches responsibility, **because** the animals depend on you turning up. **Besides that,** it’s a good way to meet people with similar interests. **However,** the work can be dirty and emotional, so young volunteers need proper guidance and support from experienced staff."
+   },
+   {
+    "q": "Should people spend money on animals when many humans need help?",
+    "a": "**That’s a fair question.** **Personally,** I don’t think it has to be a choice between the two. **For instance,** many people who help animals also donate to charities for people. **In addition,** protecting animals and the environment benefits humans in the long run. **So** I think both kinds of kindness are valuable."
+   }
+  ]
+ },
+ {
+  "id": "animals-7",
+  "theme": "Animals & Pets",
+  "themeZh": "動物與寵物",
+  "setLabel": "Set 7",
+  "title": "Describe a time when you looked after someone else’s pet.",
+  "cues": [
+   "whose pet it was",
+   "what kind of animal it was",
+   "what you had to do",
+   "and explain how you felt about the experience."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "neighbour’s dog Lucky → shiba inu 柴犬, 1 week while they went to Japan"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "list of rules on fridge: walk 2×/day, special food, no human snacks, brush teeth!; stubborn + dramatic"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "day 3: Lucky lay down in the middle of the road + refused to move → had to carry 10 kg dog home; scooter drivers laughing"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "tiring but fun; respect for dog owners; realised I’m not ready for a dog yet → maybe later"
+   }
+  ],
+  "sample": [
+   "**Okay, so** I’d like to talk about the time I looked after my neighbour’s dog, Lucky, for a week. **Last spring,** the family next door went on a trip to Japan, **and** since I was working from home, they asked if I could take care of him. **Without thinking too much,** I said yes, **because** it sounded like an easy job.",
+   "**Lucky** is a shiba inu, **which** is a Japanese breed with a fox-like face and a curly tail. **Before they left,** my neighbours stuck a long list of rules on my fridge. **For example,** I had to walk him twice a day, give him a special kind of food and never let him eat human snacks. **Believe it or not,** I even had to brush his teeth every night! **On top of that,** they warned me that shibas can be stubborn and quite dramatic, **but** I didn’t really understand what that meant at first.",
+   "**I found out on the third day.** **Halfway through** our evening walk, Lucky suddenly lay down in the middle of a quiet road and refused to move. **No matter what I tried,** even treats, he just stared at me. **In the end,** I had to pick him up and carry about ten kilos of dog all the way home, while people riding past on scooters laughed at us. **By the time we got back,** my arms were aching.",
+   "**Looking back,** it was tiring but really fun, and I got much closer to Lucky by the end of the week. **More importantly,** it gave me a lot more respect for dog owners. **It also made me realise** that I’m not quite ready for a dog of my own yet."
+  ],
+  "followUps": [
+   {
+    "q": "What qualities does a person need to look after a pet?",
+    "a": "**First and foremost,** patience, **because** animals don’t always do what you want. **Responsibility** is also important, since pets need food and exercise every single day. **On top of that,** owners need some money for vet bills. **Finally,** I’d say a sense of humour helps, especially with stubborn breeds like shibas."
+   },
+   {
+    "q": "Is it a good idea for children to have pets?",
+    "a": "**Generally,** yes. **For one thing,** pets teach children to care for something other than themselves. **For another,** they can make shy children more confident. **However,** parents shouldn’t expect young kids to do everything, **so** adults must be ready to take full responsibility, otherwise the animal may suffer."
+   },
+   {
+    "q": "Why are pet hotels and pet sitters becoming more popular?",
+    "a": "**I think** it’s because more people treat pets like family members. **For example,** when owners travel, they want their pets to be safe and comfortable. **In addition,** busy schedules mean many owners can’t ask friends for help. **As a result,** paying a professional feels like the most reliable option, **even if** it’s quite expensive."
+   }
+  ]
+ },
+ {
+  "id": "animals-8",
+  "theme": "Animals & Pets",
+  "themeZh": "動物與寵物",
+  "setLabel": "Set 8",
+  "title": "Describe a TV programme or video about animals that you enjoyed.",
+  "cues": [
+   "what it was called",
+   "what it was about",
+   "when and where you watched it",
+   "and explain why you enjoyed it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Our Planet → nature documentary series on Netflix, narrated by David Attenborough"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "each episode = one habitat: jungles, oceans, frozen worlds; amazing filming → birds of paradise dancing, walruses on cliffs"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "watched during typhoon weekend w/ flatmate; walrus scene → both went silent, flatmate cried; looked up climate facts after"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "beautiful + educational, not preachy; changed habits → less plastic, more aware of wildlife at home in TW"
+   }
+  ],
+  "sample": [
+   "**Alright, so** the programme I’d like to talk about is Our Planet, **which** is a nature documentary series on Netflix. **If you don’t know it,** it’s narrated by David Attenborough, the famous British presenter with that calm, gentle voice, **and** it’s about animals and the habitats they live in around the world.",
+   "**Basically,** each episode focuses on a different kind of environment, **such as** jungles, deep oceans, grasslands or frozen areas near the poles. **What makes it special is** the filming, **because** the camera teams spent years waiting to catch rare moments. **For example,** in one scene you can see birds of paradise doing a funny little dance to attract a partner. **On top of that,** the music is beautiful, **so** it feels more like watching a film than a school lesson.",
+   "**I watched most of it** during a long typhoon weekend a couple of years ago, when my flatmate and I were stuck inside with nothing to do. **At first,** we just wanted something relaxing to put on. **However,** there’s one scene where walruses crowd onto a cliff because the sea ice has melted, **and** some of them fall. **At that point,** we both went completely silent, and my flatmate actually cried. **Straight after that episode,** we started reading about climate change and melting sea ice online.",
+   "**Overall,** I enjoyed it because it’s both beautiful and educational, without feeling like a lecture. **In fact,** it changed some of my habits. **For instance,** I use far less plastic now, and I pay much more attention to the birds and insects here in Taiwan."
+  ],
+  "followUps": [
+   {
+    "q": "Can nature documentaries change people’s behaviour?",
+    "a": "**I think** they can, at least a little. **For example,** after some famous documentaries showed plastic in the ocean, many people started using reusable bags and bottles. **However,** the effect often fades after a few weeks, **so** documentaries work best **when** governments and companies also make changes that support better habits."
+   },
+   {
+    "q": "Why do people enjoy watching videos of animals online?",
+    "a": "**Well,** they’re short, cute and easy to understand, **so** they’re perfect for a quick break. **On top of that,** funny pet videos make people laugh, **which** reduces stress. **Also,** animals don’t need any language, so a video of a cat falling off a sofa can go viral all over the world."
+   },
+   {
+    "q": "Should children learn about animals mainly from books, screens or real life?",
+    "a": "**Ideally,** a mix of all three. **Books and screens** are useful for animals children could never meet, **like** polar bears or whales. **However,** real experiences, **such as** visiting a farm or watching birds in a park, create stronger memories. So I think parents should use screens as a starting point rather than a replacement."
+   }
+  ]
+ },
+ {
+  "id": "animals-9",
+  "theme": "Animals & Pets",
+  "themeZh": "動物與寵物",
+  "setLabel": "Set 9",
+  "title": "Describe something you bought for a pet.",
+  "cues": [
+   "what you bought",
+   "where you bought it",
+   "how the pet reacted to it",
+   "and explain whether it was a good buy."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "automatic pet feeder 自動餵食器 → for family dog Doudou 豆豆, a mixed-breed rescue"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "bought online during 11.11 sale, ~NT$2,000; app on phone → set times + amounts, camera + speaker to talk to her"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "first day: Doudou barked at the machine, too scared to eat; my voice through speaker → she ran around looking for me; after 1 wk = best friend"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "good buy → regular meals when family works late; downside: less human contact → still feed her myself at weekends"
+   }
+  ],
+  "sample": [
+   "**Okay, so** something I bought for a pet was an automatic feeder for our family dog, Doudou. She’s a medium-sized, mixed-breed dog **that** we adopted from a rescue group about five years ago, **and** she’s basically the boss of our house. **The reason I bought it** was that my parents and I all started working longer hours, **so** her dinner was often late.",
+   "**I ordered it online** during the big Singles’ Day sale in November, **and** it cost around two thousand Taiwan dollars, **which** felt like a lot at the time. **Basically,** it’s a plastic machine with a big container on top. **Through an app on my phone,** you can set what time it opens and how much food comes out. **Even better,** it has a small camera and a speaker, **so** you can check on your pet and talk to them from anywhere.",
+   "**Unfortunately,** the first day didn’t go to plan. **As soon as** the machine made its whirring noise, Doudou jumped back and barked at it, and she was too scared to eat. **Then** I tried calling her name through the speaker from my office, **but** that only confused her more, because she ran around the house looking for me. **After about a week, though,** she figured out that the noise meant food, and now she sits in front of it every evening, waiting.",
+   "**All in all,** I think it was a good buy, since she now eats at regular times. **The only downside** is that she gets less contact with us at mealtimes. **So,** I still feed her myself at weekends."
+  ],
+  "followUps": [
+   {
+    "q": "Do people spend too much money on their pets nowadays?",
+    "a": "**In some cases,** I think they do. **For example,** some owners buy designer clothes and expensive strollers for their dogs, **which** the animals don’t really need. **On the other hand,** spending on good food and vet care is completely reasonable. **So** the key is whether the money benefits the pet or just the owner’s image."
+   },
+   {
+    "q": "Why has the pet industry grown so quickly in Taiwan?",
+    "a": "**I’d say** the main reason is that many young couples are choosing pets instead of children. **As a result,** they treat their cats and dogs like family members. **On top of that,** social media makes pet products look cute and fashionable. **That’s why** you now see pet cafés, pet hotels and even pet funeral services everywhere."
+   },
+   {
+    "q": "Can technology replace human care for pets?",
+    "a": "**Not completely, in my view.** **Of course,** gadgets like feeders and cameras are useful **when** owners are busy. **However,** pets also need play, affection and exercise, **which** a machine can’t provide. So I think technology should support owners, rather than become an excuse for spending less time with their animals."
+   }
+  ]
+ },
+ {
+  "id": "animals-10",
+  "theme": "Animals & Pets",
+  "themeZh": "動物與寵物",
+  "setLabel": "Set 10",
+  "title": "Describe a change in the way people in your country treat pets.",
+  "cues": [
+   "what the change is",
+   "when you first noticed it",
+   "how it affects people’s daily lives",
+   "and explain why you think this change has happened."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "pets = “fur kids” 毛小孩 → treated like family members, not guard dogs"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "dogs in strollers in MRT + department stores; pet-friendly cafés; birthday cakes for dogs; reports: more pets than young children in TW"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "grandpa’s dog in 1990s = chained outside, ate leftovers; my cousin’s poodle = own room, birthday party w/ 10 dog guests"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "causes: low birth rate, small families, more income + loneliness; effects: better welfare + new businesses, but costs + some spoiling"
+   }
+  ],
+  "sample": [
+   "**Okay, so** a big change I’ve noticed in Taiwan is that people now treat pets as real family members. **In fact,** people here often call them “fur kids”, **and** many owners talk about their dogs and cats exactly the way parents talk about their children. **Not long ago,** that would have sounded a bit strange.",
+   "**These days,** you see dogs riding in pet strollers on the MRT and in department stores almost every weekend. **On top of that,** there are pet-friendly cafés, pet hotels and bakeries that sell birthday cakes made especially for dogs. **According to several news reports,** there are now more registered cats and dogs in Taiwan than young children, **which** really shows how big the change has been. **I first noticed it** a few years ago, **when** I saw a woman pushing a pram in the park and realised there was a poodle inside.",
+   "**The contrast with the past** is huge. **For example,** when my grandpa had a dog in the nineties, it lived outside on a chain, guarded the house and ate whatever leftovers we had. **Meanwhile,** my cousin’s poodle today has its own little room. **Believe it or not,** last year she even threw it a birthday party with about ten dog guests and matching hats.",
+   "**In my opinion,** the main cause is Taiwan’s low birth rate, **because** many couples choose pets instead of children. **Also,** people feel lonely in big cities. **As a result,** animal welfare has improved and lots of new businesses have appeared. **However,** owning a pet is becoming expensive, **and** some animals are definitely a bit spoiled."
+  ],
+  "followUps": [
+   {
+    "q": "Is it a good thing that people treat pets like children?",
+    "a": "**Partly, yes.** **On the positive side,** pets are better cared for than ever before. **However,** some owners forget that animals have different needs from humans. **For example,** dressing a dog in clothes in hot weather can make it uncomfortable. **So** I think love is good, as long as owners respect the animal’s nature."
+   },
+   {
+    "q": "Should more public places allow pets?",
+    "a": "**I think** some places should, **but** not everywhere. **For instance,** parks and outdoor cafés are fine, since dogs can be kept on a lead. **On the other hand,** hospitals and restaurant kitchens need to stay pet-free for hygiene reasons. **Also,** some people are allergic or afraid of dogs, so their needs matter too."
+   },
+   {
+    "q": "How might the relationship between people and pets change in the future?",
+    "a": "**Probably,** pets will become even more central to people’s lives. **For example,** I expect more workplaces will let employees bring their dogs to the office. **In addition,** pet health care may become as advanced as human medicine. **However,** this could make pets so expensive **that** only richer families can afford them."
+   }
+  ]
  }
 ]
 ;
