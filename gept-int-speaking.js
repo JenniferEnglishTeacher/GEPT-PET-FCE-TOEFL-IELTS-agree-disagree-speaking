@@ -12,6 +12,9 @@ UNITS.forEach(u => items.push({ id: `pic-${u.id}`, kind: "picture", unit: u.id, 
   question: `Picture Description · Test ${u.id}`, prompts: u.picture.prompts,
   parts: (typeof GEPT_PIC_SAMPLES !== "undefined" && GEPT_PIC_SAMPLES[u.id]) || null,
   answer: ((typeof GEPT_PIC_SAMPLES !== "undefined" && GEPT_PIC_SAMPLES[u.id]) || [u.picture.answer]).join(" "), img: `img/gept-int/test-${u.id}.jpg` }));
+/* Original illustrations (T11+): single-picture practice items made from the writing-worksheet illustrations. See gept-int-extra-pictures.js. */
+(typeof GEPT_EXTRA_PICS !== "undefined" ? GEPT_EXTRA_PICS : []).forEach(e => items.push({ id: `pic-${e.id}`, kind: "picture", unit: e.id, theme: e.theme, n: 1, extra: true,
+  question: `Picture Description · Test ${e.id}`, prompts: e.prompts, parts: e.parts, answer: e.parts.join(" "), img: e.img }));
 
 const TIMES = { qa: [15, 30, 45, 60], picture: [30, 90, 120] };
 const DEFAULT_TIME = { qa: 30, picture: 90 };
@@ -45,7 +48,7 @@ const els = {};
   "cleanButton", "restoreButton", "copyTranscriptButton", "aiFeedbackButton", "randomButton", "readQuestionButton"].forEach(id => { els[id] = $(id); });
 const kindTabs = [...document.querySelectorAll("[data-kind]")];
 
-const nounMap = K.properNouns(UNITS.flatMap(u => [...u.speaking, u.picture.answer]).concat(Object.values(QA_SAMPLES)));
+const nounMap = K.properNouns(UNITS.flatMap(u => [...u.speaking, u.picture.answer]).concat(Object.values(QA_SAMPLES), (typeof GEPT_EXTRA_PICS !== "undefined" ? GEPT_EXTRA_PICS : []).flatMap(e => e.parts)));
 const cleanText = K.cleaner(nounMap);
 let answerRec = null, readRec = null;
 
@@ -59,8 +62,12 @@ function renderList() {
     (!term || `${x.question} ${x.theme} unit ${x.unit} ${(x.prompts || []).join(" ")}`.toLowerCase().includes(term) || String(x.unit) === term));
   els.countPill.textContent = list.length;
   els.questionList.innerHTML = "";
-  let lastUnit = null;
+  let lastUnit = null, lastPicGroup = null;
   list.forEach(x => {
+    if (x.kind === "picture") {
+      const g = x.extra ? "Original illustrations 原創插圖 (T11+)" : "GEPT test-style pictures 模擬試題 (T1–T10)";
+      if (g !== lastPicGroup) { const h = document.createElement("div"); h.className = "sw-group"; h.textContent = g; els.questionList.appendChild(h); lastPicGroup = g; }
+    }
     if (x.kind === "qa" && x.unit !== lastUnit) {
       const h = document.createElement("div"); h.className = "sw-group"; h.textContent = `Unit ${x.unit} · ${x.theme}`;
       els.questionList.appendChild(h); lastUnit = x.unit;
@@ -90,7 +97,7 @@ function renderTimerChoices() {
 /* ---------- question ---------- */
 function renderQuestion() {
   const x = current();
-  els.questionNumber.textContent = x.kind === "qa" ? `Unit ${x.unit} · Question ${x.n} of 10` : `Unit ${x.unit} · Picture Description`;
+  els.questionNumber.textContent = x.kind === "qa" ? `Unit ${x.unit} · Question ${x.n} of 10` : (x.extra ? `Picture ${x.unit} · Original illustration` : `Unit ${x.unit} · Picture Description`);
   els.unitTheme.textContent = `Theme: ${x.theme}`;
   els.questionText.textContent = x.kind === "qa" ? x.question : "Look at the picture and answer the four questions. 請看圖回答下列四個問題。";
   els.pictureBlock.hidden = x.kind !== "picture";
