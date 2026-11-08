@@ -109,6 +109,13 @@ function renderQuestion() {
     els.pictureImg.alt = `GEPT Intermediate picture description, test ${x.unit}`;
     els.picturePrompts.innerHTML = x.prompts.map(p => `<li>${K.escapeHtml(p)}</li>`).join("");
   }
+  /* second copy of the picture + questions beside the mind map / recorder (sticky), so it stays visible while recording */
+  const wp = $("workPicture");
+  wp.hidden = x.kind !== "picture";
+  if (x.kind === "picture") {
+    $("workPictureImg").src = x.img;
+    $("workPrompts").innerHTML = x.prompts.map(p => `<li>${K.escapeHtml(p)}</li>`).join("");
+  }
   if (x.parts) {
     const spans = [];
     x.parts.forEach((part, i) => {
@@ -302,3 +309,10 @@ els.toggleSampleButton.addEventListener("click", () => showSample(els.sampleAnsw
 const start = items.find(x => x.id === decodeURIComponent(location.hash.slice(1))) || items[0];
 select(start.id);
 if (!K.SR) els.statusLine.textContent = "Live speech typing works in Chrome or Edge. In this browser you can still use the timer and type your answer.";
+
+/* sticky picture panel: collapse / enlarge */
+$("workPictureToggle").addEventListener("click", () => {
+  const wp = $("workPicture"); const off = wp.classList.toggle("collapsed");
+  $("workPictureToggle").textContent = off ? "Show 展開" : "Hide 收合";
+});
+$("workPictureImg").addEventListener("click", () => $("workPicture").classList.toggle("zoom"));

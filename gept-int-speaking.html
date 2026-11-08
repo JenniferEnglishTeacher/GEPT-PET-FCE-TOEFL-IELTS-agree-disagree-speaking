@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="speaking-extra.css">
     <link rel="stylesheet" href="mindmap.css">
-    <link rel="stylesheet" href="sw-pages.css">
+    <link rel="stylesheet" href="sw-pages.css?v=20261108">
   </head>
   <body>
     <div class="app-shell gi-layout">
@@ -70,6 +70,13 @@
         </section>
 
         <div class="gi-work">
+          <section class="gi-pic" id="workPicture" aria-label="Picture reference" hidden>
+            <img id="workPictureImg" alt="Picture reference (click to enlarge)" title="Click to enlarge 點擊放大">
+            <div class="gi-pic-side">
+              <div class="gi-pic-head"><strong>Picture 圖片 · Questions 問題</strong><button id="workPictureToggle" class="small-button" type="button">Hide 收合</button></div>
+              <ol id="workPrompts" class="gi-pic-prompts"></ol>
+            </div>
+          </section>
           <section class="gi-mind" aria-label="Mind map">
             <div class="gi-step"><p class="eyebrow">Step 2 · Plan</p><h2>&#129504; Your Mind Map</h2></div>
             <div id="mindMap"></div>
@@ -115,9 +122,9 @@
 
     <script src="gept-int-data.js"></script>
     <script src="gept-int-qa-samples.js"></script>
-    <script src="gept-int-extra-pictures.js"></script>
+    <script src="gept-int-extra-pictures.js?v=20261108"></script>
     <script src="speaking-kit.js"></script>
     <script src="mindmap-kit.js"></script>
-    <script src="gept-int-speaking.js"></script>
+    <script src="gept-int-speaking.js?v=20261108"></script>
   </body>
 </html>

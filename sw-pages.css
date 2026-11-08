@@ -85,3 +85,23 @@
 .gi-part { display: block; margin: 0 0 8px; }
 .gi-part:last-child { margin-bottom: 0; }
 .gi-part-tag { display: inline-block; min-width: 30px; padding: 1px 7px; margin-right: 4px; border-radius: 999px; background: #0f7c80; color: #fff; font-size: 12px; text-align: center; vertical-align: 2px; cursor: help; }
+
+/* sticky picture reference above mind map / recorder (picture items) */
+.gi-pic { grid-column: 1; position: sticky; top: 0; z-index: 20; display: flex; gap: 14px; align-items: flex-start; background: rgba(255,255,255,.97); border: 1px solid var(--line); box-shadow: var(--shadow); border-radius: 8px; padding: 8px 12px; }
+.gi-pic[hidden] { display: none; }
+.gi-pic img { height: 130px; width: auto; max-width: 44%; border-radius: 6px; cursor: zoom-in; flex: 0 0 auto; }
+.gi-pic-side { flex: 1; min-width: 0; }
+.gi-pic-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: 14px; }
+.gi-pic-prompts { margin: 6px 0 0; padding-left: 20px; font-size: 14.5px; line-height: 1.55; }
+.gi-pic.zoom img { height: auto; max-height: 60vh; max-width: 70%; cursor: zoom-out; }
+.gi-pic.collapsed img, .gi-pic.collapsed .gi-pic-prompts { display: none; }
+@media (max-width: 700px) { .gi-pic { flex-direction: column; } .gi-pic img { max-width: 100%; height: 100px; } }
+
+/* desktop: picture sits above the mind map (left column) and stays pinned there; the recorder (right column) is never covered */
+@media (min-width: 981px) {
+  .gi-work:has(.gi-pic:not([hidden])) > .gi-pic { grid-column: 1; grid-row: 1; }
+  .gi-work:has(.gi-pic:not([hidden])) > .gi-mind { grid-column: 1; grid-row: 2; }
+  .gi-work:has(.gi-pic:not([hidden])) > .gi-record { grid-column: 2; grid-row: 1 / span 2; }
+}
+@media (max-width: 980px) { .gi-pic { top: 0; } .gi-pic img { height: 100px; } .gi-pic-prompts { font-size: 13px; } }
+.gi-pic-head .small-button { white-space: nowrap; }
