@@ -2,6 +2,108 @@
    Used by: index.html (Basic), opinion.html, theme.html, descriptive.html.
    Provides: localStorage drafts, read-along word matching, transcript clean-up,
    rule-based grammar polish, text-to-speech with word highlighting, recognition. */
+/* ---------- Online class (Google Meet / Zoom) mode ----------
+   Problem: Chrome's built-in speech recognition takes the microphone for itself, so a student on
+   Google Meet goes silent (and screen sharing can drop) the moment they press Record or Read-Along Check.
+   Fix (turned on with the "Online class" button, or a link ending in ?online=1):
+   • Chrome that can feed speech recognition a shared mic track → we open the mic once with
+     getUserMedia (which Meet can share) and give that track to recognition. Live checking still works.
+   • Older browsers → live speech checking is switched off; the timer, sample audio and typing still work,
+     and the teacher listens through Meet.
+   Runs before every page script, so it covers all pages (including ielts-part2.js, which has its own recognizer). */
+(() => {
+  const KEY = "jc-online-class";
+  let on = false;
+  try {
+    const q = new URLSearchParams(location.search).get("online");
+    if (q === "1" || q === "0") localStorage.setItem(KEY, q);
+    on = localStorage.getItem(KEY) === "1";
+  } catch {}
+  const Native = window.SpeechRecognition || window.webkitSpeechRecognition || null;
+  // Chrome versions with on-device speech (SpeechRecognition.available) also accept start(audioTrack).
+  const trackOK = !!(Native && typeof Native.available === "function" && navigator.mediaDevices && navigator.mediaDevices.getUserMedia);
+  let mode = "off";
+  if (on) mode = trackOK ? "shared-mic" : "no-speech";
+
+  if (mode === "shared-mic") {
+    let streamP = null;
+    const getTrack = () => {
+      if (!streamP) streamP = navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: true } })
+        .catch(err => { streamP = null; throw err; });
+      return streamP.then(st => {
+        const t = st.getAudioTracks().find(x => x.readyState === "live");
+        if (!t) { streamP = null; return getTrack(); }
+        return t;
+      });
+    };
+    const fail = (rec, code) => {
+      let ev;
+      try { ev = new SpeechRecognitionErrorEvent("error", { error: code }); } catch { ev = new Event("error"); ev.error = code; }
+      rec.dispatchEvent(ev);
+    };
+    class MeetSafeRecognition extends Native {
+      start() {
+        getTrack().then(track => {
+          try { super.start(track); } catch (e) { if (!(e && e.name === "InvalidStateError")) fail(this, "audio-capture"); }
+        }, () => fail(this, "not-allowed"));
+      }
+    }
+    window.SpeechRecognition = MeetSafeRecognition;
+    window.webkitSpeechRecognition = MeetSafeRecognition;
+  } else if (mode === "no-speech") {
+    try { window.SpeechRecognition = undefined; } catch {}
+    try { window.webkitSpeechRecognition = undefined; } catch {}
+  }
+  window.JCOnlineClass = { on, mode };
+
+  // Floating switch, shown on every page that loads this kit.
+  const LABEL = {
+    off: "🖥 Online class: OFF",
+    "shared-mic": "🖥 Online class: ON",
+    "no-speech": "🖥 Online class: ON"
+  };
+  const NOTE = {
+    off: "Turn ON when you use this page during a Google Meet / Zoom class, so your microphone keeps working in the meeting.",
+    "shared-mic": "Online class mode is ON: your microphone is shared with Google Meet, so your teacher can still hear you while live checking works. Share your whole screen or window (not 'a tab').",
+    "no-speech": "Online class mode is ON: live speech checking is paused so Google Meet keeps your microphone. Read aloud — your teacher listens through Meet. You can still use the timer, Listen, and type your answer. (Update Chrome to get live checking back in this mode.)"
+  };
+  function addSwitch() {
+    if (document.getElementById("jcOnlineSwitch")) return;
+    const css = document.createElement("style");
+    css.textContent = `#jcOnlineSwitch{position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;flex-direction:column;align-items:flex-end;gap:6px;font:600 13px/1.3 system-ui,sans-serif}
+#jcOnlineSwitch button{border:1px solid #b9d6d0;border-radius:999px;padding:8px 14px;background:#fff;color:#0b5e52;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.12);font:inherit}
+#jcOnlineSwitch.on button{background:#0f7c80;color:#fff;border-color:#0f7c80}
+#jcOnlineSwitch p{display:none;max-width:300px;margin:0;padding:10px 12px;border-radius:8px;background:#fffbe9;border:1px solid #f0dcaa;color:#4a3a10;font-weight:500;box-shadow:0 4px 14px rgba(0,0,0,.12)}
+#jcOnlineSwitch:hover p,#jcOnlineSwitch.show p{display:block}
+@media print{#jcOnlineSwitch{display:none}}`;
+    document.head.appendChild(css);
+    const box = document.createElement("div");
+    box.id = "jcOnlineSwitch"; if (on) box.className = "on show";
+    box.innerHTML = `<p>${NOTE[mode]}</p><button type="button" title="For Google Meet / Zoom classes">${LABEL[mode]}</button>`;
+    box.querySelector("button").addEventListener("click", () => {
+      try { localStorage.setItem(KEY, on ? "0" : "1"); } catch {}
+      const u = new URL(location.href); u.searchParams.delete("online");
+      location.replace(u.href); // reload so every page re-reads the microphone setting
+    });
+    document.body.appendChild(box);
+    if (on) setTimeout(() => box.classList.remove("show"), 8000);
+  }
+  if (document.body) addSwitch(); else document.addEventListener("DOMContentLoaded", addSwitch);
+
+  // In "no-speech" mode the pages show their usual "use Chrome or Edge" notice; replace it with the real reason.
+  if (mode === "no-speech") {
+    const MSG = "Online class mode: live speech checking is paused so Google Meet keeps your microphone. Speak to your teacher — the timer still runs, and you can type your answer.";
+    const OLD = /(not available in this browser|not supported in this browser|needs Chrome or Edge|works in Chrome or Edge)/i;
+    const fix = root => {
+      const w = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+      for (let n; (n = w.nextNode());) if (OLD.test(n.nodeValue) && !n.parentNode.closest("#jcOnlineSwitch")) n.nodeValue = MSG;
+    };
+    const watch = () => { fix(document.body); new MutationObserver(ms => ms.forEach(m => fix(m.target.nodeType === 3 ? m.target.parentNode : m.target)))
+      .observe(document.body, { subtree: true, childList: true, characterData: true }); };
+    if (document.body) watch(); else document.addEventListener("DOMContentLoaded", watch);
+  }
+})();
+
 window.SpeakingKit = (() => {
   const SR = window.SpeechRecognition || window.webkitSpeechRecognition || null;
 
