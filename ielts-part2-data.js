@@ -8159,6 +8159,516 @@ window.IELTS_PART2 = [
     "a": "**Probably,** pets will become even more central to people’s lives. **For example,** I expect more workplaces will let employees bring their dogs to the office. **In addition,** pet health care may become as advanced as human medicine. **However,** this could make pets so expensive **that** only richer families can afford them."
    }
   ]
+ },
+ {
+  "id": "hobbies-1",
+  "theme": "Hobbies & Leisure",
+  "themeZh": "嗜好與休閒",
+  "setLabel": "Set 1",
+  "title": "Describe an interesting hobby you have.",
+  "cues": [
+   "what the hobby is",
+   "when and how you started it",
+   "how often you do it",
+   "and explain why you find it interesting."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "film photography 底片攝影 → old second-hand camera, 36 shots per roll"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "dad’s old camera found in a drawer; started 3 yrs ago; shoot old streets in Dadaocheng; develop at a small lab → wait ~1 wk"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "1st roll → forgot to load film properly → 0 photos!; 2nd roll → blurry but warm colours → hooked"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "slow + careful vs phone; can’t delete → every shot matters; teaches patience"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the hobby I’d like to talk about is film photography. **Basically,** I use an old-fashioned camera that takes rolls of film instead of a memory card, **and** each roll only gives you thirty-six photos. **Funnily enough,** a lot of young people in Taiwan have picked up this hobby recently, **even though** most of us grew up with smartphones.",
+   "**I started about three years ago,** when I found my dad’s old camera in a drawer at home. **At first,** I just wanted to see if it still worked, but I soon got really into it. **These days,** I take it out almost every weekend, usually to Dadaocheng, **because** the old red-brick shophouses there look amazing on film. **After that,** I drop the roll off at a small photo lab, **and then** I have to wait about a week to see the results.",
+   "**I still remember** my very first roll. I walked around for a whole afternoon taking pictures, but when I went to pick them up, the lady at the lab told me there was nothing on the film at all. **Apparently,** I hadn’t loaded it properly! **Luckily,** my second roll worked, **and although** half the shots were blurry, the colours were so warm and soft that I was completely hooked.",
+   "**What I find interesting** is how slow and careful it makes me. With a phone, you just take fifty photos and delete most of them. **With film, however,** every shot costs money and you can’t delete anything, so I really think before I press the button. **In a way,** it’s taught me to be more patient, and I enjoy that feeling of surprise when the photos finally come back."
+  ],
+  "followUps": [
+   {
+    "q": "Why do some young people choose old-fashioned hobbies?",
+    "a": "**I think** it’s partly a reaction against technology. **For example,** people who stare at screens all day may want something they can hold in their hands. **On top of that,** old things feel unique and a bit cool on social media. **So** it’s a mix of nostalgia, creativity and simply wanting to slow down."
+   },
+   {
+    "q": "Is it important for adults to have hobbies?",
+    "a": "**Definitely.** **First of all,** hobbies help people relax after long working hours, which is really important in a busy city like Taipei. **Besides that,** they give you a sense of achievement that has nothing to do with your job. **Finally,** hobbies are a great way to meet people with similar interests outside work."
+   },
+   {
+    "q": "Should hobbies be cheap or is it fine to spend a lot on them?",
+    "a": "**It really depends on** your budget. **On the one hand,** spending money on something that makes you happy is perfectly reasonable. **On the other hand,** some people get obsessed with buying equipment and forget to actually enjoy the hobby. **Personally,** I think a hobby shouldn’t become a source of financial stress."
+   }
+  ]
+ },
+ {
+  "id": "hobbies-2",
+  "theme": "Hobbies & Leisure",
+  "themeZh": "嗜好與休閒",
+  "setLabel": "Set 2",
+  "title": "Describe a hobby you would like to start.",
+  "cues": [
+   "what the hobby is",
+   "how you learned about it",
+   "what you would need to start it",
+   "and explain why you would like to start it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "ukulele 烏克麗麗 → small 4-string guitar, cheerful sound"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "saw a busker at Tamsui riverside at sunset → playing + singing, crowd joined in; cousin also plays"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "tried cousin’s ukulele at New Year → fingers hurt but learned 3 chords in 20 min; need: beginner ukulele, tuner app, YouTube lessons / weekend class"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "portable, cheap, quick to learn; stress relief; dream → play at friends’ birthday parties"
+   }
+  ],
+  "sample": [
+   "**Alright, so** a hobby I’d really love to start is playing the ukulele. **In case you don’t know,** it’s a tiny guitar with only four strings, **and** it has a really bright, cheerful sound. **To be honest,** I’ve been thinking about it for almost a year now, **but** I keep telling myself I’m too busy.",
+   "**I first got interested** after a trip to Tamsui last summer. **At sunset,** there was a young busker by the riverside playing the ukulele and singing old pop songs, and before long, the whole crowd was singing along with him. **I was really impressed by how** such a small instrument could create such a warm atmosphere. **On top of that,** my cousin plays it too, **so** I’ve heard her practise quite a few times.",
+   "**Actually,** I had a little taste of it during Lunar New Year, when my cousin let me borrow hers. **At first,** my fingertips really hurt from pressing the strings, but within about twenty minutes, she’d taught me three basic chords. **Surprisingly,** that was already enough to play a simple birthday song! **So to start properly,** I’d need a cheap beginner ukulele, a free tuner app on my phone, and probably some YouTube lessons or a weekend class.",
+   "**The main reason I want to start** is that it seems easy to pick up and it’s so portable. **Unlike** a piano, you can just put it in a bag and take it anywhere. **I also think** playing music would be a great way to relieve stress after work. **Ideally,** one day I’d like to play at my friends’ birthday parties instead of just buying a cake."
+  ],
+  "followUps": [
+   {
+    "q": "Why do many adults stop learning new hobbies?",
+    "a": "**I’d say** the biggest reason is time. **For example,** after working and commuting, most people just want to rest. **In addition,** adults are often afraid of looking silly as beginners, whereas children don’t really care. **As a result,** many people stick to what they already know rather than trying something new."
+   },
+   {
+    "q": "Is it better to learn a hobby from a teacher or by yourself online?",
+    "a": "**Both have advantages, I think.** **On the one hand,** online videos are free and you can learn whenever you like. **On the other hand,** a teacher can correct your mistakes immediately, so you don’t develop bad habits. **Personally,** I’d start online and then take a few lessons to check my technique."
+   },
+   {
+    "q": "Do you think children should learn a musical instrument?",
+    "a": "**Yes, generally speaking.** **For one thing,** learning an instrument improves concentration and memory. **For another,** it gives children a way to express their feelings. **However,** in Taiwan some parents push their kids too hard for exams and competitions, which can make them hate music. **So** it should be fun first."
+   }
+  ]
+ },
+ {
+  "id": "hobbies-3",
+  "theme": "Hobbies & Leisure",
+  "themeZh": "嗜好與休閒",
+  "setLabel": "Set 3",
+  "title": "Describe something you collect.",
+  "cues": [
+   "what you collect",
+   "when you started collecting it",
+   "how you collect it",
+   "and explain why you enjoy collecting it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "station stamps 紀念章 → rubber stamps at train stations + tourist spots"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "each station = own design (landmark, local food, animal); free, ink pad by the gate; collect in a small blank notebook"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "started on round-the-island train trip after uni graduation; searched every small station; once missed the train while stamping → waited 1 hr"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "notebook = travel diary; free + no space needed; reminds me of places + people"
+   }
+  ],
+  "sample": [
+   "**Okay, so** something I collect, which might sound a bit unusual, is souvenir stamps. **I don’t mean** postage stamps, **but** the rubber stamps you find at train stations and tourist spots all over Taiwan. **Believe it or not,** collecting them is a pretty popular hobby here, **and** some people travel around the island just to fill up their notebooks.",
+   "**The great thing is that** almost every station has its own design. **For example,** one might show a famous temple, while another has the local speciality food or a cute animal. **Usually,** the stamp and an ink pad sit on a little table near the ticket gate, **and** anyone can use them for free. **Personally,** I keep all of mine in a small blank notebook that I carry in my backpack.",
+   "**I started collecting** after I graduated from university, when a friend and I did a round-the-island trip by train. **Along the way,** we got off at lots of tiny stations just to look for stamps. **I’ll never forget** one time in Hualien, when I was so busy trying to get a perfect print that the train left without me. **As a result,** I had to wait almost an hour for the next one, but my friend still laughs about it.",
+   "**As for why I enjoy it,** my notebook has basically become a travel diary. **Every time** I flip through it, I remember the weather, the food and the people I met in each place. **On top of that,** it’s completely free and doesn’t take up any space at home, unlike collecting figures or sneakers. **So for me,** it’s the perfect hobby."
+  ],
+  "followUps": [
+   {
+    "q": "Why do people like to collect things?",
+    "a": "**I think** there are a few reasons. **First,** collecting gives people a clear goal, like completing a whole set. **Second,** each item can carry a memory, so a collection becomes a kind of personal history. **Also,** it connects people with others who share the same interest, especially through online groups."
+   },
+   {
+    "q": "Can collecting become a problem?",
+    "a": "**Yes, sometimes.** **For instance,** some people spend far too much money on limited-edition toys or sneakers. **In addition,** if they live in a small flat in Taipei, their home can get really cluttered. **So** I think it’s fine as long as people control their spending and still have space to live comfortably."
+   },
+   {
+    "q": "Are children’s collecting habits different from adults’?",
+    "a": "**Generally speaking,** yes. **Children** usually collect cheap things like stickers or cards because their friends are doing it. **Adults,** on the other hand, often collect more expensive items and may even see them as an investment. **That said,** both groups enjoy the same basic feeling of excitement when they find something new."
+   }
+  ]
+ },
+ {
+  "id": "hobbies-4",
+  "theme": "Hobbies & Leisure",
+  "themeZh": "嗜好與休閒",
+  "setLabel": "Set 4",
+  "title": "Describe a game you enjoy playing with friends.",
+  "cues": [
+   "what the game is",
+   "where you usually play it",
+   "who you play it with",
+   "and explain why you enjoy playing it with friends."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Avalon 阿瓦隆 → board game, hidden roles, good vs evil, 5–10 players"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "board-game café near Gongguan → pay by hour, shelves of games, staff explain rules; w/ 6–7 uni friends, ~once a month"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "1st game = evil side; very nervous, face went red → caught in 10 min; last time quiet friend Kevin fooled everyone → shocked"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "no phones, face to face; learn how friends think; laugh a lot; cheap night out"
+   }
+  ],
+  "sample": [
+   "**Alright, so** the game I want to talk about is a board game called Avalon. **Basically,** it’s a game of hidden roles, **where** players are secretly divided into a good team and an evil team. **The tricky part is that** the good players don’t know who the evil ones are, **so** everyone spends the whole game arguing, guessing and sometimes lying.",
+   "**We usually play** at a board-game café near Gongguan, not far from my old university. **The way it works is** you pay by the hour, and there are huge shelves full of hundreds of games. **If** you don’t know the rules, the staff will even come over and explain them. **Normally,** I go with six or seven friends from university, about once a month, since Avalon is much more fun with a big group.",
+   "**The first time I played,** I was on the evil side, and I was so nervous that my face went completely red. **Unsurprisingly,** my friends caught me within about ten minutes! **The most shocking game, though,** was last month. **Our friend Kevin,** who is usually really quiet, turned out to be evil, and he fooled every single one of us until the very end. **When** he finally revealed his card, the whole table screamed.",
+   "**The reason I love it** is that nobody looks at their phone for the whole evening. **Instead,** we’re all talking face to face and reading each other’s expressions. **On top of that,** you learn a lot about how your friends think. **Most of all,** we laugh non-stop, and it’s a pretty cheap night out compared with going to a bar."
+  ],
+  "followUps": [
+   {
+    "q": "Why are board-game cafés popular with young people?",
+    "a": "**I’d say** they’re a cheap and relaxed place to hang out. **For example,** you can stay for hours without spending much money. **Also,** many young people in Taipei live in small flats, so they can’t easily invite friends home. **On top of that,** these cafés have lots of games that most people couldn’t afford to buy."
+   },
+   {
+    "q": "Are video games or board games better for building friendships?",
+    "a": "**In my opinion,** board games are slightly better, because you sit together and talk face to face. **That said,** online games can also build strong friendships, especially for people who live far apart. **So** it really depends on how people play, **rather than** the type of game itself."
+   },
+   {
+    "q": "What can children learn from playing games?",
+    "a": "**Quite a lot, actually.** **First of all,** they learn to follow rules and take turns. **In addition,** games teach them how to win and lose gracefully, which is an important life skill. **Some games** also improve maths or problem-solving, so they’re educational as well as fun."
+   }
+  ]
+ },
+ {
+  "id": "hobbies-5",
+  "theme": "Hobbies & Leisure",
+  "themeZh": "嗜好與休閒",
+  "setLabel": "Set 5",
+  "title": "Describe a hobby that has become popular in your country recently.",
+  "cues": [
+   "what the hobby is",
+   "who usually does it",
+   "where people do it",
+   "and explain why you think it has become so popular."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "bouldering 抱石 → climbing short walls w/o ropes, thick mats below"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "mostly people in 20s–30s, office workers + students; indoor climbing gyms in Taipei, often in basements / old factories; colourful holds"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "colleague dragged me last spring → arms shaking after 30 min; strangers cheered when I finished a route"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "causes: Olympics (Tokyo 2020 debut), social media videos, social + like a puzzle; effects: more gyms, new friends, but crowded + skin injuries"
+   }
+  ],
+  "sample": [
+   "**Okay, so** a hobby that’s become really popular in Taiwan over the last few years is bouldering. **In case you haven’t heard of it,** it’s a type of rock climbing **where** you climb short walls without any ropes, **and** there are thick mats underneath in case you fall. **These days,** it seems like everyone I know has either tried it or wants to.",
+   "**Most of the people who do it** are in their twenties and thirties, mainly office workers and university students. **In Taipei,** there are quite a few indoor climbing gyms now, and some of them are in basements or converted old buildings. **Inside,** the walls are covered with colourful plastic holds, **and** each colour shows a different route and level of difficulty.",
+   "**I tried it for the first time** last spring, when a colleague basically dragged me there after work. **To be honest,** after just thirty minutes my arms were shaking and I could hardly hold on. **But the moment I remember most** was when I finally reached the top of an easy route, and a group of complete strangers at the bottom started clapping and cheering for me. **After that,** I was hooked.",
+   "**In my opinion,** there are several reasons behind this trend. **First,** sport climbing appeared at the Olympics for the first time in Tokyo, which gave it a lot of attention. **Second,** climbing videos look really cool on social media. **On top of that,** it’s social and feels like solving a puzzle. **As a result,** new gyms keep opening, although popular ones can get really crowded at weekends."
+  ],
+  "followUps": [
+   {
+    "q": "Why do new hobbies spread so quickly nowadays?",
+    "a": "**I think** social media is the main reason. **For example,** one short video on Instagram can make thousands of people want to try something new. **In addition,** influencers often share discount codes or beginner tips. **As a result,** a hobby can go from unknown to trendy in just a few months, especially among young people."
+   },
+   {
+    "q": "Do people try hobbies just to post them online?",
+    "a": "**To some extent,** yes. **Some people** go to a climbing gym or a pottery class mainly to take nice photos. **However,** I don’t think that’s always bad, because many of them discover they actually enjoy it. **So** even if the reason is social media at first, it can still lead to a real interest."
+   },
+   {
+    "q": "Should governments build more public facilities for hobbies?",
+    "a": "**Yes, I believe they should.** **For one thing,** private gyms and classes can be expensive, so public facilities make hobbies more affordable for everyone. **For another,** they encourage people to stay active and meet their neighbours. **Of course,** governments need to make sure the facilities are well maintained."
+   }
+  ]
+ },
+ {
+  "id": "hobbies-6",
+  "theme": "Hobbies & Leisure",
+  "themeZh": "嗜好與休閒",
+  "setLabel": "Set 6",
+  "title": "Describe a person you know who has an unusual hobby.",
+  "cues": [
+   "who this person is",
+   "what the hobby is",
+   "how he or she started it",
+   "and explain what you think about this hobby."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Uncle Ming 明叔 → mum’s younger brother, mechanic in Taichung"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "restores old scooters from 1970s–80s; finds them in scrapyards / online; garage full of parts; takes months for 1 scooter"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "summer visit → helped him clean a rusty engine for a whole day; hands black; he started it → loud bang, then it ran → we cheered"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "patient + creative; gives old things a 2nd life → eco-friendly; inspiring, but family says garage = mess"
+   }
+  ],
+  "sample": [
+   "**Well,** the person I’d like to talk about is my Uncle Ming, who is my mum’s younger brother. **He** works as a mechanic in Taichung, and he’s one of the most hands-on people I know. **What makes him special, though,** is his rather unusual hobby: he restores old scooters, mostly ones from the seventies and eighties.",
+   "**Basically,** he finds old, broken scooters in scrapyards or on second-hand websites, **and then** spends months bringing them back to life. **As you can imagine,** his garage is packed with engines, wheels and boxes of tiny screws. **Sometimes** he even has to order parts from Japan, because nobody in Taiwan makes them anymore. **Apparently,** he started about twenty years ago, when he rebuilt his own father’s old scooter as a surprise.",
+   "**I got a taste of his hobby** when I visited him two summers ago. **He** asked me to help him clean a really rusty engine, and we ended up working on it for the whole day. **By the evening,** my hands were completely black! **Then** he tried to start it, **and at first** there was this loud bang that made me jump. **But a second later,** the engine started running smoothly, and we both cheered like crazy.",
+   "**Personally,** I think it’s a fantastic hobby. **It** takes a lot of patience and creativity, and it gives old things a second life **instead of** throwing them away, which is good for the environment. **Having said that,** my aunt jokes that the garage is the messiest place in Taichung! Still, I hope he teaches me how to fix an engine properly one day."
+  ],
+  "followUps": [
+   {
+    "q": "Why do some people prefer hobbies where they use their hands?",
+    "a": "**I think** it’s very satisfying to create or fix something you can actually touch. **For example,** after a long day on a computer, working with tools feels completely different. **In addition,** you can see your progress clearly, which gives you a sense of achievement. **So** it’s relaxing and rewarding at the same time."
+   },
+   {
+    "q": "Is it a good idea to turn a hobby into a job?",
+    "a": "**It depends, I think.** **On the one hand,** doing what you love every day sounds like a dream. **On the other hand,** once you need money from it, the pressure can take away the fun. **Personally,** I’d prefer to keep my hobby separate from work, so it stays a way to relax."
+   },
+   {
+    "q": "Do older and younger people have different hobbies?",
+    "a": "**Generally speaking,** yes. **Older people** in Taiwan often enjoy gardening, hiking or singing karaoke with friends. **Younger people,** on the other hand, tend to choose online games or trendy activities like bouldering. **That said,** some hobbies, such as photography, are popular with every age group."
+   }
+  ]
+ },
+ {
+  "id": "hobbies-7",
+  "theme": "Hobbies & Leisure",
+  "themeZh": "嗜好與休閒",
+  "setLabel": "Set 7",
+  "title": "Describe a shop where you buy things for your hobby.",
+  "cues": [
+   "where the shop is",
+   "what it sells",
+   "how often you go there",
+   "and explain why you like this shop."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "hobby = journaling 手帳; small stationery shop in an alley near Gongguan"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "2nd floor, wooden stairs; washi tape, stickers, notebooks, stamps; many by local illustrators; testing table w/ pens"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "found it by accident hiding from rain; owner Ms Lin showed me how to decorate a page; now go ~every 2 wks"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "cosy, personal, supports local artists; better than big chains; spend too much sometimes!"
+   }
+  ],
+  "sample": [
+   "**Okay, so** one of my hobbies is journaling, **which** means I decorate a notebook every day with notes, drawings and stickers. **The shop I want to describe** is a small stationery shop hidden in an alley near Gongguan in Taipei. **To be honest,** it’s so small that you could easily walk past it without noticing.",
+   "**The shop is** on the second floor of an old building, so you have to climb some creaky wooden stairs to get there. **Inside,** it’s full of colourful washi tape, stickers, notebooks and rubber stamps. **What’s special is that** many of the products are designed by local illustrators, so you can’t find them anywhere else. **There’s also** a little testing table, **where** you can try out all kinds of pens before you buy them.",
+   "**I actually found it by accident.** **One afternoon,** it suddenly started pouring with rain, and I ran into the alley to hide. **That’s when** I noticed a tiny sign pointing upstairs. **The owner,** Ms Lin, was really friendly, and she even showed me how to decorate a page using just tape and a stamp. **Since then,** I’ve been going back roughly every two weeks.",
+   "**The reason I like it so much** is that it feels cosy and personal. **Unlike** big chain stores, the owner remembers what I like and recommends new things. **On top of that,** buying there supports local artists, which I think is important. **The only problem is that** I always end up spending more than I planned! Last month, for example, I went in for one roll of tape and came out with a whole bag of stickers and two new notebooks."
+  ],
+  "followUps": [
+   {
+    "q": "Why do some people prefer small independent shops to big chains?",
+    "a": "**I think** small shops offer a more personal experience. **For example,** the owners often know their regular customers by name. **In addition,** they usually sell unique products that you can’t find online. **On the other hand,** chain stores are cheaper and more convenient, so many people use both."
+   },
+   {
+    "q": "Will online shopping replace physical shops?",
+    "a": "**Not completely, in my view.** **Of course,** online shopping is growing fast because it’s so convenient. **However,** for hobbies like art or music, people still want to touch and try things before buying. **So** I think physical shops will survive, but they’ll need to offer experiences, like workshops or events."
+   },
+   {
+    "q": "Why is stationery so popular in Taiwan and Japan?",
+    "a": "**Well,** I’d say there’s a strong culture of writing by hand in both places. **For example,** many students take very neat notes with different coloured pens. **Also,** cute designs are really popular in East Asia. **As a result,** stationery has become a kind of fashion item, rather than just a practical tool."
+   }
+  ]
+ },
+ {
+  "id": "hobbies-8",
+  "theme": "Hobbies & Leisure",
+  "themeZh": "嗜好與休閒",
+  "setLabel": "Set 8",
+  "title": "Describe a time when you spent a whole day doing your hobby.",
+  "cues": [
+   "when it was",
+   "what hobby you did",
+   "who you were with",
+   "and explain how you felt at the end of the day."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "typhoon day off 颱風假 last summer → 1,000-piece jigsaw puzzle"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "work cancelled, heavy rain + wind outside; me + younger brother at home; puzzle = Starry Night, bought months ago, never opened"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "started 9 a.m. → edges first; sky pieces all look the same; power flickered at night → used phone torches; last piece missing → found under the cat!"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "exhausted but proud; brother + I talked more than in months; now glued + framed on wall"
+   }
+  ],
+  "sample": [
+   "**Alright, so** I’d like to talk about a typhoon day last summer, **when** I spent the whole day doing a jigsaw puzzle. **In Taiwan,** if a typhoon is strong enough, the government announces a day off work and school, **so** suddenly you have a free day at home. **That morning,** the rain was hammering against the windows, **and** I definitely didn’t want to go anywhere.",
+   "**At home,** it was just me and my younger brother, since our parents were stuck at my grandparents’ place. **A few months earlier,** I’d bought a thousand-piece puzzle of Van Gogh’s The Starry Night, **but** I’d never had time to open it. **So** we cleared the dining table, poured all the pieces out, **and** made a deal not to look at our phones until it was finished.",
+   "**We started at about nine,** doing the edges first, which was the easy part. **After that,** things got really difficult, because all the dark blue pieces of the sky looked exactly the same. **At one point** in the evening, the power kept flickering, so we carried on using the torches on our phones. **The funniest moment was that** the very last piece was missing, and after twenty minutes of searching, we found it under our cat!",
+   "**By the end of the day,** I was exhausted and my neck was really stiff, but I felt incredibly proud. **More importantly,** my brother and I talked more that day than we had in months. **In the end,** we glued the puzzle together, and now it’s framed on our living-room wall. Every time I look at it, I remember that stormy day."
+  ],
+  "followUps": [
+   {
+    "q": "Why do people enjoy slow hobbies like puzzles?",
+    "a": "**I think** they help people switch off from stress. **For example,** when you’re focused on one small piece, you stop worrying about work or emails. **On top of that,** there’s a clear goal and a satisfying ending. **So** it’s a bit like meditation, but much more fun for many people."
+   },
+   {
+    "q": "Is it better to do hobbies alone or with others?",
+    "a": "**Both have benefits, I’d say.** **On the one hand,** doing a hobby alone gives you quiet time to recharge. **On the other hand,** sharing it with others makes it more social and often funnier. **Personally,** I like a mix, because I need some time alone but I also enjoy company."
+   },
+   {
+    "q": "How do people in your country usually spend typhoon days off?",
+    "a": "**Well,** most people stay at home, since it’s not safe to go out. **Typically,** they stock up on instant noodles and snacks the night before. **Then** they watch TV, play games or just sleep in. **Interestingly,** some people complain online when the typhoon turns out to be weak, because they feel the day off was wasted."
+   }
+  ]
+ },
+ {
+  "id": "hobbies-9",
+  "theme": "Hobbies & Leisure",
+  "themeZh": "嗜好與休閒",
+  "setLabel": "Set 9",
+  "title": "Describe something you made by hand.",
+  "cues": [
+   "what you made",
+   "how you made it",
+   "who you made it for",
+   "and explain how you felt about making it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "knitted scarf 圍巾 → grey + dark green, for my grandpa’s winter"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "learned from YouTube + library book; bought wool + bamboo needles at a craft shop; knitted on MRT to work"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "took ~2 months; dropped stitches → holes → unravelled + restarted twice; finished night before Lunar New Year"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "not perfect, a bit uneven; grandpa wears it every cold day; proud + calm while knitting; handmade = time + love"
+   }
+  ],
+  "sample": [
+   "**Okay, so** something I made by hand that I’m quite proud of is a knitted scarf. **It’s** grey with dark green stripes, **and** I made it for my grandpa last winter, **because** he always complains that Taipei winters are damp and chilly. **To be honest,** before that I had never knitted anything in my life.",
+   "**First of all,** I needed to learn the basics, so I watched lots of YouTube tutorials and borrowed a beginner’s book from the library. **Then** I went to a craft shop and bought some soft wool and a pair of bamboo needles. **The good thing about knitting is that** you can do it almost anywhere. **For example,** I used to knit on the MRT on my way to work, **and** a few older ladies would sometimes smile at me.",
+   "**Altogether,** the scarf took me about two months. **The hardest part was that** whenever I dropped a stitch, a little hole appeared. **In fact,** I had to unravel everything and start again twice, which was really frustrating. **In the end,** I finished it late at night just before Lunar New Year, and I wrapped it up in red paper as a present.",
+   "**Looking back,** the scarf is definitely not perfect, since some parts are tighter than others. **But** my grandpa wears it every single cold day, and he proudly tells everyone his grandchild made it. **I also found that** knitting made me feel really calm. **So for me,** a handmade gift shows time and love in a way a shop-bought one can’t. This winter, I’m planning to knit a matching hat for him too."
+  ],
+  "followUps": [
+   {
+    "q": "Why are handmade gifts often considered special?",
+    "a": "**I think** it’s because they show effort. **For example,** anyone can buy a scarf online in two minutes, but making one takes weeks. **In addition,** a handmade gift is unique, so there’s nothing else exactly like it. **As a result,** people usually treasure them much longer than ordinary presents."
+   },
+   {
+    "q": "Are traditional crafts like knitting disappearing?",
+    "a": "**Not really, in my opinion.** **Of course,** fewer people need to make their own clothes nowadays. **However,** many young people are learning crafts as a way to relax, and there are lots of workshops in Taipei. **In fact,** social media has actually made some crafts trendy again, especially among university students."
+   },
+   {
+    "q": "Should schools teach practical skills like sewing or cooking?",
+    "a": "**Yes, I believe so.** **First,** these are useful life skills that many young people lack. **Second,** they give students a break from exam pressure. **The only problem** is that timetables are already very full, so schools might need to offer them as after-school clubs instead of regular lessons."
+   }
+  ]
+ },
+ {
+  "id": "hobbies-10",
+  "theme": "Hobbies & Leisure",
+  "themeZh": "嗜好與休閒",
+  "setLabel": "Set 10",
+  "title": "Describe a hobby you used to have but gave up.",
+  "cues": [
+   "what the hobby was",
+   "when you did it",
+   "why you stopped doing it",
+   "and explain whether you would like to start it again."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "piano 鋼琴 → age 6–15, lessons every Sat"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "mum’s idea; teacher strict; practised 30 min/day; grade exams + recitals"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "junior high → cram school + exams → no time; forgot to practise → teacher upset; quit at 15 → felt relieved"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "causes: exam pressure, no choice, too strict; effects: piano gathering dust; now regret → maybe restart w/ pop songs, for fun not exams"
+   }
+  ],
+  "sample": [
+   "**Well,** a hobby I used to have but eventually gave up is playing the piano. **I started** when I was about six, **and** I had a lesson every Saturday morning until I was fifteen. **Looking back,** it was a pretty big part of my childhood, **even though** I didn’t always enjoy it.",
+   "**To be honest,** it wasn’t really my idea. **Like** a lot of Taiwanese parents, my mum believed every child should learn an instrument. **My teacher** was very strict, and she expected me to practise for at least thirty minutes every day. **On top of that,** I had to take grade exams and play at a recital at the end of each year, **which** made me incredibly nervous.",
+   "**Things started to change** when I got to junior high school. **Suddenly,** I had cram school almost every evening, and my exam results became the only thing that mattered. **As a result,** I kept forgetting to practise, and my teacher was clearly disappointed in me. **In the end,** I told my mum I wanted to quit, and I remember feeling more relieved than sad.",
+   "**Now, however,** the piano is just gathering dust in my parents’ living room, covered with old magazines and family photos, and I really regret giving up. **I think** the main problems were exam pressure and the fact that I never chose it myself. **So** I’d actually love to start again, but this time I’d play pop songs just for fun, **rather than** for exams. Actually, I’ve already found a few easy tutorials online, so maybe I’ll sit down at the piano again next time I visit my parents."
+  ],
+  "followUps": [
+   {
+    "q": "Why do people give up their hobbies?",
+    "a": "**I’d say** the main reason is a lack of time. **For example,** students in Taiwan are often busy with exams, while adults are busy with work and family. **In addition,** some people lose interest when a hobby starts to feel like an obligation. **Finally,** money can be an issue, since some hobbies are expensive."
+   },
+   {
+    "q": "Should parents choose hobbies for their children?",
+    "a": "**Not completely, in my view.** **Of course,** young children need some guidance, because they don’t know what options exist. **However,** if parents force a hobby on them, kids may end up hating it. **Ideally,** parents should let children try several activities and then let them choose the one they enjoy most."
+   },
+   {
+    "q": "Is it ever too late to start a new hobby?",
+    "a": "**Definitely not.** **In fact,** I know retired people in Taiwan who have started painting or learning English in their sixties. **Of course,** some physical hobbies may be harder as you get older. **But generally,** adults have more patience and money, so they can actually learn faster than you might expect."
+   }
+  ]
  }
 ]
 ;
