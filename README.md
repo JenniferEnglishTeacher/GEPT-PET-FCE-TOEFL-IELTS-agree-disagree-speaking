@@ -4,7 +4,7 @@ Live site: https://jenniferenglishteacher.github.io/GEPT-PET-FCE-TOEFL-IELTS-agr
 
 ## Speaking (every page: mind map typing box · timer · live transcription · clean transcription)
 - `index.html` — GEPT Basic Speaking (200 questions)
-- `gept-int-speaking.html` — GEPT Intermediate Speaking (100 Q&A + 10 picture descriptions)
+- `gept-int-speaking.html` — GEPT Intermediate Speaking (100 Q&A + 45 picture descriptions: 10 test-style + 35 original illustrations)
 - `opinion.html` — Opinion & Topic Speaking
 - `descriptive.html` — Descriptive Speaking
 - `ielts-part2.html` — IELTS Speaking Part 2
