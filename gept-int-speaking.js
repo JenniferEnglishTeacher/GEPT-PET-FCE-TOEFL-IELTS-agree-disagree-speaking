@@ -118,8 +118,11 @@ function renderQuestion() {
     sents.forEach(([zh, en], i) => {
       if (i % 5 === 0) { const g = document.createElement("div"); g.className = "sent-group"; g.textContent = GROUPS[i / 5] || ""; sg.appendChild(g); }
       const row = document.createElement("div"); row.className = "sent-row";
-      row.innerHTML = `<span class="sent-n">${i + 1}</span><span class="sent-zh">${K.escapeHtml(zh)}</span><span class="sent-en">${K.escapeHtml(en)}</span><button type="button" class="sent-speak" title="Listen 聽發音" aria-label="Listen">&#128264;</button>`;
-      row.querySelector(".sent-speak").addEventListener("click", () => K.speak(en, 0.92));
+      row.innerHTML = `<span class="sent-n">${i + 1}</span><span class="sent-zh">${K.escapeHtml(zh)}</span><span class="sent-en"><span class="sent-en-text"></span><small class="sent-acc" hidden></small></span><button type="button" class="sent-speak" title="Listen 聽發音" aria-label="Listen">&#128264;</button><button type="button" class="sent-read" title="Read aloud check 朗讀檢查" aria-label="Read aloud check">&#127908;</button>`;
+      const a = { spans: [], spoken: "", btn: row.querySelector(".sent-read"), acc: row.querySelector(".sent-acc") };
+      K.wordSpans(row.querySelector(".sent-en-text"), en, a.spans);
+      row.querySelector(".sent-speak").addEventListener("click", () => { stopSentenceCheck(false); K.speak(en, 0.92); });
+      a.btn.addEventListener("click", () => { if (sentActive === a) stopSentenceCheck(); else startSentenceCheck(a); });
       sg.appendChild(row);
     });
     sg.hidden = false; $("toggleSentencesButton").textContent = "Hide 收合";
@@ -233,6 +236,7 @@ function hideSampleAccuracy() {
   state.sampleSpans.forEach(w => w.el.classList.remove("ok", "miss", "speaking"));
 }
 function stopSampleActivity() {
+  if (typeof stopSentenceCheck === "function" && sentActive) stopSentenceCheck(false);
   if (state.stopListen) { state.stopListen(); state.stopListen = null; }
   if (state.readSampleMode) {
     if (readRec) { readRec.stop(); readRec = null; }
@@ -272,7 +276,38 @@ function readSample() {
   els.sampleBar.hidden = false; els.sampleAccuracy.hidden = false; els.sampleAccuracy.textContent = "🎙 Listening… read the sample answer aloud.";
   if (!readRec.start()) { els.sampleAccuracy.textContent = "Could not start the microphone. Try again."; stopSampleActivity(); }
 }
-function stopEverything() { stopRecording(); stopSampleActivity(); }
+
+/* ---------- read-aloud check for each useful sentence ---------- */
+let sentRec = null, sentActive = null;
+function showSentenceAccuracy(a, final) {
+  const sum = K.accuracySummary(K.align(a.spans, a.spoken || ""), final, "sentence");
+  a.acc.hidden = false; a.acc.innerHTML = sum.msg;
+}
+function stopSentenceCheck(finalize = true) {
+  if (sentRec) { sentRec.stop(); sentRec = null; }
+  if (sentActive) {
+    const a = sentActive; sentActive = null;
+    a.btn.innerHTML = "&#127908;"; a.btn.classList.remove("live");
+    if (finalize && a.spoken) showSentenceAccuracy(a, true); else if (finalize) a.acc.hidden = true;
+  }
+}
+function startSentenceCheck(a) {
+  K.stopSpeech(); stopSentenceCheck(false); stopRecording(); stopSampleActivity();
+  if (!K.SR) { a.acc.hidden = false; a.acc.textContent = "Live checking needs Chrome or Edge."; return; }
+  a.spans.forEach(w => w.el.classList.remove("ok", "miss")); a.spoken = "";
+  sentRec = K.recognizer({
+    onUpdate(finals, interim) {
+      a.spoken = `${finals.join(" ")} ${interim}`;
+      const r = K.align(a.spans, a.spoken); a.acc.hidden = false; a.acc.innerHTML = K.accuracySummary(r, false, "sentence").msg;
+      if (r.total > 0 && r.ok === r.total) setTimeout(() => { if (sentActive === a) stopSentenceCheck(); }, 500);
+    },
+    onBlocked(msg) { a.acc.hidden = false; a.acc.textContent = msg; stopSentenceCheck(false); }
+  });
+  sentActive = a; a.btn.innerHTML = "&#9632;"; a.btn.classList.add("live");
+  a.acc.hidden = false; a.acc.textContent = "\u{1F399} Listening\u2026 read this sentence aloud.";
+  if (!sentRec.start()) { a.acc.textContent = "Could not start the microphone. Try again."; stopSentenceCheck(false); }
+}
+function stopEverything() { stopRecording(); stopSampleActivity(); stopSentenceCheck(false); }
 
 /* ---------- events ---------- */
 kindTabs.forEach(tab => tab.addEventListener("click", () => {
