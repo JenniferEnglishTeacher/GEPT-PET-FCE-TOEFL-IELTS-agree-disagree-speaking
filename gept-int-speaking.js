@@ -109,6 +109,21 @@ function renderQuestion() {
     els.pictureImg.alt = `GEPT Intermediate picture description, test ${x.unit}`;
     els.picturePrompts.innerHTML = x.prompts.map(p => `<li>${K.escapeHtml(p)}</li>`).join("");
   }
+  /* 20 useful sentences (zh + en grid) above the sample answer */
+  const sb = $("sentenceBlock"), sg = $("sentenceGrid");
+  const sents = x.kind === "picture" && typeof GEPT_PIC_SENTENCES !== "undefined" ? GEPT_PIC_SENTENCES[x.unit] : null;
+  sb.hidden = !sents; sg.innerHTML = "";
+  if (sents) {
+    const GROUPS = ["Q1 地點 Place", "Q2 人物動作 People & actions", "Q3 我的經驗／意見 Experience & opinion", "Q4 細節描述 Details"];
+    sents.forEach(([zh, en], i) => {
+      if (i % 5 === 0) { const g = document.createElement("div"); g.className = "sent-group"; g.textContent = GROUPS[i / 5] || ""; sg.appendChild(g); }
+      const row = document.createElement("div"); row.className = "sent-row";
+      row.innerHTML = `<span class="sent-n">${i + 1}</span><span class="sent-zh">${K.escapeHtml(zh)}</span><span class="sent-en">${K.escapeHtml(en)}</span><button type="button" class="sent-speak" title="Listen 聽發音" aria-label="Listen">&#128264;</button>`;
+      row.querySelector(".sent-speak").addEventListener("click", () => K.speak(en, 0.92));
+      sg.appendChild(row);
+    });
+    sg.hidden = false; $("toggleSentencesButton").textContent = "Hide 收合";
+  }
   /* second copy of the picture + questions beside the mind map / recorder (sticky), so it stays visible while recording */
   const wp = $("workPicture");
   wp.hidden = x.kind !== "picture";
@@ -316,3 +331,7 @@ $("workPictureToggle").addEventListener("click", () => {
   $("workPictureToggle").textContent = off ? "Show 展開" : "Hide 收合";
 });
 $("workPictureImg").addEventListener("click", () => $("workPicture").classList.toggle("zoom"));
+
+$("toggleSentencesButton").addEventListener("click", () => {
+  const g = $("sentenceGrid"); g.hidden = !g.hidden; $("toggleSentencesButton").textContent = g.hidden ? "Show 展開" : "Hide 收合";
+});

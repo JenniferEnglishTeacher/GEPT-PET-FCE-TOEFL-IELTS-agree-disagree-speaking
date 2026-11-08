@@ -49,6 +49,14 @@
           </div>
 
 
+          <div class="answer-block" id="sentenceBlock" hidden>
+            <div class="block-title">
+              <span>Useful Sentences 常用句 <small class="gi-hint">20 sentences for this picture · 中英對照</small></span>
+              <span><button id="toggleSentencesButton" class="small-button" type="button">Hide 收合</button></span>
+            </div>
+            <div id="sentenceGrid" class="sent-grid"></div>
+          </div>
+
           <div class="answer-block" id="sampleBlock" hidden>
             <div class="block-title">
               <span>Sample Answer 範例 <small id="sampleHint" class="gi-hint">Listen first, then read along</small></span>
@@ -123,6 +131,7 @@
     <script src="gept-int-data.js"></script>
     <script src="gept-int-qa-samples.js"></script>
     <script src="gept-int-extra-pictures.js?v=20261108"></script>
+    <script src="gept-int-pic-sentences.js?v=20261108"></script>
     <script src="speaking-kit.js"></script>
     <script src="mindmap-kit.js"></script>
     <script src="gept-int-speaking.js?v=20261108"></script>
