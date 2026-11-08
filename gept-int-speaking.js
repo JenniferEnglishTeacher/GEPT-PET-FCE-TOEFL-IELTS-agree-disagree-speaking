@@ -5,7 +5,9 @@ const UNITS = typeof GEPT_UNITS !== "undefined" ? GEPT_UNITS : [];
 const DRAFT_PREFIX = "gept-int-speak-draft-";
 
 const items = [];
-UNITS.forEach(u => u.speaking.forEach((q, i) => items.push({ id: `qa-${u.id}-${i + 1}`, kind: "qa", unit: u.id, theme: u.theme, n: i + 1, question: q })));
+const QA_SAMPLES = typeof GEPT_QA_SAMPLES !== "undefined" ? GEPT_QA_SAMPLES : {};
+UNITS.forEach(u => u.speaking.forEach((q, i) => items.push({ id: `qa-${u.id}-${i + 1}`, kind: "qa", unit: u.id, theme: u.theme, n: i + 1, question: q,
+  answer: QA_SAMPLES[`${u.id}-${i + 1}`] || "" })));
 UNITS.forEach(u => items.push({ id: `pic-${u.id}`, kind: "picture", unit: u.id, theme: u.theme, n: 1,
   question: `Picture Description · Test ${u.id}`, prompts: u.picture.prompts, answer: u.picture.answer, img: `img/gept-int/test-${u.id}.jpg` }));
 
@@ -26,7 +28,7 @@ const BRANCHES = {
   ]
 };
 const TIPS = {
-  qa: "GEPT 中級第二部分：每題 15 秒作答。先回答 (Answer)，再給原因 (Reason) 和例子 (Example)，最後一句結尾。Practise with 30–60 seconds to build longer answers.",
+  qa: "① Listen to the sample answer and read along. ② Plan your own ideas in the mind map. ③ Record your answer. GEPT 中級第二部分：每題 15 秒作答。先回答 (Answer)，再給原因 (Reason) 和例子 (Example)，最後一句結尾。Practise with 30–60 seconds to build longer answers.",
   picture: "GEPT 中級第三部分：先用 30 秒看圖和問題，再在 1 分半鐘 (90 sec) 內依序回答四個問題。Answer the four questions in order — do not read the question numbers aloud."
 };
 
@@ -41,7 +43,7 @@ const els = {};
   "cleanButton", "restoreButton", "copyTranscriptButton", "aiFeedbackButton", "randomButton", "readQuestionButton"].forEach(id => { els[id] = $(id); });
 const kindTabs = [...document.querySelectorAll("[data-kind]")];
 
-const nounMap = K.properNouns(UNITS.flatMap(u => [...u.speaking, u.picture.answer]));
+const nounMap = K.properNouns(UNITS.flatMap(u => [...u.speaking, u.picture.answer]).concat(Object.values(QA_SAMPLES)));
 const cleanText = K.cleaner(nounMap);
 let answerRec = null, readRec = null;
 
@@ -90,13 +92,15 @@ function renderQuestion() {
   els.unitTheme.textContent = `Theme: ${x.theme}`;
   els.questionText.textContent = x.kind === "qa" ? x.question : "Look at the picture and answer the four questions. 請看圖回答下列四個問題。";
   els.pictureBlock.hidden = x.kind !== "picture";
-  els.sampleBlock.hidden = x.kind !== "picture";
+  els.sampleBlock.hidden = !x.answer;
   els.sampleAnswer.innerHTML = ""; state.sampleSpans = [];
   hideSampleAccuracy();
   if (x.kind === "picture") {
     els.pictureImg.src = x.img;
     els.pictureImg.alt = `GEPT Intermediate picture description, test ${x.unit}`;
     els.picturePrompts.innerHTML = x.prompts.map(p => `<li>${K.escapeHtml(p)}</li>`).join("");
+  }
+  if (x.answer) {
     state.sampleSpans = K.wordSpans(els.sampleAnswer, x.answer);
     els.sampleAnswer.hidden = true; els.toggleSampleButton.textContent = "Show";
   }
