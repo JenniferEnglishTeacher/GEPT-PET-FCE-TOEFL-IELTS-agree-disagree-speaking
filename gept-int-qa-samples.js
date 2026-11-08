@@ -122,3 +122,68 @@ const GEPT_QA_SAMPLES = {
   "10-9": "I prefer to eat with others. Eating with family or friends is more fun because we can chat and share different dishes. For example, every Sunday my family eats dinner together and talks about our week. However, sometimes I enjoy eating alone when I'm tired and want some quiet time. But most of the time, I think meals are better with others.",
   "10-10": "Yes, I subscribe to an online English magazine for teenagers. I think it is worth doing, because it helps me improve my reading and learn about news around the world. Also, the articles are short and interesting, so I can read one every day on the bus. Although it costs a little money each month, I think it's a good investment in my English."
 };
+
+/* Picture Description sample answers — one part per question, in the same order as the test's four questions.
+   Key: unit id (#pic-1 … #pic-10). About 130–150 words ≈ 90 seconds. */
+const GEPT_PIC_SAMPLES = {
+  1: [
+    "This might be the front door of a house or an apartment.",
+    "In the picture, a delivery driver is handing a package to a woman. The driver is wearing a mask and gloves, and the woman is standing at her door to receive it. Maybe she bought something online.",
+    "Yes, I have used this kind of service many times. I often buy books and clothes online because it's fast and convenient, and I don't have to go to the store. However, I'm usually at school when the packages arrive, so my mom often receives them for me.",
+    "The driver is wearing a cap and a uniform, and the box looks quite light. The woman is smiling, so I think she is happy to get her package."
+  ],
+  2: [
+    "This might be a clothing store, maybe in a department store or a shopping mall.",
+    "Two women are standing and one man is sitting. One woman is holding a blouse and pointing at it. I think she is asking the man for his opinion. Maybe the other woman is a salesperson.",
+    "Yes, I enjoy going to places like this. Trying on new clothes makes me feel happy and relaxed. I can't always afford to buy new clothes, but even just looking is fun. I especially like shopping with my friends, because we can give each other advice and try different styles.",
+    "There are many shirts and dresses hanging on the racks behind them. The store looks bright and tidy, and the woman with the blouse is smiling, so she is enjoying her shopping."
+  ],
+  3: [
+    "Two women are having a meal together. They are laughing and chatting, so I think they are good friends.",
+    "This might be a small, casual restaurant, maybe a noodle shop.",
+    "Yes, I often eat out with my friends, maybe once or twice a week. I love trying new restaurants and simple but tasty food. Eating alone is fine, but it's much more fun with friends, because we can share dishes and talk about our day. It's a great way to relax after school.",
+    "On the wooden table, there are two bowls of soup or noodles and two small plates of side dishes, like tofu. The restaurant looks clean, and part of the wall is covered with tiles."
+  ],
+  4: [
+    "This might be a busy street in a city, at a pedestrian crossing.",
+    "Two women are crossing the street on a rainy day. They are both holding umbrellas. Behind them, a taxi is waiting, and there are other cars and a bus on the road.",
+    "I think crossing here is quite safe, because they are using the crosswalk and the light is green for them. There are still twenty-five seconds left. Also, drivers must stop for people on the crosswalk, or they will get a fine. However, on rainy days, drivers can't see clearly, so people should still be careful and walk quickly.",
+    "The road is wet, and the sky is grey. There is a traffic light with a countdown timer, and the buildings in the background look like offices and shops."
+  ],
+  5: [
+    "This might be a high mountain, maybe on a famous hiking trail.",
+    "Several people are hiking along a very narrow mountain path. They are wearing helmets and holding onto a rope, and they are walking close to the rock on the left, because there is a steep drop on the right.",
+    "No, I have never tried this kind of activity. I have only been on some easy hikes near my home. To be honest, I'm a little afraid of heights, and I'm also worried about getting altitude sickness. So I don't think I would do this, even though the view must be amazing.",
+    "The hikers are carrying backpacks, and they look careful and serious. The mountain is very rocky, and the path looks dangerous."
+  ],
+  6: [
+    "This might be a hotel or an apartment building. It looks bright and clean.",
+    "A woman is walking up the stairs with a bag on her right arm and a small suitcase in her left hand. A man is holding a broom and a dustpan, so he is probably a cleaner. They are looking at each other, and maybe he is offering to help her.",
+    "I don't usually carry heavy bags up the stairs. When I stay at a hotel with my family, we always use the elevator. If there were no elevator, I would ask someone who works there to help me, because carrying a suitcase up the stairs is tiring and a little dangerous.",
+    "The stairs are wide and the floor is shiny. The woman is wearing casual clothes, and both of them look friendly."
+  ],
+  7: [
+    "This might be a quiet river or a lake in the countryside.",
+    "A man is sitting by the river. He is fishing. He is wearing a hat and sitting under an umbrella to protect himself from the sun.",
+    "No, I don't go fishing very often. My grandfather has taken me fishing a few times, and he says it's relaxing. However, to be honest, I find it quite boring. Sitting still for a long time and maybe catching nothing isn't for me. I prefer more active hobbies, like playing basketball or riding my bike.",
+    "Next to him, there is a fishing rod on one side and a life ring on the other. He is sitting on a cooler, which he probably uses to keep his bait and the fish he catches."
+  ],
+  8: [
+    "This might be a campground, maybe in a park or near a forest.",
+    "Four people are collecting trash. Two men are bending down and picking up food containers, and two women are carrying garbage bags. I think they are cleaning up after their camping trip.",
+    "Yes, I think this is very important, and I always do it too. If people leave trash behind, it makes the place dirty and can hurt animals. Sometimes it can even cause forest fires. When my family goes camping or has a picnic, we always take our trash home. I think it's the least we can do for the environment.",
+    "The ground is covered with grass, and there are trees behind them. The people are wearing casual clothes, and they look responsible and hard-working."
+  ],
+  9: [
+    "This might be a rice field in the countryside, far away from the city.",
+    "There are three people in the picture. I think they are rice farmers. They are walking through the wet, muddy field, and it looks difficult to move. Maybe they are checking or planting the rice.",
+    "Yes, I would like to try this job, but only for a day. I think it would be interesting to learn how rice is grown, because most people today live in cities and don't know much about farming. However, I don't think I could do it every day. It looks very tiring, especially in the hot sun.",
+    "The young rice plants are arranged in neat rows. The farmers are wearing hats and long sleeves to protect themselves from the sun."
+  ],
+  10: [
+    "This might be an office. It looks modern and comfortable.",
+    "A woman is eating lunch at her desk while she looks at her laptop. I think she is doing this because she is very busy and has too much work to finish.",
+    "I don't think this is a good idea if she does it every day. Everyone needs a break during work. If she works while she eats, she won't relax, and she may feel stressed and tired in the afternoon. Also, her lunch looks unhealthy. I think office workers should leave their desks, take a short walk, and eat a healthy meal.",
+    "On her desk, there is some fried chicken and a cup of bubble milk tea. The food looks delicious, but it's not very healthy. Her office is bright and tidy."
+  ]
+};

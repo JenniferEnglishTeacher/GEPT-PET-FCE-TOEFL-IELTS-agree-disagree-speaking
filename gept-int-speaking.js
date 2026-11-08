@@ -9,7 +9,9 @@ const QA_SAMPLES = typeof GEPT_QA_SAMPLES !== "undefined" ? GEPT_QA_SAMPLES : {}
 UNITS.forEach(u => u.speaking.forEach((q, i) => items.push({ id: `qa-${u.id}-${i + 1}`, kind: "qa", unit: u.id, theme: u.theme, n: i + 1, question: q,
   answer: QA_SAMPLES[`${u.id}-${i + 1}`] || "" })));
 UNITS.forEach(u => items.push({ id: `pic-${u.id}`, kind: "picture", unit: u.id, theme: u.theme, n: 1,
-  question: `Picture Description · Test ${u.id}`, prompts: u.picture.prompts, answer: u.picture.answer, img: `img/gept-int/test-${u.id}.jpg` }));
+  question: `Picture Description · Test ${u.id}`, prompts: u.picture.prompts,
+  parts: (typeof GEPT_PIC_SAMPLES !== "undefined" && GEPT_PIC_SAMPLES[u.id]) || null,
+  answer: ((typeof GEPT_PIC_SAMPLES !== "undefined" && GEPT_PIC_SAMPLES[u.id]) || [u.picture.answer]).join(" "), img: `img/gept-int/test-${u.id}.jpg` }));
 
 const TIMES = { qa: [15, 30, 45, 60], picture: [30, 90, 120] };
 const DEFAULT_TIME = { qa: 30, picture: 90 };
@@ -100,7 +102,17 @@ function renderQuestion() {
     els.pictureImg.alt = `GEPT Intermediate picture description, test ${x.unit}`;
     els.picturePrompts.innerHTML = x.prompts.map(p => `<li>${K.escapeHtml(p)}</li>`).join("");
   }
-  if (x.answer) {
+  if (x.parts) {
+    const spans = [];
+    x.parts.forEach((part, i) => {
+      const p = document.createElement("span"); p.className = "gi-part";
+      const tag = document.createElement("b"); tag.className = "gi-part-tag"; tag.textContent = `Q${i + 1}`;
+      tag.title = x.prompts[i] || ""; p.appendChild(tag); p.append(" ");
+      K.wordSpans(p, part, spans); els.sampleAnswer.appendChild(p);
+    });
+    state.sampleSpans = spans;
+    els.sampleAnswer.hidden = true; els.toggleSampleButton.textContent = "Show";
+  } else if (x.answer) {
     state.sampleSpans = K.wordSpans(els.sampleAnswer, x.answer);
     els.sampleAnswer.hidden = true; els.toggleSampleButton.textContent = "Show";
   }

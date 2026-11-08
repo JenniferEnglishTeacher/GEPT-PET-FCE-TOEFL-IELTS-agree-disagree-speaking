@@ -81,3 +81,7 @@
 }
 @media (max-width: 980px) { .gi-work { grid-template-columns: 1fr; } }
 @media (max-width: 760px) { .app-shell.gi-layout { grid-template-columns: 1fr; } }
+/* Picture sample: one block per question, tagged Q1–Q4 (tags are not read aloud) */
+.gi-part { display: block; margin: 0 0 8px; }
+.gi-part:last-child { margin-bottom: 0; }
+.gi-part-tag { display: inline-block; min-width: 30px; padding: 1px 7px; margin-right: 4px; border-radius: 999px; background: #0f7c80; color: #fff; font-size: 12px; text-align: center; vertical-align: 2px; cursor: help; }
