@@ -8669,6 +8669,516 @@ window.IELTS_PART2 = [
     "a": "**Definitely not.** **In fact,** I know retired people in Taiwan who have started painting or learning English in their sixties. **Of course,** some physical hobbies may be harder as you get older. **But generally,** adults have more patience and money, so they can actually learn faster than you might expect."
    }
   ]
+ },
+ {
+  "id": "language-1",
+  "theme": "Language & Communication",
+  "themeZh": "語言與溝通",
+  "setLabel": "Set 1",
+  "title": "Describe a foreign language you have learned.",
+  "cues": [
+   "what the language is",
+   "when and how you learned it",
+   "how well you can speak it now",
+   "and explain why you decided to learn it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Japanese 日文 → 2nd foreign language after English, started at 16"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "anime + J-pop → evening classes near Taipei Main Station 2×/wk; hiragana, katakana, kanji easy-ish for TW ppl, grammar backwards (verb at end)"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "1st trip to Kyoto → ordered ramen at a ticket machine, asked staff a Q in Japanese → they answered + I understood! → passed JLPT N3 next yr"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "now: chat + read menus, not business level; keigo still hard; motivation = fun, not exams"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the language I’d like to talk about is Japanese, which is actually the second foreign language I’ve learned after English. **I started** when I was sixteen, **mainly because** I was completely obsessed with anime and Japanese pop music at the time, and I was tired of waiting for Chinese subtitles to come out.",
+   "**At first,** I just taught myself with free videos online, **but** I didn’t get very far. **So** my parents agreed to pay for evening classes at a language school near Taipei Main Station, and I went twice a week for about two years. **In some ways,** Japanese is quite easy for Taiwanese learners, **because** many of the written characters, called kanji, are similar to ours. **On the other hand,** the grammar felt totally backwards to me, **since** the verb always comes at the very end of the sentence.",
+   "**The moment I knew it was working** was on my first trip to Kyoto. I went into a tiny ramen shop where you buy a ticket from a machine, **and** I got confused about the toppings. **So** I took a deep breath and asked the staff a question in Japanese. **To my surprise,** they answered me in Japanese, and I understood almost every word! **Not long after that,** I passed the JLPT N3, which is an intermediate level of the official proficiency test.",
+   "**These days,** I can chat with Japanese friends and read most menus and signs, **although** I’m definitely not at a business level. The polite forms, called keigo, still give me a headache. **Looking back,** I think I’ve kept going **because** I started for fun rather than for exams, **and** that kind of motivation lasts much longer."
+  ],
+  "followUps": [
+   {
+    "q": "Why do people learn foreign languages?",
+    "a": "**Well,** there are lots of reasons. **For example,** many people in Taiwan learn English because it’s essential for good jobs and university. **Others** learn Japanese or Korean **because** they love the dramas, music or food. **On top of that,** some people simply enjoy travelling and want to talk to locals instead of relying on translation apps all the time."
+   },
+   {
+    "q": "Is it better to learn a language in a classroom or by yourself?",
+    "a": "**I think** a mix of both works best. **On the one hand,** a classroom gives you structure, a teacher who corrects your mistakes and classmates to practise with. **On the other hand,** learning by yourself lets you focus on things you actually enjoy, like songs or videos. **Personally,** I needed classes at first, **but** self-study kept me motivated."
+   },
+   {
+    "q": "Will translation apps make learning languages unnecessary?",
+    "a": "**Not really, in my opinion.** **Of course,** apps are incredibly useful for travel or reading a simple menu. **However,** they can’t help you build a real friendship or understand jokes and culture. **Besides,** talking to someone through a phone screen feels quite cold. **So** I believe people will still learn languages, especially for work and relationships."
+   }
+  ]
+ },
+ {
+  "id": "language-2",
+  "theme": "Language & Communication",
+  "themeZh": "語言與溝通",
+  "setLabel": "Set 2",
+  "title": "Describe the first time you spoke to a native English speaker.",
+  "cues": [
+   "who the person was",
+   "where and when you met",
+   "what you talked about",
+   "and explain how you felt about the conversation."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "age 12, junior high, Canadian backpacker at Jiufen → class trip, teacher’s ‘mission’: interview a foreigner"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "group of 4, wrote Qs on paper: Where are you from? Do you like Taiwan? stinky tofu?; tall man w/ huge backpack, very friendly"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "froze, forgot everything; he spoke slowly + used gestures; I said ‘I am fine, thank you, and you?’ at the wrong time → everyone laughed; he tried our taro balls"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "nervous → relieved → proud; realised English = tool for real ppl, not just exams; mistakes OK"
+   }
+  ],
+  "sample": [
+   "**Alright, so** the first time I ever spoke to a native English speaker was when I was about twelve, in my first year of junior high. **Basically,** our class went on a school trip to Jiufen, the old mountain town near Keelung, **and** our English teacher gave us a little mission: each group had to interview a foreign tourist.",
+   "**Before the trip,** my group of four wrote our questions on a piece of paper, **like** “Where are you from?”, “Do you like Taiwan?” and, of course, “Have you tried stinky tofu?”. **When we got there,** we walked around the narrow old street for ages, **because** we were too shy to approach anyone. **In the end,** we stopped a very tall man with a huge backpack, who turned out to be a Canadian traveller. **Luckily,** he had a big smile and seemed happy to help.",
+   "**The funny thing was** that as soon as he said hello, my mind went completely blank. **For a few seconds,** I just stared at the paper. **Fortunately,** he spoke really slowly and used lots of gestures, **so** I managed to ask a couple of questions. **At one point,** though, I said “I’m fine, thank you, and you?” when he hadn’t even asked how I was, and everyone burst out laughing, **including** him. **Before he left,** we bought him a bowl of taro balls, and he said they were amazing.",
+   "**Looking back,** I went from terrified to relieved and then really proud. **More importantly,** it was the first time I realised English wasn’t just a school subject for exams, **but** a tool for talking to real people. **Since then,** I’ve been much less afraid of making mistakes."
+  ],
+  "followUps": [
+   {
+    "q": "Why are many students nervous about speaking English?",
+    "a": "**I think** the main reason is fear of making mistakes. **For example,** in many Taiwanese classrooms, students mostly do reading and grammar tests, **so** they rarely practise speaking out loud. **On top of that,** some students worry their classmates will laugh at their accent. **As a result,** they know a lot of English but feel frozen in real conversations."
+   },
+   {
+    "q": "How can schools give students more chances to speak with foreigners?",
+    "a": "**Well,** one simple idea is to invite international students from local universities into classes. **Another option** is online video exchanges with schools in other countries. **In addition,** school trips to tourist spots, like my Jiufen trip, can be really useful. **The key thing** is that students talk to real people **rather than** just repeating textbook dialogues."
+   },
+   {
+    "q": "Is a native speaker always the best English teacher?",
+    "a": "**Not necessarily, in my view.** **Of course,** native speakers have natural pronunciation and know the latest expressions. **However,** local teachers who learned English themselves often understand students’ problems much better. **For instance,** a Taiwanese teacher can explain grammar by comparing it with Chinese. **So** I’d say a good teacher is more important than where they come from."
+   }
+  ]
+ },
+ {
+  "id": "language-3",
+  "theme": "Language & Communication",
+  "themeZh": "語言與溝通",
+  "setLabel": "Set 3",
+  "title": "Describe a misunderstanding you had with someone because of language.",
+  "cues": [
+   "who you were talking to",
+   "what the misunderstanding was",
+   "how you found out",
+   "and explain how you felt about it afterwards."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "exchange semester in Melbourne, flatmate Josh → ‘How are you going?’ + slang"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "Aussie English fast + short: arvo, brekkie; Josh invited me to ‘bring a plate’ to a BBQ"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "thought = bring an empty plate → turned up w/ a plate + chopsticks, no food; actually = bring a dish to share → embarrassed, everyone laughed kindly"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "embarrassed → funny story now; next BBQ brought scallion pancakes → hit; lesson: ask when unsure, language = culture"
+   }
+  ],
+  "sample": [
+   "**Okay, so** I’d like to talk about a funny misunderstanding I had during my exchange semester in Melbourne, Australia, about three years ago. **At that time,** I was sharing a flat with a local student called Josh, **who** was really friendly **but** spoke incredibly fast. I thought my English was pretty good **until** I actually arrived in the country.",
+   "**The thing is,** Australian English has a lot of slang and short forms. **For example,** they say “arvo” for afternoon and “brekkie” for breakfast. **One week,** Josh invited me to a barbecue at his parents’ house and said, “Oh, and could you bring a plate?” **Naturally,** I took this literally. I thought maybe they didn’t have enough plates for all the guests, **so** I didn’t think twice about it.",
+   "**So on the day,** I turned up holding one clean plate and a pair of chopsticks, **while** everyone else arrived with salads, cakes and sausages. **At first,** Josh looked confused, and then he burst out laughing. **It turned out that** “bring a plate” means bring some food to share. I wanted the ground to swallow me up! **Thankfully,** his mum was really sweet about it and told everyone the story as a joke, so I ended up laughing too.",
+   "**Looking back,** I felt really embarrassed at the time, **but** now it’s one of my favourite stories to tell. **In fact,** at the next barbecue I brought homemade scallion pancakes, **and** they disappeared in five minutes. **The main lesson** for me was to ask when I’m not sure, because language is closely connected to culture."
+  ],
+  "followUps": [
+   {
+    "q": "Why do misunderstandings happen between people from different cultures?",
+    "a": "**I’d say** it’s because words carry cultural meanings that textbooks don’t teach. **For example,** an expression can mean one thing literally **but** something completely different in daily life. **Besides that,** body language differs too, like how direct eye contact is polite in some places but rude in others. **So** misunderstandings are almost unavoidable."
+   },
+   {
+    "q": "Is it better to speak politely or directly in a foreign language?",
+    "a": "**It depends on** the culture, **I think.** **In Taiwan,** people tend to be quite indirect so that nobody loses face. **However,** in places like Australia or Germany, being too indirect can be confusing. **Generally speaking,** I’d start politely and then adjust once I understand how local people communicate with each other."
+   },
+   {
+    "q": "How can people avoid misunderstandings at work?",
+    "a": "**Well,** the simplest way is to check that everyone understands. **For instance,** after a meeting you can send a short email summarising what was agreed. **In addition,** people should feel comfortable asking questions **rather than** pretending they understand. **Finally,** in international teams, using simple, clear English instead of slang makes a big difference."
+   }
+  ]
+ },
+ {
+  "id": "language-4",
+  "theme": "Language & Communication",
+  "themeZh": "語言與溝通",
+  "setLabel": "Set 4",
+  "title": "Describe a speech you gave or heard that impressed you.",
+  "cues": [
+   "what the speech was about",
+   "where and when it happened",
+   "who gave it",
+   "and explain why it made an impression on you."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "my grad speech, senior high, spoke on behalf of graduating class → first time in front of ~800 ppl"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "school hall, June; topic = ‘thank you + failure’; 3 min, wrote 6 drafts, homeroom teacher helped cut it"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "mic squeaked at start → laughed, joked ‘even the mic is nervous’ → crowd relaxed; mentioned failing a maths mock exam; saw mum crying"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "learned: short + personal story > big words; eye contact; confidence from practice, not talent"
+   }
+  ],
+  "sample": [
+   "**Right, so** I’d like to talk about a speech I gave myself, at my senior high school graduation ceremony. **Basically,** I was chosen to speak on behalf of the whole graduating class, **which** meant standing in front of around eight hundred students, teachers and parents. **Before that,** I’d never spoken to more than about forty people at once.",
+   "**The ceremony** was held in our school hall in June, and it was boiling hot, **even though** the air conditioning was on full. **As for the topic,** I decided to talk about two things: saying thank you, and learning from failure. **Altogether,** the speech was only about three minutes long, but I wrote six different drafts. **In fact,** my homeroom teacher helped me cut almost half of it, because my first version was full of fancy words and famous quotes.",
+   "**On the day itself,** the microphone made a horrible squeaking noise the moment I started. **For a second,** I panicked, but then I just laughed and said, “Even the microphone is nervous today.” **Surprisingly,** everyone laughed, and suddenly the whole hall felt much more relaxed. **After that,** I told a short story about failing a maths mock exam and how my friends helped me catch up. **Halfway through,** I noticed my mum in the third row wiping her eyes.",
+   "**Looking back,** that speech taught me that a short, personal story is far more powerful **than** big words. **It also** showed me how important eye contact is. **Most importantly,** I realised confidence comes from practice **rather than** natural talent, **which** really helped me later at university."
+  ],
+  "followUps": [
+   {
+    "q": "What makes a good public speaker?",
+    "a": "**I think** good speakers are clear and sincere. **For example,** they use simple language and tell real stories **instead of** reading facts from slides. **On top of that,** they make eye contact and speak at a comfortable speed. **Finally,** they keep it short, because even the best speech becomes boring if it goes on too long."
+   },
+   {
+    "q": "Should public speaking be taught in schools?",
+    "a": "**Absolutely, yes.** **First of all,** almost every job involves presenting ideas, whether it’s a team meeting or a job interview. **Besides that,** practising in a safe classroom helps shy students build confidence. **In Taiwan,** **however,** students rarely get the chance, because lessons focus so much on written exams."
+   },
+   {
+    "q": "Why are some people afraid of speaking in public?",
+    "a": "**Well,** most people are afraid of being judged. **For instance,** they worry they’ll forget their words or that people will laugh at them. **In addition,** if someone had a bad experience as a child, **like** being teased in class, that fear can stay for years. **The good news** is that regular practice usually makes it much easier."
+   }
+  ]
+ },
+ {
+  "id": "language-5",
+  "theme": "Language & Communication",
+  "themeZh": "語言與溝通",
+  "setLabel": "Set 5",
+  "title": "Describe a change that has made English more common in your country.",
+  "cues": [
+   "what the change is",
+   "when you first noticed it",
+   "how it affects people’s daily lives",
+   "and explain whether you think it is a positive change."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Taiwan’s bilingual policy 雙語政策 → govt plan (announced 2018) to make TW bilingual by 2030"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "more English signs at MRT, govt offices, hospitals; some schools teach PE / art in English; English-taught courses at unis"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "my cousin’s primary school → PE teacher gives instructions in English; cousin now says ‘line up!’ at home → funny"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "causes: global trade, tech industry, attract foreign talent; effects: more exposure + confidence BUT teacher shortage, rural/urban gap → good idea, needs time + resources"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the change I want to describe is Taiwan’s bilingual policy. **Basically,** back in 2018 the government announced a plan to make Taiwan a bilingual country by 2030, with English used alongside Mandarin in schools and public services. **Since then,** English has definitely become more visible in everyday life, **especially** in big cities like Taipei and Kaohsiung.",
+   "**For example,** there are many more English signs in MRT stations, government offices and hospitals, **so** foreigners can get around much more easily. **In addition,** some schools now teach subjects like PE, music or art partly in English, **and** a growing number of universities offer courses that are taught completely in English. **Even** some local government websites and public announcements now have proper English versions too, which really helps.",
+   "**I first noticed** how much it was changing things through my little cousin, **who** is in primary school. **According to her,** her PE teacher gives most instructions in English, like “line up” or “pass the ball”. **The funny thing is that** she now uses these phrases at home, so when it’s time for dinner, she shouts “Line up!” at the whole family. **Interestingly,** she’s much less shy about speaking English than I was at her age.",
+   "**In my view,** the main causes are global trade and Taiwan’s tech industry, **since** companies need staff who can work with international clients. **On the positive side,** children get more exposure and confidence. **However,** there aren’t enough qualified teachers, **and** rural schools may fall behind city schools. **Overall,** I think it’s a good idea, but it needs time and proper resources."
+  ],
+  "followUps": [
+   {
+    "q": "Why is English so important in the modern world?",
+    "a": "**I think** it’s because English has become the main global language for business, science and the internet. **For example,** most research papers and international meetings are in English. **On top of that,** it’s the language travellers use when they don’t share a mother tongue. **So** speaking English opens a lot of doors, **especially** for young people."
+   },
+   {
+    "q": "Could the spread of English harm local languages?",
+    "a": "**To some extent,** yes. **For instance,** many young Taiwanese already speak less Taiwanese Hokkien or Hakka than their grandparents did. **If** English takes up even more school time, local languages could get pushed aside further. **That’s why** I think schools should protect mother-tongue classes **while** also teaching English."
+   },
+   {
+    "q": "At what age should children start learning a foreign language?",
+    "a": "**Generally speaking,** I think earlier is better. **Young children** copy sounds very naturally, **so** their pronunciation is usually better. **However,** it should be fun, through songs and games, rather than grammar tests. **Personally,** I don’t think it’s a disaster to start later, because motivated adults can also learn quickly."
+   }
+  ]
+ },
+ {
+  "id": "language-6",
+  "theme": "Language & Communication",
+  "themeZh": "語言與溝通",
+  "setLabel": "Set 6",
+  "title": "Describe a person you know who speaks several languages.",
+  "cues": [
+   "who this person is",
+   "what languages he or she speaks",
+   "how he or she learned them",
+   "and explain what you think of this person’s language ability."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "my grandpa 阿公, nearly 90, lives in Tainan → speaks 3 languages"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "Taiwanese Hokkien = mother tongue; Japanese = primary school under Japanese rule; Mandarin = learned later as adult for work"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "family trip to Okinawa → grandpa chatted w/ old shop owner in Japanese for ages, got free sweets; we just stood there amazed"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "his languages = TW history in one person; switches w/o thinking; regret: I can’t speak Hokkien well → learning from him"
+   }
+  ],
+  "sample": [
+   "**Well,** the person I’d like to talk about is my grandpa, **who** is nearly ninety and lives in Tainan. **Without a doubt,** he’s the most amazing language speaker in my family, **because** he can switch between three languages without even thinking about it: Taiwanese Hokkien, Japanese and Mandarin.",
+   "**To give you some background,** Taiwanese Hokkien is his mother tongue, and it’s still the language he uses with his old friends at the temple every morning. **As for Japanese,** he went to primary school when Taiwan was under Japanese rule, **so** all his early lessons were in Japanese. **Then,** after the war, he had to learn Mandarin as a young adult, mainly for his job at a local government office. **Apparently,** he practised by reading newspapers out loud every night.",
+   "**The time I was most impressed** was on a family trip to Okinawa a few years ago. **In a small souvenir shop,** grandpa started chatting with the elderly owner in Japanese, **and** they ended up talking for nearly half an hour about the old days. **Meanwhile,** the rest of us just stood there with our mouths open, **since** none of us understood a word. **At the end,** the owner gave him a big bag of brown sugar sweets for free!",
+   "**To me,** his language ability is like a piece of Taiwanese history in one person. **What I admire most is that** he never made a big deal about it. **The only thing I regret** is that my own Hokkien isn’t very good. **So recently,** I’ve started asking him to teach me some phrases **whenever** I visit."
+  ],
+  "followUps": [
+   {
+    "q": "Why do older people in Taiwan often speak different languages from young people?",
+    "a": "**Well,** it’s mostly because of history and school policy. **For example,** many older people grew up speaking Taiwanese or Hakka at home, **and** some even studied in Japanese. **However,** for decades schools focused heavily on Mandarin, **so** younger generations mainly speak Mandarin and often lose their family’s mother tongue."
+   },
+   {
+    "q": "Is it important to keep local languages alive?",
+    "a": "**Definitely, in my opinion.** **First of all,** a language carries songs, jokes and stories that can’t be fully translated. **In addition,** speaking your grandparents’ language helps you connect with them. **Once a language disappears,** that knowledge is gone forever, **which** is why I think schools and families both have a role to play."
+   },
+   {
+    "q": "Do people who speak many languages have any advantages?",
+    "a": "**Yes, quite a few.** **For one thing,** they have more job opportunities, **especially** in international companies or tourism. **For another,** they can make friends from different backgrounds more easily. **Some research** also suggests that switching between languages keeps the brain active, although I’m not an expert on that."
+   }
+  ]
+ },
+ {
+  "id": "language-7",
+  "theme": "Language & Communication",
+  "themeZh": "語言與溝通",
+  "setLabel": "Set 7",
+  "title": "Describe a word or phrase in your language that is hard to translate.",
+  "cues": [
+   "what the word or phrase is",
+   "when people use it",
+   "why it is hard to translate",
+   "and explain how you would explain it to a foreigner."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "辛苦了 xīn kǔ le → literally ‘you’ve had it hard / bitter’"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "said to colleagues at end of day, to delivery driver, to mum after cooking, to teacher after class; thanks + respect + sympathy in one"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "told Canadian colleague ‘you’ve suffered’ after meeting → she looked worried, thought I meant she did badly → had to explain"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "closest = ‘thanks for your hard work’ / ‘good job’, but not same feeling; shows TW culture values effort + modesty"
+   }
+  ],
+  "sample": [
+   "**Okay, so** a phrase I think is really hard to translate is “xīnkǔ le” in Mandarin. **Literally,** it means something like “you’ve had a hard and bitter time”, **which** sounds quite strange and sad in English. **But actually,** it’s one of the warmest and most common phrases we use in Taiwan, **and** I probably say it several times a day.",
+   "**Basically,** people use it whenever someone has put in effort. **For example,** at the end of a long working day, colleagues say it to each other as they leave the office. **Similarly,** you might say it to a delivery driver who brings your parcel in the rain, **or** to your mum after she’s cooked a big meal. **What makes it tricky is that** it mixes thanks, respect and sympathy all in one short phrase, so there’s no single English word that does the same job.",
+   "**I really noticed this problem** when I started working with a Canadian colleague last year. **After** she gave a long presentation to a difficult client, I wanted to show my appreciation, **so** I translated it directly and told her, “You’ve suffered.” **Immediately,** she looked really worried and asked if she’d done badly! **In the end,** I had to explain that it was actually a compliment, **and** we both had a good laugh.",
+   "**If I had to explain it to a foreigner now,** I’d say the closest English is “thanks for all your hard work”, **although** it isn’t quite the same feeling. **More importantly,** I’d tell them it shows how much Taiwanese culture values effort and being modest. **Since then,** she’s actually started saying it in Mandarin herself."
+  ],
+  "followUps": [
+   {
+    "q": "Why do some words not exist in other languages?",
+    "a": "**I think** it’s because every language develops around a particular culture and way of life. **For example,** some languages have many words for rice **because** rice is so central to daily meals. **In the same way,** phrases about politeness reflect how people treat each other. **So** a missing word often tells you something interesting about a culture."
+   },
+   {
+    "q": "Do you think machine translation will ever be perfect?",
+    "a": "**Probably not completely, in my view.** **Of course,** translation apps have improved a lot and are great for simple sentences. **However,** they often miss humour, tone and cultural meaning, **like** my “you’ve suffered” mistake. **As a result,** I think human translators will still be needed for literature, films and important business meetings."
+   },
+   {
+    "q": "Is it useful to learn about culture when you learn a language?",
+    "a": "**Absolutely.** **First of all,** knowing the culture helps you understand why people say things in a certain way. **Besides that,** it helps you avoid embarrassing mistakes, **such as** being too direct or too informal. **On top of that,** learning about festivals, food and films makes studying much more fun and keeps you motivated."
+   }
+  ]
+ },
+ {
+  "id": "language-8",
+  "theme": "Language & Communication",
+  "themeZh": "語言與溝通",
+  "setLabel": "Set 8",
+  "title": "Describe a time when you communicated with someone without using a shared language.",
+  "cues": [
+   "who the person was",
+   "where it happened",
+   "how you communicated",
+   "and explain how you felt about the experience."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "trip to Hanoi, Vietnam w/ best friend → lost phone charger + needed a pharmacy"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "old quarter, tiny shops; elderly pharmacist, no English, we no Vietnamese; friend had bad cold"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "gestures: coughing, touching forehead, sneezing → she laughed + nodded; drew a phone on paper for charger → she took us next door to her nephew"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "warm + funny; body language + kindness > words; now try to help foreigners in Taipei the same way"
+   }
+  ],
+  "sample": [
+   "**Alright, so** I’d like to talk about a time I had to communicate using only gestures. **It happened** on a trip to Hanoi in Vietnam with my best friend a couple of years ago. **On the second day,** two problems hit us at once: my friend caught a nasty cold, **and** I realised I’d left my phone charger on the plane.",
+   "**At that point,** we were wandering around the Old Quarter, **which** is full of narrow streets and tiny family shops. **Eventually,** we found a small pharmacy run by an elderly lady. **The problem was that** she didn’t speak any English, **and** we didn’t know a single word of Vietnamese apart from “thank you”. **To make things worse,** my phone was almost dead, so we couldn’t use a translation app either.",
+   "**So** we just started acting. My friend coughed loudly, touched her forehead and pretended to sneeze, **and** the lady burst out laughing **before** nodding and handing us some cold medicine. **Then** it was my turn. I drew a phone with a cable on a scrap of paper and looked as desperate as possible. **To our surprise,** she walked us next door to her nephew’s little electronics shop, where he found exactly the right charger. **Afterwards,** she even patted my friend on the arm, like a grandma would.",
+   "**Looking back,** I felt a mix of embarrassment and real warmth. **What it taught me is that** body language and kindness can sometimes do more **than** perfect grammar. **Since then,** whenever I see confused tourists in Taipei, I try to help them in the same way."
+  ],
+  "followUps": [
+   {
+    "q": "How important is body language when we communicate?",
+    "a": "**I’d say** it’s extremely important. **For example,** a smile or a nod can show you’re friendly **even if** you don’t understand the words. **On top of that,** people often trust body language more than speech, so if your face looks bored, they’ll notice. **However,** some gestures mean different things in different countries, so you need to be careful."
+   },
+   {
+    "q": "Should tourists learn some words of the local language before they travel?",
+    "a": "**Yes, I think so.** **Even** a few words like “hello”, “please” and “thank you” show respect for local people. **In addition,** shopkeepers usually become much friendlier **when** you make an effort. **Personally,** I always try to learn about ten basic phrases before a trip, because it makes everything smoother."
+   },
+   {
+    "q": "How can a city make life easier for visitors who don’t speak the local language?",
+    "a": "**Well,** clear signs with pictures and English are a great start. **For instance,** Taipei’s MRT uses colours, numbers and English names, **so** it’s easy to follow. **Another idea** is to train staff at stations and hotels in basic English. **Finally,** free tourist apps with translation and maps can help a lot."
+   }
+  ]
+ },
+ {
+  "id": "language-9",
+  "theme": "Language & Communication",
+  "themeZh": "語言與溝通",
+  "setLabel": "Set 9",
+  "title": "Describe a place where you practised a foreign language.",
+  "cues": [
+   "where the place is",
+   "what people do there",
+   "how often you went there",
+   "and explain how it helped you improve."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "language exchange meetup at a café near Gongguan, Taipei → every Wed night"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "2nd floor, wooden tables, flags on each table = language; 30 min English → switch → 30 min Mandarin; students, engineers, backpackers"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "1st night: sat silently at English table; Irish guy Liam asked me about bubble tea → talked 1 hr; became regular partners"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "went ~1 yr; speaking fluency ↑, accents (Irish, Indian, US); less afraid; free, relaxed, real conversation > textbook"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the place I want to talk about is a café near Gongguan in Taipei, **which** holds a language exchange meetup every Wednesday evening. **Basically,** it’s a place where foreigners who want to practise Mandarin meet Taiwanese people who want to practise English or other languages. **For about a year,** it was where I practised English every week.",
+   "**The café itself** is on the second floor of an old building, with big wooden tables and a small flag on each one to show which language people are speaking. **The way it works is that** you speak English for about thirty minutes, **then** switch to Mandarin so your partner gets a turn. **Interestingly,** the people there are really varied, **from** university students and engineers to backpackers who are only in Taiwan for a week.",
+   "**I still remember** my first night there. **To be fair,** I was so nervous that I just sat at the English table drinking my tea and saying nothing for twenty minutes. **Then** an Irish guy called Liam sat down and asked me why bubble tea was so popular. **Surprisingly,** that simple question led to an hour-long conversation about food, family and travelling. **After that,** we became regular partners, and he even taught me some Irish slang.",
+   "**Looking back,** it helped me in lots of ways. **First of all,** my speaking became much more fluent, **because** I had to think on my feet. **Also,** I got used to different accents, **like** Irish, Indian and American. **Most importantly,** I stopped being afraid of real conversations, which no textbook could ever teach me."
+  ],
+  "followUps": [
+   {
+    "q": "What are the benefits of language exchange?",
+    "a": "**Well,** the biggest benefit is real conversation practice. **For example,** you learn natural expressions that textbooks never include. **Besides that,** it’s usually free or very cheap, **unlike** private lessons. **On top of that,** you make friends from different countries and learn about their cultures, so it’s much more than just a language class."
+   },
+   {
+    "q": "Why do some people find it hard to practise speaking a foreign language?",
+    "a": "**I think** there are two main reasons. **Firstly,** many people simply don’t have chances to meet foreigners in daily life. **Secondly,** they feel embarrassed about their mistakes or accent. **As a result,** they study grammar and vocabulary for years **but** rarely open their mouths, which makes speaking even scarier over time."
+   },
+   {
+    "q": "Is it necessary to live abroad to become fluent in a language?",
+    "a": "**Not necessarily, in my opinion.** **Of course,** living abroad helps a lot, **because** you’re surrounded by the language every day. **However,** nowadays you can watch films, join online classes and go to language exchanges at home. **So** I think motivation and regular practice matter more than where you live."
+   }
+  ]
+ },
+ {
+  "id": "language-10",
+  "theme": "Language & Communication",
+  "themeZh": "語言與溝通",
+  "setLabel": "Set 10",
+  "title": "Describe a book or dictionary that helped you learn a language.",
+  "cues": [
+   "what it was",
+   "when and how you got it",
+   "how you used it",
+   "and explain why it was so helpful."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "thick green English–Chinese learner’s dictionary → gift from my aunt, 1st year senior high"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "800+ pages, example sentences, phonetic symbols (KK 音標), collocations ‘make a decision’ not ‘do’"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "highlighter + sticky notes; looked up every word in English novels; pages fell out → taped them; before GSAT read colour-coded pages"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "now use apps but kept it on shelf; taught me words in context + patience; slow learning sticks"
+   }
+  ],
+  "sample": [
+   "**Right, so** I’d like to talk about an old English–Chinese learner’s dictionary that really helped me when I was a teenager. **Basically,** it was a thick green book with over eight hundred pages, and my aunt, who’s been an English teacher for over twenty years, gave it to me as a present when I started senior high school.",
+   "**At first,** I thought it was a bit of a boring gift, **because** most of my classmates just used apps on their phones. **However,** I soon realised it was much better than a simple word list. **For example,** every word came with example sentences, phonetic symbols to show the pronunciation, **and** notes on collocations. **Thanks to it,** I learned that we say “make a decision”, not “do a decision”, which is a really common mistake for Taiwanese students.",
+   "**In terms of how I used it,** I was quite obsessive. I highlighted every new word in yellow and stuck little coloured notes on pages I wanted to review. **Later on,** I started reading simple English novels and looked up almost every unfamiliar word. **As a result,** the dictionary got so worn out that some pages fell out, **and** I had to tape them back in. **Before my university entrance exam,** I even flipped through all my highlighted pages one last time.",
+   "**These days,** I mostly use dictionary apps, **but** I’ve kept that book on my shelf. **Looking back,** it was helpful **because** it taught me words in context **rather than** as single translations. **It also** taught me patience, since slow learning tends to stick much longer."
+  ],
+  "followUps": [
+   {
+    "q": "Are paper dictionaries still useful today?",
+    "a": "**I think** they’re less necessary, **but** still useful. **On the one hand,** apps are faster and you can hear the pronunciation. **On the other hand,** a paper dictionary makes you slow down, so you often notice other useful words on the same page. **Also,** there are no notifications to distract you, which really helps concentration."
+   },
+   {
+    "q": "What is the best way to learn new vocabulary?",
+    "a": "**In my experience,** the best way is to learn words in context. **For example,** reading articles or watching shows **and** noting whole phrases works better than memorising lists. **On top of that,** you should use new words quickly, like in a diary or a conversation. **Finally,** reviewing them a few days later helps them stay in your memory."
+   },
+   {
+    "q": "Do you think children read enough books nowadays?",
+    "a": "**Probably not as much as before, I’d say.** **These days,** children spend a lot of time on tablets and short videos, **so** they have less patience for long books. **However,** many schools in Taiwan now have reading programmes and libraries with comfortable reading corners. **So** I think parents and teachers can make reading attractive if they set a good example."
+   }
+  ]
  }
 ]
 ;
