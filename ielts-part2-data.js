@@ -9179,6 +9179,516 @@ window.IELTS_PART2 = [
     "a": "**Probably not as much as before, I’d say.** **These days,** children spend a lot of time on tablets and short videos, **so** they have less patience for long books. **However,** many schools in Taiwan now have reading programmes and libraries with comfortable reading corners. **So** I think parents and teachers can make reading attractive if they set a good example."
    }
   ]
+ },
+ {
+  "id": "feelings-1",
+  "theme": "Feelings & Personal Growth",
+  "themeZh": "情緒與成長",
+  "setLabel": "Set 1",
+  "title": "Describe a time when you felt embarrassed.",
+  "cues": [
+   "when and where it happened",
+   "what you did",
+   "how other people reacted",
+   "and explain why you felt embarrassed."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "sent wrong msg to company LINE group → last yr, 1st job, office in Neihu"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "meant to send sister a selfie w/ face mask + caption “boss meeting again… so sleepy” → hit wrong chat, 40+ colleagues incl. manager"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "saw “read 12” → panic, tried to unsend but too late; manager replied w/ laughing sticker + “Coffee’s on me”"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "face bright red, wanted to disappear; lesson: double-check chats; now laugh about it → manager = friendly"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the most embarrassing moment I can remember happened about a year ago, **when** I had just started my first full-time job at a tech company in Neihu. **Like** most offices in Taiwan, we used a LINE group to share updates, and ours had more than forty people in it, including my manager.",
+   "**One afternoon,** we had a really long meeting, **and** I was so sleepy that I took a silly selfie with a green face mask I’d bought for the weekend. I wanted to send it to my sister with the message “Another boss meeting… I’m dying.” I’d even added three crying emojis at the end. **The problem was that** both chats were at the top of my screen, **and** I tapped the wrong one. **So instead,** the photo went straight into the company group.",
+   "**A few seconds later,** I noticed the little word “Read” with the number twelve next to it, and my heart basically stopped. I tried to unsend it, **but** it was already too late, **because** people had started replying with question marks. **Then** my manager sent a laughing sticker and wrote, “Coffee’s on me. Meetings will be shorter.” **Needless to say,** my face went bright red and I just wanted to hide under my desk.",
+   "**Looking back,** I think I felt embarrassed **mainly because** I was new and desperate to look professional. **Funnily enough,** the whole thing actually helped me, **since** colleagues started chatting with me more after that. **These days,** I always double-check which chat I’m in, **and** we still joke about it at team dinners. My sister, of course, still thinks it’s the funniest thing I’ve ever done."
+  ],
+  "followUps": [
+   {
+    "q": "Why do people feel embarrassed more easily when they are young?",
+    "a": "**I think** teenagers care a lot about how others see them. **For example,** a small mistake in class can feel like the end of the world at fifteen. **As we get older,** we realise everyone makes mistakes, **so** we become more relaxed. **Besides,** adults usually have more confidence and experience in handling awkward situations."
+   },
+   {
+    "q": "Is it good to laugh at yourself when you make a mistake?",
+    "a": "**Generally speaking,** yes. **First of all,** laughing at yourself shows people you’re confident and easy-going. **It also** helps everyone else relax, so the awkward moment passes much more quickly. **However,** if the mistake hurt someone, laughing isn’t enough, **and** you should apologise properly and take responsibility for it."
+   },
+   {
+    "q": "Has social media made people more afraid of embarrassment?",
+    "a": "**Definitely, in my view.** **Nowadays,** if you do something silly in public, someone might film it and post it online within minutes. **As a result,** a tiny mistake can follow you for years. **That’s why** many young people feel they need to look perfect all the time, **which** is pretty stressful and unrealistic."
+   }
+  ]
+ },
+ {
+  "id": "feelings-2",
+  "theme": "Feelings & Personal Growth",
+  "themeZh": "情緒與成長",
+  "setLabel": "Set 2",
+  "title": "Describe an achievement you are proud of.",
+  "cues": [
+   "what you achieved",
+   "when it happened",
+   "how you achieved it",
+   "and explain why you feel proud of it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "organised a used-book drive at uni → books for a small primary school in rural Taitung"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "3rd yr, idea from classmate who grew up there → school library almost empty; posters + IG page + boxes in every dorm"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "1st wk: only 30 books → nearly gave up; asked local bookshops + professors → final count: hundreds of books; 3 friends drove boxes down in a borrowed van"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "kids sent thank-you drawings; proud: did it from zero, learned to ask for help + not give up"
+   }
+  ],
+  "sample": [
+   "**Alright, so** one achievement I’m really proud of is a used-book drive I organised when I was at university. **Basically,** we collected children’s books from students and local people **and then** donated them to a small primary school in rural Taitung, on the east coast of Taiwan.",
+   "**It all started** in my third year, **when** a classmate who grew up there showed me photos of the school library. **To my surprise,** the shelves were almost empty, and most of the books were older than we were. Some of the picture books even had pages missing. **So** we decided to do something about it. **First,** we made posters and an Instagram page, and then we put collection boxes in every dorm building on campus.",
+   "**Unfortunately,** the first week was a disaster. We only got about thirty books, **and** I seriously thought about giving up. **But then** a friend suggested asking local bookshops and our professors for help. **Amazingly,** one second-hand bookshop gave us several boxes for free, and a professor mentioned the project in all of her classes. **By the end of the month,** we had hundreds of books, **so** three of us borrowed a van and drove them all the way down to Taitung ourselves. The trip took almost six hours, but none of us minded.",
+   "**Looking back,** I’m proud **not only because** the children got new books, **but because** I started the whole thing from zero. **A few weeks later,** the kids sent us a big envelope of thank-you drawings, which I still keep on my wall. **Most importantly,** it taught me that asking for help isn’t a weakness."
+  ],
+  "followUps": [
+   {
+    "q": "Why do some people achieve more than others?",
+    "a": "**I think** it’s partly about attitude. **For instance,** people who keep going after failing usually get further than people who are simply talented. **On top of that,** support matters a lot, **because** a good teacher or mentor can open doors. **Of course,** luck and family background also play a role, which isn’t always fair."
+   },
+   {
+    "q": "Should schools reward students for things other than exam results?",
+    "a": "**Absolutely.** **In my opinion,** exam scores only show one small part of a student. **For example,** some students are brilliant at organising events, helping others or creating art. **If** schools only praise test results, those students might feel useless. **So** rewarding different kinds of achievement would make school fairer and more motivating."
+   },
+   {
+    "q": "Is it better to achieve something alone or as part of a team?",
+    "a": "**It really depends.** **On the one hand,** achieving something alone proves what you can do by yourself. **On the other hand,** team achievements are usually bigger, and sharing the success with others feels great. **Personally,** I prefer teamwork, **since** I learned so much from my friends during the book drive."
+   }
+  ]
+ },
+ {
+  "id": "feelings-3",
+  "theme": "Feelings & Personal Growth",
+  "themeZh": "情緒與成長",
+  "setLabel": "Set 3",
+  "title": "Describe a challenge you overcame.",
+  "cues": [
+   "what the challenge was",
+   "when you faced it",
+   "what you did to deal with it",
+   "and explain how you felt after you overcame it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "getting my scooter licence 機車駕照 → failed road test twice"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "19, scooter = must in TW; written test easy, road test: slow straight-line balance, zebra crossing, railway crossing, hook turn box"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "fail #1: foot touched ground on narrow lane; fail #2: forgot to stop at railway crossing → cried in the car park; dad: practise in empty school car park every Sun"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "3rd try → passed, shaking; relief + pride; lesson: break problem into small steps, failure ≠ the end"
+   }
+  ],
+  "sample": [
+   "**Okay, so** a challenge I overcame was getting my scooter licence, which sounds simple, **but** for me it was surprisingly hard. **In Taiwan,** a scooter is almost a must, especially outside Taipei, **so** when I turned nineteen my parents insisted I get one. **In the end,** I failed the road test twice before I finally passed.",
+   "**The written test** was actually quite easy, because I just memorised the questions. I also watched so many test videos on YouTube that I could almost recite the instructions. **The road test,** however, was a different story. **For one thing,** you have to ride very slowly along a narrow straight lane without putting your foot down. **On top of that,** you need to stop properly at a pretend railway crossing and use a special box to make a two-stage left turn, which confuses a lot of new riders.",
+   "**The first time,** my foot touched the ground in the narrow lane, so I failed within about ten seconds. **The second time,** I was so focused on balance that I completely forgot to stop at the railway crossing. **After that,** I sat in the car park and cried. **Luckily,** my dad didn’t laugh at me. **Instead,** he took me to an empty school car park every Sunday morning, and we practised each section again and again. He just kept saying, “One section at a time.”",
+   "**On my third attempt,** I passed, although my hands were still shaking. **At first, the main feeling** was relief, **but** I was also really proud of myself. **Most importantly,** I learned to break a big problem into small steps, **and** I realised failing doesn’t mean it’s over."
+  ],
+  "followUps": [
+   {
+    "q": "Why do some people give up easily when they face difficulties?",
+    "a": "**I’d say** fear of failure is the biggest reason. **For example,** if people have always been praised for being smart, they may avoid anything difficult. **In addition,** some people don’t have anyone to encourage them. **As a result,** one bad experience makes them believe they simply can’t do it, **so** they stop trying."
+   },
+   {
+    "q": "Do young people today face more challenges than their parents did?",
+    "a": "**In some ways,** yes. **For instance,** housing in Taipei is extremely expensive now, and competition for good jobs is intense. **On the other hand,** my parents’ generation had fewer opportunities to study or travel. **So overall,** I think the challenges are just different, **rather than** bigger or smaller."
+   },
+   {
+    "q": "Should parents help children solve their problems?",
+    "a": "**Up to a point.** **Of course,** parents should support their children, especially when the problem is serious. **However,** if they solve everything, children never learn to cope by themselves. **Ideally,** parents should guide rather than take over, **like** my dad did when he helped me practise instead of just driving me everywhere."
+   }
+  ]
+ },
+ {
+  "id": "feelings-4",
+  "theme": "Feelings & Personal Growth",
+  "themeZh": "情緒與成長",
+  "setLabel": "Set 4",
+  "title": "Describe a time when you made a mistake and apologised.",
+  "cues": [
+   "what the mistake was",
+   "who it affected",
+   "how you apologised",
+   "and explain what you learned from the experience."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "missed best friend Yi-ting’s graduation recital → double-booked w/ part-time job"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "she plays cello, practised for months; I promised front row; wrote wrong date in phone calendar"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "saw her IG story during shift → realised; she didn’t reply for 2 days; I didn’t make excuses → handwritten letter + her fav bubble tea + asked to hear the piece in person"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "she forgave me, played it for me in practice room; lesson: real apology = no excuses + action; now check calendar twice"
+   }
+  ],
+  "sample": [
+   "**Alright, so** I’d like to talk about a time I let down my best friend, Yi-ting. **Last spring,** she had her graduation recital at university, **and** I completely missed it **because** I’d double-booked myself with my part-time job.",
+   "**To give you some background,** Yi-ting plays the cello, **and** she’d been practising for that recital for months. **In fact,** she was so nervous that she asked me to sit in the front row so that she’d see a friendly face. She’d even saved me a seat with my name written on a piece of paper. I promised I’d be there. **However,** I typed the wrong date into my phone calendar, **so** I agreed to cover a colleague’s shift at the café that very evening.",
+   "**Halfway through my shift,** I opened Instagram and saw her story from the concert hall. **Right then,** my stomach dropped. I messaged her straight away, **but** she didn’t reply for two whole days, which felt like forever. **This time,** I decided not to make any excuses. **Instead,** I wrote her a long handwritten letter, bought her favourite brown sugar bubble tea, and asked if she could play the piece just for me one day. In the letter, I simply admitted it was completely my fault and told her how much her music meant to me.",
+   "**Thankfully,** she forgave me, **and** a week later she played it for me in a tiny practice room on campus. **What I learned** is that a real apology means admitting the mistake without excuses **and then** actually doing something to fix it. **Since then,** I’ve always checked important dates twice."
+  ],
+  "followUps": [
+   {
+    "q": "Why do some people find it difficult to say sorry?",
+    "a": "**I think** pride is the main reason. **For example,** some people feel that apologising makes them look weak. **Others** worry that saying sorry means accepting all the blame. **In addition,** in some families, people never apologise to each other, **so** children grow up without learning how to do it."
+   },
+   {
+    "q": "Is it acceptable to apologise by text message?",
+    "a": "**It depends on** how serious the mistake is. **For small things,** like being five minutes late, a quick message is fine. **However,** for something more serious, a text can feel lazy. **In that case,** I think you should apologise face to face or at least call, **because** people need to hear that you mean it."
+   },
+   {
+    "q": "Should companies apologise publicly when they make mistakes?",
+    "a": "**Yes, definitely.** **First of all,** a public apology shows the company takes responsibility. **Secondly,** it helps rebuild trust with customers. **However,** words aren’t enough on their own. **For instance,** if a food company sells unsafe products, it should also explain what it’ll change, otherwise the apology means very little."
+   }
+  ]
+ },
+ {
+  "id": "feelings-5",
+  "theme": "Feelings & Personal Growth",
+  "themeZh": "情緒與成長",
+  "setLabel": "Set 5",
+  "title": "Describe a time when you were very nervous.",
+  "cues": [
+   "when it happened",
+   "why you were nervous",
+   "what you did to calm down",
+   "and explain how the situation turned out."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "1st job interview → internship at a design agency, Xinyi District, last summer"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "panel of 3 + present my portfolio in English; only 2 interns chosen; barely slept"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "arrived 30 min early → walked around block; box breathing (in 4, hold 4, out 4); laptop wouldn’t connect to projector → passed around printed portfolio"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "got the internship; manager: liked how I stayed calm when tech failed; lesson: prepare a plan B, nerves = I care"
+   }
+  ],
+  "sample": [
+   "**Okay, so** I was probably the most nervous I’ve ever been last summer, **when** I had my first proper job interview. It was for an internship at a design agency in the Xinyi District of Taipei, and I really, really wanted it. It was my dream company, and I’d been following their work on Instagram for years.",
+   "**There were a few reasons** I was so nervous. **First,** there were three people on the interview panel, including the creative director. **Second,** I had to present my portfolio in English, because the agency works with a lot of overseas clients. **On top of that,** I’d heard they were only taking two interns, **so** I barely slept the night before. I even practised my answers in front of the mirror until midnight.",
+   "**On the day itself,** I arrived about thirty minutes early **and** walked around the block a few times to calm down. I also tried a breathing trick I’d seen online, **where** you breathe in for four seconds, hold for four, **and then** breathe out for four. **Of course,** something went wrong anyway. My laptop simply wouldn’t connect to their projector! **Luckily,** I’d brought a printed copy of my portfolio, **so** I passed it round the table and carried on.",
+   "**In the end,** I got the internship. **Later,** my manager told me she’d liked the way I stayed calm when the technology failed, which really surprised me. I spent the rest of that summer working on real projects, which was amazing. **Looking back,** I learned two things: always have a plan B, **and** feeling nervous just means you care about the result."
+  ],
+  "followUps": [
+   {
+    "q": "What situations make people nervous?",
+    "a": "**Well,** I’d say anything where people feel judged. **For example,** job interviews, exams and public speaking make almost everyone nervous. **In addition,** new situations, **like** moving to a foreign country, can be stressful because you don’t know what to expect. **Of course,** some people also feel nervous about everyday things, such as making phone calls."
+   },
+   {
+    "q": "Can feeling nervous ever be helpful?",
+    "a": "**Yes, I think so.** **To some extent,** nerves give you extra energy and make you focus. **For instance,** athletes often say a little pressure helps them perform better. **However,** if you’re too nervous, your mind can go blank. **So** the key is learning to control your nerves rather than trying to get rid of them completely."
+   },
+   {
+    "q": "How can schools help students deal with stress before exams?",
+    "a": "**First of all,** teachers could teach simple techniques, **like** breathing exercises or planning revision in small steps. **Another idea** is to give students more practice tests **so that** the real exam feels familiar. **On top of that,** schools could make sure students know there are counsellors they can talk to, since many teenagers keep their worries to themselves."
+   }
+  ]
+ },
+ {
+  "id": "feelings-6",
+  "theme": "Feelings & Personal Growth",
+  "themeZh": "情緒與成長",
+  "setLabel": "Set 6",
+  "title": "Describe a person you know who stays calm in difficult situations.",
+  "cues": [
+   "who this person is",
+   "how you know him or her",
+   "what difficult situation you saw him or her in",
+   "and explain what you have learned from this person."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "cousin Wei-ling 表姊 → nurse at a big hospital in Taichung, 8 yrs older than me"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "grew up next door; quiet, speaks slowly, never raises her voice; works night shifts in emergency dept."
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "Lunar New Year dinner → grandma slipped on kitchen floor; everyone shouting; cousin: told us to step back, checked grandma, called 119, gave each person a job"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "grandma OK after X-ray; learned: panic spreads, so does calm; pause → think → act"
+   }
+  ],
+  "sample": [
+   "**Alright, so** the calmest person I know is my older cousin, Wei-ling. She’s about eight years older than me **and** works as a nurse at a big hospital in Taichung. **Since** we grew up next door to each other, she was basically like an older sister to me. She taught me to ride a bike and helped me with my homework.",
+   "**In terms of personality,** she’s quite quiet. She speaks slowly, and I’ve never once heard her raise her voice. **Part of that,** I think, comes from her job, because she often works night shifts in the emergency department, where something stressful happens almost every hour. **Even so,** when she tells funny stories about work, she always makes it sound easy. She also has this habit of nodding slowly before she answers, as if she’s checking every word.",
+   "**The moment I really saw how calm she is** was at our family’s Lunar New Year dinner two years ago. **While** everyone was busy in the kitchen, my grandma slipped on the wet floor and fell. **Immediately,** everybody started shouting at the same time, and my aunt was almost in tears. **But** Wei-ling simply told us to step back, checked Grandma carefully, **and** called for an ambulance. **Then** she gave each of us a job, like finding Grandma’s health card or opening the gate for the paramedics.",
+   "**Fortunately,** Grandma was fine after an X-ray. **What I learned from my cousin** is that panic spreads, **but** calm spreads too. **These days,** whenever something goes wrong, I try to pause, think, **and then** act, **just like** she did that night. My aunt still calls her “the family’s emergency button.”"
+  ],
+  "followUps": [
+   {
+    "q": "Why are some people calmer than others?",
+    "a": "**I think** it’s a mix of personality and experience. **For example,** some people are just naturally relaxed. **However,** experience matters even more, **because** if you’ve dealt with a problem many times, it doesn’t scare you anymore. **That’s why** doctors, pilots and firefighters often seem so calm in emergencies."
+   },
+   {
+    "q": "Which jobs need people who can stay calm under pressure?",
+    "a": "**Obviously,** jobs in emergency services, **like** nurses, police officers and firefighters, need calm people. **But** I’d also include teachers, since they have to manage a room full of noisy children. **On top of that,** customer service staff need lots of patience, **because** they deal with angry customers almost every day."
+   },
+   {
+    "q": "Can people learn to control their emotions?",
+    "a": "**Yes, I believe so.** **For instance,** simple habits like breathing slowly or counting to ten can really help. **In addition,** people can learn from role models, like I did from my cousin. **Of course,** it takes time and practice, **but** I think almost anyone can become calmer if they really want to."
+   }
+  ]
+ },
+ {
+  "id": "feelings-7",
+  "theme": "Feelings & Personal Growth",
+  "themeZh": "情緒與成長",
+  "setLabel": "Set 7",
+  "title": "Describe a place where you go when you want to feel calm.",
+  "cues": [
+   "where it is",
+   "how often you go there",
+   "what you do there",
+   "and explain why it makes you feel calm."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Beitou Public Library 北投圖書館 → wooden eco-friendly library next to Beitou Park"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "MRT to Xinbeitou; looks like a big wooden treehouse; balcony facing trees + stream; famous green building"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "1st went during exam stress at uni; now ~once a month, Sat morning; read novels on balcony → walk in park → hot spring footbath"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "calm b/c: quiet + nature + no screens; feel ‘reset’; Taipei needs more spaces like this"
+   }
+  ],
+  "sample": [
+   "**Okay, so** whenever I need to calm down, I go to Beitou Public Library, which is in the north of Taipei. **It’s just a short walk** from Xinbeitou MRT station, and it sits right inside Beitou Park, surrounded by tall trees and a little stream. The area is also famous for its hot springs, so the air sometimes smells slightly of sulphur.",
+   "**What makes it special** is the building itself. **Instead of** concrete and glass, it’s made mostly of wood, **so** it looks a bit like a giant treehouse. **In fact,** it’s quite famous as an eco-friendly building, **because** it has solar panels on the roof and was designed to stay cool without much air conditioning. **Best of all,** there’s a long wooden balcony where you can sit and read while listening to birds and running water.",
+   "**I first went there** during my second year at university, **when** I was really stressed about final exams. A friend suggested it, **and** I immediately fell in love with the atmosphere. **These days,** I go roughly once a month, usually on a Saturday morning. **Normally,** I find a novel, sit on the balcony for a couple of hours with a flask of hot tea in my bag, **and then** take a slow walk through the park. I never check my phone while I’m there. **Sometimes,** I even finish the day by soaking my feet in a public hot spring footbath nearby.",
+   "**As for why it calms me,** I think it’s a combination of quiet, nature and no screens. **Somehow,** I always leave feeling as if someone has pressed a reset button. **If anything, I wish** Taipei had more places like it."
+  ],
+  "followUps": [
+   {
+    "q": "Why do people in cities often feel stressed?",
+    "a": "**I’d say** noise and crowds are big reasons. **For example,** in Taipei you’re surrounded by traffic and people from morning to night. **On top of that,** many city jobs involve long hours and tight deadlines. **As a result,** people rarely get a moment of real quiet, **which** makes it hard for the mind to rest."
+   },
+   {
+    "q": "Should cities spend more money on parks and quiet spaces?",
+    "a": "**Definitely.** **In my opinion,** green spaces are just as important as roads and shopping malls. **First of all,** they give people somewhere free to relax. **Secondly,** they make cities cooler in summer, which matters in a hot place like Taiwan. **So** I think it’s money well spent, even if it means fewer new buildings."
+   },
+   {
+    "q": "Do you think libraries are still important today?",
+    "a": "**Yes, but** their role is changing. **Nowadays,** most people can find information online, **so** libraries aren’t just about books anymore. **Instead,** they’ve become quiet places to study, work or attend free workshops. **Especially** for students who live in small, noisy flats, a library can be the only calm place they have."
+   }
+  ]
+ },
+ {
+  "id": "feelings-8",
+  "theme": "Feelings & Personal Growth",
+  "themeZh": "情緒與成長",
+  "setLabel": "Set 8",
+  "title": "Describe a letter or message you received that made you very happy.",
+  "cues": [
+   "who sent it",
+   "when you received it",
+   "what it said",
+   "and explain why it made you so happy."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "handwritten card from former student Jason → I tutor English part-time at a cram school"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "taught him for 2 yrs in junior high; shy, hated speaking, often hid behind his textbook"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "last June, card in my pigeonhole → “You never laughed at my English” + he joined school debate team + passed GEPT Intermediate"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "cried on the MRT; reminded me why I teach; card on my desk → read it on bad days"
+   }
+  ],
+  "sample": [
+   "**Right, so** I’d like to talk about a handwritten card I got from one of my former students, Jason. **For a bit of context,** I teach English part-time at a cram school in Taipei, **and** I taught him for two years when he was in junior high school.",
+   "**When he first joined my class,** he was incredibly shy. **For example,** whenever I asked him a question, he would hide behind his textbook and whisper one word. **In fact,** he told me later that he hated speaking English **because** a classmate had once laughed at his pronunciation. **So** I tried giving him small speaking tasks with just me, **rather than** in front of the whole class, and slowly he started to open up. By the end of the first year, he was answering in full sentences.",
+   "**Then last June,** about a year after he’d left the cram school, I found an envelope in my pigeonhole at work. **Inside** was a card covered in his tiny, neat handwriting. **Basically,** he thanked me for never laughing at his English. **On top of that,** he told me he’d joined his high school debate team **and** had just passed the intermediate level of the GEPT, which is a well-known English test in Taiwan. **I have to admit,** I read it on the MRT home and started crying in front of strangers.",
+   "**The reason it made me so happy** is that it reminded me why I teach. **These days,** the card sits on my desk, **and** whenever I have a bad day, I read it again. It also made me realise that small things, like patience and kindness, can matter more than any grammar lesson."
+  ],
+  "followUps": [
+   {
+    "q": "Do people still write letters by hand nowadays?",
+    "a": "**Not very often, I’d say.** **These days,** most people send messages on LINE or by email because it’s fast and free. **However,** handwritten cards are still common for special occasions, **like** birthdays or graduation. **In a way,** that makes them even more valuable, since people know you took extra time and effort."
+   },
+   {
+    "q": "Why are words of thanks important?",
+    "a": "**Well,** I think thanking people makes them feel noticed. **For example,** teachers, nurses and cleaners often work hard without anyone saying anything. **A simple thank-you** can give them the energy to keep going. **On top of that,** it strengthens relationships, **because** people naturally want to help those who appreciate them."
+   },
+   {
+    "q": "Is it better to give praise in public or in private?",
+    "a": "**It depends on** the person. **On the one hand,** public praise can be motivating, especially for confident people. **On the other hand,** shy people, **like** my student Jason, might feel uncomfortable with everyone looking at them. **So personally,** I think private praise is usually safer, and it often feels more sincere too."
+   }
+  ]
+ },
+ {
+  "id": "feelings-9",
+  "theme": "Feelings & Personal Growth",
+  "themeZh": "情緒與成長",
+  "setLabel": "Set 9",
+  "title": "Describe a time when you felt proud of a family member.",
+  "cues": [
+   "who the person is",
+   "what he or she did",
+   "how you found out about it",
+   "and explain why you felt so proud."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "my mum 媽媽 → got her senior high diploma at 55, night classes 進修部"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "left school at 15 to help family noodle shop; always regretted it; 3 evenings/wk after work, homework at kitchen table"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "kept it secret at first → found her maths worksheets under fruit bowl; graduation ceremony → whole family + flowers, she gave a short speech"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "proud b/c courage to start again; changed my view: never too late; now she’s learning English w/ me"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the family member I felt proudest of is definitely my mum. **Two years ago,** at the age of fifty-five, she finally got her senior high school diploma by studying at night school. **For her,** it was something she’d dreamed about for most of her life.",
+   "**To give you some background,** my mum left school at fifteen because her family needed help in their small noodle shop in Tainan. **Even though** she’s a really smart woman, she always felt a bit embarrassed that she never finished school. **So** after my brother and I moved out, she quietly signed up for evening classes at a local high school. **For about three years,** she went three nights a week after work, **and** she did her homework at the kitchen table. Some nights she was so tired that she fell asleep with her pen still in her hand.",
+   "**Funnily enough,** she didn’t tell us at first, **because** she was worried she might fail. **But one weekend,** I came home and found some maths worksheets hidden under the fruit bowl, **so** her secret was out. **After that,** the whole family supported her. **On graduation day,** we all went with flowers, **and** she was even chosen to give a short speech. Apparently, she was one of the oldest graduates that year. **When** she said, “It’s never too late,” half the audience was in tears, including me.",
+   "**The reason I felt so proud** is that she had the courage to start again **when** most people would have said it was pointless. **Even better,** she’s now learning English with me every Sunday. My dad says he’s never seen her so happy."
+  ],
+  "followUps": [
+   {
+    "q": "Is it important for adults to keep learning?",
+    "a": "**Yes, absolutely.** **First of all,** the world changes so fast that adults need new skills just to keep up, especially with technology. **Besides that,** learning keeps the brain active as people get older. **On top of that,** it gives them confidence and new friends, **just like** my mum found at night school."
+   },
+   {
+    "q": "Why do some older people feel it is too late to learn new things?",
+    "a": "**I think** it’s mainly fear. **For example,** they worry about looking slow next to younger students. **In addition,** some believe their memory isn’t good enough anymore. **However,** many older learners actually do very well, because they’re more patient and motivated **than** teenagers who are only studying for exams."
+   },
+   {
+    "q": "Should families celebrate small achievements as well as big ones?",
+    "a": "**Definitely, in my view.** **For one thing,** big achievements usually come from lots of small steps, **so** recognising those steps keeps people motivated. **For another,** celebrating together brings a family closer. **It doesn’t have to** be expensive, either. A special dinner or a simple message can mean a lot."
+   }
+  ]
+ },
+ {
+  "id": "feelings-10",
+  "theme": "Feelings & Personal Growth",
+  "themeZh": "情緒與成長",
+  "setLabel": "Set 10",
+  "title": "Describe a change in the way people in your country talk about mental health.",
+  "cues": [
+   "what the change is",
+   "when you first noticed it",
+   "how it affects people",
+   "and explain why you think this change has happened."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "mental health 心理健康 → used to be taboo in TW, now discussed more openly"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "grandparents’ gen: “just be strong”, seeing a counsellor = shameful; now: celebs + YouTubers share stories, 1925 hotline posters in MRT"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "noticed at uni → friend openly said “I have a counselling session at 3”; nobody laughed; govt offers young people some free sessions"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "causes: social media, younger gen more open, govt campaigns; effects: more ppl ask for help early, but still stigma + not enough counsellors"
+   }
+  ],
+  "sample": [
+   "**Okay, so** one big change I’ve noticed in Taiwan is that people talk about mental health much more openly than before. **When my grandparents were young,** it was almost a taboo subject. **If** you felt down or anxious, people would usually just tell you to be strong, **and** seeing a counsellor was something you kept secret.",
+   "**Nowadays,** however, things are very different. **For example,** quite a few celebrities and YouTubers have shared their own experiences with stress and anxiety. **On top of that,** you can see posters for the 1925 hotline, which is a free, round-the-clock support line, in MRT stations and on campuses. **In addition,** the government has started offering young people a few free counselling sessions, so cost is less of a barrier. This is a big deal for students on a tight budget.",
+   "**I first noticed the change** at university. **One day,** a friend casually said in front of our whole group, “Sorry, I have to leave at three, I’ve got a counselling session.” **What surprised me** was that nobody laughed or looked uncomfortable. **Instead,** another friend said she’d been to the same counselling centre **and** found it really helpful. Later, she even sent the centre’s contact details to our group chat. **I remember thinking** that conversation would have been impossible ten years earlier.",
+   "**In my view,** this change has happened **because** of social media, a more open younger generation and government campaigns. **As a result,** more people ask for help early. **That said,** there’s still some stigma, especially among older people, **and** there aren’t always enough counsellors. Personally, I think it’s one of the most positive changes in Taiwan in recent years."
+  ],
+  "followUps": [
+   {
+    "q": "Why do some people still feel uncomfortable talking about their feelings?",
+    "a": "**I think** it’s partly how they were raised. **For example,** many people in Taiwan grew up hearing that boys shouldn’t cry or that family problems should stay private. **On top of that,** they worry others will see them as weak. **As a result,** they keep everything inside until the problem becomes much bigger."
+   },
+   {
+    "q": "Should schools teach students how to manage their emotions?",
+    "a": "**Yes, definitely.** **In my opinion,** emotional skills are just as useful as maths or science. **For instance,** students could learn how to recognise stress and how to ask for help. **Besides,** if they learn this early, they’ll find it easier to cope with exams, relationships and work later, **so** it’s a long-term investment."
+   },
+   {
+    "q": "How can employers support the wellbeing of their staff?",
+    "a": "**First of all,** they could avoid expecting staff to answer messages late at night. **Another idea** is to offer flexible hours, **so** people can balance work and family. **In addition,** some companies provide free counselling, which I think is great. **Most importantly,** managers should create an atmosphere where people feel safe saying they’re struggling."
+   }
+  ]
  }
 ]
 ;
