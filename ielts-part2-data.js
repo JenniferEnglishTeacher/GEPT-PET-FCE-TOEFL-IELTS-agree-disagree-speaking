@@ -9689,6 +9689,516 @@ window.IELTS_PART2 = [
     "a": "**First of all,** they could avoid expecting staff to answer messages late at night. **Another idea** is to offer flexible hours, **so** people can balance work and family. **In addition,** some companies provide free counselling, which I think is great. **Most importantly,** managers should create an atmosphere where people feel safe saying they’re struggling."
    }
   ]
+ },
+ {
+  "id": "news-1",
+  "theme": "News & Media",
+  "themeZh": "新聞與媒體",
+  "setLabel": "Set 1",
+  "title": "Describe some good news you received.",
+  "cues": [
+   "what the news was",
+   "when and how you received it",
+   "who you shared it with",
+   "and explain why it was good news for you."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "job offer 錄取通知 → junior designer at a small studio in Songshan, 1st full-time job"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "last summer, 3 months of job hunting, ~20 applications, 2 interviews failed; phone call on a Tues afternoon in a bookshop"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "had to whisper → ran outside, almost shouted; called mum 1st → she cried; dinner at hot pot place w/ family"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "proof hard work pays off; less stress for parents; confidence ↑ → rejection ≠ the end"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the good news I’d like to talk about is the phone call I got last summer telling me I’d been offered my first full-time job. It was a junior designer position at a small design studio in Songshan, **and** it was exactly the kind of place I’d been dreaming of working at since university.",
+   "**To give you some background,** I’d been job hunting for about three months by then. I’d sent out around twenty applications **and** failed two final interviews, **so** I was starting to feel pretty hopeless. **On the day itself,** I was actually browsing in a bookshop when my phone rang. **At first,** I almost didn’t answer, **because** it was an unknown number and I thought it might be a scam call.",
+   "**As soon as** the manager said the word “congratulations”, I had to stop myself from screaming in the middle of the shop. I whispered “thank you” about five times, **then** ran outside and nearly shouted with joy on the pavement. **The first person I called** was my mum, and she started crying on the phone, which made me cry too. **That evening,** my whole family went out for hot pot to celebrate, and my dad even ordered the most expensive beef on the menu.",
+   "**Looking back,** it was such good news **not only because** I finally had a stable income, **but also because** it proved that all my hard work had paid off. **On top of that,** my parents could stop worrying about me. **Most importantly,** it taught me that a rejection isn’t the end of the story."
+  ],
+  "followUps": [
+   {
+    "q": "Why do some people prefer to hear good news in person rather than by message?",
+    "a": "**I think** it feels more personal and emotional. **For example,** when you tell your parents face to face, you can see their reaction straight away and share a hug. **On the other hand,** a text message can feel a bit cold. **So** for really big news, most people still prefer to call or meet."
+   },
+   {
+    "q": "Do you think the media focuses too much on bad news?",
+    "a": "**To some extent,** yes. **Generally speaking,** bad news gets more clicks and viewers, **so** news channels tend to put crimes and disasters first. **However,** I don’t think the media is the only one to blame, because audiences also choose to watch that kind of content. **Personally,** I’d like to see more positive local stories."
+   },
+   {
+    "q": "How do people in Taiwan usually celebrate good news?",
+    "a": "**Well,** the most common way is probably with food. **For instance,** families often go out for a big dinner or order a cake from a bakery. **Some people also** post about it on Instagram or in their family LINE group. **In addition,** older generations sometimes visit a temple to say thank you to the gods."
+   }
+  ]
+ },
+ {
+  "id": "news-2",
+  "theme": "News & Media",
+  "themeZh": "新聞與媒體",
+  "setLabel": "Set 2",
+  "title": "Describe a news story that interested you.",
+  "cues": [
+   "what the story was about",
+   "when and where you heard about it",
+   "how people reacted to it",
+   "and explain why it interested you."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Taiwan won 2024 WBSC Premier12 世界12強 → beat Japan 4–0 in final, Tokyo Dome, Nov 2024"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "1st major world baseball title ever; Japan unbeaten for years; captain’s big home run; pitchers kept Japan scoreless"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "Sun night → watched w/ friends at a sports bar; whole bar shouting; news + social media full of it for days; victory parade in Taipei"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "not a big fan before → rare moment country united; underdog story; baseball = part of TW identity"
+   }
+  ],
+  "sample": [
+   "**Right, so** a news story that really grabbed my attention was when Taiwan won the WBSC Premier12 baseball tournament in November 2024. **In the final,** Taiwan beat Japan four–nil at the Tokyo Dome, **which** shocked a lot of people, **because** Japan hadn’t lost a game in that competition for years. I still remember exactly where I was when I heard the final score.",
+   "**To give you some context,** it was Taiwan’s first major world baseball title, **so** it was a really big deal here. Japan were the favourites, **and** almost nobody expected Taiwan to win. **But in the end,** our pitchers kept Japan from scoring for the whole game, **while** our captain hit a huge home run that basically decided the match. **For a country that loves baseball as much as Taiwan does,** it was like a dream come true.",
+   "**I actually watched the final** with some friends at a sports bar near Gongguan. **The moment** the home run went over the fence, the entire bar jumped up and started shouting and hugging strangers. **For the next few days,** the story was on every news channel, and my social media feeds were completely full of it. **On top of that,** there was a big celebration parade for the players in Taipei, **and** thousands of fans turned up to cheer them on.",
+   "**What interested me most** was that I’m not really a huge baseball fan. **Even so,** it was one of those rare moments when the whole country seemed united. **Besides,** everyone loves an underdog story. **It also made me realise** how much baseball is part of Taiwanese identity."
+  ],
+  "followUps": [
+   {
+    "q": "Why do sports stories often become big news?",
+    "a": "**I think** sports stories are easy for everyone to understand. **Unlike** politics or economics, you don’t need any background knowledge to enjoy a victory. **In addition,** international matches create a strong sense of national pride. **As a result,** news channels know these stories will attract a huge audience, **so** they give them a lot of airtime."
+   },
+   {
+    "q": "Do you think people trust the news less than in the past?",
+    "a": "**Generally speaking,** yes, I believe they do. **For one thing,** there’s so much fake news online that people don’t know what to believe. **For another,** some news channels in Taiwan are seen as politically biased. **That said,** I think serious, well-researched reporting is still trusted, **especially** when it comes from public broadcasters."
+   },
+   {
+    "q": "Should news stories be more about local or international events?",
+    "a": "**Ideally,** I think there should be a balance. **On the one hand,** local news affects our daily lives directly, like traffic or new policies. **On the other hand,** international news helps us understand the bigger picture. **Unfortunately,** Taiwanese TV news tends to focus on local gossip, **so** I’d like to see more global stories."
+   }
+  ]
+ },
+ {
+  "id": "news-3",
+  "theme": "News & Media",
+  "themeZh": "新聞與媒體",
+  "setLabel": "Set 3",
+  "title": "Describe a podcast or radio programme you enjoy.",
+  "cues": [
+   "what the programme is",
+   "how you found out about it",
+   "when and where you listen to it",
+   "and explain why you enjoy it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "百靈果 News (Bailingguo News) → TW podcast, hosts Kylie & Ken, mix of Mandarin + English"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "discuss international news + culture in a casual, funny way; long episodes, like chatting w/ friends; guests sometimes"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "colleague recommended during lockdown; now listen on MRT commute + while washing dishes; 1.5× speed; once laughed out loud on the train"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "learn news w/o stress; English listening practice; feel less lonely; better than scrolling short videos"
+   }
+  ],
+  "sample": [
+   "**Alright, so** the programme I want to describe is a Taiwanese podcast called Bailingguo News. It’s hosted by a pair called Kylie and Ken, **and** what makes it quite unusual is that they switch between Mandarin and English all the time, **so** it feels very natural for people like me who use both languages.",
+   "**Basically,** they talk about international news and culture, **but** in a really casual and funny way. **Instead of** just reading out headlines, they explain the background of a story **and then** share their own opinions, which sometimes leads to friendly arguments. Their voices are warm and relaxed, which makes complicated topics easy to follow. **Most episodes** are quite long, **so** listening to them feels a bit like sitting at a café chatting with two clever friends. **Every now and then,** they also invite guests, like journalists or people working abroad.",
+   "**I first heard about it** from a colleague during the pandemic, **when** we were all working from home and feeling a bit bored. **These days,** I mostly listen on my MRT commute **or** while I’m washing the dishes after dinner. **Usually,** I play it at one and a half times speed to save time. **I remember one time** they told such a silly story that I burst out laughing on a crowded train, **and** a few passengers turned around to stare at me.",
+   "**As for why I enjoy it,** I can keep up with world news without feeling stressed. **On top of that,** it’s great listening practice for my English. **More importantly,** it’s far better for my brain than endlessly scrolling through short videos."
+  ],
+  "followUps": [
+   {
+    "q": "Why have podcasts become so popular in recent years?",
+    "a": "**I think** the main reason is convenience. **For example,** you can listen while commuting, cooking or exercising, **so** it doesn’t take extra time. **In addition,** podcasts cover almost every topic you can imagine, from history to true crime. **On top of that,** anyone can start one cheaply, which means there’s a huge variety of voices."
+   },
+   {
+    "q": "Do you think radio will disappear in the future?",
+    "a": "**Probably not completely,** in my opinion. **For one thing,** many taxi drivers and older people still listen to the radio every day. **For another,** radio is extremely useful during emergencies like typhoons or earthquakes, **when** the internet might not work. **However,** I think younger listeners will keep moving to podcasts and streaming apps."
+   },
+   {
+    "q": "Is listening a better way to learn than reading?",
+    "a": "**It really depends on** the person. **On the one hand,** listening is great for busy people, **and** it helps language learners with pronunciation and natural speech. **On the other hand,** reading lets you go back and check details more easily. **Personally,** I prefer listening for general ideas but reading when I need to study something carefully."
+   }
+  ]
+ },
+ {
+  "id": "news-4",
+  "theme": "News & Media",
+  "themeZh": "新聞與媒體",
+  "setLabel": "Set 4",
+  "title": "Describe an advertisement you remember.",
+  "cues": [
+   "what the advertisement was for",
+   "where you saw it",
+   "what happened in it",
+   "and explain why you remember it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "PX Mart 全聯 supermarket ad → series about saving money in a stylish way, by a big ad agency"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "saw on posters at MRT stations + online; young, fashionable models + simple supermarket bags; witty one-line slogans"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "fav slogan ≈ “being pretty is a gift, spending money prettily is a skill”; classmates quoted it; my sister copied the style for a school project"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "funny + clever; made a cheap supermarket look cool; changed my view → being careful w/ money ≠ boring"
+   }
+  ],
+  "sample": [
+   "**Okay, so** an advertisement that has really stuck in my mind is one from a series by PX Mart, which is one of the biggest supermarket chains in Taiwan. **A few years ago,** they ran a famous campaign about saving money in a stylish way, **and** it became a bit of a talking point among young people.",
+   "**I mostly saw these ads** on big posters in MRT stations, **although** they were also shared a lot online. **What made them different was** the style. **Instead of** showing piles of cheap vegetables and price tags, they used young, fashionable models standing in a plain setting, holding simple supermarket bags as if they were designer handbags. **Then** each poster had one short, witty slogan about money, so it looked more like a fashion magazine than a supermarket ad.",
+   "**My favourite one** said something like “being good-looking is a gift, **but** spending money beautifully is a skill”. **To me,** that line was really clever, **because** it played with words in Chinese. It was short, simple and very easy to remember. **For a while,** my classmates kept quoting it whenever someone bought something expensive. **Funnily enough,** my younger sister even copied the design style for a poster she had to make for a school project, **and** her teacher loved it.",
+   "**Looking back,** I remember it **mainly because** it was funny and smart at the same time. **More importantly,** it made a normal, cheap supermarket look cool. **In a way,** it changed my attitude, **since** it showed me that being careful with money doesn’t have to be boring."
+  ],
+  "followUps": [
+   {
+    "q": "Why do some advertisements become very memorable?",
+    "a": "**I’d say** the best ads either make us laugh or touch our emotions. **For example,** a funny slogan is easy to repeat to friends, **so** it spreads naturally. **Also,** ads with a story, like a family reunion at Lunar New Year, can make people cry. **As a result,** viewers remember the feeling and connect it with the brand."
+   },
+   {
+    "q": "Should advertising aimed at children be controlled?",
+    "a": "**Yes, I think so.** **First of all,** young children can’t really tell the difference between an advert and a normal programme. **Besides that,** many ads for kids promote sugary snacks and toys that parents can’t afford. **So** I believe governments should limit these ads, **especially** during children’s TV programmes or on popular video channels."
+   },
+   {
+    "q": "How has advertising changed with the internet?",
+    "a": "**Well,** the biggest change is that ads are now personalised. **For instance,** if you search for running shoes once, you’ll see shoe ads everywhere for weeks. **In addition,** companies pay influencers instead of making traditional TV commercials. **The downside is** that it’s sometimes hard to tell **whether** a post is a real opinion or an advert."
+   }
+  ]
+ },
+ {
+  "id": "news-5",
+  "theme": "News & Media",
+  "themeZh": "新聞與媒體",
+  "setLabel": "Set 5",
+  "title": "Describe a change in how people get the news.",
+  "cues": [
+   "what the change is",
+   "when you noticed it",
+   "how it affects people",
+   "and explain why you think this change has happened."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "from newspapers + 7 p.m. TV news → phones: LINE groups, YouTube, Instagram, news apps"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "noticed at grandparents’ house → no newspaper delivery any more; grandpa gets news from family LINE group; young people → short news videos"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "grandpa forwarded a fake health tip → panic about bananas; we had to check w/ fact-check site; now teach him to check source"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "causes: smartphones everywhere, free + instant, busy lives; effects: faster but shallow, more fake news, echo chambers"
+   }
+  ],
+  "sample": [
+   "**Okay, so** one big change I’ve noticed is how people in Taiwan get their news. **When I was a kid,** most families read a printed newspaper in the morning **and** watched the TV news at dinner time. **These days,** however, almost everyone gets their news from their phones, through LINE groups, YouTube, Instagram or news apps.",
+   "**I first really noticed it** at my grandparents’ house a few years ago. **For decades,** they had a newspaper delivered every morning, **but** one day I realised it had stopped. **When I asked about it,** my grandpa said he didn’t need it any more, **because** he could read everything in our family LINE group. **Meanwhile,** people my age mostly watch short news clips on social media, **and** some of my friends never visit a proper news website at all. My grandma, on the other hand, mainly watches news clips that my aunt sends her.",
+   "**The funny thing is** that this change caused a small drama in my family. **One morning,** my grandpa forwarded a message claiming that eating bananas with a certain kind of milk was dangerous. Within an hour, half my relatives were panicking. **In the end,** I checked a fact-checking website and showed everyone that the message was completely false. **Since then,** I’ve been teaching him to always check where a story comes from.",
+   "**In my view,** this change happened **because** smartphones are everywhere and online news is free and instant. **As a result,** we get information much faster, **but** it’s often shallow, **and** fake news spreads far more easily than before. It’s a change I see in my own habits too."
+  ],
+  "followUps": [
+   {
+    "q": "What are the dangers of getting news only from social media?",
+    "a": "**The biggest danger,** I think, is fake news. **For example,** shocking but untrue stories often spread faster than real ones. **In addition,** social media apps show us posts that match our own opinions, **so** we rarely see other points of view. **As a result,** people can become more extreme and less willing to listen to others."
+   },
+   {
+    "q": "Will printed newspapers disappear completely?",
+    "a": "**Probably not completely,** at least not soon. **For one thing,** many elderly people still enjoy reading a paper with their morning tea. **For another,** some readers trust printed news more than websites. **Having said that,** newspapers will likely become smaller and more expensive, **while** most readers move to digital subscriptions instead."
+   },
+   {
+    "q": "How can young people learn to judge whether news is reliable?",
+    "a": "**I believe** schools should teach media literacy from an early age. **For instance,** students could practise checking the source, the date and the evidence behind a story. **It’s also useful** to compare how different news outlets report the same event. **Finally,** parents can set a good example by not forwarding messages **without** checking them first."
+   }
+  ]
+ },
+ {
+  "id": "news-6",
+  "theme": "News & Media",
+  "themeZh": "新聞與媒體",
+  "setLabel": "Set 6",
+  "title": "Describe a newspaper or magazine you used to read.",
+  "cues": [
+   "what it was",
+   "when you read it",
+   "what kind of content it had",
+   "and explain how you felt about reading it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Mandarin Daily News 國語日報 → children’s newspaper w/ zhuyin 注音 next to every character"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "primary school, delivered at home; read it at breakfast before school; kids’ news, stories, comics, science facts, readers’ writing"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "sent in a short essay about my dog in Grade 4 → it got published! cut it out + mum framed it; tiny payment → bought a comic book"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "made reading fun; built vocab + love of writing; habit of reading the news → still read news every morning"
+   }
+  ],
+  "sample": [
+   "**Alright, so** the newspaper I’d like to talk about is the Mandarin Daily News, which is a newspaper written especially for children in Taiwan. **What makes it special** is that every Chinese character has zhuyin, our phonetic symbols, printed next to it, **so** even young kids who can’t read many characters can still understand it.",
+   "**I used to read it** almost every day when I was in primary school. **Back then,** my parents had it delivered to our flat, **and** I usually read it at the breakfast table before school while eating my egg pancake. **As for the content,** it had simple news stories, short articles about science and history, comic strips and puzzles. **On top of that,** there was a section where children could send in their own writing, **and** I always turned to that page first.",
+   "**One thing I’ll never forget** happened when I was in Grade 4. I wrote a short essay about my dog and how he always waited for me at the door, **and then** my mum helped me post it to the newspaper. **A few weeks later,** I opened the paper and suddenly saw my own name in print! **Naturally,** I was so excited that I showed it to everyone at school. **Later,** my mum cut it out and framed it, **and** I even got a small payment, which I spent on a comic book.",
+   "**Looking back,** I really enjoyed reading it, **because** it made reading feel like fun **rather than** homework. **More importantly,** it gave me the habit of reading the news, **which** I still have today."
+  ],
+  "followUps": [
+   {
+    "q": "Why do fewer young people read newspapers today?",
+    "a": "**I think** the main reason is that everything is available on their phones for free. **For example,** they can read headlines on social media in a few seconds. **In addition,** young people prefer videos and pictures to long articles. **As a result,** printed newspapers feel slow and old-fashioned to them, **even though** they’re often more reliable."
+   },
+   {
+    "q": "Is it important for children to read the news?",
+    "a": "**Yes, I believe it is,** as long as the news is suitable for their age. **First of all,** it helps them understand the world outside their school and family. **Besides,** it improves their reading and vocabulary. **However,** parents should be careful, **because** some news stories about violence or disasters can be frightening for young children."
+   },
+   {
+    "q": "What makes a magazine popular?",
+    "a": "**Well,** I’d say a popular magazine needs a clear focus, like fashion, travel or business. **Also,** good photos and attractive design are really important, **since** people often choose magazines by the cover. **On top of that,** successful magazines now have a strong online presence, **so** readers can follow them on social media between issues."
+   }
+  ]
+ },
+ {
+  "id": "news-7",
+  "theme": "News & Media",
+  "themeZh": "新聞與媒體",
+  "setLabel": "Set 7",
+  "title": "Describe a person who knows a lot about current events.",
+  "cues": [
+   "who this person is",
+   "how you know him or her",
+   "how he or she keeps up with the news",
+   "and explain what you think of this person."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "my uncle 舅舅 → retired high school history teacher, lives in Taichung"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "reads 3 newspapers online every morning + BBC + Japanese news; notebook of key events; listens to radio while gardening"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "Lunar New Year dinner → explained a world event using a map on a napkin; cousins listened for 30 min; also corrects fake news in family chat"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "admire curiosity + balance, never preaches; inspired me to read more widely → like a walking encyclopedia"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the person who knows the most about current events in my life is definitely my uncle, my mum’s older brother. He’s a retired high school history teacher who lives in Taichung, **and** in my family he’s famous for always knowing what’s going on in the world, **from** local politics **to** elections on the other side of the planet. Everyone in the family calls him our walking encyclopedia.",
+   "**What amazes me is** how disciplined he is about keeping up with the news. **Every morning,** he reads three different Taiwanese newspapers online, **and then** he checks the BBC and a Japanese news website, **because** he likes to compare different points of view. **On top of that,** he keeps a little notebook where he writes down key events and dates. Even when he’s working in his garden, he has a small radio playing the news in the background.",
+   "**I remember one Lunar New Year dinner** when one of my cousins asked him a question about a conflict she’d seen on TV. **Instead of** giving a short answer, he grabbed a paper napkin, drew a rough map **and** explained the whole history behind it. **Believe it or not,** all of us young people listened for about thirty minutes **without** touching our phones. **Besides that,** he’s the person who calmly corrects fake news in our family LINE group.",
+   "**Personally,** I really admire him, **because** he’s curious **but** never preachy. He always presents both sides of a story **and** lets us decide for ourselves. **Thanks to him,** I’ve started reading news from different sources too. I hope I can be as well informed as him one day."
+  ],
+  "followUps": [
+   {
+    "q": "Why is it important to keep up with current events?",
+    "a": "**I think** current events affect our lives more than we realise. **For example,** a new law can change how much tax we pay or how we travel. **In addition,** knowing what’s happening helps us vote wisely in elections. **On top of that,** it gives us interesting topics to discuss with colleagues, **so** it’s good for our social life too."
+   },
+   {
+    "q": "Do older people and younger people follow the news differently?",
+    "a": "**Yes, quite differently,** in my experience. **Generally speaking,** older people still watch the TV news at fixed times **or** read a newspaper. **Younger people,** however, get bits of news throughout the day from social media. **As a result,** young people often know headlines quickly, but they may not understand the background as deeply."
+   },
+   {
+    "q": "Can following the news too much be bad for people?",
+    "a": "**Definitely,** I think it can. **For instance,** constantly reading about wars, disasters and crimes can make people anxious or depressed. **Some of my friends** check news apps every few minutes, **which** isn’t healthy. **So** I believe it’s a good idea to set limits, like reading the news once in the morning and then switching off."
+   }
+  ]
+ },
+ {
+  "id": "news-8",
+  "theme": "News & Media",
+  "themeZh": "新聞與媒體",
+  "setLabel": "Set 8",
+  "title": "Describe a time when you were interviewed or appeared in the media.",
+  "cues": [
+   "when and where it happened",
+   "who interviewed you",
+   "what you talked about",
+   "and explain how you felt about the experience."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "street interview 街訪 by a TV news crew → outside Taipei Main Station, last July, heatwave"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "reporter + cameraman stopped me; question: how do you cope w/ the heat?; 10 s of my answer used on the evening news"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "sweaty face, holding a giant bubble tea → said I hide in convenience stores for air con; friends sent screenshots; my nickname = “AC girl”"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "nervous but fun; learned TV picks short, funny clips; now notice how street interviews are edited"
+   }
+  ],
+  "sample": [
+   "**Alright, so** I want to talk about the time I accidentally ended up on the TV news. It happened last July, during a really intense heatwave in Taipei, **when** I was walking out of Taipei Main Station on my way to meet a friend for lunch. It was a completely normal weekday, and I was wearing my oldest T-shirt.",
+   "**All of a sudden,** a young reporter with a microphone and a cameraman stopped me and politely asked if I could answer a quick question. **At first,** I wanted to say no, **because** my face was red and I was sweating like crazy. **But** she was so friendly that I agreed. **Basically,** she wanted to know how ordinary people were coping with the extreme heat, **so** they were doing short street interviews for the evening news.",
+   "**The embarrassing part was that** I was holding a giant cup of bubble tea at the time. **Without thinking,** I said that my secret was hiding in convenience stores for the free air conditioning **and** drinking as much iced tea as possible. **To my surprise,** they actually used about ten seconds of my answer that evening. **Within minutes,** my phone was exploding with screenshots from friends and relatives, **and** for weeks my colleagues called me “the air-con girl”.",
+   "**Overall,** I felt nervous at the time, **but** looking back it was really fun. **What I learned** is that TV news often picks the shortest, funniest clips. **Since then,** I’ve paid more attention to how street interviews are edited. I also realised how hard it is to sound natural in front of a camera."
+  ],
+  "followUps": [
+   {
+    "q": "Why do news programmes often use interviews with ordinary people?",
+    "a": "**I think** it makes the news feel more real and relatable. **For example,** hearing a shop owner complain about rising prices is more powerful than just seeing numbers. **In addition,** viewers enjoy seeing people like themselves on TV. **However,** sometimes these interviews are chosen just to be funny, **rather than** to show a balanced view."
+   },
+   {
+    "q": "Would you like to work as a journalist?",
+    "a": "**To be fair,** I don’t think I would. **On the one hand,** it seems exciting to meet interesting people and be the first to know about events. **On the other hand,** journalists work long, unpredictable hours and face a lot of pressure. **Also,** they often receive angry comments online, **so** it’s a tough job."
+   },
+   {
+    "q": "Should famous people have more privacy from the media?",
+    "a": "**Yes, to some extent.** **In my opinion,** celebrities choose a public career, so some attention is normal. **However,** photographers following their children or their family members is going too far. **Personally,** I think the media should report on what celebrities do in their jobs, **but** leave their private lives alone unless it’s truly important."
+   }
+  ]
+ },
+ {
+  "id": "news-9",
+  "theme": "News & Media",
+  "themeZh": "新聞與媒體",
+  "setLabel": "Set 9",
+  "title": "Describe a documentary you watched that taught you something.",
+  "cues": [
+   "what the documentary was about",
+   "when and where you watched it",
+   "what you learned from it",
+   "and explain how it changed the way you think."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Beyond Beauty: Taiwan from Above 看見台灣 → aerial documentary by Chi Po-lin 齊柏林, released 2013"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "whole film shot from a helicopter; mountains, rice fields, coast → beautiful; then damage: illegal farming on slopes, polluted rivers, land sinking"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "watched in junior high → whole class taken to cinema; silent at the end; director died in a helicopter crash in 2017 → I felt very sad"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "never seen my island like that; beauty is fragile; now notice pollution + support eco-friendly choices"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the documentary I’d like to describe is called Beyond Beauty: Taiwan from Above. It was made by a Taiwanese photographer called Chi Po-lin and came out in 2013. **What makes it unique** is that almost the entire film was shot from a helicopter, **so** you see the whole island from the sky.",
+   "**In the first part,** it shows how stunning Taiwan is, **with** huge green mountains, golden rice fields and dramatic coastlines. Some of the shots of the east coast are so beautiful that they look like paintings. **But then** the mood changes completely. **Little by little,** the camera reveals the damage people have done, **like** illegal farming on steep mountainsides, rivers polluted by factories, and areas along the coast where the land is slowly sinking. **As a result,** the beautiful views suddenly start to feel quite worrying.",
+   "**I first watched it** when I was in junior high school, **because** our teachers took the whole class to the cinema. **I clearly remember** that when the film ended, nobody said a word for a few seconds, **which** is pretty unusual for a group of noisy teenagers. **A few years later,** I heard on the news that the director had died in a helicopter crash while filming a sequel. **To be fair,** I didn’t know him personally, **but** I felt really sad, **since** his work had affected me so much.",
+   "**Looking back,** the film made me realise that Taiwan’s natural beauty is fragile. **Since then,** I’ve paid much more attention to pollution **and** tried to make more eco-friendly choices. I now feel more responsible for protecting it."
+  ],
+  "followUps": [
+   {
+    "q": "Why do some people prefer documentaries to other types of TV?",
+    "a": "**I think** many people want to learn something while they relax. **For example,** a good nature documentary can teach you more than a textbook in just one hour. **In addition,** documentaries are based on real events, **so** they often feel more meaningful than fiction. **Also,** the filming quality nowadays is amazing, especially on big screens."
+   },
+   {
+    "q": "Should schools show more documentaries in class?",
+    "a": "**Yes, I think so,** but in moderation. **On the one hand,** documentaries can make difficult topics like climate change much easier to understand. **On the other hand,** students still need to read, discuss and think for themselves. **So ideally,** teachers should show short parts of a documentary **and then** ask students to debate the issues."
+   },
+   {
+    "q": "Can documentaries really change people’s behaviour?",
+    "a": "**To some extent,** yes. **For instance,** after Beyond Beauty came out, many people in Taiwan started talking about protecting rivers and mountains. **However,** the effect often fades after a few weeks, **because** people return to their busy routines. **In my view,** documentaries work best when they’re combined with real action from governments and schools."
+   }
+  ]
+ },
+ {
+  "id": "news-10",
+  "theme": "News & Media",
+  "themeZh": "新聞與媒體",
+  "setLabel": "Set 10",
+  "title": "Describe a place where you often see or hear the news.",
+  "cues": [
+   "where the place is",
+   "how often you go there",
+   "how the news is shown there",
+   "and explain how you feel about getting the news in this place."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "breakfast shop 早餐店 on the corner near my flat → run by a couple in their 50s"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "go 4–5 mornings a week; TV on the wall always showing news channel; loud; customers comment on the stories"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "owner Auntie Chen debates headlines w/ regulars while flipping egg pancakes; once whole shop cheered at baseball result; she knows my order"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "TV news there = dramatic, sometimes trivial; but cosy + community feeling; small daily ritual → better than reading alone on phone"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the place where I hear the news most often is actually a little breakfast shop on the corner near my flat in Zhonghe. It’s run by a friendly couple in their fifties, **and** like a lot of traditional breakfast shops in Taiwan, it has a TV on the wall that seems to be switched on from the moment they open. The food is cheap and the portions are big.",
+   "**These days,** I go there four or five mornings a week before work. **Usually,** the TV is tuned to one of the twenty-four-hour news channels, **and** the volume is surprisingly loud, **so** you can hear it even over the sound of the frying pans. **What’s interesting is that** customers don’t just watch quietly. **Instead,** they often comment on the stories, complain about politicians **or** joke about the weather forecast while they’re waiting for their food.",
+   "**The real star of the shop,** though, is the owner, who everyone calls Auntie Chen. **While** she’s flipping egg pancakes, she happily argues about the headlines with her regular customers. **I remember one morning** when the TV showed a big baseball result, **and** the whole shop started cheering, including people who didn’t know each other. **On top of that,** she always remembers my order, **so** I barely need to speak before my soy milk appears.",
+   "**To be fair,** the TV news there can be quite dramatic **and** sometimes covers silly stories. **Even so,** I love the cosy, community feeling. **For me,** it’s a small daily ritual that feels far better than reading the news alone on my phone."
+  ],
+  "followUps": [
+   {
+    "q": "Why do many restaurants and shops in Taiwan have a TV on?",
+    "a": "**I think** it’s partly to keep customers entertained while they wait. **For example,** people eating alone can watch the news instead of feeling bored. **In addition,** it creates a lively atmosphere. **Some owners** also simply like following the news themselves during long working hours, **so** the TV keeps them company too."
+   },
+   {
+    "q": "Is TV news in your country reliable?",
+    "a": "**It depends on** the channel, **I’d say.** **On the one hand,** some channels do serious reporting and check their facts carefully. **On the other hand,** many focus on shocking or trivial stories to attract viewers, like celebrity gossip or traffic accidents. **So** I usually check important stories on more than one source."
+   },
+   {
+    "q": "Do people prefer to discuss the news with others or follow it alone?",
+    "a": "**Nowadays,** I think most people follow it alone on their phones. **However,** discussing news with others is still common, **especially** among older people in places like parks and breakfast shops. **Personally,** I believe talking about the news is valuable, **because** it helps you hear different opinions and think more carefully."
+   }
+  ]
  }
 ]
 ;
