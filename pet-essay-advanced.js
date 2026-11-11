@@ -26,7 +26,7 @@
     document.querySelectorAll("[data-level]").forEach(b => b.classList.toggle("active", b.dataset.level === l));
     basic.hidden = l !== "basic"; advanced.hidden = l !== "advanced";
     document.body.classList.toggle("adv-mode", l === "advanced");
-    if (l === "advanced") render(); else stopAll();
+    if (l === "advanced") render(); else { stopAll(); if (topic) renderBasicArgs(); }
     try { history.replaceState(null, "", `#${topic ? topic.no : 1}${l === "advanced" ? "-adv" : ""}`); } catch {}
   }
   document.querySelectorAll("[data-level]").forEach(b => b.addEventListener("click", () => setLevel(b.dataset.level)));
@@ -51,12 +51,11 @@
       <div class="adv-type" hidden><textarea rows="2" spellcheck="false" placeholder="Type the sentence above, then compare…"></textarea><div class="adv-type-out"></div></div>
     </div>`;
   }
-  function renderArgs() {
-    const host = $("advArgs");
-    host.innerHTML = `<div class="adv-arg-col adv-col-agree"><h4>✅ AGREE 贊成 — key arguments</h4>${adv.args.agree.map((a, i) => argCell(a, "agree", i)).join("")}</div>
-      <div class="adv-arg-col adv-col-disagree"><h4>❌ DISAGREE 反對 — key arguments</h4>${adv.args.disagree.map((a, i) => argCell(a, "disagree", i)).join("")}</div>`;
+  function renderArgs(host, args) {
+    host.innerHTML = `<div class="adv-arg-col adv-col-agree"><h4>✅ AGREE 贊成 — key arguments</h4>${args.agree.map((a, i) => argCell(a, "agree", i)).join("")}</div>
+      <div class="adv-arg-col adv-col-disagree"><h4>❌ DISAGREE 反對 — key arguments</h4>${args.disagree.map((a, i) => argCell(a, "disagree", i)).join("")}</div>`;
     host.querySelectorAll(".adv-arg").forEach(cell => {
-      const a = adv.args[cell.dataset.side][Number(cell.dataset.i)];
+      const a = args[cell.dataset.side][Number(cell.dataset.i)];
       const spans = K.wordSpans(cell.querySelector(".adv-arg-en"), a.en);
       const acc = cell.querySelector(".adv-arg-acc"), typeBox = cell.querySelector(".adv-type"), ta = typeBox.querySelector("textarea"), out = typeBox.querySelector(".adv-type-out");
       cell.querySelector('[data-act="listen"]').addEventListener("click", () => { stopAll(); K.speak(a.en, 0.9); });
@@ -178,7 +177,7 @@
     $("advMeta").textContent = `Topic ${topic.no} / 15 · ${topic.theme} · Advanced B2 · about 280 words`;
     $("advTitle").textContent = `${topic.en} · ${topic.zh}`;
     $("advPrompt").textContent = `${topic.prompt} Give reasons and examples, and consider the opposite view.\nWrite about 250–300 words.`;
-    renderArgs();
+    renderArgs($("advArgs"), adv.args);
     document.querySelectorAll("[data-side-pick]").forEach(b => b.classList.toggle("active", b.dataset.sidePick === side));
     renderGrid();
     $("advVocab").innerHTML = adv.vocab.map(v => `<span><b>${esc(v[0])}</b>${esc(v[1])}</span>`).join("");
@@ -189,7 +188,15 @@
     loadDraft();
   }
 
-  document.addEventListener("pet-topic", e => { topic = e.detail; if (level === "advanced") render(); });
+  /* ---------- basic (B1) argument grid ---------- */
+  function renderBasicArgs() {
+    const host = $("basicArgs"), args = (window.PET_ESSAY_ARGS_B1 || {})[topic.no];
+    if (!host) return;
+    if (!args) { host.closest("section").hidden = true; return; }
+    host.closest("section").hidden = false; stopAll(); renderArgs(host, args);
+  }
+  function onTopic() { if (level === "advanced") render(); else renderBasicArgs(); }
+  document.addEventListener("pet-topic", e => { topic = e.detail; onTopic(); });
   if (/-adv$/.test(location.hash)) level = "advanced";
   // pet-essay.js has already selected the topic by the time this script runs.
   if (window.PET_CURRENT_TOPIC) topic = window.PET_CURRENT_TOPIC;
