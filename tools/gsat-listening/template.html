@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>學測英聽 __Y__ 年度｜__NAME__ 逐題聽・逐題字幕</title>
+<meta name="description" content="大考中心高中英語聽力測驗__NAME__（__Y__ 年公布），四十題逐題播放、逐句字幕、對答案與解析。">
+<style>
+:root{--bg:#f5f7f7;--card:#fff;--ink:#202a29;--soft:#566563;--rule:#dce3e1;--accent:#b0472e;--accent-soft:#f6e6e1;--ok:#1f7a4d;--ok-soft:#e1f2e8;--bad:#b3261e;--bad-soft:#fbe3e1;--hl:#fff1b8;--sub:#16302c;--subbg:#eef4f2;color-scheme:light}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Segoe UI","Microsoft JhengHei","PingFang TC",Arial,sans-serif;line-height:1.6}
+a{color:var(--accent)}
+button{font:inherit;cursor:pointer}
+:focus-visible{outline:3px solid #067e68;outline-offset:3px}
+.wrap{max-width:860px;margin:0 auto;padding:22px 16px 80px}
+header .crumb{font-size:14px;color:var(--soft);margin:0 0 6px}
+header .crumb a{color:var(--soft)}
+h1{font-size:26px;line-height:1.3;margin:0}
+h1 small{display:block;font-size:15px;font-weight:400;color:var(--soft);margin-top:4px}
+.lede{color:var(--soft);font-size:14px;margin:10px 0 0}
+.panel{background:var(--card);border:1px solid var(--rule);border-radius:8px;padding:14px 16px;margin:16px 0}
+.panel h2{font-size:17px;margin:0 0 6px}
+.panel ol{margin:4px 0;padding-left:22px;font-size:14.5px}
+.controls{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;font-size:14px}
+.seg{display:inline-flex;border:1px solid var(--rule);border-radius:6px;overflow:hidden}
+.seg button{border:0;background:#fff;padding:6px 11px;color:var(--soft)}
+.seg button[aria-pressed="true"]{background:var(--accent);color:#fff;font-weight:700}
+.tally{margin-left:auto;color:var(--soft)}
+.btn{border:1px solid var(--rule);background:#fff;border-radius:6px;padding:6px 12px;color:var(--ink)}
+.btn:hover{border-color:var(--accent)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:700}
+.btn:disabled{opacity:.45;cursor:default}
+nav.toc{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
+nav.toc a{font-size:13.5px;text-decoration:none;border:1px solid var(--rule);background:#fff;color:var(--ink);border-radius:5px;padding:4px 9px}
+.qmap{display:flex;flex-wrap:wrap;gap:5px;margin-top:10px}
+.qmap a{width:34px;height:30px;display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--rule);border-radius:5px;background:#fff;font-size:13px;text-decoration:none;color:var(--ink)}
+.qmap a.ok{background:var(--ok-soft);border-color:var(--ok);color:var(--ok);font-weight:700}
+.qmap a.bad{background:var(--bad-soft);border-color:var(--bad);color:var(--bad);font-weight:700}
+section.sec{margin-top:34px;scroll-margin-top:70px}
+section.sec>h2{font-size:21px;margin:0 0 6px;padding-bottom:6px;border-bottom:2px solid var(--ink)}
+.rule{font-size:14px;color:var(--soft);margin:4px 0}
+details.tip{background:var(--subbg);border-left:4px solid #3e6e52;border-radius:0 6px 6px 0;padding:8px 12px;margin:10px 0;font-size:14.5px}
+details.tip summary{cursor:pointer;font-weight:700;color:#3e6e52}
+.unit{background:var(--card);border:1px solid var(--rule);border-radius:8px;padding:14px 16px;margin:14px 0;scroll-margin-top:70px}
+.unit.example{border-style:dashed;background:#fbfaf6}
+.uhead{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.uhead h3{margin:0;font-size:17px}
+.uhead .tag{font-size:12px;color:var(--soft);border:1px solid var(--rule);border-radius:4px;padding:1px 6px}
+.player{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:10px 0 4px}
+.play{display:inline-flex;align-items:center;gap:6px;background:var(--accent);color:#fff;border:0;border-radius:999px;padding:8px 16px;font-weight:700;min-height:40px}
+.play.on{background:#7a2e1d}
+.play svg{width:14px;height:14px;fill:currentColor}
+.prog{flex:1;min-width:120px;height:6px;background:var(--rule);border-radius:3px;overflow:hidden;cursor:pointer}
+.prog i{display:block;height:100%;width:0;background:var(--accent)}
+.time{font-size:12.5px;color:var(--soft);font-variant-numeric:tabular-nums;min-width:74px;text-align:right}
+.subtoggle{font-size:13.5px}
+.imgs img{max-width:100%;border:1px solid var(--rule);border-radius:6px;margin:8px 0;background:#fff}
+.sub{background:var(--subbg);border-radius:6px;padding:8px 10px;margin:8px 0;font-family:Georgia,"Times New Roman",serif;font-size:16px}
+.sub[hidden]{display:none}
+.sub p{margin:0;padding:3px 6px;border-radius:4px;cursor:pointer;color:var(--sub)}
+.sub p:hover{background:#dfeae6}
+.sub p.cur{background:var(--hl);box-shadow:inset 3px 0 0 var(--accent)}
+.sub p .sp{font-family:"Segoe UI",Arial,sans-serif;font-size:12px;font-weight:700;color:var(--accent);margin-right:6px}
+.sub .hint{font-family:"Segoe UI","Microsoft JhengHei",sans-serif;font-size:12px;color:var(--soft);margin:2px 6px 4px}
+.q{margin:12px 0 4px}
+.q .qn{font-weight:700;margin-bottom:4px}
+.q .prompt{font-family:Georgia,serif;margin:0 0 4px}
+.opts{display:grid;gap:5px}
+.opts.pics{grid-template-columns:repeat(4,minmax(0,1fr))}
+.opt{display:flex;gap:8px;align-items:flex-start;text-align:left;border:1px solid var(--rule);background:#fff;border-radius:6px;padding:7px 10px;color:var(--ink);font-family:Georgia,serif;font-size:15.5px}
+.opts.pics .opt{justify-content:center;font-family:"Segoe UI",sans-serif;font-weight:700}
+.opt b{font-family:"Segoe UI",sans-serif;color:var(--soft);min-width:26px}
+.opt[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
+.opt.right{border-color:var(--ok);background:var(--ok-soft)}
+.opt.wrong{border-color:var(--bad);background:var(--bad-soft)}
+.opt:disabled{cursor:default}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 2px;align-items:center}
+.verdict{font-weight:700}
+.verdict.ok{color:var(--ok)}.verdict.bad{color:var(--bad)}
+.notes{border-top:1px dashed var(--rule);margin-top:10px;padding-top:8px;font-size:14.5px}
+.note{margin:6px 0 12px}
+.note h4{margin:0 0 4px;font-size:15px}
+.note p{margin:3px 0}
+.note ul{margin:3px 0;padding-left:20px}
+.note .lab{display:inline-block;font-size:12px;font-weight:700;color:#fff;background:#3e6e52;border-radius:3px;padding:0 6px;margin:6px 0 2px}
+.note .lab.w{background:var(--bad)}.note .lab.e{background:#1d5f8a}.note .lab.v{background:#8b6b18}
+.sticky{position:sticky;top:0;z-index:5;background:rgba(245,247,247,.96);backdrop-filter:blur(4px);border-bottom:1px solid var(--rule);margin:0 -16px;padding:8px 16px}
+.sticky .row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:13.5px}
+.sticky .now{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--soft)}
+footer{margin-top:40px;font-size:13px;color:var(--soft)}
+.err{background:var(--bad-soft);color:var(--bad);border-radius:6px;padding:8px 10px;font-size:14px}
+@media(max-width:600px){h1{font-size:22px}.opts.pics{grid-template-columns:repeat(2,minmax(0,1fr))}.sub{font-size:15px}}
+@media print{.player,.actions,.sticky,.controls,nav{display:none!important}.sub[hidden]{display:block!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <p class="crumb"><a href="../dashboard.html">← 回練習總表 Dashboard</a>　／　GSAT Listening 學測英聽　／　__Y__ 年度</p>
+  <h1>英聽__NAME__：逐題聽・逐題字幕<small>高中英語聽力測驗　大考中心 __Y__ 年公布　五大題 40 題</small></h1>
+  <p class="lede">每一題都有自己的播放鍵，只播那一題的錄音；字幕跟著錄音逐句亮起，點任何一句可以從那一句重聽。選項、答案依大考中心試題本與參考答案；錄音內容與解析整理自 JCEE 題庫（見頁尾出處）。</p>
+</header>
+
+<div class="sticky" id="sticky"><div class="row">
+  <span class="seg" role="group" aria-label="播放速度"><button type="button" data-rate="0.75">0.75×</button><button type="button" data-rate="0.9">0.9×</button><button type="button" data-rate="1" aria-pressed="true">1×</button></span>
+  <span class="seg" role="group" aria-label="字幕模式"><button type="button" data-sub="hide" aria-pressed="true">字幕：作答後</button><button type="button" data-sub="show">字幕：一律顯示</button></span>
+  <span class="now" id="now">尚未播放</span>
+  <span class="tally" id="tally"></span>
+</div></div>
+
+<div class="panel">
+  <h2>怎麼練習</h2>
+  <ol>
+    <li>按題目的 ▶ 播放鍵，只會播這一題（或這一個題組）的錄音，播完自動停。</li>
+    <li>聽完選答案，按「對答案」。對完答案字幕會打開，可以邊聽邊看。</li>
+    <li>聽不清楚的句子，直接點字幕那一行，從那一句開始重播。「只播這句」可以一句一句練。</li>
+    <li>想一開始就看字幕練習跟讀，在上方切換成「字幕：一律顯示」。</li>
+  </ol>
+  <div class="actions"><button type="button" class="btn" id="resetAll">全部重新作答</button><span id="audioStatus" class="rule"></span></div>
+  <div class="qmap" id="qmap" aria-label="題號一覽"></div>
+</div>
+
+<nav class="toc" id="toc" aria-label="五大題"></nav>
+<main id="app"></main>
+
+<footer>
+  <p>資料出處：大考中心〈高中英語聽力測驗__NAME__〉試題本、語音檔與參考答案。語音檔直接由大考中心網站播放，本頁不另存檔案。錄音內容逐字稿與中文解析整理自 <a href="https://staresto-create.github.io/JCEE-vocab-questions/listening/__SLUG__.html" target="_blank" rel="noopener">JCEE 題庫・英聽__NAME__</a>（CC BY-NC 4.0）。試卷著作權屬財團法人大學入學考試中心基金會；本頁為非營利教學使用。</p>
+  <p>作答紀錄只存在這台裝置的瀏覽器裡。</p>
+</footer>
+</div>
+
+<audio id="aud" preload="metadata" src="__AUDIO__"></audio>
+<script>
+var DATA=__DATA__;
+var TIMES=__TIMES__;
+(function(){
+"use strict";
+var KEY="jennifer-gsat-listening-__Y__-__SLUG__-v1";
+var IMG="img/";
+var state={a:{},done:{}};
+try{var s=localStorage.getItem(KEY);if(s)state=JSON.parse(s);}catch(e){}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(state));}catch(e){}}
+var subMode="hide";try{subMode=localStorage.getItem(KEY+"-sub")||"hide";}catch(e){}
+var aud=document.getElementById("aud");
+var app=document.getElementById("app");
+var L="ABCD";
+var PLAY='<svg viewBox="0 0 10 10"><path d="M1 0l9 5-9 5z"/></svg>';
+var PAUSE='<svg viewBox="0 0 10 10"><path d="M1 0h3v10H1zM6 0h3v10H6z"/></svg>';
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
+function el(tag,cls,html){var e=document.createElement(tag);if(cls)e.className=cls;if(html!=null)e.innerHTML=html;return e;}
+function fmt(t){t=Math.max(0,t);var m=Math.floor(t/60),s=Math.floor(t%60);return m+":"+(s<10?"0":"")+s;}
+function speaker(line){var m=/^(M|W|Man|Woman):\s*/.exec(line);return m?['<span class="sp">'+m[1]+'</span>',line.slice(m[0].length)]:["",line];}
+
+var units=[];   // {id, el, t:{s,e,lines}, subEl, playBtn, prog, time}
+var cur=null, stopAt=null, lineMode=false;
+
+function buildUnit(sec,u,isEx){
+  var t=TIMES[u.id]||null;
+  var box=el("div","unit"+(isEx?" example":""));box.id=u.id;
+  var head=el("div","uhead");
+  head.appendChild(el("h3",null,esc(u.label)));
+  if(u.group)head.appendChild(el("span","tag",u.qs.length+" 題一組"));
+  box.appendChild(head);
+  var pl=el("div","player");
+  var btn=el("button","play",PLAY+"<span>播放這一題</span>");btn.type="button";
+  var prog=el("div","prog");prog.appendChild(el("i"));
+  var time=el("span","time",t?("0:00 / "+fmt(t.e-t.s)):"—");
+  pl.appendChild(btn);pl.appendChild(prog);pl.appendChild(time);
+  var tg=el("button","btn subtoggle","顯示字幕");tg.type="button";
+  pl.appendChild(tg);
+  box.appendChild(pl);
+  if(u.img){var im=el("div","imgs");u.img.forEach(function(src,i){var g=document.createElement("img");g.src=IMG+src;g.alt=(u.alt&&u.alt[i])||"";g.loading="lazy";im.appendChild(g);});box.appendChild(im);}
+  var sub=el("div","sub");sub.hidden=true;
+  sub.appendChild(el("div","hint","點任一句從那裡播放；按住 Shift 再點，或按「只播這句」可以只聽一句。"));
+  (u.sub||[]).forEach(function(line,i){
+    var p=el("p",null,(line[0]?'<span class="sp">'+line[0]+'</span>':'')+esc(line[1]));p.dataset.i=i;sub.appendChild(p);
+  });
+  var one=el("button","btn","只播這句");one.type="button";one.style.marginTop="6px";one.disabled=true;
+  sub.appendChild(one);
+  box.appendChild(sub);
+  var U={id:u.id,box:box,t:t,sub:sub,btn:btn,prog:prog,time:time,tg:tg,one:one,sel:-1,u:u,ex:isEx};
+  units.push(U);
+  btn.addEventListener("click",function(){toggle(U);});
+  prog.addEventListener("click",function(ev){if(!t)return;var r=prog.getBoundingClientRect();var f=(ev.clientX-r.left)/r.width;start(U,t.s+f*(t.e-t.s),t.e,false);});
+  tg.addEventListener("click",function(){setSub(U,sub.hidden);});
+  sub.addEventListener("click",function(ev){var p=ev.target.closest("p");if(!p||!t||!t.lines)return;var i=+p.dataset.i;U.sel=i;one.disabled=false;var ln=t.lines[i];if(!ln)return;
+    if(ev.shiftKey)start(U,ln[0],ln[1],true);else start(U,ln[0],t.e,false);});
+  one.addEventListener("click",function(){if(U.sel<0||!t||!t.lines)return;var ln=t.lines[U.sel];start(U,ln[0],ln[1],true);});
+  // questions
+  if(isEx){
+    var exq={n:"例",ans:u.ans,opts:u.opts,prompt:u.prompt,multi:/、/.test(u.ans)};
+    box.appendChild(buildQ(U,[exq],true));
+  }else box.appendChild(buildQ(U,u.qs,false));
+  return box;
+}
+
+function setSub(U,show){U.sub.hidden=!show;U.tg.textContent=show?"隱藏字幕":"顯示字幕";}
+
+function buildQ(U,qs,isEx){
+  var wrap=el("div");
+  var picks={};
+  qs.forEach(function(q){
+    var key=isEx?(U.id+"-ex"):String(q.n);
+    var qd=el("div","q");
+    qd.appendChild(el("div","qn",isEx?"例題":("第 "+q.n+" 題"+(q.multi?"（多選，選兩個）":""))));
+    if(q.prompt)qd.appendChild(el("p","prompt",esc(q.prompt)));
+    var o=el("div","opts"+(q.opts?"":" pics"));
+    var n=q.opts?q.opts.length:4;
+    var multi=!!q.multi||(q.ans&&q.ans.replace(/[^A-D]/g,"").length>1);
+    var ans=String(q.ans).replace(/[^A-D]/g,"");
+    picks[key]={q:q,ans:ans,multi:multi,btns:[]};
+    for(var i=0;i<n;i++){
+      var b=el("button","opt","<b>("+L[i]+")</b><span>"+(q.opts?esc(q.opts[i]):"")+"</span>");b.type="button";b.dataset.l=L[i];b.setAttribute("aria-pressed","false");
+      (function(b){b.addEventListener("click",function(){
+        var P=picks[key];if(P.locked)return;
+        if(P.multi){b.setAttribute("aria-pressed",b.getAttribute("aria-pressed")==="true"?"false":"true");}
+        else P.btns.forEach(function(x){x.setAttribute("aria-pressed",String(x===b));});
+        if(!isEx){state.a[key]=P.btns.filter(function(x){return x.getAttribute("aria-pressed")==="true";}).map(function(x){return x.dataset.l;}).join("");save();}
+      });})(b);
+      picks[key].btns.push(b);o.appendChild(b);
+    }
+    qd.appendChild(o);wrap.appendChild(qd);
+    if(!isEx&&state.a[key]){picks[key].btns.forEach(function(x){x.setAttribute("aria-pressed",String(state.a[key].indexOf(x.dataset.l)>=0));});}
+  });
+  var act=el("div","actions");
+  var chk=el("button","btn primary","對答案");chk.type="button";
+  var rst=el("button","btn","重新作答");rst.type="button";
+  var ver=el("span","verdict");
+  act.appendChild(chk);act.appendChild(rst);act.appendChild(ver);wrap.appendChild(act);
+  var notes=null;
+  if(!isEx&&U.u.notes){notes=el("div","notes");notes.hidden=true;U.u.notes.forEach(function(nt){
+    var h='<div class="note"><h4>第 '+nt.n+' 題解析</h4><span class="lab">答題關鍵</span><p>'+esc(nt.key)+'</p>';
+    if(nt.wrong&&nt.wrong.length)h+='<span class="lab w">其他選項為什麼不對</span><ul>'+nt.wrong.map(function(x){return"<li>"+esc(x)+"</li>";}).join("")+"</ul>";
+    if(nt.ear&&nt.ear.length)h+='<span class="lab e">容易聽錯的地方</span><ul>'+nt.ear.map(function(x){return"<li>"+esc(x)+"</li>";}).join("")+"</ul>";
+    if(nt.words)h+='<span class="lab v">單字</span><p>'+esc(nt.words)+"</p>";
+    notes.insertAdjacentHTML("beforeend",h+"</div>");});wrap.appendChild(notes);}
+  function grade(){
+    var all=0,ok=0;
+    Object.keys(picks).forEach(function(k){var P=picks[k];P.locked=true;all++;
+      var got=P.btns.filter(function(x){return x.getAttribute("aria-pressed")==="true";}).map(function(x){return x.dataset.l;}).join("");
+      if(got===P.ans)ok++;
+      P.btns.forEach(function(x){x.disabled=true;var l=x.dataset.l;if(P.ans.indexOf(l)>=0)x.classList.add("right");else if(got.indexOf(l)>=0)x.classList.add("wrong");});
+      if(!isEx){state.done[k]=(got===P.ans)?1:0;}
+    });
+    ver.textContent=ok===all?("全對 ✓ "+(all>1?ok+"/"+all:"")):("答對 "+ok+"/"+all);ver.className="verdict "+(ok===all?"ok":"bad");
+    if(notes)notes.hidden=false;setSub(U,true);chk.disabled=true;
+    if(!isEx){save();refresh();}
+  }
+  chk.addEventListener("click",function(){
+    var empty=Object.keys(picks).some(function(k){return !picks[k].btns.some(function(x){return x.getAttribute("aria-pressed")==="true";});});
+    if(empty&&!confirm("還有題目沒選，確定要對答案嗎？"))return;grade();});
+  rst.addEventListener("click",function(){Object.keys(picks).forEach(function(k){var P=picks[k];P.locked=false;P.btns.forEach(function(x){x.disabled=false;x.classList.remove("right","wrong");x.setAttribute("aria-pressed","false");});if(!isEx){delete state.a[k];delete state.done[k];}});
+    ver.textContent="";chk.disabled=false;if(notes)notes.hidden=true;setSub(U,subMode==="show");if(!isEx){save();refresh();}});
+  U.grade=grade;U.picks=picks;
+  if(!isEx&&Object.keys(picks).every(function(k){return state.done[k]!==undefined;}))setTimeout(grade,0);
+  return wrap;
+}
+
+function render(){
+  var toc=document.getElementById("toc");
+  DATA.forEach(function(sec){
+    var s=el("section","sec");s.id=sec.id;
+    s.appendChild(el("h2",null,esc(sec.title)));
+    if(sec.rule)s.appendChild(el("p","rule",esc(sec.rule)));
+    if(sec.howto){var d=el("details","tip");d.innerHTML="<summary>這一大題怎麼聽</summary><p>"+esc(sec.howto)+"</p>";s.appendChild(d);}
+    if(sec.example){var ex=sec.example;var eu={id:sec.id+"-ex",label:"例題",script:ex.script,sub:ex.sub,img:ex.img?[ex.img]:null,alt:ex.alt?[ex.alt]:null,ans:ex.ans,opts:ex.opts,prompt:ex.prompt};s.appendChild(buildUnit(sec,eu,true));}
+    sec.units.forEach(function(u){s.appendChild(buildUnit(sec,u,false));});
+    app.appendChild(s);
+    var a=el("a",null,esc(sec.title.replace(/：.*$/,"").replace(/^(.、)/,"$1")));a.href="#"+sec.id;toc.appendChild(a);
+  });
+  var qm=document.getElementById("qmap");
+  DATA.forEach(function(sec){sec.units.forEach(function(u){u.qs.forEach(function(q){var a=el("a",null,q.n);a.href="#"+u.id;a.dataset.n=q.n;qm.appendChild(a);});});});
+  units.forEach(function(U){setSub(U,subMode==="show"&&!U.sub.hidden?true:subMode==="show");});
+  refresh();
+}
+function refresh(){
+  var tot=0,ok=0,done=0;
+  document.querySelectorAll("#qmap a").forEach(function(a){var k=a.dataset.n;tot++;a.className="";if(state.done[k]!==undefined){done++;if(state.done[k]){ok++;a.className="ok";}else a.className="bad";}});
+  document.getElementById("tally").textContent="已作答 "+done+"/"+tot+"　答對 "+ok;
+}
+
+// ---- audio ----
+function toggle(U){
+  if(cur===U&&!aud.paused){aud.pause();return;}
+  if(!U.t){alert("這一題沒有時間標記。");return;}
+  if(cur===U&&aud.currentTime>=U.t.s&&aud.currentTime<U.t.e-0.2&&!lineMode){aud.play();return;}
+  start(U,U.t.s,U.t.e,false);
+}
+function start(U,from,to,line){
+  if(cur&&cur!==U)paint(cur,false);
+  cur=U;stopAt=to;lineMode=line;
+  var go=function(){try{aud.currentTime=from;}catch(e){}var p=aud.play();if(p&&p.catch)p.catch(function(e){status("無法播放："+e.message);});};
+  if(aud.readyState<1){aud.addEventListener("loadedmetadata",go,{once:true});aud.load();}else go();
+}
+function paint(U,on){U.btn.classList.toggle("on",on);U.btn.innerHTML=(on?PAUSE+"<span>暫停</span>":PLAY+"<span>播放這一題</span>");}
+function status(m){document.getElementById("audioStatus").textContent=m;}
+aud.addEventListener("play",function(){if(cur)paint(cur,true);});
+aud.addEventListener("pause",function(){if(cur)paint(cur,false);});
+aud.addEventListener("waiting",function(){status("錄音載入中……");});
+aud.addEventListener("playing",function(){status("");});
+aud.addEventListener("error",function(){status("錄音檔無法載入，請確認網路連線，或改用大考中心網站下載。");});
+aud.addEventListener("timeupdate",tick);
+var lastLine=-1;
+function tick(){
+  if(!cur||!cur.t)return;var t=aud.currentTime,T=cur.t;
+  if(stopAt!=null&&t>=stopAt){aud.pause();stopAt=null;if(!lineMode){cur.prog.firstChild.style.width="100%";}return;}
+  var f=Math.min(1,Math.max(0,(t-T.s)/(T.e-T.s)));cur.prog.firstChild.style.width=(f*100)+"%";cur.time.textContent=fmt(t-T.s)+" / "+fmt(T.e-T.s);
+  if(T.lines){var li=-1;for(var i=0;i<T.lines.length;i++){if(T.lines[i]&&t>=T.lines[i][0]-0.05)li=i;}
+    if(li!==lastLine){lastLine=li;cur.sub.querySelectorAll("p").forEach(function(p){p.classList.toggle("cur",+p.dataset.i===li);});
+      if(li>=0){document.getElementById("now").textContent=cur.u.label+"　"+cur.u.sub[li][1];var p=cur.sub.querySelector('p[data-i="'+li+'"]');if(p&&!cur.sub.hidden){var r=p.getBoundingClientRect();if(r.top<60||r.bottom>innerHeight-10)p.scrollIntoView({block:"center",behavior:"smooth"});}}}}
+}
+// speed + subtitle mode
+document.querySelectorAll("[data-rate]").forEach(function(b){b.addEventListener("click",function(){aud.playbackRate=+b.dataset.rate;document.querySelectorAll("[data-rate]").forEach(function(x){x.setAttribute("aria-pressed",String(x===b));});});});
+function setMode(m){subMode=m;try{localStorage.setItem(KEY+"-sub",m);}catch(e){}document.querySelectorAll("[data-sub]").forEach(function(x){x.setAttribute("aria-pressed",String(x.dataset.sub===m));});
+  units.forEach(function(U){var graded=U.btn&&U.box.querySelector(".verdict").textContent;setSub(U,m==="show"||!!graded);});}
+document.querySelectorAll("[data-sub]").forEach(function(b){b.addEventListener("click",function(){setMode(b.dataset.sub);});});
+document.getElementById("resetAll").addEventListener("click",function(){if(!confirm("清除全部作答紀錄？"))return;state={a:{},done:{}};save();location.reload();});
+document.addEventListener("keydown",function(e){if(e.target.closest("input,textarea"))return;if(e.code==="Space"&&cur){e.preventDefault();toggle(cur);}});
+render();setMode(subMode);
+})();
+</script>
+</body>
+</html>
