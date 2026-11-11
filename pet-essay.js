@@ -58,7 +58,9 @@ function select(no) {
   $("writeBox").value = localStorage.getItem(DRAFT + topic.no) || "";
   count(); $("feedback").hidden = true;
   list();
-  try { history.replaceState(null, "", `#${topic.no}`); } catch {}
+  try { history.replaceState(null, "", `#${topic.no}${document.body.classList.contains("adv-mode") || /-adv$/.test(location.hash) ? "-adv" : ""}`); } catch {}
+  window.PET_CURRENT_TOPIC = topic;
+  document.dispatchEvent(new CustomEvent("pet-topic", { detail: topic }));
 }
 function count() { $("wordCount").textContent = `${W.wordCount($("writeBox").value)} words`; }
 
@@ -101,4 +103,4 @@ $("aiButton").addEventListener("click", async () => {
 });
 $("searchInput").addEventListener("input", list);
 
-select(Number(location.hash.slice(1)) || 1);
+select(parseInt(location.hash.slice(1), 10) || 1);

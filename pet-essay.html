@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PET Agree / Disagree Essays | Jennifer Chen's Speaking &amp; Writing</title>
+    <title>Agree / Disagree Essays (B1 + Advanced B2) | Jennifer Chen's Speaking &amp; Writing</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="speaking-extra.css">
     <link rel="stylesheet" href="sw-pages.css">
@@ -20,6 +20,35 @@
       .pe-vocab span { background: #f2f6fa; border: 1px solid #d6e2ee; border-radius: 999px; padding: 4px 12px; font-size: 14px; }
       .pe-vocab b { color: #1d4f8a; margin-right: 4px; }
       .pe-row-count { font-size: 12px; color: var(--muted); float: right; }
+      /* ---- level switch ---- */
+      .level-switch { display: inline-flex; border: 1px solid #c9d6d6; border-radius: 999px; overflow: hidden; margin: 10px 0 0; }
+      .level-switch button { border: 0; background: #fff; padding: 7px 16px; font: inherit; font-size: 14px; font-weight: 700; color: #4c6b6b; cursor: pointer; }
+      .level-switch button.active { background: #0f7c80; color: #fff; }
+      .level-switch button[data-level="advanced"].active { background: #8a2f6b; }
+      #basicMain[hidden], #advMain[hidden] { display: none; }
+      /* ---- advanced ---- */
+      .adv-args { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+      @media (max-width: 760px) { .adv-args { grid-template-columns: 1fr; } }
+      .adv-arg-col h4 { margin: 0 0 8px; padding: 8px 12px; border-radius: 8px; color: #fff; font-size: 15px; }
+      .adv-col-agree h4 { background: #1f4e79; } .adv-col-disagree h4 { background: #8b1a1a; }
+      .adv-arg { border: 1px solid #d9e2e2; border-radius: 10px; padding: 10px 12px; margin-bottom: 10px; background: #fff; }
+      .adv-col-agree .adv-arg { background: #eef5ee; } .adv-col-disagree .adv-arg { background: #fdeeee; }
+      .adv-arg > b { display: block; margin-bottom: 4px; font-size: 15px; }
+      .adv-col-agree .adv-arg > b { color: #1f4e79; } .adv-col-disagree .adv-arg > b { color: #8b1a1a; }
+      .adv-arg-en { margin: 0; font-size: 16px; line-height: 1.7; }
+      .adv-arg-zh { margin: 4px 0 6px; font-size: 13.5px; color: #666; }
+      .adv-arg-tools { display: flex; flex-wrap: wrap; gap: 6px; }
+      .adv-arg-tools .small-button.live { background: #c0392b; color: #fff; }
+      .adv-arg-acc { display: block; margin-top: 6px; font-size: 13px; color: #333; }
+      .adv-type { margin-top: 8px; }
+      .adv-type textarea { box-sizing: border-box; width: 100%; min-height: 0; height: 60px; resize: vertical; border: 1px dashed #9fb8b8; border-radius: 6px; padding: 6px 8px; font: inherit; font-size: 15px; background: #fff; }
+      .adv-type-out { margin-top: 4px; font-size: 14px; line-height: 1.6; }
+      .adv-type-out small { display: block; color: var(--muted); }
+      .side-pick { display: inline-flex; gap: 6px; }
+      .side-pick button { border: 1px solid #c9d6d6; background: #fff; border-radius: 999px; padding: 6px 14px; font: inherit; font-weight: 800; font-size: 13px; cursor: pointer; color: #4c6b6b; }
+      .side-pick button.active[data-side-pick="agree"] { background: #1f4e79; color: #fff; border-color: #1f4e79; }
+      .side-pick button.active[data-side-pick="disagree"] { background: #8b1a1a; color: #fff; border-color: #8b1a1a; }
+      .adv-mode .pe-grid th:nth-child(2) { background: #5a3d7a; }
     </style>
   </head>
   <body>
@@ -27,9 +56,13 @@
       <aside class="question-sidebar" aria-label="Essay topics">
         <div class="sidebar-head">
           <div>
-            <p class="eyebrow">KET · PET B1 · 200 words</p>
+            <p class="eyebrow">KET · PET B1 · 200 words &nbsp;|&nbsp; Advanced B2 · 280 words</p>
             <h1>Agree / Disagree Essays 正反立場短文</h1>
             <a class="dash-link" href="dashboard.html" style="margin-top:8px">&larr; Dashboard</a>
+            <div class="level-switch" role="tablist" aria-label="Level">
+              <button type="button" data-level="basic" class="active">Basic B1 基礎</button>
+              <button type="button" data-level="advanced">Advanced B2 進階</button>
+            </div>
           </div>
           <span class="count-pill" id="countPill">15</span>
         </div>
@@ -39,6 +72,7 @@
       </aside>
 
       <main class="sw-main">
+       <div id="basicMain">
         <p class="eyebrow" id="topicMeta"></p>
         <h2 id="topicTitle"></h2>
         <div class="sw-prompt" id="topicPrompt"></div>
@@ -80,6 +114,61 @@
           </div>
           <div id="feedback" class="sw-feedback" hidden></div>
         </section>
+       </div>
+
+       <div id="advMain" hidden>
+        <p class="eyebrow" id="advMeta"></p>
+        <h2 id="advTitle"></h2>
+        <div class="sw-prompt" id="advPrompt"></div>
+        <p class="sw-sub" style="margin:10px 0 0">Step 1 — learn the key arguments on both sides: <b>&#128264; Listen</b>, <b>🎤 Read</b> aloud (live check), <b>⌨ Type</b> the sentence. Step 2 — choose your side and write row by row; column 3 shows the teacher's sample on the <b>same side</b>.</p>
+
+        <section class="sw-section">
+          <h3><span>1. Argument Grid 正反論點表</span></h3>
+          <div class="adv-args" id="advArgs"></div>
+        </section>
+
+        <section class="sw-section">
+          <h3><span>2. Sentence-Pattern Grid 句型表 &nbsp;<span class="side-pick" aria-label="I write"><span style="font-size:13px;color:var(--muted);align-self:center">I write:</span><button type="button" data-side-pick="agree">AGREE 贊成</button><button type="button" data-side-pick="disagree">DISAGREE 反對</button></span></span>
+            <span><button id="advHideHints" class="small-button" type="button">Hide ✎ ideas</button> <button id="advHideCol3" class="small-button" type="button">Hide Column 3</button></span></h3>
+          <div class="sw-table-wrap">
+            <table class="sw-grid pe-grid" id="advGrid">
+              <thead><tr><th style="width:20%">Element 寫作結構</th><th style="width:40%">My writing — <span id="advSideWrite"></span><br><small>我的寫作</small></th><th>Teacher's sample — <span id="advSideSample"></span><br><small>老師範例（同一立場）· bold = sentence pattern 句型</small></th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+          <div class="sw-actions" style="margin-top:10px">
+            <button id="advBuild" class="small-button primary-action" type="button">&#11015; Put my sentences into one essay</button>
+          </div>
+        </section>
+
+        <section class="sw-section">
+          <h3>Key Vocab 重點單字 (B2)</h3>
+          <div class="pe-vocab" id="advVocab"></div>
+        </section>
+
+        <section class="sw-section">
+          <h3><span>Model Essay A — <span class="pe-stance pe-agree">AGREE</span> 範文 <small id="advWords-agree" style="color:var(--muted);font-weight:600"></small></span>
+            <span><button id="advShow-agree" class="small-button" type="button" data-show="agree">Show</button> <button class="small-button" type="button" data-listen="agree">&#128264; Listen</button></span></h3>
+          <div id="advEssay-agree" hidden></div>
+        </section>
+        <section class="sw-section">
+          <h3><span>Model Essay B — <span class="pe-stance pe-disagree">DISAGREE</span> 範文 <small id="advWords-disagree" style="color:var(--muted);font-weight:600"></small></span>
+            <span><button id="advShow-disagree" class="small-button" type="button" data-show="disagree">Show</button> <button class="small-button" type="button" data-listen="disagree">&#128264; Listen</button></span></h3>
+          <div id="advEssay-disagree" hidden></div>
+        </section>
+
+        <section class="sw-section sw-your-turn">
+          <h3><span id="advWriteLabel">My Essay 我的作文</span><span id="advTimer"></span></h3>
+          <textarea id="advWrite" class="sw-write" spellcheck="true" placeholder="Hook → background → thesis … (saved automatically on this device)"></textarea>
+          <div class="sw-meta"><span id="advSaveStatus">B2 · aim for 250–300 words · 5 paragraphs</span><span id="advWordCount">0 words</span></div>
+          <div class="sw-actions">
+            <button id="advReview" class="small-button primary-action" type="button">&#9989; Check My Writing</button>
+            <button id="advAi" class="small-button" type="button">&#129302; Copy for AI Feedback</button>
+            <button id="advClear" class="small-button" type="button">Clear</button>
+          </div>
+          <div id="advFeedback" class="sw-feedback" hidden></div>
+        </section>
+       </div>
       </main>
     </div>
 
@@ -87,5 +176,7 @@
     <script src="speaking-kit.js"></script>
     <script src="writing-kit.js"></script>
     <script src="pet-essay.js"></script>
+    <script src="pet-essay-advanced-data.js"></script>
+    <script src="pet-essay-advanced.js"></script>
   </body>
 </html>
