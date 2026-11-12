@@ -10199,6 +10199,516 @@ window.IELTS_PART2 = [
     "a": "**Nowadays,** I think most people follow it alone on their phones. **However,** discussing news with others is still common, **especially** among older people in places like parks and breakfast shops. **Personally,** I believe talking about the news is valuable, **because** it helps you hear different opinions and think more carefully."
    }
   ]
+ },
+ {
+  "id": "science-1",
+  "theme": "Science & Inventions",
+  "themeZh": "科學與發明",
+  "setLabel": "Set 1",
+  "title": "Describe an invention that has changed people’s lives.",
+  "cues": [
+   "what the invention is",
+   "how it works",
+   "who uses it",
+   "and explain how it has changed people’s lives."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Tatung electric cooker 大同電鍋 → in almost every TW kitchen since the 1960s"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "inner pot + outer pot; pour water in outer pot → steam; water boils away → switch pops up; no timer, no screen"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "moved into uni dorm → mum packed small cooker; steamed rice, eggs, reheated dumplings; whole floor borrowed it"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "freed mums from watching the stove; simple design lasts decades → best inventions = simple + reliable"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the invention I’d like to talk about is the Tatung electric cooker, which is probably the most famous kitchen appliance in Taiwan. **Believe it or not,** it’s been sold here since the 1960s, **and** you can find one in almost every Taiwanese home. My grandma has one, my parents have one, **and** I’ve got a small red one in my own flat.",
+   "**The way it works is** really simple. There’s an outer pot and an inner pot. You put your food in the inner pot, pour a cup of water into the outer pot **and then** press down a switch. **As the water boils,** the steam cooks the food, **and** once the water has all evaporated, the switch pops up by itself with a loud click. **What I find amazing is that** there’s no timer, no screen and no app – it just uses basic physics.",
+   "**I really learned to appreciate it** when I moved into my university dorm. **Before I left,** my mum packed a little cooker in my suitcase, **because** she was worried I’d live on instant noodles. **In the end,** I used it for everything: steaming rice, boiling eggs and even reheating frozen dumplings. **Funnily enough,** half the students on my floor ended up borrowing it.",
+   "**Looking back,** I think it changed people’s lives because it freed people, mostly mums back then, from standing next to the stove all day. **On top of that,** it’s so tough that many families use the same one for decades. **So for me,** it proves that the best inventions are often the simplest ones."
+  ],
+  "followUps": [
+   {
+    "q": "Which is more important, old inventions or new ones?",
+    "a": "**Personally,** I think old inventions are often more important. **For example,** things like electricity, clean water pipes and the printing press changed how everyone on the planet lives. **On the other hand,** new inventions such as smartphones are amazing, **but** they mostly build on those older ideas. **So** without the basics, modern technology simply wouldn’t exist."
+   },
+   {
+    "q": "Why do some inventions stay popular for a very long time?",
+    "a": "**I’d say** it’s mainly because they solve a real problem in a simple way. **For instance,** the Tatung cooker does one job well and almost never breaks. **In addition,** people trust things their parents used. **As a result,** a reliable design can stay popular for generations, even when newer products with more functions appear."
+   },
+   {
+    "q": "Do you think people rely too much on machines at home?",
+    "a": "**To some extent,** yes. **Nowadays,** many people can’t cook rice without a rice cooker or clean the floor without a robot vacuum. **However,** I don’t think that’s necessarily bad, **because** machines save time for more meaningful things, like family time. **The real problem** is when people lose basic skills completely and can’t manage when something breaks."
+   }
+  ]
+ },
+ {
+  "id": "science-2",
+  "theme": "Science & Inventions",
+  "themeZh": "科學與發明",
+  "setLabel": "Set 2",
+  "title": "Describe a field of science that interests you.",
+  "cues": [
+   "what the field is",
+   "how you first became interested in it",
+   "what you have learned about it",
+   "and explain why it interests you."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "seismology 地震學 = science of earthquakes; TW sits where 2 plates meet"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "measures waves w/ seismometers; fast P-waves vs slower, stronger S-waves → basis of phone early-warning alerts"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "April 2024 Hualien quake → in Taipei office, phone alarm a few secs before shaking; whole building swayed; colleagues hid under desks"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "watch YouTube explainers + CWA website; science = protects lives; knowledge → less panic"
+   }
+  ],
+  "sample": [
+   "**Alright, so** a field of science that really interests me is seismology, which is basically the study of earthquakes. **For someone living in Taiwan,** that’s probably not surprising, **because** the island sits right where two tectonic plates meet, **so** we feel small earthquakes all the time. **To be honest,** most of us just ignore the little ones. **Still,** the big ones are a different story.",
+   "**What I’ve learned is that** scientists use instruments called seismometers to measure the waves an earthquake sends out. **Interestingly,** there are two main types of waves. The first ones travel faster **but** are quite weak, **while** the second ones arrive a little later and cause most of the shaking. **Because of that gap,** a warning system can detect the first waves and send an alert to people’s phones just before the strong shaking arrives.",
+   "**I first became really interested** during the big Hualien earthquake in April 2024. **At that moment,** I was sitting in my office in Taipei, **when** suddenly everyone’s phones started screaming at the same time. **A few seconds later,** the whole building began to sway, and my colleagues and I hid under our desks until it stopped. **Afterwards,** I couldn’t stop wondering how my phone knew before I did.",
+   "**Since then,** I’ve watched lots of YouTube explainers and I sometimes check the Central Weather Administration website after a quake to see how strong it was and where it started. **I think** it interests me because it’s science that directly protects people’s lives. **More importantly,** the more I understand it, the less I panic when the ground starts shaking."
+  ],
+  "followUps": [
+   {
+    "q": "Why do some young people find science subjects difficult?",
+    "a": "**I think** one reason is the way science is taught. **For example,** in many Taiwanese schools, students memorise formulas for exams rather than doing real experiments. **On top of that,** maths is involved in almost every science subject, **so** students who struggle with maths quickly lose confidence. **As a result,** they decide science isn’t for them."
+   },
+   {
+    "q": "Should governments spend more money on scientific research?",
+    "a": "**Generally speaking,** yes, I believe they should. **For one thing,** research into areas like disease or earthquakes can save thousands of lives. **For another,** new discoveries often create whole new industries and jobs. **Having said that,** the money should be spent carefully, **and** the public deserves to know what the results are."
+   },
+   {
+    "q": "How can ordinary people learn more about science?",
+    "a": "**These days,** it’s easier than ever. **For instance,** there are lots of free YouTube channels and podcasts that explain science in simple language. **Also,** science museums often run weekend workshops for adults as well as kids. **Personally,** I think following one topic you care about is the best way, **because** curiosity keeps you learning."
+   }
+  ]
+ },
+ {
+  "id": "science-3",
+  "theme": "Science & Inventions",
+  "themeZh": "科學與發明",
+  "setLabel": "Set 3",
+  "title": "Describe a science museum or exhibition you have visited.",
+  "cues": [
+   "where it is",
+   "when you went there",
+   "what you saw or did there",
+   "and explain what you learned from the visit."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "National Taiwan Science Education Center 國立臺灣科學教育館 → Shilin, Taipei, next to Astronomical Museum"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "big modern building, several floors of hands-on exhibits: human body, physics, chemistry; kids everywhere; sky bike on a wire high above the atrium"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "last summer w/ my 10-yr-old nephew; he dragged me onto sky bike → legs shaking; heavy weight underneath keeps it balanced"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "learned: centre of gravity explains bike; museums make science feel real; adults learn too"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the science museum I want to describe is the National Taiwan Science Education Center in Shilin, Taipei. **If you’ve never been,** it’s a big modern building right next to the Taipei Astronomical Museum, **and** it’s especially popular with school groups and families. **On a weekend,** you can hear kids screaming with excitement from the entrance.",
+   "**Inside,** there are several floors of hands-on exhibits, covering things like the human body, physics and chemistry. **For example,** you can press buttons, pull levers and try lots of simple experiments yourself instead of just reading signs. **What makes it different from a normal museum is that** almost everything is designed to be touched and played with. **On top of that,** there’s a famous sky bike that rides along a steel cable high above the open hall.",
+   "**I went there last summer** with my ten-year-old nephew, **and** he immediately dragged me to the sky bike. **To be honest,** my legs were shaking when I looked down, **because** it really feels like you’re cycling on a tightrope. **Then** a staff member explained that a heavy weight hangs underneath the bike, **so** it can’t tip over. **After that,** I relaxed and even started to enjoy the view of the crowds below.",
+   "**What I learned** was that the bike was actually a lesson about the centre of gravity. **More generally,** the visit showed me that museums like this make science feel real **rather than** just something in a textbook. **In fact,** I think adults can learn just as much as children there, as long as they’re willing to play."
+  ],
+  "followUps": [
+   {
+    "q": "Why do parents take their children to science museums?",
+    "a": "**Well,** I think most parents want their kids to learn while having fun. **For example,** a child who builds a simple circuit at a museum will probably remember it better than a page in a textbook. **In addition,** museums are air-conditioned and safe, **which** is a big plus during Taiwan’s hot summers. **So** it’s a win-win situation."
+   },
+   {
+    "q": "Are museums still important now that information is available online?",
+    "a": "**Yes, I still think they are.** **First of all,** you can’t really touch or feel anything through a screen. **For instance,** seeing a real dinosaur skeleton gives you a sense of size that no photo can. **On top of that,** museums are social places where families and friends share an experience together, **so** they offer something the internet can’t."
+   },
+   {
+    "q": "Should museums be free for everyone?",
+    "a": "**Ideally,** I think public museums should be free or at least very cheap. **That way,** children from low-income families can enjoy them too. **However,** museums need money to maintain their exhibits and pay staff, **so** a small fee is understandable. **Perhaps the best solution** is free entry for students and discounts for families."
+   }
+  ]
+ },
+ {
+  "id": "science-4",
+  "theme": "Science & Inventions",
+  "themeZh": "科學與發明",
+  "setLabel": "Set 4",
+  "title": "Describe a scientist or inventor you admire.",
+  "cues": [
+   "who this person is",
+   "what he or she discovered or invented",
+   "how you learned about this person",
+   "and explain why you admire him or her."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Yuan T. Lee 李遠哲 → chemist from Hsinchu, 1st Taiwan-born Nobel winner (Chemistry 1986)"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "studied how molecules react using crossed molecular beams → shared prize w/ 2 other scientists; later came back to lead Academia Sinica"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "jr high chem teacher showed his photo on 1st day → “a boy from Hsinchu can win a Nobel”; school report → read his biography"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "admire: curiosity + hard work + returned to help TW science; showed small island can produce world-class science"
+   }
+  ],
+  "sample": [
+   "**Well,** the scientist I admire most is Yuan T. Lee, a chemist who was born in Hsinchu. **For many Taiwanese people,** he’s a real hero, **because** in 1986 he became the first Taiwan-born person to win a Nobel Prize. **In fact,** when I was growing up, his name came up in almost every science class at my school.",
+   "**In terms of what he did,** he studied how molecules actually react with each other. **To put it simply,** he fired beams of molecules at each other and measured exactly what happened when they collided. **Because of** this work, he shared the Nobel Prize in Chemistry with two other scientists. **After many years** in the United States, he came back to Taiwan and led Academia Sinica, **which** is our top research institution.",
+   "**I first learned about him** in junior high school. **On the very first day** of chemistry class, my teacher put his photo on the screen and said, “Remember, a boy from Hsinchu can win a Nobel Prize.” **At the time,** I just thought it was a nice speech. **Later, though,** I had to write a report about a famous scientist, **so** I borrowed his biography from the library and read the whole thing in just one weekend.",
+   "**What I admire most** is his combination of curiosity and hard work. **On top of that,** he chose to return home to help build up science in Taiwan, **even though** he could have stayed abroad. **For me,** he proves that a small island can still produce world-class scientists, as long as people are given the chance to follow their curiosity."
+  ],
+  "followUps": [
+   {
+    "q": "Why are some scientists more famous than others?",
+    "a": "**I think** it mostly depends on whether ordinary people can understand their work. **For example,** Einstein is famous partly because everyone has heard of E = mc², **even if** they don’t understand it. **In addition,** some scientists are good at speaking to the media. **On the other hand,** many brilliant researchers work quietly and are never known outside their field."
+   },
+   {
+    "q": "Should scientists be paid as much as celebrities?",
+    "a": "**In an ideal world,** perhaps. **After all,** scientists who develop new medicines or clean energy arguably do more for society than most pop stars. **However,** salaries depend on how much money people are willing to spend, **and** fans spend a lot on entertainment. **So realistically,** I think governments should at least make sure scientists are well paid."
+   },
+   {
+    "q": "What qualities does a good scientist need?",
+    "a": "**First of all,** a good scientist needs a lot of curiosity, **because** that’s what drives them to ask new questions. **Secondly,** they need patience, since experiments often fail hundreds of times before anything works. **Finally,** I’d say honesty is essential, **as** fake results can mislead other researchers and even put people’s lives at risk."
+   }
+  ]
+ },
+ {
+  "id": "science-5",
+  "theme": "Science & Inventions",
+  "themeZh": "科學與發明",
+  "setLabel": "Set 5",
+  "title": "Describe an everyday object that you think could be improved.",
+  "cues": [
+   "what the object is",
+   "how you use it",
+   "what problems it has",
+   "and explain how you would improve it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "the umbrella 雨傘 → essential in rainy Taipei, in every bag"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "folding umbrella daily for rain + sun; problems: flips inside out in strong wind, drips everywhere, easy to forget"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "typhoon season → walking to MRT, gust broke 2 spokes; soaked; lost 3 umbrellas on MRT last year"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "improvements: wind vents + flexible frame, water-absorbing cover, phone alert if left behind; small changes, big difference"
+   }
+  ],
+  "sample": [
+   "**Okay, so** an everyday object that I think could definitely be improved is the umbrella. **Living in Taipei,** I use one almost every day, **because** it either rains a lot or the sun is extremely strong. **In fact,** many people here carry a small folding umbrella in their bag all year round, just in case.",
+   "**The basic design** hasn’t really changed for a very long time. You’ve got a metal frame, some thin spokes and a piece of waterproof fabric. **However,** it has quite a few problems. **First,** it easily flips inside out when the wind is strong. **Second,** when you come indoors, it drips water all over the floor of the MRT or the office. **And on top of that,** it’s incredibly easy to leave behind somewhere.",
+   "**I remember one day** during typhoon season last year when I was walking to the MRT station. **All of a sudden,** a strong gust of wind blew my umbrella inside out and snapped two of the spokes. **As a result,** I arrived at work completely soaked. **Even worse,** I lost three other umbrellas on trains that year, **so** I spent quite a lot of money just replacing them.",
+   "**If I could improve it,** I’d start by adding small air vents and a more flexible frame, **so** the wind could pass through without breaking it. **I’d also** add a cover that absorbs water when you close it. **Finally,** a tiny chip that sends an alert to your phone if you walk away without it would be really useful. **In short,** a few small changes could make a big difference."
+  ],
+  "followUps": [
+   {
+    "q": "Why do people keep using old designs for everyday objects?",
+    "a": "**I think** it’s mainly because old designs are cheap and they work well enough. **For example,** a basic umbrella costs very little, **so** most people don’t think about replacing it with something smarter. **In addition,** people are used to them. **As a result,** companies have little reason to change products that already sell well."
+   },
+   {
+    "q": "Do you think products are designed to break quickly nowadays?",
+    "a": "**To some extent,** yes. **For instance,** some phones become slow after a few years, **and** spare parts can be hard to find. **This encourages** people to buy new ones. **However,** I don’t think every company does this deliberately. Sometimes products are simply made more cheaply to keep prices down, which naturally affects quality."
+   },
+   {
+    "q": "Who should be responsible for improving product design, companies or customers?",
+    "a": "**Mainly companies, in my view,** **because** they have the designers, money and technology. **Having said that,** customers also play a role. **For example,** when people leave honest reviews or refuse to buy poor-quality goods, companies are forced to listen. **So** I’d say it works best when both sides push for better products."
+   }
+  ]
+ },
+ {
+  "id": "science-6",
+  "theme": "Science & Inventions",
+  "themeZh": "科學與發明",
+  "setLabel": "Set 6",
+  "title": "Describe a science experiment you did at school.",
+  "cues": [
+   "what the experiment was",
+   "who you did it with",
+   "what happened during the experiment",
+   "and explain what you learned from it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "egg drop challenge 護蛋大作戰 → jr high physics class, drop raw egg from 3rd floor"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "groups of 4; only straws, paper, tape, plastic bag; 1 week to design; goal = egg survives"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "we built straw cage + plastic bag parachute; 1st test → parachute didn’t open, egg smashed; added longer strings + bigger bag → survived; whole class cheered"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "learned: air resistance + spreading force; failure = part of science; teamwork"
+   }
+  ],
+  "sample": [
+   "**Alright, so** the experiment I want to talk about is the egg drop challenge we did in my junior high physics class. **Basically,** each group had to design something that would protect a raw egg when it was dropped from the third floor of our school building. **As you can imagine,** everyone was really excited, **because** it felt more like a game than a lesson.",
+   "**I was in a group of four** with my best friend and two classmates I didn’t know very well at first. **The rules were** pretty strict. We could only use drinking straws, paper, tape and one plastic bag, **and** we had a week to come up with a design. **After a lot of arguing,** we decided to build a cage of straws around the egg **and** attach the plastic bag on top as a parachute.",
+   "**On the first test,** the parachute didn’t open properly, **so** the egg dropped like a stone and smashed all over the ground. **To be honest,** we were pretty embarrassed, especially because another group’s egg survived. **Then** we made the strings longer and cut the bag to make it wider. **On the final day,** our egg floated down slowly and landed in one piece, **and** the whole class cheered.",
+   "**Looking back,** I learned a lot about air resistance and how spreading a force over a larger area protects something fragile. **More importantly,** I realised that failure is a normal part of science. **On top of that,** it taught me how to work with people I didn’t know well, which is a skill I still use."
+  ],
+  "followUps": [
+   {
+    "q": "Why do some students prefer practical lessons to theory lessons?",
+    "a": "**Well,** I think practical lessons are simply more active and fun. **For example,** building something with your hands keeps you awake, whereas listening to a lecture for an hour can be pretty boring. **In addition,** students can see the results immediately, **which** helps them understand the theory. **So** practical work often makes the ideas stick."
+   },
+   {
+    "q": "Should schools spend more time on experiments?",
+    "a": "**Personally,** I think they should. In Taiwan, many science classes focus on preparing for exams, **so** teachers often skip experiments to save time. **However,** experiments teach problem-solving and teamwork, **which** are important for any career. **The main challenge** is cost and safety, but simple experiments can be done with cheap materials."
+   },
+   {
+    "q": "Is it important for everyone to understand basic science?",
+    "a": "**Yes, definitely.** **For one thing,** basic science helps people make sensible decisions, **like** understanding why vaccines work or why we shouldn’t waste electricity. **For another,** it protects people from fake news and strange health claims online. **So** even if you don’t become a scientist, a basic understanding is really useful in everyday life."
+   }
+  ]
+ },
+ {
+  "id": "science-7",
+  "theme": "Science & Inventions",
+  "themeZh": "科學與發明",
+  "setLabel": "Set 7",
+  "title": "Describe a time when you looked at the stars or the night sky.",
+  "cues": [
+   "when and where it was",
+   "who you were with",
+   "what you saw",
+   "and explain how you felt about the experience."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "stargazing on Hehuanshan 合歡山 → Taiwan’s 1st International Dark Sky Park, >3,000 m high"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "last August w/ 3 uni friends; drove up from Puli; freezing even in summer → jackets + blankets; no city lights"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "turned off car lights → Milky Way across sky; friend’s star app → Saturn; 10+ shooting stars in 1 hr; all lying on car park ground"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "felt tiny but calm; Taipei = never see stars → light pollution; want to go back + buy a small telescope"
+   }
+  ],
+  "sample": [
+   "**Okay, so** I’d like to talk about a night last August when I went stargazing on Hehuanshan, a mountain area in central Taiwan. **If you haven’t heard of it,** it’s more than three thousand metres high, **and** it was actually recognised as Taiwan’s first International Dark Sky Park. **In other words,** it’s one of the best places in the country to see the stars.",
+   "**I went there** with three of my friends from university. We drove up from Puli in the late afternoon, **and** the road was full of sharp bends, **so** one of my friends felt pretty carsick. **When we finally arrived,** it was freezing, even though it was the middle of summer. **Luckily,** we’d brought thick jackets and blankets. **More importantly,** there were almost no lights anywhere around us.",
+   "**As soon as** we switched off the car headlights, we just stood there with our mouths open. **For the first time in my life,** I could clearly see the Milky Way stretching across the whole sky. **Then** my friend used a star app on her phone, **and** we found out that one bright dot was actually Saturn. **Over the next hour,** we lay on the ground and counted more than ten shooting stars.",
+   "**To be honest,** I felt really tiny, **but** at the same time very calm. **It also made me realise** how much light pollution there is in Taipei, **because** at home I can hardly see a single star. **So now** I’m planning to go back next year and maybe buy a small telescope so I can see Saturn’s rings properly."
+  ],
+  "followUps": [
+   {
+    "q": "Why are fewer people able to see the stars nowadays?",
+    "a": "**The main reason** is light pollution from cities. **For example,** in Taipei, street lights, billboards and buildings stay bright all night, **so** the sky never gets really dark. **On top of that,** more and more people live in cities rather than the countryside. **As a result,** many children have never seen the Milky Way with their own eyes."
+   },
+   {
+    "q": "Is space exploration worth the money?",
+    "a": "**I think it is, to some extent.** **For one thing,** space research has given us useful technology, like satellite weather forecasts and GPS. **For another,** it inspires young people to study science. **However,** governments also need to deal with problems on Earth, **so** they should find a sensible balance between space projects and everyday needs."
+   },
+   {
+    "q": "Why are people fascinated by space?",
+    "a": "**Well,** I’d say it’s because space is full of mysteries. **For instance,** nobody knows for sure whether there’s life on other planets. **In addition,** the huge size of the universe makes people think about big questions, **like** where we came from. **So** looking at the stars is both exciting and a little bit humbling."
+   }
+  ]
+ },
+ {
+  "id": "science-8",
+  "theme": "Science & Inventions",
+  "themeZh": "科學與發明",
+  "setLabel": "Set 8",
+  "title": "Describe a person you know who is good at fixing things.",
+  "cues": [
+   "who this person is",
+   "what kinds of things he or she fixes",
+   "how he or she learned these skills",
+   "and explain how you feel about this person."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Uncle Ming 明叔 → runs a small scooter repair shop in Banqiao for 30+ yrs"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "fixes scooters, plus neighbours’ fans, rice cookers, bikes; shop full of tools + spare parts; greasy hands, always smiling"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "my scooter died on rainy night → he came w/ torch; found loose wire in 5 min; refused my money → “buy me a coffee”"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "learned as apprentice at 16 → watching + trying; admire patience; repair skills disappearing → want to learn basics"
+   }
+  ],
+  "sample": [
+   "**Well,** the person I’d like to describe is my uncle, who everyone in the family calls Uncle Ming. **For more than thirty years,** he’s run a small scooter repair shop in Banqiao, in New Taipei. **If you’ve ever been to Taiwan,** you’ll know that scooters are everywhere, **so** a good mechanic is someone people really depend on.",
+   "**Apart from scooters,** he can fix almost anything. **For example,** neighbours often bring him broken electric fans, old rice cookers or kids’ bicycles, **and** he usually sorts them out in no time, often for free. **His shop** is tiny and full of tools, spare parts and old tyres piled up to the ceiling. **What I love about him is that** he’s always smiling, even when his hands are completely black with oil.",
+   "**I remember one rainy night** last winter when my scooter suddenly died on the way home. **Without thinking,** I called Uncle Ming, **and** he arrived twenty minutes later with a torch and a little toolbox. **Within five minutes,** he found a loose wire and got the engine running again in the pouring rain. **When I tried to pay him,** he just laughed and said, “Buy me a coffee next time.”",
+   "**As for how he learned,** he started as an apprentice at sixteen, **mainly** by watching older mechanics and trying things himself. **I really admire** his patience and the way he explains problems simply. **Sadly,** I think skills like his are slowly disappearing, **so** I’d like to learn the basics from him before it’s too late, and maybe even teach my own kids one day."
+  ],
+  "followUps": [
+   {
+    "q": "Why do fewer people repair things nowadays?",
+    "a": "**I think** the main reason is that new products are often cheaper than repairs. **For example,** fixing an old fan might cost almost as much as buying a new one. **In addition,** many modern devices are sealed, **so** ordinary people can’t open them. **As a result,** people tend to throw things away instead of fixing them."
+   },
+   {
+    "q": "Should young people learn practical skills like fixing things?",
+    "a": "**Absolutely, in my opinion.** **First of all,** basic repair skills save money and reduce waste. **Also,** they make you more independent, **because** you don’t need to call someone every time something breaks. **Having said that,** schools in Taiwan focus mostly on academic subjects, so young people rarely get the chance to practise."
+   },
+   {
+    "q": "How are jobs like mechanics changing?",
+    "a": "**Well,** they’re changing quite a lot. **For instance,** electric scooters are becoming more common in Taiwan, **and** they need different skills from traditional petrol engines. **On top of that,** mechanics now use computers to check problems. **So** I think older mechanics have to keep learning, or they’ll find it harder to compete with newer shops."
+   }
+  ]
+ },
+ {
+  "id": "science-9",
+  "theme": "Science & Inventions",
+  "themeZh": "科學與發明",
+  "setLabel": "Set 9",
+  "title": "Describe a time when you used science to solve a problem in your daily life.",
+  "cues": [
+   "what the problem was",
+   "when it happened",
+   "how you solved it",
+   "and explain how you felt after solving it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "mould problem in my rented flat → Taipei = very humid, esp. spring plum rain season"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "black spots on bedroom wall + musty smell on clothes; leather bag turned white-green"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "remembered high school chem/bio: mould loves warm, damp air; bought cheap hygrometer → 85% humidity!; dehumidifier + close windows on rainy days + gap between wardrobe & wall"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "kept humidity ~55–60% → mould gone in a month; felt proud; science = useful, not just for exams"
+   }
+  ],
+  "sample": [
+   "**Okay, so** I’d like to talk about the time I used a bit of basic science to deal with a mould problem in my flat. **If you don’t know Taipei,** it’s an extremely humid city, **especially** in spring, when it can rain for weeks during what we call the plum rain season. **As a result,** a lot of old flats here have problems with damp.",
+   "**It all started** about two years ago, not long after I moved into a small rented flat. **At first,** I noticed a few black spots on the wall behind my bed. **Then** my clothes started to smell musty, **and** one day I found that my leather bag had turned a strange white-green colour. **To be honest,** I was pretty disgusted, **and** I was also worried it might be bad for my health.",
+   "**Luckily,** I remembered something from high school biology: mould grows fastest in warm, damp air with little ventilation. **So first of all,** I bought a cheap hygrometer, which measures humidity, **and** I was shocked to see it showing eighty-five percent. **After that,** I bought a dehumidifier, kept the windows closed on rainy days **and** moved my wardrobe a few centimetres away from the wall to let the air circulate.",
+   "**Within about a month,** the humidity stayed at around fifty-five to sixty percent and the mould was gone. **I have to say,** I felt really proud of myself. **More importantly,** it showed me that science isn’t just something for exams – it’s actually useful in everyday life. Now I check the hygrometer every morning, just like checking the weather."
+  ],
+  "followUps": [
+   {
+    "q": "Do you think science lessons at school prepare students for real life?",
+    "a": "**Partly, yes.** **For example,** basic biology teaches us about germs and hygiene, **which** is useful every day. **However,** a lot of lessons focus on memorising facts for exams, **so** students don’t always see how science connects to real life. I think teachers could use more everyday examples to make lessons more practical."
+   },
+   {
+    "q": "Why do some people believe things that are not scientifically true?",
+    "a": "**Well,** I’d say there are a few reasons. **For one thing,** false information spreads very quickly on social media, especially in family chat groups. **For another,** some people trust stories from friends more than experts. **On top of that,** scientific explanations can be complicated, **so** a simple but wrong answer often sounds more convincing."
+   },
+   {
+    "q": "How has science made daily life more comfortable?",
+    "a": "**In so many ways.** **For instance,** air conditioners and dehumidifiers make life in Taiwan’s hot, humid climate much more bearable. **In addition,** modern medicine means people live much longer than their grandparents did. **Even simple things,** like clean tap water and fridges, come from scientific discoveries, **so** we probably take science for granted."
+   }
+  ]
+ },
+ {
+  "id": "science-10",
+  "theme": "Science & Inventions",
+  "themeZh": "科學與發明",
+  "setLabel": "Set 10",
+  "title": "Describe a reason why many students in your country choose to study science or engineering.",
+  "cues": [
+   "what subjects many students choose",
+   "when you first noticed this",
+   "how it affects students and schools",
+   "and explain why you think this is happening."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "TW students → electrical engineering, computer science, semiconductor programmes; chip industry = huge part of economy"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "Hsinchu Science Park, TSMC; universities opening chip-related programmes; parents see stable, well-paid jobs"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "cousin picked EE over history (his real interest); family dinners → “engineering = safe future”; classmates same choice"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "causes: job security, high salaries, national pride, parents’ pressure; effects: strong industry but fewer humanities students + some unhappy students"
+   }
+  ],
+  "sample": [
+   "**Alright, so** I’d like to talk about why so many students in Taiwan choose to study science or engineering, **especially** subjects like electrical engineering and computer science. **In my view,** the biggest reason is the semiconductor industry, **because** making computer chips has become one of the most important parts of Taiwan’s economy over the last few decades.",
+   "**To give you some background,** companies like TSMC have their headquarters in the Hsinchu Science Park, **and** they’re famous around the world. **As a result,** many universities have opened new programmes connected to chip design and manufacturing. **At the same time,** parents see these companies as a ticket to a stable, well-paid job with good bonuses, **so** they often push their kids in that direction from a young age.",
+   "**I first really noticed this** when my cousin was choosing his university major a few years ago. **Personally,** I always thought he’d study history, **since** he’s obsessed with old maps and documentaries. **However,** at every family dinner, my aunts and uncles kept saying that engineering was the safe choice. **In the end,** he chose electrical engineering, **and** so did most of his classmates at his high school.",
+   "**When I think about it,** there are several causes: job security, high salaries, a sense of national pride and, of course, pressure from parents. **On the positive side,** it keeps the industry strong. **On the other hand,** fewer students choose the humanities, **and** some students end up studying something they don’t really enjoy. **In my opinion,** both sides matter, so students should think carefully about their own strengths before they decide."
+  ],
+  "followUps": [
+   {
+    "q": "Is it a good idea for students to choose a subject mainly because of future salary?",
+    "a": "**I don’t think it’s the best approach.** **Of course,** money matters, **and** nobody wants to struggle to find a job. **However,** if you study something you hate, it’s hard to stay motivated for four years, let alone a whole career. **Ideally,** students should look for a balance between their interests and job prospects."
+   },
+   {
+    "q": "Should governments encourage more students to study science?",
+    "a": "**To some extent,** yes, **because** science and technology drive economic growth. **For example,** scholarships for engineering students can help an industry find enough workers. **Having said that,** a society also needs writers, teachers and artists. **So** I think governments should support science without making other subjects look less valuable."
+   },
+   {
+    "q": "What can be done to make the humanities more attractive to young people?",
+    "a": "**Well,** one idea is to show students how useful humanities skills are. **For instance,** companies need people who can write clearly and understand different cultures. **Another option** is for universities to offer courses that combine technology with history or design. **That way,** students wouldn’t feel they have to choose one side."
+   }
+  ]
  }
 ]
 ;
