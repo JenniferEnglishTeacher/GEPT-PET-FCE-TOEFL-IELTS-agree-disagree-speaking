@@ -76,7 +76,7 @@
         <p class="eyebrow" id="topicMeta"></p>
         <h2 id="topicTitle"></h2>
         <div class="sw-prompt" id="topicPrompt"></div>
-        <p class="sw-sub" style="margin:10px 0 0">Step 1 — learn the key arguments on both sides: <b>&#128264; Listen</b>, <b>🎤 Read</b> aloud (live check), <b>⌨ Type</b> the sentence. Step 2 — the teacher writes <span class="pe-stance pe-agree">AGREE</span>; you write <span class="pe-stance pe-disagree">DISAGREE</span> — borrow the <b>bold sentence patterns</b> in column 3.</p>
+        <p class="sw-sub" style="margin:10px 0 0">Step 1 — learn the key arguments on both sides: <b>&#128264; Listen</b>, <b>🎤 Read</b> aloud (live check), <b>⌨ Type</b> the sentence. Step 2 — the teacher writes <span class="pe-stance pe-agree" data-lbl="agree">AGREE</span>; you write <span class="pe-stance pe-disagree" data-lbl="disagree">DISAGREE</span> — borrow the <b>bold sentence patterns</b> in column 3.</p>
 
         <section class="sw-section">
           <h3><span>1. Argument Grid 正反論點表 (B1)</span></h3>
@@ -88,7 +88,7 @@
             <span><button id="hideHints" class="small-button" type="button">Hide ✎ ideas</button> <button id="hideCol3" class="small-button" type="button">Hide Column 3</button></span></h3>
           <div class="sw-table-wrap">
             <table class="sw-grid pe-grid" id="grid">
-              <thead><tr><th style="width:20%">Element 寫作結構</th><th style="width:40%">My writing — DISAGREE<br><small>我的寫作（反對）</small></th><th>Teacher's sample — AGREE<br><small>老師範例（贊成）· bold = sentence pattern 句型</small></th></tr></thead>
+              <thead><tr><th style="width:20%">Element 寫作結構</th><th style="width:40%">My writing — <span data-lbl="disagree">DISAGREE</span><br><small>我的寫作</small></th><th>Teacher's sample — <span data-lbl="agree">AGREE</span><br><small>老師範例 · bold = sentence pattern 句型</small></th></tr></thead>
               <tbody></tbody>
             </table>
           </div>
@@ -103,13 +103,13 @@
         </section>
 
         <section class="sw-section">
-          <h3><span>Teacher's Model Essay — AGREE 範文 <small id="essayWords" style="color:var(--muted);font-weight:600"></small></span>
+          <h3><span>Teacher's Model Essay — <span data-lbl="agree">AGREE</span> 範文 <small id="essayWords" style="color:var(--muted);font-weight:600"></small></span>
             <span><button id="essayButton" class="small-button" type="button">Show</button> <button id="listenButton" class="small-button" type="button">&#128264; Listen</button></span></h3>
           <div id="essayHost" hidden></div>
         </section>
 
         <section class="sw-section sw-your-turn">
-          <h3><span>My Essay — DISAGREE 我的作文</span><span id="timerHost"></span></h3>
+          <h3><span>My Essay — <span data-lbl="disagree">DISAGREE</span> 我的作文</span><span id="timerHost"></span></h3>
           <textarea id="writeBox" class="sw-write" spellcheck="true" placeholder="In my opinion, I disagree that … (saved automatically on this device)"></textarea>
           <div class="sw-meta"><span id="saveStatus">PET B1 · aim for about 200 words · 4 paragraphs</span><span id="wordCount">0 words</span></div>
           <div class="sw-actions">
@@ -133,7 +133,7 @@
         </section>
 
         <section class="sw-section">
-          <h3><span>2. Sentence-Pattern Grid 句型表 &nbsp;<span class="side-pick" aria-label="I write"><span style="font-size:13px;color:var(--muted);align-self:center">I write:</span><button type="button" data-side-pick="agree">AGREE 贊成</button><button type="button" data-side-pick="disagree">DISAGREE 反對</button></span></span>
+          <h3><span>2. Sentence-Pattern Grid 句型表 &nbsp;<span class="side-pick" aria-label="I write"><span style="font-size:13px;color:var(--muted);align-self:center">I write:</span><button type="button" data-side-pick="agree" data-lbl="agree">AGREE 贊成</button><button type="button" data-side-pick="disagree" data-lbl="disagree">DISAGREE 反對</button></span></span>
             <span><button id="advHideHints" class="small-button" type="button">Hide ✎ ideas</button> <button id="advHideCol3" class="small-button" type="button">Hide Column 3</button></span></h3>
           <div class="sw-table-wrap">
             <table class="sw-grid pe-grid" id="advGrid">
@@ -152,12 +152,12 @@
         </section>
 
         <section class="sw-section">
-          <h3><span>Model Essay A — <span class="pe-stance pe-agree">AGREE</span> 範文 <small id="advWords-agree" style="color:var(--muted);font-weight:600"></small></span>
+          <h3><span>Model Essay A — <span class="pe-stance pe-agree" data-lbl="agree">AGREE</span> 範文 <small id="advWords-agree" style="color:var(--muted);font-weight:600"></small></span>
             <span><button id="advShow-agree" class="small-button" type="button" data-show="agree">Show</button> <button class="small-button" type="button" data-listen="agree">&#128264; Listen</button></span></h3>
           <div id="advEssay-agree" hidden></div>
         </section>
         <section class="sw-section">
-          <h3><span>Model Essay B — <span class="pe-stance pe-disagree">DISAGREE</span> 範文 <small id="advWords-disagree" style="color:var(--muted);font-weight:600"></small></span>
+          <h3><span>Model Essay B — <span class="pe-stance pe-disagree" data-lbl="disagree">DISAGREE</span> 範文 <small id="advWords-disagree" style="color:var(--muted);font-weight:600"></small></span>
             <span><button id="advShow-disagree" class="small-button" type="button" data-show="disagree">Show</button> <button class="small-button" type="button" data-listen="disagree">&#128264; Listen</button></span></h3>
           <div id="advEssay-disagree" hidden></div>
         </section>

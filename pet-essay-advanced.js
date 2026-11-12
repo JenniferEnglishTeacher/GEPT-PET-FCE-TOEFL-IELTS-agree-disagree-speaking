@@ -12,7 +12,12 @@
   const load = (k, d) => { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } };
   const save = (k, v) => { try { localStorage.setItem(k, typeof v === "string" ? v : JSON.stringify(v)); } catch {} };
   const ROWS = "pet-adv-rows-", DRAFT = "pet-adv-draft-", LEVEL = "pet-essay-level", SIDE = "pet-adv-side";
-  const SIDE_LABEL = { agree: "AGREE 贊成", disagree: "DISAGREE 反對" };
+  const DEFAULT_LABEL = { agree: "AGREE 贊成", disagree: "DISAGREE 反對" };
+  let SIDE_LABEL = DEFAULT_LABEL;
+  function applyLabels() {
+    SIDE_LABEL = (topic && topic.labels) || DEFAULT_LABEL;
+    document.querySelectorAll("[data-lbl]").forEach(el => { el.textContent = SIDE_LABEL[el.dataset.lbl]; });
+  }
 
   let topic = null, adv = null, side = load(SIDE, "agree"), level = load(LEVEL, "basic");
   let essaySpans = { agree: [], disagree: [] }, stopEssay = null, playingSide = null, timerApi = null;
@@ -52,8 +57,8 @@
     </div>`;
   }
   function renderArgs(host, args) {
-    host.innerHTML = `<div class="adv-arg-col adv-col-agree"><h4>✅ AGREE 贊成 — key arguments</h4>${args.agree.map((a, i) => argCell(a, "agree", i)).join("")}</div>
-      <div class="adv-arg-col adv-col-disagree"><h4>❌ DISAGREE 反對 — key arguments</h4>${args.disagree.map((a, i) => argCell(a, "disagree", i)).join("")}</div>`;
+    host.innerHTML = `<div class="adv-arg-col adv-col-agree"><h4>✅ ${esc(SIDE_LABEL.agree)} — key arguments</h4>${args.agree.map((a, i) => argCell(a, "agree", i)).join("")}</div>
+      <div class="adv-arg-col adv-col-disagree"><h4>${SIDE_LABEL === DEFAULT_LABEL ? "❌" : "✅"} ${esc(SIDE_LABEL.disagree)} — key arguments</h4>${args.disagree.map((a, i) => argCell(a, "disagree", i)).join("")}</div>`;
     host.querySelectorAll(".adv-arg").forEach(cell => {
       const a = args[cell.dataset.side][Number(cell.dataset.i)];
       const spans = K.wordSpans(cell.querySelector(".adv-arg-en"), a.en);
@@ -174,7 +179,7 @@
     stopAll();
     adv = ADV[topic.no];
     if (!adv) { advanced.innerHTML = `<p class="sw-sub">Advanced content for this topic is coming soon.</p>`; return; }
-    $("advMeta").textContent = `Topic ${topic.no} / 15 · ${topic.theme} · Advanced B2 · about 280 words`;
+    $("advMeta").textContent = `Topic ${topic.no} / ${(window.PET_ESSAYS || []).length || 15} · ${topic.theme} · Advanced B2 · about 280 words`;
     $("advTitle").textContent = `${topic.en} · ${topic.zh}`;
     $("advPrompt").textContent = `${topic.prompt} Give reasons and examples, and consider the opposite view.\nWrite about 250–300 words.`;
     renderArgs($("advArgs"), adv.args);
@@ -195,10 +200,11 @@
     if (!args) { host.closest("section").hidden = true; return; }
     host.closest("section").hidden = false; stopAll(); renderArgs(host, args);
   }
-  function onTopic() { if (level === "advanced") render(); else renderBasicArgs(); }
+  function onTopic() { applyLabels(); if (level === "advanced") render(); else renderBasicArgs(); }
   document.addEventListener("pet-topic", e => { topic = e.detail; onTopic(); });
   if (/-adv$/.test(location.hash)) level = "advanced";
   // pet-essay.js has already selected the topic by the time this script runs.
   if (window.PET_CURRENT_TOPIC) topic = window.PET_CURRENT_TOPIC;
+  applyLabels();
   setLevel(level);
 })();

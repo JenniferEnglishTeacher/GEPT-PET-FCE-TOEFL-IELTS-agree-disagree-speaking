@@ -211,5 +211,6 @@ window.PET_ESSAY_ARGS_B1 = {
       { t: "Not fair 不公平", en: "Cram schools are expensive, so rich families get help that poor families cannot.", zh: "補習班很貴，富裕家庭得到的幫助是貧困家庭得不到的。" },
       { t: "Memorising, not thinking 背誦而非思考", en: "Cram schools teach answers and tricks, not real understanding.", zh: "補習班教答案和技巧，而不是真正的理解。" }
     ]
-  }
+  },
+  16: {"agree": [{"t": "Big screen, big sound 大銀幕、大音效", "en": "The huge screen and loud sound make you feel like you are inside the story.", "zh": "巨大的銀幕和響亮的聲音讓你覺得自己就在故事裡。"}, {"t": "Full attention 全神貫注", "en": "Your phone is off and there is no pause button, so you watch the whole film carefully.", "zh": "手機關機又沒有暫停鍵，所以你會專心看完整部電影。"}, {"t": "Fun with friends 和朋友同樂", "en": "Laughing and screaming with other people makes the film more exciting.", "zh": "和其他人一起笑、一起尖叫讓電影更刺激。"}, {"t": "See it first 搶先看", "en": "You can see new films first, before someone tells you the ending.", "zh": "你可以搶先看新片，不會先被別人爆雷。"}], "disagree": [{"t": "Watch any time 隨時都能看", "en": "At home you can pause, stop and finish the film tomorrow.", "zh": "在家可以暫停、停止，明天再看完。"}, {"t": "Cheaper 比較便宜", "en": "One month of streaming costs about the same as one cinema ticket.", "zh": "串流一個月的費用大約等於一張電影票。"}, {"t": "Comfortable 舒服", "en": "You can sit on your own sofa and nobody talks or kicks your seat.", "zh": "你可以坐在自己的沙發上，沒有人講話或踢你的椅子。"}, {"t": "More choice 更多選擇", "en": "Streaming has thousands of films, dramas and cartoons from many countries.", "zh": "串流有來自許多國家的數千部電影、影集和卡通。"}]}
 };
