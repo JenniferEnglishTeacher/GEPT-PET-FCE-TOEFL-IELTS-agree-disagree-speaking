@@ -55,6 +55,7 @@
         <button type="button" data-filter="description" aria-pressed="false">Descriptions</button>
         <button type="button" data-filter="email" aria-pressed="false">Email 書信</button>
         <button type="button" data-filter="toefl" aria-pressed="false">TOEFL</button>
+        <button type="button" data-filter="listen-repeat" aria-pressed="false">Listen &amp; Repeat 聽與複述</button>
         <button type="button" data-filter="ielts" aria-pressed="false">IELTS Part 2</button>
         <button type="button" data-filter="fce" aria-pressed="false">FCE Use of English</button>
         <button type="button" data-filter="tests" aria-pressed="false">Listening &amp; Reading 聽力閱讀</button>
@@ -113,6 +114,18 @@
         <p>Cue cards on 15 themes, from technology, travel and food to festivals, cities and childhood. Study a mind map and sample answer, check your reading aloud, take notes, then speak for up to 2 minutes.</p>
         <div class="details"><span>60 / 90 / 120 seconds</span><span>Mind maps + read-along + live transcript</span></div>
         <a class="open" href="ielts-part2.html" target="_blank" rel="noopener"><span>Start IELTS Part 2</span><span class="arrow" aria-hidden="true">&rarr;</span></a>
+      </article>
+      </div>
+    </section>
+    <section class="skill" data-skill="toefl-lr">
+      <div class="skill-head"><h2>TOEFL Speaking Listen and Repeat 托福口說聽與複述</h2><span>Hear each sentence once &middot; repeat &middot; wrong words in red &middot; 錯題本</span></div>
+      <div class="grid">
+      <article data-id="toefl-listen-repeat" data-category="toefl speaking listen-repeat" style="--accent:#0b6e8a">
+        <div class="meta"><span>TOEFL iBT 2026 &middot; Speaking Task 1</span><span class="count">343 sets &middot; 2,443 sentences</span></div>
+        <h2>TOEFL Speaking Listen and Repeat</h2>
+        <p>Campus announcements, instructions and everyday notices, 7 sentences per set, getting longer. 🎤 Listen &amp; Repeat with an accuracy score (wrong words turn red), ⌨️ Listen &amp; Type 3 key words, 📖 中英對照. Click <b>Try again</b> as often as you like and save difficult sentences to your <b>錯題本</b>.</p>
+        <div class="details"><span>47 ⭐ Advanced sets</span><span>AI voice or original video audio</span><span><a href="downloads/TOEFL-Speaking-Listen-and-Repeat-bilingual.docx" download>Word file 中英對照講義</a></span></div>
+        <a class="open" href="toefl-listen-repeat.html" target="_blank" rel="noopener"><span>Start Listen and Repeat</span><span class="arrow" aria-hidden="true">&rarr;</span></a>
       </article>
       </div>
     </section>
@@ -320,7 +333,7 @@
     function showResume(id) {
       const card = cards.find(card => card.dataset.id === id);
       if (!card) return;
-      resume.href = card.querySelector('a').href;
+      resume.href = card.querySelector('a.open').href;
       resume.textContent = `Return to ${card.querySelector('h2').textContent}`;
       resume.hidden = false;
     }
@@ -330,7 +343,7 @@
       update();
     }));
     search.addEventListener('input', update);
-    cards.forEach(card => card.querySelector('a').addEventListener('click', () => {
+    cards.forEach(card => card.querySelector('a.open').addEventListener('click', () => {
       try { localStorage.setItem('jennifer-speaking-last-practice', card.dataset.id); } catch {}
       showResume(card.dataset.id);
     }));

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TOEFL Speaking Listen and Repeat</title>
+<meta name="description" content="TOEFL iBT Speaking Task 1 Listen and Repeat: 348 sets of 7 sentences with Chinese translation, speech accuracy check, key-word dictation and a saved mistakes list.">
+<link rel="stylesheet" href="toefl-listen-repeat.css">
+</head>
+<body>
+<header class="top">
+  <a class="back" href="dashboard.html">&larr; Dashboard</a>
+  <div class="ttl">TOEFL Speaking Listen and Repeat <small>托福口說 Task 1 聽與複述</small></div>
+  <button id="menuBtn" class="menu-btn" type="button" aria-expanded="false" aria-controls="side">Sets 題組</button>
+</header>
+<div class="wrap">
+  <aside id="side" class="side">
+    <div class="side-tabs" role="group" aria-label="Set filter">
+      <button type="button" data-f="all" aria-pressed="true">All 全部</button>
+      <button type="button" data-f="adv" aria-pressed="false">⭐ Advanced</button>
+      <button type="button" data-f="wrong" aria-pressed="false">錯題本 <span id="wrongCount">0</span></button>
+    </div>
+    <input id="find" type="search" placeholder="Find # or word 搜尋…" autocomplete="off">
+    <ol id="setList" class="set-list"></ol>
+  </aside>
+  <main id="main">
+    <div class="set-head">
+      <div>
+        <h1 id="setTitle">Practice #1</h1>
+        <p id="setSub" class="sub"></p>
+      </div>
+      <div class="set-nav">
+        <button type="button" id="prevSet" class="ghost">&larr; Prev</button>
+        <button type="button" id="nextSet" class="ghost">Next &rarr;</button>
+      </div>
+    </div>
+
+    <div class="modes" role="tablist" aria-label="Practice mode">
+      <button type="button" role="tab" data-mode="repeat" aria-selected="true">🎤 Listen &amp; Repeat 聽與複述</button>
+      <button type="button" role="tab" data-mode="type" aria-selected="false">⌨️ Listen &amp; Type 3 Key Words 聽寫關鍵字</button>
+      <button type="button" role="tab" data-mode="read" aria-selected="false">📖 Read 中英對照</button>
+    </div>
+
+    <div class="settings">
+      <label>Voice 聲音
+        <select id="voiceSrc">
+          <option value="tts">AI voice (US)</option>
+          <option value="yt">Original video 原影片</option>
+        </select>
+      </label>
+      <label>Speed 速度
+        <select id="rate"><option value="0.8">0.8×</option><option value="0.9">0.9×</option><option value="1" selected>1.0×</option><option value="1.1">1.1×</option></select>
+      </label>
+      <label class="chk"><input type="checkbox" id="showZh"> Show 中文</label>
+      <label class="chk"><input type="checkbox" id="testMode" checked> Test mode (hide text before you speak) 考試模式</label>
+      <label class="chk"><input type="checkbox" id="autoRec" checked> Beep, then record automatically 嗶聲後自動錄音</label>
+    </div>
+
+    <section id="practice"></section>
+
+    <div id="ytBox" class="yt-box" hidden><div id="ytPlayer"></div></div>
+    <p class="foot">Sentences from the YouTube playlist “TOEFL Speaking Practice | Listen &amp; Repeat”. Speech checking uses your browser's speech recognition (Chrome, Edge or Safari). If your device cannot record, choose <b>Type it</b> instead. 若裝置無法錄音,請按「Type it」改用打字。</p>
+  </main>
+</div>
+<script src="toefl-listen-repeat-data.js"></script>
+<script src="toefl-listen-repeat.js"></script>
+</body>
+</html>

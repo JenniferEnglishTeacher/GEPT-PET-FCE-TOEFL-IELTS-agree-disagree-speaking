@@ -8,6 +8,7 @@ Live site: https://jenniferenglishteacher.github.io/GEPT-PET-FCE-TOEFL-IELTS-agr
 - `opinion.html` — Opinion & Topic Speaking
 - `descriptive.html` — Descriptive Speaking
 - `ielts-part2.html` — IELTS Speaking Part 2
+- `toefl-listen-repeat.html` — TOEFL Speaking Task 1 Listen and Repeat (dashboard section "TOEFL Speaking Listen and Repeat"): every set from the YouTube playlist "TOEFL Speaking Practice | Listen & Repeat" (7 sentences each, ⭐ Advanced sets marked), cleaned English + 繁中 translation. Modes: 🎤 Listen & Repeat (browser speech recognition → accuracy %, missed words red; "Type it" fallback for devices that can't record; Try again), ⌨️ Listen & Type 3 key words (red = wrong, correct word shown), 📖 Read. AI voice (en-US, 0.8–1.1×) or original video audio. ☆ Save → 錯題本 (localStorage `toefl-lr-wrong`), best scores in `toefl-lr-best`. Data `toefl-listen-repeat-data.js` (`[{n, adv, v: videoId, s: [[startSec, en, zh]]}]`), engine `toefl-listen-repeat.js`, styles `toefl-listen-repeat.css`, Word file `downloads/TOEFL-Speaking-Listen-and-Repeat-bilingual.docx` (key words in teal).
 
 ## Writing
 - `gept-basic-sentences.html?part=1|2|3` — GEPT Basic Writing Part 1 句子改寫 / Part 2 合併 / Part 3 重組: 238 questions × (original + 3 similar), grouped by grammar block → sub-category, instant check, wrong answers must be rewritten (Word file with answer key in `downloads/`)
