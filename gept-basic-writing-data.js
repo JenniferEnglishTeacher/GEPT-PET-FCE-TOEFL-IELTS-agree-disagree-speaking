@@ -86,7 +86,115 @@ window.GEPT_BASIC_STORIES = [
    ]
   ],
   "essay": "Ben is a junior high school student. He is 14 years old. He likes playing video games and reading comic books. Last Thursday, he stayed up late playing games and reading comic books. The next morning, he slept in, and his mother shouted, \"Get up!\" When he woke up, it was already eight o'clock. He ran to the bus stop as fast as he could. When he arrived at the bus stop, he saw the bus was leaving. It was too late, so he missed the bus. He was upset because he had to walk to school. When he arrived at school, it was already nine o'clock. He was late for the math class. The teacher was so angry that she yelled at him in front of the class. He said sorry to his teacher and felt embarrassed. He has learned an important lesson. From now on, he decides not to stay up late again.",
-  "words": 155
+  "words": 155,
+  "vocab": [
+   [
+    "junior high school student",
+    "國中生"
+   ],
+   [
+    "video games",
+    "電動"
+   ],
+   [
+    "comic books",
+    "漫畫"
+   ],
+   [
+    "stayed up late",
+    "熬夜"
+   ],
+   [
+    "slept in",
+    "睡過頭"
+   ],
+   [
+    "shouted",
+    "大喊"
+   ],
+   [
+    "bus stop",
+    "公車站"
+   ],
+   [
+    "as fast as he could",
+    "盡全力快"
+   ],
+   [
+    "leaving",
+    "正要開走"
+   ],
+   [
+    "missed the bus",
+    "錯過公車"
+   ],
+   [
+    "upset",
+    "沮喪"
+   ],
+   [
+    "walk",
+    "走路"
+   ],
+   [
+    "late for",
+    "遲到"
+   ],
+   [
+    "math class",
+    "數學課"
+   ],
+   [
+    "yelled at",
+    "對…吼"
+   ],
+   [
+    "in front of",
+    "在…面前"
+   ],
+   [
+    "said sorry",
+    "道歉"
+   ],
+   [
+    "embarrassed",
+    "丟臉"
+   ],
+   [
+    "lesson",
+    "教訓"
+   ],
+   [
+    "not to stay up late",
+    "不熬夜"
+   ]
+  ],
+  "patterns": [
+   [
+    "S + likes + Ving and Ving",
+    "He likes playing video games and reading comic books."
+   ],
+   [
+    "The next morning, S + Ved, and S + Ved, \"...\"",
+    "The next morning, he slept in, and his mother shouted, \"Get up!\""
+   ],
+   [
+    "S + Ved to + 地方 + as fast as S could.",
+    "He ran to the bus stop as fast as he could."
+   ],
+   [
+    "S was + adj. + because + S had to V",
+    "He was upset because he had to walk to school."
+   ],
+   [
+    "S was so + adj. + that + 句子",
+    "The teacher was so angry that she yelled at him in front of the class."
+   ],
+   [
+    "S has learned an important lesson. From now on, S decides not to V",
+    "He has learned an important lesson. From now on, he decides not to stay up late again."
+   ]
+  ]
  },
  {
   "no": 2,
@@ -185,7 +293,131 @@ window.GEPT_BASIC_STORIES = [
   ],
   "essay": "Justin is a 13-year-old junior high school student. He is a lazy boy, and he often stays up late at night. This morning, he didn't hear his alarm clock. When he woke up, it was already eight o'clock. He felt shocked because he was going to be late for school. He jumped out of bed and got dressed quickly. He had no time to eat breakfast. When he ran to the bus stop, the bus was already leaving. He ran after the bus, but he couldn't catch it. In the end, he had to walk to school. When he arrived at school, his teacher looked very angry with him. She told him to come to school on time in the future. Justin felt sorry, so he looked down and said nothing. He has learned an important lesson: he should go to bed early and get up on time.",
   "words": 148,
-  "src": "附件3"
+  "src": "附件3",
+  "vocab": [
+   [
+    "junior high school student",
+    "國中生"
+   ],
+   [
+    "lazy",
+    "懶惰"
+   ],
+   [
+    "stays up late",
+    "熬夜"
+   ],
+   [
+    "alarm clock",
+    "鬧鐘"
+   ],
+   [
+    "didn't hear",
+    "沒聽到"
+   ],
+   [
+    "woke up",
+    "醒來"
+   ],
+   [
+    "shocked",
+    "震驚"
+   ],
+   [
+    "late for school",
+    "上學遲到"
+   ],
+   [
+    "jumped out of bed",
+    "跳下床"
+   ],
+   [
+    "got dressed",
+    "穿衣服"
+   ],
+   [
+    "had no time",
+    "沒時間"
+   ],
+   [
+    "breakfast",
+    "早餐"
+   ],
+   [
+    "bus stop",
+    "公車站"
+   ],
+   [
+    "leaving",
+    "正在離開"
+   ],
+   [
+    "ran after",
+    "追趕"
+   ],
+   [
+    "catch",
+    "趕上"
+   ],
+   [
+    "walk to school",
+    "走路上學"
+   ],
+   [
+    "arrived at",
+    "抵達"
+   ],
+   [
+    "angry",
+    "生氣"
+   ],
+   [
+    "on time",
+    "準時"
+   ],
+   [
+    "sorry",
+    "抱歉"
+   ],
+   [
+    "looked down",
+    "低頭"
+   ],
+   [
+    "important lesson",
+    "重要的教訓"
+   ],
+   [
+    "go to bed early",
+    "早睡"
+   ]
+  ],
+  "patterns": [
+   [
+    "S is a + adj. + N, and S often + Vs.",
+    "He is a lazy boy, and he often stays up late at night."
+   ],
+   [
+    "When S + Ved, it was already + 時間.",
+    "When he woke up, it was already eight o'clock."
+   ],
+   [
+    "S had no time to V.",
+    "He had no time to eat breakfast."
+   ],
+   [
+    "S + Ved, but S couldn't V.",
+    "He ran after the bus, but he couldn't catch it."
+   ],
+   [
+    "S told + 人 + to V.",
+    "She told him to come to school on time in the future."
+   ],
+   [
+    "S has learned an important lesson: S should V.",
+    "He has learned an important lesson: he should go to bed early and get up on time."
+   ]
+  ]
  },
  {
   "no": 3,
@@ -284,7 +516,131 @@ window.GEPT_BASIC_STORIES = [
   ],
   "essay": "Anna is a 16-year-old senior high school student. She doesn't like to get up early in the morning because she always feels sleepy. Yesterday morning, at 7:30, her alarm clock rang. She turned it off and went back to sleep. When she woke up again, it was already 8:00. She found that she had overslept. She was so shocked that she screamed. She got dressed in a hurry and ran out of the house. She didn't even have time to eat breakfast. When she arrived at the bus stop, she saw that Bus 232 was coming. She hurried as fast as she could to catch it. She was very tired, and she was sweating a lot. Luckily, she got on the bus just in time. She has learned an important lesson. She will never turn off her alarm clock and go back to sleep again.",
   "words": 147,
-  "src": "附件4"
+  "src": "附件4",
+  "vocab": [
+   [
+    "senior high school student",
+    "高中生"
+   ],
+   [
+    "get up early",
+    "早起"
+   ],
+   [
+    "morning",
+    "早上"
+   ],
+   [
+    "yesterday morning",
+    "昨天早上"
+   ],
+   [
+    "alarm clock",
+    "鬧鐘"
+   ],
+   [
+    "rang",
+    "響"
+   ],
+   [
+    "turned off",
+    "關掉"
+   ],
+   [
+    "went back to sleep",
+    "繼續睡"
+   ],
+   [
+    "woke up",
+    "醒來"
+   ],
+   [
+    "overslept",
+    "睡過頭"
+   ],
+   [
+    "shocked",
+    "震驚"
+   ],
+   [
+    "screamed",
+    "尖叫"
+   ],
+   [
+    "in a hurry",
+    "匆忙地"
+   ],
+   [
+    "ran out of",
+    "跑出"
+   ],
+   [
+    "have time",
+    "有時間"
+   ],
+   [
+    "breakfast",
+    "早餐"
+   ],
+   [
+    "bus stop",
+    "公車站"
+   ],
+   [
+    "coming",
+    "來了"
+   ],
+   [
+    "hurried",
+    "趕快"
+   ],
+   [
+    "catch",
+    "趕上"
+   ],
+   [
+    "tired",
+    "累"
+   ],
+   [
+    "sweating",
+    "流汗"
+   ],
+   [
+    "luckily",
+    "幸運地"
+   ],
+   [
+    "just in time",
+    "剛好及時"
+   ]
+  ],
+  "patterns": [
+   [
+    "S doesn't like to V because + 句子.",
+    "She doesn't like to get up early in the morning because she always feels sleepy."
+   ],
+   [
+    "S + Ved + N + and + Ved.",
+    "She turned it off and went back to sleep."
+   ],
+   [
+    "S was so + adj. + that + 句子.",
+    "She was so shocked that she screamed."
+   ],
+   [
+    "S didn't even have time to V.",
+    "She didn't even have time to eat breakfast."
+   ],
+   [
+    "S was + adj., and S was Ving.",
+    "She was very tired, and she was sweating a lot."
+   ],
+   [
+    "S has learned an important lesson. S will never V again.",
+    "She has learned an important lesson. She will never turn off her alarm clock and go back to sleep again."
+   ]
+  ]
  },
  {
   "no": 4,
@@ -377,7 +733,135 @@ window.GEPT_BASIC_STORIES = [
   ],
   "essay": "Amy is a 13-year-old junior high school student. She is a kind girl, but she often stays up late. Last night, she played computer games until midnight. At 6:30 this morning, her alarm clock rang. She was so sleepy that she turned it off and went back to sleep. When she woke up again, it was already 7:30. She felt shocked because her school bus came at 7:40. She jumped out of bed and got dressed as quickly as possible. When she arrived at the bus stop, she found that Bus 304 was already leaving. She ran after the bus and shouted, \"Wait for me!\" However, the driver didn't see her, so she had to walk to school. As a result, she was late for school, and she felt very upset. She has learned an important lesson: never stay up late on school nights.",
   "words": 147,
-  "src": "附件19"
+  "src": "附件19",
+  "vocab": [
+   [
+    "junior high school student",
+    "國中生"
+   ],
+   [
+    "kind",
+    "善良的"
+   ],
+   [
+    "stays up late",
+    "熬夜"
+   ],
+   [
+    "computer games",
+    "電腦遊戲"
+   ],
+   [
+    "midnight",
+    "午夜"
+   ],
+   [
+    "alarm clock",
+    "鬧鐘"
+   ],
+   [
+    "rang",
+    "響了"
+   ],
+   [
+    "sleepy",
+    "想睡的"
+   ],
+   [
+    "turned it off",
+    "關掉"
+   ],
+   [
+    "went back to sleep",
+    "又睡著"
+   ],
+   [
+    "woke up",
+    "醒來"
+   ],
+   [
+    "shocked",
+    "震驚的"
+   ],
+   [
+    "school bus",
+    "校車"
+   ],
+   [
+    "jumped out of bed",
+    "跳下床"
+   ],
+   [
+    "got dressed",
+    "穿好衣服"
+   ],
+   [
+    "bus stop",
+    "公車站"
+   ],
+   [
+    "leaving",
+    "正要離開"
+   ],
+   [
+    "ran after",
+    "追趕"
+   ],
+   [
+    "shouted",
+    "大喊"
+   ],
+   [
+    "driver",
+    "司機"
+   ],
+   [
+    "walk to school",
+    "走路上學"
+   ],
+   [
+    "late for school",
+    "上學遲到"
+   ],
+   [
+    "upset",
+    "沮喪的"
+   ],
+   [
+    "important lesson",
+    "重要的教訓"
+   ],
+   [
+    "school nights",
+    "上學日前一晚"
+   ]
+  ],
+  "patterns": [
+   [
+    "S is a + adj. + N, but S often + Vs",
+    "She is a kind girl, but she often stays up late."
+   ],
+   [
+    "At + 時間 + this morning, S + Ved.",
+    "At 6:30 this morning, her alarm clock rang."
+   ],
+   [
+    "When S + Ved, it was already + 時間.",
+    "When she woke up again, it was already 7:30."
+   ],
+   [
+    "When S arrived at + 地點, S found that + 句子",
+    "When she arrived at the bus stop, she found that Bus 304 was already leaving."
+   ],
+   [
+    "However, S didn't V, so S had to V",
+    "However, the driver didn't see her, so she had to walk to school."
+   ],
+   [
+    "S has learned an important lesson: 句子",
+    "She has learned an important lesson: never stay up late on school nights."
+   ]
+  ]
  },
  {
   "no": 5,
@@ -469,7 +953,127 @@ window.GEPT_BASIC_STORIES = [
    ]
   ],
   "essay": "Mei-ling is a 12-year-old elementary school student. She is a nice girl, but she often gets up late. This morning, she woke up too late. When she ran to the bus stop, the school bus was already leaving. She missed the bus, so she had to walk to school. At school, she took a math test, but she didn't do well on it. She was too nervous to answer even the easy questions. She got a bad grade, and she felt very sad. Her teacher told her to study harder for the next test. After school, when she got home, she looked for her key in her bag. She found that she forgot to bring the key with her. She couldn't get into the house, so she had to wait outside for her mother. It was dark and cold outside. She thought to herself, \"Bad things happen in threes. What a terrible day!\"",
-  "words": 153
+  "words": 153,
+  "vocab": [
+   [
+    "elementary school student",
+    "小學生"
+   ],
+   [
+    "nice",
+    "友善"
+   ],
+   [
+    "gets up late",
+    "晚起"
+   ],
+   [
+    "woke up too late",
+    "太晚起床"
+   ],
+   [
+    "school bus",
+    "校車"
+   ],
+   [
+    "missed",
+    "錯過"
+   ],
+   [
+    "walk",
+    "走路"
+   ],
+   [
+    "took a math test",
+    "考數學"
+   ],
+   [
+    "didn't do well",
+    "考不好"
+   ],
+   [
+    "nervous",
+    "緊張"
+   ],
+   [
+    "easy questions",
+    "簡單題"
+   ],
+   [
+    "bad grade",
+    "壞成績"
+   ],
+   [
+    "sad",
+    "難過"
+   ],
+   [
+    "study harder",
+    "更用功"
+   ],
+   [
+    "after school",
+    "放學後"
+   ],
+   [
+    "looked for",
+    "尋找"
+   ],
+   [
+    "key",
+    "鑰匙"
+   ],
+   [
+    "forgot to bring",
+    "忘了帶"
+   ],
+   [
+    "get into",
+    "進入"
+   ],
+   [
+    "wait outside",
+    "在外面等"
+   ],
+   [
+    "dark",
+    "天黑"
+   ],
+   [
+    "cold",
+    "冷"
+   ],
+   [
+    "bad things happen in threes",
+    "禍不單行"
+   ]
+  ],
+  "patterns": [
+   [
+    "S is a + adj. + N, but S often + Vs",
+    "She is a nice girl, but she often gets up late."
+   ],
+   [
+    "S + Ved, so S had to V",
+    "She missed the bus, so she had to walk to school."
+   ],
+   [
+    "S was too + adj. + to V",
+    "She was too nervous to answer even the easy questions."
+   ],
+   [
+    "After school, when S got home, S + Ved",
+    "After school, when she got home, she looked for her key in her bag."
+   ],
+   [
+    "S couldn't V, so S had to V",
+    "She couldn't get into the house, so she had to wait outside for her mother."
+   ],
+   [
+    "S thought to herself, \"...\"",
+    "She thought to herself, \"Bad things happen in threes. What a terrible day!\""
+   ]
+  ]
  },
  {
   "no": 6,
@@ -562,7 +1166,131 @@ window.GEPT_BASIC_STORIES = [
   ],
   "essay": "I am a 13-year-old junior high school student. I am a friendly boy, but I often forget to set my alarm clock. Yesterday morning, when I woke up, it was already nine o'clock. I felt shocked because I was going to be late for school. I quickly grabbed my school bag and ran to the bus stop. When I got there, the bus was already leaving. I waved and shouted, but the driver didn't stop. When I arrived at school, my English teacher was very angry with me. She pointed at me and scolded me for being late. I was so embarrassed that I almost cried. After school, on my way home, an angry dog suddenly ran after me. It barked at me and almost bit my leg, so I ran home as fast as I could. For me, it was the worst day of my life.",
   "words": 147,
-  "src": "附件8"
+  "src": "附件8",
+  "vocab": [
+   [
+    "junior high school student",
+    "國中生"
+   ],
+   [
+    "friendly",
+    "友善的"
+   ],
+   [
+    "set my alarm clock",
+    "設定鬧鐘"
+   ],
+   [
+    "woke up",
+    "醒來"
+   ],
+   [
+    "shocked",
+    "震驚的"
+   ],
+   [
+    "late for school",
+    "上學遲到"
+   ],
+   [
+    "grabbed",
+    "抓起"
+   ],
+   [
+    "bus stop",
+    "公車站"
+   ],
+   [
+    "was already leaving",
+    "已經要開走了"
+   ],
+   [
+    "waved",
+    "揮手"
+   ],
+   [
+    "shouted",
+    "大喊"
+   ],
+   [
+    "driver",
+    "司機"
+   ],
+   [
+    "English teacher",
+    "英文老師"
+   ],
+   [
+    "angry",
+    "生氣的"
+   ],
+   [
+    "pointed at",
+    "指著"
+   ],
+   [
+    "scolded",
+    "責罵"
+   ],
+   [
+    "embarrassed",
+    "丟臉的"
+   ],
+   [
+    "almost cried",
+    "差點哭了"
+   ],
+   [
+    "on my way home",
+    "在回家的路上"
+   ],
+   [
+    "ran after",
+    "追趕"
+   ],
+   [
+    "barked at",
+    "對…吠叫"
+   ],
+   [
+    "bit",
+    "咬"
+   ],
+   [
+    "as fast as I could",
+    "盡全力快跑"
+   ],
+   [
+    "the worst",
+    "最糟的"
+   ]
+  ],
+  "patterns": [
+   [
+    "S am a + adj. + N, but S often + V",
+    "I am a friendly boy, but I often forget to set my alarm clock."
+   ],
+   [
+    "S felt + adj. + because + 句子",
+    "I felt shocked because I was going to be late for school."
+   ],
+   [
+    "When S got there, N was already Ving.",
+    "When I got there, the bus was already leaving."
+   ],
+   [
+    "S + Ved at + 人 and Ved + 人 + for + V-ing.",
+    "She pointed at me and scolded me for being late."
+   ],
+   [
+    "After school, on S's way home, S + Ved",
+    "After school, on my way home, an angry dog suddenly ran after me."
+   ],
+   [
+    "For S, it was the 最高級 + N + of + N.",
+    "For me, it was the worst day of my life."
+   ]
+  ]
  },
  {
   "no": 7,
@@ -648,7 +1376,115 @@ window.GEPT_BASIC_STORIES = [
    ]
   ],
   "essay": "Tom is a 15-year-old junior high school student. He likes to play online games with his friends. Last Tuesday night, he stayed up until midnight playing video games. He did not go to bed early because the game was too exciting. The next day, he was too tired to listen in math class. He dozed off at his desk and did not pay attention to the teacher. Besides, he forgot to bring his homework, so the teacher was angry at him. On Friday, when he got his math test back, he only got 59 points. He failed the test because he did not study for it. He felt so sad that he did not want to tell his parents. His mother scolded him for playing games too late at night. He thought to himself, \"It was a terrible week.\" From now on, he decides to go to bed early and study harder.",
-  "words": 152
+  "words": 152,
+  "vocab": [
+   [
+    "junior high school student",
+    "國中生"
+   ],
+   [
+    "online games",
+    "線上遊戲"
+   ],
+   [
+    "stayed up",
+    "熬夜"
+   ],
+   [
+    "midnight",
+    "半夜"
+   ],
+   [
+    "exciting",
+    "刺激的"
+   ],
+   [
+    "too tired",
+    "太累"
+   ],
+   [
+    "listen",
+    "聽課"
+   ],
+   [
+    "dozed off",
+    "打瞌睡"
+   ],
+   [
+    "pay attention to",
+    "注意"
+   ],
+   [
+    "forgot",
+    "忘記"
+   ],
+   [
+    "homework",
+    "作業"
+   ],
+   [
+    "test back",
+    "考卷發回"
+   ],
+   [
+    "59 points 59",
+    "分"
+   ],
+   [
+    "failed",
+    "不及格"
+   ],
+   [
+    "study for",
+    "準備"
+   ],
+   [
+    "sad",
+    "難過"
+   ],
+   [
+    "tell",
+    "告訴"
+   ],
+   [
+    "scolded",
+    "責罵"
+   ],
+   [
+    "terrible week",
+    "糟糕的一週"
+   ],
+   [
+    "study harder",
+    "更用功"
+   ]
+  ],
+  "patterns": [
+   [
+    "S + likes to V",
+    "He likes to play online games with his friends."
+   ],
+   [
+    "S did not V + because + 句子",
+    "He did not go to bed early because the game was too exciting."
+   ],
+   [
+    "S + Ved and did not V",
+    "He dozed off at his desk and did not pay attention to the teacher."
+   ],
+   [
+    "When S got ..., S only got + N.",
+    "On Friday, when he got his math test back, he only got 59 points."
+   ],
+   [
+    "S felt so + adj. + that + 句子",
+    "He felt so sad that he did not want to tell his parents."
+   ],
+   [
+    "S thought to himself, \"...\" From now on, S decides to V",
+    "He thought to himself, \"It was a terrible week.\" From now on, he decides to go to bed early and study harder."
+   ]
+  ]
  },
  {
   "no": 8,
@@ -738,7 +1574,123 @@ window.GEPT_BASIC_STORIES = [
    ]
   ],
   "essay": "Kevin is a junior high school student. He is in Grade 8. He is outgoing, but he does not like studying. Last Sunday, he hung out with his friends. They went shopping and went to a movie together. He had so much fun that he did not study for the English test. On Monday, when he got the test, he did not know how to answer the questions. He was very nervous because he did not want to get a bad grade. He decided to peek at his classmate's answers and copied them. However, the teacher saw him cheating on the test. He was caught cheating, and the teacher took his test away. As a result, he got zero points, and the teacher called his parents. He felt very sorry because his parents were sad and angry. He felt ashamed. From now on, he decides to study hard and never cheat again.",
-  "words": 152
+  "words": 152,
+  "vocab": [
+   [
+    "junior high school student",
+    "國中生"
+   ],
+   [
+    "outgoing",
+    "外向"
+   ],
+   [
+    "studying",
+    "讀書"
+   ],
+   [
+    "hung out",
+    "出去玩"
+   ],
+   [
+    "went to a movie",
+    "看電影"
+   ],
+   [
+    "so much fun",
+    "玩得很開心"
+   ],
+   [
+    "study for",
+    "準備考試"
+   ],
+   [
+    "did not know how to",
+    "不知道如何"
+   ],
+   [
+    "answer",
+    "作答"
+   ],
+   [
+    "nervous",
+    "緊張"
+   ],
+   [
+    "bad grade",
+    "壞成績"
+   ],
+   [
+    "peek at",
+    "偷瞄"
+   ],
+   [
+    "copied",
+    "抄"
+   ],
+   [
+    "saw him cheating",
+    "看到他作弊"
+   ],
+   [
+    "was caught",
+    "被抓到"
+   ],
+   [
+    "took away",
+    "拿走"
+   ],
+   [
+    "zero points",
+    "零分"
+   ],
+   [
+    "called his parents",
+    "打給家長"
+   ],
+   [
+    "sorry",
+    "抱歉"
+   ],
+   [
+    "parents",
+    "父母"
+   ],
+   [
+    "ashamed",
+    "羞愧"
+   ],
+   [
+    "never cheat again",
+    "不再作弊"
+   ]
+  ],
+  "patterns": [
+   [
+    "S is + adj., but S does not like + Ving",
+    "He is outgoing, but he does not like studying."
+   ],
+   [
+    "S had so much fun that + 句子",
+    "He had so much fun that he did not study for the English test."
+   ],
+   [
+    "S was + adj. + because + 句子",
+    "He was very nervous because he did not want to get a bad grade."
+   ],
+   [
+    "However, S saw + 人 + Ving",
+    "However, the teacher saw him cheating on the test."
+   ],
+   [
+    "As a result, S + Ved, and S + Ved",
+    "As a result, he got zero points, and the teacher called his parents."
+   ],
+   [
+    "S felt + adj. From now on, S decides to V",
+    "He felt ashamed. From now on, he decides to study hard and never cheat again."
+   ]
+  ]
  },
  {
   "no": 9,
@@ -831,7 +1783,127 @@ window.GEPT_BASIC_STORIES = [
   ],
   "essay": "Jack is a 12-year-old elementary school student. He loves playing phone games very much, and he plays them every day. In class, he always played games on his phone secretly. While the teacher was teaching English, Jack wasn't listening at all. One day, the teacher gave back the English test papers to the students. When Jack looked at his paper, he found that he got a very bad grade. He felt shocked because most of his answers were wrong. When he got home, he showed the test paper to his father. His father was very angry with him and shouted at him. He told Jack that he couldn't use the computer or his phone anymore. Jack felt very sad and cried. He knew that he made a big mistake. He has learned an important lesson: he should listen carefully in class and stop playing games.",
   "words": 145,
-  "src": "附件9"
+  "src": "附件9",
+  "vocab": [
+   [
+    "elementary school student",
+    "小學生"
+   ],
+   [
+    "phone games",
+    "手機遊戲"
+   ],
+   [
+    "in class",
+    "上課時"
+   ],
+   [
+    "secretly",
+    "偷偷地"
+   ],
+   [
+    "teaching",
+    "教課"
+   ],
+   [
+    "listening",
+    "聽講"
+   ],
+   [
+    "gave back",
+    "發回"
+   ],
+   [
+    "test papers",
+    "考卷"
+   ],
+   [
+    "looked at",
+    "看"
+   ],
+   [
+    "bad grade",
+    "爛成績"
+   ],
+   [
+    "shocked",
+    "震驚的"
+   ],
+   [
+    "wrong",
+    "錯的"
+   ],
+   [
+    "got home",
+    "到家"
+   ],
+   [
+    "showed",
+    "給…看"
+   ],
+   [
+    "angry",
+    "生氣的"
+   ],
+   [
+    "shouted at",
+    "對…大吼"
+   ],
+   [
+    "computer",
+    "電腦"
+   ],
+   [
+    "anymore",
+    "不再"
+   ],
+   [
+    "sad",
+    "難過的"
+   ],
+   [
+    "cried",
+    "哭了"
+   ],
+   [
+    "made a big mistake",
+    "犯了大錯"
+   ],
+   [
+    "important lesson",
+    "重要的教訓"
+   ],
+   [
+    "carefully",
+    "專心地"
+   ]
+  ],
+  "patterns": [
+   [
+    "S loves + V-ing + N very much, and S + Vs + every day.",
+    "He loves playing phone games very much, and he plays them every day."
+   ],
+   [
+    "While S was Ving, S wasn't Ving at all.",
+    "While the teacher was teaching English, Jack wasn't listening at all."
+   ],
+   [
+    "When S + Ved, S found that + 句子",
+    "When Jack looked at his paper, he found that he got a very bad grade."
+   ],
+   [
+    "S was very + adj. + with + 人 and + Ved",
+    "His father was very angry with him and shouted at him."
+   ],
+   [
+    "S felt + adj. and + Ved.",
+    "Jack felt very sad and cried."
+   ],
+   [
+    "S has learned an important lesson: 句子",
+    "He has learned an important lesson: he should listen carefully in class and stop playing games."
+   ]
+  ]
  },
  {
   "no": 10,
@@ -918,7 +1990,127 @@ window.GEPT_BASIC_STORIES = [
   ],
   "essay": "Tom is a 12-year-old elementary school student. He is a friendly boy, but he is often forgetful. This morning, his alarm clock rang at 6:30, but he was still sleeping. He was so sleepy that he didn't want to get up. In the end, he got up and packed his schoolbag in a hurry. Then he walked to school with his backpack. He felt happy because he could see his friends and play with them at school. When the first class started, his teacher asked the students to hand in their homework. Tom found that he forgot to bring his homework. His teacher was very angry, and she scolded him in front of the whole class. He felt embarrassed, and he said sorry to his teacher again and again. He has learned an important lesson: he will always check his schoolbag the night before.",
   "words": 145,
-  "src": "附件10"
+  "src": "附件10",
+  "vocab": [
+   [
+    "elementary school student",
+    "小學生"
+   ],
+   [
+    "friendly",
+    "友善"
+   ],
+   [
+    "forgetful",
+    "健忘"
+   ],
+   [
+    "alarm clock",
+    "鬧鐘"
+   ],
+   [
+    "rang",
+    "響"
+   ],
+   [
+    "sleepy",
+    "想睡"
+   ],
+   [
+    "get up",
+    "起床"
+   ],
+   [
+    "in a hurry",
+    "匆忙"
+   ],
+   [
+    "packed",
+    "收拾"
+   ],
+   [
+    "walked to school",
+    "走路上學"
+   ],
+   [
+    "backpack",
+    "背包"
+   ],
+   [
+    "happy",
+    "開心"
+   ],
+   [
+    "see his friends",
+    "見到朋友"
+   ],
+   [
+    "first class",
+    "第一堂課"
+   ],
+   [
+    "hand in",
+    "繳交"
+   ],
+   [
+    "forgot to bring",
+    "忘了帶"
+   ],
+   [
+    "homework",
+    "作業"
+   ],
+   [
+    "angry",
+    "生氣"
+   ],
+   [
+    "scolded",
+    "責罵"
+   ],
+   [
+    "embarrassed",
+    "尷尬"
+   ],
+   [
+    "said sorry",
+    "道歉"
+   ],
+   [
+    "check",
+    "檢查"
+   ],
+   [
+    "the night before",
+    "前一晚"
+   ]
+  ],
+  "patterns": [
+   [
+    "S is a + adj. + N, but S is often + adj.",
+    "He is a friendly boy, but he is often forgetful."
+   ],
+   [
+    "S was so + adj. + that + 句子",
+    "He was so sleepy that he didn't want to get up."
+   ],
+   [
+    "Then S + Ved to + 地點 with + N.",
+    "Then he walked to school with his backpack."
+   ],
+   [
+    "When S + Ved, S asked + 人 + to V",
+    "When the first class started, his teacher asked the students to hand in their homework."
+   ],
+   [
+    "S was very + adj., and S + Ved + 人.",
+    "His teacher was very angry, and she scolded him in front of the whole class."
+   ],
+   [
+    "S has learned an important lesson: S will always V",
+    "He has learned an important lesson: he will always check his schoolbag the night before."
+   ]
+  ]
  },
  {
   "no": 11,
@@ -1004,7 +2196,135 @@ window.GEPT_BASIC_STORIES = [
    ]
   ],
   "essay": "Lisa is a 12-year-old student. She lives in Taipei with her family. Last July, the weather forecast said that a strong typhoon was coming to Taiwan. Lisa was worried about the typhoon, so her family stayed at home. They prepared flashlights, candles, and some water. The next day, the typhoon hit Taipei. It brought heavy rain and strong wind. She saw that many people's umbrellas were blown away on the street. It was too dangerous to go out. The typhoon brought a lot of damage. For example, there was a flood on the street, and some trees fell down. Besides, the road was closed, and there was a blackout at her home. Lisa was so scared that she could not sleep at night. Two days later, the typhoon left. Lisa and her family went outside to help clean up the street. For her, it was the scariest typhoon of her life.",
-  "words": 151
+  "words": 151,
+  "vocab": [
+   [
+    "student",
+    "學生"
+   ],
+   [
+    "lives in",
+    "住在"
+   ],
+   [
+    "weather forecast",
+    "氣象預報"
+   ],
+   [
+    "typhoon",
+    "颱風"
+   ],
+   [
+    "worried about",
+    "擔心"
+   ],
+   [
+    "stayed at home",
+    "待在家"
+   ],
+   [
+    "flashlights",
+    "手電筒"
+   ],
+   [
+    "candles",
+    "蠟燭"
+   ],
+   [
+    "hit",
+    "侵襲"
+   ],
+   [
+    "heavy rain",
+    "豪雨"
+   ],
+   [
+    "strong wind",
+    "強風"
+   ],
+   [
+    "umbrellas",
+    "雨傘"
+   ],
+   [
+    "blown away",
+    "被吹走"
+   ],
+   [
+    "dangerous",
+    "危險"
+   ],
+   [
+    "go out",
+    "出門"
+   ],
+   [
+    "damage",
+    "損害"
+   ],
+   [
+    "flood",
+    "淹水"
+   ],
+   [
+    "fell down",
+    "倒下"
+   ],
+   [
+    "road closed",
+    "道路封閉"
+   ],
+   [
+    "blackout",
+    "停電"
+   ],
+   [
+    "scared",
+    "害怕"
+   ],
+   [
+    "sleep",
+    "睡覺"
+   ],
+   [
+    "two days later",
+    "兩天後"
+   ],
+   [
+    "cleaned up",
+    "清理"
+   ],
+   [
+    "the scariest",
+    "最可怕的"
+   ]
+  ],
+  "patterns": [
+   [
+    "Last + 時間, the weather forecast said that + 句子",
+    "Last July, the weather forecast said that a strong typhoon was coming to Taiwan."
+   ],
+   [
+    "S prepared + A, B, and C.",
+    "They prepared flashlights, candles, and some water."
+   ],
+   [
+    "S saw that + 句子",
+    "She saw that many people's umbrellas were blown away on the street."
+   ],
+   [
+    "S brought a lot of damage. For example, there was + N, and + 句子",
+    "The typhoon brought a lot of damage. For example, there was a flood on the street, and some trees fell down."
+   ],
+   [
+    "S was so + adj. + that + 句子",
+    "Lisa was so scared that she could not sleep at night."
+   ],
+   [
+    "For + 人, it was the + 最高級 + N + of + one's life.",
+    "For her, it was the scariest typhoon of her life."
+   ]
+  ]
  },
  {
   "no": 12,
@@ -1096,7 +2416,131 @@ window.GEPT_BASIC_STORIES = [
    ]
   ],
   "essay": "Tom is a 13-year-old student. He lives with his parents. Last Friday, the weather forecast said that a typhoon was coming soon. Tom was worried about the typhoon because it was very strong. That afternoon, Tom went to the supermarket with his family by car to buy food. When they arrived, it was crowded with customers. People bought many kinds of things, such as vegetables, instant noodles, canned food, and water. Tom was nervous because he was afraid that they could not buy enough food. However, the shelves were almost empty, so they did not buy many things. On the way home, there was a flood on the street. There was a terrible traffic jam because some cars broke down in the water. It took them two hours to get home. They were very upset and tired. From now on, they decide to buy food earlier before a typhoon comes.",
-  "words": 150
+  "words": 150,
+  "vocab": [
+   [
+    "student",
+    "學生"
+   ],
+   [
+    "parents",
+    "父母"
+   ],
+   [
+    "weather forecast",
+    "氣象預報"
+   ],
+   [
+    "coming soon",
+    "即將來"
+   ],
+   [
+    "worried about",
+    "擔心"
+   ],
+   [
+    "supermarket",
+    "大賣場"
+   ],
+   [
+    "by car",
+    "開車"
+   ],
+   [
+    "crowded with",
+    "擠滿"
+   ],
+   [
+    "customers",
+    "顧客"
+   ],
+   [
+    "instant noodles",
+    "泡麵"
+   ],
+   [
+    "canned food",
+    "罐頭"
+   ],
+   [
+    "nervous",
+    "緊張"
+   ],
+   [
+    "afraid",
+    "擔心"
+   ],
+   [
+    "shelves",
+    "貨架"
+   ],
+   [
+    "empty",
+    "空的"
+   ],
+   [
+    "on the way home",
+    "回家路上"
+   ],
+   [
+    "flood",
+    "淹水"
+   ],
+   [
+    "broke down",
+    "拋錨"
+   ],
+   [
+    "traffic jam",
+    "塞車"
+   ],
+   [
+    "two hours",
+    "兩小時"
+   ],
+   [
+    "upset",
+    "沮喪"
+   ],
+   [
+    "tired",
+    "累"
+   ],
+   [
+    "earlier",
+    "提早"
+   ],
+   [
+    "before",
+    "在…之前"
+   ]
+  ],
+  "patterns": [
+   [
+    "Last + 時間, the weather forecast said that + 句子",
+    "Last Friday, the weather forecast said that a typhoon was coming soon."
+   ],
+   [
+    "That + 時間, S went to + 地方 + with ... by 交通 + to V",
+    "That afternoon, Tom went to the supermarket with his family by car to buy food."
+   ],
+   [
+    "S bought many kinds of things, such as A, B, C, and D.",
+    "People bought many kinds of things, such as vegetables, instant noodles, canned food, and water."
+   ],
+   [
+    "On the way home, there was + N.",
+    "On the way home, there was a flood on the street."
+   ],
+   [
+    "It took + 人 + 時間 + to V",
+    "It took them two hours to get home."
+   ],
+   [
+    "From now on, S decide to V",
+    "From now on, they decide to buy food earlier before a typhoon comes."
+   ]
+  ]
  },
  {
   "no": 13,
@@ -1189,7 +2633,139 @@ window.GEPT_BASIC_STORIES = [
   ],
   "essay": "I am a 14-year-old junior high school student. I am a careful person, and I always plan ahead. One day, a strong typhoon came to Taiwan. The wind was very strong, and it rained heavily. I took my umbrella and went to a convenience store. I felt worried because the power might go out at night. At the store, I bought instant noodles, a bottle of water, and some batteries. I paid the clerk, and then I went home quickly. That night, after I got home, the power went out suddenly. It was so dark that I couldn't see anything in my room. Luckily, I lit a candle and turned on my radio. I ate my instant noodles while I listened to the news about the typhoon. I was glad that I was ready. It is important to be prepared for a typhoon.",
   "words": 143,
-  "src": "附件6"
+  "src": "附件6",
+  "vocab": [
+   [
+    "junior high school student",
+    "國中生"
+   ],
+   [
+    "careful",
+    "細心"
+   ],
+   [
+    "plan ahead",
+    "事先計畫"
+   ],
+   [
+    "typhoon",
+    "颱風"
+   ],
+   [
+    "strong",
+    "強烈的"
+   ],
+   [
+    "wind",
+    "風"
+   ],
+   [
+    "heavily",
+    "大量地"
+   ],
+   [
+    "umbrella",
+    "雨傘"
+   ],
+   [
+    "convenience store",
+    "便利商店"
+   ],
+   [
+    "worried",
+    "擔心"
+   ],
+   [
+    "power",
+    "電力"
+   ],
+   [
+    "go out",
+    "停電"
+   ],
+   [
+    "instant noodles",
+    "泡麵"
+   ],
+   [
+    "batteries",
+    "電池"
+   ],
+   [
+    "paid",
+    "付錢"
+   ],
+   [
+    "clerk",
+    "店員"
+   ],
+   [
+    "that night",
+    "那天晚上"
+   ],
+   [
+    "went out",
+    "熄滅"
+   ],
+   [
+    "dark",
+    "暗"
+   ],
+   [
+    "anything",
+    "任何東西"
+   ],
+   [
+    "lit a candle",
+    "點蠟燭"
+   ],
+   [
+    "radio",
+    "收音機"
+   ],
+   [
+    "ate",
+    "吃"
+   ],
+   [
+    "listened to",
+    "聽"
+   ],
+   [
+    "glad",
+    "高興"
+   ],
+   [
+    "prepared",
+    "做好準備"
+   ]
+  ],
+  "patterns": [
+   [
+    "I am a + adj. + person, and I always + V.",
+    "I am a careful person, and I always plan ahead."
+   ],
+   [
+    "The wind was + adj., and it + Ved + adv.",
+    "The wind was very strong, and it rained heavily."
+   ],
+   [
+    "I felt + adj. + because + 句子.",
+    "I felt worried because the power might go out at night."
+   ],
+   [
+    "That night, after I got home, S + Ved.",
+    "That night, after I got home, the power went out suddenly."
+   ],
+   [
+    "Luckily, I + Ved + N and Ved + N.",
+    "Luckily, I lit a candle and turned on my radio."
+   ],
+   [
+    "I was glad that + 句子. It is + adj. + to V.",
+    "I was glad that I was ready. It is important to be prepared for a typhoon."
+   ]
+  ]
  },
  {
   "no": 14,
@@ -1497,7 +3073,135 @@ window.GEPT_BASIC_STORIES = [
    ]
   ],
   "essay": "Jennifer is an elementary school student. She is in Grade 3. She likes to go out with her family on weekends. Last Saturday, her father drove the family to Taipei for a trip. She was excited because they wanted to go to an amusement park. Before they left, she put some snacks and drinks in the car. When they were on the highway, there was a terrible traffic jam. She found that there were too many cars on the road. It took them three hours to get to Taipei. She was so bored and tired that she almost cried. When they finally arrived at the amusement park, it started to rain very hard. Most of the rides were closed, so they could not have fun. She was sad because it was not fun to play in the rain. In the end, they had to go home early. For her, it was the worst day of her life.",
-  "words": 157
+  "words": 157,
+  "vocab": [
+   [
+    "elementary school student",
+    "小學生"
+   ],
+   [
+    "go out",
+    "出門"
+   ],
+   [
+    "family",
+    "家人"
+   ],
+   [
+    "drove",
+    "開車載"
+   ],
+   [
+    "for a trip",
+    "去旅行"
+   ],
+   [
+    "excited",
+    "興奮"
+   ],
+   [
+    "amusement park",
+    "遊樂園"
+   ],
+   [
+    "snacks",
+    "零食"
+   ],
+   [
+    "drinks",
+    "飲料"
+   ],
+   [
+    "highway",
+    "高速公路"
+   ],
+   [
+    "traffic jam",
+    "塞車"
+   ],
+   [
+    "too many cars",
+    "太多車"
+   ],
+   [
+    "three hours",
+    "三小時"
+   ],
+   [
+    "get to",
+    "抵達"
+   ],
+   [
+    "bored",
+    "無聊"
+   ],
+   [
+    "tired",
+    "累"
+   ],
+   [
+    "cried",
+    "哭"
+   ],
+   [
+    "arrived",
+    "抵達"
+   ],
+   [
+    "started to rain",
+    "開始下雨"
+   ],
+   [
+    "rides",
+    "遊樂設施"
+   ],
+   [
+    "closed",
+    "關閉"
+   ],
+   [
+    "sad",
+    "難過"
+   ],
+   [
+    "in the rain",
+    "在雨中"
+   ],
+   [
+    "went home early",
+    "提早回家"
+   ],
+   [
+    "the worst day",
+    "最糟的一天"
+   ]
+  ],
+  "patterns": [
+   [
+    "S + likes to V",
+    "She likes to go out with her family on weekends."
+   ],
+   [
+    "S was + adj. + because + 句子",
+    "She was excited because they wanted to go to an amusement park."
+   ],
+   [
+    "S found that + 句子",
+    "She found that there were too many cars on the road."
+   ],
+   [
+    "S was so + adj. + that + 句子",
+    "She was so bored and tired that she almost cried."
+   ],
+   [
+    "S was + adj. + because + it was not + adj. + to V",
+    "She was sad because it was not fun to play in the rain."
+   ],
+   [
+    "For + 人, it was the + 最高級 + N + of + one's life.",
+    "For her, it was the worst day of her life."
+   ]
+  ]
  },
  {
   "no": 16,
@@ -1589,7 +3293,119 @@ window.GEPT_BASIC_STORIES = [
    ]
   ],
   "essay": "Mary is a 15-year-old junior high school student. She likes to play basketball on weekends. On Saturday morning, she planned to play basketball with her friends at the park. But it was raining heavily, so she had to cancel her plan. It was rainy and windy, and they could not play outside. Instead, she decided to stay at home and watch TV. She felt bored, so she called her friends to say sorry. After that, she went shopping with her mother. They went to a department store by bus. Mary bought a new T-shirt and felt very happy because she liked the color. Then, they went to a fast-food restaurant for lunch. After finishing lunch, they took some photos together. Although it was still raining, Mary felt excited because she could spend time with her mother. She thought it was a wonderful day. She wanted to go shopping with her mother again next weekend.",
-  "words": 154
+  "words": 154,
+  "vocab": [
+   [
+    "junior high school student",
+    "國中生"
+   ],
+   [
+    "play basketball",
+    "打籃球"
+   ],
+   [
+    "planned",
+    "計畫"
+   ],
+   [
+    "park",
+    "公園"
+   ],
+   [
+    "raining heavily",
+    "下大雨"
+   ],
+   [
+    "cancel",
+    "取消"
+   ],
+   [
+    "rainy",
+    "下雨"
+   ],
+   [
+    "windy",
+    "颳風"
+   ],
+   [
+    "instead",
+    "反而"
+   ],
+   [
+    "watch TV",
+    "看電視"
+   ],
+   [
+    "bored",
+    "無聊"
+   ],
+   [
+    "say sorry",
+    "道歉"
+   ],
+   [
+    "went shopping",
+    "逛街"
+   ],
+   [
+    "department store",
+    "百貨公司"
+   ],
+   [
+    "T-shirt T",
+    "恤"
+   ],
+   [
+    "color",
+    "顏色"
+   ],
+   [
+    "fast-food restaurant",
+    "速食店"
+   ],
+   [
+    "took photos",
+    "拍照"
+   ],
+   [
+    "excited",
+    "興奮"
+   ],
+   [
+    "spend time",
+    "共度時光"
+   ],
+   [
+    "wonderful",
+    "美好"
+   ]
+  ],
+  "patterns": [
+   [
+    "S likes to V",
+    "She likes to play basketball on weekends."
+   ],
+   [
+    "But it was + Ving, so S had to V",
+    "But it was raining heavily, so she had to cancel her plan."
+   ],
+   [
+    "Instead, S decided to V",
+    "Instead, she decided to stay at home and watch TV."
+   ],
+   [
+    "S bought + N and felt + adj. + because + 句子",
+    "Mary bought a new T-shirt and felt very happy because she liked the color."
+   ],
+   [
+    "After Ving, S + Ved",
+    "After finishing lunch, they took some photos together."
+   ],
+   [
+    "S thought it was a + adj. + N. S wanted to V again.",
+    "She thought it was a wonderful day. She wanted to go shopping with her mother again next weekend."
+   ]
+  ]
  },
  {
   "no": 17,
@@ -1681,7 +3497,111 @@ window.GEPT_BASIC_STORIES = [
    ]
   ],
   "essay": "Janice is a 14-year-old junior high school student. She likes to walk home with her friends after school. Yesterday afternoon, it suddenly rained heavily when she was on her way home. She didn't bring an umbrella, so all she could do was run home quickly. When she got home, she was terribly wet. Later that night, she caught a cold and had a fever. She felt so sick that she had to stay in bed. The next morning, her mother took her to see a doctor. The doctor told her to take some medicine and get enough sleep. Her mother called the school and asked for sick leave for her. Janice felt sad because she couldn't go to school and see her friends. She rested at home for three days and then felt better. She has learned an important lesson. From now on, she decides to bring an umbrella with her every day.",
-  "words": 153
+  "words": 153,
+  "vocab": [
+   [
+    "junior high school student",
+    "國中生"
+   ],
+   [
+    "walk home",
+    "走路回家"
+   ],
+   [
+    "suddenly",
+    "突然"
+   ],
+   [
+    "on her way home",
+    "在回家路上"
+   ],
+   [
+    "umbrella",
+    "雨傘"
+   ],
+   [
+    "run home",
+    "跑回家"
+   ],
+   [
+    "terribly wet",
+    "濕透"
+   ],
+   [
+    "caught a cold",
+    "感冒"
+   ],
+   [
+    "had a fever",
+    "發燒"
+   ],
+   [
+    "sick",
+    "不舒服"
+   ],
+   [
+    "stay in bed",
+    "躺在床上"
+   ],
+   [
+    "see a doctor",
+    "看醫生"
+   ],
+   [
+    "take medicine",
+    "吃藥"
+   ],
+   [
+    "get enough sleep",
+    "睡飽"
+   ],
+   [
+    "asked for sick leave",
+    "請病假"
+   ],
+   [
+    "see her friends",
+    "見朋友"
+   ],
+   [
+    "rested",
+    "休息"
+   ],
+   [
+    "felt better",
+    "好轉"
+   ],
+   [
+    "bring an umbrella",
+    "帶傘"
+   ]
+  ],
+  "patterns": [
+   [
+    "S likes to V + after school.",
+    "She likes to walk home with her friends after school."
+   ],
+   [
+    "S didn't V, so all S could do was V",
+    "She didn't bring an umbrella, so all she could do was run home quickly."
+   ],
+   [
+    "Later that night, S + Ved and Ved",
+    "Later that night, she caught a cold and had a fever."
+   ],
+   [
+    "S told + 人 + to V and V",
+    "The doctor told her to take some medicine and get enough sleep."
+   ],
+   [
+    "S felt + adj. + because + S couldn't V",
+    "Janice felt sad because she couldn't go to school and see her friends."
+   ],
+   [
+    "S has learned an important lesson. From now on, S decides to V",
+    "She has learned an important lesson. From now on, she decides to bring an umbrella with her every day."
+   ]
+  ]
  },
  {
   "no": 18,
@@ -1780,7 +3700,147 @@ window.GEPT_BASIC_STORIES = [
   ],
   "essay": "Dorothy is a 12-year-old elementary school student. She likes to spend time with her family on holidays. On Mid-Autumn Festival, she and her family had a barbecue in the park. Her father grilled some meat and corn, and her little brother ate a meat stick happily. They felt very happy because the food was so delicious. Suddenly, it started to rain very heavily. Dorothy was so surprised that she shouted, \"Oh no!\" They didn't want the food to get wet. Everyone ran to a big tree, but they still got wet. Then her father had a good idea. He quickly put up a big tent. As a result, everyone could keep having the barbecue under the tent. Dorothy waved and laughed happily. She thought that her father was very smart. For her, it was the best Mid-Autumn Festival she had ever had.",
   "words": 142,
-  "src": "附件2"
+  "src": "附件2",
+  "vocab": [
+   [
+    "elementary school student",
+    "小學生"
+   ],
+   [
+    "spend time",
+    "花時間"
+   ],
+   [
+    "family",
+    "家人"
+   ],
+   [
+    "Mid-Autumn Festival",
+    "中秋節"
+   ],
+   [
+    "had a barbecue",
+    "烤肉"
+   ],
+   [
+    "park",
+    "公園"
+   ],
+   [
+    "grilled",
+    "烤"
+   ],
+   [
+    "meat",
+    "肉"
+   ],
+   [
+    "meat stick",
+    "肉串"
+   ],
+   [
+    "happy",
+    "開心"
+   ],
+   [
+    "delicious",
+    "好吃"
+   ],
+   [
+    "suddenly",
+    "突然"
+   ],
+   [
+    "heavily",
+    "大量地"
+   ],
+   [
+    "surprised",
+    "驚訝"
+   ],
+   [
+    "shouted",
+    "大叫"
+   ],
+   [
+    "food",
+    "食物"
+   ],
+   [
+    "get wet",
+    "淋濕"
+   ],
+   [
+    "ran",
+    "跑"
+   ],
+   [
+    "tree",
+    "樹"
+   ],
+   [
+    "wet",
+    "濕"
+   ],
+   [
+    "had a good idea",
+    "想到好主意"
+   ],
+   [
+    "put up a tent",
+    "搭帳篷"
+   ],
+   [
+    "under the tent",
+    "在帳篷下"
+   ],
+   [
+    "keep",
+    "繼續"
+   ],
+   [
+    "waved",
+    "揮手"
+   ],
+   [
+    "laughed",
+    "笑"
+   ],
+   [
+    "smart",
+    "聰明"
+   ],
+   [
+    "best",
+    "最好的"
+   ]
+  ],
+  "patterns": [
+   [
+    "S likes to V + with + 人.",
+    "She likes to spend time with her family on holidays."
+   ],
+   [
+    "S + Ved + N, and S + Ved + N.",
+    "Her father grilled some meat and corn, and her little brother ate a meat stick happily."
+   ],
+   [
+    "S was so + adj. + that + 句子.",
+    "Dorothy was so surprised that she shouted, \"Oh no!\""
+   ],
+   [
+    "S + Ved + to + 地點, but S still + Ved.",
+    "Everyone ran to a big tree, but they still got wet."
+   ],
+   [
+    "S + Ved and Ved + adv.",
+    "Dorothy waved and laughed happily."
+   ],
+   [
+    "For S, it was the + 最高級 + N + S had ever had.",
+    "For her, it was the best Mid-Autumn Festival she had ever had."
+   ]
+  ]
  },
  {
   "no": 19,
@@ -1864,7 +3924,123 @@ window.GEPT_BASIC_STORIES = [
    ]
   ],
   "essay": "Miss Chen is a business woman. She is forty years old. She likes to go shopping, and she often buys clothes on weekends. One day, she went to the department store to buy new shoes by taxi. When she saw a pair of red shoes, she bought them right away. She was very excited because the shoes were beautiful and on sale. After she got home, she opened the box happily. She found that the two shoes were in different sizes. One was size 7, and the other was size 9. She was so angry that she almost cried. She could not wear them to work. The next day, when she went back to the store, the clerk said sorry and changed the shoes for her. In the end, she felt happy again. She has learned an important lesson. From now on, she decides to check her shoes before she leaves the store.",
-  "words": 153
+  "words": 153,
+  "vocab": [
+   [
+    "business woman",
+    "女商人"
+   ],
+   [
+    "forty",
+    "四十歲"
+   ],
+   [
+    "go shopping",
+    "逛街"
+   ],
+   [
+    "on weekends",
+    "週末"
+   ],
+   [
+    "department store",
+    "百貨公司"
+   ],
+   [
+    "by taxi",
+    "搭計程車"
+   ],
+   [
+    "a pair of shoes",
+    "一雙鞋"
+   ],
+   [
+    "bought",
+    "買"
+   ],
+   [
+    "excited",
+    "興奮"
+   ],
+   [
+    "on sale",
+    "特價"
+   ],
+   [
+    "got home",
+    "到家"
+   ],
+   [
+    "opened the box",
+    "打開盒子"
+   ],
+   [
+    "different sizes",
+    "尺寸不同"
+   ],
+   [
+    "angry",
+    "生氣"
+   ],
+   [
+    "cried",
+    "哭"
+   ],
+   [
+    "went back",
+    "回去"
+   ],
+   [
+    "clerk",
+    "店員"
+   ],
+   [
+    "said sorry",
+    "道歉"
+   ],
+   [
+    "changed",
+    "換"
+   ],
+   [
+    "happy again",
+    "再度開心"
+   ],
+   [
+    "lesson",
+    "教訓"
+   ],
+   [
+    "check",
+    "檢查"
+   ]
+  ],
+  "patterns": [
+   [
+    "S + likes to V, and S + often + Vs",
+    "She likes to go shopping, and she often buys clothes on weekends."
+   ],
+   [
+    "When S saw ..., S + Ved",
+    "When she saw a pair of red shoes, she bought them right away."
+   ],
+   [
+    "After S + Ved, S + Ved",
+    "After she got home, she opened the box happily."
+   ],
+   [
+    "S found that + 句子. One was ..., and the other was ...",
+    "She found that the two shoes were in different sizes. One was size 7, and the other was size 9."
+   ],
+   [
+    "The next day, when S + Ved, S + Ved",
+    "The next day, when she went back to the store, the clerk said sorry and changed the shoes for her."
+   ],
+   [
+    "S has learned an important lesson. From now on, S decides to V",
+    "She has learned an important lesson. From now on, she decides to check her shoes before she leaves the store."
+   ]
+  ]
  },
  {
   "no": 20,
@@ -1960,7 +4136,135 @@ window.GEPT_BASIC_STORIES = [
    ]
   ],
   "essay": "Mary is a 25-year-old office worker. She likes to shop online because it is fast and easy. Last Monday, while she was using her phone, she saw a pair of beautiful pants on a shopping website. The pants were 20% off, so she ordered them right away. She also bought a white T-shirt with them. She was excited because she wanted to wear them to a party. Three days later, when the package arrived, she found that the box was a little broken. She was worried, but she still opened it quickly. To her surprise, the pants were not the same as the picture. They were not only the wrong style but also the wrong size. She was so disappointed that she called the online store. The store said sorry and gave her money back. This was a terrible experience. From now on, she decides to read the reviews before she buys anything online.",
-  "words": 154
+  "words": 154,
+  "vocab": [
+   [
+    "office worker",
+    "上班族"
+   ],
+   [
+    "shop online",
+    "網購"
+   ],
+   [
+    "fast and easy",
+    "快速方便"
+   ],
+   [
+    "shopping website",
+    "購物網站"
+   ],
+   [
+    "pants",
+    "褲子"
+   ],
+   [
+    "20% off",
+    "打8折"
+   ],
+   [
+    "ordered",
+    "下單"
+   ],
+   [
+    "T-shirt T",
+    "恤"
+   ],
+   [
+    "excited",
+    "興奮"
+   ],
+   [
+    "party",
+    "派對"
+   ],
+   [
+    "package",
+    "包裹"
+   ],
+   [
+    "arrived",
+    "送達"
+   ],
+   [
+    "broken",
+    "破損"
+   ],
+   [
+    "worried",
+    "擔心"
+   ],
+   [
+    "quickly",
+    "很快地"
+   ],
+   [
+    "not the same as",
+    "和…不一樣"
+   ],
+   [
+    "picture",
+    "照片"
+   ],
+   [
+    "wrong style",
+    "款式不對"
+   ],
+   [
+    "wrong size",
+    "尺寸不對"
+   ],
+   [
+    "disappointed",
+    "失望"
+   ],
+   [
+    "called",
+    "打電話"
+   ],
+   [
+    "said sorry",
+    "道歉"
+   ],
+   [
+    "gave her money back",
+    "退錢"
+   ],
+   [
+    "terrible experience",
+    "糟糕的經驗"
+   ],
+   [
+    "reviews",
+    "評價"
+   ]
+  ],
+  "patterns": [
+   [
+    "S + likes to V + because + 句子",
+    "She likes to shop online because it is fast and easy."
+   ],
+   [
+    "S + was/were + 20% off, so S + Ved",
+    "The pants were 20% off, so she ordered them right away."
+   ],
+   [
+    "S was + adj. + because + S wanted to V",
+    "She was excited because she wanted to wear them to a party."
+   ],
+   [
+    "To one's surprise, + 句子",
+    "To her surprise, the pants were not the same as the picture."
+   ],
+   [
+    "S was so + adj. + that + 句子",
+    "She was so disappointed that she called the online store."
+   ],
+   [
+    "This was a + adj. + experience. From now on, S decides to V",
+    "This was a terrible experience. From now on, she decides to read the reviews before she buys anything online."
+   ]
+  ]
  },
  {
   "no": 21,
@@ -2065,7 +4369,147 @@ window.GEPT_BASIC_STORIES = [
   ],
   "essay": "I am a 20-year-old college student. I like sports, and I love sneakers. Yesterday afternoon, I went to a department store downtown. I wanted to look around because I had nothing to do. When I walked inside, I saw a poster on the wall. It said, \"SALE! All 30% off!\" in big letters. I found that the sneakers were on sale. They were black and very cool. I felt excited because they were much cheaper than usual. I tried on a pair of sneakers, and they fit me perfectly. I decided to buy them. So I paid for them at the counter right away. When I left the department store, I was carrying a big shopping bag with my new shoes in it. I couldn't wait to wear them to school. For me, it was the luckiest shopping day of the year.",
   "words": 142,
-  "src": "附件7"
+  "src": "附件7",
+  "vocab": [
+   [
+    "college student",
+    "大學生"
+   ],
+   [
+    "sports",
+    "運動"
+   ],
+   [
+    "sneakers",
+    "運動鞋"
+   ],
+   [
+    "department store",
+    "百貨公司"
+   ],
+   [
+    "downtown",
+    "市中心"
+   ],
+   [
+    "look around",
+    "四處逛逛"
+   ],
+   [
+    "free",
+    "有空"
+   ],
+   [
+    "poster",
+    "海報"
+   ],
+   [
+    "wall",
+    "牆"
+   ],
+   [
+    "sale",
+    "特賣"
+   ],
+   [
+    "30% off",
+    "打七折"
+   ],
+   [
+    "on sale",
+    "特價"
+   ],
+   [
+    "black",
+    "黑色"
+   ],
+   [
+    "cool",
+    "酷"
+   ],
+   [
+    "excited",
+    "興奮"
+   ],
+   [
+    "cheaper",
+    "更便宜"
+   ],
+   [
+    "tried on",
+    "試穿"
+   ],
+   [
+    "fit",
+    "合身"
+   ],
+   [
+    "decided",
+    "決定"
+   ],
+   [
+    "buy",
+    "買"
+   ],
+   [
+    "paid for",
+    "付錢"
+   ],
+   [
+    "counter",
+    "櫃台"
+   ],
+   [
+    "right away",
+    "立刻"
+   ],
+   [
+    "left",
+    "離開"
+   ],
+   [
+    "shopping bag",
+    "購物袋"
+   ],
+   [
+    "couldn't wait",
+    "等不及"
+   ],
+   [
+    "wear",
+    "穿"
+   ],
+   [
+    "luckiest",
+    "最幸運的"
+   ]
+  ],
+  "patterns": [
+   [
+    "I like + N, and I love + N.",
+    "I like sports, and I love sneakers."
+   ],
+   [
+    "When I + Ved, I saw + N.",
+    "When I walked inside, I saw a poster on the wall."
+   ],
+   [
+    "I found that + 句子.",
+    "I found that the sneakers were on sale."
+   ],
+   [
+    "I + Ved + N, and they + Ved + 人 + adv.",
+    "I tried on a pair of sneakers, and they fit me perfectly."
+   ],
+   [
+    "So I + Ved + N + at + 地點 + right away.",
+    "So I paid for them at the counter right away."
+   ],
+   [
+    "For me, it was the + 最高級 + N.",
+    "For me, it was the luckiest shopping day of the year."
+   ]
+  ]
  },
  {
   "no": 22,
@@ -2158,7 +4602,135 @@ window.GEPT_BASIC_STORIES = [
   ],
   "essay": "Candy is a 25-year-old office worker. She loves flowers, and she often puts them in vases at home. Last Monday, she went to a department store to buy a vase. There, she saw a beautiful vase on the shelf and picked it up. It was white and very pretty, and she wanted to buy it. A clerk stood next to her and watched quietly. However, she was so careless that she dropped the vase. It fell onto the floor and broke into pieces. Candy was shocked and embarrassed. The clerk came over and said, \"Miss, you have to pay for it.\" In the end, she had to pay one thousand dollars for the broken vase. She felt terrible because she spent money but didn't even get a new vase. She thought to herself, \"I should be more careful next time. What a bad day!\"",
   "words": 144,
-  "src": "模擬試題第6回"
+  "src": "模擬試題第6回",
+  "vocab": [
+   [
+    "office worker",
+    "上班族"
+   ],
+   [
+    "flowers",
+    "花"
+   ],
+   [
+    "vases",
+    "花瓶"
+   ],
+   [
+    "department store",
+    "百貨公司"
+   ],
+   [
+    "buy",
+    "買"
+   ],
+   [
+    "shelf",
+    "架子"
+   ],
+   [
+    "picked up",
+    "拿起"
+   ],
+   [
+    "pretty",
+    "漂亮"
+   ],
+   [
+    "wanted to",
+    "想要"
+   ],
+   [
+    "clerk",
+    "店員"
+   ],
+   [
+    "next to",
+    "在旁邊"
+   ],
+   [
+    "careless",
+    "粗心"
+   ],
+   [
+    "dropped",
+    "掉落"
+   ],
+   [
+    "fell",
+    "掉落"
+   ],
+   [
+    "broke into pieces",
+    "碎成片"
+   ],
+   [
+    "shocked",
+    "震驚"
+   ],
+   [
+    "embarrassed",
+    "尷尬"
+   ],
+   [
+    "came over",
+    "走過來"
+   ],
+   [
+    "pay for",
+    "賠償"
+   ],
+   [
+    "pay",
+    "付錢"
+   ],
+   [
+    "one thousand dollars",
+    "一千元"
+   ],
+   [
+    "terrible",
+    "很糟"
+   ],
+   [
+    "didn't get",
+    "沒得到"
+   ],
+   [
+    "be more careful",
+    "更小心"
+   ],
+   [
+    "bad day",
+    "倒楣的一天"
+   ]
+  ],
+  "patterns": [
+   [
+    "S loves + N, and S often + Vs",
+    "She loves flowers, and she often puts them in vases at home."
+   ],
+   [
+    "There, S saw + N on + N and Ved it up.",
+    "There, she saw a beautiful vase on the shelf and picked it up."
+   ],
+   [
+    "S stood next to + 人 and Ved.",
+    "A clerk stood next to her and watched quietly."
+   ],
+   [
+    "S was + adj. and + adj.",
+    "Candy was shocked and embarrassed."
+   ],
+   [
+    "In the end, S had to V + 金額 + for + N.",
+    "In the end, she had to pay one thousand dollars for the broken vase."
+   ],
+   [
+    "S thought to herself, \"...\"",
+    "She thought to herself, \"I should be more careful next time. What a bad day!\""
+   ]
+  ]
  },
  {
   "no": 23,
@@ -2256,7 +4828,127 @@ window.GEPT_BASIC_STORIES = [
    ]
   ],
   "essay": "Johnny is a five-year-old boy. He likes to go out with his mother. He is curious, and he often runs around. Yesterday, Johnny's mother took him to a department store to go shopping. The store was crowded with people because there was a big sale. While his mother was looking at some clothes, Johnny got lost. He looked for his mother for a long time, but he couldn't find her. He shouted, \"Mom? Where are you?\" He was so scared that he started to cry. A kind girl saw him crying and came to help him. The girl asked him about his mother's name and held his hand. Finally, Johnny's mother found him in the crowd. She hugged him and said, \"Oh, my baby!\" They were very happy to see each other again. Johnny has learned an important lesson. From now on, he decides to stay close to his mother.",
-  "words": 150
+  "words": 150,
+  "vocab": [
+   [
+    "five-year-old boy",
+    "五歲男孩"
+   ],
+   [
+    "go out",
+    "出門"
+   ],
+   [
+    "curious",
+    "好奇"
+   ],
+   [
+    "runs around",
+    "到處跑"
+   ],
+   [
+    "took him to",
+    "帶他去"
+   ],
+   [
+    "go shopping",
+    "購物"
+   ],
+   [
+    "crowded with",
+    "擠滿"
+   ],
+   [
+    "big sale",
+    "大特價"
+   ],
+   [
+    "got lost",
+    "走丟"
+   ],
+   [
+    "looked for",
+    "尋找"
+   ],
+   [
+    "for a long time",
+    "很久"
+   ],
+   [
+    "shouted",
+    "大喊"
+   ],
+   [
+    "scared",
+    "害怕"
+   ],
+   [
+    "started to cry",
+    "開始哭"
+   ],
+   [
+    "kind",
+    "好心的"
+   ],
+   [
+    "came to help",
+    "過來幫忙"
+   ],
+   [
+    "asked",
+    "問"
+   ],
+   [
+    "held his hand",
+    "牽他的手"
+   ],
+   [
+    "finally",
+    "終於"
+   ],
+   [
+    "in the crowd",
+    "在人群中"
+   ],
+   [
+    "hugged",
+    "抱"
+   ],
+   [
+    "see each other",
+    "見到彼此"
+   ],
+   [
+    "stay close to",
+    "待在…旁邊"
+   ]
+  ],
+  "patterns": [
+   [
+    "S likes to V",
+    "He likes to go out with his mother."
+   ],
+   [
+    "Yesterday, S took + 人 + to + 地方 + to V",
+    "Yesterday, Johnny's mother took him to a department store to go shopping."
+   ],
+   [
+    "S + Ved for a long time, but S couldn't V",
+    "He looked for his mother for a long time, but he couldn't find her."
+   ],
+   [
+    "S was so + adj. + that + 句子",
+    "He was so scared that he started to cry."
+   ],
+   [
+    "Finally, S + Ved",
+    "Finally, Johnny's mother found him in the crowd."
+   ],
+   [
+    "S has learned an important lesson. From now on, S decides to V",
+    "Johnny has learned an important lesson. From now on, he decides to stay close to his mother."
+   ]
+  ]
  },
  {
   "no": 24,
@@ -2349,7 +5041,139 @@ window.GEPT_BASIC_STORIES = [
   ],
   "essay": "I am a 10-year-old elementary school student. I am helpful, and I often help my mother with housework. Last Sunday morning, my mother asked me to go to the market with her. I felt happy because I love going to the market with her. When we arrived, the market was very lively. The stalls were full of colorful vegetables, fruit, and meat. There were many people and sellers, and some sellers were shouting loudly. One friendly seller smiled at us and said, \"My vegetables are very fresh!\" Another seller waved at us and said, \"Come and take a look!\" We bought some fresh vegetables, meat, and fruit for dinner. On the way home, I carried a heavy bag for my mother. My mother thanked me, and I felt very proud of myself. For me, it was the best Sunday of the month.",
   "words": 142,
-  "src": "附件16"
+  "src": "附件16",
+  "vocab": [
+   [
+    "elementary school student",
+    "小學生"
+   ],
+   [
+    "helpful",
+    "樂於助人"
+   ],
+   [
+    "housework",
+    "家事"
+   ],
+   [
+    "last Sunday",
+    "上星期天"
+   ],
+   [
+    "market",
+    "市場"
+   ],
+   [
+    "happy",
+    "開心"
+   ],
+   [
+    "love",
+    "喜愛"
+   ],
+   [
+    "lively",
+    "熱鬧"
+   ],
+   [
+    "arrived",
+    "到達"
+   ],
+   [
+    "stalls",
+    "攤位"
+   ],
+   [
+    "colorful",
+    "色彩繽紛"
+   ],
+   [
+    "sellers",
+    "小販"
+   ],
+   [
+    "shouting",
+    "叫賣"
+   ],
+   [
+    "friendly",
+    "友善"
+   ],
+   [
+    "fresh",
+    "新鮮"
+   ],
+   [
+    "waved",
+    "揮手"
+   ],
+   [
+    "take a look",
+    "看一看"
+   ],
+   [
+    "bought",
+    "買"
+   ],
+   [
+    "vegetables",
+    "蔬菜"
+   ],
+   [
+    "fruit",
+    "水果"
+   ],
+   [
+    "on the way home",
+    "回家路上"
+   ],
+   [
+    "carried",
+    "提"
+   ],
+   [
+    "thanked",
+    "謝謝"
+   ],
+   [
+    "proud",
+    "驕傲"
+   ],
+   [
+    "best",
+    "最棒"
+   ],
+   [
+    "Sunday",
+    "星期天"
+   ]
+  ],
+  "patterns": [
+   [
+    "I am + adj., and I often V",
+    "I am helpful, and I often help my mother with housework."
+   ],
+   [
+    "I felt + adj. + because + 句子",
+    "I felt happy because I love going to the market with her."
+   ],
+   [
+    "The stalls were full of + N.",
+    "The stalls were full of colorful vegetables, fruit, and meat."
+   ],
+   [
+    "Another + N + Ved at us and said, \"...\"",
+    "Another seller waved at us and said, \"Come and take a look!\""
+   ],
+   [
+    "On the way home, I + Ved + N for + 人.",
+    "On the way home, I carried a heavy bag for my mother."
+   ],
+   [
+    "For me, it was the + 最高級 + N.",
+    "For me, it was the best Sunday of the month."
+   ]
+  ]
  },
  {
   "no": 25,
@@ -2435,7 +5259,119 @@ window.GEPT_BASIC_STORIES = [
    ]
   ],
   "essay": "Tom is a 16-year-old senior high school student. He loves his cell phone, and he often watches YouTube videos on it. Last Monday, he walked home and used his phone at the same time. He was scrolling through TikTok videos and listening to music with earphones. When he was crossing the street, he did not pay attention to the cars. At that moment, the traffic light turned red, but he didn't notice it. A driver honked, but Tom did not hear it because he was listening to music. The car hit him, and he was badly hurt. Someone called 119 for help. Ten minutes later, the ambulance arrived. They sent him to the hospital, and he had to stay there for a month. He felt very sorry because his parents were worried about him. He has learned an important lesson. He will never use his phone while he is walking again.",
-  "words": 151
+  "words": 151,
+  "vocab": [
+   [
+    "senior high school student",
+    "高中生"
+   ],
+   [
+    "cell phone",
+    "手機"
+   ],
+   [
+    "at the same time",
+    "同時"
+   ],
+   [
+    "scroll through",
+    "滑"
+   ],
+   [
+    "earphones",
+    "耳機"
+   ],
+   [
+    "crossing the street",
+    "過馬路"
+   ],
+   [
+    "pay attention to",
+    "注意"
+   ],
+   [
+    "traffic light",
+    "紅綠燈"
+   ],
+   [
+    "turned red",
+    "變紅燈"
+   ],
+   [
+    "honked",
+    "按喇叭"
+   ],
+   [
+    "hear",
+    "聽見"
+   ],
+   [
+    "hit",
+    "撞"
+   ],
+   [
+    "badly hurt",
+    "傷得很重"
+   ],
+   [
+    "called 119",
+    "打119"
+   ],
+   [
+    "ambulance",
+    "救護車"
+   ],
+   [
+    "sent",
+    "送"
+   ],
+   [
+    "stay",
+    "待"
+   ],
+   [
+    "sorry",
+    "抱歉"
+   ],
+   [
+    "worried about",
+    "擔心"
+   ],
+   [
+    "lesson",
+    "教訓"
+   ],
+   [
+    "while walking",
+    "走路時"
+   ]
+  ],
+  "patterns": [
+   [
+    "S loves + N, and S often + Vs",
+    "He loves his cell phone, and he often watches YouTube videos on it."
+   ],
+   [
+    "S was Ving and Ving",
+    "He was scrolling through TikTok videos and listening to music with earphones."
+   ],
+   [
+    "At that moment, S + Ved, but S didn't notice it.",
+    "At that moment, the traffic light turned red, but he didn't notice it."
+   ],
+   [
+    "S hit + 人, and S was + adj.",
+    "The car hit him, and he was badly hurt."
+   ],
+   [
+    "S + Ved, and S had to V for + 時間",
+    "They sent him to the hospital, and he had to stay there for a month."
+   ],
+   [
+    "S has learned an important lesson. S will never V again.",
+    "He has learned an important lesson. He will never use his phone while he is walking again."
+   ]
+  ]
  },
  {
   "no": 26,
@@ -2534,7 +5470,143 @@ window.GEPT_BASIC_STORIES = [
   ],
   "essay": "Eric is a 16-year-old senior high school student. He loves his phone, and he uses it all the time. Yesterday, when he was walking home, he was looking at his phone. There was a dog sleeping on the sidewalk near the bushes. He was so busy with his phone that he didn't notice the dog. Suddenly, he stepped on the dog. The dog woke up and looked at him angrily. It cried out because it was hurt. Then, it stood up and barked at Eric loudly and angrily. Eric felt very scared, and he jumped back with his hands up. He found that he had dropped his phone, and the screen was broken. He felt sad because his phone was broken. After that, he picked up his phone and walked home carefully. He has learned an important lesson: he should not use his phone while walking on the street.",
   "words": 149,
-  "src": "附件17"
+  "src": "附件17",
+  "vocab": [
+   [
+    "senior high school student",
+    "高中生"
+   ],
+   [
+    "phone",
+    "手機"
+   ],
+   [
+    "all the time",
+    "一直"
+   ],
+   [
+    "walking home",
+    "走路回家"
+   ],
+   [
+    "looking at",
+    "看著"
+   ],
+   [
+    "sleeping",
+    "睡覺"
+   ],
+   [
+    "sidewalk",
+    "人行道"
+   ],
+   [
+    "busy with",
+    "忙於"
+   ],
+   [
+    "notice",
+    "注意到"
+   ],
+   [
+    "suddenly",
+    "突然"
+   ],
+   [
+    "stepped on",
+    "踩到"
+   ],
+   [
+    "woke up",
+    "醒來"
+   ],
+   [
+    "angrily",
+    "生氣地"
+   ],
+   [
+    "hurt",
+    "受傷"
+   ],
+   [
+    "cried out",
+    "叫出來"
+   ],
+   [
+    "stood up",
+    "站起來"
+   ],
+   [
+    "barked at",
+    "對…吠叫"
+   ],
+   [
+    "scared",
+    "害怕"
+   ],
+   [
+    "jumped back",
+    "往後跳"
+   ],
+   [
+    "dropped",
+    "掉落"
+   ],
+   [
+    "screen",
+    "螢幕"
+   ],
+   [
+    "broken",
+    "破掉的"
+   ],
+   [
+    "sad",
+    "難過"
+   ],
+   [
+    "picked up",
+    "撿起"
+   ],
+   [
+    "carefully",
+    "小心地"
+   ],
+   [
+    "important lesson",
+    "重要的教訓"
+   ],
+   [
+    "while walking",
+    "走路時"
+   ]
+  ],
+  "patterns": [
+   [
+    "S loves + N, and S + Vs + N + all the time.",
+    "He loves his phone, and he uses it all the time."
+   ],
+   [
+    "There was a + N + Ving + on + 地點.",
+    "There was a dog sleeping on the sidewalk near the bushes."
+   ],
+   [
+    "S + Ved and Ved + 人 + adv.",
+    "The dog woke up and looked at him angrily."
+   ],
+   [
+    "Then, S + Ved and Ved at + 人 + adv.",
+    "Then, it stood up and barked at Eric loudly and angrily."
+   ],
+   [
+    "S felt + adj. + because + 句子.",
+    "He felt sad because his phone was broken."
+   ],
+   [
+    "S has learned an important lesson: S should not V.",
+    "He has learned an important lesson: he should not use his phone while walking on the street."
+   ]
+  ]
  },
  {
   "no": 27,
@@ -2632,7 +5704,143 @@ window.GEPT_BASIC_STORIES = [
    ]
   ],
   "essay": "I am a 13-year-old junior high school student. I like swimming very much, but I am not good at it. Last Sunday, it was very hot, so I went swimming in a river. I went there alone because my friends were busy that day. The water was so cold that my legs couldn't move. While I was sinking, I shouted for help. Luckily, a man was walking along the river, and he heard me. He quickly jumped into the river and saved my life. I was safe, and I was very thankful. However, after we got out of the water, he looked very angry. He pointed at a \"No Swimming\" sign and said, \"You shouldn't swim here. It's dangerous!\" The river was dangerous because the water was deep and fast. I felt very sorry, and I thanked him again and again. I have learned an important lesson. From now on, I will never swim in a river again.",
-  "words": 158
+  "words": 158,
+  "vocab": [
+   [
+    "junior high school student",
+    "國中生"
+   ],
+   [
+    "swimming",
+    "游泳"
+   ],
+   [
+    "not good at",
+    "不擅長"
+   ],
+   [
+    "very hot",
+    "很熱"
+   ],
+   [
+    "river",
+    "河"
+   ],
+   [
+    "alone",
+    "獨自"
+   ],
+   [
+    "busy",
+    "忙"
+   ],
+   [
+    "cold",
+    "冷"
+   ],
+   [
+    "legs couldn't move",
+    "腿動不了"
+   ],
+   [
+    "sinking",
+    "下沉"
+   ],
+   [
+    "shouted for help",
+    "大聲呼救"
+   ],
+   [
+    "luckily",
+    "幸運地"
+   ],
+   [
+    "walking along",
+    "沿著…走"
+   ],
+   [
+    "jumped into",
+    "跳進"
+   ],
+   [
+    "saved my life",
+    "救了我"
+   ],
+   [
+    "safe",
+    "安全"
+   ],
+   [
+    "thankful",
+    "感激"
+   ],
+   [
+    "got out of",
+    "離開"
+   ],
+   [
+    "angry",
+    "生氣"
+   ],
+   [
+    "pointed at",
+    "指著"
+   ],
+   [
+    "\"No Swimming\" sign",
+    "禁止游泳"
+   ],
+   [
+    "deep",
+    "深"
+   ],
+   [
+    "fast",
+    "湍急"
+   ],
+   [
+    "sorry",
+    "抱歉"
+   ],
+   [
+    "thanked",
+    "道謝"
+   ],
+   [
+    "lesson",
+    "教訓"
+   ],
+   [
+    "never again",
+    "不再"
+   ]
+  ],
+  "patterns": [
+   [
+    "I like + Ving, but I am not good at it.",
+    "I like swimming very much, but I am not good at it."
+   ],
+   [
+    "S + Ved alone because + 句子",
+    "I went there alone because my friends were busy that day."
+   ],
+   [
+    "Luckily, S was Ving, and S + Ved",
+    "Luckily, a man was walking along the river, and he heard me."
+   ],
+   [
+    "I was + adj., and I was very + adj.",
+    "I was safe, and I was very thankful."
+   ],
+   [
+    "S was + adj. + because + 句子",
+    "The river was dangerous because the water was deep and fast."
+   ],
+   [
+    "I have learned an important lesson. From now on, I will never V again.",
+    "I have learned an important lesson. From now on, I will never swim in a river again."
+   ]
+  ]
  },
  {
   "no": 28,
@@ -2730,7 +5938,139 @@ window.GEPT_BASIC_STORIES = [
    ]
   ],
   "essay": "Tom is a 20-year-old college student. He likes trying new food. Last weekend, a new fried chicken restaurant opened in his town. Many people lined up to buy the food, so there was a long line of customers. Tom waited in line, but it was hot and sunny. After he spent thirty minutes waiting, he was very impatient. He was hungry and tired because he did not eat breakfast. He decided to cut in line to save time. His behavior made other people angry, and they shouted at him. Someone recorded him with a phone and posted the video on social media. Many people left comments under the post and said he shouldn't cut in line. Tom felt so embarrassed that he left right away. The next day, Tom became famous on the Internet for a bad reason. He has learned an important lesson. He will never cut in line again.",
-  "words": 151
+  "words": 151,
+  "vocab": [
+   [
+    "college student",
+    "大學生"
+   ],
+   [
+    "trying new food",
+    "嘗試新食物"
+   ],
+   [
+    "fried chicken restaurant",
+    "炸雞店"
+   ],
+   [
+    "opened",
+    "開幕"
+   ],
+   [
+    "lined up",
+    "排隊"
+   ],
+   [
+    "a long line",
+    "大排長龍"
+   ],
+   [
+    "waited in line",
+    "排隊等"
+   ],
+   [
+    "hot and sunny",
+    "又熱又晴"
+   ],
+   [
+    "spent",
+    "花"
+   ],
+   [
+    "impatient",
+    "不耐煩"
+   ],
+   [
+    "hungry",
+    "餓"
+   ],
+   [
+    "breakfast",
+    "早餐"
+   ],
+   [
+    "cut in line",
+    "插隊"
+   ],
+   [
+    "save time",
+    "省時間"
+   ],
+   [
+    "behavior",
+    "行為"
+   ],
+   [
+    "shouted at",
+    "對…大吼"
+   ],
+   [
+    "recorded",
+    "錄影"
+   ],
+   [
+    "posted",
+    "上傳"
+   ],
+   [
+    "social media",
+    "社群媒體"
+   ],
+   [
+    "left comments",
+    "留言"
+   ],
+   [
+    "shouldn't",
+    "不應該"
+   ],
+   [
+    "embarrassed",
+    "丟臉"
+   ],
+   [
+    "famous",
+    "出名"
+   ],
+   [
+    "Internet",
+    "網路"
+   ],
+   [
+    "lesson",
+    "教訓"
+   ],
+   [
+    "never again",
+    "不再"
+   ]
+  ],
+  "patterns": [
+   [
+    "S likes + Ving",
+    "He likes trying new food."
+   ],
+   [
+    "Many people lined up to V, so there was a long line of + N.",
+    "Many people lined up to buy the food, so there was a long line of customers."
+   ],
+   [
+    "S was + adj. and adj. + because + 句子",
+    "He was hungry and tired because he did not eat breakfast."
+   ],
+   [
+    "S's behavior made + 人 + adj., and + 句子",
+    "His behavior made other people angry, and they shouted at him."
+   ],
+   [
+    "S felt so + adj. + that + 句子",
+    "Tom felt so embarrassed that he left right away."
+   ],
+   [
+    "S has learned an important lesson. S will never V again.",
+    "He has learned an important lesson. He will never cut in line again."
+   ]
+  ]
  },
  {
   "no": 29,
@@ -2828,7 +6168,127 @@ window.GEPT_BASIC_STORIES = [
    ]
   ],
   "essay": "Jenny is a 15-year-old junior high school student. She is hard-working, and she always studies hard for her exams. Last night, she was preparing for her final exam at home. At the same time, her neighbor, Mr. Lin, was having a party. Many people sang and danced, and they played loud music. The music was so loud that Jenny couldn't concentrate on her studies. She felt angry because the exam was the next day. She knocked on Mr. Lin's door, but nobody answered. So she called the police. After a while, a police officer came to Mr. Lin's house. The police officer asked Mr. Lin to stop the noise. Mr. Lin felt sorry, and he turned down the music right away. He also said sorry to Jenny and her family. After that, the building became quiet again, and Jenny could study happily. She thought, \"It is important to be a good neighbor.\"",
-  "words": 152
+  "words": 152,
+  "vocab": [
+   [
+    "junior high school student",
+    "國中生"
+   ],
+   [
+    "hard-working",
+    "用功"
+   ],
+   [
+    "preparing for",
+    "準備"
+   ],
+   [
+    "final exam",
+    "期末考"
+   ],
+   [
+    "neighbor",
+    "鄰居"
+   ],
+   [
+    "having a party",
+    "開派對"
+   ],
+   [
+    "sang",
+    "唱歌"
+   ],
+   [
+    "danced",
+    "跳舞"
+   ],
+   [
+    "loud",
+    "大聲"
+   ],
+   [
+    "concentrate on",
+    "專心於"
+   ],
+   [
+    "angry",
+    "生氣"
+   ],
+   [
+    "the next day",
+    "隔天"
+   ],
+   [
+    "knocked on",
+    "敲門"
+   ],
+   [
+    "nobody",
+    "沒有人"
+   ],
+   [
+    "called the police",
+    "報警"
+   ],
+   [
+    "after a while",
+    "過了一會兒"
+   ],
+   [
+    "stop the noise",
+    "停止噪音"
+   ],
+   [
+    "felt sorry",
+    "感到抱歉"
+   ],
+   [
+    "turned down",
+    "調小聲"
+   ],
+   [
+    "said sorry",
+    "道歉"
+   ],
+   [
+    "became quiet",
+    "變安靜"
+   ],
+   [
+    "happily",
+    "開心地"
+   ],
+   [
+    "good neighbor",
+    "好鄰居"
+   ]
+  ],
+  "patterns": [
+   [
+    "S is + adj., and S always + Vs",
+    "She is hard-working, and she always studies hard for her exams."
+   ],
+   [
+    "At the same time, S was Ving",
+    "At the same time, her neighbor, Mr. Lin, was having a party."
+   ],
+   [
+    "S felt + adj. + because + 句子",
+    "She felt angry because the exam was the next day."
+   ],
+   [
+    "So S + Ved. After a while, S + Ved",
+    "So she called the police. After a while, a police officer came to Mr. Lin's house."
+   ],
+   [
+    "S also said sorry to + 人.",
+    "He also said sorry to Jenny and her family."
+   ],
+   [
+    "S thought, \"It is + adj. + to V.\"",
+    "She thought, \"It is important to be a good neighbor.\""
+   ]
+  ]
  },
  {
   "no": 30,
@@ -2921,7 +6381,135 @@ window.GEPT_BASIC_STORIES = [
   ],
   "essay": "Yung-ming is a 30-year-old office worker. He is hard-working, and he usually goes to bed early. Last night, it was already one o'clock in the morning, but Yung-ming was still awake. That was because his neighbor, Mrs. Wang, was playing mahjong upstairs with her friends. They were so noisy that he couldn't sleep and had to cover his ears. He became very angry because he had to work the next day. Finally, he got out of bed, went upstairs, and knocked on her door. He asked Mrs. Wang to stop the game because it was too late. Mrs. Wang felt bad, and she said she would stop playing right away. She also said sorry to him. Soon, the building became quiet, and the lights upstairs went off. So Yung-ming went back to bed and fell asleep at two o'clock. He thought, \"Good neighbors should always think of others.\"",
   "words": 148,
-  "src": "模擬試題第2回"
+  "src": "模擬試題第2回",
+  "vocab": [
+   [
+    "office worker",
+    "上班族"
+   ],
+   [
+    "hard-working",
+    "認真"
+   ],
+   [
+    "go to bed early",
+    "早睡"
+   ],
+   [
+    "one o'clock in the morning",
+    "凌晨一點"
+   ],
+   [
+    "awake",
+    "醒著"
+   ],
+   [
+    "neighbor",
+    "鄰居"
+   ],
+   [
+    "upstairs",
+    "樓上"
+   ],
+   [
+    "mahjong",
+    "麻將"
+   ],
+   [
+    "noisy",
+    "吵"
+   ],
+   [
+    "cover his ears",
+    "摀住耳朵"
+   ],
+   [
+    "angry",
+    "生氣"
+   ],
+   [
+    "work",
+    "上班"
+   ],
+   [
+    "went upstairs",
+    "上樓"
+   ],
+   [
+    "knocked on",
+    "敲"
+   ],
+   [
+    "asked",
+    "要求"
+   ],
+   [
+    "stop",
+    "停止"
+   ],
+   [
+    "felt bad",
+    "感到抱歉"
+   ],
+   [
+    "right away",
+    "立刻"
+   ],
+   [
+    "said sorry",
+    "道歉"
+   ],
+   [
+    "quiet",
+    "安靜"
+   ],
+   [
+    "lights",
+    "燈"
+   ],
+   [
+    "went back to bed",
+    "回去睡"
+   ],
+   [
+    "fell asleep",
+    "睡著"
+   ],
+   [
+    "good neighbors",
+    "好鄰居"
+   ],
+   [
+    "others",
+    "別人"
+   ]
+  ],
+  "patterns": [
+   [
+    "S is + adj., and S usually + Vs",
+    "He is hard-working, and he usually goes to bed early."
+   ],
+   [
+    "That was because S was Ving + N with + 人.",
+    "That was because his neighbor, Mrs. Wang, was playing mahjong upstairs with her friends."
+   ],
+   [
+    "S became + adj. + because + 句子",
+    "He became very angry because he had to work the next day."
+   ],
+   [
+    "S felt + adj., and S said S would V + right away.",
+    "Mrs. Wang felt bad, and she said she would stop playing right away."
+   ],
+   [
+    "Soon, S became + adj., and S + Ved.",
+    "Soon, the building became quiet, and the lights upstairs went off."
+   ],
+   [
+    "S thought, \"S should always V.\"",
+    "He thought, \"Good neighbors should always think of others.\""
+   ]
+  ]
  },
  {
   "no": 31,
@@ -3025,7 +6613,147 @@ window.GEPT_BASIC_STORIES = [
    ]
   ],
   "essay": "Mr. Wang lives in Taichung with his wife and two children. They like to go hiking on weekends. Last Sunday, Mr. Wang drove his family to the mountains to go hiking. They were excited because the weather was sunny. They walked up the mountain and enjoyed the beautiful view. When they reached the top, they saw that there was a lot of trash everywhere. There were plastic bags, bottles, and cans on the ground. Mr. Wang was very angry with this, and his children felt sad. They decided to clean up the mess. Mr. Wang took some gloves and a big bag from his car. They picked up the trash and put it in a big plastic bag. Some other hikers saw them and joined them. Because of them, the place became much cleaner. They felt tired, but they were proud of themselves. Mr. Wang told his kids, \"Keeping the environment clean is everyone's business.\"",
-  "words": 155
+  "words": 155,
+  "vocab": [
+   [
+    "lives in",
+    "住在"
+   ],
+   [
+    "wife",
+    "太太"
+   ],
+   [
+    "children",
+    "小孩"
+   ],
+   [
+    "go hiking",
+    "健行"
+   ],
+   [
+    "drove",
+    "開車載"
+   ],
+   [
+    "mountains",
+    "山上"
+   ],
+   [
+    "excited",
+    "興奮"
+   ],
+   [
+    "sunny",
+    "晴朗"
+   ],
+   [
+    "walked up",
+    "走上山"
+   ],
+   [
+    "view",
+    "景色"
+   ],
+   [
+    "a lot of trash",
+    "很多垃圾"
+   ],
+   [
+    "everywhere",
+    "到處"
+   ],
+   [
+    "plastic bags",
+    "塑膠袋"
+   ],
+   [
+    "bottles",
+    "瓶子"
+   ],
+   [
+    "cans",
+    "罐子"
+   ],
+   [
+    "angry with",
+    "對…生氣"
+   ],
+   [
+    "clean up the mess",
+    "清理髒亂"
+   ],
+   [
+    "gloves",
+    "手套"
+   ],
+   [
+    "bag",
+    "袋子"
+   ],
+   [
+    "picked up",
+    "撿起"
+   ],
+   [
+    "put it in",
+    "放進"
+   ],
+   [
+    "hikers",
+    "登山客"
+   ],
+   [
+    "joined",
+    "加入"
+   ],
+   [
+    "because of",
+    "因為"
+   ],
+   [
+    "much cleaner",
+    "乾淨許多"
+   ],
+   [
+    "proud of",
+    "以…為榮"
+   ],
+   [
+    "environment",
+    "環境"
+   ],
+   [
+    "everyone's business",
+    "大家的事"
+   ]
+  ],
+  "patterns": [
+   [
+    "S like to V",
+    "They like to go hiking on weekends."
+   ],
+   [
+    "S + Ved and enjoyed + N.",
+    "They walked up the mountain and enjoyed the beautiful view."
+   ],
+   [
+    "There were + A, B, and C + on + 地方.",
+    "There were plastic bags, bottles, and cans on the ground."
+   ],
+   [
+    "S took + N + from + 地方.",
+    "Mr. Wang took some gloves and a big bag from his car."
+   ],
+   [
+    "S saw them and joined them.",
+    "Some other hikers saw them and joined them."
+   ],
+   [
+    "S told + 人, \"...\"",
+    "Mr. Wang told his kids, \"Keeping the environment clean is everyone's business.\""
+   ]
+  ]
  },
  {
   "no": 32,
@@ -3121,7 +6849,131 @@ window.GEPT_BASIC_STORIES = [
    ]
   ],
   "essay": "Tom is an 11-year-old elementary school student. He likes dogs very much, and he always wanted to keep a pet dog. Last week, he went to the animal shelter with his parents to adopt a stray dog. When he saw a cute little dog, he decided to take it home. He named the dog Lucky. Tom was so excited that he hugged Lucky all the way home. Now, Tom takes care of Lucky every day. He walks the dog, feeds it, and gives it a bath. He also teaches Lucky some tricks, such as sitting down and catching a frisbee. Lucky is a good watch dog. It watches the house and barks at strangers. It also plays with Tom, and they have a lot of fun together. Tom feels very happy every day. For Tom, Lucky is his best friend. Keeping a dog is the best decision of his life.",
-  "words": 150
+  "words": 150,
+  "vocab": [
+   [
+    "elementary school student",
+    "小學生"
+   ],
+   [
+    "keep a pet dog",
+    "養狗"
+   ],
+   [
+    "animal shelter",
+    "收容所"
+   ],
+   [
+    "adopt",
+    "收養"
+   ],
+   [
+    "stray dog",
+    "流浪狗"
+   ],
+   [
+    "cute",
+    "可愛"
+   ],
+   [
+    "take it home",
+    "帶回家"
+   ],
+   [
+    "named",
+    "取名"
+   ],
+   [
+    "hugged",
+    "抱"
+   ],
+   [
+    "all the way home",
+    "一路回家"
+   ],
+   [
+    "takes care of",
+    "照顧"
+   ],
+   [
+    "walks",
+    "遛"
+   ],
+   [
+    "feeds",
+    "餵"
+   ],
+   [
+    "gives it a bath",
+    "洗澡"
+   ],
+   [
+    "tricks",
+    "把戲"
+   ],
+   [
+    "sitting down",
+    "坐下"
+   ],
+   [
+    "frisbee",
+    "飛盤"
+   ],
+   [
+    "watch dog",
+    "看門狗"
+   ],
+   [
+    "barks at strangers",
+    "對陌生人吠"
+   ],
+   [
+    "plays with",
+    "陪玩"
+   ],
+   [
+    "have a lot of fun",
+    "玩得很開心"
+   ],
+   [
+    "happy",
+    "快樂"
+   ],
+   [
+    "best friend",
+    "最好的朋友"
+   ],
+   [
+    "best decision",
+    "最好的決定"
+   ]
+  ],
+  "patterns": [
+   [
+    "S likes + N very much, and S always wanted to V",
+    "He likes dogs very much, and he always wanted to keep a pet dog."
+   ],
+   [
+    "When S saw ..., S decided to V",
+    "When he saw a cute little dog, he decided to take it home."
+   ],
+   [
+    "S was so + adj. + that + 句子",
+    "Tom was so excited that he hugged Lucky all the way home."
+   ],
+   [
+    "S also + Vs + N, such as A and B.",
+    "He also teaches Lucky some tricks, such as sitting down and catching a frisbee."
+   ],
+   [
+    "S also + Vs, and they have a lot of fun together.",
+    "It also plays with Tom, and they have a lot of fun together."
+   ],
+   [
+    "For + 人, S is ... It is the + 最高級 + N + of + one's life.",
+    "For Tom, Lucky is his best friend. Keeping a dog is the best decision of his life."
+   ]
+  ]
  },
  {
   "no": 33,
@@ -3208,7 +7060,123 @@ window.GEPT_BASIC_STORIES = [
   ],
   "essay": "Jack is a 20-year-old college student. He likes reading, and he has a dog named Lucky. Last Sunday, Jack took Lucky to the park near his home. While he was reading a book on a bench, Lucky saw a bird. Lucky chased the bird and quickly ran away. Later, when Jack looked up from his book, he found that Lucky was gone. He felt very worried because he couldn't find his dog anywhere. He called Lucky's name again and again and looked for him for a long time. When he got home, he saw Lucky waiting for him in front of the door. He was so glad and surprised to see his dog again. He ran to Lucky with a big smile and took him into the house. He has learned an important lesson: he should always keep an eye on his pet.",
   "words": 143,
-  "src": "模擬試題第5回"
+  "src": "模擬試題第5回",
+  "vocab": [
+   [
+    "college student",
+    "大學生"
+   ],
+   [
+    "reading",
+    "閱讀"
+   ],
+   [
+    "named",
+    "名叫"
+   ],
+   [
+    "last Sunday",
+    "上星期日"
+   ],
+   [
+    "took",
+    "帶"
+   ],
+   [
+    "bench",
+    "長椅"
+   ],
+   [
+    "bird",
+    "鳥"
+   ],
+   [
+    "chased",
+    "追"
+   ],
+   [
+    "ran away",
+    "跑走"
+   ],
+   [
+    "looked up",
+    "抬頭"
+   ],
+   [
+    "gone",
+    "不見了"
+   ],
+   [
+    "worried",
+    "擔心"
+   ],
+   [
+    "couldn't find",
+    "找不到"
+   ],
+   [
+    "called",
+    "呼喊"
+   ],
+   [
+    "looked for",
+    "尋找"
+   ],
+   [
+    "got home",
+    "到家"
+   ],
+   [
+    "in front of",
+    "在…前面"
+   ],
+   [
+    "glad",
+    "高興"
+   ],
+   [
+    "ran to",
+    "跑向"
+   ],
+   [
+    "big smile",
+    "大大的微笑"
+   ],
+   [
+    "keep an eye on",
+    "注意"
+   ],
+   [
+    "pet",
+    "寵物"
+   ]
+  ],
+  "patterns": [
+   [
+    "S likes + Ving, and S has a dog named + N.",
+    "He likes reading, and he has a dog named Lucky."
+   ],
+   [
+    "While S was Ving, S + Ved + N.",
+    "While he was reading a book on a bench, Lucky saw a bird."
+   ],
+   [
+    "Later, when S + Ved, S found that + 句子",
+    "Later, when Jack looked up from his book, he found that Lucky was gone."
+   ],
+   [
+    "S + Ved + N and Ved for + N for a long time.",
+    "He called Lucky's name again and again and looked for him for a long time."
+   ],
+   [
+    "S was so + adj. + to V",
+    "He was so glad and surprised to see his dog again."
+   ],
+   [
+    "S has learned an important lesson: S should always V",
+    "He has learned an important lesson: he should always keep an eye on his pet."
+   ]
+  ]
  },
  {
   "no": 34,
@@ -3301,7 +7269,131 @@ window.GEPT_BASIC_STORIES = [
   ],
   "essay": "Jack is a 12-year-old elementary school student. His favorite sport is baseball. Last Saturday, Jack and his friends went to the park to play baseball. Jack was the batter, and his two friends were ready to catch the ball. Jack held the bat and hit the ball very hard. His friends were surprised because the ball flew very far and very fast. At that time, a big dog was sleeping on the grass. But the boys didn't see the dog at all. Suddenly, the ball hit the dog right in the eye! The dog woke up in pain and was very angry. It ran after the boys and barked at them loudly. The boys were so afraid that they ran away as fast as they could. Jack has learned an important lesson: he should be careful when he plays ball in the park.",
   "words": 143,
-  "src": "模擬試題第4回"
+  "src": "模擬試題第4回",
+  "vocab": [
+   [
+    "elementary school student",
+    "小學生"
+   ],
+   [
+    "favorite sport",
+    "最喜歡的運動"
+   ],
+   [
+    "baseball",
+    "棒球"
+   ],
+   [
+    "last Saturday",
+    "上週六"
+   ],
+   [
+    "park",
+    "公園"
+   ],
+   [
+    "batter",
+    "打擊者"
+   ],
+   [
+    "catch",
+    "接"
+   ],
+   [
+    "bat",
+    "球棒"
+   ],
+   [
+    "hit",
+    "打擊"
+   ],
+   [
+    "surprised",
+    "驚訝"
+   ],
+   [
+    "flew far",
+    "飛得很遠"
+   ],
+   [
+    "sleeping",
+    "睡覺"
+   ],
+   [
+    "on the grass",
+    "在草地上"
+   ],
+   [
+    "didn't see",
+    "沒看到"
+   ],
+   [
+    "suddenly",
+    "突然"
+   ],
+   [
+    "eye",
+    "眼睛"
+   ],
+   [
+    "woke up",
+    "醒來"
+   ],
+   [
+    "angry",
+    "生氣"
+   ],
+   [
+    "ran after",
+    "追趕"
+   ],
+   [
+    "barked",
+    "吠叫"
+   ],
+   [
+    "afraid",
+    "害怕"
+   ],
+   [
+    "as fast as they could",
+    "盡快"
+   ],
+   [
+    "be careful",
+    "小心"
+   ],
+   [
+    "play ball",
+    "打球"
+   ]
+  ],
+  "patterns": [
+   [
+    "S's favorite + N + is + N.",
+    "His favorite sport is baseball."
+   ],
+   [
+    "S was the + N, and S were ready to V.",
+    "Jack was the batter, and his two friends were ready to catch the ball."
+   ],
+   [
+    "S were + adj. + because + 句子",
+    "His friends were surprised because the ball flew very far and very fast."
+   ],
+   [
+    "Suddenly, S + Ved + N!",
+    "Suddenly, the ball hit the dog right in the eye!"
+   ],
+   [
+    "S + Ved + 人 and Ved at + 人 loudly.",
+    "It ran after the boys and barked at them loudly."
+   ],
+   [
+    "S has learned an important lesson: S should V",
+    "Jack has learned an important lesson: he should be careful when he plays ball in the park."
+   ]
+  ]
  },
  {
   "no": 35,
@@ -3405,7 +7497,143 @@ window.GEPT_BASIC_STORIES = [
    ]
   ],
   "essay": "John is a 16-year-old senior high school student. He is friendly, and he has many good friends. He likes to play basketball with his friends after school. Last Friday was John's birthday, so his friends planned a surprise party for him. They decorated the living room with colorful balloons. Before John came home, they wore party hats and hid behind the sofa. As soon as John opened the door, his friends jumped out. They shouted \"Surprise!\" to him, and John was very surprised. They gave him lots of presents and a big birthday cake. John couldn't believe his friends did all this for him. Then, they sang \"Happy Birthday\" to him together. After he made a wish, John cut the cake and shared it with everyone. John was so moved that he almost cried. After that, they took photos and played games until ten o'clock. For him, it was the best birthday of his life.",
-  "words": 155
+  "words": 155,
+  "vocab": [
+   [
+    "senior high school student",
+    "高中生"
+   ],
+   [
+    "friendly",
+    "友善"
+   ],
+   [
+    "good friends",
+    "好朋友"
+   ],
+   [
+    "play basketball",
+    "打籃球"
+   ],
+   [
+    "surprise party",
+    "驚喜派對"
+   ],
+   [
+    "planned",
+    "策劃"
+   ],
+   [
+    "decorated",
+    "佈置"
+   ],
+   [
+    "balloons",
+    "氣球"
+   ],
+   [
+    "party hats",
+    "派對帽"
+   ],
+   [
+    "hid behind",
+    "躲在…後面"
+   ],
+   [
+    "as soon as",
+    "一…就"
+   ],
+   [
+    "jumped out",
+    "跳出來"
+   ],
+   [
+    "shouted",
+    "大喊"
+   ],
+   [
+    "surprised",
+    "驚訝"
+   ],
+   [
+    "presents",
+    "禮物"
+   ],
+   [
+    "birthday cake",
+    "生日蛋糕"
+   ],
+   [
+    "couldn't believe",
+    "不敢相信"
+   ],
+   [
+    "sang",
+    "唱"
+   ],
+   [
+    "together",
+    "一起"
+   ],
+   [
+    "made a wish",
+    "許願"
+   ],
+   [
+    "cut the cake",
+    "切蛋糕"
+   ],
+   [
+    "shared",
+    "分享"
+   ],
+   [
+    "moved",
+    "感動"
+   ],
+   [
+    "cried",
+    "哭"
+   ],
+   [
+    "took photos",
+    "拍照"
+   ],
+   [
+    "played games",
+    "玩遊戲"
+   ],
+   [
+    "the best birthday",
+    "最棒的生日"
+   ]
+  ],
+  "patterns": [
+   [
+    "S is + adj., and S has + N.",
+    "He is friendly, and he has many good friends."
+   ],
+   [
+    "S decorated + 地方 + with + N.",
+    "They decorated the living room with colorful balloons."
+   ],
+   [
+    "As soon as S + Ved, S + Ved",
+    "As soon as John opened the door, his friends jumped out."
+   ],
+   [
+    "S couldn't believe + 句子",
+    "John couldn't believe his friends did all this for him."
+   ],
+   [
+    "After S + Ved, S + Ved and Ved",
+    "After he made a wish, John cut the cake and shared it with everyone."
+   ],
+   [
+    "For + 人, it was the + 最高級 + N + of + one's life.",
+    "For him, it was the best birthday of his life."
+   ]
+  ]
  },
  {
   "no": 36,
@@ -3492,7 +7720,131 @@ window.GEPT_BASIC_STORIES = [
   ],
   "essay": "Betty is a 15-year-old junior high school student. She is outgoing, and she has many good friends. Yesterday was her fifteenth birthday, and she invited three good friends to her home. At first, they sat on the sofa, chatted, and listened to music together. Then they put a big birthday cake with fifteen candles on the table. Her friends sang the \"Happy Birthday\" song to her and clapped their hands happily. She was very happy, so she closed her eyes and made a wish. After they ate the delicious cake, Betty opened her presents one by one. She found a panda doll, a hat, and a small pink bag in the boxes. She liked all the presents, especially the small pink bag. She thanked her friends for the nice gifts. For her, it was the happiest day of the year. What a wonderful birthday!",
   "words": 144,
-  "src": "模擬試題第3回"
+  "src": "模擬試題第3回",
+  "vocab": [
+   [
+    "junior high school student",
+    "國中生"
+   ],
+   [
+    "outgoing",
+    "外向"
+   ],
+   [
+    "many friends",
+    "很多朋友"
+   ],
+   [
+    "birthday",
+    "生日"
+   ],
+   [
+    "invited",
+    "邀請"
+   ],
+   [
+    "chatted",
+    "聊天"
+   ],
+   [
+    "listened to music",
+    "聽音樂"
+   ],
+   [
+    "birthday cake",
+    "生日蛋糕"
+   ],
+   [
+    "candles",
+    "蠟燭"
+   ],
+   [
+    "sang",
+    "唱"
+   ],
+   [
+    "clapped",
+    "拍手"
+   ],
+   [
+    "happy",
+    "開心"
+   ],
+   [
+    "made a wish",
+    "許願"
+   ],
+   [
+    "delicious",
+    "美味"
+   ],
+   [
+    "presents",
+    "禮物"
+   ],
+   [
+    "panda doll",
+    "熊貓玩偶"
+   ],
+   [
+    "hat",
+    "帽子"
+   ],
+   [
+    "bag",
+    "包包"
+   ],
+   [
+    "liked",
+    "喜歡"
+   ],
+   [
+    "especially",
+    "尤其"
+   ],
+   [
+    "thanked",
+    "感謝"
+   ],
+   [
+    "nice gifts",
+    "好禮物"
+   ],
+   [
+    "happiest",
+    "最快樂"
+   ],
+   [
+    "wonderful",
+    "很棒"
+   ]
+  ],
+  "patterns": [
+   [
+    "S is + adj., and S has + N",
+    "She is outgoing, and she has many good friends."
+   ],
+   [
+    "At first, S + Ved, Ved, and Ved",
+    "At first, they sat on the sofa, chatted, and listened to music together."
+   ],
+   [
+    "S + Ved + N to + 人 and Ved + N.",
+    "Her friends sang the \"Happy Birthday\" song to her and clapped their hands happily."
+   ],
+   [
+    "After S + Ved, S + Ved",
+    "After they ate the delicious cake, Betty opened her presents one by one."
+   ],
+   [
+    "S liked + N, especially + N.",
+    "She liked all the presents, especially the small pink bag."
+   ],
+   [
+    "For S, it was the + 最高級 + N. What a + adj. + N!",
+    "For her, it was the happiest day of the year. What a wonderful birthday!"
+   ]
+  ]
  },
  {
   "no": 37,
@@ -3584,7 +7936,127 @@ window.GEPT_BASIC_STORIES = [
    ]
   ],
   "essay": "Ming-ting is an 11-year-old elementary school student. She loves animals very much. Last weekend, Ming-ting and her classmates took a bus to the zoo. On the bus, some of them were singing happily, while the others were playing cards. Everyone was excited because it was their first trip together. At the zoo, they played with the monkeys and saw a big elephant. Ming-ting drew pictures of the animals, and her friends took a lot of photos. Her favorite animal was the elephant because it was big and funny. The weather was sunny and warm, so they had a great time. After that, they went to a fast-food restaurant for a big meal. They ordered lots of Cokes, fries, and hamburgers. They were so happy that they talked and laughed all the time. Ming-ting thought, \"What a wonderful day!\" She wanted to go on a trip with her classmates again.",
-  "words": 149
+  "words": 149,
+  "vocab": [
+   [
+    "elementary school student",
+    "小學生"
+   ],
+   [
+    "animals",
+    "動物"
+   ],
+   [
+    "took a bus",
+    "搭公車"
+   ],
+   [
+    "zoo",
+    "動物園"
+   ],
+   [
+    "singing",
+    "唱歌"
+   ],
+   [
+    "playing cards",
+    "玩牌"
+   ],
+   [
+    "excited",
+    "興奮"
+   ],
+   [
+    "first trip",
+    "第一次出遊"
+   ],
+   [
+    "monkeys",
+    "猴子"
+   ],
+   [
+    "elephant",
+    "大象"
+   ],
+   [
+    "drew pictures",
+    "畫畫"
+   ],
+   [
+    "took photos",
+    "拍照"
+   ],
+   [
+    "favorite",
+    "最喜歡的"
+   ],
+   [
+    "funny",
+    "有趣"
+   ],
+   [
+    "sunny and warm",
+    "晴朗溫暖"
+   ],
+   [
+    "had a great time",
+    "玩得很開心"
+   ],
+   [
+    "fast-food restaurant",
+    "速食店"
+   ],
+   [
+    "big meal",
+    "大餐"
+   ],
+   [
+    "Cokes",
+    "可樂"
+   ],
+   [
+    "fries",
+    "薯條"
+   ],
+   [
+    "hamburgers",
+    "漢堡"
+   ],
+   [
+    "talked and laughed",
+    "有說有笑"
+   ],
+   [
+    "wonderful",
+    "美好"
+   ]
+  ],
+  "patterns": [
+   [
+    "S loves + N very much.",
+    "She loves animals very much."
+   ],
+   [
+    "On the bus, some of S were Ving, while the others were Ving.",
+    "On the bus, some of them were singing happily, while the others were playing cards."
+   ],
+   [
+    "At + 地方, S + Ved and Ved",
+    "At the zoo, they played with the monkeys and saw a big elephant."
+   ],
+   [
+    "The weather was + adj., so S had a great time.",
+    "The weather was sunny and warm, so they had a great time."
+   ],
+   [
+    "S ordered + A, B, and C.",
+    "They ordered lots of Cokes, fries, and hamburgers."
+   ],
+   [
+    "S thought, \"What a + adj. + N!\" S wanted to V again.",
+    "Ming-ting thought, \"What a wonderful day!\" She wanted to go on a trip with her classmates again."
+   ]
+  ]
  },
  {
   "no": 38,
@@ -3677,7 +8149,143 @@ window.GEPT_BASIC_STORIES = [
   ],
   "essay": "Shiau-fang is a 10-year-old elementary school student. She loves animals, especially monkeys. Today is Sunday, and it is eight o'clock in the morning. Her mother opens the curtains and wakes her up with a smile. The weather is very nice, and the sun is shining. Her father is going to take the whole family to the zoo. She feels very excited because she can't wait to see the animals. At the zoo, they will see a lot of cute animals, such as monkeys, bears, and elephants. They will laugh at the funny monkeys in the big cage. They will also take many pictures of the animals. After that, they are going to have lunch at a fast food restaurant. They will eat hamburgers and French fries and drink cola together. They will have a good time. It will be the happiest day of the week.",
   "words": 145,
-  "src": "模擬試題第1回"
+  "src": "模擬試題第1回",
+  "vocab": [
+   [
+    "elementary school student",
+    "小學生"
+   ],
+   [
+    "loves animals",
+    "喜愛動物"
+   ],
+   [
+    "especially",
+    "尤其"
+   ],
+   [
+    "Sunday",
+    "星期天"
+   ],
+   [
+    "eight o'clock",
+    "八點"
+   ],
+   [
+    "opened the curtains",
+    "拉開窗簾"
+   ],
+   [
+    "woke up",
+    "叫醒"
+   ],
+   [
+    "nice",
+    "很好"
+   ],
+   [
+    "shining",
+    "照耀"
+   ],
+   [
+    "is going to",
+    "將要"
+   ],
+   [
+    "take",
+    "帶"
+   ],
+   [
+    "excited",
+    "興奮"
+   ],
+   [
+    "can't wait",
+    "等不及"
+   ],
+   [
+    "at the zoo",
+    "在動物園"
+   ],
+   [
+    "monkeys",
+    "猴子"
+   ],
+   [
+    "bears",
+    "熊"
+   ],
+   [
+    "elephants",
+    "大象"
+   ],
+   [
+    "laugh at",
+    "笑"
+   ],
+   [
+    "funny",
+    "好笑的"
+   ],
+   [
+    "cage",
+    "籠子"
+   ],
+   [
+    "take pictures",
+    "拍照"
+   ],
+   [
+    "fast food restaurant",
+    "速食店"
+   ],
+   [
+    "lunch",
+    "午餐"
+   ],
+   [
+    "hamburgers",
+    "漢堡"
+   ],
+   [
+    "French fries",
+    "薯條"
+   ],
+   [
+    "have a good time",
+    "玩得愉快"
+   ],
+   [
+    "happiest",
+    "最快樂"
+   ]
+  ],
+  "patterns": [
+   [
+    "S loves + N, especially + N.",
+    "She loves animals, especially monkeys."
+   ],
+   [
+    "S + Vs + N and Vs + 人 + up.",
+    "Her mother opens the curtains and wakes her up with a smile."
+   ],
+   [
+    "S is going to V + 人 + to + 地點.",
+    "Her father is going to take the whole family to the zoo."
+   ],
+   [
+    "S will V + N in + 地點.",
+    "They will laugh at the funny monkeys in the big cage."
+   ],
+   [
+    "After that, S are going to V at + 地點.",
+    "After that, they are going to have lunch at a fast food restaurant."
+   ],
+   [
+    "S will have a good time. It will be the + 最高級 + N.",
+    "They will have a good time. It will be the happiest day of the week."
+   ]
+  ]
  },
  {
   "no": 39,
@@ -3782,7 +8390,143 @@ window.GEPT_BASIC_STORIES = [
   ],
   "essay": "Takeshi and Vivian are a young couple. They love playing at the beach. This morning, they drove to the beach in their green sports car. On the way, they saw many palm trees and the blue sea. It was sunny and hot, and they felt very excited. When they arrived, Vivian played frisbee on the beach. At the same time, Takeshi was swimming in the sea. A cute dog ran over, jumped up high, and caught the frisbee. They laughed and had a lot of fun. On the beach, they also met two new friends, a man and a woman. They talked with them for a long time. In the afternoon, they invited their new friends to visit their beach house. Vivian said happily, \"Welcome to our home!\" Then, they had dinner together. For them, it was the happiest day of the whole year.",
   "words": 144,
-  "src": "附件18"
+  "src": "附件18",
+  "vocab": [
+   [
+    "young couple",
+    "年輕夫妻"
+   ],
+   [
+    "beach",
+    "海邊"
+   ],
+   [
+    "sunshine",
+    "陽光"
+   ],
+   [
+    "this morning",
+    "今天早上"
+   ],
+   [
+    "drove",
+    "開車"
+   ],
+   [
+    "palm trees",
+    "棕櫚樹"
+   ],
+   [
+    "blue sea",
+    "藍色的海"
+   ],
+   [
+    "sunny",
+    "晴朗"
+   ],
+   [
+    "excited",
+    "興奮"
+   ],
+   [
+    "arrived",
+    "抵達"
+   ],
+   [
+    "frisbee",
+    "飛盤"
+   ],
+   [
+    "swimming",
+    "游泳"
+   ],
+   [
+    "sea",
+    "海"
+   ],
+   [
+    "cute",
+    "可愛的"
+   ],
+   [
+    "caught",
+    "接住"
+   ],
+   [
+    "laughed",
+    "笑"
+   ],
+   [
+    "had fun",
+    "玩得開心"
+   ],
+   [
+    "met",
+    "認識"
+   ],
+   [
+    "new friends",
+    "新朋友"
+   ],
+   [
+    "talked",
+    "聊天"
+   ],
+   [
+    "for a long time",
+    "很久"
+   ],
+   [
+    "invited",
+    "邀請"
+   ],
+   [
+    "beach house",
+    "海邊小屋"
+   ],
+   [
+    "welcome",
+    "歡迎"
+   ],
+   [
+    "had dinner",
+    "吃晚餐"
+   ],
+   [
+    "together",
+    "一起"
+   ],
+   [
+    "happiest",
+    "最快樂的"
+   ]
+  ],
+  "patterns": [
+   [
+    "S love + Ving + at + 地點.",
+    "They love playing at the beach."
+   ],
+   [
+    "It was + adj. and adj., and S felt + adj.",
+    "It was sunny and hot, and they felt very excited."
+   ],
+   [
+    "At the same time, S was Ving.",
+    "At the same time, Takeshi was swimming in the sea."
+   ],
+   [
+    "On + 地點, S also + Ved + N.",
+    "On the beach, they also met two new friends, a man and a woman."
+   ],
+   [
+    "In the afternoon, S invited + 人 + to V.",
+    "In the afternoon, they invited their new friends to visit their beach house."
+   ],
+   [
+    "For S, it was the + 最高級 + N.",
+    "For them, it was the happiest day of the whole year."
+   ]
+  ]
  },
  {
   "no": 40,
@@ -3874,7 +8618,131 @@ window.GEPT_BASIC_STORIES = [
    ]
   ],
   "essay": "Greg is a 16-year-old senior high school student. He likes going swimming, and he loves the sea. Last Friday, he went to Taitung from Taipei by airplane for summer vacation. When he arrived in Taitung, it was nine thirty p.m., so he went to the hotel. He was so tired that he went to bed at ten o'clock. The next morning, he went to the beach and read a book there. The weather was good. It was sunny and hot. He felt relaxed because he didn't need to go to school. That afternoon, he swam in the sea for two hours. On the last day of the trip, he had breakfast at the hotel. After finishing breakfast, he checked out of the hotel and went back to Taipei by train. When he arrived at Taipei Station, it was raining hard. He felt lucky. He thought it was a great vacation.",
-  "words": 150
+  "words": 150,
+  "vocab": [
+   [
+    "senior high school student",
+    "高中生"
+   ],
+   [
+    "swimming",
+    "游泳"
+   ],
+   [
+    "the sea",
+    "大海"
+   ],
+   [
+    "from Taipei",
+    "從台北"
+   ],
+   [
+    "by airplane",
+    "搭飛機"
+   ],
+   [
+    "arrived in",
+    "抵達(城市)"
+   ],
+   [
+    "hotel",
+    "飯店"
+   ],
+   [
+    "tired",
+    "累"
+   ],
+   [
+    "went to bed",
+    "上床睡覺"
+   ],
+   [
+    "beach",
+    "海灘"
+   ],
+   [
+    "read a book",
+    "看書"
+   ],
+   [
+    "sunny",
+    "晴朗"
+   ],
+   [
+    "hot",
+    "炎熱"
+   ],
+   [
+    "relaxed",
+    "放鬆"
+   ],
+   [
+    "swam",
+    "游泳"
+   ],
+   [
+    "two hours",
+    "兩小時"
+   ],
+   [
+    "last day",
+    "最後一天"
+   ],
+   [
+    "had breakfast",
+    "吃早餐"
+   ],
+   [
+    "checked out",
+    "退房"
+   ],
+   [
+    "by train",
+    "搭火車"
+   ],
+   [
+    "raining hard",
+    "下大雨"
+   ],
+   [
+    "Taipei Station",
+    "台北車站"
+   ],
+   [
+    "lucky",
+    "幸運"
+   ],
+   [
+    "great vacation",
+    "很棒的假期"
+   ]
+  ],
+  "patterns": [
+   [
+    "S likes + Ving, and S loves + N.",
+    "He likes going swimming, and he loves the sea."
+   ],
+   [
+    "When S arrived in + 城市, it was + 時間, so + 句子",
+    "When he arrived in Taitung, it was nine thirty p.m., so he went to the hotel."
+   ],
+   [
+    "The next morning, S + Ved and Ved",
+    "The next morning, he went to the beach and read a book there."
+   ],
+   [
+    "That afternoon, S + Ved",
+    "That afternoon, he swam in the sea for two hours."
+   ],
+   [
+    "After Ving, S + Ved and Ved",
+    "After finishing breakfast, he checked out of the hotel and went back to Taipei by train."
+   ],
+   [
+    "S felt + adj. S thought it was a + adj. + N.",
+    "He felt lucky. He thought it was a great vacation."
+   ]
+  ]
  },
  {
   "no": 41,
@@ -3967,7 +8835,135 @@ window.GEPT_BASIC_STORIES = [
   ],
   "essay": "I am a 12-year-old elementary school student. I like to travel and play with my cousins. Last Friday, I took a train to Kaohsiung to visit my relatives. When I arrived at Kaohsiung Station, my uncle, my aunt and my cousin Lily were waiting for me. I waved to them happily because I could stay with them for three days. On Saturday, I stayed at my uncle's house with Lily and her brother, Ben. We sat on the floor and played cards together. Lily won almost every game, but we still had a lot of fun. On Sunday, the weather was sunny, so we went to the beach. We played with a beach ball and ran on the sand. The sun was hot, but the wind was cool. That evening, I said goodbye to my relatives and took the train home. For me, it was the happiest trip of the year.",
   "words": 151,
-  "src": "附件20"
+  "src": "附件20",
+  "vocab": [
+   [
+    "elementary school student",
+    "小學生"
+   ],
+   [
+    "travel",
+    "旅行"
+   ],
+   [
+    "cousins",
+    "表兄弟姊妹"
+   ],
+   [
+    "took a train",
+    "搭火車"
+   ],
+   [
+    "relatives",
+    "親戚"
+   ],
+   [
+    "were waiting for",
+    "正在等"
+   ],
+   [
+    "gate",
+    "出口"
+   ],
+   [
+    "waved",
+    "揮手"
+   ],
+   [
+    "excited",
+    "興奮的"
+   ],
+   [
+    "stayed at",
+    "待在"
+   ],
+   [
+    "brother",
+    "哥哥/弟弟"
+   ],
+   [
+    "sat on the floor",
+    "坐在地上"
+   ],
+   [
+    "played cards",
+    "玩撲克牌"
+   ],
+   [
+    "won",
+    "贏"
+   ],
+   [
+    "had a lot of fun",
+    "玩得很開心"
+   ],
+   [
+    "sunny",
+    "晴朗的"
+   ],
+   [
+    "beach",
+    "海灘"
+   ],
+   [
+    "beach ball",
+    "海灘球"
+   ],
+   [
+    "sand",
+    "沙灘"
+   ],
+   [
+    "hot",
+    "炎熱的"
+   ],
+   [
+    "cool",
+    "涼爽的"
+   ],
+   [
+    "said goodbye to",
+    "和…道別"
+   ],
+   [
+    "took the train home",
+    "搭火車回家"
+   ],
+   [
+    "happiest",
+    "最快樂的"
+   ],
+   [
+    "trip",
+    "旅行"
+   ]
+  ],
+  "patterns": [
+   [
+    "S like(s) to V and V + with + 人.",
+    "I like to travel and play with my cousins."
+   ],
+   [
+    "When S arrived at + 地點, S were waiting for + 人.",
+    "When I arrived at Kaohsiung Station, my uncle, my aunt and my cousin Lily were waiting for me."
+   ],
+   [
+    "On + 星期, S stayed at + 地點 + with + 人.",
+    "On Saturday, I stayed at my uncle's house with Lily and her brother, Ben."
+   ],
+   [
+    "On + 星期, the weather was + adj., so S went to + 地點.",
+    "On Sunday, the weather was sunny, so we went to the beach."
+   ],
+   [
+    "The N was + adj., but the N was + adj.",
+    "The sun was hot, but the wind was cool."
+   ],
+   [
+    "For S, it was the 最高級 + N + of + N.",
+    "For me, it was the happiest trip of the year."
+   ]
+  ]
  },
  {
   "no": 42,
@@ -4060,7 +9056,147 @@ window.GEPT_BASIC_STORIES = [
   ],
   "essay": "I am a 14-year-old junior high school student in Tainan. I have a foreign friend named Tom, and he lives in America. He is interested in Taiwanese culture and food. Last Friday, I went to Tainan Railway Station to meet him. His train arrived at 11:45 p.m., so it was very late at night. I felt very excited because I wanted to show him around my city. On Saturday, I took him to a famous old temple. After that, we ate noodles at a small shop near the temple. Tom gave me a thumbs-up and said, \"This is delicious!\" On Sunday, Tom had to go back to Taipei by bus, so I took him to the bus stop. Before he got on the bus, he thanked me for the wonderful trip. I felt a little sad when we said goodbye. For me, it was the best weekend of the year.",
   "words": 152,
-  "src": "附件20"
+  "src": "附件20",
+  "vocab": [
+   [
+    "junior high school student",
+    "國中生"
+   ],
+   [
+    "Tainan",
+    "台南"
+   ],
+   [
+    "foreign friend",
+    "外國朋友"
+   ],
+   [
+    "named",
+    "名叫"
+   ],
+   [
+    "interested in",
+    "對…有興趣"
+   ],
+   [
+    "culture",
+    "文化"
+   ],
+   [
+    "railway station",
+    "火車站"
+   ],
+   [
+    "meet",
+    "迎接"
+   ],
+   [
+    "arrived",
+    "抵達"
+   ],
+   [
+    "late at night",
+    "深夜"
+   ],
+   [
+    "excited",
+    "興奮的"
+   ],
+   [
+    "show him around",
+    "帶他四處看看"
+   ],
+   [
+    "famous",
+    "有名的"
+   ],
+   [
+    "temple",
+    "廟宇"
+   ],
+   [
+    "noodles",
+    "麵"
+   ],
+   [
+    "shop",
+    "小店"
+   ],
+   [
+    "near",
+    "在…附近"
+   ],
+   [
+    "thumbs-up",
+    "豎起大拇指"
+   ],
+   [
+    "delicious",
+    "美味的"
+   ],
+   [
+    "go back to",
+    "回去"
+   ],
+   [
+    "by bus",
+    "搭公車"
+   ],
+   [
+    "got on",
+    "上車"
+   ],
+   [
+    "thanked",
+    "感謝"
+   ],
+   [
+    "wonderful",
+    "很棒的"
+   ],
+   [
+    "sad",
+    "難過"
+   ],
+   [
+    "said goodbye",
+    "道別"
+   ],
+   [
+    "the best",
+    "最棒的"
+   ],
+   [
+    "weekend",
+    "週末"
+   ]
+  ],
+  "patterns": [
+   [
+    "I have a + adj. + N + named + 名字, and S lives in + 地點.",
+    "I have a foreign friend named Tom, and he lives in America."
+   ],
+   [
+    "Last Friday, S went to + 地點 + to V",
+    "Last Friday, I went to Tainan Railway Station to meet him."
+   ],
+   [
+    "S felt + adj. + because + 句子",
+    "I felt very excited because I wanted to show him around my city."
+   ],
+   [
+    "S gave me a thumbs-up and said, \"...\"",
+    "Tom gave me a thumbs-up and said, \"This is delicious!\""
+   ],
+   [
+    "Before S + Ved, S + Ved + 人 + for + N.",
+    "Before he got on the bus, he thanked me for the wonderful trip."
+   ],
+   [
+    "For S, it was the 最高級 + N + of + N.",
+    "For me, it was the best weekend of the year."
+   ]
+  ]
  },
  {
   "no": 43,
@@ -4146,7 +9282,131 @@ window.GEPT_BASIC_STORIES = [
    ]
   ],
   "essay": "I am a 17-year-old senior high school student. To travel around Taiwan on my bike has always been my dream. This spring break, my dream came true. I started my trip from Taipei 101. I rode my bike toward the south, and I passed many cities. Some days were sunny, and some days were windy. In Taichung, I visited a beautiful park and ate Sun Cakes, the famous food there. However, on my way to Kenting National Park, I accidentally fell off my bike. I hurt my leg, and it was bleeding. It hurt so much, but I didn't give up. Two weeks later, when I finally got back home, my parents were waiting for me at the door. They were very proud of me, and I was very happy to see them. After the trip, I felt that I had grown up. Now I am brave enough to do things on my own.",
-  "words": 154
+  "words": 154,
+  "vocab": [
+   [
+    "senior high school student",
+    "高中生"
+   ],
+   [
+    "travel around",
+    "環遊"
+   ],
+   [
+    "on my bike",
+    "騎腳踏車"
+   ],
+   [
+    "spring break",
+    "春假"
+   ],
+   [
+    "came true",
+    "成真"
+   ],
+   [
+    "toward the south",
+    "往南"
+   ],
+   [
+    "passed",
+    "經過"
+   ],
+   [
+    "sunny",
+    "晴朗"
+   ],
+   [
+    "windy",
+    "颳風"
+   ],
+   [
+    "Sun Cakes",
+    "太陽餅"
+   ],
+   [
+    "famous",
+    "有名的"
+   ],
+   [
+    "on my way to",
+    "在去…路上"
+   ],
+   [
+    "fell off",
+    "跌下"
+   ],
+   [
+    "hurt my leg",
+    "腿受傷"
+   ],
+   [
+    "bleeding",
+    "流血"
+   ],
+   [
+    "hurt",
+    "痛"
+   ],
+   [
+    "give up",
+    "放棄"
+   ],
+   [
+    "finally",
+    "終於"
+   ],
+   [
+    "waiting for",
+    "等待"
+   ],
+   [
+    "proud of",
+    "以…為榮"
+   ],
+   [
+    "happy to see",
+    "很高興見到"
+   ],
+   [
+    "grown up",
+    "長大"
+   ],
+   [
+    "brave enough",
+    "夠勇敢"
+   ],
+   [
+    "on my own",
+    "獨自"
+   ]
+  ],
+  "patterns": [
+   [
+    "To V + has always been my dream.",
+    "To travel around Taiwan on my bike has always been my dream."
+   ],
+   [
+    "I + Ved toward ..., and I + Ved",
+    "I rode my bike toward the south, and I passed many cities."
+   ],
+   [
+    "In + 地方, I + Ved and Ved",
+    "In Taichung, I visited a beautiful park and ate Sun Cakes, the famous food there."
+   ],
+   [
+    "I hurt my + N, and it was Ving.",
+    "I hurt my leg, and it was bleeding."
+   ],
+   [
+    "時間 + later, when I + Ved, S were Ving",
+    "Two weeks later, when I finally got back home, my parents were waiting for me at the door."
+   ],
+   [
+    "After + N, I felt that + 句子. Now I am + adj. + enough to V",
+    "After the trip, I felt that I had grown up. Now I am brave enough to do things on my own."
+   ]
+  ]
  },
  {
   "no": 44,
@@ -4238,7 +9498,115 @@ window.GEPT_BASIC_STORIES = [
    ]
   ],
   "essay": "Joyce is a 30-year-old business woman. She is very hard-working, and she often works overtime. Last Saturday, she woke up at six thirty a.m. It was a holiday, but she had to go to her company because she had a lot of work to do. After she had breakfast, she rode her motorcycle to work. The weather was terrible. It was raining cats and dogs while she was riding. Besides, there was a lot of traffic because there was a Christmas sale. It took her almost one hour to get to her office. As a result, she was forty minutes late, and her boss was angry at her. When she arrived home, it was already eleven o'clock at night. She had no time to eat dinner. She was so tired that she went to bed without taking a shower. For her, it was the busiest and most tiring day of her life!",
-  "words": 152
+  "words": 152,
+  "vocab": [
+   [
+    "business woman",
+    "女商人"
+   ],
+   [
+    "hard-working",
+    "勤奮"
+   ],
+   [
+    "works overtime",
+    "加班"
+   ],
+   [
+    "woke up",
+    "起床"
+   ],
+   [
+    "holiday",
+    "假日"
+   ],
+   [
+    "had to",
+    "必須"
+   ],
+   [
+    "had breakfast",
+    "吃早餐"
+   ],
+   [
+    "rode a motorcycle",
+    "騎機車"
+   ],
+   [
+    "terrible",
+    "糟糕"
+   ],
+   [
+    "raining cats and dogs",
+    "傾盆大雨"
+   ],
+   [
+    "a lot of traffic",
+    "車很多"
+   ],
+   [
+    "Christmas sale",
+    "聖誕特賣"
+   ],
+   [
+    "almost one hour",
+    "將近一小時"
+   ],
+   [
+    "late",
+    "遲到"
+   ],
+   [
+    "angry at",
+    "對…生氣"
+   ],
+   [
+    "arrived home",
+    "到家"
+   ],
+   [
+    "no time",
+    "沒時間"
+   ],
+   [
+    "without taking a shower",
+    "沒洗澡"
+   ],
+   [
+    "the busiest",
+    "最忙的"
+   ],
+   [
+    "the most tiring",
+    "最累的"
+   ]
+  ],
+  "patterns": [
+   [
+    "S is + adj., and S often + Vs",
+    "She is very hard-working, and she often works overtime."
+   ],
+   [
+    "It was ..., but S had to V + because + 句子",
+    "It was a holiday, but she had to go to her company because she had a lot of work to do."
+   ],
+   [
+    "It was Ving ... while S was Ving",
+    "The weather was terrible. It was raining cats and dogs while she was riding."
+   ],
+   [
+    "As a result, S was + 時間 + late, and + 句子",
+    "As a result, she was forty minutes late, and her boss was angry at her."
+   ],
+   [
+    "S had no time to V",
+    "She had no time to eat dinner."
+   ],
+   [
+    "For + 人, it was the + 最高級 + N + of + one's life!",
+    "For her, it was the busiest and most tiring day of her life!"
+   ]
+  ]
  },
  {
   "no": 45,
@@ -4331,7 +9699,139 @@ window.GEPT_BASIC_STORIES = [
   ],
   "essay": "Jeff is a 30-year-old nurse. He works at a hospital, and he always works the night shift. He usually sleeps during the day because he works at night. Every day, he gets up at about five o'clock in the afternoon. At 5:30 p.m., he eats dinner at a restaurant near his home. He often looks sleepy because he has just woken up. At 8:30 p.m., he sits on the sofa and watches TV in the living room. He likes funny shows, so he often laughs out loud. Watching TV makes him feel relaxed before work. At 9:00 p.m., he drives to the hospital to start his work. The sky is dark, and the streets are quiet. At the hospital, he takes care of sick people all night. For Jeff, it is not easy to work at night, but he loves his job.",
   "words": 148,
-  "src": "附件20"
+  "src": "附件20",
+  "vocab": [
+   [
+    "nurse",
+    "護理師"
+   ],
+   [
+    "hospital",
+    "醫院"
+   ],
+   [
+    "night shift",
+    "夜班"
+   ],
+   [
+    "during the day",
+    "白天"
+   ],
+   [
+    "at night",
+    "晚上"
+   ],
+   [
+    "gets up",
+    "起床"
+   ],
+   [
+    "afternoon",
+    "下午"
+   ],
+   [
+    "dinner",
+    "晚餐"
+   ],
+   [
+    "restaurant",
+    "餐廳"
+   ],
+   [
+    "near",
+    "在…附近"
+   ],
+   [
+    "sleepy",
+    "想睡的"
+   ],
+   [
+    "has just woken up",
+    "剛睡醒"
+   ],
+   [
+    "sofa",
+    "沙發"
+   ],
+   [
+    "living room",
+    "客廳"
+   ],
+   [
+    "funny shows",
+    "搞笑節目"
+   ],
+   [
+    "laughs out loud",
+    "大聲笑"
+   ],
+   [
+    "relaxed",
+    "放鬆的"
+   ],
+   [
+    "before work",
+    "上班前"
+   ],
+   [
+    "drives to",
+    "開車去"
+   ],
+   [
+    "start his work",
+    "開始工作"
+   ],
+   [
+    "dark",
+    "黑暗的"
+   ],
+   [
+    "quiet",
+    "安靜的"
+   ],
+   [
+    "takes care of",
+    "照顧"
+   ],
+   [
+    "all night",
+    "整晚"
+   ],
+   [
+    "not easy",
+    "不容易"
+   ],
+   [
+    "loves his job",
+    "熱愛工作"
+   ]
+  ],
+  "patterns": [
+   [
+    "S works at + 地點, and S always + Vs",
+    "He works at a hospital, and he always works the night shift."
+   ],
+   [
+    "Every day, S gets up at + 時間.",
+    "Every day, he gets up at about five o'clock in the afternoon."
+   ],
+   [
+    "S often looks + adj. because + 句子",
+    "He often looks sleepy because he has just woken up."
+   ],
+   [
+    "V-ing + makes + 人 + feel + adj.",
+    "Watching TV makes him feel relaxed before work."
+   ],
+   [
+    "The N is + adj., and the N are + adj.",
+    "The sky is dark, and the streets are quiet."
+   ],
+   [
+    "For S, it is not easy to V, but S + Vs",
+    "For Jeff, it is not easy to work at night, but he loves his job."
+   ]
+  ]
  },
  {
   "no": 46,
@@ -4418,7 +9918,115 @@ window.GEPT_BASIC_STORIES = [
   ],
   "essay": "Alice is a 12-year-old elementary school student. She likes to play basketball with her friends, but she is always busy after school. Yesterday, school was over at four o'clock in the afternoon. Two of her classmates asked her to play basketball with them. She felt sad because she had to say no to them. At 4:30, she went to a cram school to study English and math. The teacher wrote many things on the blackboard, and Alice listened carefully. She was so tired that she wanted to go home. At seven o'clock in the evening, she practiced the piano at home for two hours. She didn't want to play, but she had to finish her practice. As a result, she felt unhappy and very tired at the end of the day. She thought to herself, \"I want more time to play with my friends!\"",
   "words": 145,
-  "src": "附件20"
+  "src": "附件20",
+  "vocab": [
+   [
+    "elementary school student",
+    "小學生"
+   ],
+   [
+    "play basketball",
+    "打籃球"
+   ],
+   [
+    "school was over",
+    "放學了"
+   ],
+   [
+    "classmates",
+    "同學"
+   ],
+   [
+    "asked",
+    "邀請"
+   ],
+   [
+    "sad",
+    "難過的"
+   ],
+   [
+    "say no",
+    "拒絕"
+   ],
+   [
+    "cram school",
+    "補習班"
+   ],
+   [
+    "study",
+    "讀書"
+   ],
+   [
+    "blackboard",
+    "黑板"
+   ],
+   [
+    "carefully",
+    "仔細地"
+   ],
+   [
+    "tired",
+    "累的"
+   ],
+   [
+    "go home",
+    "回家"
+   ],
+   [
+    "practiced the piano",
+    "練鋼琴"
+   ],
+   [
+    "in the evening",
+    "傍晚"
+   ],
+   [
+    "didn't want to",
+    "不想"
+   ],
+   [
+    "finish",
+    "完成"
+   ],
+   [
+    "unhappy",
+    "不開心的"
+   ],
+   [
+    "at the end of the day",
+    "一天結束時"
+   ],
+   [
+    "more time",
+    "更多時間"
+   ]
+  ],
+  "patterns": [
+   [
+    "S likes to V with + 人, but S is always + adj.",
+    "She likes to play basketball with her friends, but she is always busy after school."
+   ],
+   [
+    "S asked + 人 + to V + with + 人.",
+    "Two of her classmates asked her to play basketball with them."
+   ],
+   [
+    "At + 時間, S went to + 地點 + to V",
+    "At 4:30, she went to a cram school to study English and math."
+   ],
+   [
+    "S was so + adj. + that + 句子",
+    "She was so tired that she wanted to go home."
+   ],
+   [
+    "S didn't want to V, but S had to V",
+    "She didn't want to play, but she had to finish her practice."
+   ],
+   [
+    "S thought to herself, \"...\"",
+    "She thought to herself, \"I want more time to play with my friends!\""
+   ]
+  ]
  },
  {
   "no": 47,
@@ -4517,7 +10125,155 @@ window.GEPT_BASIC_STORIES = [
   ],
   "essay": "Ben is a 17-year-old senior high school student. He likes shopping, but he doesn't have much money. Last summer, he worked part-time at a store. He was a clerk, and he sold things to customers. He always worked hard and smiled at every customer. He felt happy because the customers were friendly to him. On August 1, it was payday, and his boss gave him his first pay. Ben was so excited that he couldn't stop smiling. The next day, he went shopping at a big store. He bought a lot of clothes, shoes, and bags. He didn't think about the price at all. Soon, he found that he had spent all his money. He felt very sad, and he cried with his empty wallet in his hands. He has learned an important lesson: it is important to save money and spend it carefully.",
   "words": 144,
-  "src": "附件5"
+  "src": "附件5",
+  "vocab": [
+   [
+    "senior high school student",
+    "高中生"
+   ],
+   [
+    "shopping",
+    "購物"
+   ],
+   [
+    "money",
+    "錢"
+   ],
+   [
+    "last summer",
+    "去年夏天"
+   ],
+   [
+    "worked part-time",
+    "打工"
+   ],
+   [
+    "store",
+    "商店"
+   ],
+   [
+    "clerk",
+    "店員"
+   ],
+   [
+    "sold",
+    "賣"
+   ],
+   [
+    "customers",
+    "顧客"
+   ],
+   [
+    "worked hard",
+    "努力工作"
+   ],
+   [
+    "smiled",
+    "微笑"
+   ],
+   [
+    "happy",
+    "開心"
+   ],
+   [
+    "friendly",
+    "友善"
+   ],
+   [
+    "payday",
+    "發薪日"
+   ],
+   [
+    "boss",
+    "老闆"
+   ],
+   [
+    "pay",
+    "薪水"
+   ],
+   [
+    "excited",
+    "興奮"
+   ],
+   [
+    "smiling",
+    "微笑"
+   ],
+   [
+    "the next day",
+    "隔天"
+   ],
+   [
+    "went shopping",
+    "去購物"
+   ],
+   [
+    "bought",
+    "買"
+   ],
+   [
+    "a lot of",
+    "很多"
+   ],
+   [
+    "price",
+    "價格"
+   ],
+   [
+    "at all",
+    "一點也不"
+   ],
+   [
+    "spent",
+    "花"
+   ],
+   [
+    "all",
+    "全部"
+   ],
+   [
+    "sad",
+    "難過"
+   ],
+   [
+    "empty wallet",
+    "空錢包"
+   ],
+   [
+    "important lesson",
+    "重要的教訓"
+   ],
+   [
+    "save money",
+    "存錢"
+   ]
+  ],
+  "patterns": [
+   [
+    "S likes + Ving, but S doesn't have much + N.",
+    "He likes shopping, but he doesn't have much money."
+   ],
+   [
+    "S was a + N, and S + Ved + N + to + 人.",
+    "He was a clerk, and he sold things to customers."
+   ],
+   [
+    "On + 日期, it was + N, and S gave + 人 + N.",
+    "On August 1, it was payday, and his boss gave him his first pay."
+   ],
+   [
+    "The next day, S + Ved + at + 地點.",
+    "The next day, he went shopping at a big store."
+   ],
+   [
+    "Soon, S found that + 句子.",
+    "Soon, he found that he had spent all his money."
+   ],
+   [
+    "S has learned an important lesson: it is + adj. + to V.",
+    "He has learned an important lesson: it is important to save money and spend it carefully."
+   ]
+  ]
  },
  {
   "no": 48,
@@ -4610,7 +10366,135 @@ window.GEPT_BASIC_STORIES = [
   ],
   "essay": "Mark is a 13-year-old junior high school student. He likes summer vacation, but he doesn't like the hot weather. In summer, it is very hot in Taiwan, and the sun is very strong. Sometimes he rides his skateboard in the park under the hot sun. He sweats a lot, so he feels very uncomfortable. To cool down, he often eats a big plate of shaved ice with fruit on top. He also drinks a glass of cold juice with a straw. The ice makes him feel cool and happy. On weekends, he goes swimming in the swimming pool. He plays with a cute animal float in the water and has a great time. Swimming is his favorite way to stay cool. He thinks that there are many ways to enjoy the hot summer, and he loves all of them. For Mark, summer is the most fun season of the year.",
   "words": 150,
-  "src": "附件20"
+  "src": "附件20",
+  "vocab": [
+   [
+    "junior high school student",
+    "國中生"
+   ],
+   [
+    "summer",
+    "夏天"
+   ],
+   [
+    "hot weather",
+    "炎熱的天氣"
+   ],
+   [
+    "very hot",
+    "非常熱"
+   ],
+   [
+    "Taiwan",
+    "台灣"
+   ],
+   [
+    "skateboard",
+    "滑板"
+   ],
+   [
+    "under the hot sun",
+    "在大太陽下"
+   ],
+   [
+    "sweats",
+    "流汗"
+   ],
+   [
+    "uncomfortable",
+    "不舒服的"
+   ],
+   [
+    "cool down",
+    "降溫"
+   ],
+   [
+    "shaved ice",
+    "剉冰"
+   ],
+   [
+    "cold juice",
+    "冰果汁"
+   ],
+   [
+    "straw",
+    "吸管"
+   ],
+   [
+    "cool",
+    "涼快的"
+   ],
+   [
+    "happy",
+    "開心的"
+   ],
+   [
+    "on weekends",
+    "週末"
+   ],
+   [
+    "swimming pool",
+    "游泳池"
+   ],
+   [
+    "animal float",
+    "動物造型游泳圈"
+   ],
+   [
+    "in the water",
+    "在水裡"
+   ],
+   [
+    "favorite",
+    "最喜歡的"
+   ],
+   [
+    "stay cool",
+    "保持涼爽"
+   ],
+   [
+    "many ways",
+    "很多方法"
+   ],
+   [
+    "enjoy",
+    "享受"
+   ],
+   [
+    "the most fun",
+    "最好玩的"
+   ],
+   [
+    "season",
+    "季節"
+   ]
+  ],
+  "patterns": [
+   [
+    "S likes + N, but S doesn't like + N.",
+    "He likes summer vacation, but he doesn't like the hot weather."
+   ],
+   [
+    "Sometimes S + Vs + N + under + N.",
+    "Sometimes he rides his skateboard in the park under the hot sun."
+   ],
+   [
+    "To V, S often + Vs + N.",
+    "To cool down, he often eats a big plate of shaved ice with fruit on top."
+   ],
+   [
+    "On + 時間, S goes + V-ing + in + 地點.",
+    "On weekends, he goes swimming in the swimming pool."
+   ],
+   [
+    "V-ing + is + S's favorite way to V",
+    "Swimming is his favorite way to stay cool."
+   ],
+   [
+    "For S, N is the 最高級 + N + of + N.",
+    "For Mark, summer is the most fun season of the year."
+   ]
+  ]
  },
  {
   "no": 49,
@@ -4708,6 +10592,126 @@ window.GEPT_BASIC_STORIES = [
    ]
   ],
   "essay": "David is a 15-year-old junior high school student. He studies hard, and he has big plans for his future. Now, he is very interested in English, and he practices it every day. He plans to go to a good senior high school first. He wants to learn more English so that he can talk with foreigners. Five years later, he will be a college student. He will continue to study English at university. He may also study abroad in America for one year. He likes to share what he knows with others, so he wants to be an English teacher. Ten years later, he will become an English teacher at a high school. Besides, he will marry his high school sweetheart and raise two kids. He will take his kids to the park on weekends. He believes that his life will be busy but happy. David thinks that dreams can come true if he works hard.",
-  "words": 156
+  "words": 156,
+  "vocab": [
+   [
+    "junior high school student",
+    "國中生"
+   ],
+   [
+    "studies hard",
+    "用功"
+   ],
+   [
+    "plans",
+    "計畫"
+   ],
+   [
+    "interested in",
+    "對…有興趣"
+   ],
+   [
+    "practices",
+    "練習"
+   ],
+   [
+    "plans to",
+    "計畫"
+   ],
+   [
+    "senior high school",
+    "高中"
+   ],
+   [
+    "foreigners",
+    "外國人"
+   ],
+   [
+    "college student",
+    "大學生"
+   ],
+   [
+    "continue to",
+    "繼續"
+   ],
+   [
+    "study abroad",
+    "出國讀書"
+   ],
+   [
+    "share",
+    "分享"
+   ],
+   [
+    "English teacher",
+    "英文老師"
+   ],
+   [
+    "become",
+    "成為"
+   ],
+   [
+    "high school",
+    "高中"
+   ],
+   [
+    "marry",
+    "娶"
+   ],
+   [
+    "sweetheart",
+    "女友"
+   ],
+   [
+    "raise",
+    "養育"
+   ],
+   [
+    "take kids to",
+    "帶孩子去"
+   ],
+   [
+    "park",
+    "公園"
+   ],
+   [
+    "busy but happy",
+    "忙碌但快樂"
+   ],
+   [
+    "dreams come true",
+    "夢想成真"
+   ],
+   [
+    "works hard",
+    "努力"
+   ]
+  ],
+  "patterns": [
+   [
+    "S + Vs, and S has + N.",
+    "He studies hard, and he has big plans for his future."
+   ],
+   [
+    "S plans to V",
+    "He plans to go to a good senior high school first."
+   ],
+   [
+    "S will continue to V",
+    "He will continue to study English at university."
+   ],
+   [
+    "S likes to V, so S wants to V",
+    "He likes to share what he knows with others, so he wants to be an English teacher."
+   ],
+   [
+    "S will V + 人 + to + 地方 + on weekends.",
+    "He will take his kids to the park on weekends."
+   ],
+   [
+    "S thinks that + 句子 + if + 句子.",
+    "David thinks that dreams can come true if he works hard."
+   ]
+  ]
  }
 ];
