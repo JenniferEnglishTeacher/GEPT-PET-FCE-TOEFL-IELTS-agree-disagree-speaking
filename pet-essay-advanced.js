@@ -6,6 +6,7 @@
    Listens for the "pet-topic" event from pet-essay.js. Level + side are remembered on this device. */
 (() => {
   const K = window.SpeakingKit, W = window.WritingKit, ADV = window.PET_ESSAY_ADV || {};
+  const ELS = () => (adv && adv.elements) || window.PET_ESSAY_ADV_ELEMENTS;
   const EL = window.PET_ESSAY_ADV_ELEMENTS, PARAS = window.PET_ESSAY_ADV_PARAS, TEXT = window.PET_ESSAY_ADV_TEXT;
   const $ = id => document.getElementById(id), esc = W.esc;
   const bold = s => esc(s).replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
@@ -113,8 +114,8 @@
     $("advSideWrite").textContent = SIDE_LABEL[side]; $("advSideSample").textContent = SIDE_LABEL[side];
     $("advWriteLabel").innerHTML = `My Essay — <span class="pe-stance ${side === "agree" ? "pe-agree" : "pe-disagree"}">${SIDE_LABEL[side]}</span> 我的作文`;
     $("advGrid").querySelector("tbody").innerHTML = adv[side].map((r, i) =>
-      `<tr><td><b>${esc(EL[i][0])}</b><small>${esc(EL[i][1])}</small><i>✎ idea: ${esc(r[0])}</i></td>
-       <td><textarea data-row="${i}" aria-label="${esc(EL[i][0])} — my sentence" placeholder="Your ${esc(EL[i][0].toLowerCase())}…">${esc(rows[i] || "")}</textarea></td>
+      `<tr><td><b>${esc(ELS()[i][0])}</b><small>${esc(ELS()[i][1])}</small><i>✎ idea: ${esc(r[0])}</i></td>
+       <td><textarea data-row="${i}" aria-label="${esc(ELS()[i][0])} — my sentence" placeholder="Your ${esc(ELS()[i][0].toLowerCase())}…">${esc(rows[i] || "")}</textarea></td>
        <td>${bold(r[1])}</td></tr>`).join("");
     $("advGrid").querySelectorAll("textarea").forEach(t => t.addEventListener("input", () => {
       save(ROWS + topic.no + "-" + side, [...$("advGrid").querySelectorAll("textarea")].map(x => x.value));
@@ -186,7 +187,7 @@
     if (!adv) { advanced.innerHTML = `<p class="sw-sub">Advanced content for this topic is coming soon.</p>`; return; }
     $("advMeta").textContent = `Topic ${topic.no} / ${(window.PET_ESSAYS || []).length || 15} · ${topic.theme} · Advanced B2–C1 · about 280–300 words`;
     $("advTitle").textContent = `${topic.en} · ${topic.zh}`;
-    $("advPrompt").textContent = `${topic.prompt} Give reasons and examples, and consider the opposite view.\nWrite about 250–300 words.`;
+    $("advPrompt").textContent = topic.advPrompt || `${topic.prompt} Give reasons and examples, and consider the opposite view.\nWrite about 250–300 words.`;
     renderArgs($("advArgs"), adv.args);
     document.querySelectorAll("[data-side-pick]").forEach(b => b.classList.toggle("active", b.dataset.sidePick === side));
     renderGrid();
