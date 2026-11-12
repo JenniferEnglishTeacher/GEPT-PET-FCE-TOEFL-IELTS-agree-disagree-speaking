@@ -36,7 +36,9 @@
         </section>
 
         <section class="sw-section" id="vocabSection" hidden>
-          <h3>Useful Words &amp; Phrases 實用單字片語</h3>
+          <h3><span>Useful Words &amp; Phrases 實用單字片語</span>
+            <span><button id="vocabHide" class="small-button" type="button">Spelling Test: hide English 拼字測驗</button></span></h3>
+          <p class="sw-sub" style="font-size:14px">&#128264; 聽發音 · &#127908; 唸唸看（Chrome / Edge）· &#9000; 打字練習</p>
           <div id="vocabHost"></div>
         </section>
 
@@ -45,9 +47,22 @@
             <span><button id="hideCol3" class="small-button" type="button">Hide Column 3 (try it yourself)</button></span></h3>
           <div class="sw-table-wrap">
             <table class="sw-grid" id="grid">
-              <thead><tr><th style="width:24%">Column 1 · 元素 &amp; 關鍵字<br><small>Element &amp; Key Words</small></th><th style="width:31%">Column 2 · 句型<br><small>Sentence Pattern</small></th><th>Column 3 · 例句<br><small>Model Sentence (pattern in bold)</small></th></tr></thead>
+              <thead><tr><th style="width:18%">Column 1 · 元素 &amp; 關鍵字<br><small>Element &amp; Key Words</small></th><th style="width:22%">Column 2 · 句型<br><small>Sentence Pattern</small></th><th style="width:28%">Column 3 · 例句<br><small>Model Sentence (pattern in bold)</small></th><th>Column 4 · 我的句子<br><small>My Sentence (write your own)</small></th></tr></thead>
               <tbody></tbody>
             </table>
+          </div>
+          <div class="sw-actions">
+            <button id="buildStory" class="small-button primary-action" type="button">&#129513; Put my sentences into a complete story 組裝成完整作文</button>
+            <button id="clearMine" class="small-button" type="button">Clear Column 4</button>
+            <span id="mineStatus" class="sw-sub" style="align-self:center;margin:0"></span>
+          </div>
+          <div id="builtHost" class="sw-built" hidden>
+            <p class="sw-sub" style="font-weight:700;margin:0 0 6px">My Complete Story 我的完整作文 <span id="builtWords"></span></p>
+            <p class="sw-essay" id="builtText"></p>
+            <div class="sw-actions">
+              <button id="builtListen" class="small-button" type="button">&#128264; Listen</button>
+              <button id="builtCopy" class="small-button" type="button">&#11015; Send to "Your Story" box 放進我的作文</button>
+            </div>
           </div>
         </section>
 

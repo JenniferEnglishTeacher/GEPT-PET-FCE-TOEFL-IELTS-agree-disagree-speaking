@@ -32,6 +32,25 @@
 .sw-grid td:nth-child(3) strong { color: #0b5e61; }
 .sw-grid.hide-col3 td:nth-child(3) { color: transparent; background: repeating-linear-gradient(135deg,#f1f5f5,#f1f5f5 6px,#e6efee 6px,#e6efee 12px); }
 .sw-grid.hide-col3 td:nth-child(3) strong { color: transparent; }
+.sw-grid td.sw-mine { padding: 4px; background: #fffdf5 !important; }
+.sw-mine textarea { box-sizing: border-box; width: 100%; min-height: 58px; border: 1px dashed #c9b37a; border-radius: 6px; padding: 6px 8px; font: inherit; font-size: 15px; line-height: 1.5; resize: vertical; background: #fff; }
+.sw-mine textarea:focus { outline: 2px solid var(--accent); border-style: solid; }
+.sw-built { margin-top: 12px; }
+.sw-built[hidden] { display: none; }
+/* vocab drill: listen / say / type */
+.sw-vocab td.vw { min-width: 190px; }
+.sw-vocab .vw-row { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.sw-vocab .vw-row b { margin-right: 2px; }
+.vbtn { border: 1px solid #cfe3df; background: #fff; border-radius: 6px; padding: 1px 6px; font-size: 14px; cursor: pointer; line-height: 1.5; }
+.vbtn:hover { background: #e3f2f2; }
+.vbtn.on { background: #c7362f; color: #fff; border-color: #c7362f; }
+.vw-result { font-size: 13px; font-weight: 700; }
+.vw-result.ok { color: #1a7f37; } .vw-result.no { color: #c7362f; }
+.vw-type { margin-top: 6px; display: flex; gap: 6px; align-items: center; }
+.vw-type[hidden] { display: none; }
+.vw-type input { box-sizing: border-box; flex: 1; min-width: 0; border: 1px solid var(--line); border-radius: 6px; padding: 4px 8px; font-size: 15px; }
+.vw-type input.ok { border-color: #1a7f37; background: #eefaf0; } .vw-type input.no { border-color: #c7362f; background: #fdf0ef; }
+.sw-vocab.hide-en .vw:not(.shown) .vw-row b { color: transparent !important; background: repeating-linear-gradient(135deg,#f1f5f5,#f1f5f5 6px,#e6efee 6px,#e6efee 12px); border-radius: 4px; user-select: none; }
 .sw-table-wrap { overflow-x: auto; }
 .sw-essay { background: #e3f2f2; border-left: 5px solid #0f7c80; border-radius: 6px; padding: 14px 16px; font-size: 17px; line-height: 1.8; margin: 0; }
 .sw-essay[hidden] { display: none; }
