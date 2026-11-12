@@ -42,26 +42,31 @@
   function stopAll() { stopEssayAudio(); stopArgCheck(); K.stopSpeech(); }
 
   /* ---------- 1. argument grid ---------- */
+  const PART_LABELS = [["ts", "Topic sentence 主題句"], ["ex", "Explain 說明"], ["eg", "Example 舉例"], ["wu", "Wrap-up 小結"]];
+  const argParts = a => a.ts ? PART_LABELS.filter(([k]) => a[k]).map(([k, lab]) => ({ k, lab, en: a[k][0], zh: a[k][1] })) : [{ k: "", lab: "", en: a.en, zh: a.zh }];
+  const argText = a => argParts(a).map(p => p.en).join(" ");
   function argCell(a, s, i) {
-    return `<div class="adv-arg" data-side="${s}" data-i="${i}">
+    const parts = argParts(a);
+    return `<div class="adv-arg${a.ts ? " adv-arg-4" : ""}" data-side="${s}" data-i="${i}">
       <b>${esc(a.t)}</b>
-      <p class="adv-arg-en"></p>
-      <p class="adv-arg-zh">${esc(a.zh)}</p>
+      ${parts.map((p, j) => `<div class="adv-part">${p.lab ? `<span class="adv-part-lab adv-part-${p.k}">${esc(p.lab)}</span>` : ""}<p class="adv-arg-en" data-part="${j}"></p>${p.lab ? `<button type="button" class="adv-part-say" data-say="${j}" title="Listen to this line">&#128264;</button>` : ""}<p class="adv-arg-zh">${esc(p.zh)}</p></div>`).join("")}
       <div class="adv-arg-tools">
         <button type="button" class="small-button" data-act="listen" title="Listen 聽">&#128264; Listen</button>
         <button type="button" class="small-button" data-act="read" title="Read aloud check 朗讀檢查">🎤 Read</button>
-        <button type="button" class="small-button" data-act="type" title="Type the sentence 打字練習">⌨ Type</button>
+        <button type="button" class="small-button" data-act="type" title="Type the sentences 打字練習">⌨ Type</button>
       </div>
       <small class="adv-arg-acc" hidden></small>
-      <div class="adv-type" hidden><textarea rows="2" spellcheck="false" placeholder="Type the sentence above, then compare…"></textarea><div class="adv-type-out"></div></div>
+      <div class="adv-type" hidden><textarea rows="${a.ts ? 5 : 2}" spellcheck="false" placeholder="Type the ${a.ts ? "four sentences" : "sentence"} above, then compare…"></textarea><div class="adv-type-out"></div></div>
     </div>`;
   }
   function renderArgs(host, args) {
     host.innerHTML = `<div class="adv-arg-col adv-col-agree"><h4>✅ ${esc(SIDE_LABEL.agree)} — key arguments</h4>${args.agree.map((a, i) => argCell(a, "agree", i)).join("")}</div>
       <div class="adv-arg-col adv-col-disagree"><h4>${SIDE_LABEL === DEFAULT_LABEL ? "❌" : "✅"} ${esc(SIDE_LABEL.disagree)} — key arguments</h4>${args.disagree.map((a, i) => argCell(a, "disagree", i)).join("")}</div>`;
     host.querySelectorAll(".adv-arg").forEach(cell => {
-      const a = args[cell.dataset.side][Number(cell.dataset.i)];
-      const spans = K.wordSpans(cell.querySelector(".adv-arg-en"), a.en);
+      const raw = args[cell.dataset.side][Number(cell.dataset.i)], parts = argParts(raw);
+      const a = { en: argText(raw) }, spans = [];
+      cell.querySelectorAll(".adv-arg-en").forEach((el, j) => K.wordSpans(el, parts[j].en, spans));
+      cell.querySelectorAll("[data-say]").forEach(b => b.addEventListener("click", () => { stopAll(); K.speak(parts[Number(b.dataset.say)].en, 0.9); }));
       const acc = cell.querySelector(".adv-arg-acc"), typeBox = cell.querySelector(".adv-type"), ta = typeBox.querySelector("textarea"), out = typeBox.querySelector(".adv-type-out");
       cell.querySelector('[data-act="listen"]').addEventListener("click", () => { stopAll(); K.speak(a.en, 0.9); });
       const readBtn = cell.querySelector('[data-act="read"]');
@@ -87,9 +92,9 @@
         const typed = ta.value;
         if (!typed.trim()) { out.innerHTML = ""; return; }
         const target = K.wordsFrom(a.en).map(K.normalizeWord).filter(Boolean), got = K.wordsFrom(typed).map(K.normalizeWord).filter(Boolean);
-        let ok = 0; got.forEach((w, i) => { if (target[i] === w) ok++; });
-        const done = got.length >= target.length && ok === target.length;
         const d = K.diffHtml(typed, a.en);
+        const ok = Math.max(0, target.length - (d.correctedHtml.match(/corrected-word/g) || []).length);
+        const done = ok === target.length && got.length === target.length;
         out.innerHTML = `<div>${d.originalHtml}</div><small>${ok}/${target.length} words correct${done ? " — ✅ Perfect! 完全正確" : " · yellow = different from the sample"}</small>`;
       });
     });
