@@ -150,3 +150,16 @@
   .sent-row > span.sent-n { grid-row: span 3; }
   .sent-speak { grid-column: 3; } .sent-read { grid-column: 4; }
 }
+
+/* Larger text for elementary students — GEPT Basic writing page */
+.sw-vocab { font-size: 19px; }
+.sw-vocab th { font-size: 16px; }
+.sw-vocab .vbtn { font-size: 17px; padding: 2px 8px; }
+.sw-vocab .vw-type input { font-size: 18px; padding: 6px 10px; }
+.vw-result { font-size: 15px; }
+#vocabHost ol { font-size: 19px; line-height: 2 !important; }
+#grid { font-size: 18px; }
+#grid th { font-size: 15px; }
+#grid td:nth-child(2) { font-size: 17px; }
+#grid td:first-child small { font-size: 15px; }
+.sw-mine textarea { font-size: 18px; min-height: 66px; }
