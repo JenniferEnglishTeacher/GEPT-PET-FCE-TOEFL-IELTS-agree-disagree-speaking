@@ -179,7 +179,7 @@
     stopAll();
     adv = ADV[topic.no];
     if (!adv) { advanced.innerHTML = `<p class="sw-sub">Advanced content for this topic is coming soon.</p>`; return; }
-    $("advMeta").textContent = `Topic ${topic.no} / ${(window.PET_ESSAYS || []).length || 15} · ${topic.theme} · Advanced B2 · about 280 words`;
+    $("advMeta").textContent = `Topic ${topic.no} / ${(window.PET_ESSAYS || []).length || 15} · ${topic.theme} · Advanced B2–C1 · about 280–300 words`;
     $("advTitle").textContent = `${topic.en} · ${topic.zh}`;
     $("advPrompt").textContent = `${topic.prompt} Give reasons and examples, and consider the opposite view.\nWrite about 250–300 words.`;
     renderArgs($("advArgs"), adv.args);
