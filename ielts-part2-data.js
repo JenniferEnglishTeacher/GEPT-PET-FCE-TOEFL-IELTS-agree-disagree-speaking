@@ -10709,6 +10709,516 @@ window.IELTS_PART2 = [
     "a": "**Well,** one idea is to show students how useful humanities skills are. **For instance,** companies need people who can write clearly and understand different cultures. **Another option** is for universities to offer courses that combine technology with history or design. **That way,** students wouldn’t feel they have to choose one side."
    }
   ]
+ },
+ {
+  "id": "rules-1",
+  "theme": "Rules, Law & Society",
+  "themeZh": "規則與社會",
+  "setLabel": "Set 1",
+  "title": "Describe a good law in your country.",
+  "cues": [
+   "what the law is",
+   "when it was introduced",
+   "how it affects people’s daily lives",
+   "and explain why you think it is a good law."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "indoor smoking ban → no smoking in restaurants, offices, KTV, etc.; took effect Jan 2009"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "before: smoky restaurants + clothes smelled of smoke; now: smoke-free indoors, smokers go outside; fines for breaking it"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "uncle = heavy smoker → complained at first; family dinners at hot-pot place → he had to step out → smoked less → quit later"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "protects non-smokers, esp. kids + waiters; changed social norms → smoking indoors now feels weird"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the law I’d like to talk about is the ban on smoking in indoor public places in Taiwan. It came into effect in January 2009, **and** it means you can’t light up in restaurants, offices, shopping malls, KTV rooms or most other enclosed spaces that the public uses. **I’d say** it’s one of those laws that quietly changed everyday life.",
+   "**To give you some background,** I was still a kid before the ban, **but** I clearly remember how smoky some restaurants used to be. **Whenever** my family went out for dinner, our clothes and hair smelled of cigarettes afterwards. **Nowadays,** however, the inside of almost every building is completely smoke-free. **If** people want to smoke, they have to go outside, **and** places that break the rules can be fined.",
+   "**The funny thing is that** my uncle, who was a heavy smoker, hated the law at first. **Back then,** our family often had big dinners at a hot-pot restaurant, **and** every half an hour he had to get up and stand outside on the pavement to smoke. **After a while,** he told us it was too much trouble, **so** he started smoking less. **A few years later,** he actually quit completely, and he says the ban was part of the reason.",
+   "**Looking back,** I think it’s a good law because it protects people who never chose to breathe in smoke, especially children and the staff working in restaurants. **On top of that,** it has changed social habits. **These days,** the idea of someone smoking at the next table seems really strange. **So overall,** it’s a simple rule that has made public spaces much healthier."
+  ],
+  "followUps": [
+   {
+    "q": "Why do some people ignore laws even when they know them?",
+    "a": "**Well,** I think the main reason is that they don’t expect to get caught. **For example,** many people know they shouldn’t park on the pavement, **but** they do it anyway for five minutes. **On top of that,** some people feel a rule is unfair, **so** they don’t feel guilty about breaking it."
+   },
+   {
+    "q": "Should the government make laws to control people’s unhealthy habits?",
+    "a": "**To some extent,** yes, especially when one person’s habit harms others, like smoking or drink-driving. **However,** I don’t think the government should control everything we eat or drink. **In my view,** education is often more effective than punishment, **because** people change more willingly when they understand the reasons behind a rule."
+   },
+   {
+    "q": "How can governments make sure people know about new laws?",
+    "a": "**First of all,** they can use social media and short videos, **since** that’s where most young people get information nowadays. **Besides that,** posters in MRT stations and announcements on TV still work well for older people. **Another good idea** is to give a warning period before fines start, **so** people have time to adjust."
+   }
+  ]
+ },
+ {
+  "id": "rules-2",
+  "theme": "Rules, Law & Society",
+  "themeZh": "規則與社會",
+  "setLabel": "Set 2",
+  "title": "Describe a rule at school that you disagreed with.",
+  "cues": [
+   "what the rule was",
+   "when you had to follow it",
+   "how other students felt about it",
+   "and explain why you disagreed with it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "senior high rule → arrive by 7:30 a.m. for morning self-study 早自習"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "40 min before 1st class; often a quiz; lived far → up at 6, bus + MRT; half the class half-asleep"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "missed the bus once → ran from MRT → 7:33 → name written down by discipline teacher; class debate → most agreed rule = pointless"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "teens need sleep; MOE changed it for senior high in 2022 → felt happy for younger students; rules should have clear purpose"
+   }
+  ],
+  "sample": [
+   "**Alright, so** the rule I want to talk about is one from my senior high school. **Basically,** every student had to arrive by 7:30 in the morning for what we called “morning self-study”, **even though** the first lesson didn’t start until after eight. **To be fair,** almost every high school in Taiwan had a similar rule at that time.",
+   "In theory, those forty minutes were for quiet study, **but in reality,** teachers often used them for quizzes. **The problem for me was that** I lived quite far from school. **So** I had to get up before six, take a bus and then the MRT, **and** I usually ate breakfast while walking. **By the time** the quiz started, half the class looked like zombies, and some people were literally asleep on their desks.",
+   "**I remember one morning in particular.** I missed my bus by about thirty seconds, **so** I ran all the way from the MRT station and arrived at 7:33. **Unfortunately,** the discipline teacher was standing at the gate, **and** she wrote my name down for being late. **Later that week,** we actually had a class discussion about the rule, **and** most of my classmates agreed that it didn’t really help anyone learn.",
+   "**As for why I disagreed,** teenagers need a lot of sleep, **and** forcing them to come in early just makes them tired for the rest of the day. **Interestingly,** in 2022 the Ministry of Education announced that senior high students would no longer have to arrive by 7:30. **When I heard the news,** I was really happy for younger students. **In my opinion,** every school rule should have a clear purpose."
+  ],
+  "followUps": [
+   {
+    "q": "Why do schools need rules?",
+    "a": "**Well,** a school is basically a small society with hundreds of people, **so** some rules are necessary to keep things safe and organised. **For example,** rules about fire drills protect everyone. **However,** I think schools should explain the reason behind each rule, **because** students follow rules more willingly when they understand them."
+   },
+   {
+    "q": "Should students be allowed to help make school rules?",
+    "a": "**Definitely,** at least to some extent. **For one thing,** students know better than anyone which rules actually work in daily life. **In addition,** taking part in decisions teaches them how democracy works. **Of course,** teachers should still have the final say on safety issues, **since** teenagers don’t always think about long-term risks."
+   },
+   {
+    "q": "Are schools today stricter or less strict than in the past?",
+    "a": "**Generally speaking,** I’d say they’re less strict. **In my parents’ day,** students had to have very short hair and could be punished physically. **Nowadays,** however, there are fewer rules about appearance, **and** students have more rights. That said, some teachers feel it’s now harder to manage a class, **so** there are pros and cons."
+   }
+  ]
+ },
+ {
+  "id": "rules-3",
+  "theme": "Rules, Law & Society",
+  "themeZh": "規則與社會",
+  "setLabel": "Set 3",
+  "title": "Describe a time when you broke a rule.",
+  "cues": [
+   "what the rule was",
+   "when and where it happened",
+   "what happened after you broke it",
+   "and explain how you felt about it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Taipei MRT rule: no eating or drinking inside paid area → even water! fine ≥ NT$1,500"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "summer afternoon, ~35°C; walked from NTU to Gongguan Station; throat dry → opened bottle on platform"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "1 sip → station staff tapped my shoulder → polite warning, no fine; tourists watching → face went red"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "embarrassed but grateful; rule = keeps MRT clean, no cockroaches; now drink before the gate"
+   }
+  ],
+  "sample": [
+   "**Okay, so** I’d like to talk about a time I broke a rule on the Taipei MRT. **For anyone who doesn’t know,** you’re not allowed to eat or drink anything once you pass through the ticket gates, **not even** a sip of water. **If** you’re caught, the fine starts at 1,500 Taiwan dollars, **which** is quite a lot for a student.",
+   "It happened on a really hot afternoon last summer. **I think** it was about thirty-five degrees, **and** I had just walked from the National Taiwan University campus to Gongguan Station carrying a heavy bag of library books for my final report. **By the time** I got down to the platform, my throat was completely dry. **Without really thinking,** I took out my water bottle and opened it.",
+   "**I had only taken one sip when** a member of station staff tapped me on the shoulder. **Luckily,** she was very polite. She just pointed at the sign on the wall and reminded me that drinking wasn’t allowed, **so** I didn’t get a fine. Still, there was a group of tourists standing right next to me, **and** they were all staring at us. **To be honest,** my face went bright red and I just wanted the ground to swallow me up.",
+   "**Looking back,** I felt embarrassed **but also** quite grateful that she gave me a warning instead of a ticket. **To be fair,** the rule makes sense, **because** it’s one of the reasons the MRT is so clean and has no smell of food. **Since then,** I always finish my drink before I go through the gate."
+  ],
+  "followUps": [
+   {
+    "q": "Why do some people break small rules in public places?",
+    "a": "**I think** most people don’t mean any harm. **For example,** they might be in a hurry or simply not notice a sign. **On top of that,** when a rule seems small, like not drinking water, people feel that breaking it won’t hurt anyone. **So** clear signs and friendly reminders usually work better than strict punishment."
+   },
+   {
+    "q": "Should tourists be punished in the same way as local people?",
+    "a": "**In general,** yes, because a rule should be the same for everyone. **However,** I think staff can be a bit more flexible with tourists, **since** they often don’t know the local rules. **For instance,** a warning the first time seems fair. **But if** someone ignores the warning, they should pay the fine."
+   },
+   {
+    "q": "Do you think public transport in your city has too many rules?",
+    "a": "**Not really,** in my opinion. **Most of the rules,** like standing on the right side of the escalator or queuing at the platform doors, make the system run smoothly. **Admittedly,** the no-drinking rule can be hard in summer. **Overall, though,** I’d rather have a few extra rules and a clean, safe MRT."
+   }
+  ]
+ },
+ {
+  "id": "rules-4",
+  "theme": "Rules, Law & Society",
+  "themeZh": "規則與社會",
+  "setLabel": "Set 4",
+  "title": "Describe a time when you did volunteer work.",
+  "cues": [
+   "what kind of volunteer work you did",
+   "where and when you did it",
+   "who you did it with",
+   "and explain how you felt about the experience."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "1-week English summer camp → small elementary school in rural Taitung; 2nd year of uni"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "uni volunteer club, 12 of us; ~30 kids, many Indigenous; games, songs, drama; slept on classroom floor"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "shy boy 小宇 never spoke → final-day play → said his line loud + clear → teachers cheered; kids chased bus when we left"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "learned more than I taught; education gap city vs countryside; still keep in touch w/ a teacher there"
+   }
+  ],
+  "sample": [
+   "**Alright, so** I’d like to talk about the time I volunteered at an English summer camp in Taitung, on the east coast of Taiwan. **It was** during the summer of my second year at university, **and** I went with eleven other members of our university’s volunteer club. The camp was held at a tiny elementary school surrounded by rice fields and mountains.",
+   "**To give you some background,** the school only had about thirty pupils, **and** many of them were Indigenous children whose families worked on farms. **Since** there aren’t many English classes or cram schools in the area, **our job was to** make English fun through games, songs and short plays. **To keep costs down,** we slept on mats on the classroom floor, **and** we took cold showers because the hot water didn’t work.",
+   "**The moment I remember most** involves a shy little boy in my group. **For the first four days,** he barely said a word, **even though** I could tell he understood a lot. **On the last day,** however, each group performed a short play for the parents, **and** he said his line loudly and clearly in front of everyone. **To my surprise,** the teachers started cheering. **Then, when we left,** a bunch of kids actually ran after our bus, waving and shouting goodbye.",
+   "**Looking back,** I feel like I learned more than I taught. **For one thing,** I saw how big the gap is between education in the city and in the countryside. **Even now,** I still keep in touch with one of the teachers there, **and** I’d love to go back one day."
+  ],
+  "followUps": [
+   {
+    "q": "Why do some people choose to do volunteer work?",
+    "a": "**Well,** there are lots of reasons. **For some people,** it’s simply a way to give something back to society. **For others,** especially students, it’s a chance to gain experience and add something to their CV. **On top of that,** volunteering helps people meet like-minded friends, **so** it can be quite fun as well."
+   },
+   {
+    "q": "Should volunteer work be compulsory for students?",
+    "a": "**Personally,** I’m not sure it should be compulsory. **On the one hand,** it teaches students responsibility and shows them how other people live. **On the other hand,** if students are forced to do it, they might just go through the motions. **Perhaps** schools could offer lots of choices **so** students find something they really care about."
+   },
+   {
+    "q": "What kinds of volunteer work are popular in your country?",
+    "a": "**In Taiwan,** I’d say beach clean-ups and helping at temples during festivals are very common. **Besides that,** many retired people volunteer at hospitals and MRT stations, giving directions to visitors. **Recently,** volunteering at animal shelters has also become popular among young people, **partly because** they share the experience on social media."
+   }
+  ]
+ },
+ {
+  "id": "rules-5",
+  "theme": "Rules, Law & Society",
+  "themeZh": "規則與社會",
+  "setLabel": "Set 5",
+  "title": "Describe a public service in your city that has improved.",
+  "cues": [
+   "what the service is",
+   "how it used to be",
+   "how it has changed",
+   "and explain what effects the improvement has had on people."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Taipei Public Library 台北市立圖書館 → used to = go to branch in person"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "now: reserve online → pick up at convenience store (small fee) or FastBook machines, some in MRT stations; return at stores too"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "reserved travel guides at midnight → collected at 7-Eleven downstairs 2 days later w/ my coffee"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "cause: busy lives + tech → effect: more people borrow, esp. office workers; downside → fewer visits to actual library"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the public service I want to talk about is the Taipei Public Library. **When I was a kid,** borrowing a book meant going to the nearest branch, searching the shelves and hoping the book was there. **If** it wasn’t, you had to come back another day, **which** was pretty annoying if you lived far away.",
+   "**Over the past few years,** however, the service has improved a lot. First of all, you can now reserve books online with your library card **and then** pick them up at a convenience store near your home for a small delivery fee. **On top of that,** there are self-service lending machines, called FastBook stations, in places like MRT stations. **What’s more,** you can return books at many convenience stores too, **so** you hardly ever need to visit the library itself.",
+   "**To give you an example,** last spring I was planning a trip to Japan. **One night,** at around midnight, I reserved three travel guides on my phone. **Two days later,** I got a text message saying they had arrived, **so** I just went down to the 7-Eleven on the ground floor of my building. **Funnily enough,** I picked up the books and my morning coffee at the same time.",
+   "**As for the effects,** I think the main cause of this change is that people are busier than ever, **and** technology has made it easy to connect different services. **As a result,** a lot more office workers like me borrow books regularly again. **The only downside** is that people spend less time in the actual library, **which** is a shame, **because** it’s a lovely, quiet place."
+  ],
+  "followUps": [
+   {
+    "q": "Which public services are the most important in a city?",
+    "a": "**In my view,** public transport and healthcare are the most important, **because** almost everyone relies on them every day. **For example,** without a good MRT system, Taipei’s roads would be even more crowded. **That said,** libraries and parks matter too, **since** they give people free places to learn and relax."
+   },
+   {
+    "q": "Should public services be free?",
+    "a": "**It depends** on the service. Basic things like libraries and primary education should definitely be free, **because** everyone deserves the chance to learn. **However,** for services like public transport, a small fee is reasonable, **since** it helps pay for maintenance. **Otherwise,** taxes would have to go up quite a lot."
+   },
+   {
+    "q": "How will technology change public services in the future?",
+    "a": "**I think** more and more services will move online. **For instance,** people will probably be able to apply for documents or report problems entirely through an app. **On the plus side,** that saves time. **However,** governments must remember that some elderly people aren’t comfortable with technology, **so** face-to-face help should still be available."
+   }
+  ]
+ },
+ {
+  "id": "rules-6",
+  "theme": "Rules, Law & Society",
+  "themeZh": "規則與社會",
+  "setLabel": "Set 6",
+  "title": "Describe a person you know who always follows the rules.",
+  "cues": [
+   "who this person is",
+   "how you know him or her",
+   "what rules he or she follows",
+   "and explain how you feel about this person."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "my dad → retired civil servant, “rules are rules”"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "waits at red light even at 2 a.m. w/ empty road; sorts recycling perfectly; never parks on pavement; returns extra change"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "driving home from Yilan late at night → I said “no one’s around, just go” → he waited → explained: habits matter when no one watches"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "used to find it annoying → now respect it; trustworthy; I’ve become a bit like him"
+   }
+  ],
+  "sample": [
+   "**Well,** the person who follows the rules more strictly than anyone I know is definitely my dad. He worked as a civil servant for over thirty years **before** he retired, **and** his favourite saying is “rules are rules”. **Admittedly,** when I was a teenager, this drove me a bit crazy, **but** I’ve come to see him differently.",
+   "To give you some examples, he always stops at red lights, **even** at two in the morning when there isn’t a single car on the road. At home, he sorts the recycling perfectly, **and** he rinses every bubble tea cup before putting it in the right bag. **On top of that,** he never parks on the pavement, **even if** it means walking ten minutes in the rain. Once, a shop gave him too much change, **and** he went all the way back to return it.",
+   "**The time I remember most** was when we were driving home from Yilan very late one night. At one point, we stopped at a red light in the middle of nowhere, **and** the road was completely empty. **Half joking,** I said, “Dad, nobody’s around – just go.” **But** he simply waited until the light turned green. **Then** he told me that good habits matter most when nobody is watching, **because** that’s when they actually become part of who you are.",
+   "**These days,** I really respect him for that. **For one thing,** everyone around him knows they can trust him completely. **Funnily enough,** my friends say I’m becoming more and more like him, **and** I’m starting to think that’s a compliment."
+  ],
+  "followUps": [
+   {
+    "q": "Is it always good to follow the rules?",
+    "a": "**Not always,** in my opinion. Most of the time, rules exist for good reasons, **so** following them keeps everyone safe. However, history shows that some rules have been unfair, **and** people who broke them actually helped society improve. **So** I think we should follow rules **but also** think about whether they make sense."
+   },
+   {
+    "q": "Why are some people more willing to follow rules than others?",
+    "a": "**I’d say** it has a lot to do with personality and upbringing. **For instance,** children whose parents set clear rules at home often grow up respecting rules in general. **On top of that,** some jobs, like accounting or engineering, train people to be careful and precise, **so** following procedures becomes a habit."
+   },
+   {
+    "q": "Do people in your country generally respect rules?",
+    "a": "**Generally speaking,** yes. **For example,** people in Taipei queue patiently for the MRT and sort their rubbish carefully. **However,** traffic rules are a different story, **since** some drivers and scooter riders still run red lights. **So** I’d say it depends on the situation and on whether people think they might get caught."
+   }
+  ]
+ },
+ {
+  "id": "rules-7",
+  "theme": "Rules, Law & Society",
+  "themeZh": "規則與社會",
+  "setLabel": "Set 7",
+  "title": "Describe a sign or notice in a public place that you remember.",
+  "cues": [
+   "where you saw it",
+   "what it looked like",
+   "what it said or meant",
+   "and explain why you remember it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "priority seat sign 博愛座 on Taipei MRT → above seats at each end of carriage"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "small icons: elderly person, pregnant woman, parent w/ baby, person on crutches; seats in a different colour"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "exhausted after night shift → sat there, empty train → older lady got on → I jumped up; next week saw girl filmed + criticised online for sitting there"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "sign = reminder of kindness, but also social pressure; debate: should people w/ invisible needs sit?"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the sign I’d like to describe is the priority seat sign on the Taipei MRT. **If** you’ve ever taken the MRT, you’ve probably seen it. **Basically,** at each end of every carriage there are a few seats in a different colour from the others, **and** above them there’s a small sign showing who should be given priority.",
+   "**In terms of what it looks like,** it’s pretty simple. **There are** little icons of an elderly person with a walking stick, a pregnant woman, a parent holding a baby and someone on crutches. **In other words,** the seats are meant for people who find it hard to stand. **Interestingly,** in Chinese they’re called “seats of love”, **which** tells you a lot about how people see them.",
+   "**The reason I remember it** is because of something that happened a couple of years ago. **I had just** finished a night shift and was absolutely exhausted, **so** I sat in a priority seat on an almost empty train. **A few stops later,** an older lady got on, **and** I jumped up so fast that I nearly dropped my phone. **About a week later,** I saw a video online of a young woman who was criticised by thousands of people for sitting in a priority seat, **even though** it turned out she was ill.",
+   "**Looking back,** that sign means two things to me. **On the one hand,** it’s a nice reminder to be kind to people who need help. **On the other hand,** it shows how much social pressure there is in Taiwan, **because** some people who need the seat don’t look like they do."
+  ],
+  "followUps": [
+   {
+    "q": "Why do public places need signs?",
+    "a": "**Well,** signs give important information quickly, **especially** in busy places like stations and hospitals. **For example,** they show people where the exits are in an emergency. **On top of that,** signs with pictures help tourists who can’t read the local language. **So** good signs make public spaces safer and easier to use."
+   },
+   {
+    "q": "Do you think people pay attention to signs?",
+    "a": "**Realistically,** I think many people ignore them most of the time, **because** there are just too many signs everywhere. **However,** people usually notice signs that are bright, simple or funny. **For instance,** some signs in Taiwan use cute cartoon characters, **and** those tend to catch people’s eye much more easily."
+   },
+   {
+    "q": "Should priority seats be kept empty when nobody needs them?",
+    "a": "**Personally,** I don’t think so. **If** the train is crowded and nobody needs the seat, it seems a waste to leave it empty. **However,** people sitting there should stay alert **and** give it up as soon as someone needs it. The real problem is that some people pretend to be asleep **so** they don’t have to move."
+   }
+  ]
+ },
+ {
+  "id": "rules-8",
+  "theme": "Rules, Law & Society",
+  "themeZh": "規則與社會",
+  "setLabel": "Set 8",
+  "title": "Describe a place where people have to follow strict rules.",
+  "cues": [
+   "where it is",
+   "what the rules are",
+   "how people behave there",
+   "and explain how you feel about the rules there."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "airport security checkpoint → Taoyuan International Airport, before a flight to Osaka"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "liquids max 100 ml in clear bag; laptop out; belts + jackets off; no sharp objects; everyone quiet + serious"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "forgot big bottle of sunscreen in backpack → bag pulled aside → had to throw it away; queue behind me sighing"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "annoying but necessary for safety; now pack carefully + check rules online before every trip"
+   }
+  ],
+  "sample": [
+   "**Alright, so** the place I want to talk about is the security checkpoint at Taoyuan International Airport, **which** is the main airport in Taiwan. **I suppose** most airports in the world have similar rules, **but** I remember this one clearly **because of** a small mistake I made there before a trip to Osaka.",
+   "**To give you some background,** the rules at security are very strict. **For example,** any liquids in your hand luggage have to be in containers of no more than 100 millilitres, **and** they all need to fit into one clear plastic bag. **On top of that,** you have to take your laptop out of your bag and sometimes remove your jacket and belt. Interestingly, the atmosphere there is completely different from the rest of the airport. Everyone goes quiet and serious, **and** nobody jokes around.",
+   "**As for my story,** I had packed in a hurry the night before, **and** I completely forgot that there was a big bottle of sunscreen in my backpack. **When** my bag went through the X-ray machine, an officer pulled it aside and asked me to open it. **In the end,** I had to throw the sunscreen away, **even though** it was almost full. **Meanwhile,** the people queuing behind me were sighing loudly, **so** I felt really embarrassed.",
+   "**Looking back,** the rules were a bit annoying at that moment, **but** I understand they’re there to keep everyone safe. After all, nobody wants to take risks on a plane. **Since then,** I always check the rules online and pack my liquids carefully before every trip."
+  ],
+  "followUps": [
+   {
+    "q": "Why do some places have stricter rules than others?",
+    "a": "Mainly, it depends on the level of risk. **For example,** airports, hospitals and laboratories have strict rules **because** a single mistake could be dangerous. **On the other hand,** places like parks or cafés don’t need many rules, **since** the risks are low. **So** I think strict rules make sense where safety is involved."
+   },
+   {
+    "q": "Do you think rules at airports are too strict?",
+    "a": "**Sometimes** they feel a bit too strict, **especially** the rule about liquids, **because** it’s easy to forget a bottle of water. **However,** I’d rather be safe than sorry. In fact, I’ve heard that some airports are installing new scanners, **so** in the future passengers might not need to take things out of their bags."
+   },
+   {
+    "q": "How should people be taught to follow rules in public places?",
+    "a": "**I think** it should start at home and at school. **For instance,** parents can explain why we queue or keep quiet in a library. **Besides that,** clear signs and friendly staff help a lot. **Personally,** I believe people learn best by copying others, **so** setting a good example is the most powerful method."
+   }
+  ]
+ },
+ {
+  "id": "rules-9",
+  "theme": "Rules, Law & Society",
+  "themeZh": "規則與社會",
+  "setLabel": "Set 9",
+  "title": "Describe a time when you made rules for other people.",
+  "cues": [
+   "who the rules were for",
+   "what the rules were",
+   "how people reacted to them",
+   "and explain whether the rules worked."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "shared flat near Gongguan w/ 3 flatmates → I made house rules, 3rd yr uni"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "problems: dishes piled up, rubbish missed truck, loud calls at 1 a.m.; rules: chore rota, quiet after 11, label food in fridge; posted in LINE group + on fridge"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "1st week → 1 flatmate ignored rota → rubbish smelled; house meeting w/ bubble tea → added “swap system”"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "mostly worked; learned: ask for input, keep rules few + clear; still friends"
+   }
+  ],
+  "sample": [
+   "**Okay, so** I’d like to talk about the time I made some house rules for my flatmates. **In my third year of university,** I shared a small flat near Gongguan with three other students. **At first,** everything was fine, **but** after a couple of months, the flat started to become a bit of a mess.",
+   "To be more specific, there were three main problems. **First,** dirty dishes piled up in the sink for days. Second, nobody remembered to take the rubbish out when the garbage truck came, **and** in Taipei, if you miss the truck, you have to keep the rubbish at home. **On top of that,** one flatmate made loud video calls at one in the morning. **So** I wrote a few simple rules: a weekly chore rota, quiet time after eleven, **and** labels on our food in the fridge. Then I posted them in our LINE group and stuck a copy on the fridge.",
+   "**Unfortunately,** the first week didn’t go very well. **One of my flatmates** completely ignored the rota, **and** the kitchen started to smell of old rubbish. **Instead of getting angry,** I bought four cups of bubble tea and called a house meeting. **During the meeting,** we talked things through, **and** we added a “swap system”, **so** people could trade chores if they were busy with exams.",
+   "**Looking back,** the rules mostly worked, **mainly because** everyone had a say in the final version. **The biggest lesson I learned is that** rules should be few, clear and agreed together. **Happily,** we’re all still good friends today, and we even meet up for hot pot once a month."
+  ],
+  "followUps": [
+   {
+    "q": "Is it better for rules to be made by one person or by a group?",
+    "a": "**In most cases,** I think a group is better, **because** people are more likely to follow rules they helped create. **However,** groups can take a long time to agree on anything. **So** in an emergency or a large company, it often makes sense for one person to decide, **as long as** they listen to others."
+   },
+   {
+    "q": "What rules do parents usually make for their children in your country?",
+    "a": "**In Taiwan,** common rules are about study and screen time. **For example,** many kids aren’t allowed to play games until they finish their homework. **Besides that,** parents often set a time to be home in the evening. **Nowadays,** however, more parents are also making rules about how long children can use their phones."
+   },
+   {
+    "q": "Why do some people find it hard to tell others to follow rules?",
+    "a": "**I think** it’s mainly because they don’t want to cause conflict, **especially** in a culture where keeping harmony is important. **For instance,** many people would rather clean up after a flatmate than complain. **On top of that,** nobody wants to seem bossy, **so** they stay silent until the problem gets really serious."
+   }
+  ]
+ },
+ {
+  "id": "rules-10",
+  "theme": "Rules, Law & Society",
+  "themeZh": "規則與社會",
+  "setLabel": "Set 10",
+  "title": "Describe a change in the way drivers in your country treat pedestrians.",
+  "cues": [
+   "what the change is",
+   "when you noticed it",
+   "what caused the change",
+   "and explain what effects the change has had."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Taiwan traffic → nickname “pedestrian hell” 行人地獄; now cars more likely to stop at crossings"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "before: cars + scooters turned into crossing while people walking; few pavements in old lanes; my grandma afraid to cross"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "~2023: news of accidents + public anger → protests + much heavier fines for not yielding, more cameras; noticed taxi waited for me = surprised"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "effects: safer crossings, drivers more careful; still long way → need wider pavements + better design, not only fines"
+   }
+  ],
+  "sample": [
+   "**Alright, so** I’d like to talk about a change in the way drivers in Taiwan treat people on foot. **For years,** our traffic had a pretty bad reputation, **and** some people even started calling Taiwan a “pedestrian hell”. **Recently,** however, I’ve noticed that drivers seem much more willing to stop and let pedestrians cross.",
+   "**To give you some background,** it used to be really common for cars and scooters to turn into a zebra crossing while people were still walking across it. **On top of that,** many older lanes in Taipei don’t have proper pavements, **so** you have to walk right next to the traffic. **For example,** my grandma was always nervous about crossing the big road near her home, **and** she usually waited for a stranger to cross with her.",
+   "**As for what caused the change,** I think it started around 2023. **At that time,** there were several serious accidents in the news, **and** people became really angry. **As a result,** there were street protests, **and** the government introduced much heavier fines for drivers who don’t give way to pedestrians. They also added more traffic cameras at crossings. **I remember the first time** a taxi actually stopped and waited for me. **Believe it or not,** I was so surprised that I just stood there for a second.",
+   "**In terms of effects,** crossing the road definitely feels safer now, **and** drivers seem more careful at junctions. **However,** I think there’s still a long way to go. **In my opinion,** fines alone aren’t enough – cities also need wider pavements and better road design."
+  ],
+  "followUps": [
+   {
+    "q": "Why do some drivers not respect pedestrians?",
+    "a": "**I think** one reason is that drivers are often in a hurry, **so** they see pedestrians as something slowing them down. **On top of that,** in the past the fines were quite low, **so** there wasn’t much reason to change. **Besides that,** some people simply copy the bad habits they saw when they were learning to drive."
+   },
+   {
+    "q": "Is it more effective to punish drivers or to educate them?",
+    "a": "Ideally, we need both. **In the short term,** fines and cameras change behaviour quickly, **because** nobody wants to lose money. **In the long term,** however, education is more powerful, **since** it changes how people think. **For instance,** driving tests could include more questions and practice about pedestrian safety."
+   },
+   {
+    "q": "How can cities be made more friendly for people who walk?",
+    "a": "**First of all,** cities need wide, flat pavements without scooters parked all over them. Secondly, crossings should be well lit **and** give people enough time to cross, **especially** older people. **On top of that,** more trees and shade would help a lot, **since** Taiwan’s summers are so hot. That way, walking becomes a pleasant choice."
+   }
+  ]
  }
 ]
 ;
