@@ -11219,6 +11219,516 @@ window.IELTS_PART2 = [
     "a": "**First of all,** cities need wide, flat pavements without scooters parked all over them. Secondly, crossings should be well lit **and** give people enough time to cross, **especially** older people. **On top of that,** more trees and shade would help a lot, **since** Taiwan’s summers are so hot. That way, walking becomes a pleasant choice."
    }
   ]
+ },
+ {
+  "id": "entertainment-1",
+  "theme": "Entertainment & Shows",
+  "themeZh": "娛樂與表演",
+  "setLabel": "Set 1",
+  "title": "Describe a theme park or amusement park you visited.",
+  "cues": [
+   "where it is",
+   "who you went with",
+   "what you did there",
+   "and explain how you felt about the visit."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Leofoo Village 六福村 → Guanxi, Hsinchu; ~1 hr drive from Taipei"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "theme park + safari zone (giraffes, lions from bus); several themed areas; big roller coasters + drop tower"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "class reunion trip last summer, 6 friends; drop tower → screamed, legs shaking; queued 50 min in heat → bubble tea saved us"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "felt like a kid again; tiring + pricey but worth it → shared fear = stronger friendship"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the place I’d like to talk about is Leofoo Village, which is a big theme park in Guanxi, in Hsinchu County. It’s about an hour’s drive from Taipei, **so** it’s a really popular day trip for students and families. **To be fair,** it’s not as huge as Disneyland, **but** it’s probably the most famous theme park in northern Taiwan.",
+   "**What makes it a bit unusual is that** it’s a theme park and a safari park at the same time. **On one side,** there are several themed areas with roller coasters, water rides and a really tall drop tower. **On the other side,** you can get on a bus and drive slowly past giraffes, zebras and even lions. **Apparently,** a lot of kids go there more for the animals than for the rides.",
+   "**I went there last summer** with five friends from high school, as a kind of mini class reunion. **Right after we arrived,** my friend dragged us to the drop tower. **To be honest,** I screamed the whole way down, **and** when I got off, my legs were literally shaking. **After that,** we queued for almost fifty minutes for a water ride in the burning sun. **Luckily,** someone had brought bubble tea, **which** basically saved our lives.",
+   "**Looking back,** it was a pretty tiring and expensive day, **but** I felt like a kid again. **What I enjoyed most** was that we were all scared together, **so** we laughed about it all the way home. **In the end,** I think sharing a bit of fear actually brings friends closer."
+  ],
+  "followUps": [
+   {
+    "q": "Why do adults still enjoy going to theme parks?",
+    "a": "**I think** theme parks let adults forget their responsibilities for a day. **For example,** office workers who sit at a desk all week can scream on a roller coaster without feeling silly. **On top of that,** many adults go with their own kids, **so** they get to relive their childhood through their children."
+   },
+   {
+    "q": "Are theme parks good value for money?",
+    "a": "**It really depends.** **On the one hand,** tickets, food and parking can easily add up to a lot of money for a family. **On the other hand,** you get a whole day of activities in one place. **Personally,** I think they’re worth it once or twice a year, **especially** if you buy tickets online at a discount."
+   },
+   {
+    "q": "How can theme parks attract more visitors?",
+    "a": "**Well,** one way is to keep adding new rides, **because** people want something different each time. **Another idea** is to hold seasonal events, like a Halloween night or a Christmas light show. **Besides that,** parks could work with popular cartoons or games, **since** young people love taking photos with characters they already know."
+   }
+  ]
+ },
+ {
+  "id": "entertainment-2",
+  "theme": "Entertainment & Shows",
+  "themeZh": "娛樂與表演",
+  "setLabel": "Set 2",
+  "title": "Describe a live show you enjoyed watching.",
+  "cues": [
+   "what kind of show it was",
+   "where and when you saw it",
+   "who you went with",
+   "and explain why you enjoyed it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "stand-up comedy show → small comedy club in Taipei; Mandarin + a bit of Taiwanese"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "~80 seats, tiny stage, 1 mic; 4 comedians × 15 min; jokes about MRT, landlords, mums"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "went w/ colleague after work, Fri night; front row → comedian asked my job → joked about English teachers; whole room laughed"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "felt embarrassed then loved it; live = energy you can’t get on YouTube; now go every few months"
+   }
+  ],
+  "sample": [
+   "**Alright, so** I want to talk about a stand-up comedy show I went to a few months ago. **To be honest,** I’d only ever watched stand-up comedy online before, **so** I was curious to see what it was like in real life. The show was in a small comedy club in Taipei, **and** most of it was in Mandarin, with a few jokes in Taiwanese.",
+   "**First of all,** the place was tiny. There were only about eighty seats, a little stage and a single microphone, **so** it felt really cosy. That night, four comedians performed, each for around fifteen minutes. **Most of their jokes** were about everyday life in Taipei, **like** crowded MRT trains, mean landlords and mums who send fifty messages a day on LINE. **Because** everyone in the audience could relate, the laughter just kept building.",
+   "**I went there** with a colleague on a Friday night after work. **Unfortunately for me,** we were sitting in the front row. **Halfway through the show,** one comedian pointed at me and asked what I did for a living. **As soon as** I said I was an English teacher, he started joking that I must correct people’s grammar on dates. **Needless to say,** the whole room burst out laughing, **and** my face turned completely red.",
+   "**At first,** I felt a bit embarrassed, **but** I ended up loving it. **What I realised is that** live comedy has a kind of energy you just can’t get from YouTube. **Since then,** I’ve been back every few months, **though** I always sit at the back now."
+  ],
+  "followUps": [
+   {
+    "q": "Why do people enjoy watching live performances?",
+    "a": "**I think** it’s mainly about the atmosphere. **For instance,** laughing or cheering together with hundreds of strangers feels very different from watching alone on your phone. **Also,** anything can happen during a live show, **so** it feels exciting and unique. **That’s why** people are willing to pay much more for a ticket."
+   },
+   {
+    "q": "Is comedy different in different cultures?",
+    "a": "**Definitely,** to some extent. **For example,** a lot of humour depends on wordplay, **and** that’s almost impossible to translate. **In addition,** some topics are fine to joke about in one country but rude in another. **Having said that,** jokes about family, work and daily problems seem to make people laugh almost everywhere."
+   },
+   {
+    "q": "Should comedians be allowed to joke about anything?",
+    "a": "That’s a tricky question. **On the one hand,** comedy should be free, **because** jokes can point out real problems in society. **On the other hand,** jokes that attack people for their race or disability can really hurt. **So personally,** I think comedians should have freedom, **but** they also need to think about who they’re laughing at."
+   }
+  ]
+ },
+ {
+  "id": "entertainment-3",
+  "theme": "Entertainment & Shows",
+  "themeZh": "娛樂與表演",
+  "setLabel": "Set 3",
+  "title": "Describe a street performer you watched.",
+  "cues": [
+   "who the performer was",
+   "where you saw him or her",
+   "what he or she did",
+   "and explain how you felt about the performance."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "young guy doing magic + juggling → Ximending pedestrian area, Sat evening"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "street performers in Taipei need a licence from the city; his sign + QR code for tips; crowd of ~50 in a circle"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "asked a shy girl to pick a card → card appeared inside sealed bottle; ended juggling 3 knives on unicycle → huge applause"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "impressed by courage + skill; tipped 100 NT; street art = makes city lively + free culture for all"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the street performer I want to describe is a young guy I saw in Ximending, which is the busy pedestrian area in Taipei where lots of teenagers hang out. **It was a Saturday evening,** and I was just walking to the cinema with my cousin **when** we noticed a big crowd forming in a circle, **so** of course we stopped to have a look.",
+   "**To give you some background,** in Taipei, street performers usually need to get a licence from the city government before they can perform in public. **In fact,** this guy had a small sign with his licence number and a QR code for tips. **His act** was a mix of magic tricks and juggling, **and** by the time we joined, there were around fifty people watching him.",
+   "**The part I remember most** was a card trick. **First,** he asked a shy girl in the crowd to choose a card and sign her name on it. **Then,** he made it disappear, **and** a minute later it showed up inside a sealed glass bottle that had been on the ground the whole time! Everyone gasped. **To finish,** he climbed onto a unicycle and juggled three knives, **which** got the biggest applause of the night.",
+   "**Afterwards,** I put a hundred Taiwan dollars in his box, **because** I was really impressed. **Not only** did he have amazing skills, **but** he also had the courage to perform in front of total strangers. **In my opinion,** street performers make the city feel much more lively, **and** they give everyone free culture."
+  ],
+  "followUps": [
+   {
+    "q": "Should the government control where street performers can perform?",
+    "a": "**I think** some rules are necessary. **For example,** performers shouldn’t block busy pavements or play loud music near hospitals. **However,** if the rules are too strict, the city loses a lot of its character. **So ideally,** the government should choose suitable spots **and** keep the licence process simple and fair."
+   },
+   {
+    "q": "Why do some people choose to perform on the street rather than in a theatre?",
+    "a": "**Well,** for many young performers, the street is the easiest place to start. **First,** it costs nothing to perform there. **Second,** they can practise in front of real audiences every day. **Besides,** some performers simply enjoy the freedom, **because** nobody tells them what to do or how long to perform."
+   },
+   {
+    "q": "Do you think people should give money to street performers?",
+    "a": "**Personally,** I think they should, if they enjoyed the show. **After all,** performers spend years practising their skills, **and** for many of them, tips are their main income. **Of course,** nobody should feel forced to pay. **Still,** even a small coin shows respect for their hard work."
+   }
+  ]
+ },
+ {
+  "id": "entertainment-4",
+  "theme": "Entertainment & Shows",
+  "themeZh": "娛樂與表演",
+  "setLabel": "Set 4",
+  "title": "Describe an evening you spent singing at a KTV with friends.",
+  "cues": [
+   "when it was",
+   "who you went with",
+   "what you did there",
+   "and explain why you remember this evening."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "KTV = private karaoke room; big chain in Taipei; went for friend’s 25th b-day"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "room for 8, huge screen, 2 mics, tambourines; buffet + fried snacks; booked 9 pm – 1 am"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "shy friend Kevin silent all night → final song, sang Jay Chou ballad → perfect; everyone shocked + filmed"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "best part = seeing friends’ hidden side; KTV = way TW young people let off steam"
+   }
+  ],
+  "sample": [
+   "**Alright, so** for people who don’t know, a KTV in Taiwan is basically a private karaoke room that you book with your friends. **The evening I want to talk about** was my friend Annie’s twenty-fifth birthday last year. **To celebrate,** eight of us booked a room at one of the big KTV chains in Taipei, from nine at night until one in the morning.",
+   "**As for the room itself,** it had a huge screen, comfortable sofas, two microphones and even a couple of tambourines. **On top of that,** there was a buffet outside with fried chicken, dumplings, salad and all kinds of desserts, **so** we spent half the time eating. **Usually,** everyone fights over the song list, **and** that night was no different. We sang everything from old Mandopop love songs to K-pop, **although** our dancing was pretty terrible.",
+   "**The moment I’ll never forget** happened right at the end. **Throughout the evening,** our friend Kevin, who is really quiet, refused to sing even once. **Then,** about five minutes before our time was up, he suddenly picked up the microphone and chose a slow Jay Chou ballad. **To our surprise,** his voice was absolutely perfect. **Within seconds,** the whole room went silent, **and** then everyone took out their phones to film him.",
+   "**Looking back,** I think that’s why I remember the evening so clearly. **For me,** the best thing about KTV is that you see a hidden side of your friends. **In general,** it’s also how a lot of young Taiwanese let off steam after a long, stressful week at work or school."
+  ],
+  "followUps": [
+   {
+    "q": "Why is karaoke so popular in Asia?",
+    "a": "**I think** one reason is that private rooms make it less embarrassing. **For instance,** you only sing in front of your friends, not a whole bar full of strangers. **In addition,** many people in Asian countries are quite reserved in daily life, **so** KTV gives them a safe place to be loud and silly."
+   },
+   {
+    "q": "Is singing a good way to reduce stress?",
+    "a": "**Absolutely,** in my experience. **First of all,** singing makes you breathe deeply, **which** helps you relax. **Also,** when you sing with friends, you laugh a lot, and that improves your mood straight away. **The only downside** is that you might lose your voice the next day if you sing too much."
+   },
+   {
+    "q": "Do young people and older people enjoy the same kinds of entertainment?",
+    "a": "Not exactly. **Generally speaking,** young people prefer things that are fast and shareable online, **like** escape rooms or short videos. **Meanwhile,** older people often like slower activities, **such as** watching TV dramas or singing old songs with neighbours. **Interestingly,** though, KTV is one of the few things that both generations seem to love."
+   }
+  ]
+ },
+ {
+  "id": "entertainment-5",
+  "theme": "Entertainment & Shows",
+  "themeZh": "娛樂與表演",
+  "setLabel": "Set 5",
+  "title": "Describe a variety show or reality show you like watching.",
+  "cues": [
+   "what the show is",
+   "what happens in it",
+   "how often you watch it",
+   "and explain why you like watching it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Running Man → Korean variety show, started 2010, still on air; watch w/ Chinese subtitles"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "group of celebs + guests; missions + games in different places; famous name-tag ripping game"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "got hooked in uni → watched 10 eps in 1 weekend w/ roommate; now 1 ep every Sun night w/ dinner"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "no script feeling, real friendship; laugh out loud → best stress relief; picked up some Korean"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the show I want to talk about is a Korean variety show called Running Man. It started back in 2010, **and** surprisingly, it’s still going today, **which** is very unusual for a TV programme. **In Taiwan,** it’s pretty easy to watch on streaming platforms with Chinese subtitles, **so** a lot of my friends and colleagues are big fans too.",
+   "**Basically,** each episode follows a group of Korean celebrities, plus one or two special guests. They travel to different places and complete funny missions and games. **The most famous part** is the name-tag game, **where** everyone wears a name tag on their back and tries to rip off other people’s tags. **As a result,** you see famous actors and singers running around, falling over and cheating like naughty kids.",
+   "**I first got into it** when I was at university. **One weekend,** my roommate showed me a single episode, **and** we ended up watching about ten episodes in a row, **until** it was almost sunrise. **These days,** I don’t have that much free time, **so** I usually watch one episode every Sunday night while I’m having dinner on the sofa. **To me,** it’s become a kind of weekly ritual before the busy week starts.",
+   "**What I like most** is that the members seem like real friends rather than people reading a script. Plus, I always end up laughing out loud, **which** is the best stress relief for me. **On top of that,** I’ve actually picked up quite a few useful Korean words and phrases, **so** it’s not a total waste of time!"
+  ],
+  "followUps": [
+   {
+    "q": "Why are reality shows so popular?",
+    "a": "**I think** people enjoy watching real reactions. **For example,** when someone wins or fails a challenge, viewers feel the emotions together with them. **Besides,** many reality shows have ordinary people as contestants, **so** audiences can imagine themselves in that situation. Of course, some shows are partly scripted, **but** they still feel more natural than dramas."
+   },
+   {
+    "q": "Do you think reality TV gives a true picture of real life?",
+    "a": "Not really, in my opinion. **First of all,** producers usually edit hours of footage into a short episode, **so** they can make someone look like a villain. **In addition,** people often behave differently when cameras are around. **So I’d say** reality TV is entertainment based on reality, **rather than** reality itself."
+   },
+   {
+    "q": "Why do foreign TV shows become popular in Taiwan?",
+    "a": "**Well,** streaming platforms have made it really easy to watch shows from anywhere. **For instance,** Korean and Japanese programmes are often available with Chinese subtitles very quickly. **On top of that,** Taiwanese audiences feel culturally close to those countries. **As a result,** foreign shows sometimes get more attention than local ones."
+   }
+  ]
+ },
+ {
+  "id": "entertainment-6",
+  "theme": "Entertainment & Shows",
+  "themeZh": "娛樂與表演",
+  "setLabel": "Set 6",
+  "title": "Describe an escape room or other indoor activity you tried.",
+  "cues": [
+   "what the activity was",
+   "where you tried it",
+   "who you did it with",
+   "and explain how you felt about the experience."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "escape room → small studio in Taipei; theme = abandoned school at night"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "team of 5, 60 min limit; dark classrooms, locks, hidden codes, walkie-talkie for hints"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "stuck on last puzzle → blackboard maths code; my cousin (engineer) solved it w/ 40 sec left; screamed when a ‘ghost’ staff jumped out"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "felt proud + exhausted; good for teamwork → saw who leads, who panics; want to try a harder room"
+   }
+  ],
+  "sample": [
+   "**Alright, so** I’d like to talk about an escape room I tried last winter. For those who haven’t done one, an escape room is a game where your team is locked in a themed room, **and** you have to solve puzzles to get out before the time runs out. **The one we chose** was in a small studio in Taipei, **and** its theme was an abandoned high school at night.",
+   "**I went with** four cousins, **so** there were five of us, **and** we had exactly sixty minutes. Inside, it was quite dark and creepy. There were old classrooms, rusty lockers and a blackboard covered in strange writing. **Basically,** every clue led to a code for another lock. **If we got stuck,** we could ask the staff for hints through a walkie-talkie, **but** each hint cost us extra time.",
+   "**Things got really tense** near the end. For about ten minutes, we were stuck on the final puzzle, **which** was a maths problem hidden on the blackboard. **Just when** we were about to give up, my cousin, who’s an engineer, suddenly shouted that he’d worked it out. **In the end,** we escaped with only forty seconds left! **The funny thing is,** just before that, a staff member dressed as a ghost jumped out of a cupboard, **and** I screamed so loudly that everyone laughed at me.",
+   "**Afterwards,** I felt proud but completely exhausted. **What I found interesting** was that you quickly see who leads and who panics. **So overall,** I’d say it’s a great activity for teamwork, **and** next time I’d love to try a harder room."
+  ],
+  "followUps": [
+   {
+    "q": "Why have indoor activities like escape rooms become popular in cities?",
+    "a": "**I think** the weather is one big reason. **For example,** in Taipei it rains a lot, **so** people need fun things to do indoors. **Also,** city flats are small, which means young people prefer to meet friends somewhere else. **On top of that,** these activities look great on social media."
+   },
+   {
+    "q": "Are team games a good way to build relationships at work?",
+    "a": "**To some extent,** yes. **For instance,** solving a puzzle together helps colleagues see each other’s strengths outside the office. **However,** if the activity is forced, people might feel stressed rather than relaxed. **So in my view,** team games work best when they’re optional **and** happen during working hours, not at the weekend."
+   },
+   {
+    "q": "Do people need to spend money to have fun?",
+    "a": "**Not necessarily.** **Of course,** places like theme parks and escape rooms can be expensive. **However,** there are lots of free options too, **like** hiking, playing board games at home or visiting a free museum. **In fact,** some of my best memories come from simply chatting with friends at a convenience store late at night."
+   }
+  ]
+ },
+ {
+  "id": "entertainment-7",
+  "theme": "Entertainment & Shows",
+  "themeZh": "娛樂與表演",
+  "setLabel": "Set 7",
+  "title": "Describe a ticket or souvenir you kept from a show or event.",
+  "cues": [
+   "what it is",
+   "where you got it",
+   "where you keep it now",
+   "and explain why you decided to keep it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "paper ticket from a musical → touring production of a famous Western musical, big theatre in Taipei"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "printed ticket, seat number, date, slightly torn; most tickets digital now → rare"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "1st pay cheque → bought 2 tickets for me + mum; she cried at final song; we took a photo w/ the ticket outside"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "kept in frame on desk next to that photo; reminds me of growing up + thanking mum"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the thing I want to describe is a paper ticket from a musical I saw about three years ago. It was a touring production of a famous Western musical, **and** it was performed at one of the biggest theatres in Taipei. **To be honest,** it’s just a small piece of paper, **but** it’s one of the things I would never throw away.",
+   "**In terms of what it looks like,** it’s a long, printed ticket with the name of the show, the date, and our seat numbers in the second balcony. **By now,** one corner is slightly torn, **because** the staff ripped it at the door. **Interestingly,** most tickets these days are just QR codes on your phone, **so** having a real paper ticket feels quite special and a bit old-fashioned.",
+   "**The story behind it** is that I bought the tickets with my very first pay cheque. **Ever since I was a kid,** my mum had talked about this musical, **but** she always said it was too expensive. **So,** as a surprise, I gave her the tickets for her birthday. **During the final song,** I looked over and saw that she was crying. **After the show,** we took a photo together outside the theatre, **and** she held up the ticket like a trophy.",
+   "**These days,** I keep the ticket in a small frame on my desk, right next to that photo. **Whenever** I look at it, it reminds me that I’ve grown up and can finally take care of my parents. **For me,** that’s worth much more than the price of the ticket."
+  ],
+  "followUps": [
+   {
+    "q": "Why do people like to keep souvenirs?",
+    "a": "**I think** souvenirs help us hold on to good memories. **For example,** a simple keyring can instantly remind you of a whole trip. **Also,** memories fade over time, **so** having a physical object makes them feel more real. **On top of that,** souvenirs are a nice way to start conversations with visitors."
+   },
+   {
+    "q": "Will paper tickets disappear in the future?",
+    "a": "**Most likely,** yes. Nowadays, most events in Taiwan already use e-tickets **because** they’re cheaper and harder to copy. **However,** I think some collectors will still want printed versions. **So maybe** organisers will offer special paper tickets as souvenirs, **rather than** as something you actually need to get in."
+   },
+   {
+    "q": "Is it better to spend money on experiences or on things?",
+    "a": "**Personally,** I prefer experiences. **For one thing,** the excitement of buying a new gadget disappears quickly. **For another,** experiences like concerts or trips create stories you can share for years. **That said,** small objects connected to those experiences, **like** tickets or photos, can make the memories last even longer."
+   }
+  ]
+ },
+ {
+  "id": "entertainment-8",
+  "theme": "Entertainment & Shows",
+  "themeZh": "娛樂與表演",
+  "setLabel": "Set 8",
+  "title": "Describe a person you know who is good at entertaining others.",
+  "cues": [
+   "who this person is",
+   "how you know him or her",
+   "what he or she does to entertain people",
+   "and explain how you feel about this person."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "my uncle Ming 明叔 → mum’s younger brother, sales manager, ‘life of the party’"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "funny stories, impressions of TV hosts + singers; card tricks; remembers everyone’s name"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "cousin’s wedding → MC got sick → uncle took over w/ 5 min notice; games for guests; bride’s grandma laughing"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "admire confidence + kindness → makes shy people feel included; want to be more like him"
+   }
+  ],
+  "sample": [
+   "**Well,** the person I want to talk about is my uncle Ming, who is my mum’s younger brother. He’s a sales manager, **so** he talks to people all day, **and** in our family, he’s definitely the life of the party. He’s in his early fifties, but he has more energy than most people my age. **Basically,** whenever he walks into a room, the atmosphere changes straight away and people start smiling.",
+   "**As for how he entertains people,** he’s got a whole toolbox of tricks. **For example,** he tells funny stories about his customers and does really accurate impressions of famous TV hosts and singers. **On top of that,** he knows a few simple card tricks, **which** the kids in our family absolutely love. **What’s more,** he remembers everyone’s name and little details about their lives, **so** people feel special when they talk to him.",
+   "**The best example** was at my cousin’s wedding banquet two years ago. **Just before** the banquet started, the professional host called in sick. Obviously, everyone panicked, **but** my uncle took the microphone with about five minutes’ notice. **For the next three hours,** he introduced every dish, ran silly games for the guests and kept everyone laughing. **At one point,** even the bride’s ninety-year-old grandma was laughing so hard that she nearly cried.",
+   "**To be honest,** I really admire him. **I think** it’s not just that he’s funny, **but** that he’s kind. In particular, he always makes shy people feel included, **which** is something I still struggle with. **So I’d say** he’s a bit of a role model for me."
+  ],
+  "followUps": [
+   {
+    "q": "Is having a sense of humour important in daily life?",
+    "a": "Definitely. **First of all,** humour helps people deal with stress, **because** laughing makes problems seem smaller. **Also,** at work, a funny colleague can make a long meeting much more bearable. **However,** it’s important to know when to be serious, **so** that people still take you seriously."
+   },
+   {
+    "q": "Can people learn to be more entertaining, or is it a natural talent?",
+    "a": "**I believe** it’s a bit of both. **Of course,** some people are born confident and quick-witted. **Still,** skills like storytelling and public speaking can definitely be practised. **For example,** many shy people join drama clubs or speaking classes, **and** after a while they become much more relaxed in front of others."
+   },
+   {
+    "q": "Why do some people feel uncomfortable at parties?",
+    "a": "**Well,** some people are simply introverts, **so** being around lots of people drains their energy. **Besides that,** they might worry about saying the wrong thing or not knowing anyone. **That’s why** a good host is so important, **because** he or she can introduce people and make everyone feel welcome."
+   }
+  ]
+ },
+ {
+  "id": "entertainment-9",
+  "theme": "Entertainment & Shows",
+  "themeZh": "娛樂與表演",
+  "setLabel": "Set 9",
+  "title": "Describe a kind of fan culture that is popular among young people in your country.",
+  "cues": [
+   "what the fan culture is",
+   "what fans usually do",
+   "why it has become so popular",
+   "and explain what effects it has on young people."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "idol fan culture 追星 → mostly K-pop + some TW / J-pop idols"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "light sticks, photo cards, fan meetings; birthday support ads in MRT stations; queuing all night for concert tickets"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "my student → saved pocket money 6 months for concert; learned Korean through lyrics; made friends in fan group"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "causes: social media, idols feel close; effects: + community, motivation; – money, pressure, ticket scalpers → balance"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the fan culture I’d like to talk about is idol fandom, **or** what we call “zhui xing” in Chinese, **which** literally means “chasing stars”. **In Taiwan,** it’s really popular among teenagers and university students, **and** most of them follow Korean pop groups, **although** some support Japanese or local Taiwanese idols too.",
+   "**In terms of what fans do,** it goes way beyond just listening to music. **For example,** they collect photo cards, buy official light sticks and travel to fan meetings. Some fan clubs even raise money together to put up birthday ads for their idols in MRT stations, **so** you sometimes walk past a giant poster of a K-pop star with a birthday message. **On top of that,** when a big concert is announced, fans often stay up all night trying to get tickets online.",
+   "A good example is one of my students. **Last year,** she saved her pocket money for six months to see her favourite group in Taipei. Interestingly, she also learned a lot of Korean just by studying the song lyrics. Even better, she made several close friends from all over Taiwan in an online fan group, **and** now they hang out every weekend.",
+   "**As for the reasons,** social media makes idols feel very close, **because** fans can watch their live streams every day. **As a result,** there are positive effects, **like** a sense of community and motivation to learn languages. **However,** there are downsides too, **such as** overspending and expensive tickets from scalpers. **So overall,** I think it’s fine, **as long as** young people keep a healthy balance."
+  ],
+  "followUps": [
+   {
+    "q": "Why do teenagers often admire celebrities?",
+    "a": "**I think** teenagers are still figuring out who they are, **so** they look for role models. **For example,** a singer who worked hard for years before becoming famous can be really inspiring. **Also,** celebrities look confident and successful, **which** is exactly what many teenagers want to feel themselves."
+   },
+   {
+    "q": "Should parents worry if their children spend a lot of time following idols?",
+    "a": "**To some extent,** they should pay attention. **On the one hand,** being a fan can bring friendship and happiness. **On the other hand,** some teenagers spend too much money or neglect their studies. **So rather than** banning it, **I think** parents should talk to their kids and help them set limits."
+   },
+   {
+    "q": "What can be done about ticket scalping for popular concerts?",
+    "a": "**Well,** one solution is to use real-name tickets, **so** the buyer’s ID has to match at the entrance. **Another idea** is to have stricter laws and bigger fines for people who resell tickets at crazy prices. **On top of that,** fans themselves could simply refuse to buy from scalpers, **although** that’s easier said than done."
+   }
+  ]
+ },
+ {
+  "id": "entertainment-10",
+  "theme": "Entertainment & Shows",
+  "themeZh": "娛樂與表演",
+  "setLabel": "Set 10",
+  "title": "Describe a time when you spent more money on entertainment than you planned.",
+  "cues": [
+   "what the entertainment was",
+   "how much you planned to spend",
+   "why you ended up spending more",
+   "and explain how you felt about it afterwards."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "weekend at a big arcade + bowling in a Taipei mall w/ 2 old classmates"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "plan: 1 game of bowling + dinner ~800 NT; arcade next door: dance games, racing, basketball machines"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "basketball machine → ‘just one more’ to beat friend’s score; prize tickets → swapped for cheap plush toy; total ~2,500 NT"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "shocked at first, laughed later; lesson → set a budget + leave card at home; still a great day"
+   }
+  ],
+  "sample": [
+   "**Alright, so** I’m going to talk about a Saturday a few months ago when I met two old classmates at a big shopping mall in Taipei. **Originally,** the plan was really simple. We were going to play one game of bowling **and then** have dinner, **so** I thought I’d spend about eight hundred Taiwan dollars in total.",
+   "**The problem was that** right next to the bowling alley, there was a huge arcade. It had dance machines, racing games and those basketball machines where you shoot as many balls as you can in sixty seconds. Naturally, the place was full of flashing lights and loud music, **which** made it really hard to walk past. **Before we knew it,** we had each topped up a game card.",
+   "**What happened next** was a bit embarrassing. **On the basketball machine,** my friend Jason got a really high score, **and** I was determined to beat him. **So** I kept saying, “Just one more game!” Each time, I got a little bit closer, **but** I never quite made it. **Meanwhile,** the machine kept giving us prize tickets, **and** at the end we swapped hundreds of them for a tiny plush toy that probably cost fifty dollars. **By the end of the night,** I’d spent around two and a half thousand dollars!",
+   "**When I checked my bank app,** I was totally shocked. **Later on,** though, I could laugh about it, **because** it was a really fun day. **The lesson I learned** was to set a budget before going out, **and maybe** leave my card at home next time."
+  ],
+  "followUps": [
+   {
+    "q": "Why do people often spend more than they plan when they go out?",
+    "a": "**I think** a lot of places are designed to make us spend. **For example,** arcades use bright lights and loud music **so** that people get excited and forget about money. **In addition,** paying by card or phone doesn’t feel like real money. **As a result,** small amounts add up very quickly."
+   },
+   {
+    "q": "Should young people save money or enjoy life while they are young?",
+    "a": "**Ideally,** they should do both. **On the one hand,** experiences with friends are important and create lasting memories. **On the other hand,** saving a bit every month gives you security for the future. **So personally,** I follow a simple rule: I save a fixed amount first, **and then** I spend the rest without feeling guilty."
+   },
+   {
+    "q": "How has the way people pay for entertainment changed?",
+    "a": "**Well,** these days hardly anyone pays with cash. **For instance,** most people in Taiwan use mobile payment apps or credit cards for tickets and games. **On top of that,** many people now pay monthly subscriptions for streaming services. **The problem is that** it’s easy to forget how many subscriptions you have, **so** costs can pile up."
+   }
+  ]
  }
 ]
 ;
