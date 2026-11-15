@@ -11729,6 +11729,516 @@ window.IELTS_PART2 = [
     "a": "**Well,** these days hardly anyone pays with cash. **For instance,** most people in Taiwan use mobile payment apps or credit cards for tickets and games. **On top of that,** many people now pay monthly subscriptions for streaming services. **The problem is that** it’s easy to forget how many subscriptions you have, **so** costs can pile up."
    }
   ]
+ },
+ {
+  "id": "experiences-1",
+  "theme": "Unforgettable Experiences",
+  "themeZh": "難忘的經歷",
+  "setLabel": "Set 1",
+  "title": "Describe a day you will never forget.",
+  "cues": [
+   "when it was",
+   "where you were and who you were with",
+   "what happened on that day",
+   "and explain why you will never forget it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "day my little brother was born → I was 8, summer holiday, hospital in Taichung"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "Dad woke me up at 5 a.m. → grandma’s scooter to hospital; waiting room, vending-machine juice, nervous relatives"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "nurse let me see him through glass → tiny, red, screaming; Dad: “you’re a big sister now” → felt grown-up"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "end of being only child + start of new role; now he’s at uni → still tease him about that day"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the day I’d like to talk about is the day my little brother was born. **At the time,** I was eight years old and it was the middle of the summer holiday. **I’d say** it’s one of the very first days in my life that I can remember from start to finish, almost like a film I can replay in my head.",
+   "**To give you some background,** my family was living in Taichung back then. **Early that morning,** my dad woke me up at about five o’clock and told me Mum had gone to the hospital. **Then** my grandma took me there on the back of her old scooter, still in my pyjamas. **Once we arrived,** we sat in a waiting room full of nervous relatives, **and** my uncle kept buying me apple juice from the vending machine just to keep me quiet.",
+   "**The moment I remember most** was around lunchtime. **Suddenly,** a nurse came out and let me look through a big glass window. **Right in front of me** was this tiny, bright-red baby, screaming at the top of his lungs. **To be fair,** he wasn’t very cute. **But then** my dad put his hand on my shoulder and said, “You’re a big sister now.” **Funnily enough,** I felt about ten years older in that second.",
+   "**Looking back,** I think I’ll never forget it **because** it was the end of my life as an only child and the start of a completely new role. **These days,** my brother is at university and is much taller than me, **but** I still tease him about how loud he was that morning. **So all in all,** it was a long, tiring day, **yet** it changed our whole family."
+  ],
+  "followUps": [
+   {
+    "q": "Why do people remember some days more clearly than others?",
+    "a": "**I think** it’s mainly about emotion. **For example,** days when we feel very happy, scared or proud seem to get stored more deeply in our memory. **On top of that,** big changes, like a birth or a move, mark the start of a new chapter, **so** our brain treats them as important turning points."
+   },
+   {
+    "q": "Do you think it is a good idea to keep a diary of important days?",
+    "a": "**Personally,** I think it’s a great habit. **First of all,** our memories change over time, **so** a diary helps us remember what really happened. **Besides that,** reading old entries years later can be really touching. **The only problem is** that most people start a diary in January and give up by February."
+   },
+   {
+    "q": "How do families in Taiwan usually celebrate the birth of a baby?",
+    "a": "**Traditionally,** many families celebrate when the baby is one month old. **For instance,** parents often send relatives and friends oil rice or red eggs as a way of sharing the good news. **Nowadays, though,** some young parents prefer to send cakes or cookies instead, **but** the idea of sharing the happiness is still the same."
+   }
+  ]
+ },
+ {
+  "id": "experiences-2",
+  "theme": "Unforgettable Experiences",
+  "themeZh": "難忘的經歷",
+  "setLabel": "Set 2",
+  "title": "Describe something you did for the first time that you still remember clearly.",
+  "cues": [
+   "what you did",
+   "when and where you did it",
+   "how you felt before and after doing it",
+   "and explain why you still remember it so clearly."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "1st time riding scooter alone in Taipei traffic → right after getting licence at 18"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "Mum’s old 125cc; route home → cram school in Gongguan, ~15 min; rush hour, buses, taxis, hundreds of scooters at red lights"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "forgot two-stage left turn → stuck in middle of road, horns everywhere → pulled into waiting box, heart pounding; arrived home shaking but proud"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "first taste of independence + responsibility; now ride every day → still careful at that junction"
+   }
+  ],
+  "sample": [
+   "**Alright, so** something I did for the first time that I still remember really clearly is riding a scooter on my own in Taipei traffic. **Basically,** in Taiwan you can get a scooter licence when you turn eighteen, **and** I took my test just a week after my birthday. **To be fair,** passing the test was the easy part.",
+   "**As for the details,** I borrowed my mum’s old 125cc scooter, which was a bit scratched but still ran perfectly. **The plan was** simply to ride from home to my cram school in Gongguan, which normally takes about fifteen minutes. **The problem was** that it was rush hour, **so** the roads were packed with buses, taxis and literally hundreds of scooters waiting at every red light. **Before I left,** my hands were already sweating inside my gloves.",
+   "**Halfway there,** I made a classic beginner’s mistake. **At a big junction,** I tried to turn left directly, forgetting that scooters often have to do a two-stage left turn. **Before I knew it,** I was stuck in the middle of the road with horns blaring all around me. **Eventually,** I managed to squeeze into the little waiting box at the corner, my heart pounding like crazy. **By the time I got there,** I was shaking, **but** I also felt strangely proud.",
+   "**Looking back,** I think I remember it so clearly **because** it was my first real taste of independence, **as well as** responsibility. **Nowadays,** I ride every single day without thinking about it. **Even so,** whenever I reach that junction, I slow down and smile at my eighteen-year-old self."
+  ],
+  "followUps": [
+   {
+    "q": "Why are people often nervous when they do something for the first time?",
+    "a": "**Well,** I think it’s mainly fear of the unknown. **For example,** when we don’t know what will happen, our brain imagines the worst possible result. **On top of that,** many people worry about making mistakes in front of others. **However,** once we’ve done it once, **most of** that fear disappears quite quickly."
+   },
+   {
+    "q": "Should young people be encouraged to try new things?",
+    "a": "**Definitely,** in my opinion. **First of all,** trying new things helps young people discover what they’re good at. **In addition,** it builds confidence, **because** they learn that failing isn’t the end of the world. **That said,** parents should still make sure the new activity is reasonably safe."
+   },
+   {
+    "q": "At what age should young people be allowed to drive in your country?",
+    "a": "**Personally,** I think eighteen is about right. **By that age,** most people are mature enough to understand the risks on the road. **However,** I believe the driving test should be more practical, **since** some people pass it without ever riding in real traffic. **As a result,** they learn the hard way, like I did."
+   }
+  ]
+ },
+ {
+  "id": "experiences-3",
+  "theme": "Unforgettable Experiences",
+  "themeZh": "難忘的經歷",
+  "setLabel": "Set 3",
+  "title": "Describe a frightening experience you had.",
+  "cues": [
+   "when and where it happened",
+   "what happened",
+   "how you reacted",
+   "and explain why it was so frightening for you."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "stuck in a lift → old apartment block, friend’s place in Zhonghe, last winter"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "tiny lift, 1980s, squeaky door; me + elderly neighbour + delivery guy w/ bubble tea; between 6th & 7th floor"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "sudden jolt → lights flickered → stopped; pressed alarm, no answer at first; phone 1 bar → called building manager; ~40 min → firefighters forced door open"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "loss of control + small space + no idea how long; now always take stairs in old buildings + note emergency number"
+   }
+  ],
+  "sample": [
+   "**Well,** the most frightening experience I’ve had was getting stuck in a lift. **It happened** last winter, when I was visiting a friend who lives in a really old apartment block in Zhonghe, just outside Taipei. **I’d say** the building is from the 1980s, **and** the lift is tiny, with a door that squeaks every time it opens.",
+   "**That evening,** there were three of us inside: me, an elderly neighbour with a bag of vegetables, and a delivery guy holding a tray of bubble tea. **All of a sudden,** there was a loud jolt, the lights flickered, and the lift just stopped between the sixth and seventh floors. **At first,** nobody said a word. **Then** the old lady pressed the alarm button again and again, **but** nobody answered.",
+   "**Luckily,** I had one bar of signal on my phone, **so** I called my friend, who phoned the building manager. **After that,** we just waited. **To be fair,** the delivery guy stayed amazingly calm and even joked that the bubble tea would be warm by the time we got out. **In the end,** it took about forty minutes before firefighters arrived and forced the doors open. **By then,** I was soaked in sweat, even though it was cold outside.",
+   "**Looking back,** I think it was so frightening **because** I had no control and no idea how long we’d be trapped. **On top of that,** the space was so small that it was hard to breathe normally. **Ever since then,** I take the stairs in old buildings whenever I can, **and** I always notice the emergency number inside the lift."
+  ],
+  "followUps": [
+   {
+    "q": "Why do some people enjoy being frightened, for example by horror films?",
+    "a": "**I think** it’s because they know they’re actually safe. **For instance,** when you watch a horror film, your heart races, **but** you’re sitting on a comfortable sofa. **As a result,** you get the excitement without the real danger. **Besides that,** watching scary things with friends can bring people closer together."
+   },
+   {
+    "q": "How should children be taught to deal with emergencies?",
+    "a": "**In my view,** schools should run regular, realistic practice drills. **For example,** students in Taiwan already practise earthquake drills, **which** is really useful. **In addition,** parents can teach kids simple things, like remembering a phone number. **Most importantly,** children need to learn to stay calm and ask adults for help."
+   },
+   {
+    "q": "Do you think old buildings in cities should be rebuilt?",
+    "a": "**Generally speaking,** yes, especially if they aren’t safe. **On the one hand,** many old apartment blocks have outdated lifts and wiring, **so** rebuilding them could protect residents. **On the other hand,** it’s often expensive and complicated, because every owner has to agree. **So in reality,** the process can take many years."
+   }
+  ]
+ },
+ {
+  "id": "experiences-4",
+  "theme": "Unforgettable Experiences",
+  "themeZh": "難忘的經歷",
+  "setLabel": "Set 4",
+  "title": "Describe an experience that changed your opinion about something.",
+  "cues": [
+   "what the experience was",
+   "when and where it happened",
+   "what your opinion was before",
+   "and explain how and why your opinion changed."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "weekend helping on rice farm in Yilan → uni friend’s family, harvest season"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "before: farming = simple, old-fashioned, easy; rice = cheap, often left half a bowl"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "up at 5 a.m.; mud up to knees, heat, mosquitoes, carrying heavy sacks; uncle checks weather app all day → one typhoon could ruin a whole season"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "respect for farmers + never waste rice now; buy local rice when possible → small but real change"
+   }
+  ],
+  "sample": [
+   "**Okay, so** I’d like to talk about a weekend I spent helping on a rice farm in Yilan, which completely changed my opinion of farming. **It was** about two years ago, during the harvest season, **and** the farm belongs to the family of one of my university friends. **At first,** I thought it would be a relaxing little trip to the countryside. I even packed a book to read under a tree.",
+   "**To be fair,** before that weekend, I had quite a lazy attitude towards farming. **In my mind,** it was a simple, old-fashioned job that anyone could do. **On top of that,** rice seemed so cheap that I didn’t really value it. **For example,** I often left half a bowl of rice on my plate at lunch without thinking twice about it.",
+   "**Well,** that changed very quickly. **On the first morning,** we got up at five o’clock, **and** within an hour I was standing in mud up to my knees. **Then** came the heat, the mosquitoes and the heavy sacks of rice that we had to carry to the truck. **What surprised me most, though,** was my friend’s uncle. He checked the weather app almost every hour, **because** one typhoon could ruin a whole season of work. **By Sunday night,** my back was aching and my arms were covered in bites.",
+   "**Since then,** I’ve had huge respect for farmers. **Nowadays,** I never waste rice, **and** I try to buy local rice whenever I can. **So all in all,** it was only two days, **but** it changed the way I look at every single meal."
+  ],
+  "followUps": [
+   {
+    "q": "Why do people sometimes change their opinions?",
+    "a": "**I think** the biggest reason is personal experience. **For example,** you might read about a problem in the news, **but** it only feels real when you see it with your own eyes. **Besides that,** meeting people with different backgrounds can make us question our assumptions. **Finally,** we simply become more mature as we get older."
+   },
+   {
+    "q": "Is it a good thing for city children to spend time in the countryside?",
+    "a": "**Absolutely,** in my view. **First of all,** it shows them where their food actually comes from. **In addition,** being outdoors and doing physical work is healthy for kids who spend all day on screens. **On top of that,** it can teach them to respect people whose jobs are very different from their parents’ jobs."
+   },
+   {
+    "q": "Why do fewer young people want to become farmers nowadays?",
+    "a": "**Well,** one reason is that farming is hard work and the income can be unstable. **For instance,** a single typhoon can destroy a whole harvest. **Also,** most young people move to cities for university and get used to city life. **However,** some young people are returning to farming **and** using social media to sell their products directly."
+   }
+  ]
+ },
+ {
+  "id": "experiences-5",
+  "theme": "Unforgettable Experiences",
+  "themeZh": "難忘的經歷",
+  "setLabel": "Set 5",
+  "title": "Describe a special night when you stayed up very late.",
+  "cues": [
+   "when it was",
+   "where you were and who you were with",
+   "what you did that night",
+   "and explain why it was special to you."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "New Year’s Eve countdown in Xinyi → 3 uni friends, final year at uni"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "arrived 7 p.m. to get a spot; packed streets, police barriers, concert screens; cold + windy → shared hand warmers + convenience-store oden"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "5 hours of waiting → chatting about plans after graduation; whole crowd shouted countdown; strangers hugging; MRT runs all night → home ~3 a.m., then breakfast at 4"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "not the show itself → the waiting + talking; last New Year before we went separate ways"
+   }
+  ],
+  "sample": [
+   "**Alright, so** a special night when I stayed up really late was New Year’s Eve in my final year at university. **That year,** three close friends and I decided to join the countdown in the Xinyi district, near Taipei 101. I’d heard it was crazy busy, **but** none of us had ever actually been there before.",
+   "**To give you an idea,** we arrived at about seven in the evening just to find a good spot, **and** the streets were already packed. **Everywhere you looked,** there were police barriers, food stalls and huge screens showing a live concert. **The thing is,** it was surprisingly cold and windy that night. So we ended up sharing hand warmers and eating oden from a convenience store while we sat on the pavement.",
+   "**Interestingly,** the part I remember most isn’t the countdown itself. **For about five hours,** we just chatted about what we wanted to do after graduation, and one friend admitted she was planning to move abroad. **Then, just before midnight,** the whole crowd started shouting the numbers together, **and** strangers were hugging each other like old friends. **Afterwards,** it took ages to get out, **but luckily** the MRT runs all night on New Year’s Eve. **In the end,** we got home at around three, **and** we still went out for breakfast at four!",
+   "**Looking back,** it was special **not because** of the show, **but because** of the waiting and the talking. **As it turned out,** it was our last New Year together before we went our separate ways. **So for me,** that night marks the end of my student days."
+  ],
+  "followUps": [
+   {
+    "q": "Why do people like to celebrate New Year in big crowds?",
+    "a": "**I think** people enjoy feeling part of something bigger. **For example,** counting down together with thousands of strangers creates a really powerful shared moment. **On top of that,** big events have music, food and performances, **so** there’s a festival atmosphere. **That said,** some people prefer to stay at home and avoid the crowds."
+   },
+   {
+    "q": "Is it bad for young people to stay up late often?",
+    "a": "**Well,** occasionally it’s fine, **especially** for special occasions. **However,** if young people stay up late every night, it can affect their health and concentration. **For instance,** many students in Taiwan scroll on their phones until two or three a.m. **As a result,** they end up falling asleep in class the next day."
+   },
+   {
+    "q": "How has the way people celebrate New Year changed?",
+    "a": "**In the past,** I think people mostly celebrated with family at home. **Nowadays,** however, many young people go to big countdown concerts or watch them live online. **Also,** social media has changed things, **because** a lot of people spend the moment filming it instead of enjoying it. **Personally,** I try to put my phone away at midnight."
+   }
+  ]
+ },
+ {
+  "id": "experiences-6",
+  "theme": "Unforgettable Experiences",
+  "themeZh": "難忘的經歷",
+  "setLabel": "Set 6",
+  "title": "Describe a long conversation you will always remember.",
+  "cues": [
+   "who you talked to",
+   "when and where the conversation took place",
+   "what you talked about",
+   "and explain why you will always remember it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "5-hour drive home from Kenting w/ Dad → just the two of us, after a family wedding"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "Mum + brother took HSR; Dad wanted company in car; Hwy 1 → Freeway 3; night, rain, old radio station"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "asked about his youth → wanted to be an artist, grandpa said no → became engineer; first time he admitted regret; told me to choose my own path"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "saw Dad as a person, not just a parent; part of why I chose design at uni → still thank him"
+   }
+  ],
+  "sample": [
+   "**Well,** a long conversation I’ll always remember is one I had with my dad on a five-hour drive home from Kenting. **It was** about three years ago, after a cousin’s wedding down south. **Normally,** my dad isn’t much of a talker, **so** that night was quite unusual for both of us.",
+   "**Basically,** my mum and my brother took the high-speed rail back to Taipei, **but** my dad needed to drive the car home and didn’t want to go alone. So I volunteered to keep him company. **It was** already dark when we left, **and** for most of the trip it was raining lightly, **while** his favourite old radio station played songs from the 1980s in the background, and he hummed along quietly.",
+   "**At some point,** I asked him what he wanted to be when he was my age. **To my surprise,** he said he’d dreamed of becoming an artist, **but** my grandpa thought it was a waste of time, **so** he studied engineering instead. **For the first time,** I heard him admit that he sometimes regretted it. **Then** he told me something I’ll never forget: “Choose your own path, even if it scares you.” **By the time we reached Taipei,** it was almost two in the morning, and neither of us felt sleepy.",
+   "**Looking back,** I think that conversation made me see my dad as a real person, **not just** a parent. I realised he had his own dreams and disappointments, just like me. **In fact,** it’s one of the reasons I chose to study design at university. **To this day,** I still thank him for that drive."
+  ],
+  "followUps": [
+   {
+    "q": "Why do people sometimes find it easier to talk openly in a car?",
+    "a": "**I think** it’s because you don’t have to look at each other. **For example,** when you’re both facing the road, sensitive topics feel less awkward. **In addition,** there are no phones ringing or people interrupting. **On top of that,** a long drive gives you plenty of time, **so** the conversation can develop naturally."
+   },
+   {
+    "q": "Do parents and children talk enough in modern families?",
+    "a": "**Generally speaking,** not as much as they should. **For instance,** many parents in Taiwan work long hours, **while** teenagers spend most evenings at cram school or on their phones. **As a result,** family conversations are often quite short and practical. **However,** I think even one meal together a week can make a big difference."
+   },
+   {
+    "q": "Is face-to-face conversation more valuable than chatting online?",
+    "a": "**In my opinion,** yes, in most cases. **First of all,** you can see the other person’s facial expressions and hear their tone of voice. **Besides that,** people tend to be more patient and thoughtful in person. **That said,** online chatting is really useful for keeping in touch with friends who live far away."
+   }
+  ]
+ },
+ {
+  "id": "experiences-7",
+  "theme": "Unforgettable Experiences",
+  "themeZh": "難忘的經歷",
+  "setLabel": "Set 7",
+  "title": "Describe an experience you would like to repeat.",
+  "cues": [
+   "what the experience was",
+   "when and where you had it",
+   "who you were with",
+   "and explain why you would like to repeat it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "walking part of the Dajia Mazu pilgrimage 大甲媽祖遶境 → spring, w/ two friends, only 1 day + 1 night"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "9 days, 300+ km, central Taiwan; huge crowd behind Mazu’s sedan chair; firecrackers, drums, people kneeling on road"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "~30 km in 1 day → blisters; locals handing out free water, rice balls, even foot massages; slept a few hours on temple floor"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "kindness of strangers + feeling part of something big; want to walk whole route one day"
+   }
+  ],
+  "sample": [
+   "**Okay, so** an experience I’d really like to repeat is walking part of the Dajia Mazu pilgrimage. **For those who don’t know,** it’s a huge religious procession in central Taiwan every spring, **where** thousands of people follow a statue of the sea goddess Mazu on foot. **Last year,** two friends and I joined it for just one day and one night.",
+   "**To give you some background,** the whole pilgrimage lasts nine days and covers more than three hundred kilometres. **Obviously,** we didn’t have time for all of that. **Even so,** the atmosphere was incredible. **Everywhere we went,** there were firecrackers, drums and people kneeling on the road, hoping the goddess’s sedan chair would pass over them for good luck. I had seen it on TV many times, but being there in person was a totally different feeling.",
+   "**What touched me most,** **though,** was the local people. **Along the way,** families set up tables outside their homes and handed out free water, rice balls and fruit to anyone who walked past. **At one point,** a group of volunteers even offered us free foot massages, **which** felt amazing **because** we had walked about thirty kilometres and our feet were covered in blisters. **That night,** we slept for a few hours on the floor of a temple, **and then** we kept walking before sunrise.",
+   "**Looking back,** I’d love to repeat it **because** I’ve never felt so much kindness from strangers. **On top of that,** I felt like part of something much bigger than myself. **So one day,** I hope to walk the whole route from start to finish."
+  ],
+  "followUps": [
+   {
+    "q": "Why do people take part in traditional religious events, even if they are not religious?",
+    "a": "**I think** many people join for the atmosphere and the sense of community. **For example,** some of my friends aren’t religious at all, **but** they still enjoy the music and the food. **Besides that,** these events are a way to connect with local culture. **For some people,** it’s also a personal challenge, like a long hike."
+   },
+   {
+    "q": "Do you think traditional festivals will still be popular in the future?",
+    "a": "**Generally speaking,** yes, **although** they might change a bit. **For instance,** many young people now share pilgrimage photos and videos on social media, **which** actually attracts even more participants. **However,** organisers may need to deal with problems like noise and rubbish so that local residents stay supportive."
+   },
+   {
+    "q": "Is it better to repeat a great experience or to try something completely new?",
+    "a": "**Personally,** I think both have value. **On the one hand,** trying new things helps us grow and keeps life exciting. **On the other hand,** repeating a great experience lets us notice details we missed the first time. **Ideally,** I’d say we should mix the two, **depending on** what we need at that point in our lives."
+   }
+  ]
+ },
+ {
+  "id": "experiences-8",
+  "theme": "Unforgettable Experiences",
+  "themeZh": "難忘的經歷",
+  "setLabel": "Set 8",
+  "title": "Describe an experience you were not looking forward to but which turned out well.",
+  "cues": [
+   "what the experience was",
+   "when it happened",
+   "why you were not looking forward to it",
+   "and explain why it turned out to be a good experience."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "sharing a uni dorm room w/ 3 strangers → first year, first time away from home"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "small room in Taipei; 4 beds above desks, 1 tiny wardrobe each; roommates from Kaohsiung, Hualien, Penang (Malaysia)"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "worried about noise, no privacy, different habits; first week awkward → typhoon day off → stuck inside, cooked instant noodles together, played cards all night"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "learned to compromise + share; still best friends, group chat every day → glad I didn’t rent a studio"
+   }
+  ],
+  "sample": [
+   "**Well,** an experience I really wasn’t looking forward to was sharing a dorm room with three strangers in my first year at university. **Before that,** I had always had my own bedroom at home, **so** the idea of living with people I’d never met made me pretty anxious. I even asked my parents if I could rent a small studio instead, **but** they said it was too expensive.",
+   "**As for the room itself,** it was tiny. **Basically,** there were four beds above four desks, **and** each of us had one narrow wardrobe. My roommates came from Kaohsiung, Hualien and Penang in Malaysia, **so** we all had quite different habits. **For example,** one of them liked to study until three in the morning, **while** I usually went to bed before midnight.",
+   "**For the first week,** things were a bit awkward. We were polite, **but** we didn’t really talk. Everyone just put on headphones and stared at their laptops. **Then** a typhoon hit Taipei and classes were cancelled. **Since** we couldn’t go out, we cooked instant noodles in an electric pot, shared snacks from home and ended up playing cards until sunrise. **By the end of that day,** we knew each other’s family stories, favourite foods and worst exam disasters.",
+   "**Looking back,** it turned out well **because** I learned how to compromise and share space. I also stopped getting annoyed about small things like dirty socks. **More importantly,** those three girls are still my best friends, **and** we chat in our group every single day. **So in the end,** I’m really glad I didn’t get that studio."
+  ],
+  "followUps": [
+   {
+    "q": "Is it a good idea for university students to live in a dormitory?",
+    "a": "**In my view,** it’s a great idea, especially in the first year. **First of all,** it’s usually cheaper than renting a flat. **In addition,** students meet people from different places, which helps them make friends quickly. **On the other hand,** dorms can be noisy, **so** it isn’t ideal for everyone."
+   },
+   {
+    "q": "Why do people often worry about things that turn out fine?",
+    "a": "**I think** our brain naturally focuses on possible dangers. **For example,** before a new experience, we imagine all the things that could go wrong. **On top of that,** some people simply don’t like uncertainty. **However,** the more often things turn out fine, **the more** we learn to relax and trust ourselves."
+   },
+   {
+    "q": "What skills do young people learn when they leave home?",
+    "a": "**Well,** they learn lots of practical skills, **like** cooking, doing laundry and managing their own money. **Besides that,** they have to solve problems without asking their parents for help. **As a result,** I think they become much more independent and confident. **Of course,** some of them also learn how to survive on instant noodles!"
+   }
+  ]
+ },
+ {
+  "id": "experiences-9",
+  "theme": "Unforgettable Experiences",
+  "themeZh": "難忘的經歷",
+  "setLabel": "Set 9",
+  "title": "Describe an experience that many people in your country remember for a long time.",
+  "cues": [
+   "what the experience is",
+   "when people usually have it",
+   "what you did when you had this experience",
+   "and explain why you think people remember this kind of experience for so long."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "high-school graduation trip 畢業旅行 → almost every TW student goes, usually 3 days, by coach"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "whole year group; theme park + night market + hotel; teachers check rooms at night → students sneak to friends’ rooms"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "my class → south TW; lost voice from screaming on roller coaster; talent show on last night → shy classmate sang + everyone cried"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "why remembered: last time all together + freedom + strong emotions + photos/videos → reunions always mention it"
+   }
+  ],
+  "sample": [
+   "**Okay, so** an experience that most people in Taiwan remember for a long time is the high-school graduation trip. **Basically,** almost every school organises one, **and** it usually lasts around three days. **I’d say** if you ask any Taiwanese adult about their graduation trip, they’ll start smiling straight away and tell you a funny story.",
+   "**In terms of what happens,** the whole year group usually travels together by coach. **Typically,** there’s a theme park, a night market and a night or two in a big hotel. **The funny thing is,** teachers walk around checking the rooms at night, **but** students still sneak into their friends’ rooms to chat and eat snacks until dawn. **For many teenagers,** it’s one of the first times they travel without their parents.",
+   "**As for my own trip,** my class went to southern Taiwan. **On the first day,** I screamed so much on a roller coaster that I completely lost my voice. **Then, on the last night,** the hotel held a talent show for all the classes. **Out of nowhere,** one of the shyest boys in our class got up and sang a slow love song, **and** by the end, half of us were crying. **Even now,** we still talk about it whenever we have a class reunion.",
+   "**As for why people remember it,** I think it’s a mix of things. **First,** it’s the last time the whole class is together before everyone goes their own way. **On top of that,** there’s a sense of freedom and lots of strong emotions, **plus** hundreds of photos to remind us. **So overall,** it becomes a memory that lasts for ever."
+  ],
+  "followUps": [
+   {
+    "q": "Why do shared experiences make friendships stronger?",
+    "a": "**I think** shared experiences give people stories they can always come back to. **For example,** when old classmates meet, they often laugh about the same funny moments. **On top of that,** going through something exciting or difficult together builds trust. **As a result,** friends feel connected even if they rarely see each other."
+   },
+   {
+    "q": "Do you think photos and videos help us remember experiences better?",
+    "a": "**To some extent,** yes. **For instance,** looking at old photos can bring back details we had completely forgotten. **However,** some research suggests that people who film everything may actually remember less, **because** they focus on the screen instead of the moment. **So personally,** I try to take just a few photos and then put my phone away."
+   },
+   {
+    "q": "Should schools spend money on trips instead of extra lessons?",
+    "a": "**In my opinion,** a balance is best. **On the one hand,** lessons are obviously important for exams. **On the other hand,** trips teach students things they can’t learn in a classroom, **like** teamwork and independence. **Besides that,** they create happy memories, which can make students feel more positive about school in general."
+   }
+  ]
+ },
+ {
+  "id": "experiences-10",
+  "theme": "Unforgettable Experiences",
+  "themeZh": "難忘的經歷",
+  "setLabel": "Set 10",
+  "title": "Describe a photo you took that reminds you of a great experience.",
+  "cues": [
+   "what the photo shows",
+   "when and where you took it",
+   "what you were doing at the time",
+   "and explain why this photo is special to you."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "phone photo of friends having a snowball fight → Hehuanshan 合歡山, winter, rare snow in TW"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "5 friends in borrowed jackets, red cheeks, white slope behind, one mid-throw, blurry snowball"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "saw news → snow forecast; left Taichung at 3 a.m.; heavy traffic + police checking snow chains; walked last part; first time touching real snow for most of us"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "pure childlike joy; set as phone wallpaper → whenever stressed, look at it + smile"
+   }
+  ],
+  "sample": [
+   "**Alright, so** the photo I’d like to describe is one I took on my phone of my friends having a snowball fight on Hehuanshan, a high mountain in central Taiwan. **As you might know,** Taiwan is a subtropical island, **so** snow is pretty rare here. **That’s why,** whenever it snows on the mountains, it’s big news.",
+   "**In the photo,** you can see five of my friends wearing borrowed winter jackets that are way too big for them. Their cheeks are bright red, **and** behind them there’s a white slope and a few pine trees. My favourite detail is my friend Kevin, who’s caught in the middle of throwing a snowball, **so** the ball is just a white blur. **Meanwhile,** everyone else is either laughing or trying to hide.",
+   "**As for the background,** it was three winters ago. **One evening,** we saw on the news that snow was forecast, **so** we left Taichung at three in the morning. **On the way up,** the traffic was terrible, **and** police were checking that cars had snow chains. **Eventually,** we parked and walked the last part of the road. It was freezing, and the air was so thin that we kept stopping to catch our breath. **For most of us,** it was the first time we had ever touched real snow, **so** we acted like little kids.",
+   "**Looking back,** the photo is special **because** it captures pure, childlike happiness. None of us were thinking about work. **In fact,** I’ve set it as my phone wallpaper. **So whenever I’m stressed at work,** I look at it and can’t help smiling."
+  ],
+  "followUps": [
+   {
+    "q": "Why do people take so many photos nowadays?",
+    "a": "**I think** the main reason is that smartphones make it so easy. **In the past,** people had to buy film, **so** they only took photos on special occasions. **Nowadays,** however, we can take hundreds of photos for free. **On top of that,** many people want to share their lives on social media."
+   },
+   {
+    "q": "Do you think printed photos are still important?",
+    "a": "**Personally,** I think they are. **For one thing,** digital photos often get lost in our phones among thousands of screenshots. **In contrast,** a printed photo on the wall is something you see every day. **Besides that,** older relatives usually prefer looking at real photo albums, **so** printing photos can bring families together."
+   },
+   {
+    "q": "Why do people travel a long way to see natural events like snow?",
+    "a": "**Well,** I think it’s mostly about novelty. **For example,** people in a warm country like Taiwan rarely see snow, **so** it feels magical. **In addition,** natural events don’t last long, which creates a sense of urgency. **As a result,** people are willing to wake up early and sit in traffic for hours."
+   }
+  ]
  }
 ]
 ;
