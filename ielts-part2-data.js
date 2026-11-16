@@ -12239,6 +12239,516 @@ window.IELTS_PART2 = [
     "a": "**Well,** I think it’s mostly about novelty. **For example,** people in a warm country like Taiwan rarely see snow, **so** it feels magical. **In addition,** natural events don’t last long, which creates a sense of urgency. **As a result,** people are willing to wake up early and sit in traffic for hours."
    }
   ]
+ },
+ {
+  "id": "career-1",
+  "theme": "Career Paths & AI",
+  "themeZh": "職涯發展與AI競爭",
+  "setLabel": "Set 1",
+  "title": "Describe a career path you are considering.",
+  "cues": [
+   "what the career is",
+   "how you first became interested in it",
+   "what you are doing to prepare for it",
+   "and explain why you think it would suit you."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "UX designer 使用者體驗設計師 → design how apps & websites feel to use; 3rd-yr business student"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "interview users, sketch wireframes, test prototypes; mix of psychology + design + business"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "train ticket app → bought wrong ticket 2x → redesigned it for fun in Figma → friends said “way clearer”"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "online course + portfolio of 3 projects; like people more than numbers → still exploring, not 100% sure"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the career path I’m seriously considering at the moment is becoming a UX designer. UX stands for “user experience”, **and basically** it means designing how an app or a website feels when people actually use it. **At the moment,** I’m a third-year business student, **so** it would be quite a big change of direction for me.",
+   "**To give you a bit of background,** a UX designer doesn’t just make things look pretty. **First,** they interview real users to find out what annoys them. **Then** they sketch simple layouts called wireframes, build a prototype and test it again and again. **What I like is that** it combines psychology, design and business, **which** are three things I’m interested in. For example, a good UX designer will notice that older users struggle with tiny buttons and fix that.",
+   "**The funny thing is,** I got into it because of a train ticket app. **Last year,** I bought the wrong ticket twice in one month because the buttons were so confusing. **So just for fun,** I downloaded a free design tool called Figma and redesigned the booking screen over a weekend. **When I showed it to my friends,** they all said my version was way clearer. **That was the moment** I thought, maybe this could be a real job.",
+   "**Since then,** I’ve been taking an online course in the evenings, **and** I’m trying to build a portfolio of three small projects before I graduate. **I think** it would suit me **because** I’m much more interested in people than in numbers. **Having said that,** I’m still exploring, **so** I’m not one hundred percent sure yet."
+  ],
+  "followUps": [
+   {
+    "q": "Is it better to choose a career early or to keep your options open?",
+    "a": "**In my view,** keeping your options open is wiser for most young people. **For one thing,** you don’t really know what a job is like until you try it. **On the other hand,** choosing too late can waste time and money. **So ideally,** students should explore through internships first and then narrow things down."
+   },
+   {
+    "q": "Should young people follow their passion or choose a job that pays well?",
+    "a": "**Well,** I think the best answer is somewhere in the middle. **Obviously,** you need enough money to pay the rent in a city like Taipei. **However,** if you hate your job, you won’t stay in it for long. **That’s why** I’d say find something you enjoy that also has a realistic market."
+   },
+   {
+    "q": "Who should have the most influence on a young person’s career choice?",
+    "a": "**Ultimately,** I believe it should be the young person themselves. **Of course,** parents in Taiwan often have strong opinions, especially about stable jobs like teaching or engineering. **Still,** they won’t be the ones doing the job every day. **So** parents can give advice, **but** the final decision should be the student’s own."
+   }
+  ]
+ },
+ {
+  "id": "career-2",
+  "theme": "Career Paths & AI",
+  "themeZh": "職涯發展與AI競爭",
+  "setLabel": "Set 2",
+  "title": "Describe a person who changed careers successfully.",
+  "cues": [
+   "who this person is",
+   "what job he or she did before and does now",
+   "how he or she made the change",
+   "and explain why you think the change was successful."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "cousin Kevin, mid-30s → accountant ✕ → wedding photographer ✓"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "8 yrs at accounting firm; long hours, tax season = sleep at office; hobby = photography on weekends"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "free photos at friends’ weddings → IG portfolio → 1st paid job; kept accounting job 1 yr as safety net, then quit"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "fully booked most weekends + still uses accounting skills for own business → planned slowly, not a jump"
+   }
+  ],
+  "sample": [
+   "**Alright, so** the person I’d like to describe is my cousin Kevin, who’s in his mid-thirties. **For about eight years,** he worked as an accountant at a big firm in Taipei, **but** a few years ago he left to become a full-time wedding photographer. **At first,** our whole family thought he was crazy, especially my aunt. She kept asking my mum why he would give up such a safe job.",
+   "**To be fair,** his old job was very stable and well paid. **However,** the hours were terrible. **During tax season,** he sometimes slept at the office, **and** he told me he felt like a calculator rather than a person. **Meanwhile,** his real passion was photography, **so** he spent almost every weekend taking pictures of street markets and old temples.",
+   "**What impressed me was** how carefully he made the change. **First,** he offered to take photos at his friends’ weddings for free, just to build up a portfolio. **Then** he posted the best shots on Instagram, **and** after a few months a stranger contacted him for his first paid job. Even then, he kept his accounting job for another year as a safety net, **and** he only quit once he had enough bookings. He also took an evening course in lighting and editing.",
+   "**These days,** he’s fully booked on most weekends, **and** he even uses his accounting skills to run his own small business. He also looks much happier and healthier than before. **So in my opinion,** the change was successful **because** he didn’t just jump. He planned it step by step, **which** is something I’d like to copy if I ever change careers myself."
+  ],
+  "followUps": [
+   {
+    "q": "Why do some people change careers in their thirties or forties?",
+    "a": "**I think** many people simply realise that their first job doesn’t fit them. **For example,** they chose a major at eighteen because of their parents or their exam scores. **Later on,** they have more savings and confidence, **so** they finally feel brave enough to try something they really care about."
+   },
+   {
+    "q": "What are the risks of changing careers?",
+    "a": "**The most obvious risk** is money, **because** you usually start again at a lower salary. **In addition,** you might lose the respect and network you built in your old field. **On top of that,** family members may not support you, which can be stressful. **So** careful planning is really important."
+   },
+   {
+    "q": "Will people change jobs more often in the future?",
+    "a": "**Yes, I’m pretty sure** they will. **For one thing,** technology is changing industries so fast that some skills become outdated within a few years. **For another,** young people today seem less loyal to one company than my parents’ generation. **As a result,** having several careers in one lifetime may become completely normal."
+   }
+  ]
+ },
+ {
+  "id": "career-3",
+  "theme": "Career Paths & AI",
+  "themeZh": "職涯發展與AI競爭",
+  "setLabel": "Set 3",
+  "title": "Describe an internship or work experience you had.",
+  "cues": [
+   "where you did it",
+   "how long it lasted",
+   "what tasks you were given",
+   "and explain what you learned from it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "2-month summer internship → small digital marketing agency, Xinyi District"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "team of ~15; tasks: research competitors, write IG captions, prepare slides for client meetings"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "wrote a post w/ wrong discount date → client angry → manager calm: fix it + tell client yourself"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "real work ≠ school; deadlines + double-check; owning mistakes builds trust → helped me pick electives"
+   }
+  ],
+  "sample": [
+   "**Okay, so** I’m going to talk about a summer internship I did last year at a small digital marketing agency in Xinyi District, in Taipei. It lasted about two months, **and** it was the first time I’d ever worked in a real office, **so** I was pretty nervous on my first day. I even wore a suit, which was a mistake because everyone else was in jeans and T-shirts.",
+   "**In terms of the company,** there were only around fifteen people, **which** meant interns were given real work rather than just making coffee. **For example,** I researched what competitors were posting online, wrote Instagram captions for a skincare brand, **and** prepared slides for client meetings. **On top of that,** I sat in on brainstorming sessions, **where** everyone threw out ideas very quickly.",
+   "**The part I remember most** happened in my third week. I wrote a post about a summer sale, **but** I typed the wrong end date for the discount. **Unfortunately,** nobody noticed until the client called and complained. I was terrified, **but** my manager stayed really calm. **Instead of** fixing it herself, she asked me to correct the post and explain the mistake to the client myself. Surprisingly, the client was quite understanding.",
+   "**Looking back,** I learned that real work is very different from school. **For one thing,** deadlines are real, **so** you always have to double-check everything. **More importantly,** I learned that owning your mistakes actually builds trust. **In the end,** the internship also helped me choose my electives this year, **because** I now know which skills companies need. It also gave me a reference letter for future job applications."
+  ],
+  "followUps": [
+   {
+    "q": "Should internships be paid?",
+    "a": "**In my opinion,** yes, they definitely should be. **After all,** interns do real work that brings value to the company. **Besides that,** unpaid internships are unfair to students from poorer families, **because** they simply can’t afford to work for free. **So** even a small salary makes the opportunity more equal."
+   },
+   {
+    "q": "Should universities require students to do an internship before graduating?",
+    "a": "**Generally speaking,** I think it’s a good idea. **For example,** many students in Taiwan graduate without ever having worked in an office. **As a result,** they find the first job a real shock. **However,** universities should help students find good placements, **otherwise** some will end up doing meaningless tasks."
+   },
+   {
+    "q": "What can students learn at work that they cannot learn at school?",
+    "a": "**Well,** the biggest thing is probably communication with different kinds of people. **At school,** you mostly talk to classmates your own age. **At work,** however, you deal with managers, clients and colleagues of all ages. **On top of that,** you learn to manage your time **when** nobody is checking your homework."
+   }
+  ]
+ },
+ {
+  "id": "career-4",
+  "theme": "Career Paths & AI",
+  "themeZh": "職涯發展與AI競爭",
+  "setLabel": "Set 4",
+  "title": "Describe a piece of career advice you received.",
+  "cues": [
+   "who gave you the advice",
+   "when you received it",
+   "what the advice was",
+   "and explain how it has affected your plans."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "advice from Prof. Lin, marketing lecturer → “Build a portfolio, not just a transcript.”"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "end of 2nd yr; office hours; I was worried about GPA + compared myself w/ top students"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "she showed me CVs from former students → employers asked for real projects; I started a small food blog + volunteered for dept. social media"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "grades still matter but proof of skills > numbers; in AI age, show what YOU can do"
+   }
+  ],
+  "sample": [
+   "**Well,** the best piece of career advice I’ve ever received came from Professor Lin, who teaches marketing at my university. **At the end of my second year,** she told me, “Build a portfolio, not just a transcript.” **At first,** it sounded like a simple sentence, **but** it completely changed the way I think about my future.",
+   "**To give you some context,** I went to her office hours because I was really stressed about my grades. **At that time,** I kept comparing myself with the top students in my class, **and** I was afraid that my average wasn’t high enough to get a good job. **So basically,** I was expecting her to give me some study tips. My parents had also always told me that good grades were the key to everything.",
+   "**Instead,** she pulled up some CVs that former students had sent her. **Interestingly,** the ones who got the best offers weren’t always the ones with perfect grades. **Rather,** they could show real projects, **like** a marketing plan for a local café or a social media account they had grown. **Right after that meeting,** I started a small food blog, **and** I volunteered to run my department’s Instagram account. Within six months, the account had almost doubled its followers.",
+   "**Looking back,** that advice has shaped my plans a lot. **Of course,** grades still matter, **but** I now spend more time creating things I can actually show employers. **Especially now that** AI can write a decent essay in seconds, **I think** companies want proof of what you personally can do. **So** I’m really grateful she was so direct with me."
+  ],
+  "followUps": [
+   {
+    "q": "Who usually gives young people the best career advice?",
+    "a": "**I’d say** it’s often people who are a few years ahead of you. **For example,** a senior who graduated two years ago knows what the job market is like right now. **By contrast,** parents and teachers sometimes give advice based on a very different time. **So** it’s worth listening to both."
+   },
+   {
+    "q": "Do you think schools in your country give enough career guidance?",
+    "a": "**To be fair,** it’s getting better. **For instance,** many high schools now invite speakers from different industries. **However,** most of the focus is still on exam scores and choosing a university department. **As a result,** a lot of students only start thinking seriously about careers **when** they’re about to graduate."
+   },
+   {
+    "q": "Is it a good idea to ask AI for career advice?",
+    "a": "**It can be useful,** **as long as** you don’t rely on it completely. **For example,** AI can quickly explain what a job involves or help you improve your CV. **However,** it doesn’t know your personality or your family situation. **So** I’d use it as a starting point and then talk to real people."
+   }
+  ]
+ },
+ {
+  "id": "career-5",
+  "theme": "Career Paths & AI",
+  "themeZh": "職涯發展與AI競爭",
+  "setLabel": "Set 5",
+  "title": "Describe a job fair or career talk that you attended.",
+  "cues": [
+   "when and where it took place",
+   "who was there",
+   "what you did there",
+   "and explain whether you found it useful."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "campus recruitment fair 校園徵才博覽會 → my uni, last spring, main square"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "hundreds of companies; tents in rows; tech firms = longest queues; banks, airlines, retail; free tote bags + snacks"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "printed 10 CVs; froze at 1st booth → mumbled; 3rd booth better; HR lady: “What can you do that others can’t?”"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "useful: practice talking to HR + learned what skills are in demand (data, AI); no job yet but less scared"
+   }
+  ],
+  "sample": [
+   "**Okay, so** I’d like to talk about the campus recruitment fair I went to at my university last spring. It was held on the main square, **and** there were rows and rows of white tents. **If I remember correctly,** hundreds of companies were there, **so** the whole campus felt more like a night market than a university.",
+   "**In terms of who was there,** there were tech companies, banks, airlines and retail chains. **Not surprisingly,** the big tech and semiconductor firms had the longest queues, **because** everyone knows they pay well. **On top of that,** almost every booth was giving away free tote bags, pens and snacks, **so** a lot of first-year students were just walking around collecting souvenirs. Some booths even had lucky draws.",
+   "**As for me,** I printed ten copies of my CV the night before. Embarrassingly, at the first booth I completely froze and just mumbled something about my major. **By the third booth,** though, I felt much more relaxed. **I remember** one HR manager asked me, “What can you do that other applicants can’t?” **To be honest,** I didn’t have a good answer, **and** that question stayed in my head for weeks. After that, I rewrote my self-introduction three times on the bus home.",
+   "**Overall,** I found it really useful, **even though** I didn’t get a job offer that day. **For one thing,** it was great practice for talking to real recruiters. **For another,** I noticed that almost every company mentioned data or AI skills. **So** I left with a clearer idea of what I need to learn, **and** I felt much less scared of job hunting."
+  ],
+  "followUps": [
+   {
+    "q": "Are job fairs still useful now that most jobs are advertised online?",
+    "a": "**I believe** they still are. **Online,** you only see a job description, **whereas** at a fair you can actually talk to someone from the company. **In addition,** recruiters remember a confident face better than a PDF. **That said,** I think most of the real applications still happen online afterwards."
+   },
+   {
+    "q": "What makes a good first impression on an employer?",
+    "a": "**First of all,** I’d say being well prepared. **For example,** if you know what the company does and ask a smart question, you immediately stand out. **Apart from that,** simple things like eye contact and a clear self-introduction matter a lot. **On the other hand,** looking at your phone is a big mistake."
+   },
+   {
+    "q": "Why do so many students want to work for large companies?",
+    "a": "**Mainly** because of security. **In Taiwan,** big companies usually offer higher salaries, better bonuses and a famous name on your CV. **Also,** parents often feel proud **when** their children work for a well-known firm. **However,** small companies can sometimes give young people more responsibility and faster learning."
+   }
+  ]
+ },
+ {
+  "id": "career-6",
+  "theme": "Career Paths & AI",
+  "themeZh": "職涯發展與AI競爭",
+  "setLabel": "Set 6",
+  "title": "Describe a skill you want to learn to stay competitive in the age of AI.",
+  "cues": [
+   "what the skill is",
+   "why you want to learn it",
+   "how you plan to learn it",
+   "and explain how it could help your career."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Python for data analysis → coding 寫程式 to clean + analyse data"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "my job: admin at trading company; lots of Excel reports; AI tools can write code but I can’t check if it’s right"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "asked a chatbot to write formula → looked perfect → sales total wrong by thousands; boss noticed 1st → embarrassing"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "free online course + 30 min every morning on MRT; goal: automate monthly report → work WITH AI, not be replaced"
+   }
+  ],
+  "sample": [
+   "**Alright, so** the skill I really want to learn is Python, which is a programming language, **especially** for data analysis. **Basically,** it lets you clean up huge spreadsheets and find patterns in the numbers much faster than doing it by hand. I should say I’m not an engineer at all, **so** this is quite a challenge for me.",
+   "**To give you some background,** I work in the admin department of a trading company, **and** a big part of my job is making Excel reports every month. **Nowadays,** AI tools can actually write the code for you, **which** sounds amazing. **The problem is,** if you don’t understand the code yourself, you have no idea whether the result is correct.",
+   "**I learned that the hard way** a few months ago. I asked an AI chatbot to write a formula for our monthly sales report, **and** it looked perfect. **However,** one column was being counted twice, **so** the total was wrong by thousands of dollars. **Even worse,** my boss noticed before I did. He was kind about it, but he asked me to check every number again. It was so embarrassing, **and** that was when I decided I needed to understand the basics properly.",
+   "**So at the moment,** I’m doing a free online course, **and** I practise for about thirty minutes every morning on the MRT. My first goal is to automate that monthly report. After that, I’d like to try making simple charts for our sales meetings. **In the long run,** **I think** this skill will help me work with AI instead of being replaced by it, **which** is pretty much what everyone in my office is worried about."
+  ],
+  "followUps": [
+   {
+    "q": "Which skills will be most important for workers in the future?",
+    "a": "**I’d say** there are two kinds. **On the one hand,** people need basic digital skills, like understanding data and using AI tools wisely. **On the other hand,** human skills such as communication and creativity will matter even more, **because** machines still struggle with them. **Ideally,** workers should have a bit of both."
+   },
+   {
+    "q": "Should everyone learn to code?",
+    "a": "**Not necessarily,** in my opinion. **Of course,** knowing the basics helps you understand how technology works. **However,** not everyone needs to become a programmer, especially now that AI can write simple code. **So** I think it’s more important to learn logical thinking **and** how to check whether results make sense."
+   },
+   {
+    "q": "Who should pay for workers to learn new skills, companies or workers themselves?",
+    "a": "**Ideally,** it should be shared. **For example,** companies benefit directly when their staff become more skilled, **so** they should offer training or time off to study. **At the same time,** workers also gain, because those skills stay with them even if they change jobs. **So** both sides should contribute."
+   }
+  ]
+ },
+ {
+  "id": "career-7",
+  "theme": "Career Paths & AI",
+  "themeZh": "職涯發展與AI競爭",
+  "setLabel": "Set 7",
+  "title": "Describe a job that AI may replace in the future.",
+  "cues": [
+   "what the job is",
+   "what people in this job do now",
+   "how AI is already doing part of this work",
+   "and explain what effects this change might have."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "customer service call-centre staff 客服人員 → answer phone + chat questions"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "check orders, change bookings, explain bills, calm angry customers; often shift work"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "phone bill problem → chatbot answered at midnight in 2 min; but complicated refund → needed real person, waited 40 min"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "causes: cheaper + 24/7; effects: fewer entry-level jobs, staff → handle hard cases; need retraining"
+   }
+  ],
+  "sample": [
+   "**Okay, so** one job that I think AI may replace, at least partly, is customer service staff in call centres. These are the people you talk to **when** you phone your bank, your mobile phone company or an online shop. In Taiwan, a lot of young people take these jobs straight after graduating, **because** you don’t need much experience to start.",
+   "**At the moment,** their work involves checking orders, changing bookings, explaining bills and, of course, calming down angry customers. **On top of that,** many call centres run late-night shifts, **so** the job can be quite tiring. From what my friend who works in one told me, they answer dozens of calls a day, **and** many of the questions are almost exactly the same. Some days they barely have time for lunch.",
+   "**In fact,** I’ve already seen AI doing part of this job. **A few months ago,** I had a problem with my phone bill at midnight, **so** I tried the company’s chatbot. **To my surprise,** it solved the problem in about two minutes. **However,** when I needed a more complicated refund the next week, the chatbot just kept repeating itself, **and** I ended up waiting forty minutes to speak to a real person. It was polite, but it simply couldn’t understand my situation.",
+   "**So in terms of causes,** companies like AI **because** it’s cheaper and it works twenty-four hours a day. **As a result,** I think there’ll be fewer entry-level jobs in this field. **On the other hand,** the remaining staff will probably deal with the difficult cases, **which** means they’ll need better training. **Overall,** the change seems unavoidable, **but** companies should help workers retrain."
+  ],
+  "followUps": [
+   {
+    "q": "Which jobs do you think AI can never replace?",
+    "a": "**I think** jobs that need deep human trust are the safest. **For example,** nurses, social workers and kindergarten teachers deal with emotions every day. **Of course,** AI can help them with paperwork. **However,** people still want a real human when they’re sick, scared or raising a child, **so** these jobs should survive."
+   },
+   {
+    "q": "Should governments limit the use of AI to protect jobs?",
+    "a": "**To some extent,** I think they should set rules. **For instance,** companies could be required to tell customers **when** they’re talking to a machine. **However,** completely banning AI would probably make local companies less competitive. **So** a better approach is to support retraining for workers who lose their jobs."
+   },
+   {
+    "q": "Is it a good thing that machines do boring and repetitive work?",
+    "a": "**Generally speaking,** yes, it is. **After all,** nobody really enjoys answering the same question a hundred times a day. **In theory,** this frees people to do more creative and meaningful work. **The problem is that** not everyone can make that change easily, **especially** older workers with fewer opportunities to learn."
+   }
+  ]
+ },
+ {
+  "id": "career-8",
+  "theme": "Career Paths & AI",
+  "themeZh": "職涯發展與AI競爭",
+  "setLabel": "Set 8",
+  "title": "Describe how AI is changing competition for jobs among young people in your country.",
+  "cues": [
+   "what the change is",
+   "which jobs or fields it affects",
+   "how young people are reacting to it",
+   "and explain how you feel about this change."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "AI → junior tasks (writing, translating, basic coding, design drafts) done in seconds → fewer “starter” roles"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "fields: marketing, translation, admin, entry-level IT; job ads now ask “familiar w/ AI tools”"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "friend Amy, English major → applied for translation jobs → interview test = edit AI draft, not translate; got job b/c she could spot AI errors"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "reactions: double majors, online courses, side projects, some anxious; me: worried but motivated → AI = tool, humans = judgment"
+   }
+  ],
+  "sample": [
+   "**Well,** one big change I’ve noticed in Taiwan is that AI is making it harder for young people to get their very first job. **The reason is that** a lot of junior tasks, **like** writing simple reports, translating emails, basic coding and first design drafts, can now be done by AI in a few seconds. **As a result,** companies seem to need fewer beginners.",
+   "**In terms of which fields,** it seems to hit marketing, translation, admin work and entry-level IT the hardest. **For example,** when I scroll through job websites, a lot of ads now say things like “familiar with AI tools” as a basic requirement. **In other words,** knowing your subject isn’t enough anymore. You also have to show that you can work efficiently with AI. Even small companies now expect new staff to use chatbots for daily tasks.",
+   "A good example is my friend Amy, who studied English literature. **Last year,** she applied for several translation jobs, **and** at one interview the test wasn’t translation at all. **Instead,** they gave her a translation written by AI and asked her to correct it. **Luckily,** she spotted lots of small mistakes in tone and cultural meaning, **and** that’s actually why she got the job.",
+   "**As for how young people are reacting,** some are taking double majors or online courses, **while** others are building side projects to stand out. Some are even changing majors in their final year. **Of course,** quite a few of my classmates feel anxious about it. **Personally,** I’m a bit worried **but** also motivated. **At the end of the day,** **I think** AI is a tool, **and** employers still need humans with good judgment."
+  ],
+  "followUps": [
+   {
+    "q": "Is the job market tougher for young people now than it was for their parents?",
+    "a": "**In some ways,** yes. **For example,** my parents told me a university degree almost guaranteed a decent office job back then. **Nowadays,** however, many more people have degrees, **and** technology changes the skills employers want very quickly. **On the other hand,** young people today have far more ways to learn and work online."
+   },
+   {
+    "q": "How can universities prepare students for a job market changed by AI?",
+    "a": "**First of all,** they should teach students how to use AI tools properly in every subject, not just computer science. **Besides that,** universities need to focus more on teamwork, critical thinking and real projects. **Finally,** they could work more closely with companies, **so that** courses match what employers actually need."
+   },
+   {
+    "q": "Do you think AI will create more jobs than it destroys?",
+    "a": "**It’s hard to say,** but I’m cautiously optimistic. **Historically,** new technologies like computers and the internet created whole industries nobody had imagined. **Similarly,** AI may create jobs we can’t predict yet. **However,** the people who lose jobs aren’t always the ones who get the new ones, **so** retraining is essential."
+   }
+  ]
+ },
+ {
+  "id": "career-9",
+  "theme": "Career Paths & AI",
+  "themeZh": "職涯發展與AI競爭",
+  "setLabel": "Set 9",
+  "title": "Describe a job interview you had or prepared for.",
+  "cues": [
+   "what job it was for",
+   "how you prepared for it",
+   "what happened during the interview",
+   "and explain what you learned from the experience."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "interview for assistant position at English cram school 補習班 → after uni, 1st real interview"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "prep: researched school website, practised answers w/ roommate, prepared 10-min demo lesson on past tense"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "online video interview; laptop died mid-demo! → borrowed roommate’s → stayed calm, joked about it; director laughed"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "got the job; learned: prepare, but attitude when things go wrong = most important; always have backup"
+   }
+  ],
+  "sample": [
+   "**Okay, so** I’d like to talk about my first real job interview, **which** was for an assistant teacher position at an English cram school in Taipei. **At that time,** I had just graduated, **and** I really wanted the job **because** I was thinking about becoming a teacher in the long run.",
+   "**In terms of preparation,** I took it very seriously. **First,** I read everything on the school’s website, including their teaching style and class sizes. **Then** my roommate pretended to be the director, **and** we practised common questions like “Why do you want to work here?” **On top of that,** they asked me to prepare a ten-minute demo lesson, **so** I planned a short, fun lesson on the past tense with lots of pictures. I even ironed a shirt, although only the top half of me would be on camera.",
+   "The interview itself was online, **and** everything went smoothly at first. **Then, right in the middle of my demo lesson,** my laptop suddenly died **because** I had forgotten to plug it in. I was absolutely horrified. **Luckily,** my roommate was home, **so** I borrowed her laptop and rejoined about three minutes later. **Instead of** panicking, I joked that it was a good example of the past tense: “My laptop died.” Fortunately, the director laughed.",
+   "**In the end,** I actually got the job. Later, the director told me that how I handled the problem impressed her more than the lesson itself. She also said my demo lesson was clear and well organised. **So the main thing I learned** is that preparation matters, **but** your attitude when something goes wrong matters even more. And of course, I always charge my laptop now."
+  ],
+  "followUps": [
+   {
+    "q": "What qualities do employers look for in young applicants?",
+    "a": "**I think** most employers want people who are willing to learn. **For example,** they don’t expect a fresh graduate to know everything. **However,** they do look for a positive attitude, good communication and reliability. **On top of that,** some evidence of real experience, **like** an internship, can make a huge difference."
+   },
+   {
+    "q": "Are online interviews better than face-to-face interviews?",
+    "a": "**They have both pros and cons.** **On the plus side,** online interviews save time and travel, especially for candidates in other cities. **On the downside,** it’s harder to read body language, **and** technical problems can happen. **Personally,** I think the final round should still be face-to-face if possible."
+   },
+   {
+    "q": "Is it fair for companies to use AI to screen job applications?",
+    "a": "**Not completely, in my opinion.** **Admittedly,** AI can save a lot of time when there are thousands of applicants. **However,** it might reject good candidates just because they didn’t use certain keywords. **So** I think a human should always check the final decisions **rather than** leaving everything to software."
+   }
+  ]
+ },
+ {
+  "id": "career-10",
+  "theme": "Career Paths & AI",
+  "themeZh": "職涯發展與AI競爭",
+  "setLabel": "Set 10",
+  "title": "Describe a book that helped you think about your future career.",
+  "cues": [
+   "what the book is",
+   "how you found it",
+   "what ideas in it were useful to you",
+   "and explain how it changed the way you think about work."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Designing Your Life → 2 Stanford design teachers, B. Burnett & D. Evans; Chinese version too"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "use design thinking for your life: be curious, try things, build “prototypes” of careers; plan 3 different 5-yr lives"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "found at uni library during exam stress; did the exercise → 3 plans: teacher / NGO worker / café owner; then coffee chats w/ people in each job"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "no single “right” career → test small, adjust; less afraid of making the wrong choice"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the book I’d like to describe is called Designing Your Life. It was written by Bill Burnett and Dave Evans, who teach design at Stanford University, **and** there’s also a Chinese translation, **which** is how a lot of students in Taiwan know it. **Basically,** it’s about using the way designers solve problems to plan your life and career.",
+   "**The main idea is that** you don’t have to find one perfect career straight away. **Instead,** you stay curious, try small things and build what they call “prototypes” of different futures. **For example,** one exercise asks you to plan three completely different versions of the next five years. **What I like is that** the tone is really practical and encouraging, not preachy at all. Each chapter also ends with a few simple exercises to try.",
+   "**I actually found it by accident** in my university library during exam season, **when** I was feeling really lost about what to do after graduation. **That weekend,** I did the three-lives exercise, **and** I came up with being an English teacher, working for an NGO, **or** opening a small café. **Then,** following the book’s advice, I had coffee with people doing each of those jobs, **which** was incredibly eye-opening.",
+   "**Looking back,** the book changed the way I think about work quite a lot. **Before,** I believed there was one right career and that choosing wrong would ruin my life. **Now,** **I think** it’s more about testing ideas on a small scale and adjusting as you go. **As a result,** I feel much less afraid of making the wrong choice. Right now, I’m testing the teaching idea by tutoring two high-school students."
+  ],
+  "followUps": [
+   {
+    "q": "Can books really help people make career decisions?",
+    "a": "**I think** they can, **but** only as a starting point. **For example,** a good book can give you questions to ask yourself that you’d never thought of. **However,** reading alone won’t tell you what a job is really like. **So** you still need to talk to people and get some real experience."
+   },
+   {
+    "q": "Where do young people in your country usually get information about careers?",
+    "a": "**These days,** mostly online. **For instance,** many students watch YouTube videos where people describe a day in their job, or they read posts on forums like Dcard. **Besides that,** job websites publish salary information. **However,** the quality varies a lot, **so** students need to be careful about what they believe."
+   },
+   {
+    "q": "Is it important to have a long-term career plan?",
+    "a": "**To some extent,** yes. **Having a direction** helps you choose courses and save money for your goals. **On the other hand,** the world changes so quickly, especially with AI, that a rigid ten-year plan might become useless. **So** I’d say it’s better to have flexible goals **and** review them every year."
+   }
+  ]
  }
 ]
 ;
