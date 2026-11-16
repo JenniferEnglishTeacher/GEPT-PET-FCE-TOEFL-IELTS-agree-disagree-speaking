@@ -7,7 +7,8 @@
   const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
 
   const el = {
-    search: $("#searchInput"), themeTabs: $("#themeTabs"), topicList: $("#topicList"), topicCount: $("#topicCount"),
+    search: $("#searchInput"), themeSelect: $("#themeSelect"), prevTheme: $("#prevThemeBtn"), nextTheme: $("#nextThemeBtn"),
+    listHeading: $("#listHeading"), topicList: $("#topicList"), topicCount: $("#topicCount"),
     themeLabel: $("#themeLabel"), cueTitle: $("#cueTitle"), cueList: $("#cueList"), readCueBtn: $("#readCueBtn"),
     mindMap: $("#mindMap"), sample: $("#sampleAnswer"), scopeChips: $("#scopeChips"), rate: $("#rateSelect"),
     listenBtn: $("#listenBtn"), readAlongBtn: $("#readAlongBtn"), stopSampleBtn: $("#stopSampleBtn"),
@@ -18,9 +19,9 @@
     cleanBtn: $("#cleanBtn"), restoreBtn: $("#restoreBtn"), copyBtn: $("#copyBtn"), botBtn: $("#botBtn"), transcriptStatus: $("#transcriptStatus"),
   };
 
-  const themes = ["All", ...new Set(DATA.map(d => d.theme))];
-  let activeTheme = "All";
+  const themes = [...new Set(DATA.map(d => d.theme))];
   let active = DATA[0];
+  let activeTheme = active ? active.theme : "";
   let scope = "all"; // "all" or paragraph index
   let wordSpans = []; // [{el, parts:[norm], para}]
 
@@ -80,36 +81,50 @@
   })();
 
   /* ---------- rendering ---------- */
+  // With search text: matching cards from every theme. Without: only the chosen theme's sets.
   function filtered() {
     const q = el.search.value.trim().toLowerCase();
-    return DATA.filter(d => (activeTheme === "All" || d.theme === activeTheme) &&
-      [d.theme, d.themeZh, d.title, ...d.cues, ...d.notes.map(n => n.text), ...d.sample].join(" ").toLowerCase().includes(q));
+    if (!q) return DATA.filter(d => d.theme === activeTheme);
+    return DATA.filter(d => [d.theme, d.themeZh, d.title, ...d.cues, ...d.notes.map(n => n.text), ...d.sample].join(" ").toLowerCase().includes(q));
   }
 
   function renderThemes() {
-    el.themeTabs.innerHTML = "";
+    el.themeSelect.innerHTML = "";
     themes.forEach(t => {
-      const b = document.createElement("button");
-      b.type = "button"; b.className = "category-tab";
-      b.textContent = t === "All" ? `All (${DATA.length})` : shortTheme(t);
-      b.setAttribute("aria-pressed", String(t === activeTheme));
-      b.addEventListener("click", () => {
-        activeTheme = t; renderThemes(); renderTopics();
-        const first = filtered()[0]; if (first && first !== active) select(first);
-      });
-      el.themeTabs.append(b);
+      const first = DATA.find(d => d.theme === t);
+      const n = DATA.filter(d => d.theme === t).length;
+      const o = document.createElement("option");
+      o.value = t; o.textContent = `${t} ${first.themeZh || ""} (${n})`;
+      el.themeSelect.append(o);
     });
+    el.themeSelect.value = activeTheme;
+  }
+
+  function goToTheme(t) {
+    activeTheme = t;
+    if (el.search.value) el.search.value = "";
+    const first = DATA.find(d => d.theme === t);
+    if (first) select(first);
+  }
+  function stepTheme(dir) {
+    const i = themes.indexOf(activeTheme);
+    goToTheme(themes[(i + dir + themes.length) % themes.length]);
   }
 
   function renderTopics() {
     const list = filtered();
-    el.topicCount.textContent = `${list.length} shown`;
+    const searching = Boolean(el.search.value.trim());
+    el.themeSelect.value = activeTheme;
+    el.topicCount.textContent = `${DATA.length} cards · ${themes.length} themes`;
+    el.listHeading.textContent = searching
+      ? `${list.length} search result${list.length === 1 ? "" : "s"} (all themes)`
+      : `${list.length} sets in this theme`;
     el.topicList.innerHTML = "";
     list.forEach(item => {
       const b = document.createElement("button");
       b.type = "button"; b.className = "topic-button";
       b.setAttribute("aria-current", String(item === active));
-      const s = document.createElement("span"); s.className = "set"; s.textContent = `${shortTheme(item.theme)} · ${item.setLabel}`;
+      const s = document.createElement("span"); s.className = "set"; s.textContent = searching ? `${shortTheme(item.theme)} · ${item.setLabel}` : item.setLabel;
       const t = document.createElement("span"); t.textContent = item.title.replace(/^Describe /, "").replace(/\.$/, "");
       t.style.textTransform = "none";
       b.append(s, t);
@@ -224,7 +239,7 @@
 
   function select(item) {
     stopSample(); if (rec.mode === "speak") stopSpeaking(); stopPrep();
-    active = item; scope = "all";
+    active = item; activeTheme = item.theme; scope = "all";
     try { history.replaceState(null, "", `#${item.id}`); } catch {}
     renderTopics(); renderCue(); renderMindMap(); renderSample(); renderFollowUps(); renderNotes();
     rawBeforeClean = null; el.restoreBtn.hidden = true;
@@ -532,6 +547,9 @@
 
   /* ---------- events ---------- */
   el.search.addEventListener("input", renderTopics);
+  el.themeSelect.addEventListener("change", () => goToTheme(el.themeSelect.value));
+  el.prevTheme.addEventListener("click", () => stepTheme(-1));
+  el.nextTheme.addEventListener("click", () => stepTheme(1));
   el.readCueBtn.addEventListener("click", () => speakText(`${active.title} You should say: ${active.cues.join(", ")}`));
   el.listenBtn.addEventListener("click", listenSample);
   el.readAlongBtn.addEventListener("click", readAlong);
