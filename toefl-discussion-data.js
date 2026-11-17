@@ -49,4 +49,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 2, cat: "Technology & AI",
+    title: "AI-Generated Images and Videos", zh: "AI 生成的圖片與影片",
+    question: "Will AI-generated images and videos have a positive or a negative influence on society?", questionZh: "AI 生成的圖片與影片對社會的影響是正面還是負面？",
+    professor: "This week we are looking at generative AI. Today, anyone can create realistic images and videos in seconds simply by typing a short description. Some people welcome this technology because it makes creative work faster and cheaper, while others worry that it will fill the internet with fake content and threaten the jobs of human creators. Do you think AI-generated images and videos will have a positive or a negative influence on society? Why?",
+    david: "I believe AI-generated images and videos will have a positive influence. They allow creators to produce high-quality content quickly and at a lower cost. For example, teachers can use AI visuals to explain complex ideas more clearly, and filmmakers can create realistic scenes without expensive equipment. This makes creativity accessible to everyone.",
+    mary: "I disagree with David. AI-generated content can easily be misused to spread misinformation, manipulate public opinion, or create fake videos that look real, which makes it harder to trust what we see online. Moreover, if AI replaces human creators, it may reduce job opportunities and weaken the value of original work.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "正面影響", rows: [
+        { role: "Position", zh: "表明立場", hints: "agree with David's view 同意 David 的看法 / AI-generated 由 AI 生成的 / positive influence 正面影響 / open … to far more people 讓更多人能參與",
+          sample: "[[I agree with David's view that]] **AI-generated images and videos** [[will have a positive influence on]] society, [[as]] they open **creative work** to far more people." },
+        { role: "New reason", zh: "補充新理由", hints: "I would add that 我想補充 / small businesses 小型企業 / charities 慈善團體 / compete with 與…競爭 / big budgets 龐大預算 / professional advertising 專業廣告 / reach a wide audience 觸及廣大受眾",
+          sample: "[[I would add that]] this technology [[also helps]] **small businesses** and **charities** compete with large companies. [[In the past, only]] organisations with big **budgets** could afford professional **advertising**; [[now anyone with]] a good idea can reach a wide **audience**." },
+        { role: "Example", zh: "舉例", hints: "my aunt 我阿姨 / runs a bakery 經營麵包店 / could never afford to 一直負擔不起 / hire a designer 請設計師 / AI tool AI 工具 / posters 海報 / online orders 線上訂單 / increased noticeably 明顯增加",
+          sample: "[[For example,]] my aunt runs a small bakery, and she could never afford to hire a **designer**. Recently, she started using an **AI tool** to create posters and short videos for **social media**. [[As a result,]] her online orders increased noticeably within a few months." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "While … is right that 雖然…說得對 / misinformation 假訊息 / this problem can be reduced by + V-ing 這個問題可以靠…減少 / clear labels 清楚標示 / media literacy 媒體識讀",
+          sample: "[[While Mary is right that]] fake videos can spread **misinformation**, [[I believe this problem can be reduced by]] requiring clear **labels** on **AI-generated content** and by teaching **media literacy** at school." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons 基於這些理由 / embrace 欣然接受 / regulate wisely 明智地規範 / rather than 而不是 / fear 害怕",
+          sample: "[[For these reasons,]] society should embrace this technology and **regulate** it wisely [[rather than]] fear it." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "負面影響", rows: [
+        { role: "Position", zh: "表明立場", hints: "side with Mary 支持 Mary / In my view 依我之見 / pose a serious threat to 對…構成嚴重威脅",
+          sample: "[[I side with Mary on this issue.]] [[In my view,]] **AI-generated images and videos** [[pose a serious threat to]] society." },
+        { role: "New reason", zh: "補充新理由", hints: "Another point worth mentioning is that 另一個值得一提的點是 / criminals 罪犯 / powerful tool 強大的工具 / scammers 詐騙者 / copy a face and voice 複製臉和聲音 / be deceived 被騙",
+          sample: "[[Another point worth mentioning is that]] this technology gives **criminals** a powerful new tool. **Scammers** can now copy a person's face and voice from a few photos or clips online, [[so even]] careful people may be **deceived**." },
+        { role: "Example", zh: "舉例", hints: "a friend of my mother's 我媽媽的朋友 / video call 視訊通話 / appeared to be from 看起來是…打來的 / urgently 緊急地 / so … that 如此…以致於 / convincing 逼真的 / transfer her savings 匯出存款 / deepfake 深偽影片",
+          sample: "[[For instance,]] a friend of my mother's received a **video call** that appeared to be from her son, who said he urgently needed money. The face and voice were [[so]] convincing [[that]] she almost transferred her savings before she discovered it was a **deepfake**." },
+        { role: "Respond to David", zh: "回應對方", hints: "Although … makes a valid point that 雖然…說得有道理 / AI visuals AI 影像 / save time and money 省時省錢 / these benefits mean little if 如果…這些好處就沒什麼意義 / can no longer 不再能 / believe what they see 相信所見",
+          sample: "[[Although David makes a valid point that]] **AI visuals** save time and money for teachers and filmmakers, [[these benefits mean little if]] people can no longer believe what they see." },
+        { role: "Conclusion", zh: "結論", hints: "Therefore 因此 / unless 除非 / strict laws 嚴格的法律 / punish misuse 懲罰濫用 / is likely to 很可能 / do more harm than good 弊大於利",
+          sample: "[[Therefore, unless]] strict **laws** are introduced to punish **misuse**, **AI-generated content** [[is likely to do more harm than good.]]" },
+      ] },
+    ]
+  },
 ];
