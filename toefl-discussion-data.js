@@ -83,4 +83,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 3, cat: "Social media & influencers",
+    title: "Social Media Influencers and Young People", zh: "網紅對年輕人的影響",
+    question: "Do social media influencers have a mainly positive or a mainly negative influence on young people?", questionZh: "社群媒體網紅對年輕人的影響主要是正面還是負面？",
+    professor: "This week we are discussing digital media and society. Social media influencers now reach millions of young followers every day, and many teenagers seem to trust them more than traditional celebrities or advertisements. Some people see influencers as inspiring role models who share useful knowledge, while others believe they encourage materialism and unrealistic lifestyles. In your opinion, do social media influencers have a mainly positive or a mainly negative influence on young people? Why?",
+    david: "I think influencers have a mainly positive influence. Many of them share free, practical knowledge about topics such as fitness, cooking, study skills and personal finance in a way that is easy to understand. They also show young people that it is possible to turn a passion into a career through creativity and hard work.",
+    mary: "I see it differently. Many influencers are paid to promote products, yet their recommendations sound like friendly advice, so young followers are easily persuaded to buy things they do not need. In addition, the perfect bodies and luxurious lifestyles they display are often edited or staged, which can damage teenagers' self-esteem.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "正面影響", rows: [
+        { role: "Position", zh: "表明立場", hints: "agree with David that 同意 David 所說的 / influencer 網紅 / mainly positive influence 主要是正面影響",
+          sample: "[[I agree with David that]] **social media influencers** [[have a mainly positive influence on]] young people." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to the points … raised 除了…提到的論點之外 / talk openly about 公開談論 / exam stress 考試壓力 / failure 失敗 / followers 追蹤者 / realise they are not alone 明白自己並不孤單",
+          sample: "[[In addition to the points David raised,]] **influencers** often talk openly about personal difficulties [[such as]] exam stress and failure. Hearing these honest stories [[helps]] young **followers** realise that they are not alone." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / used to 以前總是 / anxious 焦慮的 / study vlogger 讀書型影音創作者 / entrance exam 入學考試 / Inspired by 受…啟發 / study routine 讀書作息 / confidence 自信",
+          sample: "[[Take my cousin as an example.]] She [[used to]] feel very anxious before every exam. Last year, she began following a **study vlogger** who shared how she had once failed her university entrance exam. [[Inspired by]] her, my cousin adopted a similar study routine, and her grades and confidence improved." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… is right to point out that …指出…是對的 / promote products 推銷產品 / sponsorship 業配、贊助 / However, this problem can be addressed by 然而這個問題可以透過…解決 / stricter 更嚴格的 / disclosure rules 揭露規定",
+          sample: "[[Mary is right to point out that]] some influencers promote products without being honest about **sponsorship**. [[However, this problem can be addressed by]] stricter **disclosure rules**." },
+        { role: "Conclusion", zh: "結論", hints: "Overall 整體而言 / with a little guidance on 只要在…方面稍加引導 / whom to follow 該追蹤誰 / gain far more than they lose 得到的遠多於失去的",
+          sample: "[[Overall, I believe that]] with a little guidance on choosing whom to **follow**, young people [[gain far more than they lose from]] **influencers**." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "負面影響", rows: [
+        { role: "Position", zh: "表明立場", hints: "share …'s concern 和…有同樣的擔憂 / From my perspective 從我的觀點來看 / mainly negative influence 主要是負面影響",
+          sample: "[[I share Mary's concern.]] [[From my perspective,]] **social media influencers** [[have a mainly negative influence on]] young people." },
+        { role: "New reason", zh: "補充新理由", hints: "What neither student mentioned is that 兩位同學都沒提到的是 / quick and effortless 又快又不費力 / fame 名氣 / income 收入 / unnecessary 不必要的 / go viral 爆紅 / realistic career plan 實際可行的職涯規劃",
+          sample: "[[What neither student mentioned is that]] **influencers** make success look quick and effortless. Because **followers** only see the **fame** and the income, some teenagers [[start to believe that]] studying is unnecessary and that **going viral** is a realistic career plan." },
+        { role: "Example", zh: "舉例", hints: "A good example is 一個很好的例子是 / film videos 拍影片 / in the hope of + V-ing 希望能… / stay up late 熬夜 / fewer than 少於 / subscribers 訂閱者 / drop sharply 大幅下滑",
+          sample: "[[A good example is]] one of my younger brother's classmates. He spent several hours every day filming videos [[in the hope of]] becoming famous, so he often stayed up late and stopped doing his homework. A year later, his **channel** had fewer than a hundred **subscribers**, and his grades had dropped sharply." },
+        { role: "Respond to David", zh: "回應對方", hints: "… makes a fair point that …說得有道理 / practical knowledge 實用知識 / Nevertheless 儘管如此 / educational content 教育性內容 / tend to 往往 / attract fewer views 吸引較少觀看數 / entertainment 娛樂 / advertising 廣告",
+          sample: "[[David makes a fair point that]] some influencers share practical knowledge. [[Nevertheless,]] such **educational content** [[tends to]] attract far fewer **views** than entertainment and **advertising**." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / until 直到…之前 / view … critically 以批判眼光看待 / online content 網路內容 / outweigh the benefits 大於好處",
+          sample: "[[In conclusion, until]] young people learn to view **online content** critically, the harm influencers cause [[will outweigh the benefits.]]" },
+      ] },
+    ]
+  },
 ];
