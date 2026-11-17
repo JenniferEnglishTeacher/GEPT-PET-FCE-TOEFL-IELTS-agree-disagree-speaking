@@ -3061,6 +3061,516 @@ window.IELTS_PART2 = [
   ]
  },
  {
+  "id": "education-11",
+  "theme": "Education & Learning",
+  "themeZh": "教育與學習",
+  "setLabel": "Set 11",
+  "title": "Describe a school trip or field trip you remember.",
+  "cues": [
+   "where you went",
+   "who you went with",
+   "what you did there",
+   "and explain why you still remember this trip."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Gr. 11 geography field trip → Yehliu Geopark 野柳, north coast, New Taipei"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "whole class + geog. teacher Mr. Lin; coach from school ~1 hr; worksheet: sketch rocks + explain erosion; Queen’s Head 女王頭 → neck getting thinner"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "strong wind + sea spray → worksheet soaked; best friend’s hat blew into a rock pool → whole class cheering as he fished it out"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "textbook → real life: wind + waves shape rocks; learning outside = sticks in memory; want to go back w/ family"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the trip I’d like to describe is a geography field trip I went on in my second year of senior high school. We went to Yehliu Geopark, which is on the north coast of New Taipei, about an hour from our school by coach. **To be fair,** it’s quite a touristy place, **but** for a group of sixteen-year-olds stuck in a classroom all week, it felt like a real adventure.",
+   "**As for who I went with,** it was our whole class plus our geography teacher, Mr. Lin, who was really passionate about rocks. **Before we got off the coach,** he handed out a worksheet. **Basically,** we had to sketch three rock formations and explain how wind and waves had shaped them. **Of course,** the highlight was the famous Queen’s Head rock. **Apparently,** its neck is getting thinner every year, **so** some people worry it might break one day.",
+   "**What I remember most, though,** is the weather. It was incredibly windy, **and** the sea spray soaked our worksheets within about ten minutes. **Then,** all of a sudden, my best friend’s cap blew off and landed in a rock pool. **In the end,** he had to climb down and fish it out while the whole class cheered him on. **Even Mr. Lin** couldn’t stop laughing.",
+   "**Looking back,** I think the trip stuck in my mind because it turned a boring textbook chapter into something real. **Instead of** memorising the word “erosion”, I actually felt the wind and saw the damage it causes. **So overall,** it taught me that learning outside the classroom stays with you much longer. **One day,** I’d love to take my parents there too."
+  ],
+  "followUps": [
+   {
+    "q": "Why are school trips important for students?",
+    "a": "**I think** they’re important because they make knowledge feel real. **For example,** seeing an old temple teaches you more about history than reading a page about it. **On top of that,** trips help classmates bond, **since** they spend the whole day together outside the normal timetable. **That’s why** I think every school should organise them."
+   },
+   {
+    "q": "Should parents pay for school trips?",
+    "a": "**Well,** it depends on the cost. Generally speaking, a small fee is fair, **because** schools have limited budgets. **However,** expensive trips can be a real burden for some families, **and** no child should miss out because of money. **Ideally,** the government or the school should help students from poorer families."
+   },
+   {
+    "q": "What are the risks of taking children on school trips?",
+    "a": "**Obviously,** safety is the biggest concern. **For instance,** children might get lost in a crowded place or get hurt near water. **In addition,** bad weather can suddenly change the plan. **So in my opinion,** teachers need clear rules, enough adult helpers and a backup plan, **but** these risks shouldn’t stop schools from going."
+   }
+  ]
+ },
+ {
+  "id": "education-12",
+  "theme": "Education & Learning",
+  "themeZh": "教育與學習",
+  "setLabel": "Set 12",
+  "title": "Describe a classmate who helped you learn.",
+  "cues": [
+   "who this classmate is",
+   "what he or she helped you with",
+   "how he or she helped you",
+   "and explain how you feel about this classmate."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Yi-Ting 怡婷 → junior high classmate, sat next to me in Gr. 8, top in maths"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "I was hopeless at algebra; she never gave answers → drew diagrams + asked “What do you know already?”"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "lunch breaks for a month before mid-term → went from failing (around 50) to 82; she was happier than me"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "patient + generous; taught me how to think, not just maths; still friends, she’s now a maths teacher"
+   }
+  ],
+  "sample": [
+   "**Alright, so** I’d like to talk about a classmate called Yi-Ting, who sat next to me in my second year of junior high school. She was easily the best student in our class at maths, **but** what made her special was that she never showed off. **In fact,** she was quite shy, **so** at first I didn’t even know how clever she was.",
+   "**The thing is,** I was completely hopeless at algebra back then. **Whenever** I saw letters mixed with numbers, my brain just shut down. **One day,** Yi-Ting noticed me staring at a question for ages, **and** she quietly offered to help. **What I liked was that** she never simply gave me the answer. **Instead,** she drew little diagrams and kept asking, “Okay, what do you know already?” **Step by step,** she made me work it out myself.",
+   "**For about a month** before our mid-term exams, we spent almost every lunch break together going through practice questions. **At the beginning,** I was scoring around fifty, which was a fail. **But** on the actual exam, I got eighty-two. **Funnily enough,** when the results came out, she was even more excited than I was, **and** she bought me a bubble tea to celebrate.",
+   "**Looking back,** I feel really grateful to her. She was incredibly patient and generous with her time, **even though** she had her own studying to do. **More importantly,** she taught me how to think through a problem, not just how to solve equations. Actually, we’re still friends now, **and** it’s no surprise to me that she became a maths teacher."
+  ],
+  "followUps": [
+   {
+    "q": "Do students learn better from teachers or from classmates?",
+    "a": "**In my view,** both are useful in different ways. **On the one hand,** teachers have more knowledge and experience. **On the other hand,** classmates explain things in simpler language, **and** students often feel less embarrassed asking a friend a silly question. **So ideally,** schools should encourage both."
+   },
+   {
+    "q": "Is competition between classmates a good thing?",
+    "a": "**To some extent,** yes, **because** a little competition can push students to work harder. **However,** too much of it can make classmates unwilling to share notes or help each other. **In Taiwan,** where class rankings are common, **I think** teachers should also reward teamwork, not just high scores."
+   },
+   {
+    "q": "Why do some students not ask for help when they need it?",
+    "a": "**I think** the main reason is pride or embarrassment. **For example,** some students worry that classmates will think they’re stupid. **Besides that,** shy students may not know how to start the conversation. **That’s why** I think teachers should make asking questions feel normal, **for instance** by praising good questions in class."
+   }
+  ]
+ },
+ {
+  "id": "education-13",
+  "theme": "Education & Learning",
+  "themeZh": "教育與學習",
+  "setLabel": "Set 13",
+  "title": "Describe a time when you studied with a group of people.",
+  "cues": [
+   "who was in the group",
+   "what you studied",
+   "how you worked together",
+   "and explain whether it was a good way to study."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "uni Year 2, Intro to Economics group project → 4 of us, different depts"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "topic: why bubble tea prices rise; met every Wed in library study room; split roles → data, slides, interviews, script"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "one member disappeared for 2 wks → argued in LINE group → honest talk, he had a part-time job → swapped tasks"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "slower than studying alone but deeper; learned teamwork + communication; got A−"
+   }
+  ],
+  "sample": [
+   "**Okay, so** a time I studied with a group was during my second year at university. We had a big project for an introductory economics course, **and** the teacher put us into groups of four. **Interestingly,** we were all from different departments, **so** at first we didn’t know each other at all.",
+   "**Our topic was** why bubble tea prices in Taiwan keep going up, which sounds fun but involved a lot of research and number-crunching. **To keep things organised,** we booked a small study room on the third floor of the library every Wednesday afternoon. Then we split the work. **For example,** I was in charge of the slides, one girl collected price data from different shops, **and** the other two interviewed shop owners and wrote the script.",
+   "**Things went smoothly at first, but then** one member suddenly disappeared for about two weeks. He didn’t reply to our LINE group, **so** naturally we got quite annoyed, **and** there was a bit of an argument online. **In the end,** we met up face to face, **and** it turned out he had just started a part-time job and was exhausted. **After that honest talk,** we swapped tasks **so that** he could do the parts that fitted his schedule.",
+   "**On the whole,** I’d say it was a good way to study, **although** it was definitely slower than working alone. **Because** everyone saw the topic from a different angle, we understood it much more deeply. **On top of that,** I learned a lot about communication. **And in the end,** we got an A-minus, which made all the stress worthwhile."
+  ],
+  "followUps": [
+   {
+    "q": "What are the advantages and disadvantages of studying in groups?",
+    "a": "**Well,** the main advantage is that you can share ideas and fill each other’s gaps. **For instance,** someone good at maths can help someone good at writing. **However,** groups can easily get distracted and start chatting. **In addition,** one lazy member can create a lot of tension, **so** it really depends on the people."
+   },
+   {
+    "q": "Should group work be part of school assessment?",
+    "a": "**I think** it should be, but only partly. **After all,** most jobs require teamwork, **so** students need to practise it. **On the other hand,** it’s unfair if hardworking students get the same grade as lazy ones. **That’s why** teachers should also ask each member to explain their own contribution."
+   },
+   {
+    "q": "Do you think technology has made group study easier?",
+    "a": "**Definitely,** in many ways. **Nowadays,** students can edit the same document online and hold video calls from home. **As a result,** they don’t need to find a time when everyone can meet in person. **However,** online meetings can feel less focused, **so** I still think face-to-face sessions are useful for important decisions."
+   }
+  ]
+ },
+ {
+  "id": "education-14",
+  "theme": "Education & Learning",
+  "themeZh": "教育與學習",
+  "setLabel": "Set 14",
+  "title": "Describe an online course you took.",
+  "cues": [
+   "what the course was about",
+   "where you found it",
+   "how you studied it",
+   "and explain how useful this course was for you."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "beginner Python course → Hahow, TW online course platform; last summer"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "~20 hrs of short videos + exercises; teacher = engineer, explained w/ everyday ex. (bubble tea order system)"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "goal: 1 lesson/night after dinner; week 3 stuck on loops → nearly gave up; course forum → another student’s tip → finally worked"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "wrote small program to track my spending; self-discipline matters more than the platform; next: data analysis"
+   }
+  ],
+  "sample": [
+   "**So** the online course I’d like to talk about is a beginner’s Python programming course I took last summer. I found it on Hahow, which is a Taiwanese online learning platform where people sell video courses on all sorts of skills, from cooking to photography. **The main reason I chose it was that** I study business, **and** a lot of my friends kept saying basic coding would help me get a job.",
+   "**In terms of content,** it had about twenty hours of short videos, each followed by a little exercise. **What I really liked was** the teacher, who was a software engineer. **Instead of** using boring textbook examples, he explained everything through everyday situations. **For instance,** we built a simple ordering system for a bubble tea shop, which made the ideas much easier to remember and actually quite fun.",
+   "**As for how I studied,** I set myself a goal of one lesson every night after dinner. **At first,** it went really well. **But** in the third week, I got completely stuck on a topic called loops, **and** I nearly gave up. **Luckily,** the course had a discussion forum, **so** I posted my question. **The next morning,** another student had replied with a really clear tip, **and** suddenly everything made sense.",
+   "**Overall,** I’d say the course was surprisingly useful. **By the end,** I could write a small program that tracks my monthly spending, which I still use almost every week now. **More importantly,** it showed me that self-discipline matters more than the platform itself. **Next,** I’m thinking of taking a course on data analysis."
+  ],
+  "followUps": [
+   {
+    "q": "What are the advantages of online courses compared with classroom learning?",
+    "a": "**The biggest advantage is** flexibility. **For example,** you can study at midnight or replay a difficult part as many times as you like. **Besides that,** online courses are often much cheaper. **However,** you don’t get the same instant feedback from a teacher, **so** they suit independent learners best."
+   },
+   {
+    "q": "Why do many people start online courses but never finish them?",
+    "a": "**I think** it’s mainly a lack of pressure. **In a real classroom,** there’s a teacher and a fixed time, **whereas** online you can always say, “I’ll do it tomorrow.” **On top of that,** people are busy with work and family. **As a result,** their motivation slowly fades after the first few weeks."
+   },
+   {
+    "q": "Will online learning replace traditional schools in the future?",
+    "a": "**Personally,** I don’t think so. **Of course,** online learning will keep growing, especially for adults. **However,** schools do much more than teach facts. **For instance,** children learn how to make friends, solve conflicts and work in teams. **So** I imagine schools will mix online and face-to-face learning rather than disappear."
+   }
+  ]
+ },
+ {
+  "id": "education-15",
+  "theme": "Education & Learning",
+  "themeZh": "教育與學習",
+  "setLabel": "Set 15",
+  "title": "Describe a school club or after-school activity you joined.",
+  "cues": [
+   "what the club or activity was",
+   "when and how often you took part",
+   "what you did there",
+   "and explain what you gained from it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "English debate club → senior high, Gr. 10–11"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "every Tue after school 2 hrs + some Sat; ~15 members; practice motions, e.g. “uniforms should be banned”; timed speeches"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "1st inter-school debate → mind went blank, shaking voice; captain: “just say your 3 points” → by 2nd year reached quarter-final"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "confidence speaking in public + listening carefully + seeing both sides; helps in IELTS speaking now"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the club I’d like to describe is the English debate club at my senior high school. I joined it in my first year, mainly **because** my best friend dragged me along, **and** I stayed in it for two whole years. **To be fair,** I wasn’t very keen at first, **since** my spoken English was pretty weak back then.",
+   "**As for how often we met,** we had practice every Tuesday after school for about two hours, **and** before competitions we sometimes came in on Saturdays as well. There were about fifteen members. Usually, our teacher gave us a motion, **for example,** “School uniforms should be banned”, **and then** we were split into two teams. **After** fifteen minutes of preparation, each speaker had a strict time limit, which was really nerve-racking.",
+   "**I still remember** my first inter-school debate. **As soon as** I stood up, my mind went completely blank, **and** my voice was shaking. **Afterwards,** our team captain told me, “Just say your three points slowly – nothing else matters.” Surprisingly, that simple advice really worked. **By my second year,** our team made it to the quarter-finals of a regional competition, which felt like a huge achievement for a small club like ours, especially since most of the other teams had been debating for years.",
+   "**Looking back,** I gained a lot from the club. **First of all,** I became much more confident speaking in public. **Secondly,** I learned to listen carefully and look at both sides of an argument. **In fact,** I think it’s still helping me now, **especially** when I practise for the IELTS speaking test."
+  ],
+  "followUps": [
+   {
+    "q": "Why should students take part in after-school activities?",
+    "a": "**I think** these activities develop skills that exams don’t measure. **For example,** being in a band or a sports team teaches teamwork and responsibility. **In addition,** they give students a break from academic pressure. **That’s why** I believe every student should try at least one club."
+   },
+   {
+    "q": "Do students in your country have enough free time for clubs?",
+    "a": "**Not really, I’m afraid.** **In Taiwan,** many senior high students go to cram school after class, **so** clubs often come second. **However,** the situation is slowly changing, because universities now look at students’ activities as well as their grades. **As a result,** more students are taking clubs seriously."
+   },
+   {
+    "q": "Should parents choose activities for their children?",
+    "a": "**In my opinion,** parents can give advice, **but** the final choice should be the child’s. **Otherwise,** children may lose interest very quickly. **For instance,** I know someone who was forced to learn piano for ten years and now never touches it. **So** letting children choose usually leads to more motivation."
+   }
+  ]
+ },
+ {
+  "id": "education-16",
+  "theme": "Education & Learning",
+  "themeZh": "教育與學習",
+  "setLabel": "Set 16",
+  "title": "Describe a time when you got a bad grade.",
+  "cues": [
+   "what subject or test it was",
+   "what grade you got",
+   "what you did after that",
+   "and explain how this experience affected you."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Gr. 11 chemistry mid-term → 38/100, lowest in class"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "overconfident → spent wk before playing mobile games; memorised formulas but didn’t understand; test paper w/ red ink"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "had to get parent’s signature → Mum quiet, not angry → worse; asked teacher after class → mistake notebook + 30 min/day"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "final exam 76; understanding > memorising; failure = feedback, not the end"
+   }
+  ],
+  "sample": [
+   "**Alright, so** I’d like to talk about a chemistry test in my second year of senior high school. It was the mid-term exam, **and** I got thirty-eight out of a hundred, which was the lowest score in my whole class. **Even now,** I can still picture the paper covered in red ink.",
+   "**The main reason was that** I was far too confident. **In the first year,** chemistry had been fairly easy for me, **so** I assumed I could just look at my notes the night before. **As a result,** I spent most of that week playing a mobile game with my friends. **On top of that,** I had memorised lots of formulas without really understanding them, **so** when the questions were slightly different from the textbook, I was completely lost.",
+   "**What made it worse was that** we needed a parent’s signature on the test paper. **When I showed it to my mum,** she didn’t shout at me at all. She just signed it quietly, which somehow made me feel even guiltier. **The next day,** I went to my teacher after class and asked for advice. **She suggested** keeping a mistake notebook, **so** I wrote down every question I got wrong and why. **After that,** I spent thirty minutes on chemistry every single day.",
+   "**In the end,** I got seventy-six in the final exam, which isn’t amazing, **but** for me it was a huge improvement. **More importantly,** the experience taught me that understanding is much more important than memorising. **These days,** I see a bad result as useful feedback rather than the end of the world."
+  ],
+  "followUps": [
+   {
+    "q": "Do grades really show how intelligent a student is?",
+    "a": "**Not completely, in my view.** **Of course,** grades show how well you’ve prepared for a particular test. **However,** they don’t measure creativity, kindness or practical skills. **For example,** some of my classmates with average grades are now running successful small businesses. **So** grades are only one part of the picture."
+   },
+   {
+    "q": "How should parents react when their child gets a bad grade?",
+    "a": "**I think** they should stay calm and ask what happened first. **If they shout,** the child may simply hide bad results next time. **Instead,** parents can help their child find the reason, **for example,** poor time management or a difficult topic. **That way,** the bad grade becomes something to learn from."
+   },
+   {
+    "q": "Should schools stop giving grades to young children?",
+    "a": "**To some extent,** I agree. **For young children,** grades can create stress and make them compare themselves with others too early. **On the other hand,** parents still need some way to know how their children are doing. **So perhaps** written comments from teachers would be a better option at primary school level."
+   }
+  ]
+ },
+ {
+  "id": "education-17",
+  "theme": "Education & Learning",
+  "themeZh": "教育與學習",
+  "setLabel": "Set 17",
+  "title": "Describe a university or school you would like to attend.",
+  "cues": [
+   "what and where it is",
+   "how you know about it",
+   "what you would like to study there",
+   "and explain why you would like to attend it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "University of Edinburgh → Scotland’s capital; Master’s degree goal"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "very old uni (founded 16th C.), old stone buildings + modern campus; city = castle on a hill"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "1st heard from my uni professor (studied there); online open day → chatted w/ a Taiwanese student → library open late, international classmates"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "want: MSc in education / applied linguistics; need IELTS score → why I’m practising; dream: Edinburgh Festival Fringe in Aug"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the university I’d really love to attend is the University of Edinburgh, which is in the capital of Scotland. **Right now,** I’m in my final year of university in Taipei, **and** my plan is to do a master’s degree abroad. **Out of all the places I’ve looked at,** Edinburgh is definitely at the top of my list.",
+   "**To give you some background,** it’s one of the oldest universities in the UK – I think it was founded back in the sixteenth century. **So** a lot of the buildings are made of old grey stone, **and** they look like something from a fantasy film. **At the same time,** it has very modern facilities. **On top of that,** the city itself is beautiful, with a huge castle sitting on a rock right in the centre.",
+   "**I first heard about it from** one of my professors, who did her PhD there. She always talks about it with a big smile. **After that,** I joined one of the university’s online open days last spring. **During a chat session,** I met a Taiwanese student who told me the library stays open really late, **and** that her classmates come from all over the world. **Needless to say,** that made me even more excited.",
+   "**As for what I’d study,** I’m hoping to do a master’s in applied linguistics, **because** I want to become an English teacher. **Of course,** I need a good IELTS score first, **which is exactly why** I’m practising so hard. **Apart from studying,** I’d love to experience the Edinburgh Festival Fringe in August, which is supposed to be amazing."
+  ],
+  "followUps": [
+   {
+    "q": "Why do many young people want to study abroad?",
+    "a": "**I think** there are several reasons. **First,** some foreign universities have a strong international reputation. **Second,** living abroad improves your language skills much faster than studying at home. **On top of that,** young people want to become more independent, **so** studying abroad is a chance to grow up and see the world."
+   },
+   {
+    "q": "What are the difficulties of studying in another country?",
+    "a": "**The most obvious one is** the cost, **since** tuition and rent can be very expensive. **Besides that,** many students feel lonely and homesick, especially in the first few months. **Also,** academic culture can be different. **For example,** Taiwanese students may not be used to speaking up in class discussions."
+   },
+   {
+    "q": "Is it more important to choose a famous university or a suitable course?",
+    "a": "**In my opinion,** a suitable course matters more. After all, you’ll spend years studying that subject, **so** you need to enjoy it. **Of course,** a famous name can help on your CV. **However,** if the course doesn’t match your interests, you probably won’t do well, **and** that defeats the purpose."
+   }
+  ]
+ },
+ {
+  "id": "education-18",
+  "theme": "Education & Learning",
+  "themeZh": "教育與學習",
+  "setLabel": "Set 18",
+  "title": "Describe the cram-school culture in your country.",
+  "cues": [
+   "what cram schools are",
+   "who usually goes to them",
+   "how they affect students and families",
+   "and explain why this culture has developed."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "補習班 buxiban → private after-school classes; signs everywhere, near every MRT station"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "start early: English for kids in primary school; peak in junior + senior high → maths, science, English before big exams"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "cousin, Gr. 6 → 4 evenings/wk, home after 8 pm; no time to play; parents: “everyone else goes”"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "causes: exam system + parents’ fear of falling behind + few children → invest more; effects: tired kids, family cost, less free time"
+   }
+  ],
+  "sample": [
+   "**Okay, so** I’d like to talk about cram schools, which we call buxiban in Chinese. **Basically,** they’re private schools that students attend after their normal school day, **or** at weekends, to get extra lessons. **In Taiwan,** they’re absolutely everywhere. **For instance,** if you walk out of almost any MRT station in Taipei, you’ll see signs advertising English, maths or science classes.",
+   "**As for who goes,** it starts surprisingly early. **These days,** lots of children begin English cram school in primary school. Then it peaks in junior and senior high, **because** that’s when students face the big entrance exams. **At that stage,** many teenagers have extra classes in maths, science and English, sometimes four or five evenings a week.",
+   "**I can see the effects** clearly with my younger cousin, who’s in sixth grade. She goes to cram school four evenings a week **and** usually gets home after eight. **As a result,** she hardly has any time to play or just relax. **When I asked my aunt about it,** she said, “Everyone else in her class goes, so we can’t let her fall behind.” On top of that, the fees are a real burden for many families.",
+   "**In my view,** this culture has developed for a few reasons. **First of all,** our education system has traditionally focused on exams. **Secondly,** parents worry their children will lose out if they don’t follow the crowd. And finally, **since** families now have fewer children, they’re willing to invest more in each one. **So overall,** I understand why it exists, **but** I think it puts too much pressure on kids."
+  ],
+  "followUps": [
+   {
+    "q": "Do you think cram schools actually improve students’ results?",
+    "a": "**To some extent,** yes. **For example,** students get extra practice and exam tips that school teachers don’t have time for. **However,** if they’re already exhausted, the extra hours may not help much. **In fact,** some students rely on cram schools so much that they stop paying attention at regular school."
+   },
+   {
+    "q": "Why do parents feel pressure to send their children to cram school?",
+    "a": "**I think** it’s mainly peer pressure among parents. **When** all the other children in the class go, parents worry their child will fall behind. **Besides that,** many parents work long hours, **so** cram schools also act as a safe place for kids after school. **As a result,** it becomes the normal choice."
+   },
+   {
+    "q": "How could the government reduce students’ reliance on cram schools?",
+    "a": "**Well,** one idea is to make entrance exams less important. **For instance,** universities could look more at projects and activities. **Another option is** to offer free extra help at school for students who are struggling. **That way,** families wouldn’t feel they have to pay for private classes."
+   }
+  ]
+ },
+ {
+  "id": "education-19",
+  "theme": "Education & Learning",
+  "themeZh": "教育與學習",
+  "setLabel": "Set 19",
+  "title": "Describe a recent change in the high-school system in your country.",
+  "cues": [
+   "what the change is",
+   "when it started",
+   "how it has changed students’ daily life",
+   "and explain whether you think it is a positive change."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "108 curriculum 108課綱 → started 2019; learning portfolios 學習歷程檔案"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "more electives + self-directed learning time 自主學習; students upload projects + reports to online system every semester → later choose some for uni applications"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "younger brother → went through it in senior high; spent whole weekends polishing reports + making them look nice; friends paid for “portfolio consultants”"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "good idea: interests + real projects, not just scores; problem: extra stress + unfair → richer families get help; needs simpler rules"
+   }
+  ],
+  "sample": [
+   "**Okay, so** a big change in Taiwan’s high-school system is what people call the 108 curriculum. The name comes from the year 108 in the Taiwanese calendar, which is 2019, **because** that’s when it started. **The part that changed students’ lives the most** is something called learning portfolios.",
+   "**To explain briefly,** the new curriculum gives students more elective courses **and** some time for self-directed learning, **where** they can choose their own project. Then, every semester, students upload their best work, **like** reports, experiments or project results, to an online system. Later on, when they apply to university, they choose some of these files to show the departments they’re interested in. So in theory, universities can see more than just exam scores.",
+   "**My younger brother** went through this system, **so** I saw the effects up close. **At first,** he was quite excited, **because** he could do a project on the history of our neighbourhood. **However,** near the upload deadlines, he spent entire weekends rewriting reports and making them look as beautiful and professional as possible. **On top of that,** some of his classmates’ parents even paid private consultants to help polish their portfolios, which he thought was really unfair to everyone else.",
+   "**So is it a positive change?** **Well,** I think the idea behind it is great, **because** it encourages students to explore their interests instead of just memorising. **However,** in practice, it’s added extra stress, **and** students from richer families seem to have an advantage. **Overall,** I’d say it’s a step in the right direction, **but** the system still needs to be simpler and fairer."
+  ],
+  "followUps": [
+   {
+    "q": "Should universities choose students based on exams or on other achievements?",
+    "a": "**Ideally,** they should use both. **On the one hand,** exams are simple and fairly objective. **On the other hand,** they can’t show creativity, leadership or passion for a subject. **So** a mix of scores and real projects gives universities a more complete picture, **as long as** the process is transparent."
+   },
+   {
+    "q": "Why do governments change school curriculums?",
+    "a": "**I think** the main reason is that society keeps changing. **For example,** today’s jobs require skills like teamwork and problem-solving, not just memorising facts. **In addition,** new technology creates new subjects, **such as** coding. **As a result,** governments need to update what schools teach every so often."
+   },
+   {
+    "q": "Do you think students today have more freedom than in the past?",
+    "a": "**In some ways,** yes. **Nowadays,** students can choose more of their own courses and projects, whereas my parents studied exactly the same subjects as everyone else. **However,** freedom also brings pressure, **because** students now have to plan their own direction much earlier. **So** it’s a mixed picture."
+   }
+  ]
+ },
+ {
+  "id": "education-20",
+  "theme": "Education & Learning",
+  "themeZh": "教育與學習",
+  "setLabel": "Set 20",
+  "title": "Describe a graduation ceremony you attended.",
+  "cues": [
+   "whose graduation it was",
+   "where and when it took place",
+   "what happened during the ceremony",
+   "and explain how you felt that day."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "my own senior high graduation → June, school auditorium, hot + sticky"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "phoenix trees 鳳凰花 in bloom = graduation season symbol; flower stalls outside gate; principal’s speech, awards, class video"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "class slideshow of 3 yrs → everyone laughing then crying; homeroom teacher hugged each of us; parents w/ bouquets + photos"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "happy + sad + scared; end of a chapter; classmates scattered to different unis → still have LINE group"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the graduation ceremony I’d like to describe is my own senior high school graduation. It took place in June, in our school’s auditorium, **and** I remember it was incredibly hot and sticky that day. **In Taiwan,** June is graduation season, **so** you see students in uniforms holding flowers all over the city.",
+   "**To set the scene,** the phoenix trees on our campus were covered in bright red flowers. **Traditionally,** these flowers are a symbol of graduation here, **so** they made the day feel even more emotional. **Outside the school gate,** there were lots of people selling bouquets and cute stuffed bears. Inside, the ceremony started with a long speech from the principal, and then some students received awards.",
+   "**The best part, though,** was when each class showed a short video. **In ours,** there were photos and clips from all three years, like our sports day and a disastrous cooking competition where we accidentally set off the fire alarm. **At first,** everyone was laughing really hard. **But** by the end, almost the whole class was in tears. **After the ceremony,** our homeroom teacher hugged every single one of us, **and** our parents rushed over with flowers to take endless photos.",
+   "**As for how I felt,** it was a real mix of emotions. **Of course,** I was happy and proud, **but** I also felt sad and a bit scared, **because** I knew we would all go to different universities. **Looking back,** it really felt like the end of a chapter. **Thankfully,** our class LINE group is still active today, and we try to meet up every Lunar New Year."
+  ],
+  "followUps": [
+   {
+    "q": "Why do people hold ceremonies for important events like graduation?",
+    "a": "**I think** ceremonies help people mark the end of one stage and the start of another. **For example,** after years of hard work, a graduation makes students feel their effort has been recognised. **Besides that,** it brings families together, **so** the moment becomes a shared memory rather than just a date."
+   },
+   {
+    "q": "Are graduation ceremonies becoming less important nowadays?",
+    "a": "**Not really, in my opinion.** **If anything,** they seem bigger than before, because everyone wants to post photos on social media. **However,** some people feel that the meaning is being lost, since students care more about outfits and pictures. **So** the ceremony is still important, **but** for slightly different reasons."
+   },
+   {
+    "q": "What is the best way for parents to celebrate their child’s achievements?",
+    "a": "**Personally,** I think spending time together matters more than expensive gifts. **For instance,** a family dinner where everyone talks about the child’s journey can be really meaningful. **Also,** parents should praise the effort, not just the result. **That way,** children learn that hard work itself deserves recognition."
+   }
+  ]
+ },
+ {
   "id": "work-1",
   "theme": "Work & Careers",
   "themeZh": "工作與職涯",
