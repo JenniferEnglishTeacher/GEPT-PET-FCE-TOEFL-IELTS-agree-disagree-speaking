@@ -117,4 +117,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 4, cat: "Environment",
+    title: "Environment or Economic Growth", zh: "環保與經濟成長的取捨",
+    question: "Should governments prioritize environmental protection over economic growth?", questionZh: "政府應該把環境保護看得比經濟成長更重要嗎？",
+    professor: "This week we are looking at environmental policy. Economic growth creates new jobs and gives people money that they can use to improve their lives. On the other hand, a healthy environment can be enjoyed by both ourselves and future generations. These two goals often seem to conflict, for example when a government must decide whether to approve a new factory or protect a forest. If a government had to choose, should it prioritize environmental protection over economic growth? Why or why not?",
+    david: "I think the environment should come first. Economic growth is important, but not at the expense of the planet. Governments should shift towards more environmentally friendly practices, such as investing in renewable energy like solar and wind power. We will all live much healthier lives if the air, water and land around us are clean.",
+    mary: "I understand David's point, but I believe economic growth has to be the priority. We need a strong economy to create jobs, reduce poverty and improve standards of living. Not only that, but when companies grow stronger and more profitable, they can afford to develop new technologies that solve our environmental problems.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "環保優先", rows: [
+        { role: "Position", zh: "表明立場", hints: "agree with David that 同意 David 所說的 / prioritize A over B 把 A 看得比 B 重要 / environmental protection 環境保護 / economic growth 經濟成長",
+          sample: "[[I agree with David that]] governments should [[prioritize]] **environmental protection** [[over]] **economic growth**." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to his point about 除了他關於…的論點之外 / I would add that 我想補充 / hidden costs 隱藏成本 / be polluted by 被…污染 / industrial development 工業發展 / suffer from 罹患 / asthma 氣喘 / lung cancer 肺癌 / place a heavy burden on 對…造成沉重負擔 / healthcare system 醫療體系",
+          sample: "[[In addition to his point about]] clean energy, [[I would add that]] a damaged environment creates enormous hidden costs. When air and water are **polluted** by **industrial development**, more people [[suffer from]] serious illnesses [[such as]] asthma and lung cancer, [[which places a heavy burden on]] the **healthcare system**." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / industrial zone 工業區 / Although 雖然 / bring jobs 帶來工作機會 / breathing problems 呼吸道問題 / a great deal of 大量的 / medical treatment 醫療",
+          sample: "[[For example,]] my grandparents live near an **industrial zone** in southern Taiwan. [[Although]] the factories have brought jobs, many of their neighbors have developed breathing problems, and families spend [[a great deal of]] money on medical treatment." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… raised the relevant point that …提出了一個相關的論點 / profitable 有利潤的 / but she does not mention that 但她沒有提到 / arrive far too late 來得太遲 / floods 水災 / heatwaves 熱浪 / right now 此時此刻",
+          sample: "[[Mary raised the relevant point that]] profitable companies may develop new technologies to solve environmental problems, [[but she does not mention that]] these solutions might arrive far too late. People are already suffering from **floods** and **heatwaves** right now." },
+        { role: "Conclusion", zh: "結論", hints: "Therefore 因此 / the foundation of …的基礎 / healthy society 健康的社會 / sustainable 永續的",
+          sample: "[[Therefore, I believe that]] a clean environment is [[the foundation of]] a healthy society and a **sustainable** economy." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "經濟優先", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my opinion 依我之見 / should be prioritized over 應優先於 / so I agree with 所以我同意",
+          sample: "[[In my opinion,]] **economic growth** [[should be prioritized over]] **environmental protection**, [[so I agree with Mary.]]" },
+        { role: "New reason", zh: "補充新理由", hints: "What neither student mentioned is that 兩位同學都沒提到的是 / environmental regulations 環保法規 / push … to 迫使…去 / move overseas 外移到海外 / As a result 結果 / unemployment rate 失業率 / while 而 / pollution 污染",
+          sample: "[[What neither student mentioned is that]] very strict **environmental regulations** often push factories to move overseas. [[As a result,]] the **unemployment rate** rises at home, [[while]] the **pollution** simply moves to another country." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / textile factory 紡織工廠 / emission rules 排放規定 / sharply increase costs 使成本大幅增加 / move production abroad 把生產線移到國外 / along with 連同 / co-workers 同事 / lose one's job 失業",
+          sample: "[[Take my uncle as an example.]] He worked at a textile factory for twenty years. When new **emission rules** sharply increased its costs, the owner moved production abroad, and my uncle, [[along with]] three hundred co-workers, lost his job." },
+        { role: "Respond to David", zh: "回應對方", hints: "… makes a fair point that …說得有道理 / renewable energy 再生能源 / However, he does not mention that 然而他沒有提到 / depend on 取決於 / solar and wind power 太陽能與風力 / stable supply of electricity 穩定的電力供應 / industry 產業",
+          sample: "[[David makes a fair point that]] **renewable energy** can make the environment cleaner. [[However, he does not mention that]] **solar and wind power** [[depend on]] the weather, so they cannot yet provide a stable supply of electricity for industry." },
+        { role: "Conclusion", zh: "結論", hints: "Hence 因此 / only when + S + V + can + S + V 唯有…才能…（倒裝） / afford to 負擔得起 / invest in 投資 / green technology 綠色科技 / For this reason 基於這個理由 / the advantages of A outweigh its disadvantages A 的優點勝過缺點",
+          sample: "[[Hence, only when]] a country has a strong economy [[can it afford to]] invest in **green technology**. [[For this reason, the advantages of]] economic growth [[outweigh its disadvantages.]]" },
+      ] },
+    ]
+  },
 ];
