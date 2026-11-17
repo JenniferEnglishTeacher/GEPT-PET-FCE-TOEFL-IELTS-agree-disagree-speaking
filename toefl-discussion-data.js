@@ -185,4 +185,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 6, cat: "Work & economy",
+    title: "AI and Human Workers", zh: "AI 與人類工作者",
+    question: "Will artificial intelligence replace a large number of human workers?", questionZh: "人工智慧會取代大量的人類工作者嗎？",
+    professor: "This week we are discussing the future of work. Artificial intelligence can now write reports, analyze data and answer customers' questions, and many companies are already using it to cut costs. Some experts predict that AI will replace a large number of human workers within the next twenty years. Others believe that AI will mainly change jobs rather than destroy them, and that it will even create new ones. In your opinion, will AI replace a large number of human workers? Why or why not?",
+    david: "I think AI will replace a large number of human workers. AI systems can process huge amounts of data, work twenty-four hours a day and make fewer mistakes, and they cost far less than employees. Companies always want to reduce their costs, so they have a strong reason to automate as many jobs as possible.",
+    mary: "I disagree. AI lacks creativity, empathy and moral judgment, so it cannot do jobs that depend on human relationships, such as teaching, nursing or counseling. In my view, AI is a tool that makes workers more productive rather than a replacement for them. History also shows that new technology creates new kinds of jobs.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "AI 會取代大量工作者", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my opinion 依我之見 / replace 取代 / human workers 人類工作者 / I agree with David's argument that 我同意 David 的論點 / automate 使自動化",
+          sample: "[[In my opinion,]] AI will replace a large number of human workers, [[and I agree with David's argument that]] companies have a strong reason to **automate** jobs." },
+        { role: "New reason", zh: "補充新理由", hints: "I would further argue that 我會進一步主張 / routine tasks 例行性工作 / predictable 可預測的 / be particularly vulnerable to 特別容易受到…影響 / automation 自動化 / As a result 因此 / entry-level positions 初階職位",
+          sample: "[[I would further argue that]] jobs involving **routine tasks** and predictable processes [[are particularly vulnerable to]] **automation**. [[As a result,]] the **entry-level positions** that once trained young professionals are disappearing first." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / translation agency 翻譯社 / AI software AI 軟體 / stop + V-ing 停止… / hire 僱用 / junior translator 初階譯者 / remaining staff 留下的員工",
+          sample: "[[For example,]] my cousin works for a translation agency. Since the company started using AI software last year, it has stopped hiring junior translators, and the remaining staff only check the machine's work." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… correctly points out that …正確地指出 / lack 缺乏 / empathy 同理心 / However, she overlooks the fact that 然而她忽略了一個事實 / Besides 此外 / advanced skills 進階技能 / displaced workers 被取代的勞工",
+          sample: "[[Mary correctly points out that]] AI lacks **empathy** and creativity. [[However, she overlooks the fact that]] most people do not work as teachers or nurses. Besides, the new jobs created by technology usually require **advanced skills** that **displaced workers** do not have." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總而言之 / although 雖然 / eliminate 消除 / I firmly believe that 我堅信 / far more … than most people expect 遠比多數人預期的多",
+          sample: "[[In conclusion,]] although AI will not eliminate every job, [[I firmly believe that]] it will replace far more workers than most people expect." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "AI 不會取代大量工作者", rows: [
+        { role: "Position", zh: "表明立場", hints: "From my perspective 從我的角度來看 / replace 取代 / human workers 人類工作者 / side with … on this issue 在這個議題上支持…",
+          sample: "[[From my perspective,]] AI will not replace most human workers, [[so I side with Mary on this issue.]]" },
+        { role: "New reason", zh: "補充新理由", hints: "Beyond her point about 除了她關於…的論點之外 / empathy 同理心 / I would argue that 我會主張 / take responsibility for 為…負責 / be held accountable 被追究責任 / go wrong 出錯",
+          sample: "[[Beyond her point about]] empathy, [[I would argue that]] people need someone to take **responsibility** for important decisions. AI can give suggestions, but it cannot be held **accountable** when something goes wrong." },
+        { role: "Example", zh: "舉例", hints: "A good example is 一個很好的例子是 / medicine 醫療 / X-ray X 光片 / depend on 依賴 / confirm 確認 / diagnosis 診斷 / trust a machine with their life 把性命交給機器",
+          sample: "[[A good example is]] medicine. AI tools can already read X-rays quickly, yet hospitals still depend on doctors to confirm every **diagnosis** and explain it to patients, because nobody wants to trust a machine with their life." },
+        { role: "Respond to David", zh: "回應對方", hints: "Admittedly, … is right that 不可否認，…說得對 / employee 員工 / However, he overlooks the fact that 然而他忽略了一個事實 / false information 錯誤資訊 / skilled workers 技術熟練的員工 / In other words 換句話說 / rather than + V-ing 而不是…",
+          sample: "[[Admittedly, David is right that]] AI is cheaper and faster than **employees**. [[However, he overlooks the fact that]] AI often produces false information, so companies still need **skilled workers** to check its results. [[In other words,]] AI changes what workers do [[rather than]] replacing them." },
+        { role: "Conclusion", zh: "結論", hints: "Therefore, instead of + V-ing 因此，與其… / fear 害怕 / we should focus on 我們應該著重於 / develop new skills 培養新技能 / effectively 有效地",
+          sample: "[[Therefore, instead of]] fearing AI, [[we should focus on]] helping workers develop **new skills** so that they can use it effectively." },
+      ] },
+    ]
+  },
 ];
