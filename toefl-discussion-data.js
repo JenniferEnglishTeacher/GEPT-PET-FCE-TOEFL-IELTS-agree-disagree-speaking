@@ -151,4 +151,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 5, cat: "Government & society",
+    title: "Taxing Unhealthy Products", zh: "對不健康產品課稅",
+    question: "Should governments tax unhealthy products such as sugary drinks and junk food?", questionZh: "政府應該對含糖飲料、垃圾食物等不健康產品課稅嗎？",
+    professor: "This week we are discussing public health policy. Many governments are considering whether to tax unhealthy products, such as sugary drinks and junk food. On one hand, taxing these products could discourage people from consuming them and reduce health problems. On the other hand, some argue that such taxes unfairly target lower-income families, who may rely on these products as affordable sources of food. If you had to choose, would you support or oppose a tax on unhealthy products? Why?",
+    david: "I support the idea of taxing unhealthy products. They are often high in sugar, salt and fat, which can lead to serious health problems such as obesity, diabetes and heart disease. By taxing them, the government can discourage people from consuming them. Moreover, the revenue can be used to fund campaigns that promote healthy eating habits.",
+    mary: "I believe that such taxes are unfair to families that do not have a lot of money. Wealthy people will not care about the taxes, so their habits will not change. In addition, when prices go up, people usually try to save money by buying cheaper, lower-quality products, which could cause even more health problems. There are better solutions than taxes.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "支持課稅", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my opinion 依我之見 / tax unhealthy products 對不健康產品課稅 / I strongly agree with David's idea that 我非常同意 David 的想法 / reduce 減少 / health problems 健康問題",
+          sample: "[[In my opinion,]] governments should **tax unhealthy products**, [[and I strongly agree with David's idea that]] such taxes can reduce serious health problems." },
+        { role: "New reason", zh: "補充新理由", hints: "I would add that 我想補充 / spend an enormous amount of money + V-ing 花費巨額金錢… / treat 治療 / diet-related diseases 飲食相關疾病 / cannot afford to 負擔不起 / In other words 換句話說 / taxpayer 納稅人 / public healthcare system 公共醫療體系",
+          sample: "[[I would add that]] the government already spends an enormous amount of money treating **diet-related diseases**, and it [[cannot afford to]] keep doing so forever. [[In other words,]] every **taxpayer** pays for unhealthy eating through the **public healthcare system**." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / consume 攝取 / a great deal of 大量的 / sugary and salty food 高糖高鹽食物 / develop 罹患 / diabetes 糖尿病 / heart disease 心臟病 / long-term treatment 長期治療 / cost far more than 花費遠高於",
+          sample: "[[For instance,]] my grandfather consumed [[a great deal of]] sugary and salty food when he was young. He later developed **diabetes** and **heart disease**, and his long-term treatment has cost far more than healthier food would have." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… raised the relevant point that …提出了一個相關的論點 / turn to 轉而選擇 / lower-quality products 品質較差的產品 / but she did not mention that 但她沒有提到 / tax revenue 稅收 / subsidize 補助 / affordable 負擔得起的",
+          sample: "[[Mary raised the relevant point that]] people might turn to cheaper, lower-quality products, [[but she did not mention that]] the government can prevent this by using the **tax revenue** to **subsidize** fresh fruit and vegetables, making healthy choices more **affordable**." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I am convinced that 基於這些理由，我深信 / a necessary step toward 邁向…的必要一步 / healthier society 更健康的社會",
+          sample: "[[For these reasons, I am convinced that]] taxing unhealthy products [[is a necessary step toward]] a healthier society." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "反對課稅", rows: [
+        { role: "Position", zh: "表明立場", hints: "From my perspective 從我的角度來看 / tax unhealthy products 對不健康產品課稅 / side with … on this issue 在這個議題上支持…",
+          sample: "[[From my perspective,]] governments should not **tax unhealthy products**, [[so I side with Mary on this issue.]]" },
+        { role: "New reason", zh: "補充新理由", hints: "Beyond her point about 除了她關於…的論點之外 / fairness 公平性 / I would argue that 我會主張 / rarely 很少 / habit 習慣 / consumer 消費者 / either … or … 不是…就是… / switch to 改買 / option 選擇",
+          sample: "[[Beyond her point about]] fairness, [[I would argue that]] such taxes rarely change what people actually eat. Sugary drinks and snacks are daily habits, so most **consumers** [[either]] pay the higher price [[or]] switch to another cheap, unhealthy option." },
+        { role: "Example", zh: "舉例", hints: "A good example is 一個很好的例子是 / raise the price of 調漲…的價格 / soft drinks 汽水飲料 / keep + V-ing 持續… / instead 反而 / proper lunch 像樣的午餐",
+          sample: "[[A good example is]] my own school. When the campus store raised the price of **soft drinks** last year, my classmates kept buying them every day and simply spent less on proper lunches [[instead]]." },
+        { role: "Respond to David", zh: "回應對方", hints: "Admittedly, … is right that 不可否認，…說得對 / revenue 稅收 / fund 資助 / campaign 宣導活動 / However, he overlooks the fact that 然而他忽略了一個事實 / compete with 與…競爭 / marketing budget 行銷預算 / low-income families 低收入家庭 / carry the heaviest tax burden 承擔最重的稅負",
+          sample: "[[Admittedly, David is right that]] the **revenue** could fund campaigns promoting healthy eating. [[However, he overlooks the fact that]] a few advertisements cannot compete with the huge **marketing budgets** of food companies, and **low-income families** would still carry the heaviest **tax burden**." },
+        { role: "Conclusion", zh: "結論", hints: "Therefore, rather than + V-ing 因此，與其… / punish 懲罰 / should focus on 應該著重於 / nutrition education 營養教育 / make … cheaper 讓…更便宜",
+          sample: "[[Therefore, rather than]] punishing consumers, governments [[should focus on]] **nutrition education** in schools and on making healthy food cheaper." },
+      ] },
+    ]
+  },
 ];
