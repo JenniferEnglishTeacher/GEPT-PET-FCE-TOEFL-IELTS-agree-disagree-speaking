@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TOEFL Academic Discussion Essay | Jennifer Chen's Speaking &amp; Writing</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="speaking-extra.css">
+    <link rel="stylesheet" href="sw-pages.css">
+    <style>
+      .td-post { background: #fff; border: 1px solid var(--line); border-left: 5px solid #1f3864; border-radius: 8px; padding: 12px 16px; margin-top: 10px; font-size: 16.5px; line-height: 1.75; }
+      .td-post b.who { display: block; font-size: 13px; color: #1f3864; letter-spacing: .02em; }
+      .td-post.david { border-left-color: #2e8b57; } .td-post.david b.who { color: #23683f; }
+      .td-post.mary { border-left-color: #c0562b; } .td-post.mary b.who { color: #9a4a12; }
+      .td-posts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+      .td-tabs { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 20px; border-bottom: 2px solid #cfe3df; }
+      .td-tabs button { border: 0; background: transparent; padding: 10px 14px; font: inherit; font-weight: 800; color: var(--muted); cursor: pointer; border-bottom: 3px solid transparent; margin-bottom: -2px; }
+      .td-tabs button.on { color: #0f7c80; border-bottom-color: #0f7c80; }
+      .td-pane[hidden] { display: none; }
+      .td-legend { font-size: 13px; color: var(--muted); margin: 0 0 8px; }
+      .pt { background: #fff2a8; border-radius: 3px; padding: 0 2px; }
+      .td-grid td:nth-child(2) { padding: 6px; background: #fffdf5 !important; }
+      .td-grid textarea { box-sizing: border-box; display: block; width: 100%; min-height: 84px; border: 1px dashed #c9b98a; border-radius: 6px; padding: 7px 9px; font: inherit; font-size: 15px; line-height: 1.5; resize: vertical; background: transparent; color: #222; }
+      .td-grid textarea:focus { outline: 2px solid var(--accent); border-style: solid; background: #fff; }
+      .td-grid textarea.match { border: 2px solid #2e8b57; background: #f1faf4; }
+      .td-grid td:first-child i { display: block; margin-top: 4px; font-size: 12.5px; color: #8a5a00; font-style: normal; line-height: 1.5; }
+      .td-grid td:nth-child(3) b { color: #0b3d6b; }
+      .td-grid.hide-col3 td:nth-child(3) .pt, .td-grid.hide-col3 td:nth-child(3) b { background: none; color: transparent; }
+      .td-grid.hide-marks .pt { background: none; padding: 0; } .td-grid.hide-marks td:nth-child(3) b { font-weight: inherit; color: inherit; }
+      .td-tick { display: block; font-size: 12.5px; color: #2e8b57; font-weight: 800; min-height: 16px; margin-top: 3px; }
+      .td-model { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 12px 16px; font-size: 16.5px; line-height: 1.85; }
+      .td-model[hidden] { display: none; }
+      .td-empty { color: var(--muted); font-size: 13px; margin: 0 4px 6px; }
+      @media (max-width: 760px) { .td-posts { grid-template-columns: 1fr; } }
+    </style>
+  </head>
+  <body>
+    <div class="app-shell sw-two">
+      <aside class="question-sidebar" aria-label="Discussion topics">
+        <div class="sidebar-head">
+          <div>
+            <p class="eyebrow">2026 TOEFL iBT · Writing · 10 minutes · 100+ words</p>
+            <h1>Academic Discussion 學術討論寫作</h1>
+            <a class="dash-link" href="dashboard.html" style="margin-top:8px">&larr; Dashboard</a>
+          </div>
+          <span class="count-pill" id="countPill">0</span>
+        </div>
+        <label class="search-box"><span>Search</span><input id="searchInput" type="search" placeholder="AI, school, environment…" autocomplete="off"></label>
+        <div id="topicList" class="question-list"></div>
+      </aside>
+
+      <main class="sw-main">
+        <p class="eyebrow" id="topicMeta"></p>
+        <h2 id="topicTitle"></h2>
+        <p style="margin:4px 0 0;color:var(--muted)">Your professor is teaching a class. Write a post responding to the professor's question. In your response, express and support your opinion and make a contribution to the discussion. 表達並支持你的看法，並提出同學沒說過的新觀點。</p>
+        <div class="td-post prof" id="profHost"></div>
+        <div class="td-posts"><div class="td-post david" id="davidHost"></div><div class="td-post mary" id="maryHost"></div></div>
+
+        <nav class="td-tabs" id="tabs">
+          <button type="button" data-tab="a" class="on">① Essay A — agree with David</button>
+          <button type="button" data-tab="b">② Essay B — agree with Mary</button>
+          <button type="button" data-tab="write">③ My Answer 我的回答</button>
+        </nav>
+
+        <!-- ①② GRID (shared pane, one essay at a time) -->
+        <section class="sw-section td-pane" data-pane="grid">
+          <h3><span id="gridTitle"></span>
+            <span><button id="hideCol3" class="small-button" type="button">Hide sample</button> <button id="hideMarks" class="small-button" type="button">Hide highlights</button></span></h3>
+          <p class="td-legend"><span class="pt">yellow highlight</span> = universal sentence pattern 萬用句型 · <b>bold</b> = theme words 主題單字. Step 1: type the sample sentence in column 2 (&#10003; appears when it matches). Step 2: hide the sample and write it again from the hints. Step 3: write your own sentence with the same patterns.</p>
+          <div class="sw-table-wrap">
+            <table class="sw-grid td-grid" id="grid">
+              <thead><tr><th style="width:22%">Element + key words<br><small>架構與提示字</small></th><th style="width:33%">Your writing<br><small>學生書寫區</small></th><th>Full-mark sample<br><small>滿分範文</small></th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+          <div class="sw-actions">
+            <button id="buildButton" class="small-button primary-action" type="button">&#11015; Put my sentences into ③ My Answer</button>
+            <button id="clearGrid" class="small-button" type="button">Clear column 2</button>
+            <span id="gridStatus" style="align-self:center;color:var(--muted);font-size:14px"></span>
+          </div>
+          <h3 style="margin-top:22px"><span>Whole sample 完整範文 <small id="essayWords" style="color:var(--muted);font-weight:600"></small></span>
+            <span><button id="essayButton" class="small-button" type="button">Show</button> <button id="listenButton" class="small-button" type="button">&#128264; Listen</button></span></h3>
+          <div id="essayHost" class="td-model" hidden></div>
+        </section>
+
+        <!-- ③ WRITE -->
+        <section class="sw-section td-pane sw-your-turn" data-pane="write" hidden>
+          <h3><span>My Answer 我的回答</span><span id="timerHost"></span></h3>
+          <textarea id="writeBox" class="sw-write" spellcheck="true" placeholder="Write at least 100 words in 10 minutes: your position → a NEW reason → an example → respond to David or Mary → conclusion. Saved automatically on this device."></textarea>
+          <div class="sw-meta"><span id="saveStatus">TOEFL Academic Discussion · 10 minutes · at least 100 words</span><span id="wordCount">0 words</span></div>
+          <div class="sw-actions">
+            <button id="reviewButton" class="small-button primary-action" type="button">&#9989; Check My Answer</button>
+            <button id="aiButton" class="small-button" type="button">&#129302; Copy for AI Feedback</button>
+            <button id="clearButton" class="small-button" type="button">Clear</button>
+          </div>
+          <div id="feedback" class="sw-feedback" hidden></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="toefl-discussion-data.js"></script>
+    <script src="speaking-kit.js"></script>
+    <script src="writing-kit.js"></script>
+    <script src="toefl-discussion.js"></script>
+  </body>
+</html>
