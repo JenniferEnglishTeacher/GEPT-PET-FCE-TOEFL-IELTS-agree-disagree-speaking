@@ -253,4 +253,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 8, cat: "Ethics & culture",
+    title: "Targeted Advertising and Privacy", zh: "針對性廣告與隱私",
+    question: "Is targeted online advertising ethical, or is it an invasion of privacy?", questionZh: "針對個人的網路廣告合乎道德，還是侵犯隱私？",
+    professor: "Today, we are discussing the ethics of targeted advertising. Many websites and apps collect personal information, such as our search history, location and shopping habits, and use it to show each person different advertisements. Some people argue that this is an invasion of privacy. Others argue that it is simply an acceptable way to reach consumers with products and services they are interested in. What is your view? Is targeted advertising ethical, or is it an invasion of privacy? Why?",
+    david: "I think targeted advertising is ethical. It is a more efficient way to reach consumers with products and services that are relevant to their interests, and with the money companies save on marketing, they can afford to offer lower prices. Besides, we can always opt out by adjusting our privacy settings. As long as we have a choice, targeted advertising can be beneficial.",
+    mary: "I disagree. Targeted advertising is an invasion of privacy. Advertisers should not be able to track us and use our personal information to sell us products. It is unfair to consumers and a violation of our rights. Instead, advertisers should focus on creating high-quality ads that appeal to a broad audience, which would also show respect for their customers.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "針對性廣告合乎道德", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my view 在我看來 / targeted advertising 針對性廣告 / ethical 合乎道德的 / as long as 只要 / I agree with David's point that 我同意 David 的論點 / reach consumers 接觸消費者 / efficiently 有效率地",
+          sample: "[[In my view,]] **targeted advertising** is **ethical** [[as long as]] users are given a choice, [[and I agree with David's point that]] it helps companies reach **consumers** efficiently." },
+        { role: "New reason", zh: "補充新理由", hints: "Beyond what David mentioned, I would argue that 除了 David 提到的之外，我認為 / essential for 對…不可或缺 / small businesses 小型企業 / Unlike 不像 / corporation 大公司 / advertising budget 廣告預算 / cannot afford to + V 負擔不起",
+          sample: "[[Beyond what David mentioned, I would argue that]] targeted advertising is essential for small businesses. [[Unlike]] large corporations, they have limited **advertising budgets**, so they cannot afford to show their ads to everyone." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / run an online bakery 經營網路烘焙坊 / By + V-ing 藉由 / search for 搜尋 / double her orders 訂單加倍 / without + V-ing 而不必",
+          sample: "[[For example,]] my aunt runs a small online bakery. [[By]] showing her ads only to people nearby who had searched for birthday cakes, she doubled her orders in three months without spending much money." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… suggests that …建議 / appeal to a broad audience 吸引廣大的觀眾 / However, this is easier said than done because 然而這說來容易做來難，因為 / diverse 多元的 / it is almost impossible to + V 幾乎不可能",
+          sample: "[[Mary suggests that]] advertisers should create ads that appeal to a **broad audience**. [[However, this is easier said than done because]] society is more **diverse** than ever, and [[it is almost impossible to]] design one message that everyone finds attractive." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons 基於這些理由 / an acceptable practice 可接受的做法 / benefit both A and B 對 A 和 B 都有益",
+          sample: "[[For these reasons, I believe]] targeted advertising is an acceptable practice that [[benefits both]] consumers [[and]] businesses." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "針對性廣告侵犯隱私", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my opinion 依我之見 / an invasion of privacy 侵犯隱私 / I share Mary's concern that 我和 Mary 有同樣的擔憂 / track 追蹤 / personal information 個人資訊 / violate our rights 侵害我們的權利",
+          sample: "[[In my opinion,]] targeted advertising is an **invasion of privacy**, [[and I share Mary's concern that]] tracking our **personal information** violates our rights." },
+        { role: "New reason", zh: "補充新理由", hints: "What I would like to add is that 我想補充的是 / informed consent 知情同意 / privacy policy 隱私權政策 / so … that 如此…以致於 / complicated 複雜的 / collect data 蒐集資料",
+          sample: "[[What I would like to add is that]] most users never give **informed consent**. **Privacy policies** are [[so]] long and complicated [[that]] people simply click “Agree” without knowing how much data is being collected." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / search for flights 搜尋機票 / advertisement 廣告 / follow me 跟著我 / for weeks 好幾個星期 / It made me feel that 這讓我覺得 / be watched 被監視",
+          sample: "[[For instance,]] after I searched for flights to Tokyo on my phone, hotel advertisements followed me on every website and app for weeks. [[It made me feel that]] I was being watched all the time." },
+        { role: "Respond to David", zh: "回應對方", hints: "… points out that …指出 / opt out 選擇退出 / privacy settings 隱私設定 / While this may be true in theory 雖然理論上或許如此 / hidden 隱藏的 / confusing 令人困惑的 / platform 平台 / Therefore 因此 / responsibility 責任 / be placed on 被加在…身上",
+          sample: "[[David points out that]] we can **opt out** by adjusting our **privacy settings**. [[While this may be true in theory,]] the settings are often hidden and confusing, and they differ on every platform. [[Therefore,]] the responsibility should not be placed on consumers." },
+        { role: "Conclusion", zh: "結論", hints: "To sum up 總而言之 / unless 除非 / ask for clear permission 取得明確的許可 / personal data 個人資料 / cannot be considered + adj. 不能被視為",
+          sample: "[[To sum up,]] unless companies ask for clear permission before collecting **personal data**, targeted advertising [[cannot be considered]] ethical." },
+      ] },
+    ]
+  },
 ];
