@@ -219,4 +219,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 7, cat: "Health & lifestyle",
+    title: "Mandatory Sports in College", zh: "大學體育必修",
+    question: "Should sports be mandatory for all college and university students?", questionZh: "大學應該把體育列為全體學生的必修嗎？",
+    professor: "This week we are looking at student health. Surveys show that many university students sit for more than eight hours a day and rarely exercise, and stress and anxiety are becoming more common on campus. Some universities therefore require every student to take sports or physical education classes in order to graduate, while others leave the choice to students. In your opinion, should sports be mandatory for all college and university students? Why or why not?",
+    david: "I believe sports should be mandatory. Many students spend long hours sitting in lectures or studying in libraries, which can lead to stress, poor posture and health problems. Regular sports help students relieve stress, improve their concentration and build healthy habits that last into adulthood.",
+    mary: "I disagree. College students already face heavy academic pressure, and forcing everyone to play sports may increase stress rather than reduce it. Not all students are interested in sports, and some prefer other ways to stay healthy, such as walking or yoga. Universities should respect personal choice.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "體育應列為必修", rows: [
+        { role: "Position", zh: "表明立場", hints: "From my perspective 從我的角度來看 / mandatory 必修的 / I support David's view that 我支持 David 的看法 / regular exercise 規律運動 / physical and mental well-being 身心健康",
+          sample: "[[From my perspective,]] sports should be **mandatory** in college, [[and I support David's view that]] regular exercise protects students' physical and mental **well-being**." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to his point, I would add that 除了他的論點之外，我想補充 / team sports 團隊運動 / instill 灌輸、培養 / lifelong skills 終身受用的技能 / teamwork 團隊合作 / self-discipline 自律 / be closely associated with 與…密切相關",
+          sample: "[[In addition to his point, I would add that]] team sports instill lifelong skills such as **teamwork** and **self-discipline**. These skills [[are closely associated with]] academic and career success." },
+        { role: "Example", zh: "舉例", hints: "Take …, for example 以…為例 / attend practices 參加練習 / cooperate with teammates 與隊友合作 / keep fit 保持健康 / compulsory 必修的 / department 科系 / manage my time 管理時間",
+          sample: "[[Take]] basketball, [[for example.]] Players must attend regular practices, cooperate with their teammates and keep fit. When I joined a **compulsory** basketball class in my first year, I made close friends from other departments and learned to manage my time better." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… argues that …主張 / academic pressure 課業壓力 / However, I find this argument unconvincing because 然而我覺得這個論點沒有說服力，因為 / release stress 釋放壓力 / refresh their minds 提振精神 / Moreover 此外 / a wide range of options 多樣的選擇 / suitable 合適的",
+          sample: "[[Mary argues that]] mandatory sports would increase **academic pressure**. [[However, I find this argument unconvincing because]] physical activity allows students to **release stress** and refresh their minds. [[Moreover,]] universities can offer a wide range of options, including yoga and swimming, so everyone can find a suitable class." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總而言之 / make … mandatory 把…列為必修 / benefit 好處 / last far beyond graduation 持續到畢業之後很久",
+          sample: "[[In conclusion,]] universities should make sports mandatory because the benefits last far beyond graduation." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "體育應維持選修", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my opinion 依我之見 / remain an elective 維持選修 / I agree with Mary's argument that 我同意 Mary 的論點 / respect personal choice 尊重個人選擇",
+          sample: "[[In my opinion,]] sports should remain an **elective** in college, [[and I agree with Mary's argument that]] universities should respect **personal choice**." },
+        { role: "New reason", zh: "補充新理由", hints: "I would add that 我想補充 / compulsory 必修的 / unfair to 對…不公平 / physical limitations 身體上的限制 / injury 受傷 / athletic performance 運動表現 / be penalized for 因…而受罰 / beyond their control 無法控制的",
+          sample: "[[I would add that]] **compulsory** classes can be unfair to students who have **physical limitations** or injuries. If their grades depend on **athletic performance**, they may be penalized for something [[beyond their control.]]" },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / roommate 室友 / weak knee 膝蓋不好 / be required to + V 被要求 / pass a running test 通過跑步測驗 / anxious 焦慮的 / eventually 最後",
+          sample: "[[For instance,]] my roommate has a weak knee. She was required to pass a running test in her PE class, so she felt anxious every week and eventually received the lowest grade of her first year." },
+        { role: "Respond to David", zh: "回應對方", hints: "… claims that …聲稱 / build healthy habits 建立健康習慣 / last into adulthood 持續到成年 / However, when 然而，當 / be forced on 被強加於 / uninterested 不感興趣的 / motivation 動機 / enjoyment 樂趣 / As a result 因此 / as soon as 一…就",
+          sample: "[[David claims that]] mandatory sports build **healthy habits** that last into adulthood. [[However, when]] exercise is forced on uninterested students, it reduces their **motivation** and enjoyment. [[As a result,]] they are likely to stop exercising as soon as the course ends." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總而言之 / encourage 鼓勵 / physical activity 體能活動 / facilities 設施 / a variety of 各式各樣的 / neither practical nor fair 既不實際也不公平",
+          sample: "[[In conclusion,]] universities should encourage **physical activity** by providing free facilities and a variety of clubs, but making sports mandatory is [[neither practical nor fair.]]" },
+      ] },
+    ]
+  },
 ];
