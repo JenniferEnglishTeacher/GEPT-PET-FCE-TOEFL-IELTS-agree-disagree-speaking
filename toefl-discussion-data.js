@@ -661,4 +661,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 20, cat: "Environment",
+    title: "Banning Cars from City Centres", zh: "市中心禁行私家車",
+    question: "Should private cars be banned from city centres?", questionZh: "應該禁止私家車進入市中心嗎？",
+    professor: "This week we are looking at how cities can become cleaner and more liveable. In many large cities, traffic congestion and air pollution are getting worse every year. As a result, some cities, such as Oslo and Amsterdam, have closed parts of their centres to private cars. Others worry that such a ban would hurt local businesses and make daily life inconvenient for residents. In your opinion, should private cars be banned from city centres? Why or why not?",
+    david: "I believe private cars should be banned from city centres. Petrol and diesel vehicles that are stuck in traffic produce toxic emissions, which seriously damage people's health. Cities that have reduced car access have seen their air quality improve significantly. With fewer cars on the road, buses and trams could also run faster and more reliably.",
+    mary: "I understand David's concern, but I think a complete ban goes too far. Many people, such as parents with young children and delivery drivers, depend on their cars every day. Besides, if customers cannot drive to the centre, the shops and restaurants there may lose business to shopping malls in the suburbs.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "應該禁止", rows: [
+        { role: "Position", zh: "表明立場", hints: "agree with David that 同意 David 所說的 / private car 私家車 / ban A from B 禁止 A 進入 B / city centre 市中心",
+          sample: "[[I agree with David that]] **private cars** [[should be]] banned from **city centres**." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to his point about 除了他關於…的論點之外 / air pollution 空氣污染 / I would add that 我想補充 / car-free zone 無車區 / With fewer … 隨著…變少 / pedestrian 行人 / cyclist 自行車騎士 / be far less likely to 遠遠較不可能 / traffic accident 交通事故",
+          sample: "[[In addition to his point about]] **air pollution**, [[I would add that]] **car-free zones** [[make]] streets much safer. [[With fewer]] vehicles on the road, **pedestrians** and **cyclists**, especially children and elderly people, [[are far less likely to]] be injured in **traffic accidents**." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / neighbourhood 社區 / close … to cars 禁止車輛進入 / Since + S + V 自從 / introduce a rule 實施規定 / cram school 補習班 / without worrying about 不用擔心 / speeding 超速的",
+          sample: "[[For example,]] my neighbourhood in Taipei closes its main street to cars every weekend. [[Since]] this rule was introduced, I have been able to cycle to my cram school safely, and families now walk there [[without worrying about]] scooters or speeding cars." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / lose customers 流失顧客 / However, she overlooks the fact that 然而她忽略了…這個事實 / on foot 步行 / tend to 往往 / parking space 停車位",
+          sample: "[[Mary argues that]] shops would lose customers. [[However, she overlooks the fact that]] people on foot [[tend to]] stay longer and visit more stores than drivers who are busy searching for a **parking space**." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / bring far more benefits than drawbacks 帶來的好處遠多於壞處 / both A and B A 和 B 都 / resident 居民",
+          sample: "[[In conclusion,]] car-free city centres [[bring far more benefits than drawbacks]] for [[both]] residents [[and]] the environment." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "不應全面禁止", rows: [
+        { role: "Position", zh: "表明立場", hints: "Although 雖然 / traffic 交通流量 / agree with Mary that 同意 Mary 所說的 / a complete ban on 對…的全面禁令 / go too far 太過頭",
+          sample: "[[Although]] reducing traffic is important, [[I agree with Mary that]] a complete **ban** on **private cars** in **city centres** [[goes too far.]]" },
+        { role: "New reason", zh: "補充新理由", hints: "What neither student mentioned is that 兩位同學都沒提到的是 / only work if 只有在…時才行得通 / public transport 大眾運輸 / infrequent 班次少的 / metro line 捷運路線 / district 區域 / suburbs 郊區 / have no practical way to 沒有實際可行的方法去",
+          sample: "[[What neither student mentioned is that]] a ban [[only works if]] **public transport** is excellent. In many cities, buses are infrequent and **metro lines** do not reach every district, so people in the **suburbs** [[would have no practical way to]] get to work." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / drive to 開車去 / If + past tense, S + would 假如…就會（假設語氣）/ have to 必須 / journey 路程 / twice as long 兩倍的時間",
+          sample: "[[Take]] my aunt [[as an example.]] She lives outside Taichung and drives to her city-centre office in thirty minutes. [[If]] cars were banned, she [[would have to]] take two buses, and the journey would take twice as long." },
+        { role: "Respond to David", zh: "回應對方", hints: "David makes a fair point that David 說得有道理 / petrol vehicle 汽油車 / pollute 污染 / However, he does not mention that 然而他沒有提到 / electric vehicle 電動車 / exhaust fumes 廢氣 / restrict 限制 / instead of 而不是",
+          sample: "[[David makes a fair point that]] petrol vehicles pollute the air. [[However, he does not mention that]] **electric vehicles** produce no **exhaust fumes**, so cities could restrict polluting cars [[instead of]] banning all of them." },
+        { role: "Conclusion", zh: "結論", hints: "Therefore, I believe that 因此我認為 / cleaner cars 更乾淨的車輛 / congestion charge 塞車費 / rather than 而不是 / total ban 全面禁止 / the best way to 最好的方法",
+          sample: "[[Therefore, I believe that]] **cleaner cars** and **congestion charges**, [[rather than]] a total ban, [[are the best way to]] improve city life." },
+      ] },
+    ]
+  },
 ];
