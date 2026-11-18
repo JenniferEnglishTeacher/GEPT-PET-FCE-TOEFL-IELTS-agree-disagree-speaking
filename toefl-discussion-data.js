@@ -865,4 +865,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 26, cat: "Technology & AI",
+    title: "Is AI a Threat or a Powerful Tool?", zh: "AI 是威脅還是利器",
+    question: "Overall, is AI a dangerous technology that will harm society, or a powerful tool that will improve people's lives?", questionZh: "整體而言，AI 是會危害社會的危險科技，還是能改善人們生活的強大工具？",
+    professor: "This week we are discussing the overall impact of artificial intelligence. AI can now write reports, help doctors diagnose diseases, drive cars and answer almost any question within seconds. Some experts see it as one of the most useful inventions in history, while others warn that it is developing too quickly and could do serious damage. I want you to consider the following question: overall, is AI a dangerous technology that will harm society, or a powerful tool that will improve people's lives? Why?",
+    david: "I'm of the opinion that AI is a powerful tool that will improve our lives. It has the potential to help solve many of the world's biggest problems, from climate change to disease. In addition, AI can help us make better decisions by analyzing vast amounts of data and identifying patterns that humans may miss. Of course, we must make sure that it is developed in a responsible way.",
+    mary: "I disagree with David. Personally, I think AI is a threat. As it advances, many jobs will become automated, leaving people without work and increasing income inequality. There is also a risk that AI systems could be programmed with biases and discriminate against certain groups. Since we cannot guarantee that AI is being developed in an ethical way right now, I think it is best to slow down.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "AI 是改善生活的工具", rows: [
+        { role: "Position", zh: "表明立場", hints: "agree with David that 同意 David 所說的 / overall 整體而言 / a powerful tool 強大的工具 / improve people's lives 改善人們的生活",
+          sample: "[[I agree with David that,]] overall, AI is a **powerful tool** that will improve people's lives." },
+        { role: "New reason", zh: "補充新理由", hints: "I would add that 我想補充 / expert knowledge 專業知識 / available to 讓…可取得 / ordinary people 一般人 / afford 負擔得起 / private tutors 家教 / translators 翻譯人員 / such help 這類協助 / at almost no cost 幾乎不用花錢 / more equal 更平等",
+          sample: "[[I would add that]] AI makes **expert knowledge** available to ordinary people. In the past, only people who could afford private tutors or translators received such help. Now anyone with a smartphone can get it at almost no cost, [[which makes]] society more **equal**." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / poor eyesight 視力不好 / depend on 依賴 / medicine labels 藥品標示 / AI app AI 應用程式 / read … aloud 把…唸出來 / independent 獨立的",
+          sample: "[[For example,]] my grandfather has very poor eyesight, so he used to depend on my mother to read his medicine labels. Last year he started using an **AI app** that reads any text aloud, and [[as a result,]] he has become much more **independent**." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / take away jobs 奪走工作 / However 然而 / new technology 新科技 / create new kinds of work 創造新型態的工作 / retraining 再培訓 / affected workers 受影響的勞工",
+          sample: "[[Mary argues that]] AI will take away many **jobs**. [[However,]] new technology has always created new kinds of work, and governments can offer **retraining** to affected workers." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons 基於這些理由 / do far more good than harm 利遠大於弊 / as long as 只要 / use … responsibly 負責任地使用",
+          sample: "[[For these reasons, I believe that]] AI [[will do far more good than harm as long as]] it is used **responsibly**." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "AI 是對社會的威脅", rows: [
+        { role: "Position", zh: "表明立場", hints: "side with Mary 支持 Mary / In my view 依我之見 / develop so fast that 發展得太快以至於 / be likely to 很可能 / do more harm than good 弊大於利",
+          sample: "[[I side with Mary on this issue.]] [[In my view,]] AI is developing so fast that [[it is likely to do more harm than good.]]" },
+        { role: "New reason", zh: "補充新理由", hints: "What neither student mentioned is that 兩位同學都沒提到的是 / laws 法律 / safety rules 安全規範 / keep up with 跟上 / it is often unclear who… 往往不清楚是誰… / be responsible 負責 / accountability 問責 / protection 保障",
+          sample: "[[What neither student mentioned is that]] laws and **safety rules** cannot keep up with this technology. When an AI system makes a serious mistake, [[it is often unclear who]] is responsible: the company, the programmer or the user. Without clear **accountability**, ordinary people have little protection." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / AI chatbot AI 聊天機器人 / take two medicines together 兩種藥一起吃 / confidently 很有把握地 / pharmacist 藥師 / combination 組合 / be held responsible for 為…負責",
+          sample: "[[For instance,]] my aunt asked an **AI chatbot** whether she could take two medicines together. It confidently said yes, but her pharmacist later warned her that the combination was dangerous. Nobody was **held responsible** for that advice." },
+        { role: "Respond to David", zh: "回應對方", hints: "David is right to point out that David 指出…是對的 / analyze vast amounts of data 分析大量資料 / Nevertheless 儘管如此 / of little use 沒什麼用 / trust the results 信任結果 / check how they were produced 檢查結果如何產生",
+          sample: "[[David is right to point out that]] AI can **analyze** vast amounts of data. [[Nevertheless,]] fast analysis is of little use if we cannot trust the results or check how they were produced." },
+        { role: "Conclusion", zh: "結論", hints: "Therefore 因此 / slow … down 放慢 / until 直到 / strict regulations 嚴格的規範 / be in place 就緒、到位",
+          sample: "[[Therefore,]] governments [[should]] slow AI development down [[until]] strict **regulations** [[are in place]]." },
+      ] },
+    ]
+  },
 ];
