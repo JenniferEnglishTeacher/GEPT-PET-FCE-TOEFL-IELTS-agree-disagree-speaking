@@ -3,7 +3,7 @@
 One line per finished task: number | type | category | title. A task is listed only after its HTML source is committed and pushed.
 Category order — Email: Apology / Absence; Request; Complaint / Problem; Inquiry / Information; Invitation / Reply; Advice / Suggestion; Application / Job; Thanks / Follow-up. Discussion: Education; Technology & AI; Social media & influencers; Environment; Government & society; Work & economy; Health & lifestyle; Ethics & culture.
 
-## Email (30 / 40)
+## Email (31 / 40)
 01 | Email | Apology / Absence | Missing a Club Meeting 無法出席社團會議 (to Alex, club president — medical appointment, poster for recycling campaign) | toefl-master/email-apology-absence.html
 02 | Email | Request | Requesting a Recommendation Letter 請教授寫推薦信 (to Professor Wang — exchange program in Canada, deadline + résumé/transcript) | toefl-master/email-request.html
 03 | Email | Complaint / Problem | Complaining About Noise in the Library 投訴圖書館自習區太吵 (to Ms. Lin, library manager — noisy quiet study area before final exams, suggest signs / staff patrol) | toefl-master/email-complaint-problem.html
@@ -34,8 +34,9 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 28 | Email | Inquiry / Information | Asking About Joining the School Band 詢問加入學校樂隊事宜 (to Mr. Foster, band director of Greenfield High School — new student who has played the flute for three years, saw a poster about the band; introduce yourself + why you want to join, the practice schedule, the audition + whether you can bring your own instrument) | toefl-master/email-inquiry-information.html
 29 | Email | Invitation / Reply | Inviting a Classmate to Join a Study Group 邀請同學加入讀書會 (to Noah, a classmate — small study group for the Mathematics final exam next Friday, geometry is difficult; invite him + why you would like him to join (good at explaining), date/time/place (Wednesday 4–6 p.m., Study Room 2, school library), what to bring (textbook / review worksheets) + reply by Tuesday) | toefl-master/email-invitation-reply.html
 30 | Email | Advice / Suggestion | Giving Advice to an Exchange Student Coming to Taiwan 給即將來台的交換學生建議 (to Lucas, an exchange student from Canada — coming to your school in September for one semester, never been to Asia, you are his student buddy; say how you feel about his visit, advice about what to pack (light clothes / umbrella / thin jacket), recommend a place or activity (night market / hiking on Elephant Mountain)) | toefl-master/email-advice-suggestion.html
+31 | Email | Application / Job | Applying to Be a Student Reporter for the School Newspaper 應徵校刊學生記者 (to Ms. Morgan, teacher who advises The Campus Voice, the school's English newspaper — two new student reporters wanted for next school year; why you want to become a reporter, your writing experience (sports day report for the class blog), ask what to send with the application (writing sample / recommendation)) | toefl-master/email-application-job.html
 
-## Discussion (30 / 40)
+## Discussion (31 / 40)
 01 | Discussion | Education | Should STEAM courses be mandatory for all university students? 大學應該把 STEAM 課程列為全體學生的必修嗎？ | toefl-master/discussion-education.html
 02 | Discussion | Technology & AI | Will AI-generated images and videos have a positive or a negative influence on society? AI 生成的圖片與影片對社會的影響是正面還是負面？ | toefl-master/discussion-technology-ai.html
 03 | Discussion | Social media & influencers | Do social media influencers have a mainly positive or a mainly negative influence on young people? 社群媒體網紅對年輕人的影響主要是正面還是負面？ | toefl-master/discussion-social-media-influencers.html
@@ -66,6 +67,7 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 28 | Discussion | Environment | Should countries rely on nuclear energy to fight climate change? 各國應該依靠核能來對抗氣候變遷嗎？ | toefl-master/discussion-environment.html
 29 | Discussion | Government & society | Should governments use public money to fund the arts and culture? 政府應該用公帑資助藝術與文化嗎？ | toefl-master/discussion-government-society.html
 30 | Discussion | Work & economy | Should companies adopt a four-day work week? 公司應該實施一週工作四天（週休三日）嗎？ | toefl-master/discussion-work-economy.html
+31 | Discussion | Health & lifestyle | Should cooking classes be compulsory for all secondary school students? 中學應該把烹飪課列為全體學生的必修嗎？ | toefl-master/discussion-health-lifestyle.html
 
 ## Notes for the next run
 - Sample markup in the HTML sources: `<span style="background-color:#fff2a8">` = universal pattern, `<b>` = theme word.

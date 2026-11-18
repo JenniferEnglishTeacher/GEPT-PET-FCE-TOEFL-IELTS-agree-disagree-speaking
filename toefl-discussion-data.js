@@ -1035,4 +1035,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 31, cat: "Health & lifestyle",
+    title: "Compulsory Cooking Classes at School", zh: "烹飪課列為必修",
+    question: "Should cooking classes be compulsory for all secondary school students?", questionZh: "中學應該把烹飪課列為全體學生的必修嗎？",
+    professor: "This week we are discussing how schools can help young people develop a healthy lifestyle. In many countries, teenagers eat more fast food and convenience-store meals than ever, and a growing number of young adults leave home without knowing how to prepare a simple meal. Some educators therefore suggest that every secondary school student should be required to take cooking classes, while others believe that cooking should be learned at home or chosen as an elective. In your opinion, should cooking classes be compulsory for all secondary school students? Why or why not?",
+    david: "I think cooking classes should be compulsory. Cooking is a basic life skill, just like swimming or managing money, and everyone will need it sooner or later. Students who know how to cook are less likely to depend on fast food and instant noodles, so they will eat a more balanced diet and stay healthier when they live on their own.",
+    mary: "I don't think cooking classes should be required. School kitchens, equipment and ingredients are expensive, and many schools simply cannot afford them. Students already have a heavy workload, and those who are interested can easily learn from their parents or from online videos. Schools should offer cooking as an elective or a club instead.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "支持列為必修", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my view 依我之見 / cooking classes 烹飪課 / compulsory 必修的 / I agree with David that 我同意 David 所說的 / a basic life skill 基本的生活技能",
+          sample: "[[In my view,]] **cooking classes** should be **compulsory** in secondary school, [[and I agree with David that]] cooking is a basic **life skill**." },
+        { role: "New reason", zh: "補充新理由", hints: "Beyond … he mentioned, I would point out that 除了他提到的…之外，我想指出 / health benefits 健康上的好處 / save money 省錢 / home-cooked meals 自己煮的餐點 / cost far less than 比…便宜得多 / takeaway food 外帶食物 / which matters to 這對…很重要 / on a tight budget 預算很緊",
+          sample: "[[Beyond]] the health benefits [[he mentioned, I would point out that]] cooking saves money. **Home-cooked meals** cost far less than **takeaway** food, [[which matters to]] students living on a tight **budget**." },
+        { role: "Example", zh: "舉例", hints: "… is a case in point …就是一個很好的例子 / eat out 外食 / allowance 零用錢 / simple dishes 簡單的菜餚 / such as 例如 / fried rice 炒飯 / cut … almost in half 把…減少將近一半 / expenses 開銷",
+          sample: "My brother [[is a case in point.]] In his first year at university, he **ate out** every day and spent most of his allowance on food. After he learned to cook a few simple **dishes**, [[such as]] fried rice, he cut his food **expenses** almost in half." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… suggests that …認為 / While this may be true for some …, 雖然這對某些…來說可能是真的 / be too busy to + V 太忙而無法… / guarantee 保證",
+          sample: "[[Mary suggests that]] students can learn from their parents or from online videos. [[While this may be true for some]] families, many parents are too busy to cook, so only schools can **guarantee** that every student learns." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / a worthwhile investment in 對…值得的投資 / independence 獨立",
+          sample: "[[For these reasons, I believe that]] compulsory cooking classes are [[a worthwhile investment in]] students' health and **independence**." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "應維持選修", rows: [
+        { role: "Position", zh: "表明立場", hints: "Personally, I do not think 我個人不認為 / compulsory 必修的 / I share Mary's view that 我和 Mary 的看法一致 / elective 選修課 / instead 作為替代",
+          sample: "[[Personally, I do not think]] **cooking classes** should be **compulsory**, [[and I share Mary's view that]] schools should offer them as an **elective** instead." },
+        { role: "New reason", zh: "補充新理由", hints: "Another point worth considering is that 另一個值得考慮的點是 / crowded 擁擠的 / rarely 很少 / cooking skills 烹飪技巧 / With + N + V-ing 在…的情況下 / stove 爐子 / wash the dishes 洗碗",
+          sample: "[[Another point worth considering is that]] a crowded school kitchen rarely teaches **cooking skills**. [[With]] thirty students sharing a few **stoves**, most only watch or wash the dishes." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / once a month 一個月一次 / junior high school 國中 / in groups of six 六人一組 / confident 有自信的 / while the rest of us 而我們其他人 / chat 聊天 / except 除了…之外 / instant noodles 泡麵",
+          sample: "[[For example,]] my junior high school class had a cooking lesson once a month. We worked in groups of six, so one or two confident students did all the cooking [[while the rest of us]] chatted. Today, I still cannot cook anything except **instant noodles**." },
+        { role: "Respond to David", zh: "回應對方", hints: "… believes that …認為 / rely on 依賴 / However, this is not necessarily the case, because 然而事實未必如此，因為 / save time 節省時間 / not because 並不是因為",
+          sample: "[[David believes that]] students who can cook will rely less on **fast food**. [[However, this is not necessarily the case, because]] people usually buy fast food to save time, not because they cannot cook." },
+        { role: "Conclusion", zh: "結論", hints: "To sum up 總而言之 / valuable 有價值的 / be best learned through 最好透過…來學習 / elective 選修課 / rather than through 而不是透過 / compulsory course 必修課",
+          sample: "[[To sum up,]] cooking is a valuable skill, [[but it is best learned through]] electives and practice at home [[rather than through]] a compulsory course." },
+      ] },
+    ]
+  },
 ];
