@@ -321,4 +321,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 10, cat: "Technology & AI",
+    title: "AI in Assessing Students and Employees", zh: "用 AI 評量學生與員工",
+    question: "Should AI be used to assess students' academic work and employees' performance?", questionZh: "應該用 AI 來評量學生的課業與員工的工作表現嗎？",
+    professor: "This week we are discussing artificial intelligence and evaluation. More and more universities use AI tools to grade essays and assignments, and many companies use AI systems to measure how well their employees perform. Supporters say these systems are fast and objective, while critics argue that a machine cannot truly understand human work. Should AI be used to assess students' academic work and employees' performance? Why or why not?",
+    david: "I believe AI should be used in assessment because it increases efficiency and reduces human bias. AI grading tools can evaluate assignments and performance data quickly and consistently. Human evaluators may be influenced by personal preferences or tiredness, whereas AI applies the same standard to everyone.",
+    mary: "I disagree with David. Although AI can process data efficiently, it cannot fully understand creativity, context or emotion. A student's original ideas may not fit standard patterns, and performance at work involves teamwork and leadership, which AI may misjudge. Human judgment remains essential for fair evaluation.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "支持 AI 評量", rows: [
+        { role: "Position", zh: "表明立場", hints: "agree with David 同意 David / assess 評量 / evaluation 評估 / both faster and fairer 既更快又更公平",
+          sample: "[[I agree with David that]] AI should be used to **assess** students and employees, [[because]] it makes **evaluation** both faster and fairer." },
+        { role: "New reason", zh: "補充新理由", hints: "I would add that 我想補充 / immediate feedback 即時回饋 / comments 評語 / by then 到那時 / weaknesses 弱點 / right away 立刻",
+          sample: "[[I would add that]] AI [[also provides]] **immediate feedback**. People often wait days or weeks for a teacher's or manager's comments, and by then they have forgotten the details of their work. [[With]] AI, [[they can]] see their **weaknesses** and correct them right away." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / AI assessment tool AI 評量工具 / point out 指出 / within seconds 幾秒內 / revise 修改 / corrections 批改",
+          sample: "[[For example,]] when I practise English writing with an **AI assessment tool**, it points out my grammar mistakes within seconds. I can **revise** my essay immediately, [[so]] I have improved much faster than when I waited a week for my teacher's corrections." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "While … is right that 雖然…說得對 / appreciate creativity 欣賞創意 / this problem can be solved by + V-ing 這個問題可以靠…解決 / review the results 審核結果 / make the final decision 做最後決定",
+          sample: "[[While Mary is right that]] AI cannot fully appreciate **creativity**, [[I believe this problem can be solved by]] letting teachers and managers review the results and make the **final decision**." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons 基於這些理由 / a regular part of …的常態 / as long as 只要 / remain in charge 仍然掌握主導權",
+          sample: "[[For these reasons,]] AI should become a regular part of **assessment** [[as long as]] humans remain in charge." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "反對 AI 評量", rows: [
+        { role: "Position", zh: "表明立場", hints: "side with Mary 支持 Mary / In my view 依我之見 / be relied on to 被依賴來… / performance 工作表現",
+          sample: "[[I side with Mary on this issue.]] [[In my view,]] AI should not be relied on to **assess** students' work or employees' **performance**." },
+        { role: "New reason", zh: "補充新理由", hints: "Another point worth mentioning is that 另一個值得一提的點是 / be trained on past data 以過去的資料訓練 / hidden bias 隱藏的偏見 / algorithm 演算法 / repeat the same unfairness 重複同樣的不公",
+          sample: "[[Another point worth mentioning is that]] AI systems are trained on **past data**, which may contain **hidden bias**. If earlier decisions were unfair to certain groups, the **algorithm** will simply repeat the same unfairness." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / first language 母語 / grade 評分 / keep + V-ing 一直… / native speakers 母語人士 / treat A as B 把 A 當作 B",
+          sample: "[[For instance,]] my cousin, whose first language is not English, used an **AI tool** that **graded** her university essays. Her ideas were strong, but she kept receiving low scores [[because]] the system had been trained mainly on native speakers' writing and treated her different style as mistakes." },
+        { role: "Respond to David", zh: "回應對方", hints: "Although … makes a valid point that 雖然…說得有道理 / consistent 一致的 / is not the same as 不等於 / consistently wrong 一致地錯",
+          sample: "[[Although David makes a valid point that]] AI is quick and **consistent**, being consistent [[is not the same as]] being **fair**; a machine can be consistently wrong." },
+        { role: "Conclusion", zh: "結論", hints: "Therefore 因此 / grades and careers 成績與職涯 / be made by humans 由人來做 / with … used only as 只把…當作 / supporting tool 輔助工具",
+          sample: "[[Therefore,]] important decisions about people's **grades** and **careers** should be made by humans, [[with]] AI [[used only as]] a **supporting tool**." },
+      ] },
+    ]
+  },
 ];
