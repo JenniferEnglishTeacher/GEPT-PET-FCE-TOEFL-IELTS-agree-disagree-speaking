@@ -389,4 +389,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 12, cat: "Environment",
+    title: "Eating Less Meat for the Environment", zh: "為環保少吃肉",
+    question: "Should people eat less meat in order to protect the environment?", questionZh: "人們應該為了保護環境而少吃肉嗎？",
+    professor: "This week we are examining how our everyday choices affect the planet. Raising animals for food requires large amounts of land, water and animal feed, and it produces a significant share of the world's greenhouse gas emissions. For this reason, some experts encourage people to cut down on meat, especially beef. Others doubt that changing individual diets can make a real difference. In your view, should people eat less meat in order to protect the environment? Why or why not?",
+    david: "I think people should definitely eat less meat. Producing beef uses far more land and water than growing vegetables or beans, and cattle release large amounts of greenhouse gases. If millions of people replaced meat with plant-based meals just a few times a week, the total effect on the climate would be significant.",
+    mary: "I see David's point, but I don't think our diets are the real problem. Most emissions come from power plants, factories and transport, so governments should focus on cleaner energy instead. Besides, meat is an important source of protein, and many farmers depend on raising animals to make a living.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "應該少吃肉", rows: [
+        { role: "Position", zh: "表明立場", hints: "agree with David that 同意 David 所說的 / eat less meat 少吃肉 / in order to 為了 / environment 環境",
+          sample: "[[I agree with David that]] people should **eat less meat** [[in order to]] protect the **environment**." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to his point about 除了他關於…的論點之外 / greenhouse gases 溫室氣體 / I would add that 我想補充 / meat production 肉類生產 / a major cause of …的主因 / deforestation 森林砍伐 / rainforest 雨林 / cattle 牛隻 / animal feed 動物飼料 / which destroys 這破壞了",
+          sample: "[[In addition to his point about]] **greenhouse gases**, [[I would add that]] **meat production** [[is a major cause of]] **deforestation**. Huge areas of **rainforest** are cut down every year to create space for **cattle** and to grow **animal feed**, [[which destroys]] the homes of countless wild animals." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / cafeteria 學生餐廳 / introduce 推行 / Meatless Monday 週一無肉日 / At first …, but … 起初…，但… / complain 抱怨 / plant-based 植物性的 / far less … than before 比以前少得多",
+          sample: "[[For example,]] my school **cafeteria** introduced a \"**Meatless Monday**\" last year. [[At first,]] many students complained, [[but]] the **plant-based** dishes soon became popular, and the school now buys far less beef than before." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / cleaner energy 更乾淨的能源 / However, she overlooks the fact that 然而她忽略了…這個事實 / power plant 發電廠 / take decades 需要數十年 / whereas 然而、相對地 / emissions 排放量 / immediately 立即",
+          sample: "[[Mary argues that]] governments should focus on cleaner energy instead. [[However, she overlooks the fact that]] building new power plants takes decades, [[whereas]] changing what we eat can reduce **emissions** immediately." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / one of the simplest ways for … to … …做…最簡單的方法之一 / ordinary people 一般人 / carbon footprint 碳足跡",
+          sample: "[[In conclusion,]] eating less meat is [[one of the simplest ways for]] ordinary people [[to]] reduce their **carbon footprint**." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "不必少吃肉", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my opinion 依我之見 / is not an effective way to 不是…的有效方法 / so I agree with 所以我同意",
+          sample: "[[In my opinion,]] asking people to **eat less meat** [[is not an effective way to]] protect the **environment**, [[so I agree with Mary.]]" },
+        { role: "New reason", zh: "補充新理由", hints: "What neither student mentioned is that 兩位同學都沒提到的是 / plant-based 植物性的 / not always 不一定 / greener 更環保 / imported by air 空運進口 / heated greenhouse 加溫溫室 / emissions 排放量 / local farm 在地農場",
+          sample: "[[What neither student mentioned is that]] **plant-based** food [[is not always]] greener. Fruit and vegetables that are **imported** by air or grown in heated **greenhouses** can produce more **emissions** than meat from a **local farm**." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / avocado 酪梨 / be shipped 被運送 / thousands of kilometers 數千公里 / require 需要 / enormous amounts of 大量的 / By contrast 相較之下 / only twenty minutes away 只有二十分鐘路程",
+          sample: "[[Take]] avocados [[as an example.]] Many of those sold in Taiwan are **shipped** thousands of kilometers from the Americas, and growing them requires [[enormous amounts of]] water. [[By contrast,]] the chicken my family buys comes from a farm only twenty minutes away." },
+        { role: "Respond to David", zh: "回應對方", hints: "David makes a fair point that David 說得有道理 / beef production 牛肉生產 / release 排放 / However, he does not mention that 然而他沒有提到 / reduce … through 透過…減少 / animal feed 動物飼料 / waste management 廢棄物管理",
+          sample: "[[David makes a fair point that]] **beef production** releases **greenhouse gases**. [[However, he does not mention that]] farmers can already reduce these emissions [[through]] better **animal feed** and **waste management**." },
+        { role: "Conclusion", zh: "結論", hints: "Therefore, I believe that 因此我認為 / farming methods 耕作與畜牧方式 / local food 在地食物 / rather than 而不是 / give up 放棄 / the best way to 最好的方法",
+          sample: "[[Therefore, I believe that]] improving **farming methods** and choosing **local food**, [[rather than]] simply giving up meat, [[is the best way to]] protect the planet." },
+      ] },
+    ]
+  },
 ];

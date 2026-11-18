@@ -3,7 +3,7 @@
 One line per finished task: number | type | category | title. A task is listed only after its HTML source is committed and pushed.
 Category order — Email: Apology / Absence; Request; Complaint / Problem; Inquiry / Information; Invitation / Reply; Advice / Suggestion; Application / Job; Thanks / Follow-up. Discussion: Education; Technology & AI; Social media & influencers; Environment; Government & society; Work & economy; Health & lifestyle; Ethics & culture.
 
-## Email (11 / 40)
+## Email (12 / 40)
 01 | Email | Apology / Absence | Missing a Club Meeting 無法出席社團會議 (to Alex, club president — medical appointment, poster for recycling campaign) | toefl-master/email-apology-absence.html
 02 | Email | Request | Requesting a Recommendation Letter 請教授寫推薦信 (to Professor Wang — exchange program in Canada, deadline + résumé/transcript) | toefl-master/email-request.html
 03 | Email | Complaint / Problem | Complaining About Noise in the Library 投訴圖書館自習區太吵 (to Ms. Lin, library manager — noisy quiet study area before final exams, suggest signs / staff patrol) | toefl-master/email-complaint-problem.html
@@ -15,8 +15,9 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 09 | Email | Apology / Absence | Missing a Class Because of Illness 因病缺課向教授說明 (to Professor Davis — missed Introduction to Business because of a high fever; explain + apologize, ask about homework / missed material, ask for advice on catching up) | toefl-master/email-apology-absence.html
 10 | Email | Request | Requesting Help to Find a Lost Backpack 請客運公司協尋遺失的背包 (to the Customer Service Department of Metro Bus Company — black backpack left on Bus 307 near Banqiao Station; describe the item, when/where it was lost, ask them to look for it + contact details) | toefl-master/email-request.html
 11 | Email | Complaint / Problem | Complaining About Faulty Headphones Ordered Online 投訴網購耳機故障 (to the Customer Service Team of SoundWave online store — wireless headphones, order No. SW20458: left earpiece silent + cracked charging case; what you ordered / when it arrived, the problem, replacement or refund) | toefl-master/email-complaint-problem.html
+12 | Email | Inquiry / Information | Asking About a Late Hotel Check-in 詢問飯店延後入住事宜 (to Mr. Tanaka, front desk manager of the Harbor View Hotel in Tokyo — rescheduled flight, arriving about 11:30 p.m. after check-in closes; booking details, late arrival + can I still check in, transportation from the airport at night) | toefl-master/email-inquiry-information.html
 
-## Discussion (11 / 40)
+## Discussion (12 / 40)
 01 | Discussion | Education | Should STEAM courses be mandatory for all university students? 大學應該把 STEAM 課程列為全體學生的必修嗎？ | toefl-master/discussion-education.html
 02 | Discussion | Technology & AI | Will AI-generated images and videos have a positive or a negative influence on society? AI 生成的圖片與影片對社會的影響是正面還是負面？ | toefl-master/discussion-technology-ai.html
 03 | Discussion | Social media & influencers | Do social media influencers have a mainly positive or a mainly negative influence on young people? 社群媒體網紅對年輕人的影響主要是正面還是負面？ | toefl-master/discussion-social-media-influencers.html
@@ -28,6 +29,7 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 09 | Discussion | Education | Should governments prioritize spending on school facilities over curriculum quality? 政府的教育經費應該優先投入學校設施，而不是課程品質嗎？ | toefl-master/discussion-education.html
 10 | Discussion | Technology & AI | Should AI be used to assess students' academic work and employees' performance? 應該用 AI 來評量學生的課業與員工的工作表現嗎？ | toefl-master/discussion-technology-ai.html
 11 | Discussion | Social media & influencers | Should the live streaming of dangerous stunts be banned? 應該禁止直播危險的特技與挑戰嗎？ | toefl-master/discussion-social-media-influencers.html
+12 | Discussion | Environment | Should people eat less meat in order to protect the environment? 人們應該為了保護環境而少吃肉嗎？ | toefl-master/discussion-environment.html
 
 ## Notes for the next run
 - Sample markup in the HTML sources: `<span style="background-color:#fff2a8">` = universal pattern, `<b>` = theme word.
