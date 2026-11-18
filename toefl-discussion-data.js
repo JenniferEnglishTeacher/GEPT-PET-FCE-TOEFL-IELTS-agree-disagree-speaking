@@ -933,4 +933,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 28, cat: "Environment",
+    title: "Nuclear Energy and Climate Change", zh: "核能與氣候變遷",
+    question: "Should countries rely on nuclear energy to fight climate change?", questionZh: "各國應該依靠核能來對抗氣候變遷嗎？",
+    professor: "This week we are examining how countries can reduce their carbon emissions while still meeting the growing demand for electricity. Nuclear power is one of the most controversial options. Some governments are building new reactors because they produce very little carbon dioxide, while others, such as Germany, have closed all of their nuclear plants because of safety concerns. In your opinion, should countries rely on nuclear energy to fight climate change? Why or why not?",
+    david: "I think nuclear energy should be part of the solution. A nuclear power plant produces almost no greenhouse gases while it is running, so it is far cleaner than coal or natural gas. If we are serious about cutting emissions quickly, we cannot afford to reject such a powerful low-carbon source of electricity.",
+    mary: "I disagree. The accidents at Chernobyl and Fukushima showed how dangerous nuclear power can be, and one mistake can make an area unsafe for decades. In addition, nobody has found a truly safe way to store radioactive waste, which stays harmful for thousands of years. We should not leave this problem to future generations.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "應該依靠核能", rows: [
+        { role: "Position", zh: "表明立場", hints: "agree with David that 同意 David 所說的 / rely on 依靠 / nuclear energy 核能 / fight climate change 對抗氣候變遷",
+          sample: "[[I agree with David that]] countries [[should]] rely on **nuclear energy** to fight **climate change**." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to his point about 除了他關於…的論點之外 / low emissions 低排放 / I would add that 我想補充 / reliable 可靠的 / solar panel 太陽能板 / wind turbine 風力發電機 / whereas 然而、相較之下 / nuclear reactor 核子反應爐 / steady supply 穩定的供應 / be essential for 對…不可或缺",
+          sample: "[[In addition to his point about]] low **emissions**, [[I would add that]] nuclear power is reliable. **Solar panels** and **wind turbines** only produce electricity when the sun shines or the wind blows, [[whereas]] a **nuclear reactor** can run day and night in any weather. This steady supply [[is essential for]] hospitals and factories." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / nuclear plant 核電廠 / As a result 因此 / stable 穩定的 / electricity supply 電力供應 / power station 發電廠 / release 排放 / carbon dioxide 二氧化碳 / burn coal 燃煤",
+          sample: "[[For example,]] France produces most of its electricity in nuclear plants. [[As a result,]] it enjoys a stable electricity supply, and its power stations release far less **carbon dioxide** than those in countries that still burn coal." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / nuclear accident 核能事故 / However, she overlooks the fact that 然而她忽略了…這個事實 / extremely rare 極為罕見 / air pollution 空氣污染 / fossil fuels 化石燃料 / harm 危害",
+          sample: "[[Mary argues that]] nuclear accidents are too dangerous. [[However, she overlooks the fact that]] such accidents are extremely rare, while air pollution from **fossil fuels** harms millions of people every year." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / one of the most effective ways to 最有效的方法之一 / cut emissions 減少排放 / leave people in the dark 讓人們無電可用",
+          sample: "[[In conclusion,]] nuclear energy is [[one of the most effective ways to]] cut emissions without leaving people in the dark." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "不應依靠核能", rows: [
+        { role: "Position", zh: "表明立場", hints: "Although 雖然 / low in carbon 低碳的 / agree with Mary that 同意 Mary 所說的 / rely on 依靠 / fight climate change 對抗氣候變遷",
+          sample: "[[Although]] nuclear power is low in carbon, [[I agree with Mary that]] countries [[should not]] rely on it to fight **climate change**." },
+        { role: "New reason", zh: "補充新理由", hints: "What neither student mentioned is that 兩位同學都沒提到的是 / nuclear plant 核電廠 / expensive 昂貴的 / slow to build 興建緩慢 / reactor 反應爐 / take over ten years to 花十年以上才能 / emissions 排放量 / With the same money 用同樣的錢 / install 安裝 / solar panel 太陽能板 / wind turbine 風力發電機",
+          sample: "[[What neither student mentioned is that]] nuclear plants are expensive and slow to build. A new **reactor** often takes over ten years to complete, but **emissions** need to fall right now. [[With the same]] money, a government could install **solar panels** and **wind turbines** much faster." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / behind schedule 進度落後 / cost billions more than planned 比原訂計畫多花數十億 / while 而 / wind farm 風力發電場 / off the coast 在外海 / in far less time 用少得多的時間",
+          sample: "[[Take]] the Hinkley Point C plant in the UK [[as an example.]] It is years behind schedule and has cost billions more than planned, [[while]] new **wind farms** off the British coast have been built in far less time." },
+        { role: "Respond to David", zh: "回應對方", hints: "David makes a fair point that David 說得有道理 / greenhouse gases 溫室氣體 / However, he does not mention that 然而他沒有提到 / renewable energy 再生能源 / just as clean 同樣乾淨 / radioactive waste 放射性廢料",
+          sample: "[[David makes a fair point that]] nuclear plants produce almost no **greenhouse gases**. [[However, he does not mention that]] **renewable energy** is just as clean and creates no **radioactive waste**." },
+        { role: "Conclusion", zh: "結論", hints: "Therefore, I believe that 因此我認為 / invest in 投資 / renewable energy 再生能源 / rather than 而不是 / the best way to 最好的方法 / protect the planet 保護地球",
+          sample: "[[Therefore, I believe that]] investing in renewable energy, [[rather than]] nuclear power, [[is the best way to]] protect the planet." },
+      ] },
+    ]
+  },
 ];
