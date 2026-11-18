@@ -491,4 +491,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 15, cat: "Health & lifestyle",
+    title: "Later School Start Times", zh: "延後上學時間",
+    question: "Should schools start later in the morning so that students can get more sleep?", questionZh: "學校應該延後早上的上課時間，讓學生睡得更飽嗎？",
+    professor: "This week we are examining sleep and student health. Research suggests that teenagers naturally fall asleep late and need eight to ten hours of sleep, yet many secondary schools begin before 8 a.m., so a large number of students come to class tired. Some schools have therefore moved their first lesson to 9 a.m. or later, while others say the traditional timetable works well. In your opinion, should schools start later in the morning so that students can get more sleep? Why or why not?",
+    david: "I think schools should start later. Teenagers' body clocks make it hard for them to fall asleep before 11 p.m., so an early start means they never get enough rest. Students who lack sleep cannot concentrate or remember what they learn. If the first lesson began at 9 a.m., they would be more alert, and their grades would improve.",
+    mary: "I don't think that is a good idea. If school starts later, it also finishes later, which leaves less time for sports, clubs, homework and family dinner. Many parents begin work early and would find it difficult to take their children to school. Besides, students would probably just go to bed even later, so they would not actually sleep more.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "支持延後上學", rows: [
+        { role: "Position", zh: "表明立場", hints: "I strongly believe that 我堅信 / start later 晚一點開始 / I share David's view that 我和 David 的看法相同 / sleep-deprived 睡眠不足的",
+          sample: "[[I strongly believe that]] schools should start later in the morning, [[and I share David's view that]] **sleep-deprived** students cannot learn well." },
+        { role: "New reason", zh: "補充新理由", hints: "Beyond the point he made 除了他提出的論點之外 / protect 保護 / mental health 心理健康 / a lack of sleep 睡眠不足 / be closely linked to 與…密切相關 / anxiety 焦慮 / low mood 情緒低落 / be more likely to + V 更有可能 / accident 意外",
+          sample: "[[Beyond the point he made,]] a later start would also protect students' **mental health** and safety. A lack of sleep [[is closely linked to]] **anxiety** and low mood, and tired teenagers [[are more likely to]] have accidents on their way to school." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / move A from … to … 把 A 從…改到… / used to + V 以前常常 / skip breakfast 不吃早餐 / doze off 打瞌睡 / alert 有精神的、警覺的",
+          sample: "[[For example,]] my cousin's high school moved its first lesson from 7:30 to 8:50 last year. She [[used to]] skip breakfast and **doze off** in class, but now she eats properly and arrives **alert**." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… points out that …指出 / simply 只是 / However, this is not necessarily true 然而，這不一定是事實 / delay 延後 / start time 上課時間 / bedtime 就寢時間 / stay almost the same 幾乎維持不變 / do + V（強調）確實",
+          sample: "[[Mary points out that]] students would simply go to bed later. [[However, this is not necessarily true.]] Studies have found that when schools delay their start times, **bedtimes** stay almost the same, so students do sleep longer." },
+        { role: "Conclusion", zh: "結論", hints: "All things considered 綜合以上所有考量 / a simple change 一個簡單的改變 / would make + O + adj. 會讓…變得 / healthier 更健康 / safer 更安全 / successful 成功的",
+          sample: "[[All things considered,]] a later start is a simple change that [[would make]] students healthier, safer and more successful." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "維持現行上學時間", rows: [
+        { role: "Position", zh: "表明立場", hints: "From my point of view 從我的觀點來看 / keep 維持 / current 目前的 / timetable 課表、作息時間表 / I agree with Mary that 我同意 Mary 的看法 / create more problems than it solves 製造的問題比解決的還多",
+          sample: "[[From my point of view,]] schools should keep their current **timetable**, [[and I agree with Mary that]] a later start would [[create more problems than it solves.]]" },
+        { role: "New reason", zh: "補充新理由", hints: "Another point worth mentioning is that 另一個值得一提的重點是 / prepare … for 讓…為…做好準備 / adult life 成年生活 / lecture 大學講課 / time management 時間管理 / self-discipline 自律 / rather than 而不是 / fit their habits 配合他們的習慣",
+          sample: "[[Another point worth mentioning is that]] early mornings prepare students for adult life. Most jobs and university lectures begin at eight or nine, so teenagers need to learn **time management** and **self-discipline** [[rather than]] expect the world to fit their habits." },
+        { role: "Example", zh: "舉例", hints: "In my own experience 就我自己的經驗 / once 曾經 / exam week 考試週 / stay up 熬夜 / until 1 a.m. 直到凌晨一點 / just as … as before 和以前一樣… / exhausted 筋疲力盡的",
+          sample: "[[In my own experience,]] my school once started an hour later during exam week. Most of my classmates **stayed up** playing online games until 1 a.m., and they looked [[just as]] **exhausted** [[as before.]]" },
+        { role: "Respond to David", zh: "回應對方", hints: "… argues that …主張 / body clock 生理時鐘 / stop … from + V-ing 使…無法 / Although this is partly true 雖然這有一部分是事實 / the bigger cause 更大的原因 / screen time 使用螢幕的時間 / put away 收起來",
+          sample: "[[David argues that]] teenagers' **body clocks** stop them from falling asleep early. [[Although this is partly true,]] the bigger cause is **screen time** at night. If students put away their phones an hour before bed, most could fall asleep earlier." },
+        { role: "Conclusion", zh: "結論", hints: "In short 簡而言之 / teach 教導 / healthy sleep habits 健康的睡眠習慣 / instead of + V-ing 而不是 / change the timetable 更改作息時間",
+          sample: "[[In short,]] schools should teach healthy **sleep habits** [[instead of]] changing the timetable for everyone." },
+      ] },
+    ]
+  },
 ];
