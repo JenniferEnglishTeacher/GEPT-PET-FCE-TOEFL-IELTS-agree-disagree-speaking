@@ -3,7 +3,7 @@
 One line per finished task: number | type | category | title. A task is listed only after its HTML source is committed and pushed.
 Category order — Email: Apology / Absence; Request; Complaint / Problem; Inquiry / Information; Invitation / Reply; Advice / Suggestion; Application / Job; Thanks / Follow-up. Discussion: Education; Technology & AI; Social media & influencers; Environment; Government & society; Work & economy; Health & lifestyle; Ethics & culture.
 
-## Email (24 / 40)
+## Email (25 / 40)
 01 | Email | Apology / Absence | Missing a Club Meeting 無法出席社團會議 (to Alex, club president — medical appointment, poster for recycling campaign) | toefl-master/email-apology-absence.html
 02 | Email | Request | Requesting a Recommendation Letter 請教授寫推薦信 (to Professor Wang — exchange program in Canada, deadline + résumé/transcript) | toefl-master/email-request.html
 03 | Email | Complaint / Problem | Complaining About Noise in the Library 投訴圖書館自習區太吵 (to Ms. Lin, library manager — noisy quiet study area before final exams, suggest signs / staff patrol) | toefl-master/email-complaint-problem.html
@@ -28,8 +28,9 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 22 | Email | Advice / Suggestion | Suggesting a New Hobby to a Friend 建議朋友培養新嗜好 (to Jack, a friend — parents think he plays computer games too much and want him to find a hobby that gets him out of the house; show understanding, suggest a hobby (cycling) + why it suits him, how to get started (free trial ride with your cycling club)) | toefl-master/email-advice-suggestion.html
 23 | Email | Application / Job | Applying to Be a Summer Camp Counselor 應徵暑期英語營隊輔導員 (to Ms. Parker, camp director of Sunshine English Summer Camp — counselors to lead games, songs and simple English activities for children aged 7–12 in July and August; skills and experience (tutored cousin in English, guitar club leader), availability this summer (final exams end June 28), ask about the interview + documents to send) | toefl-master/email-application-job.html
 24 | Email | Thanks / Follow-up | Thanking the Club Captain After a Showcase 感謝社長籌辦期末成果發表 (to Olivia, captain of the Dance Club — end-of-semester showcase in the school auditorium; thank her for what she did (booked auditorium, planned rehearsals), what the event meant to you (first time on stage, her encouragement), offer to help with the club's next event (posters / charity performance)) | toefl-master/email-thanks-follow-up.html
+25 | Email | Apology / Absence | Apologizing for a Late Group Project Section 為遲交小組報告道歉 (to Daniel, your group leader — Social Studies group report on the history of your city, research section sent two days late because of a math test, group lost ten points; apologize + explain why it was late, show you understand how the delay affected the group, explain how you will make it up (slides / early drafts)) | toefl-master/email-apology-absence.html
 
-## Discussion (24 / 40)
+## Discussion (25 / 40)
 01 | Discussion | Education | Should STEAM courses be mandatory for all university students? 大學應該把 STEAM 課程列為全體學生的必修嗎？ | toefl-master/discussion-education.html
 02 | Discussion | Technology & AI | Will AI-generated images and videos have a positive or a negative influence on society? AI 生成的圖片與影片對社會的影響是正面還是負面？ | toefl-master/discussion-technology-ai.html
 03 | Discussion | Social media & influencers | Do social media influencers have a mainly positive or a mainly negative influence on young people? 社群媒體網紅對年輕人的影響主要是正面還是負面？ | toefl-master/discussion-social-media-influencers.html
@@ -54,6 +55,7 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 22 | Discussion | Work & economy | When choosing a career, is a high salary more important than job satisfaction? 選擇職業時，高薪比工作滿足感更重要嗎？ | toefl-master/discussion-work-economy.html
 23 | Discussion | Health & lifestyle | Should schools teach mental health education as a required subject? 學校應該把心理健康教育列為必修科目嗎？ | toefl-master/discussion-health-lifestyle.html
 24 | Discussion | Ethics & culture | Is it ethical to keep wild animals in zoos? 把野生動物養在動物園合乎道德嗎？ | toefl-master/discussion-ethics-culture.html
+25 | Discussion | Education | Should students be required to wear school uniforms? 學校應該規定學生穿制服嗎？ | toefl-master/discussion-education.html
 
 ## Notes for the next run
 - Sample markup in the HTML sources: `<span style="background-color:#fff2a8">` = universal pattern, `<b>` = theme word.

@@ -831,4 +831,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 25, cat: "Education",
+    title: "Compulsory School Uniforms", zh: "規定穿學校制服",
+    question: "Should students be required to wear school uniforms?", questionZh: "學校應該規定學生穿制服嗎？",
+    professor: "This week we are discussing school rules and student life. In many countries, including Japan, the United Kingdom and Taiwan, students are required to wear a school uniform every day. Supporters say that uniforms create a sense of equality and help students concentrate on their studies. Critics argue that uniforms limit students' freedom to express themselves and can be uncomfortable or expensive, and in recent years some schools have relaxed their dress codes. In your opinion, should students be required to wear school uniforms? Why or why not?",
+    david: "I think students should be required to wear uniforms. Uniforms reduce the visible economic differences between students, so nobody is teased or bullied because of cheap clothes or the lack of brand names. They also save time every morning, because students do not have to decide what to wear.",
+    mary: "I don't think uniforms should be required. Teenagers are developing their own identities, and clothing is one of the main ways in which they express their personalities. Besides, many uniforms are uncomfortable, especially in hot weather, and students learn better when they feel comfortable.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "支持規定穿制服", rows: [
+        { role: "Position", zh: "表明立場", hints: "agree with David 同意 David / be required to 被規定要 / school uniform 學校制服 / mainly because 主要是因為 / fair 公平的 / focused 專注的 / learning environment 學習環境",
+          sample: "[[I agree with David that]] students should be required to wear **school uniforms**, [[mainly because]] uniforms help create a fair and focused **learning environment**." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to what … said, I believe that 除了…所說的之外，我認為 / a sense of belonging 歸屬感 / community 群體 / school spirit 學校向心力 / also 也 / since 因為 / notice strangers 注意到陌生人 / on campus 在校園裡",
+          sample: "[[In addition to what David said, I believe that]] uniforms give students a **sense of belonging**. When everyone wears the same colours, students feel that they are part of one community, which builds **school spirit**. Uniforms also make schools safer, [[since]] teachers can easily notice strangers on campus." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / school trip 校外教學 / crowded 擁擠的 / within minutes 幾分鐘內 / stand out from the crowd 在人群中很顯眼",
+          sample: "[[For example,]] on a school trip to a crowded museum last year, our teachers found every student within minutes because our uniforms **stood out** from the crowd." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… argues that …主張 / limit 限制 / self-expression 自我表達 / I understand her concern, but 我理解她的擔憂，但 / personality 個性 / hairstyle 髮型 / hobby 嗜好 / whatever they like 任何他們喜歡的 / at weekends 在週末",
+          sample: "[[Mary argues that]] uniforms limit **self-expression**. [[I understand her concern, but]] students can still show their personalities through their hairstyles, bags and hobbies, and they are free to wear whatever they like after school and at weekends." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / the benefits of … far outweigh the drawbacks …的好處遠大於壞處",
+          sample: "[[For these reasons, I believe that the benefits of]] uniforms [[far outweigh the drawbacks.]]" },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "反對規定穿制服", rows: [
+        { role: "Position", zh: "表明立場", hints: "side with Mary 支持 Mary / In my view 依我看 / since 因為 / strict 嚴格的 / dress code 服裝規定 / do more harm than good 弊大於利",
+          sample: "[[I side with Mary on this issue.]] [[In my view,]] students should not be required to wear **school uniforms**, [[since]] a strict **dress code** [[does more harm than good.]]" },
+        { role: "New reason", zh: "補充新理由", hints: "Another point worth mentioning is that 另一個值得一提的重點是 / a financial burden on 對…是經濟負擔 / as well as 以及 / sports kit 運動服 / yet 然而 / casual clothes 便服 / therefore 因此 / add a cost rather than remove one 增加而非減少一筆開銷",
+          sample: "[[Another point worth mentioning is that]] uniforms are a **financial burden** on families. Parents have to pay for summer and winter uniforms as well as sports kits, yet their children still need **casual clothes** for the weekend. Uniforms therefore add a cost [[rather than]] remove one." },
+        { role: "Example", zh: "舉例", hints: "For instance 例如 / enter junior high school 上國中 / spend … on 花(錢)在 / outgrow 長大而穿不下 / within a year 一年之內",
+          sample: "[[For instance,]] when I entered junior high school, my parents spent over NT$6,000 on uniforms, and I **outgrew** most of them within a year." },
+        { role: "Respond to David", zh: "回應對方", hints: "… makes a valid point that …說得有道理 / hide 掩蓋 / economic differences 經濟差距 / However 然而 / compare 比較 / tease 嘲笑 / respect 尊重 / would be more effective 會更有效",
+          sample: "[[David makes a valid point that]] uniforms hide **economic differences**. [[However,]] students can still compare phones, shoes and watches, so uniforms do not really stop teasing. Teaching **respect** [[would be more effective.]]" },
+        { role: "Conclusion", zh: "結論", hints: "Therefore 因此 / replace A with B 用 B 取代 A / compulsory 強制的 / sensible 合理的 / dress code 服裝規定",
+          sample: "[[Therefore,]] schools should [[replace]] compulsory uniforms [[with]] a simple, sensible **dress code**." },
+      ] },
+    ]
+  },
 ];
