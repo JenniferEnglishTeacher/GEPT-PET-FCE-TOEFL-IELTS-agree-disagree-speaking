@@ -967,4 +967,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 29, cat: "Government & society",
+    title: "Public Funding for the Arts and Culture", zh: "政府資助藝術與文化",
+    question: "Should governments use public money to fund the arts and culture?", questionZh: "政府應該用公帑資助藝術與文化嗎？",
+    professor: "This week we are discussing how governments decide what to spend public money on. Many governments give financial support to the arts and culture, for example by funding museums, theatres, orchestras and local festivals. Supporters argue that the arts bring benefits to the whole of society that the market alone cannot provide. Critics, however, believe that taxpayers' money should be spent on more urgent needs, and that artists should rely on ticket sales and private donations. In your opinion, should governments use public money to fund the arts and culture? Why or why not?",
+    david: "I think governments should definitely fund the arts. Museums and theatres preserve our cultural heritage, and many of them could not survive on ticket sales alone. Public funding also allows artists to take creative risks, and it gives a voice to minority cultures that commercial companies usually ignore because they are not profitable.",
+    mary: "I don't think public money should be spent on the arts. Governments have limited budgets, and hospitals, schools and housing are far more urgent. Besides, popular art can support itself. If people really value a concert or an exhibition, they will be willing to pay for it, and wealthy donors or companies can sponsor the rest.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "支持政府資助藝術", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my view 依我之見 / public money 公帑 / fund 資助 / the arts and culture 藝術與文化 / I fully agree with David that 我完全同意 David 所說的 / survive 生存",
+          sample: "[[In my view,]] governments should use public money to fund **the arts and culture**, [[and I fully agree with David that]] many museums and theatres could not survive without it." },
+        { role: "New reason", zh: "補充新理由", hints: "Another point worth considering is that 另一個值得考慮的重點是 / public funding 公共資助 / accessible to 讓…都能接觸到 / subsidy 補助金 / rise sharply 大幅上漲 / low-income families 低收入家庭 / be shut out of 被排除在…之外 / exhibition 展覽",
+          sample: "[[Another point worth considering is that]] **public funding** makes culture **accessible** to everyone, [[not only to]] the rich. Without **subsidies**, ticket prices would rise sharply, and low-income families would be shut out of concerts and **exhibitions**." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / public library 公立圖書館 / city museum 市立博物館 / free for students 學生免費 / thanks to 多虧 / government support 政府補助 / which is how 這就是…的由來 / develop a love of 培養對…的熱愛",
+          sample: "[[For example,]] the public library and the city museum in my hometown are free for students [[thanks to]] government support. I visited them almost every weekend as a child, [[which is how]] I developed my love of history." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "While Mary argues that 雖然 Mary 主張 / urgent 迫切的 / she overlooks the fact that 她忽略了一個事實 / arts funding 藝術經費 / a tiny share of 極小的一部分 / national budget 國家預算 / attract tourists 吸引觀光客 / tax revenue 稅收",
+          sample: "[[While Mary argues that]] hospitals and schools are more urgent, [[she overlooks the fact that]] **arts funding** is only a tiny share of the national **budget**, and it also attracts tourists who create jobs and **tax revenue**." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I firmly believe that 基於這些理由，我堅信 / support the arts 支持藝術 / a worthwhile investment in 對…值得的投資",
+          sample: "[[For these reasons, I firmly believe that]] supporting the arts [[is a worthwhile investment in]] society." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "反對用公帑資助藝術", rows: [
+        { role: "Position", zh: "表明立場", hints: "Personally, I side with Mary 我個人站在 Mary 這邊 / spend large amounts of … on 把大筆…花在 / public money 公帑 / when 在…的情況下 / basic needs 基本需求 / unmet 未被滿足的",
+          sample: "[[Personally, I side with Mary:]] governments should not spend large amounts of **public money** on the arts [[when]] basic needs are still unmet." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that has not been mentioned is that 有一點還沒有人提到 / government funding 政府資助 / threaten 威脅 / artistic freedom 創作自由 / officials 官員 / grant 補助金 / controversial subjects 爭議性題材 / in order to 為了",
+          sample: "[[One point that has not been mentioned is that]] **government funding** can threaten **artistic freedom**. When officials decide which projects receive **grants**, artists may avoid controversial subjects [[in order to]] keep their funding." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / crowdfunding 群眾募資 / independent film-maker 獨立電影工作者 / raise 募得 / documentary 紀錄片 / donation 捐款 / As a result 因此 / criticize 批評 / local policies 地方政策",
+          sample: "[[Take]] **crowdfunding** [[as an example.]] An independent film-maker I follow online raised the entire budget for her documentary from thousands of small **donations**. [[As a result,]] she could criticize local policies freely, which might have been impossible with a government grant." },
+        { role: "Respond to David", zh: "回應對方", hints: "David claims that David 聲稱 / ticket sales 門票收入 / That may be true, but 這或許沒錯，但是 / earn income from 從…賺取收入 / membership 會員制 / gift shop 紀念品店 / corporate sponsorship 企業贊助 / instead of relying on 而不是依賴 / taxpayer 納稅人",
+          sample: "[[David claims that]] museums cannot survive on ticket sales alone. [[That may be true, but]] they can also earn income from memberships, gift shops and **corporate sponsorship** [[instead of relying on]] **taxpayers**." },
+        { role: "Conclusion", zh: "結論", hints: "In short 簡而言之 / valuable 有價值的 / be supported by 由…支持 / rather than 而不是 / the public purse 國庫（公帑）",
+          sample: "[[In short,]] the arts are valuable, [[but they should be supported by]] the people who enjoy them [[rather than by]] the public purse." },
+      ] },
+    ]
+  },
 ];
