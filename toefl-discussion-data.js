@@ -899,4 +899,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 27, cat: "Social media & influencers",
+    title: "Influencers and Consumer Behavior", zh: "網紅與消費行為",
+    question: "Do social media influencers have a significant impact on what consumers buy?", questionZh: "社群媒體網紅對消費者的購買行為有重大影響嗎？",
+    professor: "Next week we will be discussing the impact of social media influencers on consumer behavior. With the rise of platforms like Instagram and YouTube, we have seen the emergence of a new type of celebrity: the social media influencer. These influencers have large followings, and companies pay them to endorse products and services. But how much power do they really have? In your opinion, do social media influencers have a significant impact on what consumers buy? Why or why not?",
+    david: "I think social media influencers have a significant impact. When young people admire these influencers and trust their recommendations, they are more likely to buy the products or services that they endorse. That said, I also have some concerns about the authenticity of these endorsements, as some influencers may promote products that they don't actually use or believe in.",
+    mary: "I'm not convinced that social media influencers have a significant impact on consumer behavior. They may have large followings, but most people are smart enough to make their own purchasing decisions based on their needs and preferences. Plus, there are so many influencers out there promoting different products that it can be hard to know who to trust.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "網紅對消費影響重大", rows: [
+        { role: "Position", zh: "表明立場", hints: "agree with David that 同意 David 所說的 / influencer 網紅 / have a significant impact on 對…有重大影響 / consumers 消費者 / especially among 尤其是在…之中",
+          sample: "[[I agree with David that]] social media **influencers** [[have a significant impact on]] what **consumers** buy, especially among young people." },
+        { role: "New reason", zh: "補充新理由", hints: "One point David did not mention is that David 沒有提到的一點是 / a sense of urgency 急迫感 / discount code 折扣碼 / limited-time deal 限時優惠 / live stream 直播 / miss out 錯過 / under this pressure 在這種壓力下 / rarely 很少",
+          sample: "[[One point David did not mention is that]] influencers create a sense of urgency. They often offer **discount codes** and **limited-time deals** during **live streams**, so followers feel that they must buy immediately or miss out. Under this pressure, people rarely stop to ask whether they really need the product." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / beauty influencer 美妝網紅 / order 訂購 / lipstick 口紅 / within ten minutes 十分鐘內 / the discount would end at midnight 折扣午夜截止",
+          sample: "[[For example,]] last month my sister watched her favorite beauty influencer's live stream and ordered three lipsticks within ten minutes because the **discount** would end at midnight. She has used only one of them since." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary claims that Mary 聲稱 / purchasing decisions 購買決定 / While this may be true of 雖然…或許是如此 / careful shoppers 謹慎的購物者 / sensible 理智的 / buy on impulse 衝動購買 / admire 仰慕 / recommend 推薦",
+          sample: "[[Mary claims that]] most people are smart enough to make their own **purchasing decisions**. [[While this may be true of]] careful shoppers, even sensible people **buy on impulse** when someone they admire recommends a product." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons 基於這些理由 / strongly shape 強烈影響、形塑 / consumer behavior 消費行為",
+          sample: "[[For these reasons, I believe that]] influencers strongly shape **consumer behavior**." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "網紅的影響有限", rows: [
+        { role: "Position", zh: "表明立場", hints: "agree with Mary that 同意 Mary 所說的 / do not have a significant impact on 對…沒有重大影響 / consumers 消費者",
+          sample: "[[I agree with Mary that]] social media **influencers** [[do not have a significant impact on]] what **consumers** buy." },
+        { role: "New reason", zh: "補充新理由", hints: "I would add that 我想補充 / research a product 研究、查詢產品 / customer reviews 顧客評價 / price comparison website 比價網站 / unboxing video 開箱影片 / rely on 依賴 / As a result 因此 / exaggerated claims 誇大的說法",
+          sample: "[[I would add that]] consumers today can easily research a product before they pay for it. **Customer reviews**, **price comparison** websites and **unboxing videos** are all free, so shoppers no longer need to rely on one person's opinion. [[As a result,]] the **exaggerated claims** of influencers have far less power than they seem to have." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / recommend 推薦 / wireless earphones 無線耳機 / at once 立刻 / dozens of 數十則 / battery life 電池續航力 / choose … instead 改選…",
+          sample: "[[For instance,]] when a famous YouTuber recommended a pair of wireless earphones, I did not order them at once. I read dozens of customer reviews, found that the battery life was poor, and chose a cheaper brand [[instead]]." },
+        { role: "Respond to David", zh: "回應對方", hints: "David is right to point out that David 指出…是對的 / admire 仰慕 / However 然而 / A is not the same as B A 不等於 B / advertise 打廣告、宣傳 / follower 追蹤者 / for entertainment 為了娛樂",
+          sample: "[[David is right to point out that]] young people admire influencers. [[However,]] admiring someone [[is not the same as]] buying whatever they **advertise**, because most **followers** simply watch the videos for entertainment." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / attract attention 吸引注意 / make their own decisions 自己做決定",
+          sample: "[[In conclusion,]] influencers attract attention, but consumers still make their own decisions." },
+      ] },
+    ]
+  },
 ];
