@@ -3,7 +3,7 @@
 One line per finished task: number | type | category | title. A task is listed only after its HTML source is committed and pushed.
 Category order — Email: Apology / Absence; Request; Complaint / Problem; Inquiry / Information; Invitation / Reply; Advice / Suggestion; Application / Job; Thanks / Follow-up. Discussion: Education; Technology & AI; Social media & influencers; Environment; Government & society; Work & economy; Health & lifestyle; Ethics & culture.
 
-## Email (13 / 40)
+## Email (14 / 40)
 01 | Email | Apology / Absence | Missing a Club Meeting 無法出席社團會議 (to Alex, club president — medical appointment, poster for recycling campaign) | toefl-master/email-apology-absence.html
 02 | Email | Request | Requesting a Recommendation Letter 請教授寫推薦信 (to Professor Wang — exchange program in Canada, deadline + résumé/transcript) | toefl-master/email-request.html
 03 | Email | Complaint / Problem | Complaining About Noise in the Library 投訴圖書館自習區太吵 (to Ms. Lin, library manager — noisy quiet study area before final exams, suggest signs / staff patrol) | toefl-master/email-complaint-problem.html
@@ -17,8 +17,9 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 11 | Email | Complaint / Problem | Complaining About Faulty Headphones Ordered Online 投訴網購耳機故障 (to the Customer Service Team of SoundWave online store — wireless headphones, order No. SW20458: left earpiece silent + cracked charging case; what you ordered / when it arrived, the problem, replacement or refund) | toefl-master/email-complaint-problem.html
 12 | Email | Inquiry / Information | Asking About a Late Hotel Check-in 詢問飯店延後入住事宜 (to Mr. Tanaka, front desk manager of the Harbor View Hotel in Tokyo — rescheduled flight, arriving about 11:30 p.m. after check-in closes; booking details, late arrival + can I still check in, transportation from the airport at night) | toefl-master/email-inquiry-information.html
 13 | Email | Invitation / Reply | Inviting a Classmate to a Farewell Gathering 邀請同學參加歡送會 (to Ryan, a close classmate — surprise farewell gathering for Mia, who is transferring to a school in Australia; invite + reason, date/time/place, ask for help (photo / video) + reply by Wednesday) | toefl-master/email-invitation-reply.html
+14 | Email | Advice / Suggestion | Recommending an Elective Course to a New Classmate 向新同學推薦選修課 (to Ethan, a new transfer student — choosing between Public Speaking and Debate by Friday, nervous speaker; which course you recommend, two reasons, what he should do next (sign up / sit in on a lesson)) | toefl-master/email-advice-suggestion.html
 
-## Discussion (13 / 40)
+## Discussion (14 / 40)
 01 | Discussion | Education | Should STEAM courses be mandatory for all university students? 大學應該把 STEAM 課程列為全體學生的必修嗎？ | toefl-master/discussion-education.html
 02 | Discussion | Technology & AI | Will AI-generated images and videos have a positive or a negative influence on society? AI 生成的圖片與影片對社會的影響是正面還是負面？ | toefl-master/discussion-technology-ai.html
 03 | Discussion | Social media & influencers | Do social media influencers have a mainly positive or a mainly negative influence on young people? 社群媒體網紅對年輕人的影響主要是正面還是負面？ | toefl-master/discussion-social-media-influencers.html
@@ -32,6 +33,7 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 11 | Discussion | Social media & influencers | Should the live streaming of dangerous stunts be banned? 應該禁止直播危險的特技與挑戰嗎？ | toefl-master/discussion-social-media-influencers.html
 12 | Discussion | Environment | Should people eat less meat in order to protect the environment? 人們應該為了保護環境而少吃肉嗎？ | toefl-master/discussion-environment.html
 13 | Discussion | Government & society | Should the voting age be lowered to 16? 投票年齡應該降到 16 歲嗎？ | toefl-master/discussion-government-society.html
+14 | Discussion | Work & economy | Should companies allow employees to work from home most of the time? 公司應該讓員工大部分時間在家工作嗎？ | toefl-master/discussion-work-economy.html
 
 ## Notes for the next run
 - Sample markup in the HTML sources: `<span style="background-color:#fff2a8">` = universal pattern, `<b>` = theme word.

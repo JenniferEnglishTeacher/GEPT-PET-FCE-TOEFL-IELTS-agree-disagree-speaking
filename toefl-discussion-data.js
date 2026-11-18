@@ -457,4 +457,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 14, cat: "Work & economy",
+    title: "Working from Home", zh: "在家工作",
+    question: "Should companies allow employees to work from home most of the time?", questionZh: "公司應該讓員工大部分時間在家工作嗎？",
+    professor: "This week we are discussing how the workplace is changing. Thanks to video calls and cloud software, many office jobs can now be done from home, and some companies let their employees work remotely most of the week. Supporters say that remote work saves time and makes people more productive, while critics worry that it weakens teamwork and makes it harder to separate work from private life. In your opinion, should companies allow employees to work from home most of the time? Why or why not?",
+    david: "I think companies should let employees work from home most of the time. Without a long commute, workers gain one or two extra hours every day, and they can concentrate better at home because there are fewer interruptions from colleagues and meetings. People who have more control over their schedule are also happier, so they work harder.",
+    mary: "I disagree. Good ideas often come from casual conversations in the office, and those are hard to have through a screen. Besides, many people cannot focus at home because of family members, housework or their phones. When your home becomes your office, it is also difficult to stop working, which leads to stress. I think employees should work in the office most of the time.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "支持在家工作", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my opinion 依我之見 / allow … to + V 允許…做 / work from home 在家工作 / I agree with David's point that 我同意 David 的論點 / remote work 遠距工作 / save time 節省時間",
+          sample: "[[In my opinion,]] companies should allow employees to work from home most of the time, [[and I agree with David's point that]] **remote work** saves time." },
+        { role: "New reason", zh: "補充新理由", hints: "What David did not mention is that David 沒有提到的是 / widen 擴大 / talent pool 人才庫 / location 地點 / no longer matter 不再重要 / hire 僱用 / position 職位 / This benefits not only A but also B 這不只有利於 A，也有利於 B / employer 雇主 / the economy as a whole 整體經濟",
+          sample: "[[What David did not mention is that]] remote work also widens the **talent pool**. When location no longer matters, companies can **hire** the best person for a position, including parents of young children and people who live far from big cities. [[This benefits not only]] **employers** [[but also]] the economy as a whole." },
+        { role: "Example", zh: "舉例", hints: "… is a good example …是個好例子 / take care of 照顧 / yet 然而 / work full-time 全職工作 / software engineer 軟體工程師",
+          sample: "My aunt [[is a good example.]] She lives in Hualien and takes care of my grandmother, yet she works **full-time** as a software engineer for a company in Taipei." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… argues that …主張 / casual conversation 閒聊 / While this may be true 雖然這也許是事實 / meet in person 親自見面 / creativity 創造力 / do not have to suffer 不一定會受影響",
+          sample: "[[Mary argues that]] good ideas come from casual conversations in the office. [[While this may be true,]] teams can still meet in person once a week, so **creativity** does not have to suffer." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I am convinced that 基於這些理由，我深信 / flexible working arrangements 彈性的工作安排 / benefit both A and B 對 A 和 B 都有利 / employee 員工 / employer 雇主",
+          sample: "[[For these reasons, I am convinced that]] **flexible working arrangements** [[benefit both]] employees [[and]] employers." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "支持進辦公室", rows: [
+        { role: "Position", zh: "表明立場", hints: "Personally, I believe that 就我個人而言，我認為 / spend … in the office 在辦公室度過 / working week 工作週 / I am on …'s side 我站在…這一邊",
+          sample: "[[Personally, I believe that]] employees should spend most of their working week in the office, [[so I am on Mary's side in this discussion.]]" },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to her point about 除了她關於…的論點之外 / teamwork 團隊合作 / I would like to add that 我想補充 / observe 觀察 / experienced colleague 資深同事 / informal training 非正式的訓練 / be extremely difficult to + V 極難…",
+          sample: "[[In addition to her point about]] teamwork, [[I would like to add that]] new employees learn their jobs mainly by observing and asking experienced **colleagues**. This kind of **informal training** [[is extremely difficult to]] provide online." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / work remotely 遠距工作 / hesitate to + V 猶豫、不敢… / manager 主管 / After + S + V 在…之後 / far more 多得多 / in just a few weeks 短短幾週內",
+          sample: "[[Take]] my older brother [[as an example.]] He started his first job working **remotely**, and for months he hesitated to message his busy **manager** with small questions. After he moved to the office, he learned far more in just a few weeks." },
+        { role: "Respond to David", zh: "回應對方", hints: "… claims that …聲稱 / concentrate 專心 / That may be the case for A, but it is not the case for B 對 A 來說也許如此，但對 B 並非如此 / experienced staff 資深員工 / study 書房 / share an apartment with 和…同住一間公寓",
+          sample: "[[David claims that]] people concentrate better at home. [[That may be the case for]] experienced staff with a quiet study, [[but it is not the case for]] those who share a small apartment with family." },
+        { role: "Conclusion", zh: "結論", hints: "To sum up 總而言之 / although 雖然 / convenient 方便的 / remain 仍然是 / the best place to + V 做…的最佳場所 / cooperate 合作 / grow 成長",
+          sample: "[[To sum up,]] although working from home is convenient, the office [[remains the best place to]] learn, **cooperate** and grow." },
+      ] },
+    ]
+  },
 ];
