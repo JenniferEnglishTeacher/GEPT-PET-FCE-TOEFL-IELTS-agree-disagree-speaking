@@ -525,4 +525,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 16, cat: "Ethics & culture",
+    title: "AI in Military Operations", zh: "AI 用於軍事行動",
+    question: "Should artificial intelligence be used in military operations?", questionZh: "人工智慧應該被用於軍事行動嗎？",
+    professor: "This week we are looking at the ethics of artificial intelligence in warfare. Armed forces around the world are already using AI to analyze battlefield data, guide drones and defend against cyberattacks. Supporters say that this technology protects soldiers and makes military operations more precise. Critics, however, worry about machines that make life-and-death decisions and about who is responsible when they make mistakes. In your view, should artificial intelligence be used in military operations? Why or why not?",
+    david: "I believe AI should be used in the military because it can reduce human casualties and strengthen national security. AI-powered systems can analyze battlefield data far faster than humans and respond more quickly in dangerous situations. For example, autonomous drones can carry out reconnaissance missions in hostile areas without putting soldiers' lives at risk.",
+    mary: "I strongly disagree. Although AI may improve efficiency, it raises serious ethical and security concerns. Autonomous weapons could make life-and-death decisions without human judgment, and a machine might mistake a civilian for a target. Moreover, if these systems were hacked or malfunctioned, the consequences could be catastrophic. War is already morally complex, and removing human control would make it even more dangerous.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "支持將 AI 用於軍事", rows: [
+        { role: "Position", zh: "表明立場", hints: "I am in favor of + V-ing 我贊成 / artificial intelligence 人工智慧 / military operations 軍事行動 / I agree with David that 我同意 David 的看法 / provided that 只要、前提是 / make the final decision 做最後決定",
+          sample: "[[I am in favor of]] using **artificial intelligence** in military operations, [[and I agree with David that]] it can save soldiers' lives, [[provided that]] humans make the final decisions." },
+        { role: "New reason", zh: "補充新理由", hints: "Apart from the point David raised 除了 David 提出的論點之外 / vital for 對…極為重要 / defense 防禦 / detect 偵測 / cyberattack 網路攻擊 / incoming missile 來襲的飛彈 / far faster than 遠比…快 / civilian 平民 / A as well as B 不只 B 還有 A",
+          sample: "[[Apart from the point David raised, I think]] AI is vital for defense. It can detect **cyberattacks** and incoming missiles within seconds, [[far faster than]] any human operator, so it protects **civilians** [[as well as]] soldiers." },
+        { role: "Example", zh: "舉例", hints: "A good example is 一個很好的例子是 / missile defense system 飛彈防禦系統 / rocket 火箭彈 / be fired at 被射向 / calculate their paths 計算它們的路徑 / intercept 攔截",
+          sample: "[[A good example is]] a **missile defense system**. When dozens of rockets are fired at a city, only a computer can calculate their paths and **intercept** them before they reach people's homes." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… is concerned that …擔心 / autonomous weapon 自主武器 / life-and-death decision 生死攸關的決定 / This is a reasonable worry, but it can be addressed by + V-ing 這個擔憂很合理，但可以藉由…來解決 / keep a human in control 讓人類保有控制權 / give the final order 下達最後命令",
+          sample: "[[Mary is concerned that]] **autonomous weapons** could make life-and-death decisions. [[This is a reasonable worry, but it can be addressed by]] keeping a human in control: AI analyzes the data, and a trained officer gives the final order." },
+        { role: "Conclusion", zh: "結論", hints: "Overall 整體而言 / a support tool 輔助工具 / under strict human supervision 在嚴格的人為監督之下 / because it makes + O + adj. 因為它讓…變得 / accurate 精準的",
+          sample: "[[Overall,]] AI should be used as a support tool under strict **human supervision**, [[because it makes]] defense faster, more accurate and safer." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "反對將 AI 用於軍事", rows: [
+        { role: "Position", zh: "表明立場", hints: "I am on Mary's side in this debate 在這場辯論中我站在 Mary 這邊 / I do not think 我不認為 / war 戰爭 / since 因為 / decisions about life and death 攸關生死的決定",
+          sample: "[[I am on Mary's side in this debate.]] [[I do not think]] **artificial intelligence** should be used in war, [[since]] decisions about life and death must be made by humans." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that has not been mentioned is 還沒有人提到的一點是 / accountability 究責、責任歸屬 / the rules of war 戰爭法規 / be put on trial 受審 / it is unclear who should be blamed 不清楚該由誰負責 / programmer 程式設計師 / commander 指揮官 / manufacturer 製造商",
+          sample: "[[One point that has not been mentioned is]] **accountability**. A soldier who breaks the rules of war can be put on trial. When an AI system kills the wrong person, however, [[it is unclear who should be blamed:]] the programmer, the commander or the manufacturer." },
+        { role: "Example", zh: "舉例", hints: "To give an example 舉個例子 / drone 無人機 / identify A as B 把 A 辨識為 B / armed enemy 武裝敵人 / notice the difference 看出差別 / simply follow its data 只是照著數據行事",
+          sample: "[[To give an example,]] an AI **drone** might see a farmer carrying a long tool and [[identify]] him [[as]] an armed enemy. A human soldier could notice the difference, but a machine simply follows its data." },
+        { role: "Respond to David", zh: "回應對方", hints: "… claims that …聲稱 / casualties 傷亡 / That may be the case, but 情況或許如此，但 / less risky 風險較低 / be more willing to + V 更願意 / start a war 發動戰爭",
+          sample: "[[David claims that]] AI reduces **casualties** among soldiers. [[That may be the case, but]] if war becomes less risky for the attacker, leaders may [[be more willing to]] start one, so more civilians could die." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / ban 禁止 / AI weapons AI 武器 / rather than + V 而不是 / compete to develop 競相研發",
+          sample: "[[In conclusion,]] governments should **ban** AI weapons [[rather than]] compete to develop them." },
+      ] },
+    ]
+  },
 ];
