@@ -627,4 +627,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 19, cat: "Social media & influencers",
+    title: "Social Media: More Good Than Harm?", zh: "社群媒體利大於弊嗎",
+    question: "Overall, has social media done more good than harm to society?", questionZh: "整體而言，社群媒體對社會是利大於弊嗎？",
+    professor: "Today we are going to discuss the impact of social media on society. Platforms such as Facebook, Instagram and X have connected billions of people around the world and changed the way we share news and opinions. At the same time, there are growing concerns about cyberbullying, the spread of misinformation and addiction to social media. In your opinion, has social media done more good than harm to society overall? Why or why not?",
+    david: "I think social media has mostly improved society. It has given a voice to people who were previously ignored, and it has provided a platform for campaigns that have led to positive change. It has also made it easy to stay connected with family and friends who live far away. In the past we had to make expensive phone calls, but now we can talk and share pictures for free.",
+    mary: "I think social media has caused more harm than good. It is true that these platforms connect people, but they also allow users to bully and harass others anonymously. In addition, people who spend too much time on social media may suffer from mental health problems such as anxiety and depression, because they constantly compare themselves with others.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "社群媒體利大於弊", rows: [
+        { role: "Position", zh: "表明立場", hints: "agree with David that 同意 David 所說的 / do more good than harm 利大於弊 / social media 社群媒體 / ordinary people 一般人 / opportunities 機會",
+          sample: "[[I agree with David that]] **social media** [[has done more good than harm, because]] it gives ordinary people opportunities that they never had before." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to the points David made 除了 David 提出的論點之外 / cope with 應付、面對 / online support group 線上互助團體 / share experiences 分享經驗 / encourage one another 互相鼓勵 / even if 即使",
+          sample: "[[In addition to the points David made,]] social media [[helps people]] cope with personal difficulties. There are countless **online support groups** where people who face the same problem can share their experiences and encourage one another, [[even if]] they live in different countries." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / study abroad 出國留學 / online community 網路社群 / international students 國際學生 / housing 住宿 / homesickness 想家 / anxious 焦慮的",
+          sample: "[[For example,]] when my cousin was preparing to study abroad alone, she joined an **online community** of international students. The members answered her questions about housing and homesickness, and she felt much less anxious before she left." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / anonymous bullying 匿名霸凌 / While this is true 雖然這是事實 / the problem lies in A, not in B 問題在於 A，而不在於 B / platform 平台 / block 封鎖 / report 檢舉",
+          sample: "[[Mary argues that]] social media allows **anonymous bullying**. [[While this is true, the problem lies in]] how some people use the **platforms**, [[not in]] the platforms themselves. Tools such as **blocking** and **reporting** can protect users." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / the benefits of … outweigh its drawbacks …的好處大於壞處 / clearly 明顯地",
+          sample: "[[In conclusion, the benefits of]] social media [[clearly outweigh its drawbacks.]]" },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "社群媒體弊大於利", rows: [
+        { role: "Position", zh: "表明立場", hints: "agree with Mary that 同意 Mary 所說的 / cause more harm than good 弊大於利 / since 因為 / damage 損害 / individuals 個人 / society as a whole 整個社會",
+          sample: "[[I agree with Mary that]] **social media** [[has caused more harm than good, since]] it damages [[both]] individuals [[and]] society as a whole." },
+        { role: "New reason", zh: "補充新理由", hints: "What Mary did not mention is that Mary 沒有提到的是 / misinformation 錯誤資訊 / at an alarming speed 以驚人的速度 / algorithm 演算法 / shocking content 聳動的內容 / attract clicks 吸引點擊 / check the facts 查證事實",
+          sample: "[[What Mary did not mention is that]] social media spreads **misinformation** at an alarming speed. Because **algorithms** promote shocking content that attracts clicks, false stories often travel further than the truth, and many users share them without checking the facts." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / during the pandemic 疫情期間 / family chat group 家族聊天群組 / claim that 聲稱 / forward 轉傳 / dozens of 數十個 / fake 假的",
+          sample: "[[For instance,]] during the pandemic, my grandmother received a message in a family chat group claiming that drinking hot water could kill the virus. She believed it and **forwarded** it to dozens of friends before we could tell her it was **fake**." },
+        { role: "Respond to David", zh: "回應對方", hints: "David is right to point out that David 指出…是對的 / stay connected with 與…保持聯繫 / distant relatives 遠方的親戚 / However 然而 / do the same job 達到同樣的效果 / without + V-ing 而不會… / expose sb to 使某人接觸到 / rumour 謠言 / hurtful comments 傷人的留言",
+          sample: "[[David is right to point out that]] social media helps us stay connected with distant relatives. [[However,]] video calls and messaging apps can do the same job [[without]] exposing us to **rumours** and **hurtful comments** from strangers." },
+        { role: "Conclusion", zh: "結論", hints: "Overall 整體而言 / the harm caused by … outweighs its convenience …造成的傷害大於它帶來的便利",
+          sample: "[[Overall, I believe that the harm caused by]] social media [[outweighs]] its convenience." },
+      ] },
+    ]
+  },
 ];

@@ -3,7 +3,7 @@
 One line per finished task: number | type | category | title. A task is listed only after its HTML source is committed and pushed.
 Category order — Email: Apology / Absence; Request; Complaint / Problem; Inquiry / Information; Invitation / Reply; Advice / Suggestion; Application / Job; Thanks / Follow-up. Discussion: Education; Technology & AI; Social media & influencers; Environment; Government & society; Work & economy; Health & lifestyle; Ethics & culture.
 
-## Email (18 / 40)
+## Email (19 / 40)
 01 | Email | Apology / Absence | Missing a Club Meeting 無法出席社團會議 (to Alex, club president — medical appointment, poster for recycling campaign) | toefl-master/email-apology-absence.html
 02 | Email | Request | Requesting a Recommendation Letter 請教授寫推薦信 (to Professor Wang — exchange program in Canada, deadline + résumé/transcript) | toefl-master/email-request.html
 03 | Email | Complaint / Problem | Complaining About Noise in the Library 投訴圖書館自習區太吵 (to Ms. Lin, library manager — noisy quiet study area before final exams, suggest signs / staff patrol) | toefl-master/email-complaint-problem.html
@@ -22,8 +22,9 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 16 | Email | Thanks / Follow-up | Following Up on a Group Project 追蹤小組報告進度 (to Kevin, your project partner — group presentation on renewable energy for Environmental Science, due next Monday, he has not replied to messages; remind him about the project + deadline, what still needs to be done (slides / speaking parts), suggest a time to talk online) | toefl-master/email-thanks-follow-up.html
 17 | Email | Apology / Absence | Missing a Baking Class 無法出席烘焙課 (to Ms. Rossi, baking instructor at Sweet Home Baking Studio — school English speech contest moved to the same Saturday morning as the Dubai-style chocolate class; explain why you cannot attend + apologize, why you are disappointed (bought ingredients, promised parents), ask about a make-up class + what to prepare for the next one) | toefl-master/email-apology-absence.html
 18 | Email | Request | Requesting a Place in the Honors English Class 請老師推薦進入英文榮譽班 (to Ms. Tan, your English teacher — small Honors English class that needs a teacher's recommendation, registration closes at the end of the month; why you want to join, why you are a good candidate (grades above 85, Reading Club), ask what you need to do to apply) | toefl-master/email-request.html
+19 | Email | Complaint / Problem | Raising a Concern About Food Waste in the School Cafeteria 反映學校餐廳剩食問題 (to Sophie, president of the Student Council — students leave uneaten food on their trays every lunchtime at Riverside High School; describe the problem, why it is serious (wastes food and money, bad for the environment), suggest what the Student Council could do (posters / smaller portions / campaign)) | toefl-master/email-complaint-problem.html
 
-## Discussion (18 / 40)
+## Discussion (19 / 40)
 01 | Discussion | Education | Should STEAM courses be mandatory for all university students? 大學應該把 STEAM 課程列為全體學生的必修嗎？ | toefl-master/discussion-education.html
 02 | Discussion | Technology & AI | Will AI-generated images and videos have a positive or a negative influence on society? AI 生成的圖片與影片對社會的影響是正面還是負面？ | toefl-master/discussion-technology-ai.html
 03 | Discussion | Social media & influencers | Do social media influencers have a mainly positive or a mainly negative influence on young people? 社群媒體網紅對年輕人的影響主要是正面還是負面？ | toefl-master/discussion-social-media-influencers.html
@@ -42,6 +43,7 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 16 | Discussion | Ethics & culture | Should artificial intelligence be used in military operations? 人工智慧應該被用於軍事行動嗎？ | toefl-master/discussion-ethics-culture.html
 17 | Discussion | Education | Should students be given grades? 學校應該給學生打成績嗎？ | toefl-master/discussion-education.html
 18 | Discussion | Technology & AI | Should universities encourage students to use AI tools such as ChatGPT in their studies? 大學應該鼓勵學生在課業上使用 ChatGPT 等 AI 工具嗎？ | toefl-master/discussion-technology-ai.html
+19 | Discussion | Social media & influencers | Overall, has social media done more good than harm to society? 整體而言，社群媒體對社會是利大於弊嗎？ | toefl-master/discussion-social-media-influencers.html
 
 ## Notes for the next run
 - Sample markup in the HTML sources: `<span style="background-color:#fff2a8">` = universal pattern, `<b>` = theme word.
