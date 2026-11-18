@@ -593,4 +593,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 18, cat: "Technology & AI",
+    title: "AI Tools in University Study", zh: "大學課業使用 AI 工具",
+    question: "Should universities encourage students to use AI tools such as ChatGPT in their studies?", questionZh: "大學應該鼓勵學生在課業上使用 ChatGPT 等 AI 工具嗎？",
+    professor: "This week we are looking at how artificial intelligence is changing the way students learn. AI tools such as ChatGPT can summarize research papers, explain difficult ideas and answer questions at any time of day, and many university students already use them every week. Some educators welcome these tools, while others worry about their effect on students' skills. In your opinion, should universities encourage students to use AI tools such as ChatGPT in their studies? Why or why not?",
+    david: "I strongly feel that AI tools are a real benefit for higher education, so students should be encouraged to use them. ChatGPT can analyze and summarize long research papers, which makes complex topics easier to understand. It is also like having a tutor who is available 24 hours a day, which is especially helpful when students are preparing for exams.",
+    mary: "I see the benefits David mentioned, but I am worried about the downsides. If students rely too much on AI to write essays or solve problems, they may never develop essential skills such as critical thinking and independent problem-solving. There is also a risk of misinformation, because AI's answers are not always accurate. Universities should not encourage students to depend on it.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "支持鼓勵使用 AI 工具", rows: [
+        { role: "Position", zh: "表明立場", hints: "agree with David 同意 David / AI tools AI 工具 / efficient 有效率的 / accessible 容易取得的、人人可用的",
+          sample: "[[I agree with David that]] universities should encourage students to use **AI tools**, [[because]] they make learning more **efficient** and more **accessible**." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to what … said 除了…所說的之外 / personalized support 個人化的協助 / lecture 大班講課 / adjust the pace 調整進度 / AI tutor AI 家教 / in simpler words 用更簡單的話 / until 直到",
+          sample: "[[In addition to what David said, I think]] AI gives every student **personalized** support. In a large **lecture**, a professor cannot adjust the pace for each person, but an AI **tutor** can explain the same idea again in simpler words until the student understands." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / struggle with 在…方面很吃力 / statistics 統計學 / too shy to + V 太害羞而不敢… / formula 公式 / step by step 一步一步地 / pass the course 通過這門課",
+          sample: "[[For example,]] my older brother **struggled with** statistics in his first year at university and was too shy to ask questions in class. He asked ChatGPT to explain each **formula** step by step, and he finally passed the course." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… argues that …主張 / think for themselves 自己思考 / I understand her concern, but 我理解她的擔憂，但 / the solution is to A, not to B 解決之道是 A，而不是 B / wisely 明智地 / ban 禁止 / fact-check 查核事實",
+          sample: "[[Mary argues that]] students may stop thinking for themselves. [[I understand her concern, but the solution is to]] teach students to use AI wisely, [[not to]] ban it. Professors can, for instance, require students to **fact-check** AI's answers." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons 基於這些理由 / welcome A as B 欣然接受 A 作為 B / learning partner 學習夥伴 / higher education 高等教育",
+          sample: "[[For these reasons, I believe]] AI should be welcomed as a **learning partner** in **higher education**." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "反對鼓勵使用 AI 工具", rows: [
+        { role: "Position", zh: "表明立場", hints: "side with Mary 支持 Mary / In my view 依我看 / since 因為 / rely on 依賴 / weaken 削弱 / essential skills 必要的能力",
+          sample: "[[I side with Mary on this issue.]] [[In my view,]] universities should not encourage students to use **AI tools**, [[since]] **relying on** them weakens **essential skills**." },
+        { role: "New reason", zh: "補充新理由", hints: "What … did not mention is that …沒有提到的是 / plagiarism 抄襲 / cheating 作弊 / in seconds 幾秒內 / hand in 繳交 / not their own 不是自己的 / no longer 不再",
+          sample: "[[What Mary did not mention is that]] AI makes **plagiarism** and **cheating** much easier. When a complete essay can be produced in seconds, some students will **hand in** work that is not their own, and their grades will no longer show what they have learned." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / history report 歷史報告 / main argument 主要論點 / save time 節省時間",
+          sample: "[[For instance,]] one of my classmates used ChatGPT to write a history report. It looked perfect, but when the teacher asked him to explain his **main argument**, he could not answer. He had saved time, but he had learned nothing." },
+        { role: "Respond to David", zh: "回應對方", hints: "… makes a valid point that …說得有道理 / summarize 摘要 / research paper 研究論文 / However 然而 / work out its meaning 自己弄懂意思 / critical thinking 批判性思考 / skip that process 跳過那個過程",
+          sample: "[[David makes a valid point that]] AI can **summarize** research papers quickly. [[However,]] reading a difficult text and working out its meaning is exactly how students develop **critical thinking**, and a summary lets them skip that process." },
+        { role: "Conclusion", zh: "結論", hints: "Therefore 因此 / complement 輔助、補足 / rather than 而不是 / replace 取代 / effort 努力",
+          sample: "[[Therefore,]] AI should [[complement, rather than replace,]] students' own **effort**." },
+      ] },
+    ]
+  },
 ];
