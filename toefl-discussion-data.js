@@ -287,4 +287,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 9, cat: "Education",
+    title: "School Facilities or Curriculum Quality", zh: "學校設施或課程品質",
+    question: "Should governments prioritize spending on school facilities over curriculum quality?", questionZh: "政府的教育經費應該優先投入學校設施，而不是課程品質嗎？",
+    professor: "This week we are looking at education budgets. Public money is limited, so governments have to decide what to fund first. Some people believe that more should be spent on school facilities and infrastructure, such as safe buildings, air conditioning, science labs and computers. Others think the money should go to improving the quality of the curriculum and to training teachers. If a government cannot afford both, should it prioritize school facilities over curriculum quality? Why or why not?",
+    david: "I think facilities should come first. Students cannot learn well in buildings that are overcrowded, falling apart or too hot in summer. We should fix the basics, which means safe and comfortable schools, before we worry about the details of the curriculum.",
+    mary: "I disagree with David. A fancy new building does not teach anyone anything by itself. What really matters is what is taught and how well it is taught. A better curriculum benefits students everywhere, even in older buildings.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "設施優先", rows: [
+        { role: "Position", zh: "表明立場", hints: "agree with David 同意 David / prioritize 優先考慮 / school facilities 學校設施 / well-equipped 設備完善的 / the foundation of …的基礎",
+          sample: "[[I agree with David that]] governments should **prioritize** **school facilities**, [[because]] a safe and well-equipped school [[is the foundation of]] all learning." },
+        { role: "New reason", zh: "補充新理由", hints: "I would add that 我想補充 / not only about 不只是關於 / hands-on experience 實作經驗 / science labs 科學實驗室 / stay on paper 淪為紙上談兵 / instead of + V-ing 而不是",
+          sample: "[[I would add that]] facilities [[are not only about]] comfort: [[they also give students]] **hands-on experience**. Without **science labs**, computers and reliable internet, even an excellent **curriculum** stays on paper, and students can only read about skills [[instead of]] practising them." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / laboratory 實驗室 / textbook 課本 / pay for 出資 / experiments 實驗 / far more interested in 對…更有興趣",
+          sample: "[[For example,]] my junior high school had no proper **laboratory**, so we learned chemistry only from the textbook. After the government paid for a new lab, we finally did real **experiments**, and my classmates became far more interested in science." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "While … is right that 雖然…說得對 / by itself 本身 / the right tools 合適的工具 / besides 此外 / make it easier to 使…更容易 / attract skilled teachers 吸引優秀教師",
+          sample: "[[While Mary is right that]] a new building does not teach anyone by itself, [[I believe]] good teachers also need the right tools to teach well; [[besides,]] modern schools [[make it easier to]] **attract** skilled teachers." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons 基於這些理由 / funding 提供經費 / the most practical way to 最實際的方法 / raise the quality of education 提升教育品質",
+          sample: "[[For these reasons,]] **funding** facilities first [[is the most practical way to]] raise the **quality of education**." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "課程優先", rows: [
+        { role: "Position", zh: "表明立場", hints: "side with Mary 支持 Mary / In my view 依我看 / curriculum quality 課程品質 / deserve 值得 / funding 經費 / shape 形塑",
+          sample: "[[I side with Mary on this issue.]] [[In my view,]] **curriculum quality** deserves the **funding** first, [[because]] it shapes what students actually learn every day." },
+        { role: "New reason", zh: "補充新理由", hints: "Another point worth mentioning is that 另一個值得一提的重點是 / lose its value 貶值 / outdated 過時的 / whereas 然而 / well-trained teachers 訓練有素的教師 / for decades 數十年 / at a much lower cost 以低得多的成本",
+          sample: "[[Another point worth mentioning is that]] money spent on buildings and equipment loses its value quickly. Computers become **outdated** within a few years, [[whereas]] a well-designed curriculum and **well-trained teachers** keep benefiting students for decades, at a much lower **cost**." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / computer lab 電腦教室 / be trained to 受過…訓練 / In contrast 相較之下 / introduce 引進 / discussion-based program 討論式課程 / within one semester 一學期內",
+          sample: "[[For instance,]] my high school built an expensive **computer lab**, but few teachers were trained to use it, so it was usually empty. [[In contrast,]] when our English department introduced a new **discussion-based program**, our speaking scores improved within one semester." },
+        { role: "Respond to David", zh: "回應對方", hints: "Although … makes a valid point that 雖然…說得有道理 / this only means that 這只代表 / meet a basic safety standard 達到基本安全標準 / be better spent on 更應該花在 / lesson content 課程內容 / teacher training 師資培訓",
+          sample: "[[Although David makes a valid point that]] students need safe classrooms, [[this only means that]] schools must meet a basic **safety standard**; once they do, extra money [[is better spent on]] **lesson content** and **teacher training**." },
+        { role: "Conclusion", zh: "結論", hints: "Therefore 因此 / invest in 投資 / since 因為 / reach every student directly 直接讓每位學生受益",
+          sample: "[[Therefore,]] governments should **invest in** curriculum quality first, [[since]] it reaches every student directly." },
+      ] },
+    ]
+  },
 ];
