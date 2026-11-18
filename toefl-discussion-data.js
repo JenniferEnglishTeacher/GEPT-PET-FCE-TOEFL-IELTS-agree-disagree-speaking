@@ -797,4 +797,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 24, cat: "Ethics & culture",
+    title: "Keeping Wild Animals in Zoos", zh: "把野生動物養在動物園",
+    question: "Is it ethical to keep wild animals in zoos?", questionZh: "把野生動物養在動物園合乎道德嗎？",
+    professor: "This week we are looking at the ethics of how humans treat animals. Zoos are among the most popular attractions in the world, and millions of families visit them every year. Supporters say that modern zoos protect endangered species and teach the public about wildlife. Critics, however, argue that it is wrong to keep wild animals in captivity for human entertainment. In your opinion, is it ethical to keep wild animals in zoos? Why or why not?",
+    david: "I think keeping animals in zoos is ethical as long as they are well cared for. Modern zoos play an important role in conservation. Many endangered species, such as the giant panda, have been saved from extinction through zoo breeding programs. Animals in zoos also receive regular food and medical care, so they often live longer than they would in the wild.",
+    mary: "I disagree. Wild animals are meant to live freely in their natural habitats, not in cages or small enclosures. Elephants and polar bears, for example, travel long distances every day in the wild, and in captivity they often show signs of stress and boredom, such as walking in circles. I don't think we have the right to take away an animal's freedom just so that we can look at it.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "認為動物園合乎道德", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my opinion 依我之見 / ethical 合乎道德的 / I agree with David that 我同意 David 的看法 / well-run 經營良好的 / play a key role in 在…扮演關鍵角色 / conservation 保育",
+          sample: "[[In my opinion,]] keeping wild animals in zoos is **ethical**, [[and I agree with David that]] well-run zoos [[play a key role in]] **conservation**." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to his point, I believe that 除了他的論點之外，我認為 / education 教育 / It is one thing to + V, but it is quite another to + V 做…是一回事，做…又是另一回事 / endangered species 瀕危物種 / with your own eyes 親眼 / care about 在乎 / wildlife 野生動物",
+          sample: "[[In addition to his point, I believe that]] zoos are powerful places for education. [[It is one thing to]] read about an **endangered species** in a textbook, [[but it is quite another to]] see the animal with your own eyes. That experience makes people care about protecting **wildlife**." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / school trip 校外教學 / Formosan black bear 臺灣黑熊 / only a few hundred are left 只剩下幾百隻 / in the wild 在野外 / raise money to + V 募款來… / habitat 棲息地",
+          sample: "[[For example,]] on a school trip to Taipei Zoo, I saw a Formosan black bear and learned that only a few hundred are left in the wild. Afterwards, my class raised money to protect its **habitat**." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… argues that …主張 / suffer 受苦 / enclosure 圍欄、展示區 / While this was true in the past 雖然過去確實如此 / natural space 自然的空間 / hide food 把食物藏起來 / stay active 保持活動力",
+          sample: "[[Mary argues that]] animals suffer in small **enclosures**. [[While this was true in the past,]] good zoos now build large, natural spaces and hide food so that animals stay active." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / when properly managed 只要管理得當 / do far more good than harm to 對…利遠大於弊",
+          sample: "[[For these reasons, I believe that]] zoos, when properly managed, [[do far more good than harm]] to animals." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "認為動物園不道德", rows: [
+        { role: "Position", zh: "表明立場", hints: "I take the opposite view 我持相反的看法 / Like Mary, I believe that 和 Mary 一樣，我認為 / captivity 圈養 / entertainment 娛樂 / unethical 不道德的",
+          sample: "[[I take the opposite view.]] [[Like Mary, I believe that]] keeping wild animals in **captivity** for our entertainment is **unethical**." },
+        { role: "New reason", zh: "補充新理由", hints: "What has not been discussed yet is that 還沒有人討論到的是 / business 企業、生意 / sell tickets 賣門票 / As a result 因此 / tend to + V 傾向於 / regardless of whether 不論是否 / endangered 瀕危的 / be suited to 適合 / enclosure 圍欄、展示區",
+          sample: "[[What has not been discussed yet is that]] zoos are businesses that need to sell tickets. [[As a result,]] they [[tend to]] keep popular animals such as lions and dolphins, [[regardless of whether]] those animals are **endangered** or suited to life in an **enclosure**." },
+        { role: "Example", zh: "舉例", hints: "For instance 例如 / marine park 海洋公園 / dolphin 海豚 / perform tricks 表演把戲 / audience 觀眾 / be entertained 被逗樂 / teach us nothing about 沒有讓我們學到任何關於…的事",
+          sample: "[[For instance,]] at a **marine park** I visited, dolphins had to **perform tricks** three times a day. The audience was entertained, but the show taught us nothing about how these animals live in the ocean." },
+        { role: "Respond to David", zh: "回應對方", hints: "… points out that …指出 / breeding program 繁殖計畫 / That may be true, but 這或許是事實，但 / be released into the wild 被野放 / would be better spent on + V-ing 更應該花在… / habitat 棲息地",
+          sample: "[[David points out that]] **breeding programs** have saved some species. [[That may be true, but]] very few zoo animals are ever released into the wild. The money [[would be better spent on]] protecting their **habitats**." },
+        { role: "Conclusion", zh: "結論", hints: "To sum up 總而言之 / care about 在乎 / where they belong 在牠們所屬的地方 / instead of + V-ing 而不是 / put … on display 把…拿來展示",
+          sample: "[[To sum up,]] if we care about wild animals, we should protect them where they belong [[instead of]] putting them on display." },
+      ] },
+    ]
+  },
 ];
