@@ -423,4 +423,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 13, cat: "Government & society",
+    title: "Lowering the Voting Age to 16", zh: "投票年齡降到 16 歲",
+    question: "Should the voting age be lowered to 16?", questionZh: "投票年齡應該降到 16 歲嗎？",
+    professor: "This week we are looking at how democracies decide who is allowed to vote. In most countries the voting age is 18, but Austria, Scotland and a few other places now allow 16-year-olds to vote in some or all elections. Supporters say that this gives young people a voice in decisions that will shape their future, while critics doubt that teenagers are ready for such a responsibility. In your view, should the voting age be lowered to 16? Why or why not?",
+    david: "I think the voting age should be lowered to 16. At that age, many young people already work part-time and pay taxes, yet they have no say in how that money is spent. Decisions about education, climate change and public debt will affect them for much longer than they will affect older voters, so it is only fair to let them vote.",
+    mary: "I disagree. Most 16-year-olds are still in high school and have very little experience of real life, such as renting a home or supporting a family. They are also easily influenced by their parents, their teachers and what they see on social media. I think people should wait until 18, when they are legally adults, before they vote.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "贊成降到 16 歲", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my view 在我看來 / voting age 投票年齡 / be lowered to 降到 / I fully agree with David that 我完全同意 David 的看法 / deserve a say in 應該對…有發言權 / shape their future 影響他們的未來",
+          sample: "[[In my view,]] the **voting age** should be lowered to 16, [[and I fully agree with David that]] young people deserve a say in decisions that shape their future." },
+        { role: "New reason", zh: "補充新理由", hints: "Another point worth considering is that 另一個值得考慮的重點是 / habit 習慣 / be best formed early 最好及早養成 / election 選舉 / civics class 公民課 / candidate 候選人 / policy 政策 / As a result 因此 / be more likely to 更有可能 / lifelong voter 終身投票的選民",
+          sample: "[[Another point worth considering is that]] voting is a habit that is best formed early. At 16, teenagers are still in school, where they can discuss **elections** in **civics class** and learn to compare **candidates'** policies. [[As a result,]] they [[are more likely to]] become lifelong **voters**." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / lower 調降 / researchers found that 研究人員發現 / turn out 出來投票 / in higher numbers than 人數比…多 / older 年紀較大的 / first-time voter 首投族",
+          sample: "[[For example,]] after Austria lowered its voting age to 16, [[researchers found that]] 16- and 17-year-olds turned out in higher numbers than older **first-time voters**." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… is concerned that …擔心 / be easily influenced by 容易受…影響 / While this may be true 雖然這也許是事實 / the same can be said of …也是如此 / take away 剝奪 / right to vote 投票權 / What matters is A, not B 重要的是 A，而不是 B / media literacy 媒體識讀",
+          sample: "[[Mary is concerned that]] teenagers are easily influenced by social media. [[While this may be true, the same can be said of]] many adults, and nobody suggests taking away their **right to vote**. [[What matters is]] **media literacy**, [[not]] age." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I firmly believe that 基於這些理由，我堅信 / strengthen 強化 / democracy 民主 / rather than 而不是 / weaken 削弱",
+          sample: "[[For these reasons, I firmly believe that]] lowering the voting age would strengthen **democracy** [[rather than]] weaken it." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "維持 18 歲", rows: [
+        { role: "Position", zh: "表明立場", hints: "From my perspective 從我的角度來看 / voting age 投票年齡 / remain at 維持在 / side with … on this issue 在這個議題上支持…",
+          sample: "[[From my perspective,]] the **voting age** should remain at 18, [[so I side with Mary on this issue.]]" },
+        { role: "New reason", zh: "補充新理由", hints: "Beyond her point about 除了她關於…的論點之外 / life experience 人生歷練 / I would argue that 我會主張 / consistent 一致的 / be not allowed to 不被允許 / sign a contract 簽合約 / serve on a jury 擔任陪審員 / be considered 被視為 / It makes little sense to 這麼做不太合理 / treat A as B 把 A 當作 B / in court 在法庭上 / at the ballot box 在投票所",
+          sample: "[[Beyond her point about]] life experience, [[I would argue that]] the law should be consistent. In most countries, 16-year-olds [[are not allowed to]] sign a **contract** or serve on a **jury** because they are considered children. [[It makes little sense to]] treat them as children in court but as adults at the **ballot box**." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / mock vote 模擬投票 / admit 承認 / candidate 候選人 / support 支持",
+          sample: "[[Take]] my own class [[as an example.]] Before the last **election**, our teacher held a **mock vote**, and most of my classmates admitted that they chose the **candidate** their parents supported." },
+        { role: "Respond to David", zh: "回應對方", hints: "David makes a fair point that David 說得有道理 / pay taxes 納稅 / However, he does not mention that 然而他沒有提到 / sales tax 銷售稅 / whenever 每當 / yet nobody argues that 卻沒有人主張",
+          sample: "[[David makes a fair point that]] some teenagers **pay taxes**. [[However, he does not mention that]] young children also pay sales tax whenever they buy snacks, [[yet nobody argues that]] they should vote." },
+        { role: "Conclusion", zh: "結論", hints: "Therefore, rather than + V-ing 因此，與其… / lower 調降 / improve 改善 / civic education 公民教育 / so that 以便 / be well prepared 做好充分準備 / turn 18 滿 18 歲",
+          sample: "[[Therefore, rather than]] lowering the voting age, governments should improve **civic education** [[so that]] young people are well prepared when they turn 18." },
+      ] },
+    ]
+  },
 ];
