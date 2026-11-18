@@ -695,4 +695,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 21, cat: "Government & society",
+    title: "Government Spending on Space Exploration", zh: "政府的太空探索經費",
+    question: "Should governments spend large amounts of public money on space exploration?", questionZh: "政府應該把大筆公帑花在太空探索上嗎？",
+    professor: "This week we are discussing how governments decide what to spend public money on. Countries such as the United States, China and India invest billions of dollars every year in space programmes, including missions to the Moon and Mars. Supporters say that this research leads to new technology and inspires young people, while critics argue that the money should be used to solve urgent problems on Earth. In your opinion, should governments spend large amounts of public money on space exploration? Why or why not?",
+    david: "I believe space exploration is worth the cost. Many things we use every day, such as GPS, weather forecasts and satellite communications, exist because of space research. Besides, the money is not thrown away in space. It pays the salaries of scientists and engineers here on Earth and leads to technology that benefits everyone.",
+    mary: "I see it differently. Millions of people still lack clean water, decent housing and basic health care. It is hard to justify sending a rocket to Mars while hospitals and schools at home are short of money. Governments should take care of their own citizens first and leave space travel to private companies.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "支持投入經費", rows: [
+        { role: "Position", zh: "表明立場", hints: "agree with David that 同意 David 所說的 / continue to 繼續 / invest in 投資 / space exploration 太空探索 / even though 即使",
+          sample: "[[I agree with David that]] governments [[should continue to]] invest in **space exploration**, [[even though]] it is expensive." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides … that he mentioned, I would add that 除了他提到的…之外，我想補充 / satellite 衛星 / play a vital role in 在…中扮演極重要的角色 / monitor climate change 監測氣候變遷 / track 追蹤 / detect 偵測 / forest fire 森林大火 / disaster 災難 / strike 侵襲",
+          sample: "[[Besides]] the practical technology [[that he mentioned, I would add that]] **satellites** [[play a vital role in]] protecting our planet. They allow scientists to monitor **climate change**, track typhoons and detect forest fires, [[which helps]] governments warn people before a **disaster** strikes." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / whenever 每當 / approach 接近 / weather satellite 氣象衛星 / path 路徑 / in advance 提前 / Thanks to 多虧 / in time 及時 / countless 無數的",
+          sample: "[[For example, whenever]] a typhoon approaches Taiwan, **weather satellites** show its exact path several days in advance. [[Thanks to]] these images, schools and offices can close in time, and countless lives are saved." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / instead 而不是（太空）/ However, she overlooks the fact that 然而她忽略了…這個事實 / space budget 太空預算 / account for only a tiny fraction of 只占…的極小部分 / public spending 公共支出 / hardly 幾乎不 / poverty 貧窮",
+          sample: "[[Mary argues that]] the money should be spent on hospitals and schools instead. [[However, she overlooks the fact that]] **space budgets** [[account for only a tiny fraction of]] **public spending**, so cutting them would hardly solve poverty." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I am convinced that 基於這些理由，我深信 / not A but B 不是 A 而是 B / luxury 奢侈品 / long-term investment 長期投資 / humanity 人類",
+          sample: "[[For these reasons, I am convinced that]] space exploration is [[not]] a luxury [[but]] a long-term **investment** in humanity's future." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "反對投入鉅額經費", rows: [
+        { role: "Position", zh: "表明立場", hints: "While 雖然 / space research 太空研究 / I side with Mary 我支持 Mary 的立場 / huge sums of 鉅額的 / taxpayers' money 納稅人的錢",
+          sample: "[[While]] space research is exciting, [[I side with Mary:]] governments should not spend huge sums of **taxpayers' money** on it." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that has not been raised is that 還沒有人提出的一點是 / private company 民間企業 / be able to 能夠 / reusable rocket 可重複使用的火箭 / launch 發射 / at a far lower cost than 以遠低於…的成本 / government agency 政府機構 / there is less need for 對…的需求變少了 / public funding 公共經費",
+          sample: "[[One point that has not been raised is that]] **private companies** are now able to do much of this work themselves. Firms such as SpaceX build reusable **rockets** and **launch** satellites [[at a far lower cost than]] government agencies, so [[there is less need for]] **public funding**." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / crewed mission 載人任務 / cost billions of dollars 耗資數十億美元 / That amount could + V 那筆錢可以… / rural clinic 偏鄉診所 / provide A for B 提供 A 給 B / drinking water 飲用水",
+          sample: "[[For instance,]] a single crewed **mission** to the Moon costs billions of dollars. [[That amount could]] build hundreds of rural clinics or provide clean drinking water for millions of families who need help today, not in fifty years." },
+        { role: "Respond to David", zh: "回應對方", hints: "David makes a fair point that David 說得有道理 / come from 源自 / Nevertheless 儘管如此 / already exist 已經存在 / maintain 維護 / much cheaper than 比…便宜得多 / astronaut 太空人",
+          sample: "[[David makes a fair point that]] GPS and weather forecasts came from space research. [[Nevertheless,]] these technologies already exist, and maintaining them is [[much cheaper than]] sending **astronauts** to Mars." },
+        { role: "Conclusion", zh: "結論", hints: "Therefore 因此 / fund 資助 / space project 太空計畫 / give priority to 優先處理 / urgent need 迫切的需求",
+          sample: "[[Therefore,]] governments should **fund** only the most useful space projects and [[give priority to]] urgent needs on Earth." },
+      ] },
+    ]
+  },
 ];
