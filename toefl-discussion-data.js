@@ -729,4 +729,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 22, cat: "Work & economy",
+    title: "High Salary or Job Satisfaction", zh: "高薪還是工作滿足感",
+    question: "When choosing a career, is a high salary more important than job satisfaction?", questionZh: "選擇職業時，高薪比工作滿足感更重要嗎？",
+    professor: "This week we are discussing how people choose their careers. Graduates often have to decide between a job that pays well and a job that they would really enjoy. Some people argue that a high salary should come first because it provides financial security, while others believe that job satisfaction matters more because we spend so much of our lives at work. In your opinion, when choosing a career, is a high salary more important than job satisfaction? Why or why not?",
+    david: "I think a high salary is more important. Living costs and house prices keep rising, and it is hard to enjoy life if you are always worried about paying the rent. A well-paid job gives you financial security and lets you support your family. Besides, you can always enjoy your hobbies in your free time.",
+    mary: "I disagree. Most adults work around forty hours a week for more than forty years, so doing a job you dislike means wasting a huge part of your life. People who love their work are also more motivated, so they learn faster and perform better. To me, job satisfaction is far more important than money.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "高薪比較重要", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my view 在我看來 / high salary 高薪 / job satisfaction 工作滿足感 / I agree with David's point that 我同意 David 的論點 / financial security 財務保障",
+          sample: "[[In my view,]] a **high salary** is more important than **job satisfaction** when choosing a career, [[and I agree with David's point that]] money provides **financial security**." },
+        { role: "New reason", zh: "補充新理由", hints: "What David did not mention is that David 沒有提到的是 / income 收入 / freedom of choice 選擇的自由 / savings 存款 / further education 進修 / change careers 轉換職涯 / start their own business 自行創業 / be stuck in 被困在",
+          sample: "[[What David did not mention is that]] a good **income** gives people freedom of choice. With enough **savings**, they can pay for further education, change careers or even start their own business later. Without savings, they are often stuck in the same job." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / although 雖然 / Because + S + V 因為 / save money 存錢 / be able to + V 能夠 / quit 辭職 / bakery 麵包店 / dream of 夢想",
+          sample: "[[For example,]] my cousin worked at a bank for six years, although she did not find the job exciting. Because she had saved enough money, she [[was able to]] **quit** and open the bakery she had always dreamed of." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… argues that …主張 / perform better 表現更好 / While this may be true 雖然這也許是事實 / passion 熱情 / fade 消退 / be under constant financial pressure 持續承受財務壓力",
+          sample: "[[Mary argues that]] people who love their work perform better. [[While this may be true,]] **passion** often fades when someone is under constant **financial pressure**." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / well-paid career 高薪的職業 / follow their passion 追隨熱情",
+          sample: "[[For these reasons, I believe that]] young people should choose a **well-paid career** first and follow their passion later." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "工作滿足感比較重要", rows: [
+        { role: "Position", zh: "表明立場", hints: "Personally, I believe that 就我個人而言，我認為 / job satisfaction 工作滿足感 / matter more than 比…更重要 / high salary 高薪 / agree with … on this issue 在這個議題上同意…",
+          sample: "[[Personally, I believe that]] **job satisfaction** matters more than a **high salary**, [[so I agree with Mary on this issue.]]" },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to her point about 除了她關於…的論點之外 / motivation 動力 / I would like to add that 我想補充 / well-paid job 高薪工作 / involve 涉及、需要 / long working hours 長工時 / heavy pressure 沉重的壓力 / Over time 久而久之 / damage 損害 / relationship 關係",
+          sample: "[[In addition to her point about]] motivation, [[I would like to add that]] **well-paid jobs** often involve **long working hours** and heavy pressure. [[Over time, this can]] damage people's health and their relationships with their families." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / earn a lot 賺很多錢 / lawyer 律師 / until midnight 到半夜 / rarely 很少 / As a result 結果 / seldom 很少 / enjoy the money he makes 享受自己賺的錢",
+          sample: "[[Take]] my uncle [[as an example.]] He **earns** a lot as a lawyer, but he works until midnight almost every day and rarely has dinner with his children. [[As a result,]] he seldom has time to enjoy the money he makes." },
+        { role: "Respond to David", zh: "回應對方", hints: "… is right that …說得對 / living costs 生活開銷 / However, he overlooks the fact that 然而他忽略了一個事實 / tend to + V 往往 / skilled professional 技術純熟的專業人士 / income 收入 / in the long run 長遠來看",
+          sample: "[[David is right that]] **living costs** are rising. [[However, he overlooks the fact that]] people who enjoy their work [[tend to]] become very good at it, and **skilled professionals** usually earn a good **income** [[in the long run.]]" },
+        { role: "Conclusion", zh: "結論", hints: "To sum up 總而言之 / although 雖然 / necessary 必要的 / the key to + N …的關鍵 / a happy and healthy life 快樂又健康的人生",
+          sample: "[[To sum up,]] although money is necessary, a job that we enjoy [[is the key to]] a happy and healthy life." },
+      ] },
+    ]
+  },
 ];
