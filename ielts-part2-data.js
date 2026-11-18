@@ -13259,6 +13259,516 @@ window.IELTS_PART2 = [
     "a": "**To some extent,** yes. **Having a direction** helps you choose courses and save money for your goals. **On the other hand,** the world changes so quickly, especially with AI, that a rigid ten-year plan might become useless. **So** I’d say it’s better to have flexible goals **and** review them every year."
    }
   ]
+ },
+ {
+  "id": "trends-1",
+  "theme": "Society & Trends",
+  "themeZh": "社會趨勢",
+  "setLabel": "Set 1",
+  "title": "Describe a trend you have noticed among people your age.",
+  "cues": [
+   "what the trend is",
+   "when you first noticed it",
+   "who takes part in it",
+   "and explain why you think it is popular."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "self-service photo booths 自助拍貼 → 4-frame photo strips, everywhere in Ximending"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "tiny room + ring light + remote button; props: hats, glasses, headbands; pick frame → print in 1 min; pay ~ a bubble tea"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "1st noticed after friend’s b-day dinner → 6 of us squeezed in, laughing → strip on my fridge; now every outing ends w/ a booth"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "cheap, physical souvenir vs 1000s of phone pics; ‘proof’ of friendship → shared on IG anyway"
+   }
+  ],
+  "sample": [
+   "**Okay, so** a trend I’ve noticed among people my age is going to self-service photo booths. **These days,** if you walk around Ximending in Taipei, you’ll see one of these little shops on almost every street, **and** they’re usually full of students and young office workers, especially on Friday nights.",
+   "**Basically,** each booth is a tiny room with a camera, a bright ring light and a remote button that you press yourself. **On top of that,** there’s a wall of silly props, **like** cartoon headbands, giant sunglasses and funny hats. You choose a frame, pose for a few shots, **and then** about a minute later, a strip of four photos comes out of the machine. **As for the price,** it costs roughly the same as a cup of bubble tea, so almost anyone can afford it.",
+   "**I first noticed the trend** about two years ago, after a friend’s birthday dinner. **Out of nowhere,** she said, “Let’s take photos!” and dragged six of us into one booth. **To be honest,** we could barely fit, **and** we spent the whole time laughing instead of posing. **Even so,** that messy photo strip is still stuck on my fridge. **Since then,** almost every outing with my friends ends with a quick visit to a booth.",
+   "**As for why it’s so popular,** I think it’s because we take thousands of photos on our phones, **but** we hardly ever look at them again. A printed strip feels more special, **because** you can actually hold it. **In a way,** it’s proof of a fun night together. **Funnily enough,** most people still post the strip on Instagram afterwards, **so** it’s old-fashioned and modern at the same time."
+  ],
+  "followUps": [
+   {
+    "q": "Why do young people follow trends so quickly?",
+    "a": "**I think** young people care a lot about fitting in with their friends. **For example,** if everyone in your class is talking about something new, you don’t want to be the only one left out. **On top of that,** social media shows trends to millions of people overnight, **so** they spread much faster than before."
+   },
+   {
+    "q": "Are printed photos still important in the digital age?",
+    "a": "**In my opinion,** yes, maybe even more than before. **Because** we have so many digital photos, the few that we print feel more meaningful. **For instance,** my parents still keep a family album, **and** we look through it every Lunar New Year. **Digital files, on the other hand,** often get lost when you change your phone."
+   },
+   {
+    "q": "Do you think trends are good for the economy?",
+    "a": "**Generally speaking,** I’d say yes. When a trend appears, lots of small businesses open quickly to make money from it, **which** creates jobs for young people. **However,** many of these shops close just as quickly when the trend fades. **So** trends are good for the economy in the short term, **but** they can be risky for business owners."
+   }
+  ]
+ },
+ {
+  "id": "trends-2",
+  "theme": "Society & Trends",
+  "themeZh": "社會趨勢",
+  "setLabel": "Set 2",
+  "title": "Describe a trend you followed and later regretted.",
+  "cues": [
+   "what the trend was",
+   "how you heard about it",
+   "how long you followed it",
+   "and explain why you regretted following it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "‘5 a.m. club’ morning-routine trend → wake up at 5, journal, run, read before work"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "short videos on YouTube + IG; perfect people w/ lemon water, sunrise, neat desk → ‘win the day’"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "tried ~6 weeks; went to bed same time → only 5 hrs sleep; fell asleep on MRT, missed stop; cranky at work"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "copied the routine, not the reason; lesson → adapt trends to my own life; now 6:30 + 10-min stretch"
+   }
+  ],
+  "sample": [
+   "**Alright, so** a trend I followed and really regretted was the so-called “5 a.m. club”. **Basically,** the idea is that you wake up at five in the morning and use the quiet hours before work to write in a journal, go for a run and read a book. **According to the people who promote it,** it helps you “win the day” before anyone else is awake.",
+   "**I first heard about it** through short videos on YouTube and Instagram. **In every video,** the person looked incredibly calm and successful. They drank lemon water, watched the sunrise and sat at a perfectly tidy desk. **At that time,** I was feeling a bit lazy and unproductive, **so** I thought, “Why not? Maybe this is what I need.”",
+   "**In the end,** I followed it for about six weeks. **The problem was that** I didn’t change my bedtime at all. I still went to sleep after midnight, **which** meant I was only getting about five hours of sleep a night. **After a couple of weeks,** I started falling asleep on the MRT on my way to work. **One morning,** I actually missed my stop and was twenty minutes late. **On top of that,** I became really cranky with my colleagues in the afternoons.",
+   "**Looking back,** I regret it **because** I copied the routine without thinking about the reason behind it. Those influencers probably go to bed at nine, **whereas** I definitely don’t. **What I learned is that** you have to adapt a trend to your own life. **Nowadays,** I get up at six thirty and do a ten-minute stretch, **and** that works much better for me."
+  ],
+  "followUps": [
+   {
+    "q": "Why do people copy the lifestyles they see online?",
+    "a": "**I think** it’s mainly because online lifestyles look so perfect and easy. **For example,** a one-minute video can make a difficult habit seem simple. **In addition,** many people feel unhappy with their own routines, **so** they hope that copying someone successful will change their lives quickly. **Unfortunately,** real life is usually much messier."
+   },
+   {
+    "q": "Is it a good idea to follow trends?",
+    "a": "**It depends on the trend, really.** **Some trends,** like eating more vegetables or walking more, can be positive. **However,** following a trend blindly can waste your money and energy. **Personally,** I think it’s fine to try new things, **as long as** you ask yourself whether they actually suit you."
+   },
+   {
+    "q": "How can people tell if a trend is good or bad for them?",
+    "a": "**First of all,** they should look at the results after a few weeks, not just the excitement at the beginning. **For instance,** if a new habit makes you tired or stressed, it’s probably not right for you. **It also helps** to ask friends or family for an honest opinion, **because** they often notice changes before we do."
+   }
+  ]
+ },
+ {
+  "id": "trends-3",
+  "theme": "Society & Trends",
+  "themeZh": "社會趨勢",
+  "setLabel": "Set 3",
+  "title": "Describe something in everyday life that is typical of your country.",
+  "cues": [
+   "what it is",
+   "where you see it",
+   "how people use it",
+   "and explain why it is typical of your country."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "convenience-store culture 超商文化 → 7-Eleven, FamilyMart on almost every corner; open 24/7"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "not just snacks: pay bills + parking fees, print docs on ibon machine, pick up online orders, buy train tickets; tea eggs + hot coffee"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "friend from Germany visited → amazed I paid phone bill + collected parcel + ate lunch in 10 min; she took photos of the shelves"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "busy, crowded cities + long work hours → convenience = need; one of the highest store densities in world"
+   }
+  ],
+  "sample": [
+   "**Well,** something that’s really typical of everyday life in Taiwan is our convenience-store culture. **Wherever you go,** whether it’s a busy street in Taipei or a small town in the countryside, you’ll almost always find a 7-Eleven or a FamilyMart within a few minutes’ walk. **What’s more,** most of them are open twenty-four hours a day, all year round.",
+   "**The interesting thing is that** they don’t just sell snacks and drinks. **For example,** you can pay your phone bill, your parking fees and even your traffic fines at the counter. **On top of that,** there are machines where you can print documents or buy train tickets, **and** most people collect their online shopping orders there instead of waiting at home for a delivery. **Of course,** there’s food too, **like** tea eggs, rice balls and surprisingly good hot coffee.",
+   "**I didn’t realise how special this was** until a friend from Germany visited me last year. **One day,** she watched me pay my phone bill, pick up a parcel and buy my lunch, all in about ten minutes in the same tiny shop. **Believe it or not,** she was so amazed that she took photos of the shelves and sent them to her family. **For me,** it was just a normal Tuesday.",
+   "**As for why it’s so typical,** I think it’s because our cities are crowded and people work long hours, **so** convenience isn’t a luxury – it’s a necessity. **In fact,** Taiwan is said to have one of the highest numbers of convenience stores per person in the world. **So all in all,** these little shops are a big part of how Taiwanese people live."
+  ],
+  "followUps": [
+   {
+    "q": "Why do people in modern cities value convenience so much?",
+    "a": "**I think** the main reason is time. In big cities, people often commute for an hour and work late, **so** they have very little free time left. **As a result,** anything that saves a few minutes feels valuable. **Besides that,** many people live alone, **which** means there’s nobody else to help with daily chores."
+   },
+   {
+    "q": "Do convenience stores have any negative effects on society?",
+    "a": "**Yes, to some extent.** **For one thing,** they produce a huge amount of plastic packaging and single-use cups. **In addition,** small family-run shops find it hard to compete with big chains. **On the other hand,** convenience stores also help elderly people in remote areas, **so** the picture is quite mixed."
+   },
+   {
+    "q": "What everyday habits from your country would surprise foreign visitors?",
+    "a": "**Well,** one thing is the rubbish trucks that play music, **because** people have to run outside and throw their bags in at a fixed time. **Another example** is how many people ride scooters, even whole families on one bike. **Lastly,** visitors are often surprised that people can leave their phones on a café table to save a seat."
+   }
+  ]
+ },
+ {
+  "id": "trends-4",
+  "theme": "Society & Trends",
+  "themeZh": "社會趨勢",
+  "setLabel": "Set 4",
+  "title": "Describe the effects of food-delivery apps in your city.",
+  "cues": [
+   "which apps people use",
+   "how people use them",
+   "who benefits from them",
+   "and explain what effects they have on daily life."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Foodpanda (pink) + Uber Eats (green) → riders in bright jackets everywhere in Taipei"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "order anything: bubble tea, beef noodles, groceries; office lunch orders; rainy days + late nights; Uber’s plan to buy Foodpanda TW blocked by FTC end of 2024"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "typhoon day → ordered dumplings → rider soaked → felt guilty, gave 5-star + tip; flatmate orders 5x a week"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "+ convenience, jobs, small shops reach more customers; – costly, plastic waste, less cooking, road safety; balance"
+   }
+  ],
+  "sample": [
+   "**Okay, so** I’d like to talk about food-delivery apps, which have completely changed daily life in Taipei. **At the moment,** the two big ones are Foodpanda, which is pink, and Uber Eats, which is green. **These days,** you can’t walk down a street without seeing delivery riders in those bright jackets, racing around on their scooters.",
+   "**In terms of how people use them,** you can order almost anything, from bubble tea and beef noodles to toilet paper and fresh fruit. **For example,** in my office, we often place a group order for lunch **so that** we can share the delivery fee. Interestingly, these apps are now so important that the government even got involved. Back in late 2024, Uber wanted to buy Foodpanda’s Taiwan business, **but** the Fair Trade Commission blocked the deal **because** it worried about too little competition.",
+   "**Personally,** I use them most on rainy days. **I remember one time,** during a typhoon day, I was too lazy to cook, **so** I ordered some dumplings. When the rider arrived, he was completely soaked from head to toe. **To be honest,** I felt really guilty, **so** I gave him a big tip and a five-star rating. Meanwhile, my flatmate orders food about five times a week, which I think is a bit much.",
+   "**Overall,** I’d say the effects are mixed. **On the plus side,** the apps are convenient, they create flexible jobs, **and** small restaurants can reach customers far away. **On the other hand,** delivery fees add up, there’s a lot of plastic waste, **and** fewer young people bother to cook. **So for me,** they’re great once in a while, **but** I try not to depend on them."
+  ],
+  "followUps": [
+   {
+    "q": "Why have food-delivery services become so popular?",
+    "a": "**I think** the biggest reason is that people are busier than ever. **For example,** many office workers don’t even have time for a proper lunch break. **In addition,** the apps are very easy to use and often offer discounts to new customers. **The pandemic** also pushed many people to try delivery for the first time, **and** the habit stayed."
+   },
+   {
+    "q": "Is working as a delivery rider a good job for young people?",
+    "a": "It has some advantages, for sure. **For instance,** riders can choose their own hours, **which** suits students. **However,** the job can be dangerous, especially in heavy traffic or bad weather. **Also,** riders usually don’t get the same protection as normal employees, **so** I think it’s fine as a part-time job, but not a long-term career."
+   },
+   {
+    "q": "Will people cook less at home in the future?",
+    "a": "**Probably, yes,** at least in big cities. **Since** many young people live in small flats with tiny kitchens, cooking isn’t very practical. **However,** I think some people will go back to cooking **because** it’s cheaper and healthier. **In fact,** I’ve noticed more of my friends sharing simple home recipes online recently."
+   }
+  ]
+ },
+ {
+  "id": "trends-5",
+  "theme": "Society & Trends",
+  "themeZh": "社會趨勢",
+  "setLabel": "Set 5",
+  "title": "Describe a housing trend among young people in your country.",
+  "cues": [
+   "what the trend is",
+   "why it is happening",
+   "how it affects young people",
+   "and explain how you feel about this trend."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "more young people rent instead of buy → parents’ gen: buying a flat = life goal"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "Taipei prices far beyond normal salary → decades to save deposit; rent small studio / share flat; some move to New Taipei, Taoyuan"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "my cousin (29, engineer) → rents 1-bed flat in Banqiao; parents push ‘buy!’; she says ‘freedom > mortgage’; changed job + moved easily"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "+ flexibility, travel money; – no long-term security, landlord can raise rent; mixed → govt social housing helps a bit"
+   }
+  ],
+  "sample": [
+   "**Well,** a housing trend I’ve noticed is that more and more young people in Taiwan are choosing to rent a home instead of buying one. **For my parents’ generation,** owning a flat was basically the biggest goal in life. **In fact,** my dad still says that renting is like “throwing money away”. **However,** a lot of people my age see things quite differently.",
+   "**The main reason** is that house prices, especially in Taipei, are extremely high compared with normal salaries. **For example,** a young office worker might need to save for decades just to pay the deposit on a small flat. **As a result,** many people rent a tiny studio or share an apartment with friends. **On top of that,** some move further out to New Taipei or Taoyuan, where the rent is lower, **and** they commute into the city every day.",
+   "**A good example of this** is my cousin. She’s an engineer in her late twenties, **and** she rents a one-bedroom flat in Banqiao. Every Lunar New Year, her parents ask her when she’s going to buy a place. **But** she always replies that she prefers freedom to a thirty-year mortgage. **Funnily enough,** she proved her point last year, **when** she changed jobs and moved to a new flat in just two weeks.",
+   "**Personally,** I have mixed feelings about this trend. **On the one hand,** renting gives young people flexibility, **and** they have more money left over for travel or hobbies. **On the other hand,** renters have less security, **because** landlords can raise the rent or ask them to leave. **So ideally,** I think the government should build more affordable social housing for young people."
+  ],
+  "followUps": [
+   {
+    "q": "Why is owning a home so important to many older people?",
+    "a": "**I think** for older generations, a home means security and success. **When they were young,** house prices were much lower, **so** buying a flat was a realistic goal for an ordinary family. **In addition,** many of them believe property is the safest investment. **Owning a home** also meant they could pass something on to their children."
+   },
+   {
+    "q": "What are the advantages of living with flatmates?",
+    "a": "**First of all,** it’s much cheaper, **because** you share the rent and the bills. **Besides that,** you’re less likely to feel lonely, especially if you’ve just moved to a new city. **However,** it can also cause arguments about cleaning or noise, **so** it’s important to agree on some rules from the very beginning."
+   },
+   {
+    "q": "What can governments do to help young people find housing?",
+    "a": "**One thing** they can do is build more social housing with fair rents. **Another idea** is to give young people rent subsidies **so that** they can live closer to their jobs. **In the long run,** though, governments also need to control speculation, **because** when people buy flats just to make money, prices rise for everyone."
+   }
+  ]
+ },
+ {
+  "id": "trends-6",
+  "theme": "Society & Trends",
+  "themeZh": "社會趨勢",
+  "setLabel": "Set 6",
+  "title": "Describe an effect of the ageing population in your country.",
+  "cues": [
+   "what the situation is",
+   "where you notice it",
+   "how it affects daily life",
+   "and explain what you think should be done about it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "TW = ‘super-aged society’ since 2025 → 1 in 5 people 65+; birth rate among lowest in world"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "fewer babies + people living longer → fewer workers, more retirees"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "my old primary school in Yilan → merged w/ another school, classrooms empty; kindergarten next door → now a day-care centre for the elderly; local clinic busy, playground quiet"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "staff shortages, more foreign caregivers, quieter towns; solutions → better parental leave, cheaper childcare, flexible work for older people"
+   }
+  ],
+  "sample": [
+   "**Okay, so** I’d like to talk about how Taiwan’s ageing population is changing daily life. **According to government figures,** Taiwan officially became a “super-aged society” in 2025, **which** means that at least one in five people is aged sixty-five or over. **At the same time,** our birth rate is one of the lowest in the world, **so** the population is actually shrinking.",
+   "**To put it simply,** fewer babies are being born, **while** people are living much longer than before. **As a result,** there are fewer young workers and more retired people. In big cities like Taipei, you might not notice it straight away, **because** the streets are always busy. **However,** in smaller towns, the change is really obvious.",
+   "**For me,** the moment I really noticed it was when I visited my old primary school in Yilan last summer. To my surprise, it had been merged with another school, **and** half of the classrooms were completely empty. Even more surprisingly, the kindergarten next door had been turned into a day-care centre for elderly people. On the way home, I passed the local clinic, which was packed, **while** the playground across the road was totally quiet. **To be honest,** it made me feel a bit sad.",
+   "**In terms of daily life,** it means shops and hospitals struggle to find staff, **and** many families now rely on foreign caregivers. **So what should be done?** **In my view,** the government should offer better parental leave and cheaper childcare **so that** young couples feel able to have children. **In addition,** companies could offer flexible jobs for older people who still want to work."
+  ],
+  "followUps": [
+   {
+    "q": "Why are young couples having fewer children nowadays?",
+    "a": "**I think** money is the biggest factor. **For example,** housing, childcare and education are all very expensive in Taiwan. **On top of that,** many young people work long hours, **so** they worry they won’t have enough time for a child. **Some people** also simply prefer to focus on their careers or personal freedom."
+   },
+   {
+    "q": "How can society take better care of elderly people?",
+    "a": "**First of all,** we need more affordable care centres and trained caregivers. **In addition,** public places should be easier for older people to use, **like** buses with low floors and more benches on the street. **Finally,** I think communities should organise activities **so that** elderly people living alone don’t feel isolated."
+   },
+   {
+    "q": "Should people be encouraged to work after the age of 65?",
+    "a": "**To some extent,** yes, **as long as** it’s their own choice. Many people in their sixties are still healthy and have a lot of experience to share. **Besides that,** working can keep them active and social. **However,** nobody should be forced to keep working **just because** their pension isn’t enough."
+   }
+  ]
+ },
+ {
+  "id": "trends-7",
+  "theme": "Society & Trends",
+  "themeZh": "社會趨勢",
+  "setLabel": "Set 7",
+  "title": "Describe a person you know who went on a working holiday abroad.",
+  "cues": [
+   "who this person is",
+   "where he or she went",
+   "what he or she did there",
+   "and explain how the experience changed him or her."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "uni classmate Kevin → after graduation, 1-yr working holiday visa → Australia"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "1st: farm in Queensland picking strawberries, 5 a.m. starts, hot sun; then café job in Melbourne → learned latte art"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "video call → ‘my back hurts, but I saved money’; shared house w/ Koreans + French → cooked TW dishes for them"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "came back confident, independent, better English; shy guy → now opened own small coffee stand; trend: escape pressure + see world"
+   }
+  ],
+  "sample": [
+   "**Alright, so** the person I’d like to talk about is my university classmate, Kevin. **Right after graduation,** instead of looking for an office job like most of us, he applied for a one-year working holiday visa and flew to Australia. **To be honest,** a lot of our friends thought he was just trying to avoid growing up, **but** it turned out to be a great decision.",
+   "**For the first few months,** he worked on a farm in Queensland, picking strawberries. **Apparently,** he had to start at five in the morning, **and** by lunchtime the sun was so hot that he could hardly stand. **After that,** he moved to Melbourne and found a job in a small café. **That’s where** he learned how to make proper coffee and even some simple latte art.",
+   "**I remember one video call** we had while he was on the farm. He looked exhausted and said, “My back is killing me, **but** at least I’m saving money!” Later on, in Melbourne, he shared a house with people from Korea and France. Every weekend, he cooked Taiwanese dishes for them, **like** three-cup chicken, **and** they cooked their own food in return. **Funnily enough,** he said that was the best part of the whole year.",
+   "**When he came back,** he was a completely different person. **Before the trip,** he was quite shy and quiet, **whereas** now he’s confident and independent, **and** his English is much better. **In fact,** he recently opened his own little coffee stand in Taichung. **For me,** his story shows why so many young Taiwanese want to see the world before settling down."
+  ],
+  "followUps": [
+   {
+    "q": "Why do many young people want to work abroad for a short time?",
+    "a": "**I think** many of them want a break from the pressure of starting a career straight away. **In addition,** a working holiday lets them travel without spending all their savings, **because** they earn money as they go. **On top of that,** living abroad is a great way to improve a foreign language **and** become more independent."
+   },
+   {
+    "q": "What problems might people face when they work in a foreign country?",
+    "a": "**Well,** the first problem is usually loneliness, **especially** in the first few weeks. **Another issue** is that some employers take advantage of foreign workers by paying them less than they should. **Besides that,** cultural differences can lead to misunderstandings at work, **so** it’s important to do some research before leaving."
+   },
+   {
+    "q": "Do employers value experience gained abroad?",
+    "a": "**Generally speaking,** yes, **because** it shows that a person can adapt to new situations. **For example,** someone who has worked in a busy café overseas has probably learned teamwork and problem-solving. **However,** some traditional companies in Taiwan still prefer a stable work history, **so** applicants need to explain clearly what they learned."
+   }
+  ]
+ },
+ {
+  "id": "trends-8",
+  "theme": "Society & Trends",
+  "themeZh": "社會趨勢",
+  "setLabel": "Set 8",
+  "title": "Describe an object that many people your age carry with them.",
+  "cues": [
+   "what it is",
+   "what it looks like",
+   "why people carry it",
+   "and explain how you feel about this habit."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "reusable drink cup + cloth cup holder 環保杯 + 飲料提袋 → hanging from bags on MRT"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "insulated cup w/ straw; cloth holder w/ cartoon prints, crochet ones; many drink shops → small discount if you BYO cup"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "colleague gave me crochet holder for b-day → used it every day; once left cup on bus → bought 2nd one same day"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "+ less plastic, saves money, small way to show personality; – some buy 10 cups → not really green"
+   }
+  ],
+  "sample": [
+   "**Well,** an object that a lot of people my age carry around is a reusable drink cup, usually inside a little cloth cup holder. **If you look around on the MRT** in the morning, you’ll see loads of them hanging from people’s backpacks or handbags. **Since** Taiwanese people drink so much bubble tea, it kind of makes sense.",
+   "**In terms of what it looks like,** the cup itself is usually insulated, with a lid and a thick straw for the tapioca balls. **But actually,** the holder is the fun part. **For example,** some have cartoon characters printed on them, **while** others are hand-made crochet ones in bright colours. **On top of that,** many drink shops give you a small discount if you bring your own cup, **so** it saves a bit of money as well.",
+   "**Personally,** I started carrying one about two years ago. **For my birthday,** a colleague gave me a crochet cup holder that she had made herself. It’s pale green with a tiny strawberry on it, **and** I’ve used it almost every day since then. **I remember one time,** though, I left my cup on a bus by mistake. **Believe it or not,** I felt so lost without it that I bought a new one the same afternoon.",
+   "**Overall,** I think it’s a really positive habit. It reduces plastic waste, it saves money, **and** it’s a small way to show your personality. **That said,** I’ve noticed that some people own about ten different cups to match their outfits, **which** isn’t very environmentally friendly. **So in my view,** one or two good cups are more than enough."
+  ],
+  "followUps": [
+   {
+    "q": "Why do people like to carry personalised items?",
+    "a": "**I think** personalised items help people express who they are. **For example,** a phone case or a bag charm can show your favourite colours, hobbies or idols. **In addition,** these items make it easier to recognise your own things in a crowded office. **Some people** also simply enjoy collecting cute designs."
+   },
+   {
+    "q": "Can small personal habits really help the environment?",
+    "a": "**To some extent,** yes. **If millions of people** each use one less plastic cup a day, the total effect is huge. **However,** I think individual habits aren’t enough on their own. **Big companies and governments** also need to change how products are made, **because** that’s where most of the waste comes from."
+   },
+   {
+    "q": "Should shops charge customers for plastic bags and cups?",
+    "a": "**In my opinion,** yes, **because** a small charge makes people stop and think. **For instance,** after shops in Taiwan started charging for plastic bags, many people began carrying their own shopping bags. **On the other hand,** the charge shouldn’t be too high, **otherwise** it might be unfair to customers who forget."
+   }
+  ]
+ },
+ {
+  "id": "trends-9",
+  "theme": "Society & Trends",
+  "themeZh": "社會趨勢",
+  "setLabel": "Set 9",
+  "title": "Describe a person who always follows the latest trends.",
+  "cues": [
+   "who this person is",
+   "what trends he or she follows",
+   "how you know about this",
+   "and explain how you feel about this person."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "my friend Vivian → uni friend, works in marketing; ‘walking trend report’"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "first to try new dessert shops, latest phone, dance challenges, new slang; changes hair colour every season"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "dragged me to 2-hr queue for viral croissant → ok but not worth it; she still posted 10 stories"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "admire: curious, brave, fun, useful for her job; worry: spends a lot; she keeps me up to date, I slow her down → balance"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the person I’d like to describe is my friend Vivian. We met at university, **and** now she works for a marketing company in Taipei. **To be honest,** I sometimes call her a “walking trend report”, **because** whatever is popular this month, she already knows about it, has tried it and has an opinion on it.",
+   "**In terms of the trends she follows,** it’s pretty much everything. **For example,** she’s always the first to visit new dessert shops, **and** she buys the latest phone as soon as it comes out. **On top of that,** she learns every new dance challenge on social media and uses slang that I’ve never heard before. **Believe it or not,** she even changes her hair colour every season, **so** I never know what she’ll look like next time.",
+   "**I know all this** because she often drags me along with her. **I remember one Saturday,** she convinced me to queue for almost two hours outside a shop that was famous for a new kind of croissant. **In the end,** it was tasty, **but** I didn’t think it was worth such a long wait. Meanwhile, Vivian took about fifty photos and posted ten Instagram stories about it.",
+   "**As for how I feel about her,** I really admire her curiosity and how brave she is about trying new things. **Besides that,** it’s actually useful for her job, **since** she needs to know what young customers like. **However,** I sometimes worry that she spends too much money. **So I guess** we balance each other out: she keeps me up to date, **and** I slow her down a little."
+  ],
+  "followUps": [
+   {
+    "q": "Why are some people more interested in trends than others?",
+    "a": "**I think** personality plays a big role. **For instance,** outgoing people often enjoy being the first to try something new **and** sharing it with friends. **In addition,** people who work in fields like marketing or fashion need to follow trends for their jobs. **Others,** however, simply prefer routine and feel more comfortable with what they know."
+   },
+   {
+    "q": "Is it expensive to keep up with trends?",
+    "a": "**Yes, it can be very expensive.** **For example,** buying the newest phone every year or the latest fashion items quickly adds up. On top of that, trends change so fast that things feel out of date within months. **However,** some trends are free, **like** a new dance or a type of exercise, **so** it depends."
+   },
+   {
+    "q": "Do businesses create trends, or do customers?",
+    "a": "**In my view,** it’s a bit of both. Of course, big companies spend huge amounts of money on advertising to make their products look trendy. **However,** many trends actually start with ordinary users online, **and** businesses only jump in later. **So** I’d say customers start the spark, **but** businesses help it spread."
+   }
+  ]
+ },
+ {
+  "id": "trends-10",
+  "theme": "Society & Trends",
+  "themeZh": "社會趨勢",
+  "setLabel": "Set 10",
+  "title": "Describe a trend you think will disappear soon.",
+  "cues": [
+   "what the trend is",
+   "how long it has been around",
+   "why you think it will disappear",
+   "and explain how you feel about it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "queuing for hours for viral desserts 排隊美食 → long lines outside new shops in Taipei"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "every few months new ‘must-try’: egg tarts, cream buns, Dubai chocolate; shop goes viral → 2-hr lines → ‘limited’ per person"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "tried once w/ sister → 90 min in summer heat → sold out 3 people ahead!; same shop closed 6 months later"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "why disappear: people tired, delivery apps, hype too fast, small shops can’t survive; feel: fun but wasteful → prefer old reliable stalls"
+   }
+  ],
+  "sample": [
+   "**Alright, so** a trend that I think will disappear soon is queuing for hours to buy viral desserts. **If you live in Taipei,** you’ve probably seen it. A new dessert shop opens, someone posts a video of it, **and then** suddenly there’s a line of a hundred people waiting outside in the heat.",
+   "**As far as I know,** this has been going on for quite a few years. **Every few months,** there’s a new “must-try” item, **like** Portuguese egg tarts, giant cream buns or, more recently, Dubai-style chocolate. **Usually,** the shop goes viral on social media, the queues get longer and longer, **and** eventually there’s a limit on how many each customer can buy. **For a few weeks,** it feels like the whole city is talking about it.",
+   "**I tried it once myself** with my younger sister. **Last summer,** we waited for about ninety minutes in the boiling sun outside a new bakery. **Unfortunately,** just three people in front of us, a staff member came out and announced that they had sold out. **At that point,** we just looked at each other and laughed. **Funnily enough,** the same bakery closed down about six months later.",
+   "**As for why I think it will disappear,** people are getting tired of the hype, **and** with delivery apps, you don’t really need to queue any more. **What’s more,** trends now change so quickly that shops can’t survive once the excitement fades. **Personally,** I think it’s fun once, **but** quite wasteful. **These days,** I’d rather go to the old stalls that have been good for twenty years."
+  ],
+  "followUps": [
+   {
+    "q": "Why do some trends disappear so quickly?",
+    "a": "**I think** it’s mainly because there’s always something newer to replace them. **For example,** social media shows us new products every single day, **so** people get bored more quickly than before. **In addition,** when a trend becomes too common, it loses its special feeling, **and** people who like being different move on."
+   },
+   {
+    "q": "Do you think some trends come back after many years?",
+    "a": "**Yes, definitely.** **For instance,** film cameras and vinyl records have become popular again among young people. I think this happens **because** younger generations see old things as new and interesting. **On top of that,** older people feel nostalgic, **so** both groups help to bring the trend back."
+   },
+   {
+    "q": "Is it a good idea for businesses to follow short-term trends?",
+    "a": "**It can be risky.** **On the one hand,** a business can earn a lot of money very quickly if it jumps on a trend early. **On the other hand,** if it spends too much on decoration or equipment, it might lose everything when the trend ends. **So** I think smart businesses add trendy products **without** changing their whole identity."
+   }
+  ]
  }
 ]
 ;
