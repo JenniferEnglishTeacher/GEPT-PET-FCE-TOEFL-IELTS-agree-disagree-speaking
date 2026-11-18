@@ -355,4 +355,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 11, cat: "Social media & influencers",
+    title: "Live Streaming Dangerous Stunts", zh: "直播危險挑戰",
+    question: "Should the live streaming of dangerous stunts be banned?", questionZh: "應該禁止直播危險的特技與挑戰嗎？",
+    professor: "This week we are looking at how online platforms should deal with risky content. Live streaming allows creators to broadcast to millions of viewers in real time, and some streamers attempt dangerous stunts, such as climbing skyscrapers without ropes or taking part in extreme challenges, in order to attract attention. Supporters of a ban say that such broadcasts put both streamers and viewers in danger, while opponents argue that a ban would be ineffective and unfair to responsible creators. In your opinion, should the live streaming of dangerous stunts be banned? Why or why not?",
+    david: "I think live streaming dangerous stunts should be banned because it puts lives at serious risk. When people broadcast dangerous challenges in real time, viewers, especially teenagers, may imitate them without fully understanding the consequences. Some streamers even take greater risks to gain attention, likes or donations, so dangerous behaviour is rewarded rather than discouraged.",
+    mary: "I understand the risks, but I don't think a ban is the right solution. Live streaming itself is just a tool, and responsibility should lie with the individual. Instead of banning this content, platforms should strengthen warnings, age restrictions and content moderation. Education and guidance are more effective than outright bans.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "應該禁止", rows: [
+        { role: "Position", zh: "表明立場", hints: "agree with David that 同意 David 所說的 / live streaming 直播 / dangerous stunts 危險特技 / ban 禁止 / in order to protect 為了保護 / public safety 公共安全",
+          sample: "[[I agree with David that]] the **live streaming** of **dangerous stunts** [[should be banned in order to]] protect **public safety**." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to … that David mentioned 除了 David 提到的…之外 / imitation 模仿 / live broadcast 現場直播 / cannot be edited 無法剪輯 / If an accident occurs 萬一發生意外 / witness 目睹 / in real time 即時 / traumatic 造成心理創傷的",
+          sample: "[[In addition to]] the risk of **imitation** [[that David mentioned,]] a **live broadcast** cannot be edited. If an accident occurs, thousands of **viewers**, including young children, will witness a serious injury or even a death **in real time**, [[which can be]] deeply traumatic." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / streamer 直播主 / perform a stunt 表演特技 / Although 雖然 / be cut off 被切斷 / within seconds 幾秒內 / crash 撞擊事故 / have nightmares 做惡夢 / afterwards 之後",
+          sample: "[[For instance,]] my younger cousin once watched a **streamer** fall while performing a motorcycle **stunt** during a live broadcast. [[Although]] the **stream** was cut off within seconds, he had already seen the crash, and he had nightmares for weeks afterwards." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / age restrictions 年齡限制 / However, such measures are often ineffective in practice 然而這類措施實際上往往無效 / since 因為 / lie about their age 謊報年齡 / warning labels 警告標示",
+          sample: "[[Mary argues that]] warnings and **age restrictions** are a better solution. [[However, such measures are often ineffective in practice, since]] teenagers can easily lie about their age and ignore **warning labels**." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / a ban on 對…的禁令 / prevent 防止 / reckless imitation 魯莽的模仿 / protect both A and B 同時保護 A 與 B / creators 創作者",
+          sample: "[[In conclusion,]] a **ban** on live streaming dangerous stunts [[would prevent]] **reckless imitation** [[and protect both]] viewers [[and]] **creators**." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "不應該禁止", rows: [
+        { role: "Position", zh: "表明立場", hints: "agree with Mary that 同意 Mary 所說的 / banning + N 禁止… / not the most effective way to 不是…最有效的方法 / reduce the risks 降低風險",
+          sample: "[[I agree with Mary that]] banning the **live streaming** of **dangerous stunts** [[is not the most effective way to]] reduce the risks." },
+        { role: "New reason", zh: "補充新理由", hints: "What neither student mentioned is that 兩位同學都沒提到的是 / push … elsewhere 把…趕到別處 / spectators 現場觀眾 / footage 影片畫面 / upload 上傳 / platform 平台 / moderation 內容審核",
+          sample: "[[What neither student mentioned is that]] a ban would simply push this content elsewhere. **Spectators** can still record a stunt and upload the **footage** to social media, and **streamers** may move to smaller **platforms** with no **moderation**." },
+        { role: "Example", zh: "舉例", hints: "A good example is 一個很好的例子是 / live broadcast 現場直播 / climb 攀登 / Instead of + V-ing 不…而是 / broadcaster 播出單位 / delay 延遲 / so that 以便 / This shows that 這顯示 / sensible regulation 合理的規範",
+          sample: "[[A good example is]] the **live broadcast** of a famous climber's ascent of Taipei 101. [[Instead of]] cancelling the event, the **broadcaster** reportedly used a ten-second **delay** [[so that]] the stream could be stopped if an accident occurred. [[This shows that]] sensible **regulation** can protect **viewers**." },
+        { role: "Respond to David", zh: "回應對方", hints: "David is right to point out that David 指出…是對的 / imitate 模仿 / Nevertheless 儘管如此 / be better addressed through 透過…處理更好 / media literacy education 媒體識讀教育 / recognise danger 辨識危險",
+          sample: "[[David is right to point out that]] teenagers may **imitate** what they see. [[Nevertheless, this risk is better addressed through]] **media literacy** education, which teaches young people to recognise danger." },
+        { role: "Conclusion", zh: "結論", hints: "Overall 整體而言 / stricter moderation 更嚴格的內容審核 / rather than 而不是 / outright ban 全面禁止 / the best way to 最好的方法",
+          sample: "[[Overall, I believe that]] stricter **moderation** and education, [[rather than]] an **outright ban**, [[are the best way to]] keep live streaming safe." },
+      ] },
+    ]
+  },
 ];
