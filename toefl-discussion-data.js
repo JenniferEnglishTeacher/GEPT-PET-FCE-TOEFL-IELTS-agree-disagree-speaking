@@ -559,4 +559,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 17, cat: "Education",
+    title: "Grading Students", zh: "給學生打成績",
+    question: "Should students be given grades?", questionZh: "學校應該給學生打成績嗎？",
+    professor: "This week we are talking about how schools assess learning. Most schools give students grades, such as letters, numbers or percentages, for their tests and assignments. Supporters say that grades are a clear way to measure progress and to motivate students. Critics argue that grades focus too much on performance and do not give an accurate picture of what a student can really do, so some schools have replaced them with written feedback. In your opinion, should students be given grades? Why or why not?",
+    david: "I believe students should be given grades. Grades are the clearest way for students to understand how well they are doing and to see which areas they need to improve. Moreover, grades prepare students for the real world, where adults are judged on their performance at work.",
+    mary: "I don't think students should be given grades. Grades create a needlessly competitive environment and make students feel that they are only valued for their scores, so many of them get discouraged. Instead, teachers should give personal feedback that explains what to improve and how to do it.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "支持給學生打成績", rows: [
+        { role: "Position", zh: "表明立場", hints: "agree with David 同意 David / grades 成績 / clearly show 清楚顯示 / make progress 進步",
+          sample: "[[I agree with David that]] students should be given **grades**, [[because]] they clearly show how much **progress** a student has made." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to what … said 除了…所說的之外 / a simple and fair way to 簡單又公平的方式 / employer 雇主 / comment 評語 / immediately 立刻 / scholarship 獎學金 / be awarded 被頒發 / according to the same standard 依照相同標準",
+          sample: "[[In addition to what David said, I think]] grades [[are a simple and fair way to]] share information. Parents, universities and employers cannot read long comments about every student, but they can understand a grade immediately, and **scholarships** can be awarded according to the same **standard**." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / apply to 申請 / compare 比較 / applicant 申請者 / common standard 共同標準 / depend on 取決於 / personal opinion 個人看法 / unfair 不公平的",
+          sample: "[[For example,]] when I applied to senior high school, the schools compared thousands of **applicants** by their grades. Without this common standard, the decision would have depended on teachers' personal opinions, which could be unfair." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… argues that …主張 / discourage 使氣餒 / I understand her concern, but 我理解她的擔憂，但 / the real problem is not A but B 真正的問題不是 A 而是 B / explanation 說明 / together with 連同 / personal feedback 個別回饋 / where they stand 自己的程度在哪裡",
+          sample: "[[Mary argues that]] grades **discourage** students. [[I understand her concern, but the real problem is not]] grades themselves [[but]] grades without explanation. If teachers give a grade together with **personal feedback**, students know both where they stand and how to improve." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons 基於這些理由 / keep 保留 / use … more wisely 更明智地使用",
+          sample: "[[For these reasons, I believe]] schools should keep grades and use them more wisely." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "反對給學生打成績", rows: [
+        { role: "Position", zh: "表明立場", hints: "side with Mary 支持 Mary / In my view 依我看 / since 因為 / a single number 單一個數字 / learner 學習者",
+          sample: "[[I side with Mary on this issue.]] [[In my view,]] students should not be given **grades**, [[since]] a single number cannot show what a learner can do." },
+        { role: "New reason", zh: "補充新理由", hints: "Another point worth mentioning is that 另一個值得一提的重點是 / score 分數 / memorize 背誦 / test-taking strategies 應試技巧 / instead of + V-ing 而不是 / the material 教材內容",
+          sample: "[[Another point worth mentioning is that]] grades change the way students learn. When a **score** is the goal, many students **memorize** answers and practise **test-taking strategies** [[instead of]] trying to understand the material, so they forget most of it after the exam." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / the night before 前一晚 / yet 然而 / almost nothing 幾乎什麼都沒有 / In contrast 相較之下 / written comments 書面評語 / skills 技巧",
+          sample: "[[For instance,]] I once got a high grade in history by memorizing dates the night before the test, yet a month later I remembered almost nothing. [[In contrast,]] my teacher's **written comments** on my essays taught me skills that I still use." },
+        { role: "Respond to David", zh: "回應對方", hints: "… makes a valid point that …說得有道理 / However 然而 / detailed feedback 詳細的回饋 / do this better than 比…做得更好 / exactly 確切地 / fix 修正",
+          sample: "[[David makes a valid point that]] students need to know how well they are doing. [[However,]] **detailed feedback** can do this better than a letter or a number, [[because]] it tells students exactly what to fix." },
+        { role: "Conclusion", zh: "結論", hints: "Therefore 因此 / replace A with B 用 B 取代 A / regular 定期的",
+          sample: "[[Therefore,]] schools should [[replace]] grades [[with]] regular **personal feedback**." },
+      ] },
+    ]
+  },
 ];
