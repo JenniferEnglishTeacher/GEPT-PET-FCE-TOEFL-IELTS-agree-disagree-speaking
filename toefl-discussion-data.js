@@ -763,4 +763,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 23, cat: "Health & lifestyle",
+    title: "Mental Health Education as a Required Subject", zh: "心理健康教育列為必修",
+    question: "Should schools teach mental health education as a required subject?", questionZh: "學校應該把心理健康教育列為必修科目嗎？",
+    professor: "This week we are looking at the well-being of young people. Surveys show that more and more teenagers suffer from stress, anxiety and depression, and many of them do not know where to turn for help. Some educators therefore propose that mental health education should become a required subject, just like physical education, while others think that schools are not the right place for it. In your opinion, should schools teach mental health education as a required subject? Why or why not?",
+    david: "I think it should be required. Schools teach students about nutrition and physical fitness, yet they say almost nothing about how to manage stress or ask for help. Most mental health problems first appear during the teenage years, so this is exactly when students need the knowledge. If they learn to recognize the warning signs early, they can get support before things become serious.",
+    mary: "I don't think it should be a required subject. The timetable is already full, and adding another subject would mean less time for core subjects or more pressure on students. Most teachers are not trained to discuss such sensitive topics, and a poorly taught class could do more harm than good. I think families and professional counselors should handle these issues instead.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "支持列為必修", rows: [
+        { role: "Position", zh: "表明立場", hints: "I am convinced that 我深信 / mental health education 心理健康教育 / required subject 必修科目 / I support David's argument that 我支持 David 的論點 / knowledge 知識",
+          sample: "[[I am convinced that]] **mental health education** should be a **required subject**, [[and I support David's argument that]] teenagers need this knowledge." },
+        { role: "New reason", zh: "補充新理由", hints: "Apart from his point, I would add that 除了他的論點之外，我想補充 / reduce 減少 / stigma 汙名 / mental illness 心理疾病 / anxiety 焦慮 / depression 憂鬱症 / treatable 可治療的 / be no longer seen as 不再被視為 / a sign of weakness 軟弱的象徵",
+          sample: "[[Apart from his point, I would add that]] a required class would reduce the **stigma** around mental illness. When every student learns that **anxiety** and **depression** are common and treatable, asking for help [[is no longer seen as]] a sign of weakness." },
+        { role: "Example", zh: "舉例", hints: "A good example is 一個很好的例子是 / introduce 引進、開設 / well-being 身心健康 / talk about our feelings 談論自己的感受 / far more 多很多 / school counselor 學校輔導老師",
+          sample: "[[A good example is]] my high school, which introduced a weekly **well-being** lesson two years ago. After we learned how to talk about our feelings, far more students started visiting the school **counselor** before exams." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… is concerned that …擔心 / timetable 課表 / I understand her concern, but 我理解她的擔憂，但是 / a small price to pay 很小的代價 / cope with stress 應付壓力 / concentrate 專心",
+          sample: "[[Mary is concerned that]] the timetable is already full. [[I understand her concern, but]] one lesson a week is [[a small price to pay,]] because students who can **cope with stress** concentrate better in other subjects." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / look after 照顧 / mind 心靈 / just as important as 和…一樣重要 / body 身體",
+          sample: "[[In conclusion,]] teaching students to look after their minds is [[just as important as]] teaching them to look after their bodies." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "反對列為必修", rows: [
+        { role: "Position", zh: "表明立場", hints: "As far as I am concerned 就我而言 / required subject 必修科目 / I side with Mary because 我站在 Mary 這一邊，因為 / be prepared to + V 準備好去…",
+          sample: "[[As far as I am concerned,]] **mental health education** should not be a **required subject**, [[and I side with Mary because]] schools are not prepared to teach it." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides the problems she mentioned 除了她提到的問題之外 / treat … in the same way 用同樣的方式對待… / some …, while others … 有些…，有些則… / cope 應付 / private 私下的、個別的 / professional help 專業協助 / provide 提供",
+          sample: "[[Besides the problems she mentioned,]] a required course treats every student in the same way. [[Some]] students are **coping** well, [[while others]] need private, **professional help**, which one lesson for forty students cannot provide." },
+        { role: "Example", zh: "舉例", hints: "For instance 例如 / compulsory 強制的 / stress management 壓力管理 / secretly 偷偷地 / What finally helped her was 最後真正幫到她的是 / a series of 一系列的 / private session 個別晤談 / counselor 輔導老師、諮商師",
+          sample: "[[For instance,]] my school once held a compulsory talk on **stress management**. Most of my classmates secretly did their homework, and a friend who was struggling said it did not help her. [[What finally helped her was]] a series of private sessions with a **counselor**." },
+        { role: "Respond to David", zh: "回應對方", hints: "… claims that …聲稱 / warning sign 警訊 / This is a fair point, but 這個論點有道理，但是 / require 需要 / workshop 工作坊 / achieve the same goal 達到同樣的目標",
+          sample: "[[David claims that]] students need to learn the **warning signs** early. [[This is a fair point, but]] it does not require a whole new subject. A few **workshops** each year would [[achieve the same goal.]]" },
+        { role: "Conclusion", zh: "結論", hints: "Overall 整體而言 / invest in 投資 / voluntary 自願參加的 / rather than + V 而不是 / compulsory subject 必修科目",
+          sample: "[[Overall,]] schools should **invest in** counselors and voluntary workshops [[rather than]] add another compulsory subject." },
+      ] },
+    ]
+  },
 ];

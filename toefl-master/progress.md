@@ -3,7 +3,7 @@
 One line per finished task: number | type | category | title. A task is listed only after its HTML source is committed and pushed.
 Category order — Email: Apology / Absence; Request; Complaint / Problem; Inquiry / Information; Invitation / Reply; Advice / Suggestion; Application / Job; Thanks / Follow-up. Discussion: Education; Technology & AI; Social media & influencers; Environment; Government & society; Work & economy; Health & lifestyle; Ethics & culture.
 
-## Email (22 / 40)
+## Email (23 / 40)
 01 | Email | Apology / Absence | Missing a Club Meeting 無法出席社團會議 (to Alex, club president — medical appointment, poster for recycling campaign) | toefl-master/email-apology-absence.html
 02 | Email | Request | Requesting a Recommendation Letter 請教授寫推薦信 (to Professor Wang — exchange program in Canada, deadline + résumé/transcript) | toefl-master/email-request.html
 03 | Email | Complaint / Problem | Complaining About Noise in the Library 投訴圖書館自習區太吵 (to Ms. Lin, library manager — noisy quiet study area before final exams, suggest signs / staff patrol) | toefl-master/email-complaint-problem.html
@@ -26,8 +26,9 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 20 | Email | Inquiry / Information | Asking About a Summer English Course Abroad 詢問海外暑期英語課程 (to Ms. Bennett, admissions officer of Brighton English Summer School in the UK — three-week summer course for teenagers starting in July; why you are interested, the classes (class size) + the fee, accommodation for students (host family)) | toefl-master/email-inquiry-information.html
 21 | Email | Invitation / Reply | Declining an Invitation to a School Play Premiere 婉拒校園話劇首演的邀請 (to Mr. Collins, Drama Club teacher — premiere of The Last Train Home on Thursday evening, front-row seat saved, clashes with grandmother's seventieth birthday dinner; thank him + how you feel, why you cannot attend, ask about another performance + offer to help the club) | toefl-master/email-invitation-reply.html
 22 | Email | Advice / Suggestion | Suggesting a New Hobby to a Friend 建議朋友培養新嗜好 (to Jack, a friend — parents think he plays computer games too much and want him to find a hobby that gets him out of the house; show understanding, suggest a hobby (cycling) + why it suits him, how to get started (free trial ride with your cycling club)) | toefl-master/email-advice-suggestion.html
+23 | Email | Application / Job | Applying to Be a Summer Camp Counselor 應徵暑期英語營隊輔導員 (to Ms. Parker, camp director of Sunshine English Summer Camp — counselors to lead games, songs and simple English activities for children aged 7–12 in July and August; skills and experience (tutored cousin in English, guitar club leader), availability this summer (final exams end June 28), ask about the interview + documents to send) | toefl-master/email-application-job.html
 
-## Discussion (22 / 40)
+## Discussion (23 / 40)
 01 | Discussion | Education | Should STEAM courses be mandatory for all university students? 大學應該把 STEAM 課程列為全體學生的必修嗎？ | toefl-master/discussion-education.html
 02 | Discussion | Technology & AI | Will AI-generated images and videos have a positive or a negative influence on society? AI 生成的圖片與影片對社會的影響是正面還是負面？ | toefl-master/discussion-technology-ai.html
 03 | Discussion | Social media & influencers | Do social media influencers have a mainly positive or a mainly negative influence on young people? 社群媒體網紅對年輕人的影響主要是正面還是負面？ | toefl-master/discussion-social-media-influencers.html
@@ -50,6 +51,7 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 20 | Discussion | Environment | Should private cars be banned from city centres? 應該禁止私家車進入市中心嗎？ | toefl-master/discussion-environment.html
 21 | Discussion | Government & society | Should governments spend large amounts of public money on space exploration? 政府應該把大筆公帑花在太空探索上嗎？ | toefl-master/discussion-government-society.html
 22 | Discussion | Work & economy | When choosing a career, is a high salary more important than job satisfaction? 選擇職業時，高薪比工作滿足感更重要嗎？ | toefl-master/discussion-work-economy.html
+23 | Discussion | Health & lifestyle | Should schools teach mental health education as a required subject? 學校應該把心理健康教育列為必修科目嗎？ | toefl-master/discussion-health-lifestyle.html
 
 ## Notes for the next run
 - Sample markup in the HTML sources: `<span style="background-color:#fff2a8">` = universal pattern, `<b>` = theme word.
