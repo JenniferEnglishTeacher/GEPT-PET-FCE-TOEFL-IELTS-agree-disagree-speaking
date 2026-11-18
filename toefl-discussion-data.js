@@ -1069,4 +1069,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 32, cat: "Ethics & culture",
+    title: "Preserving Historic Buildings vs. Urban Development", zh: "保存歷史建築與都市發展",
+    question: "Should historic buildings be preserved even if this slows down urban development?", questionZh: "即使會拖慢都市發展，也應該保存歷史建築嗎？",
+    professor: "This week we are discussing how cities balance culture and progress. As cities grow, they need more housing, offices and transportation, and old buildings are often torn down to make room for them. Some people believe that historic buildings are an essential part of a city's cultural heritage and must be protected, even if this slows down development. Others argue that cities should put the needs of today's residents first. In your opinion, should historic buildings be preserved even if this slows down urban development? Why or why not?",
+    david: "I believe historic buildings should be preserved. They are a physical record of a city's history, and they give residents a sense of identity. Once an old temple or a traditional street is demolished, it is gone forever, and no modern copy can replace it. A city without its old buildings looks just like every other city in the world.",
+    mary: "I see it differently. Cities are for the people who live in them now, and many of those people cannot find an affordable home. Old buildings are often unsafe in earthquakes and very expensive to repair and maintain. I think it is enough to protect a few of the most important landmarks, so that the rest of the land can be used for modern housing and public transportation.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "應該保存歷史建築", rows: [
+        { role: "Position", zh: "表明立場", hints: "From my perspective 就我的觀點而言 / historic building 歷史建築 / preserve 保存 / I agree with David that 我同意 David 所說的 / identity 認同、特色",
+          sample: "[[From my perspective,]] **historic buildings** should be **preserved**, [[and I agree with David that]] they give a city its **identity**." },
+        { role: "New reason", zh: "補充新理由", hints: "Apart from … he mentioned, I would add that 除了他提到的…之外，我想補充 / cultural value 文化價值 / heritage 文化遺產 / drive the economy 帶動經濟 / unique 獨特的 / support 支撐、維持 / local 當地的",
+          sample: "[[Apart from]] the cultural value [[he mentioned, I would add that]] **heritage** can drive the economy. Visitors travel to see what is unique about a place, and the money they spend supports local shops and jobs." },
+        { role: "Example", zh: "舉例", hints: "A good example of this is 這方面一個很好的例子是 / Dihua Street 迪化街 / Instead of + V-ing 不是…而是 / be torn down 被拆除 / widen the road 拓寬道路 / century-old 百年的 / shophouse 街屋 / restore 修復 / attraction 景點",
+          sample: "[[A good example of this is]] Dihua Street in Taipei. [[Instead of]] being torn down to widen the road, its century-old shophouses were **restored**. Today, the street is full of cafés and tea shops, and it has become one of the city's most popular **attractions**." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… claims that …聲稱 / costly to maintain 維護成本高 / Although this is a fair point 雖然這個論點有道理 / strengthen … against earthquakes 補強…以抵抗地震 / income 收入 / tourism 觀光 / cover the cost of 支付…的費用",
+          sample: "[[Mary claims that]] old buildings are unsafe and costly to maintain. [[Although this is a fair point,]] engineers can strengthen them against earthquakes, and the income from **tourism** often covers the cost of repairs." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / hold … back 阻礙…的發展 / on the contrary 相反地 / a place worth + V-ing 值得…的地方",
+          sample: "[[In conclusion,]] protecting historic buildings does not hold a city back; [[on the contrary,]] it makes the city a place worth living in and visiting." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "應以都市發展為優先", rows: [
+        { role: "Position", zh: "表明立場", hints: "I am not convinced that 我並不認為 / deserve to + V 值得 / preserve 保存 / Like Mary, I believe that 和 Mary 一樣，我認為 / resident 居民 / come first 擺在第一位",
+          sample: "[[I am not convinced that]] every old building deserves to be **preserved**. [[Like Mary, I believe that]] the needs of today's **residents** should come first." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that has not been mentioned is that 還沒有人提到的一點是 / strict 嚴格的 / preservation rules 保存規定 / unfair to 對…不公平 / be not allowed to + V 不被允許 / rebuild 重建 / renovate 整修 / end up + V-ing 最後落得 / poor conditions 惡劣的環境",
+          sample: "[[One point that has not been mentioned is that]] strict **preservation** rules can be unfair to the people who live in old buildings. They are [[not allowed to]] rebuild or even **renovate** their homes freely, so they [[end up]] living in poor conditions." },
+        { role: "Example", zh: "舉例", hints: "For instance 例如 / sixty-year-old 六十年的 / neighborhood 社區、街區 / The roof leaks 屋頂漏水 / whenever 每當 / follow rules 遵守規定 / so many … that 如此多…以致於 / cannot afford 負擔不起",
+          sample: "[[For instance,]] my grandparents live in a sixty-year-old house in a protected **neighborhood**. The roof leaks whenever it rains, but the repairs must follow [[so many]] rules [[that]] they simply cannot afford them." },
+        { role: "Respond to David", zh: "回應對方", hints: "… argues that …主張 / demolish 拆除 / be gone forever 永遠消失 / That is true, but 這是事實，但 / detailed 詳細的 / 3D scan 3D 掃描 / museum display 博物館展示 / keep … alive 讓…延續下去 / without + V-ing 而不必",
+          sample: "[[David argues that]] a **demolished** building is gone forever. [[That is true, but]] detailed photographs, 3D scans and museum displays can keep its memory alive [[without]] freezing the land around it." },
+        { role: "Conclusion", zh: "結論", hints: "All things considered 綜合以上所述 / landmark 地標 / let … make way for 讓…讓位給 / affordable housing 平價住宅",
+          sample: "[[All things considered,]] a city should protect a few true **landmarks** and let the rest make way for safe, **affordable housing**." },
+      ] },
+    ]
+  },
 ];
