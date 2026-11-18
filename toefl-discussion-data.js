@@ -1001,4 +1001,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 30, cat: "Work & economy",
+    title: "The Four-Day Work Week", zh: "一週工作四天",
+    question: "Should companies adopt a four-day work week?", questionZh: "公司應該實施一週工作四天（週休三日）嗎？",
+    professor: "This week we are discussing how working time affects both employees and businesses. In recent years, companies in several countries have tested a four-day work week, in which employees work four days instead of five for the same pay. Supporters claim that workers become healthier and more focused, so they get just as much done. Critics argue that many businesses cannot afford to lose a working day and that the idea does not suit every industry. In your opinion, should companies adopt a four-day work week? Why or why not?",
+    david: "I think companies should adopt a four-day work week. People who work long hours get tired and make more mistakes, so the fifth day is often not very productive anyway. With an extra day off, employees can rest, spend time with their families and come back with more energy. Happier workers are also less likely to quit.",
+    mary: "I don't think this is a good idea. If employees have to finish five days of work in four, they will feel more pressure, not less. Besides, hospitals, shops and factories need staff every day, so they would have to hire more people, which is expensive. Small businesses in particular could not afford it.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "支持一週工作四天", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my opinion 依我之見 / adopt 採用 / four-day work week 一週工作四天 / I agree with David's argument that 我同意 David 的論點 / well-rested 休息充足的 / productive 有生產力的",
+          sample: "[[In my opinion,]] companies should adopt a **four-day work week**, [[and I agree with David's argument that]] well-rested employees are more **productive**." },
+        { role: "New reason", zh: "補充新理由", hints: "I would add that 我想補充 / benefit A as well as B 對 A 和 B 都有好處 / employer 雇主 / find it much easier to + V 發現…容易得多 / recruit 招募 / talented 有才華的 / which reduces the cost of 這降低了…的成本 / hire and train 僱用並訓練",
+          sample: "[[I would add that]] a shorter week benefits **employers** [[as well as]] workers. Companies that offer a three-day weekend [[find it much easier to]] **recruit** talented people and keep them, [[which reduces the cost of]] hiring and training new staff." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / software company 軟體公司 / switch to 改採 / Since then 從那時起 / resign 辭職 / meet a deadline 趕上期限 / waste time 浪費時間",
+          sample: "[[For example,]] my uncle works for a software company that switched to a four-day week two years ago. [[Since then,]] far fewer engineers have **resigned**, and the team still meets every **deadline** because meetings are shorter and people waste less time." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / squeeze A into B 把 A 擠進 B / pressure 壓力 / However, this is not necessarily the case, because 然而情況未必如此，因為 / be lost to 被…耗掉 / unnecessary meetings 不必要的會議 / distraction 令人分心的事物",
+          sample: "[[Mary argues that]] squeezing five days of work into four would increase **pressure**. [[However, this is not necessarily the case, because]] much of the traditional week is lost to unnecessary meetings and **distractions**." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總而言之 / I firmly believe that 我堅信 / a sensible way to + V 一個明智的…方法 / work-life balance 工作與生活的平衡 / business results 經營成果",
+          sample: "[[In conclusion, I firmly believe that]] a four-day week [[is a sensible way to]] improve both **work-life balance** and business results." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "反對一週工作四天", rows: [
+        { role: "Position", zh: "表明立場", hints: "From my perspective 從我的角度來看 / adopt 採用 / four-day work week 一週工作四天 / side with … on this issue 在這個議題上支持…",
+          sample: "[[From my perspective,]] most companies should not adopt a **four-day work week**, [[so I side with Mary on this issue.]]" },
+        { role: "New reason", zh: "補充新理由", hints: "Beyond her point about 除了她關於…的論點之外 / I would argue that 我會主張 / be unfair to 對…不公平 / compress 壓縮 / schedule 行程；工時安排 / whereas 然而（對比） / waiter 服務生 / delivery driver 外送員 / be paid by the hour 按時計薪 / income 收入",
+          sample: "[[Beyond her point about]] costs, [[I would argue that]] a shorter week [[would be unfair to]] many workers. Office staff can compress their **schedules**, [[whereas]] waiters and delivery drivers are often **paid by the hour**, so fewer hours would mean less **income**." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / bakery 麵包店 / expect 期待 / close for an extra day 多休一天 / wages 工資 / hire 僱用 / profit 利潤 / disappear 消失",
+          sample: "[[Take]] my aunt's bakery [[as an example.]] Customers expect fresh bread every day, so she cannot close for an extra day. If her employees worked only four days for the same **wages**, she would have to hire another baker, and her small **profit** would disappear." },
+        { role: "Respond to David", zh: "回應對方", hints: "Admittedly, … is right that 不可否認，…說得對 / However, this problem can be solved by + V-ing 然而這個問題可以透過…解決 / flexible hours 彈性工時 / limit overtime 限制加班 / without + V-ing 而不必…",
+          sample: "[[Admittedly, David is right that]] tired employees make more mistakes. [[However, this problem can be solved by]] offering **flexible hours** or limiting **overtime**, without removing a whole working day." },
+        { role: "Conclusion", zh: "結論", hints: "Overall, I believe that 整體而言，我認為 / suit 適合 / technology firm 科技公司 / not a realistic option for 對…不是實際可行的選擇",
+          sample: "[[Overall, I believe that]] a four-day week may suit a few technology firms, [[but it is not a realistic option for]] most businesses." },
+      ] },
+    ]
+  },
 ];
