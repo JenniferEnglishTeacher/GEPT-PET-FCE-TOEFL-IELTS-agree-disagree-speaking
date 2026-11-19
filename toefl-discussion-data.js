@@ -1341,4 +1341,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 40, cat: "Ethics & culture",
+    title: "Globalization and Local Cultures", zh: "全球化與在地文化",
+    question: "Is globalization a threat to local cultures and traditions?", questionZh: "全球化對在地文化與傳統是一種威脅嗎？",
+    professor: "This week we are discussing culture in a connected world. Thanks to global trade, travel and the internet, people in different countries now watch the same films, wear the same brands and eat at the same restaurant chains. Some people worry that this process, known as globalization, is destroying local cultures and traditions. Others believe that it helps cultures to spread and grow. In your opinion, is globalization a threat to local cultures and traditions? Why or why not?",
+    david: "I think globalization is a real threat to local cultures. International chains and global brands are pushing out small traditional businesses, and city centers around the world are starting to look the same. Young people are also more interested in foreign pop music and fashion than in their own traditions. If this continues, many customs and crafts will simply disappear.",
+    mary: "I disagree. Cultures have always changed and borrowed from each other, and that is what keeps them alive. Thanks to the internet, local artists and cooks can now share their traditions with a worldwide audience, so more people than ever know about them. Besides, people do not give up their own culture just because they enjoy foreign food or films.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "認為全球化威脅在地文化", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my view 在我看來 / globalization 全球化 / a serious threat to 對…的嚴重威脅 / local culture 在地文化 / I agree with David that 我同意 David 所說的 / global brand 全球品牌 / push out 排擠 / traditional business 傳統店家",
+          sample: "[[In my view,]] **globalization** is a serious **threat** to **local cultures**, [[and I agree with David that]] global brands are pushing out traditional businesses." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides … he mentioned, I would point out that 除了他提到的…之外，我想指出 / put … at risk 使…陷入危險 / dominate 主導 / the media 媒體 / pass … on to 把…傳給 / mother tongue 母語 / die with 隨著…一起消失 / wisdom 智慧",
+          sample: "[[Besides]] the businesses [[he mentioned, I would point out that]] globalization puts local languages at risk. As English **dominates** schools, workplaces and the media, parents stop passing their **mother tongue** on to their children, and when a language dies, its songs, stories and wisdom die with it." },
+        { role: "Example", zh: "舉例", hints: "… is a case in point …就是一個明顯的例子 / Taiwanese 台語 / answer in Mandarin 用國語回答 / folk song 民謠",
+          sample: "My own family [[is a case in point.]] My grandparents speak Taiwanese at home, but my cousins and I answer in Mandarin, and most of us cannot understand the old **folk songs** they love." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… says that …說 / reach a worldwide audience 接觸到全世界的觀眾 / While this may be true for a few 雖然這對少數人來說可能是真的 / online platform 網路平台 / promote 推廣 / whatever is already popular 任何已經受歡迎的東西 / be drowned out 被淹沒",
+          sample: "[[Mary says that]] the internet lets local artists reach a worldwide audience. [[While this may be true for]] a few, online platforms mostly promote whatever is already popular, so small **traditions** are easily drowned out." },
+        { role: "Conclusion", zh: "結論", hints: "Therefore, I believe that 因此，我認為 / unless + S + V 除非 / protect 保護 / fade away 逐漸消失",
+          sample: "[[Therefore, I believe that]] [[unless]] we protect them, many local cultures will slowly **fade away**." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "認為全球化讓在地文化發揚光大", rows: [
+        { role: "Position", zh: "表明立場", hints: "I do not believe that 我不認為 / globalization 全球化 / destroy 摧毀 / Like Mary, I think that 和 Mary 一樣，我認為 / contact with 與…的接觸 / the outside world 外面的世界 / keep … alive 讓…延續下去",
+          sample: "[[I do not believe that]] **globalization** is destroying **local cultures**. [[Like Mary, I think that]] contact with the outside world keeps **traditions** alive." },
+        { role: "New reason", zh: "補充新理由", hints: "What has not been mentioned yet is that 還沒有人提到的是 / international interest 國際上的關注 / give + 人 + a reason to + V 給某人…的理由 / be proud of 以…為榮 / heritage 文化遺產 / income 收入 / preserve 保存 / custom 習俗 / be worth + V-ing 值得",
+          sample: "[[What has not been mentioned yet is that]] international interest gives people a reason to be proud of their own **heritage** and creates income to **preserve** it. When foreign visitors pay to experience a local **custom**, young people see that it [[is worth]] learning." },
+        { role: "Example", zh: "舉例", hints: "… is a good illustration …是一個很好的例證 / bubble tea 珍珠奶茶 / invent 發明 / from A to B 從 A 到 B / Rather than + V-ing 不但沒有…反而 / a symbol of …的象徵 / the original 原版、正宗的",
+          sample: "Bubble tea [[is a good illustration.]] It was invented in Taiwan in the 1980s, and today it is sold from Tokyo to London. [[Rather than]] disappearing, a local drink has become a **symbol** of Taiwanese culture, and many tourists now come here to taste the original." },
+        { role: "Respond to David", zh: "回應對方", hints: "… worries that …擔心 / prefer 比較喜歡 / foreign 外國的 / That may be so, but 或許是這樣，但 / stop + 人 + from + V-ing 阻止某人… / celebrate 慶祝 / Lunar New Year 農曆新年",
+          sample: "[[David worries that]] young people prefer foreign pop music and fashion. [[That may be so, but]] enjoying K-pop does not stop anyone from **celebrating** Lunar New Year." },
+        { role: "Conclusion", zh: "結論", hints: "Overall, I am convinced that 整體而言，我深信 / a bigger stage 更大的舞台 / instead of + V-ing 而不是 / take … away 奪走",
+          sample: "[[Overall, I am convinced that]] globalization gives local cultures a bigger stage [[instead of]] taking it away." },
+      ] },
+    ]
+  },
 ];
