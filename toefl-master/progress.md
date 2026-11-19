@@ -3,7 +3,7 @@
 One line per finished task: number | type | category | title. A task is listed only after its HTML source is committed and pushed.
 Category order — Email: Apology / Absence; Request; Complaint / Problem; Inquiry / Information; Invitation / Reply; Advice / Suggestion; Application / Job; Thanks / Follow-up. Discussion: Education; Technology & AI; Social media & influencers; Environment; Government & society; Work & economy; Health & lifestyle; Ethics & culture.
 
-## Email (35 / 40)
+## Email (36 / 40)
 01 | Email | Apology / Absence | Missing a Club Meeting 無法出席社團會議 (to Alex, club president — medical appointment, poster for recycling campaign) | toefl-master/email-apology-absence.html
 02 | Email | Request | Requesting a Recommendation Letter 請教授寫推薦信 (to Professor Wang — exchange program in Canada, deadline + résumé/transcript) | toefl-master/email-request.html
 03 | Email | Complaint / Problem | Complaining About Noise in the Library 投訴圖書館自習區太吵 (to Ms. Lin, library manager — noisy quiet study area before final exams, suggest signs / staff patrol) | toefl-master/email-complaint-problem.html
@@ -39,8 +39,9 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 33 | Email | Apology / Absence | Missing an Appointment with the School Counselor 錯過與輔導老師的約談 (to Mr. Evans, your school counselor — missed yesterday's appointment about studying at a university abroad without telling him in advance, experiment ran late; apologize + explain why you missed it, why the meeting is important to you (applying to universities in Canada), ask to reschedule + suggest when you are available (Wednesday / Friday after 4 p.m.)) | toefl-master/email-apology-absence.html
 34 | Email | Request | Requesting an Extension on a History Essay 請教授延長報告繳交期限 (to Professor Hughes — World History research essay on the Industrial Revolution due Friday, laptop broke down and most of the draft was lost; explain what happened, ask for an extension + suggest a new deadline (next Monday), describe what you have done so far (rewriting in the computer lab)) | toefl-master/email-request.html
 35 | Email | Complaint / Problem | Complaining About a Language Course That Was Not as Advertised 投訴語言課程與廣告不符 (to Ms. Howard, director of Bright Future Language Center — ten-week evening English conversation course advertised as small classes of no more than eight, but twenty students, teacher changed three times, two lessons cancelled; why you chose the course, the problems, what you want the center to do (smaller class / refund)) | toefl-master/email-complaint-problem.html
+36 | Email | Inquiry / Information | Asking About a School Field Trip 詢問校外教學事宜 (to Ms. Reed, teacher in charge of the trip — two-day field trip to the National Museum of Marine Biology in Pingtung with an overnight stay in front of the aquarium tanks; why you are interested, the cost + what the fee includes, what to bring (sleeping bag) + how to sign up / deadline) | toefl-master/email-inquiry-information.html
 
-## Discussion (35 / 40)
+## Discussion (36 / 40)
 01 | Discussion | Education | Should STEAM courses be mandatory for all university students? 大學應該把 STEAM 課程列為全體學生的必修嗎？ | toefl-master/discussion-education.html
 02 | Discussion | Technology & AI | Will AI-generated images and videos have a positive or a negative influence on society? AI 生成的圖片與影片對社會的影響是正面還是負面？ | toefl-master/discussion-technology-ai.html
 03 | Discussion | Social media & influencers | Do social media influencers have a mainly positive or a mainly negative influence on young people? 社群媒體網紅對年輕人的影響主要是正面還是負面？ | toefl-master/discussion-social-media-influencers.html
@@ -76,6 +77,7 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 33 | Discussion | Education | Should schools abolish homework? 學校應該廢除回家作業嗎？ | toefl-master/discussion-education.html
 34 | Discussion | Technology & AI | Should schools ban students from using smartphones during the school day? 學校應該禁止學生在上課日使用智慧型手機嗎？ | toefl-master/discussion-technology-ai.html
 35 | Discussion | Social media & influencers | Should governments ban children under 16 from using social media? 政府應該禁止 16 歲以下的兒童使用社群媒體嗎？ | toefl-master/discussion-social-media-influencers.html
+36 | Discussion | Environment | Should governments ban single-use plastic products? 政府應該禁用一次性塑膠製品嗎？ | toefl-master/discussion-environment.html
 
 ## Notes for the next run
 - Sample markup in the HTML sources: `<span style="background-color:#fff2a8">` = universal pattern, `<b>` = theme word.

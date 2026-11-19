@@ -1205,4 +1205,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 36, cat: "Environment",
+    title: "Banning Single-Use Plastics", zh: "禁用一次性塑膠製品",
+    question: "Should governments ban single-use plastic products?", questionZh: "政府應該禁用一次性塑膠製品嗎？",
+    professor: "This week we are looking at plastic pollution. Every year, millions of tons of plastic waste end up in rivers and oceans, and much of it comes from single-use items such as bags, straws and cups, which are used for a few minutes and then thrown away. Some governments have already banned or restricted these products, while others prefer to leave the choice to consumers and businesses. In your opinion, should governments ban single-use plastic products? Why or why not?",
+    david: "I think governments should ban them. Single-use plastics take hundreds of years to break down, and they kill countless sea turtles, seabirds and fish that swallow them or get trapped in them. Asking people to use less plastic voluntarily has not worked, so a clear law is the only way to reduce plastic waste quickly.",
+    mary: "I don't think a ban is a good idea. Plastic is cheap, light and hygienic, so small businesses such as food stalls and drink shops depend on it, and the alternatives cost much more. Besides, the real problem is not plastic itself but the fact that people litter and do not recycle. Governments should improve recycling instead.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "應該禁用", rows: [
+        { role: "Position", zh: "表明立場", hints: "agree with David that 同意 David 所說的 / ban 禁用 / single-use plastic products 一次性塑膠製品 / in order to 為了 / plastic pollution 塑膠污染",
+          sample: "[[I agree with David that]] governments [[should]] ban **single-use plastic** products [[in order to]] reduce **plastic pollution**." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to … that David mentioned 除了 David 提到的…之外 / marine animals 海洋動物 / I would add that 我想補充 / threaten 威脅 / break down into 分解成 / microplastics 塑膠微粒 / food chain 食物鏈 / end up in 最後進入",
+          sample: "[[In addition to]] the harm to **marine animals** [[that David mentioned, I would add that]] **plastic waste** also threatens human health. Plastic never completely disappears; instead, it breaks down into **microplastics**, which enter the **food chain** and eventually end up in our bodies." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / scientists have found 科學家已發現 / seafood 海鮮 / bottled water 瓶裝水 / Although 雖然 / long-term effects 長期影響 / unclear 不明確的",
+          sample: "[[For example,]] scientists have found **microplastics** in seafood, bottled water and even human blood. [[Although]] the long-term effects are still unclear, I do not want my family to eat plastic with every meal." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / hurt small businesses 傷害小型商家 / However, she overlooks the fact that 然而她忽略了…這個事實 / adapt 適應 / restrict 限制 / plastic straw 塑膠吸管 / get used to 習慣 / reusable cup 環保杯",
+          sample: "[[Mary argues that]] a ban would hurt small businesses. [[However, she overlooks the fact that]] people adapt quickly. When Taiwan restricted **plastic straws** in drink shops, customers soon got used to **reusable** cups, and the shops stayed busy." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / banning + N 禁用… / one of the most effective ways to 最有效的方法之一 / protect both A and B 同時保護 A 與 B",
+          sample: "[[In conclusion,]] banning single-use plastics is [[one of the most effective ways to]] protect [[both]] the oceans [[and]] our own health." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "不應該禁用", rows: [
+        { role: "Position", zh: "表明立場", hints: "Although 雖然 / plastic pollution 塑膠污染 / agree with Mary that 同意 Mary 所說的 / banning + N 禁用… / not the best solution 不是最好的解決辦法",
+          sample: "[[Although]] **plastic pollution** is a serious problem, [[I agree with Mary that]] banning **single-use plastics** [[is not the best solution.]]" },
+        { role: "New reason", zh: "補充新理由", hints: "What neither student mentioned is that 兩位同學都沒提到的是 / alternatives 替代品 / greener 更環保的 / cotton bag 棉布袋 / require 需要 / far more … than 比…多得多 / be reused 被重複使用 / benefit the environment 對環境有益",
+          sample: "[[What neither student mentioned is that]] the **alternatives** are not always greener. Paper and cotton bags require far more water and energy to produce than plastic ones, so they must be **reused** many times to benefit the environment." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / be restricted 受到限制 / reusable bag 環保袋 / keep + V-ing 老是… / sit unused 閒置不用 / This shows that 這顯示 / replace A with B 用 B 取代 A",
+          sample: "[[Take]] my own family [[as an example.]] After plastic bags were restricted, we bought more than ten **reusable** bags because we kept forgetting to bring them, and most now sit unused in a cupboard. [[This shows that]] a ban can simply replace one kind of **waste** with another." },
+        { role: "Respond to David", zh: "回應對方", hints: "David is right to point out that David 指出…是對的 / harm 危害 / marine animals 海洋動物 / However 然而 / be caused by 由…造成 / litter 亂丟的垃圾 / recycle properly 妥善回收 / waste management 廢棄物管理",
+          sample: "[[David is right to point out that]] plastic harms **marine animals**. [[However, this]] harm [[is caused by]] **litter**, not by plastic that is **recycled** properly, so better **waste management** would solve the problem directly." },
+        { role: "Conclusion", zh: "結論", hints: "Therefore, I believe that 因此我認為 / invest in 投資於 / recycling 回收 / public education 大眾教育 / rather than + V 而不是",
+          sample: "[[Therefore, I believe that]] governments [[should]] invest in **recycling** and public education [[rather than]] ban a useful material." },
+      ] },
+    ]
+  },
 ];
