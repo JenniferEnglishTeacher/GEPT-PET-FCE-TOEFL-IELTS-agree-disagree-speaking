@@ -3,7 +3,7 @@
 One line per finished task: number | type | category | title. A task is listed only after its HTML source is committed and pushed.
 Category order — Email: Apology / Absence; Request; Complaint / Problem; Inquiry / Information; Invitation / Reply; Advice / Suggestion; Application / Job; Thanks / Follow-up. Discussion: Education; Technology & AI; Social media & influencers; Environment; Government & society; Work & economy; Health & lifestyle; Ethics & culture.
 
-## Email (33 / 40)
+## Email (34 / 40)
 01 | Email | Apology / Absence | Missing a Club Meeting 無法出席社團會議 (to Alex, club president — medical appointment, poster for recycling campaign) | toefl-master/email-apology-absence.html
 02 | Email | Request | Requesting a Recommendation Letter 請教授寫推薦信 (to Professor Wang — exchange program in Canada, deadline + résumé/transcript) | toefl-master/email-request.html
 03 | Email | Complaint / Problem | Complaining About Noise in the Library 投訴圖書館自習區太吵 (to Ms. Lin, library manager — noisy quiet study area before final exams, suggest signs / staff patrol) | toefl-master/email-complaint-problem.html
@@ -37,8 +37,9 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 31 | Email | Application / Job | Applying to Be a Student Reporter for the School Newspaper 應徵校刊學生記者 (to Ms. Morgan, teacher who advises The Campus Voice, the school's English newspaper — two new student reporters wanted for next school year; why you want to become a reporter, your writing experience (sports day report for the class blog), ask what to send with the application (writing sample / recommendation)) | toefl-master/email-application-job.html
 32 | Email | Thanks / Follow-up | Thanking a Host Family After a Homestay 感謝寄宿家庭的照顧 (to Mrs. Wilson, your host mother in Sydney — two-week winter study tour homestay with the Wilsons and their son Ben; thank her for her hospitality (dinners, English practice), favorite memory (wildlife park / kangaroos / beach), how you would like to keep in touch (photos and emails / monthly video call / show them around Taipei)) | toefl-master/email-thanks-follow-up.html
 33 | Email | Apology / Absence | Missing an Appointment with the School Counselor 錯過與輔導老師的約談 (to Mr. Evans, your school counselor — missed yesterday's appointment about studying at a university abroad without telling him in advance, experiment ran late; apologize + explain why you missed it, why the meeting is important to you (applying to universities in Canada), ask to reschedule + suggest when you are available (Wednesday / Friday after 4 p.m.)) | toefl-master/email-apology-absence.html
+34 | Email | Request | Requesting an Extension on a History Essay 請教授延長報告繳交期限 (to Professor Hughes — World History research essay on the Industrial Revolution due Friday, laptop broke down and most of the draft was lost; explain what happened, ask for an extension + suggest a new deadline (next Monday), describe what you have done so far (rewriting in the computer lab)) | toefl-master/email-request.html
 
-## Discussion (33 / 40)
+## Discussion (34 / 40)
 01 | Discussion | Education | Should STEAM courses be mandatory for all university students? 大學應該把 STEAM 課程列為全體學生的必修嗎？ | toefl-master/discussion-education.html
 02 | Discussion | Technology & AI | Will AI-generated images and videos have a positive or a negative influence on society? AI 生成的圖片與影片對社會的影響是正面還是負面？ | toefl-master/discussion-technology-ai.html
 03 | Discussion | Social media & influencers | Do social media influencers have a mainly positive or a mainly negative influence on young people? 社群媒體網紅對年輕人的影響主要是正面還是負面？ | toefl-master/discussion-social-media-influencers.html
@@ -72,6 +73,7 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 31 | Discussion | Health & lifestyle | Should cooking classes be compulsory for all secondary school students? 中學應該把烹飪課列為全體學生的必修嗎？ | toefl-master/discussion-health-lifestyle.html
 32 | Discussion | Ethics & culture | Should historic buildings be preserved even if this slows down urban development? 即使會拖慢都市發展，也應該保存歷史建築嗎？ | toefl-master/discussion-ethics-culture.html
 33 | Discussion | Education | Should schools abolish homework? 學校應該廢除回家作業嗎？ | toefl-master/discussion-education.html
+34 | Discussion | Technology & AI | Should schools ban students from using smartphones during the school day? 學校應該禁止學生在上課日使用智慧型手機嗎？ | toefl-master/discussion-technology-ai.html
 
 ## Notes for the next run
 - Sample markup in the HTML sources: `<span style="background-color:#fff2a8">` = universal pattern, `<b>` = theme word.

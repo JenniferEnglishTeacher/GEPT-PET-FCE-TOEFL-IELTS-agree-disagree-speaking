@@ -1137,4 +1137,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 34, cat: "Technology & AI",
+    title: "Banning Smartphones at School", zh: "校園禁用手機",
+    question: "Should schools ban students from using smartphones during the school day?", questionZh: "學校應該禁止學生在上課日使用智慧型手機嗎？",
+    professor: "This week we are discussing how digital devices affect learning. Almost every teenager now owns a smartphone, and most of them bring it to school. Some countries, including France and the Netherlands, have already restricted phones in schools, and several others are considering similar rules. Supporters say that a ban helps students concentrate, while critics argue that phones are useful learning tools. In your opinion, should schools ban students from using smartphones during the school day? Why or why not?",
+    david: "I think schools should ban smartphones. Phones seriously damage students' concentration: every notification breaks their train of thought, and it can take several minutes to focus again. I have seen classmates watching videos under their desks while the teacher was talking. If phones were locked away every morning, students would pay more attention and learn more.",
+    mary: "I disagree. Smartphones are powerful learning tools when they are used responsibly. They give students instant access to dictionaries, information and educational apps. In my English class, our teacher lets us use our phones to look up vocabulary and record our pronunciation, and it has really helped. What schools need is clear rules, not a blanket ban.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "支持校園禁用手機", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / ban 禁止 / during the school day 在上課日期間",
+          sample: "[[I agree with David that]] schools should **ban** smartphones during the school day." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides … that David mentioned, I would add that 除了 David 提到的…之外，我想補充 / concentration 專注力 / social lives 社交生活 / stare at 盯著看 / instead of + V-ing 而不是 / As a result 結果 / miss the chance to 錯失…的機會 / face-to-face 面對面的",
+          sample: "[[Besides]] the problem of **concentration** [[that David mentioned, I would add that]] a ban improves students' social lives. When phones are available, many students spend every break **staring at** their screens [[instead of]] talking to each other. [[As a result,]] they miss the chance to build real friendships and practise **face-to-face** communication." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / collect phones 收手機 / atmosphere 氣氛 / change completely 徹底改變 / chat 聊天 / friendlier 更友善",
+          sample: "[[For example,]] after my school started collecting phones every morning last year, the atmosphere changed completely. At lunchtime, my classmates began playing basketball and chatting together, and our class became much friendlier." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… claims that …聲稱 / learning tools 學習工具 / Although this is true in some cases 雖然這在某些情況下是對的 / provide 提供 / tablets 平板電腦 / devices 裝置 / come with 附帶",
+          sample: "[[Mary claims that]] phones are useful **learning tools**. [[Although this is true in some cases,]] schools can provide tablets or computers for those activities, and these **devices** do not come with games and social media." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I am convinced that 基於這些理由，我確信 / phone-free 沒有手機的 / benefit 對…有益 / relationships 人際關係",
+          sample: "[[For these reasons, I am convinced that]] a **phone-free** school day [[would benefit]] both students' learning and their relationships." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "反對全面禁用手機", rows: [
+        { role: "Position", zh: "表明立場", hints: "I share …'s view that 我和…看法相同，認為 / ban … completely 完全禁止",
+          sample: "[[I share Mary's view that]] schools should not **ban** smartphones completely." },
+        { role: "New reason", zh: "補充新理由", hints: "Another point worth considering is that 另一個值得考慮的重點是 / self-control 自制力 / graduate 畢業 / lock … away 把…鎖起來 / temptation 誘惑 / manage 管理、應付 / responsible use 負責任的使用 / A is more valuable than B A 比 B 更有價值",
+          sample: "[[Another point worth considering is that]] students need to learn **self-control**. After they graduate, nobody will lock their phones away at university or at work. [[If]] schools simply remove the **temptation**, students [[will never learn how to]] manage it. Teaching **responsible use** [[is more valuable than]] avoiding the problem." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / screen time 螢幕使用時間 / constantly 不斷地 / lecture 大學講課 / fail a course 被當、不及格 / semester 學期",
+          sample: "[[Take my cousin as an example.]] Her school banned phones for three years, so she never learned to control her own **screen time**. When she entered university, she checked her phone constantly during lectures and failed two courses in her first semester." },
+        { role: "Respond to David", zh: "回應對方", hints: "… points out that …指出 / notifications 通知 / break concentration 打斷專注 / I understand his concern, but 我理解他的顧慮，但 / solve 解決 / switch … to silent mode 把…調成靜音",
+          sample: "[[David points out that]] **notifications** break students' concentration. [[I understand his concern, but]] this can be solved by asking students to switch their phones to silent mode and keep them in their bags during lessons." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / set clear rules 訂定明確的規則 / digital habits 數位習慣 / rather than + V 而不是 / altogether 完全地",
+          sample: "[[In conclusion,]] schools [[should]] set clear rules and teach good **digital** habits [[rather than]] ban phones altogether." },
+      ] },
+    ]
+  },
 ];
