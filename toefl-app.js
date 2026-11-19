@@ -3,7 +3,7 @@
    model answer with Listen + Read-Along Check, timer, live transcription, clean transcription,
    Copy for AI Feedback. Uses speaking-kit.js + mindmap-kit.js. */
 const K = window.SpeakingKit;
-const TOPICS = window.TOEFL_TOPICS || [];
+const TOPICS = [...(window.TOEFL_TOPICS || []), ...(window.TOEFL_INTERVIEW_SETS || [])];
 const DRAFT_PREFIX = "toefl-draft-";
 const TIMES = [20, 30, 45, 60, 90];
 
@@ -28,13 +28,15 @@ function defaultTime(timing) {
 const items = TOPICS.flatMap(t => t.questions.map((q, i) => ({
   key: `${t.number}-q${i + 1}`, topicNumber: t.number, topicTitle: t.title, category: t.category, qIndex: i,
   id: q.id, type: q.type, timing: q.timing, prompt: q.prompt, structure: pairStructure(q.structure || []),
-  patterns: (q.patterns || []).map(p => p.replace(/^"|"$/g, "")), vocabulary: q.vocabulary || [], model: cleanModel(q.modelAnswer || "")
+  patterns: (q.patterns || []).map(p => p.replace(/^"|"$/g, "")), vocabulary: q.vocabulary || [],
+  models: (q.modelAnswers && q.modelAnswers.length ? q.modelAnswers : [q.modelAnswer || ""]).map(cleanModel).filter(Boolean),
+  intro: t.intro || "", source: t.source || "", sourceUrl: t.sourceUrl || ""
 })));
 const categories = ["All", ...new Set(TOPICS.map(t => t.category))];
 
 const state = { category: "All", key: items[0] && items[0].key, duration: 45, remaining: 45, timerId: null, timerEndsAt: null,
   recording: false, segments: [], baseText: "", rawBeforeClean: null, sampleSpans: [], stopListen: null, listening: false,
-  readSampleMode: false, lastSampleSpoken: "", mindMap: null };
+  readSampleMode: false, lastSampleSpoken: "", mindMap: null, modelIdx: 0 };
 
 const $ = id => document.getElementById(id);
 const els = {};
@@ -42,15 +44,15 @@ const els = {};
   "structureList", "patternList", "vocabList", "sampleAnswer", "sampleBar", "sampleBarFill", "sampleAccuracy", "sampleLegend",
   "speakSampleButton", "readSampleButton", "toggleSampleButton", "timerDisplay", "timerControls", "recordButton", "resetButton",
   "statusLine", "transcriptBox", "wordCount", "cleanButton", "restoreButton", "copyTranscriptButton", "aiFeedbackButton",
-  "randomButton", "readQuestionButton"].forEach(id => { els[id] = $(id); });
+  "randomButton", "readQuestionButton", "sampleSwitch", "introText", "sourceLine", "headTitle"].forEach(id => { els[id] = $(id); });
 
-const nounMap = K.properNouns(items.flatMap(x => [x.prompt, x.model]));
+const nounMap = K.properNouns(items.flatMap(x => [x.prompt, ...x.models]));
 const cleanText = K.cleaner(nounMap);
 let answerRec = null, readRec = null;
 
 const current = () => items.find(x => x.key === state.key) || items[0];
 const wordsIn = t => (String(t).trim().match(/\b[\w’'-]+\b/g) || []).length;
-const shortCat = c => c.replace("School Life - Multi-Background", "Multi-Background");
+const shortCat = c => c.replace("School Life - Multi-Background", "Multi-Background").replace(/^Interview Practice · /, "");
 
 /* ---------- sidebar ---------- */
 function renderTabs() {
@@ -117,13 +119,29 @@ function renderQuestion() {
   els.patternList.innerHTML = x.patterns.map(p => `<li>${K.escapeHtml(p)}</li>`).join("");
   els.vocabList.innerHTML = x.vocabulary.map(v => `<span data-v="${K.escapeHtml(v.toLowerCase())}">${K.escapeHtml(v)}</span>`).join("");
 
-  els.sampleAnswer.innerHTML = "";
-  state.sampleSpans = K.wordSpans(els.sampleAnswer, x.model);
-  els.sampleAnswer.hidden = true;
-  els.toggleSampleButton.textContent = "Show";
-  hideSampleAccuracy();
+  els.introText.hidden = !x.intro; els.introText.textContent = x.intro ? `📋 ${x.intro}` : "";
+  els.sourceLine.hidden = !x.source;
+  els.sourceLine.innerHTML = x.source ? (x.sourceUrl ? `Source: <a href="${K.escapeHtml(x.sourceUrl)}" target="_blank" rel="noopener">${K.escapeHtml(x.source)}</a>` : `Source: ${K.escapeHtml(x.source)}`) : "";
+  state.modelIdx = 0;
+  renderSample(true);
   renderList();
   markVocab();
+}
+
+function renderSample(hide) {
+  const x = current();
+  els.sampleSwitch.innerHTML = "";
+  if (x.models.length > 1) x.models.forEach((_, i) => {
+    const b = document.createElement("button");
+    b.type = "button"; b.className = `small-button${i === state.modelIdx ? " primary-action" : ""}`;
+    b.textContent = `Sample ${i + 1}`;
+    b.addEventListener("click", () => { stopSampleActivity(); state.modelIdx = i; renderSample(false); showSample(); });
+    els.sampleSwitch.append(b);
+  });
+  els.sampleAnswer.innerHTML = "";
+  state.sampleSpans = K.wordSpans(els.sampleAnswer, x.models[state.modelIdx] || "");
+  if (hide) { els.sampleAnswer.hidden = true; els.toggleSampleButton.textContent = "Show"; }
+  hideSampleAccuracy();
 }
 
 function hideSampleAccuracy() {
@@ -323,6 +341,7 @@ els.randomButton.addEventListener("click", () => {
 window.addEventListener("hashchange", () => { const k = location.hash.slice(1); if (k && k !== state.key) select(k); });
 
 /* ---------- init ---------- */
+els.headTitle.textContent = `${TOPICS.length} Topics · ${items.length} Questions`;
 renderTabs();
 const startKey = items.some(i => i.key === location.hash.slice(1)) ? location.hash.slice(1) : (items[0] && items[0].key);
 select(startKey);
