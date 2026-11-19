@@ -1307,4 +1307,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 39, cat: "Health & lifestyle",
+    title: "Banning Smoking in All Public Places", zh: "公共場所全面禁菸",
+    question: "Should smoking be banned in all public places, including outdoor ones?", questionZh: "所有公共場所（包括戶外）都應該禁菸嗎？",
+    professor: "This week we are looking at how governments try to protect public health. Most countries already ban smoking inside restaurants, offices and public transport. Some cities have now gone further and banned smoking in outdoor public places as well, such as parks, beaches, bus stops and busy streets. Supporters say this protects non-smokers and discourages the habit, while critics argue that it goes too far. In your opinion, should smoking be banned in all public places, including outdoor ones? Why or why not?",
+    david: "I believe smoking should be banned in all public places. Second-hand smoke is harmful even outdoors, especially for children, elderly people and anyone with breathing problems. People should not have to breathe in someone else's smoke while they are waiting for a bus or walking down the street. Everyone has the right to clean air.",
+    mary: "I don't think a total ban is a good idea. Smoke disappears quickly in the open air, so the risk to other people outdoors is very small. Smoking is legal, and adults should be free to make their own choices as long as they keep away from others. Designated smoking areas would be a fairer solution than a complete ban.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "支持全面禁菸", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my opinion 依我之見 / ban smoking 禁菸 / public places 公共場所 / I agree with David that 我同意 David 所說的 / have the right to + V 有…的權利",
+          sample: "[[In my opinion,]] **smoking** [[should]] be **banned** in all **public places**, [[and I agree with David that]] everyone has the right to breathe clean air." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to … he mentioned, I would argue that 除了他提到的…之外，我會主張 / health risks 健康風險 / in the eyes of 在…眼中 / copy 模仿 / rarely 很少 / be less likely to + V 比較不可能… / pick up the habit 染上這個習慣",
+          sample: "[[In addition to]] the **health risks** [[he mentioned, I would argue that]] a ban makes smoking seem less normal in the eyes of young people. Children copy what they see, so when they rarely see adults smoking in public, they [[are less likely to]] pick up the **habit** themselves." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / used to + V 以前常… / pretend to + V 假裝 / After + S + V 在…之後 / cut down 減量 / quit 戒掉",
+          sample: "[[For example,]] my uncle [[used to]] smoke outside our building every evening, and my little cousin once pretended to smoke with a pencil. [[After]] our city banned smoking near schools and parks, he cut down and finally **quit** last year." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… argues that …主張 / designated smoking area 指定吸菸區 / However 然而 / a painted line 畫出來的線 / walk past 走過、經過 / breathe in 吸入",
+          sample: "[[Mary argues that]] **designated smoking areas** would be fairer. [[However,]] smoke does not stay inside a painted line, and people walking past still **breathe** it **in**." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I firmly believe that 基於這些理由，我堅信 / a complete ban 全面禁止 / the best way to + V …的最佳方式 / public health 公共衛生、大眾健康",
+          sample: "[[For these reasons, I firmly believe that]] a complete ban [[is the best way to]] protect **public health**." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "應設吸菸區而非全面禁止", rows: [
+        { role: "Position", zh: "表明立場", hints: "Personally, I do not think 我個人不認為 / ban 禁止 / I share Mary's view that 我和 Mary 的看法一致 / designated smoking area 指定吸菸區 / a fairer solution 比較公平的解決辦法",
+          sample: "[[Personally, I do not think]] **smoking** [[should]] be **banned** in every public place, [[and I share Mary's view that]] **designated smoking areas** are a fairer solution." },
+        { role: "New reason", zh: "補充新理由", hints: "Another point worth considering is that 另一個值得考慮的點是 / a total ban 全面禁止 / almost impossible 幾乎不可能 / enforce 執行（法律） / be widely ignored 普遍被忽視 / respect rules 尊重規定",
+          sample: "[[Another point worth considering is that]] a total ban would be almost impossible to **enforce**. The police cannot watch every park and street, and a **law** that is widely ignored only teaches people not to respect rules." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / neighborhood 社區 / playground 遊樂場 / cigarette butt 菸蒂 / By contrast 相較之下 / ashtray 菸灰缸 / smoker 吸菸者",
+          sample: "[[Take]] my neighborhood [[as an example.]] Smoking has been banned in our local park for two years, but nobody checks, so people still smoke by the playground and drop **cigarette butts**. [[By contrast,]] the train station has a clear smoking area with ashtrays, and almost every **smoker** uses it." },
+        { role: "Respond to David", zh: "回應對方", hints: "… is right that …說得對 / second-hand smoke 二手菸 / harmful 有害的 / Nevertheless 儘管如此 / well-placed 位置適當的 / entrance 入口 / non-smoker 不吸菸者 / without + V-ing 而不必 / punish 懲罰 / legal 合法的",
+          sample: "[[David is right that]] **second-hand smoke** is harmful. [[Nevertheless,]] well-placed smoking areas away from bus stops and entrances can protect **non-smokers** [[without]] punishing adults for a **legal** habit." },
+        { role: "Conclusion", zh: "結論", hints: "To sum up, I believe that 總而言之，我認為 / manage 管理 / sensibly 明智地、合理地 / rather than + V 而不是 / completely 完全地",
+          sample: "[[To sum up, I believe that]] governments [[should]] manage outdoor smoking sensibly [[rather than]] ban it completely." },
+      ] },
+    ]
+  },
 ];
