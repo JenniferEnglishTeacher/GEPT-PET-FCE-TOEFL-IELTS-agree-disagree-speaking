@@ -3,7 +3,7 @@
 One line per finished task: number | type | category | title. A task is listed only after its HTML source is committed and pushed.
 Category order — Email: Apology / Absence; Request; Complaint / Problem; Inquiry / Information; Invitation / Reply; Advice / Suggestion; Application / Job; Thanks / Follow-up. Discussion: Education; Technology & AI; Social media & influencers; Environment; Government & society; Work & economy; Health & lifestyle; Ethics & culture.
 
-## Email (37 / 40)
+## Email (38 / 40)
 01 | Email | Apology / Absence | Missing a Club Meeting 無法出席社團會議 (to Alex, club president — medical appointment, poster for recycling campaign) | toefl-master/email-apology-absence.html
 02 | Email | Request | Requesting a Recommendation Letter 請教授寫推薦信 (to Professor Wang — exchange program in Canada, deadline + résumé/transcript) | toefl-master/email-request.html
 03 | Email | Complaint / Problem | Complaining About Noise in the Library 投訴圖書館自習區太吵 (to Ms. Lin, library manager — noisy quiet study area before final exams, suggest signs / staff patrol) | toefl-master/email-complaint-problem.html
@@ -41,8 +41,9 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 35 | Email | Complaint / Problem | Complaining About a Language Course That Was Not as Advertised 投訴語言課程與廣告不符 (to Ms. Howard, director of Bright Future Language Center — ten-week evening English conversation course advertised as small classes of no more than eight, but twenty students, teacher changed three times, two lessons cancelled; why you chose the course, the problems, what you want the center to do (smaller class / refund)) | toefl-master/email-complaint-problem.html
 36 | Email | Inquiry / Information | Asking About a School Field Trip 詢問校外教學事宜 (to Ms. Reed, teacher in charge of the trip — two-day field trip to the National Museum of Marine Biology in Pingtung with an overnight stay in front of the aquarium tanks; why you are interested, the cost + what the fee includes, what to bring (sleeping bag) + how to sign up / deadline) | toefl-master/email-inquiry-information.html
 37 | Email | Invitation / Reply | Accepting an Invitation to Run a Stall at a Food Festival 接受邀請在美食節擺攤 (to Ms. Garcia, teacher who advises the International Club — invited to run a Taiwanese food stall at the school's first International Food Festival next Saturday in the gym; thank her + accept, what food you plan to prepare and why (scallion pancakes / bubble tea), ask about practical arrangements (table / stove, arrival time to set up)) | toefl-master/email-invitation-reply.html
+38 | Email | Advice / Suggestion | Giving Advice on Learning Chinese 給想學中文的筆友建議 (to Oliver, your pen pal from England — he has decided to learn Mandarin before visiting Taiwan next summer; what he will find easy / difficult (grammar vs tones and characters), learn with a teacher or by himself, one way to practice outside class (dramas with subtitles / weekly video call)) | toefl-master/email-advice-suggestion.html
 
-## Discussion (37 / 40)
+## Discussion (38 / 40)
 01 | Discussion | Education | Should STEAM courses be mandatory for all university students? 大學應該把 STEAM 課程列為全體學生的必修嗎？ | toefl-master/discussion-education.html
 02 | Discussion | Technology & AI | Will AI-generated images and videos have a positive or a negative influence on society? AI 生成的圖片與影片對社會的影響是正面還是負面？ | toefl-master/discussion-technology-ai.html
 03 | Discussion | Social media & influencers | Do social media influencers have a mainly positive or a mainly negative influence on young people? 社群媒體網紅對年輕人的影響主要是正面還是負面？ | toefl-master/discussion-social-media-influencers.html
@@ -80,6 +81,7 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 35 | Discussion | Social media & influencers | Should governments ban children under 16 from using social media? 政府應該禁止 16 歲以下的兒童使用社群媒體嗎？ | toefl-master/discussion-social-media-influencers.html
 36 | Discussion | Environment | Should governments ban single-use plastic products? 政府應該禁用一次性塑膠製品嗎？ | toefl-master/discussion-environment.html
 37 | Discussion | Government & society | Should governments require all young people to do one year of community service? 政府應該規定所有年輕人從事一年的社區服務嗎？ | toefl-master/discussion-government-society.html
+38 | Discussion | Work & economy | Should high school students have part-time jobs during the school term? 高中生應該在學期中打工嗎？ | toefl-master/discussion-work-economy.html
 
 ## Notes for the next run
 - Sample markup in the HTML sources: `<span style="background-color:#fff2a8">` = universal pattern, `<b>` = theme word.

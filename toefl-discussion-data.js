@@ -1273,4 +1273,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 38, cat: "Work & economy",
+    title: "Part-Time Jobs for High School Students", zh: "高中生打工",
+    question: "Should high school students have part-time jobs during the school term?", questionZh: "高中生應該在學期中打工嗎？",
+    professor: "This week we are discussing how young people prepare for working life. In many countries, a growing number of high school students take part-time jobs in shops, restaurants or cafés during the school term. Some parents and teachers believe that work builds character and teaches skills that schools cannot, while others worry that it takes time and energy away from studying. In your opinion, should high school students have part-time jobs during the school term? Why or why not?",
+    david: "I think high school students should have part-time jobs. When teenagers earn their own money, they learn its real value and think more carefully before spending it. A job also teaches them to be on time and to be responsible, because a manager and customers are depending on them. These lessons cannot be learned from a textbook.",
+    mary: "I disagree. A part-time job takes away the time and energy that teenagers need for schoolwork. After working an evening shift, students are too tired to do their homework or concentrate in class the next day. Teenagers have their whole lives to work, but only a few years to get a good education, so school should come first.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "應該打工", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my view 依我看 / part-time job 兼職、打工 / I agree with David that 我同意 David 所說的 / earn 賺取 / the value of money 金錢的價值",
+          sample: "[[In my view,]] high school students [[should]] have **part-time jobs**, [[and I agree with David that]] **earning** money teaches teenagers its real value." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to David's point, I would argue that 除了 David 的論點之外，我會主張 / discover 發現 / career 職業 / suit 適合 / colleague 同事 / communication skills 溝通能力 / be good at 擅長 / major 主修",
+          sample: "[[In addition to David's point, I would argue that]] a part-time job helps students discover what kind of **career** suits them. Working with real customers and **colleagues** develops **communication skills** and shows teenagers what they are good at before they choose a university major." },
+        { role: "Example", zh: "舉例", hints: "For instance 例如 / bakery 麵包店 / deal with customers 應對顧客 / far more than she had expected 遠超出她的預期 / hotel management 飯店管理",
+          sample: "[[For instance,]] my older sister worked at a bakery every Saturday when she was seventeen. She found that she enjoyed dealing with **customers** far more than she had expected, so she decided to study hotel management." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary is concerned that Mary 擔心 / While this may be true for 雖然對…來說這或許沒錯 / shift 班、輪班 / at the weekend 在週末 / do little harm to 對…幾乎無害 / schoolwork 課業",
+          sample: "[[Mary is concerned that]] a job leaves students too tired to study. [[While this may be true for]] those who work every evening, a short **shift** at the weekend does little harm to **schoolwork**." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I am convinced that 基於這些理由，我確信 / limited 有限度的 / a valuable part of …中寶貴的一部分 / grow up 長大",
+          sample: "[[For these reasons, I am convinced that]] a limited part-time job [[is a valuable part of]] growing up." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "學期中不應該打工", rows: [
+        { role: "Position", zh: "表明立場", hints: "From my perspective 從我的角度來看 / school term 學期 / side with … on this issue 在這個議題上支持…",
+          sample: "[[From my perspective,]] high school students [[should not]] work during the **school term**, [[so I side with Mary on this issue.]]" },
+        { role: "New reason", zh: "補充新理由", hints: "Apart from … that Mary mentioned, I would add that 除了 Mary 提到的…之外，我想補充 / tiredness 疲倦 / harm 損害 / social life 社交生活 / have little time left for 幾乎沒有時間留給 / all of which 這些全都 / essential 不可或缺的",
+          sample: "[[Apart from]] the tiredness [[that Mary mentioned, I would add that]] **part-time jobs** can harm teenagers' health and **social lives**. Students who spend their evenings working have little time left for sleep, exercise or friends, [[all of which are essential]] at their age." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / convenience store 便利商店 / three nights a week 一週三個晚上 / Since then 從那時起 / quit 退出 / fall asleep 睡著 / grades 成績 / drop sharply 急遽下滑",
+          sample: "[[Take]] my classmate Jason [[as an example.]] He started working at a **convenience store** three nights a week last year. [[Since then,]] he has quit the basketball team, he often falls asleep in class, and his **grades** have dropped sharply." },
+        { role: "Respond to David", zh: "回應對方", hints: "Admittedly, … is right that 不可否認，…說得對 / the value of money 金錢的價值 / However, this lesson can also be learned by + V-ing 然而這一課也可以透過…學到 / manage 管理 / allowance 零用錢 / summer vacation 暑假 / without + V-ing 而不必 / sacrifice 犧牲",
+          sample: "[[Admittedly, David is right that]] a job teaches the value of money. [[However, this lesson can also be learned by]] managing a monthly **allowance** or working during the summer vacation, without sacrificing **schoolwork**." },
+        { role: "Conclusion", zh: "結論", hints: "Overall, I believe that 整體而言，我認為 / focus on 專注於 / as 因為 / there will be plenty of time to + V 將來有很多時間可以",
+          sample: "[[Overall, I believe that]] teenagers [[should]] focus on school first, [[as]] there will be plenty of time to work later." },
+      ] },
+    ]
+  },
 ];
