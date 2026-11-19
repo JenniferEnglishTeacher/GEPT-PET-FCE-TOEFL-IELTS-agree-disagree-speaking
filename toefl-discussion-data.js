@@ -1103,4 +1103,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 33, cat: "Education",
+    title: "Abolishing Homework", zh: "廢除回家作業",
+    question: "Should schools abolish homework?", questionZh: "學校應該廢除回家作業嗎？",
+    professor: "This week we are discussing how students learn outside the classroom. In many countries, students spend two or three hours on homework every evening after a full day at school. Some educators argue that homework causes stress and brings few real benefits, and a number of schools in Europe and North America have already stopped assigning it. Others believe that regular practice at home is essential for learning. In your opinion, should schools abolish homework? Why or why not?",
+    david: "I think homework should be abolished. After seven or eight hours of lessons, students are exhausted, and more work in the evening only causes stress and takes away their sleep. Children need free time to rest and to be with their families. If lessons are taught well, students can do all the practice they need during school hours.",
+    mary: "I disagree. Homework helps students remember what they learned in class; without practice, it is easy to forget new vocabulary and math rules. As the saying goes, practice makes perfect. Homework also teaches students to manage their time and to work on their own, and these skills will be very useful when they go to university.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "支持廢除回家作業", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my opinion 依我之見 / abolish 廢除 / homework 回家作業 / I agree with David that 我同意 David 所說的 / cause stress 造成壓力",
+          sample: "[[In my opinion,]] schools should **abolish** **homework**, [[and I agree with David that]] it causes more stress than learning." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides the reasons … gave, I would point out that 除了…提出的理由之外，我想指出 / unfair 不公平的 / private tutor 家教 / while 而 / As a result 結果 / measure 衡量 / resources 資源 / rather than 而不是 / effort 努力",
+          sample: "[[Besides the reasons David gave, I would point out that]] homework is unfair. Some students have a quiet room and private **tutors** to help them, [[while]] others have neither. [[As a result,]] homework often measures a family's **resources** [[rather than]] a student's effort." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / run a noodle shop 經營麵店 / assignment 作業 / clever 聰明的 / lose marks 被扣分 / unfinished 未完成的",
+          sample: "[[Take my classmate Kevin as an example.]] His parents run a noodle shop, so he helps there every evening and can only start his **assignments** after ten o'clock. Although he is clever, he loses marks for unfinished work." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… believes that …認為 / While this may be true to some extent 雖然這在某種程度上是對的 / practice 練習 / guided practice 有老師引導的練習 / A is better than B A 比 B 好 / copying 抄寫",
+          sample: "[[Mary believes that]] homework helps students remember their lessons. [[While this may be true to some extent,]] the same **practice** could be done in class, where a teacher can help everyone. A little **guided practice** [[is better than]] a lot of copying." },
+        { role: "Conclusion", zh: "結論", hints: "To sum up 總而言之 / happen 發生、進行 / belong to 屬於",
+          sample: "[[To sum up,]] learning should happen at school, and evenings should belong to students and their families." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "反對廢除回家作業", rows: [
+        { role: "Position", zh: "表明立場", hints: "I am on …'s side 我站在…這一邊 / I do not think that 我不認為 / abolish 廢除 / play an important role in 在…中扮演重要角色",
+          sample: "[[I am on Mary's side.]] [[I do not think that]] **homework** should be **abolished**, [[because]] it [[plays an important role in]] learning." },
+        { role: "New reason", zh: "補充新理由", hints: "What … did not mention is that …沒有提到的是 / valuable 寶貴的 / feedback 回饋 / mark 批改 / assignment 作業 / Without … 如果沒有… / remain hidden 一直沒被發現 / until 直到",
+          sample: "[[What Mary did not mention is that]] homework gives teachers valuable **feedback**. When a teacher marks **assignments**, she can see which ideas the class has not understood and explain them again. [[Without]] homework, these problems would remain hidden until the exam, when it is too late." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / notice 注意到 / solve 解（題） / fraction 分數 / spend … on 花（時間）在 / improve a great deal 大幅進步",
+          sample: "[[For example,]] my math teacher noticed from our homework that half the class could not solve **fraction** problems. She spent one more lesson on them, and our next test scores improved a great deal." },
+        { role: "Respond to David", zh: "回應對方", hints: "… says that …說 / take away 奪走 / I see his point, but 我明白他的意思，但 / the real problem is A, not B 真正的問題是 A 而不是 B / amount 份量 / set a limit of 設定…的上限 / instead of + V-ing 而不是 / completely 完全地",
+          sample: "[[David says that]] homework causes stress and takes away students' sleep. [[I see his point, but the real problem is]] the **amount**, not homework itself. Schools could set a limit of thirty minutes [[instead of]] removing it completely." },
+        { role: "Conclusion", zh: "結論", hints: "In short 簡而言之 / design 設計 / should not + V 不應該",
+          sample: "[[In short,]] schools should give less homework and design it better, but they should not abolish it." },
+      ] },
+    ]
+  },
 ];
