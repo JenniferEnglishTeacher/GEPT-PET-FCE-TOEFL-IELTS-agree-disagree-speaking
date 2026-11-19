@@ -13769,6 +13769,516 @@ window.IELTS_PART2 = [
     "a": "**It can be risky.** **On the one hand,** a business can earn a lot of money very quickly if it jumps on a trend early. **On the other hand,** if it spends too much on decoration or equipment, it might lose everything when the trend ends. **So** I think smart businesses add trendy products **without** changing their whole identity."
    }
   ]
+ },
+ {
+  "id": "media-1",
+  "theme": "Books, Films & Memes",
+  "themeZh": "書籍、影視與迷因",
+  "setLabel": "Set 1",
+  "title": "Describe a meme that made you laugh.",
+  "cues": [
+   "what the meme was",
+   "where you saw it",
+   "who you shared it with",
+   "and explain why you found it so funny."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "“woman yelling at a cat” meme → 2 photos side by side, went viral 2019"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "left: crying, angry woman pointing (US reality show); right: white cat at dinner table, plate of salad, confused face; cat = Smudge, from Canada"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "cousin sent it in family LINE group → caption: mum asking “who ate the last zongzi?” + me as cat; laughed so hard on MRT → people stared"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "funny b/c contrast: big drama vs calm cat; everyone knows both feelings; still use it in class chat → shows how memes connect people"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the meme I’d like to talk about is a really famous one called “woman yelling at a cat”. **Basically,** it’s two photos put side by side. It went viral around 2019, **and** I’d say it’s still one of the most popular memes online, **even though** it’s now quite a few years old.",
+   "**To describe it,** on the left there’s a woman from an American reality show who is crying and pointing angrily at someone. **Then** on the right, there’s a white cat sitting at a dinner table in front of a plate of salad, with a really confused, slightly annoyed expression. **Apparently,** the cat is called Smudge and lives in Canada, **and** he just happened to hate vegetables. **The funny thing is that** the two photos have nothing to do with each other, **but** together they look like a real argument.",
+   "**The first time I saw it** was in my family’s LINE group. My cousin had added a caption, so the woman was my mum shouting “Who ate the last rice dumpling?” **and** the cat was me. **At that moment** I was on a crowded MRT train, and I burst out laughing so loudly that a few people turned round and stared at me. **Of course,** I immediately forwarded it to my best friend from university.",
+   "**Looking back,** I think it’s funny **because of** the contrast between the huge drama on one side and the calm, puzzled cat on the other. **On top of that,** everyone knows both feelings: sometimes we’re the angry one, and sometimes we’re the confused one. **Even now,** my classmates use it in our group chat, so it reminds me how a silly picture can bring people together."
+  ],
+  "followUps": [
+   {
+    "q": "Why do people enjoy sharing funny pictures online?",
+    "a": "**I think** sharing a joke is a quick way to stay in touch. **For example,** sending a meme to an old friend is easier than writing a long message. **On top of that,** when someone laughs at the same thing as you, it feels like you understand each other, **so** it strengthens friendships."
+   },
+   {
+    "q": "Can memes ever be harmful?",
+    "a": "**Unfortunately,** yes. **For instance,** some memes make fun of real people who never agreed to be famous, and that can be really hurtful. **In addition,** false information is sometimes hidden inside a funny picture, **so** people believe it without checking. **That’s why** I think we should think twice before we share something."
+   },
+   {
+    "q": "Is a sense of humour important in daily life?",
+    "a": "**Absolutely,** in my opinion. **First of all,** humour helps people deal with stress, **especially** in a busy city like Taipei. **It also** makes it easier to talk to strangers or new colleagues. **Having said that,** you need to know your audience, because a joke that works with friends might sound rude at work."
+   }
+  ]
+ },
+ {
+  "id": "media-2",
+  "theme": "Books, Films & Memes",
+  "themeZh": "書籍、影視與迷因",
+  "setLabel": "Set 2",
+  "title": "Describe a viral video that you shared with your friends.",
+  "cues": [
+   "what happened in the video",
+   "where you first saw it",
+   "who you shared it with",
+   "and explain why you wanted to share it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "short clip on Instagram Reels → little girl at a night market tries stinky tofu for 1st time; ~30 s long"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "dad filming; she sniffs → disgusted face → tiny bite → eyes wide → “Again!”; millions of views + comments in many languages"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "saw it in bed late at night → sent to uni group chat + English friend in London who hates stinky tofu → he replied w/ 10 laughing emojis"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "pure, real reaction, no script; shows TW food culture → proud + made us all smile on a stressful exam week"
+   }
+  ],
+  "sample": [
+   "**Alright, so** the video I want to talk about is a short clip I saw on Instagram Reels about a year ago. **Basically,** it shows a little girl, probably around four years old, trying stinky tofu for the first time at a night market. It’s only about thirty seconds long, **but** it got millions of views, **and** I can’t remember who posted it, **so** I think it was just an ordinary parent.",
+   "**To describe what happens,** her dad is filming as a plate of crispy stinky tofu arrives. **First,** she leans forward to sniff it and pulls the most disgusted face you can imagine. **Then,** very carefully, she takes a tiny bite. **Suddenly,** her eyes go wide, she smiles, and she shouts, “Again!” **What I loved is that** the comments were in so many different languages, because people all over the world were laughing at the same moment.",
+   "**I first saw it** late one night when I was lying in bed and scrolling on my phone. **Straight away,** I sent it to my university group chat, and within a few minutes everyone was replying with crying-laughing emojis. **I also** forwarded it to an English friend in London who visited Taiwan once and absolutely hated stinky tofu. **Funnily enough,** he replied with ten laughing faces and said the little girl was braver than him.",
+   "**Thinking about it now,** I wanted to share it because it was so real. There was no script and no fancy editing, **just** a child’s honest reaction. **On top of that,** it showed a fun side of Taiwanese food culture, so I felt a bit proud. **Most importantly,** it was exam week, and it made all of us smile when we really needed it."
+  ],
+  "followUps": [
+   {
+    "q": "Why do some videos go viral while others don’t?",
+    "a": "**Generally speaking,** viral videos make people feel something strong very quickly, **like** surprise or joy. **For example,** a funny reaction in the first few seconds keeps people watching. **Also,** short videos are easy to share, **and** platforms push popular clips to even more users, so they spread faster and faster."
+   },
+   {
+    "q": "Is it right for parents to post videos of their children online?",
+    "a": "**This is a tricky question.** **On the one hand,** parents want to share happy moments with family and friends. **On the other hand,** the child can’t really agree, and the video might follow them for years. **Personally,** I think parents should keep most clips private **unless** the child is old enough to decide."
+   },
+   {
+    "q": "How do short videos affect the way people spend their free time?",
+    "a": "**Well,** I’d say they take up much more time than people realise. **For instance,** you open an app for five minutes and suddenly an hour has gone. **As a result,** some people read less or sleep later. **However,** short videos can also be educational, **so** it depends on what you watch."
+   }
+  ]
+ },
+ {
+  "id": "media-3",
+  "theme": "Books, Films & Memes",
+  "themeZh": "書籍、影視與迷因",
+  "setLabel": "Set 3",
+  "title": "Describe a book that you would recommend to a teenager.",
+  "cues": [
+   "what the book is",
+   "what it is about",
+   "how you first came across it",
+   "and explain why you think teenagers should read it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Wonder by R. J. Palacio → American novel, 2012; easy English, short chapters; film 2017"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "Auggie, 10 y/o boy, born w/ a facial difference → home-schooled → 1st year at real school; parts told by different characters: sister, best friend"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "English teacher gave it to me in junior high → read w/ dictionary; cried at Halloween chapter → friend says something cruel behind his back"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "teaches kindness + seeing from others’ view; teens care about looks + fitting in → this book helps; gave a copy to my 13 y/o cousin"
+   }
+  ],
+  "sample": [
+   "**Well,** the book I’d recommend to a teenager is Wonder, by the American writer R. J. Palacio. It came out in 2012, **and** a few years later it was made into a film as well. **The great thing is that** the English is quite simple and the chapters are really short, so it’s perfect for students in Taiwan who are learning English too.",
+   "**In terms of the story,** it’s about a ten-year-old boy called Auggie, who was born with a facial difference and has had lots of operations. **Because of that,** he has always been home-schooled, but now he has to start at a real school for the first time. **What makes it special is that** some parts are told by other characters, **like** his older sister and his new best friend. **As a result,** you see the same events from completely different points of view.",
+   "**I first came across it** in junior high, **when** my English teacher lent me her copy. **At first,** I read it slowly with a dictionary next to me. **However,** I soon got so involved that I stayed up late to finish it. **I still remember** one chapter around Halloween, **where** Auggie hears his friend saying something cruel about him behind his back. **To be honest,** I actually cried, because I’d done similar things myself.",
+   "**For me,** teenagers should read it because it teaches kindness in a very natural way, without preaching. **At that age,** people worry a lot about appearance and fitting in, so the book really speaks to them. **In fact,** I bought a copy for my thirteen-year-old cousin last Christmas, and she finished it in just two days."
+  ],
+  "followUps": [
+   {
+    "q": "Why do many teenagers read less than before?",
+    "a": "**I think** the biggest reason is that phones offer faster entertainment. **For example,** a short video gives you a laugh in ten seconds, **while** a book needs patience. **On top of that,** Taiwanese students have so much homework and so many exams **that** reading for fun often feels like a luxury."
+   },
+   {
+    "q": "Should schools let students choose what books they read?",
+    "a": "**To some extent,** yes. **For one thing,** students are more motivated when they pick a topic they actually enjoy. **For another,** forcing everyone to read the same classic can make reading feel like a chore. **Having said that,** teachers should still guide them **so** they discover books outside their comfort zone."
+   },
+   {
+    "q": "Are paper books better than e-books for young people?",
+    "a": "**Personally,** I prefer paper books for young readers. **First of all,** there are no notifications to distract you. **Also,** some research suggests people remember more from paper, **although** I’m not sure how strong that evidence is. **On the other hand,** e-books are cheaper and lighter, so both have their place."
+   }
+  ]
+ },
+ {
+  "id": "media-4",
+  "theme": "Books, Films & Memes",
+  "themeZh": "書籍、影視與迷因",
+  "setLabel": "Set 4",
+  "title": "Describe a film adapted from a book that you have seen.",
+  "cues": [
+   "what the film and the book are",
+   "what the story is about",
+   "whether you read the book or saw the film first",
+   "and explain which version you preferred."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "You Are the Apple of My Eye 那些年，我們一起追的女孩 → TW film 2011; based on writer Giddens Ko’s own novel; he directed it too"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "1990s high school in Changhua; naughty boy Ko Ching-teng falls for top student Shen Chia-yi; she makes him study → growing up, first love"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "read novel in senior high (borrowed from classmate) → saw film on DVD w/ friends after exams; ending → whole room silent"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "prefer film: actors + music + school uniforms → feels real; book has more inner thoughts; both = nostalgia for school days"
+   }
+  ],
+  "sample": [
+   "**Okay, so** I’d like to talk about the Taiwanese film You Are the Apple of My Eye, which came out in 2011. **Interestingly,** it’s based on a novel by the writer Giddens Ko, **and** he actually directed the film himself, **which** is pretty unusual. **As far as I know,** it was a huge hit not only in Taiwan but also in places like Hong Kong.",
+   "**As for the story,** it takes place in a high school in Changhua in the 1990s. **The main character** is a cheeky, lazy boy called Ko Ching-teng, who falls for Shen Chia-yi, the top student in his class. **To keep him out of trouble,** she makes him study with her every night, **and** slowly they become very close. **At its heart,** though, it’s really a story about growing up and the first love that you never quite forget.",
+   "**In my case,** I read the book first, **back when** I was in senior high. A classmate lent it to me, **and** we passed it around the whole class until the cover fell off. **A few months later,** after our final exams, five of us watched the film on DVD at a friend’s house. **When the ending came,** the whole room went completely silent, and I noticed even the boys were wiping their eyes.",
+   "**Comparing the two,** I’d say I prefer the film. The actors, the old school uniforms and the music make it feel incredibly real and nostalgic. **Of course,** the novel has more of the boy’s inner thoughts, so it’s funnier in places. **Overall, though,** both versions remind me of my own school days, and that’s why I still love them."
+  ],
+  "followUps": [
+   {
+    "q": "Why do film-makers often turn books into films?",
+    "a": "**Well,** I think it’s mainly about lowering the risk. **For example,** if a novel is already popular, the film starts with a ready-made audience. **In addition,** a good book has a tested story and well-developed characters. **So basically,** producers know there is a good chance of making money."
+   },
+   {
+    "q": "Is it better to read the book before watching the film?",
+    "a": "**Personally,** I think so. **First of all,** when you read, you create the characters in your own imagination. **However,** if you watch the film first, the actors’ faces stay in your head. **On the other hand,** a great film can also encourage people to pick up the original book, **so** both orders work."
+   },
+   {
+    "q": "Why do people often say the book is better than the film?",
+    "a": "**I’d say** it’s because a book has much more space. **For instance,** a novel can spend pages on a character’s feelings, **while** a film has only about two hours. **As a result,** some scenes are cut, and fans feel something important is missing. **Plus,** nothing matches your own imagination."
+   }
+  ]
+ },
+ {
+  "id": "media-5",
+  "theme": "Books, Films & Memes",
+  "themeZh": "書籍、影視與迷因",
+  "setLabel": "Set 5",
+  "title": "Describe a character from a book, film or series that you like.",
+  "cues": [
+   "who the character is",
+   "what story he or she appears in",
+   "what the character is like",
+   "and explain why you like this character."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Uncle Iroh → animated series Avatar: The Last Airbender (US, 2005–2008)"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "world of 4 nations + bending elements; Iroh = retired general of Fire Nation, uncle of angry exiled prince Zuko; loves tea, music, food"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "watched whole series during uni summer break on streaming; scene where he sings a sad song under a tree → my roommate + me in tears"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "patient, wise, never gives up on Zuko; reminds me of my grandpa; his advice → slow down, enjoy small things like a cup of tea"
+   }
+  ],
+  "sample": [
+   "**Right, so** the character I’d like to talk about is Uncle Iroh from the American animated series Avatar: The Last Airbender. It was first shown between 2005 and 2008, **but** I only discovered it a few years ago. **At first** I thought it was just a cartoon for kids, **but** it turned out to be one of the most moving stories I’ve ever watched.",
+   "**To give you some background,** the series is set in a world of four nations, **where** some people can control water, earth, fire or air. **Iroh** is a retired general from the Fire Nation, and he travels with his nephew, Zuko, an angry teenage prince who has been sent away from home. **On the surface,** Iroh seems like a funny old man who just loves tea, music and good food. **However,** he’s actually incredibly wise and powerful.",
+   "**I watched the whole series** during a summer break at university, **mostly** with my roommate on a streaming platform. **One scene** I’ll never forget is when Iroh sits alone under a tree on the anniversary of his son’s death and quietly sings a sad song. **To be honest,** neither of us said a word, and we were both in tears. **After that episode,** I saw him as much more than a comedy character.",
+   "**The main reason I like him** is his patience. **Even though** Zuko is rude and makes terrible choices, Iroh never gives up on him. **In a way,** he reminds me of my own grandpa. **On top of that,** he teaches me to slow down and enjoy small things, so whenever I’m stressed, I make myself a cup of oolong tea and think of him."
+  ],
+  "followUps": [
+   {
+    "q": "Why do people become attached to fictional characters?",
+    "a": "**I think** it’s because we spend so much time with them. **For example,** if you watch a series for months, the characters almost feel like friends. **In addition,** we often see parts of ourselves in their problems. **So** when something happens to them, **it** feels surprisingly personal."
+   },
+   {
+    "q": "Are cartoons only for children?",
+    "a": "**Not at all, in my view.** **Of course,** many cartoons are made for kids. **However,** a lot of animated films and series deal with serious topics like war, loss and family. **In fact,** Japanese anime has huge adult audiences in Taiwan, **so** I think the idea that cartoons are childish is a bit old-fashioned."
+   },
+   {
+    "q": "Can characters in stories be good role models?",
+    "a": "**Definitely,** to some extent. **For instance,** a brave or kind character can inspire young people to act in a similar way. **On the other hand,** fictional heroes are sometimes unrealistic, **so** children need adults to help them see the difference. **Ideally,** stories should show characters who make mistakes and learn from them."
+   }
+  ]
+ },
+ {
+  "id": "media-6",
+  "theme": "Books, Films & Memes",
+  "themeZh": "書籍、影視與迷因",
+  "setLabel": "Set 6",
+  "title": "Describe a film that made you cry.",
+  "cues": [
+   "what the film was",
+   "what it was about",
+   "when and where you watched it",
+   "and explain why it made you so emotional."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Coco → Pixar animated film, 2017; Mexican Day of the Dead"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "12 y/o Miguel loves music but family bans it → ends up in colourful Land of the Dead → must get family blessing; great-grandma Mama Coco + old song"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "watched at cinema w/ mum, 1 yr after grandpa passed away; final scene → Miguel sings to Mama Coco → mum + me crying, passed tissues"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "about remembering family who died → like TW Tomb Sweeping + ancestor photos at home; sad but comforting; still can’t watch the end w/o tissues"
+   }
+  ],
+  "sample": [
+   "**Well,** the film that made me cry the most is Coco, the Pixar animated film from 2017. **At first glance,** it looks like a bright, colourful film for children, **but** I’d say it’s actually one of the most emotional films I’ve ever seen. It’s set in Mexico, around a festival called the Day of the Dead, **when** families remember relatives who have passed away.",
+   "**In terms of the plot,** it’s about a twelve-year-old boy called Miguel who loves music, **but** his family has banned it for generations. **Then,** on the night of the festival, he accidentally ends up in the Land of the Dead, which is full of glowing bridges, flowers and friendly skeletons. **To get home,** he needs a blessing from his dead relatives. **Meanwhile,** back in the real world, his very old great-grandmother, Mama Coco, is slowly forgetting everything.",
+   "**I watched it** at a cinema in Ximending with my mum, **about** a year after my grandpa passed away. **To be honest,** I didn’t know much about the story beforehand. **In the final scene,** Miguel sings an old song to Mama Coco, and suddenly she starts to remember her father. **At that point,** both my mum and I were crying so much that we kept passing a packet of tissues back and forth.",
+   "**Looking back,** I think it hit me so hard because it’s all about remembering family members who have died. **In a way,** it’s similar to Tomb Sweeping Day in Taiwan, or the photos of ancestors that many families keep at home. **So** it was sad, but also strangely comforting. **Even now,** I can’t watch the ending without tissues."
+  ],
+  "followUps": [
+   {
+    "q": "Why do people enjoy watching sad films?",
+    "a": "**Interestingly,** I think sad films give us a safe way to feel strong emotions. **For example,** crying at a film can actually make you feel lighter afterwards. **In addition,** sad stories often make us appreciate our own families more. **So** even though they hurt, **they** can be quite healing."
+   },
+   {
+    "q": "Is it acceptable for adults to cry in public?",
+    "a": "**Of course,** in my opinion. **Traditionally,** many people in Taiwan, especially men, were taught to hide their feelings. **However,** attitudes are changing, **and** people now understand that crying is a normal human reaction. **Personally,** I’d rather see someone cry at a film than pretend they feel nothing."
+   },
+   {
+    "q": "Do films help people understand other cultures?",
+    "a": "**Definitely.** **For instance,** before Coco I knew almost nothing about Mexican traditions. **Besides,** films let you see how people live, eat and celebrate in a very natural way. **Having said that,** films sometimes show stereotypes, **so** we should still read and travel to get the full picture."
+   }
+  ]
+ },
+ {
+  "id": "media-7",
+  "theme": "Books, Films & Memes",
+  "themeZh": "書籍、影視與迷因",
+  "setLabel": "Set 7",
+  "title": "Describe a YouTube channel that you watch regularly.",
+  "cues": [
+   "what the channel is",
+   "what kind of videos it makes",
+   "when and how often you watch it",
+   "and explain why you enjoy watching it."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Kurzgesagt – In a Nutshell → science channel, animation studio in Germany; name = “in short” in German"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "~10–15 min animated videos; cute round birds as characters; topics: black holes, immune system, what if the sun disappeared; bright colours + calm narrator"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "found it in senior high when stuck on biology homework (immune system) → understood in 10 min; now 1 new video ~ every few weeks → watch on MRT w/ earphones"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "turns hard science into stories; also English listening practice; sometimes scary topics → makes me feel small but curious"
+   }
+  ],
+  "sample": [
+   "**Okay, so** a YouTube channel I watch all the time is called Kurzgesagt – In a Nutshell. **In case you don’t know it,** it’s a science channel made by an animation studio in Germany. **Apparently,** “kurzgesagt” means something like “in short” in German, **which** fits perfectly, **because** they explain huge topics in a really short time.",
+   "**As for the videos,** they’re usually around ten to fifteen minutes long and completely animated. **Most of the characters** are cute little round birds, which makes even serious subjects feel friendly. **For example,** they’ve made videos about black holes, the human immune system, and what would happen if the sun suddenly disappeared. **On top of that,** the colours are really bright **and** the narrator has a very calm voice, so it’s relaxing to watch.",
+   "**I first found the channel** in senior high, **when** I was completely stuck on a biology assignment about the immune system. **To my surprise,** one video explained in ten minutes what my textbook couldn’t explain in a whole chapter. **Since then,** I’ve watched almost every new video. **These days,** I usually watch them on the MRT on my way to work with my earphones in, and I often rewatch my favourite old ones at the weekend while I’m having breakfast.",
+   "**What I love most is that** they turn difficult science into stories. **Besides that,** it’s great English listening practice, since the vocabulary is quite advanced. **Sometimes,** the topics about space make me feel tiny and a bit scared, but at the same time, they make me much more curious about the world."
+  ],
+  "followUps": [
+   {
+    "q": "Can people really learn things from YouTube?",
+    "a": "**Absolutely,** I’d say. **For example,** I’ve learned to fix my bike and cook several dishes just from videos. **In addition,** visual explanations are often easier to follow than textbooks. **However,** anyone can upload a video, **so** viewers need to check whether the information comes from a reliable source."
+   },
+   {
+    "q": "Should teachers use online videos in class?",
+    "a": "**In my opinion,** yes, but in moderation. **On the one hand,** a short video can make a boring topic come alive and grab students’ attention. **On the other hand,** if teachers rely on videos too much, students might stop thinking for themselves. **So** a five-minute clip followed by discussion works best."
+   },
+   {
+    "q": "Why do many young people prefer YouTube to television?",
+    "a": "**Mainly** because they can choose what they want, when they want. **For instance,** on television you have to follow a fixed schedule. **On YouTube,** however, you can watch on your phone anywhere. **On top of that,** there are channels for almost every hobby, **which** television simply can’t offer."
+   }
+  ]
+ },
+ {
+  "id": "media-8",
+  "theme": "Books, Films & Memes",
+  "themeZh": "書籍、影視與迷因",
+  "setLabel": "Set 8",
+  "title": "Describe a film or TV series from your country that became popular abroad.",
+  "cues": [
+   "what it is",
+   "what the story is about",
+   "how you know it became popular in other countries",
+   "and explain how you feel about its success."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Someday or One Day 想見你 → TW drama 2019–2020; stars Alice Ko + Greg Hsu"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "woman misses her dead boyfriend → travels back to late 1990s in southern TW through an old cassette player + Wu Bai’s song Last Dance; romance + mystery"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "binge-watched w/ roommates, couldn’t stop guessing the twist; later → film version 2022 + Korean remake on Netflix 2023 (A Time Called You) → Korean friend asked me about the original"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "proud → small island’s story travels; shows TW can make creative, quality dramas; hope more TW shows go global"
+   }
+  ],
+  "sample": [
+   "**Alright, so** I’d like to talk about a Taiwanese drama called Someday or One Day. It was first broadcast in 2019 and 2020, **and** it starred Alice Ko and Greg Hsu. **As far as I know,** it became a real hit, **not only** in Taiwan **but also** in other parts of Asia, **which** doesn’t happen to Taiwanese series very often.",
+   "**Basically,** the story is about a young woman who can’t get over the death of her boyfriend. **Then one day,** she listens to an old cassette tape and suddenly wakes up in the late 1990s, in southern Taiwan, inside the body of a high-school girl. **What makes it special is that** the time travel is connected to an old song by the rock singer Wu Bai, called Last Dance. **As a result,** it’s partly a romance and partly a mystery.",
+   "**I watched it** with my roommates during a long weekend, and we literally couldn’t stop. **Every time** an episode ended, we argued about the twist and tried to guess what would happen next. **Later on,** a film version was released in 2022, and in 2023 Netflix released a Korean remake called A Time Called You. **In fact,** a Korean friend of mine messaged me afterwards to ask where she could watch the original.",
+   "**For me,** its success makes me really proud. **After all,** Taiwan is a small island, and our dramas usually get less attention than Korean or Japanese ones. **So** seeing our story travel so far shows that Taiwan can make creative, high-quality TV. **Hopefully,** this will encourage more studios to aim for international audiences."
+  ],
+  "followUps": [
+   {
+    "q": "Why do some countries’ films and series become popular worldwide?",
+    "a": "**I think** government support and big budgets play a role. **For example,** South Korea has invested a lot in its entertainment industry for years. **Also,** streaming platforms now make it easy to add subtitles in dozens of languages. **Most importantly,** though, the story itself has to touch people everywhere."
+   },
+   {
+    "q": "Is it a good thing when a foreign company remakes a local story?",
+    "a": "**Generally,** I see it as positive. **For one thing,** a remake introduces the original story to a much bigger audience. **For another,** many viewers then go back and watch the original version. **The only risk** is that the remake changes the story so much **that** its local culture disappears."
+   },
+   {
+    "q": "How can the film industry in a small country compete internationally?",
+    "a": "**Well,** it shouldn’t try to copy Hollywood. **Instead,** it should focus on stories that only it can tell, **like** local history or everyday family life. **In addition,** working with international streaming platforms can help. **On top of that,** film festivals are a great way to get noticed abroad."
+   }
+  ]
+ },
+ {
+  "id": "media-9",
+  "theme": "Books, Films & Memes",
+  "themeZh": "書籍、影視與迷因",
+  "setLabel": "Set 9",
+  "title": "Describe why memes spread so quickly online.",
+  "cues": [
+   "what memes are",
+   "an example of a meme that spread quickly",
+   "who usually shares them",
+   "and explain what effects this has on society."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "meme = funny picture/short video + caption, copied + changed by many people; spread in hours"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "causes: short + easy to understand; shared w/ 1 tap; platforms push popular posts; people add own version → personal; humour + relatable feelings (Mon. morning, exams)"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "example: during COVID our gov’t used a cute Shiba Inu dog in posts → wash hands, don’t panic-buy → everyone shared, even my parents"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "effects: + connect people, simple messages spread fast; – fake info + jokes hurt real people + shorter attention span → think before sharing"
+   }
+  ],
+  "sample": [
+   "**Okay, so** I’d like to talk about why memes spread so fast online. **First of all,** a meme is usually a funny picture or short video with a caption, **and** the key thing is that lots of people copy it and change it slightly. **Nowadays,** a good meme can travel from one country to the other side of the world in just a few hours.",
+   "**In my view,** there are several causes. **To begin with,** memes are short and easy to understand, so you get the joke in about two seconds. **On top of that,** sharing takes just one tap, and social media platforms tend to push popular posts to even more people. **Another reason is that** anyone can make their own version, which makes it feel personal. **Most of all,** memes describe feelings everybody has, **like** Monday mornings or exam stress.",
+   "**A good example** comes from the COVID period. **Back then,** the Taiwanese government started posting memes featuring a cute Shiba Inu dog to remind people to wash their hands and not to panic-buy toilet paper. **Surprisingly,** they spread incredibly quickly, and even my parents, who rarely share anything online, forwarded them to our family LINE group. **In other words,** a joke became a very effective way to share serious advice.",
+   "**As for the effects,** I’d say they’re mixed. **On the positive side,** memes connect people and help simple messages spread fast. **On the other hand,** false information can spread just as quickly, and some jokes hurt real people. **So overall,** I think we should all think for a second before we press “share”."
+  ],
+  "followUps": [
+   {
+    "q": "Should governments and companies use memes to communicate?",
+    "a": "**To some extent,** yes. **For example,** a funny post is much more likely to be read than a long official notice. **However,** if they use humour for very serious topics, it might seem disrespectful. **So** I think memes work best for simple reminders, **not** for complicated policies."
+   },
+   {
+    "q": "How can people tell whether information online is true?",
+    "a": "**Well,** the first step is to check the source. **For instance,** is it from a known news outlet or just a random account? **In addition,** Taiwan has fact-checking websites that people can use. **Finally,** if something makes you very angry very quickly, **it’s** worth slowing down before you believe it."
+   },
+   {
+    "q": "Do you think memes will still be popular in the future?",
+    "a": "**Probably, yes,** although they might change form. **For one thing,** people have always loved short jokes, even before the internet. **For another,** AI tools now make it even easier to create pictures and videos. **As a result,** I expect we’ll see more memes, **but** maybe also more confusion about what’s real."
+   }
+  ]
+ },
+ {
+  "id": "media-10",
+  "theme": "Books, Films & Memes",
+  "themeZh": "書籍、影視與迷因",
+  "setLabel": "Set 10",
+  "title": "Describe how you felt when a favourite book or series ended.",
+  "cues": [
+   "what the book or series was",
+   "how long you had been following it",
+   "how it ended",
+   "and explain how you felt when it was over."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Attack on Titan 進擊的巨人 → Japanese anime; started 2013, final episode Nov 2023 → ~10 yrs"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "humans live inside huge walls to hide from giant man-eating Titans; hero Eren + friends Mikasa, Armin; later → war, freedom, who’s really the enemy"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "began in junior high w/ older brother → watched final ep w/ him online, long special; ending = bittersweet, fans argued online for days"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "felt empty, like saying goodbye to old friends; also grateful → grew up w/ it; now rewatch 1st season sometimes; endings make stories meaningful"
+   }
+  ],
+  "sample": [
+   "**Well,** the series I want to talk about is the Japanese anime Attack on Titan. **To be exact,** the first season came out in 2013, **and** the very last episode was released in November 2023. **So basically,** I followed it for about ten years, which is almost half my life, and saying goodbye to it felt a bit like the end of my own childhood.",
+   "**For anyone who doesn’t know it,** the story is about humans who live inside enormous walls to protect themselves from giant creatures called Titans, which eat people. **The main character,** Eren, and his friends Mikasa and Armin join the army to fight back. **However,** as the series goes on, it becomes much darker and more complicated. **In the end,** it asks big questions about war, freedom, and who the real enemy actually is.",
+   "**I started watching it** in junior high with my older brother, and we always talked about the latest episode at dinner. **So naturally,** when the final special came out, we watched it together online, even though it was quite long. **The ending** was bittersweet, and to be honest, I didn’t know whether I liked it or not. **For days afterwards,** fans all over the internet were arguing about it.",
+   "**Emotionally,** I felt surprisingly empty, **as if** I’d said goodbye to some old friends. **At the same time,** I felt grateful, because I’d grown up alongside those characters. **These days,** I sometimes rewatch the first season just to see the characters when they were young again. **Looking back,** I think endings are what make a story meaningful, **even if** they’re painful."
+  ],
+  "followUps": [
+   {
+    "q": "Why do people feel sad when a long series ends?",
+    "a": "**I think** it’s because the series becomes part of their routine. **For example,** if you’ve watched a show every week for years, it’s connected to many memories. **On top of that,** you build a kind of relationship with the characters. **So** when it ends, **it** feels like losing a small part of your life."
+   },
+   {
+    "q": "Is it better for a story to have a happy or a sad ending?",
+    "a": "**Personally,** I prefer a realistic ending. **Of course,** happy endings feel good at the moment. **However,** a sad or open ending often stays in your mind much longer and makes you think. **Ideally,** the ending should match the rest of the story, **rather than** just pleasing the audience."
+   },
+   {
+    "q": "Why do some fans become angry about the endings of stories?",
+    "a": "**Well,** fans invest a lot of time and emotion, **so** they feel they deserve a certain ending. **For instance,** some fans spend years making theories online. **When** the ending is different, they feel disappointed. **Having said that,** I believe writers should follow their own vision instead of trying to please everyone."
+   }
+  ]
  }
 ]
 ;
