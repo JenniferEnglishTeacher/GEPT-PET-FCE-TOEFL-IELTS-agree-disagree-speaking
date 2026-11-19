@@ -1239,4 +1239,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 37, cat: "Government & society",
+    title: "Compulsory Community Service for Young People", zh: "年輕人強制社區服務",
+    question: "Should governments require all young people to do one year of community service?", questionZh: "政府應該規定所有年輕人從事一年的社區服務嗎？",
+    professor: "This week we are discussing the responsibilities that citizens have towards their society. Some politicians have proposed that every young person should complete one year of community service after finishing secondary school, for example by helping in hospitals, caring for the elderly or cleaning up the environment. Supporters say that this would build character and benefit society, while critics see it as an unfair burden on young people. In your opinion, should governments require all young people to do one year of community service? Why or why not?",
+    david: "I support this idea. A year of community service would teach young people responsibility and empathy, which they cannot learn from textbooks. It would also benefit society directly, because hospitals, nursing homes and charities are always short of staff. Young people would finally see how other people in their community really live.",
+    mary: "I disagree. Forcing people to volunteer makes no sense. When service is compulsory, many participants feel resentful and do only the minimum. It would also delay young people's education and careers by a whole year, which is especially unfair to students from poorer families who need to start earning money as soon as possible.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "應該規定", rows: [
+        { role: "Position", zh: "表明立場", hints: "I strongly agree with David that 我非常同意 David 所說的 / require + 人 + to V 規定某人… / community service 社區服務 / as 因為 / benefit both A and B 對 A 和 B 都有益 / participant 參與者",
+          sample: "[[I strongly agree with David that]] governments [[should]] require young people to complete one year of **community service**, [[as]] it would benefit [[both]] the **participants** [[and]] society." },
+        { role: "New reason", zh: "補充新理由", hints: "Beyond … that David mentioned, I would add that 除了 David 提到的…之外，我想補充 / responsibility 責任感 / empathy 同理心 / choose the right career 選對職業 / practical experience 實務經驗 / strengths 長處",
+          sample: "[[Beyond]] the responsibility and **empathy** [[that David mentioned, I would add that]] a year of service helps young people choose the right career. Many students enter university without knowing what they want to do, and **practical experience** can show them their real strengths." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / volunteer (v.) 當志工 / nursing home 安養院 / Although 雖然 / discover 發現 / care for elderly people 照顧長者 / train to become 受訓成為",
+          sample: "[[For example,]] my cousin **volunteered** at a **nursing home** during high school. [[Although]] she had planned to study business, she discovered that she loved caring for elderly people, so she is now training to become a nurse." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / compulsory 強制的 / resentful 心懷不滿的 / However, the same could be said of 然而…也可以這麼說 / compulsory education 義務教育 / appreciate 感激 / placement 服務單位 / feel forced 覺得被迫",
+          sample: "[[Mary argues that]] **compulsory** service makes participants resentful. [[However, the same could be said of]] compulsory education, and most people later appreciate it. If young people could choose their own **placements**, far fewer would feel forced." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / time well spent 值得花的時間",
+          sample: "[[For these reasons, I believe that]] a year of community service [[is]] time [[well spent.]]" },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "不應該強制規定", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my opinion 依我之見 / valuable 有價值的 / I agree with Mary that 我同意 Mary 所說的 / make + N + compulsory 把…定為強制 / community service 社區服務",
+          sample: "[[In my opinion,]] **community service** is valuable, [[but I agree with Mary that]] governments [[should not]] make it **compulsory** for all young people." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that neither student has mentioned is 兩位同學都沒提到的一點是 / cost 成本 / supervise 督導 / hundreds of thousands of 數十萬的 / enormous budget 龐大的預算 / could instead be spent on 可以改用在 / professional carer 專業照護員",
+          sample: "[[One point that neither student has mentioned is]] the cost. Organizing, training and **supervising** hundreds of thousands of young people would require an enormous **budget**, and that money [[could instead be spent on]] hiring professional **carers**." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / complete … hours of service 完成…小時的服務 / pick the easiest activity 挑最輕鬆的活動 / sign the form 在表單上簽名 / meanwhile 同時 / paperwork 文書作業 / instead of + V-ing 而不是",
+          sample: "[[Take]] my school [[as an example.]] Every student has to complete twenty hours of service each year, but many of my classmates pick the easiest activity and wait for the teacher to sign the form. The teachers, meanwhile, spend hours checking **paperwork** [[instead of]] teaching." },
+        { role: "Respond to David", zh: "回應對方", hints: "David believes that David 認為 / responsibility 責任感 / empathy 同理心 / That may be true for 對…來說這或許沒錯 / willingly 自願地 / but 但是 / qualities 特質 / be forced on 被強加於 / genuinely 真心地",
+          sample: "[[David believes that]] a year of service would teach responsibility and **empathy**. [[That may be true for]] those who **volunteer** willingly, [[but]] these qualities cannot be forced on people; they develop only when someone genuinely chooses to help." },
+        { role: "Conclusion", zh: "結論", hints: "Therefore 因此 / encourage 鼓勵 / voluntary service 志願服務 / for instance 例如 / scholarship 獎學金 / rather than + V 而不是",
+          sample: "[[Therefore,]] governments [[should]] encourage **voluntary** service, [[for instance]] through scholarships, [[rather than]] require it." },
+      ] },
+    ]
+  },
 ];
