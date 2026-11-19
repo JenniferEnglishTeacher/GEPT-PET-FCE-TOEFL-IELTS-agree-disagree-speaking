@@ -1171,4 +1171,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 35, cat: "Social media & influencers",
+    title: "Banning Social Media for Under-16s", zh: "禁止 16 歲以下使用社群媒體",
+    question: "Should governments ban children under 16 from using social media?", questionZh: "政府應該禁止 16 歲以下的兒童使用社群媒體嗎？",
+    professor: "This week we are looking at how governments regulate young people's use of technology. Australia has already banned children under 16 from holding accounts on major social media platforms such as TikTok and Instagram, and several other countries are considering similar laws. Supporters say that a ban protects children, while critics argue that it goes too far. In your opinion, should governments ban children under 16 from using social media? Why or why not?",
+    david: "I support a ban. Social media feeds are designed to keep users scrolling for as long as possible, not to keep them healthy. Many young teenagers scroll through short videos for hours every night, so they sleep badly and cannot concentrate at school. A ban would give them back time for homework, hobbies and face-to-face friendships.",
+    mary: "I don't think a ban is the answer. A blanket ban would cut teenagers off from the valuable side of social media. Many students learn from educational videos, stay in touch with relatives abroad and join communities built around shared interests. None of these uses is harmful. It would be better to teach children how to use social media wisely.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "支持禁止 16 歲以下使用社群媒體", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / ban sb from + V-ing 禁止某人做… / children under 16 16 歲以下的兒童",
+          sample: "[[I agree with David that]] governments should **ban** children under 16 from using social media." },
+        { role: "New reason", zh: "補充新理由", hints: "One point David did not mention is that David 沒有提到的一點是 / protect … from 保護…免於 / stranger 陌生人 / direct message 私訊 / live stream 直播 / too trusting to + V 太容易相信別人而無法… / recognise the danger 察覺危險 / account 帳號 / have no way to + V 沒有辦法…",
+          sample: "[[One point David did not mention is that]] a ban would protect children from dangerous **strangers**. On social media, unknown adults can easily contact children through **direct messages** and **live streams**, and young teenagers are often too trusting to recognise the danger. [[If]] children could not open **accounts**, these strangers [[would have no way to]] reach them." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / receive messages from 收到…的訊息 / gamer 遊戲玩家 / keep + V-ing 不斷… / home address 住家地址 / discover 發現 / belong to 屬於",
+          sample: "[[For example,]] my thirteen-year-old cousin once received friendly messages from a \"teenage gamer\" who kept asking for her photos and home address. Her parents later discovered that the account belonged to an adult man." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary claims that Mary 聲稱 / cut … off from 使…無法接觸 / educational content 教育內容 / While this may be true to some extent 雖然這在某種程度上或許是對的 / online courses 線上課程 / none of which 其中沒有一項 / require 需要",
+          sample: "[[Mary claims that]] a ban would cut teenagers off from **educational content**. [[While this may be true to some extent,]] students can still learn from websites, online courses and library books, none of which require a social media account." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / safety 安全 / A is more important than B A 比 B 更重要 / convenience 便利",
+          sample: "[[For these reasons, I believe that]] children's **safety** [[is more important than]] their convenience." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "反對全面禁止", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with Mary that 我同意 Mary 所說的 / a ban on … 對…的禁令 / is not the right solution 不是正確的解決辦法",
+          sample: "[[I agree with Mary that]] a **ban** on social media for children under 16 [[is not the right solution.]]" },
+        { role: "New reason", zh: "補充新理由", hints: "I would add that 我想補充 / enforce 執行（法律）/ lie about their age 謊報年齡 / borrow 借用 / VPN 虛擬私人網路（翻牆工具）/ get around 規避 / age checks 年齡驗證 / As a result 因此 / restrict 限制 / honest users 誠實的使用者 / determined 下定決心的",
+          sample: "[[I would add that]] such a law is almost impossible to **enforce**. Teenagers can easily lie about their age, borrow an adult's account or use a **VPN** to get around **age checks**. [[As a result,]] the ban would restrict honest users while doing little to stop determined ones." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / block 封鎖 / yet 然而 / within seconds 幾秒鐘內 / free VPN apps 免費的 VPN 應用程式 / national 全國性的 / in the same way 以同樣的方式",
+          sample: "[[For instance,]] my school blocks games and video websites on its Wi-Fi, yet many of my classmates still reach them within seconds by using free VPN apps. A national ban would probably be avoided [[in the same way.]]" },
+        { role: "Respond to David", zh: "回應對方", hints: "David is right to point out that David 指出…是對的 / endless scrolling 無止盡地滑手機 / harm 傷害 / However 然而 / deal with 處理 / screen-time limits 螢幕使用時間限制 / unnecessary 不必要的",
+          sample: "[[David is right to point out that]] endless **scrolling** harms teenagers' sleep. [[However,]] parents can already deal with this problem by setting **screen-time limits** on their children's phones, so a new law is unnecessary." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / invest in 投資於 / digital literacy 數位素養 / rather than + V 而不是 / pass a ban 通過禁令",
+          sample: "[[In conclusion,]] governments [[should]] invest in **digital literacy** education [[rather than]] pass a ban that cannot work." },
+      ] },
+    ]
+  },
 ];
