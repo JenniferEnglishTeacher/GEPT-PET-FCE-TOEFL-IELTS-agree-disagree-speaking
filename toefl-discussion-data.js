@@ -1817,4 +1817,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 54, cat: "Work & economy",
+    title: "Starting Your Own Business", zh: "自行創業",
+    question: "Is it better for young people to start their own business than to work for a company?", questionZh: "年輕人自己創業比受僱於公司更好嗎？",
+    professor: "This week we are discussing entrepreneurship. In the past, most graduates hoped to join a large company and stay there for many years. Today, online platforms and low-cost digital tools make it much easier to open a shop, launch an app or sell a service, and surveys show that a growing number of young people dream of being their own boss. However, statistics also show that many new businesses close within their first few years. In your opinion, is it better for young people to start their own business than to work for a company? Why or why not?",
+    david: "I think starting a business is the better choice. When you are your own boss, you make the decisions and can turn your own ideas into reality instead of following someone else's orders. If the business succeeds, the profits belong to you, not to a company. Young people also have plenty of energy and few family responsibilities, so it is the best time to take a risk.",
+    mary: "I disagree. Most young people have little money and no experience of running a business, so the chance of failure is very high. A job in a company offers a stable salary, paid holidays and health insurance. You can also learn from experienced colleagues. I think it is wiser to work for a company first.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "自行創業比較好", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / start one's own business 自行創業 / rather than 而不是",
+          sample: "[[I agree with David that]] young people [[should]] try **starting their own business** [[rather than]] working for a company." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to … that David mentioned, I would add that 除了 David 提到的…之外，我想補充 / profit 利潤 / run a business 經營事業 / entrepreneur 創業者 / handle 處理 / marketing 行銷 / finance 財務 / customer service 客戶服務 / so 所以 / a wide range of 各式各樣的",
+          sample: "[[In addition to]] the freedom and profits [[that David mentioned, I would add that]] running a business teaches a person far more than an ordinary job does. An **entrepreneur** has to handle **marketing**, **finance** and **customer service**, [[so]] he or she develops [[a wide range of]] skills quickly." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / online shop 網路商店 / handmade soap 手工皂 / Within two years 兩年內 / negotiate with 與…協商 / supplier 供應商 / manage a budget 管理預算 / office job 辦公室工作",
+          sample: "[[For example,]] my cousin opened an online shop selling handmade soap when she was twenty-two. Within two years, she had learned how to design a website, negotiate with **suppliers** and manage a **budget**, which none of her classmates in office jobs could do." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / failure 失敗 / This may be true, but 這也許是事實，但 / even 即使 / employer 雇主 / value 重視 / apply for a job 應徵工作 / afterwards 之後",
+          sample: "[[Mary argues that]] the chance of failure is high. [[This may be true, but]] even a failed business gives young people experience that **employers** value, and they can still apply for a job afterwards." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / a risk worth taking 值得冒的風險",
+          sample: "[[For these reasons, I believe that]] starting a business early [[is]] a **risk** [[worth taking.]]" },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "先到公司上班比較好", rows: [
+        { role: "Position", zh: "表明立場", hints: "Although 雖然 / be one's own boss 自己當老闆 / sound exciting 聽起來令人興奮 / I agree with Mary that 我同意 Mary 所說的 / it is wiser for … to + V 對…來說，…比較明智",
+          sample: "[[Although]] being your own boss sounds exciting, [[I agree with Mary that]] [[it is wiser for]] young people [[to]] work for a company first." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that Mary did not mention is that Mary 沒有提到的一點是 / savings 存款 / contacts 人脈 / start-up 新創公司 / require 需要 / equipment 設備 / rarely 很少 / lend 借錢給 / income 收入",
+          sample: "[[One point that Mary did not mention is that]] a company job helps young people build the **savings** and contacts that a business needs. Most **start-ups** require money for rent and equipment, and banks rarely **lend** to people with no **income**." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / restaurant chain 連鎖餐廳 / save part of one's salary 存下部分薪水 / get to know 結識 / food supplier 食材供應商 / noodle shop 麵店 / survive 撐過",
+          sample: "[[Take]] my uncle [[as an example.]] He worked for a restaurant chain for six years, saved part of his **salary** and got to know many food suppliers. When he opened his own noodle shop, he already had **customers**, experience and enough money to survive the first year." },
+        { role: "Respond to David", zh: "回應對方", hints: "It is true, as David says, that 誠如 David 所說，…是事實 / responsibility 責任 / Nevertheless 儘管如此 / replace 取代 / bankruptcy 破產 / leave … in debt 使…負債",
+          sample: "[[It is true, as David says, that]] young people have plenty of energy and few responsibilities. [[Nevertheless,]] energy cannot replace knowledge, and a **bankruptcy** at twenty-five can leave someone in **debt** for years." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / gain experience 累積經驗 / employee 員工 / before 在…之前 / entrepreneur 創業者",
+          sample: "[[In conclusion,]] young people [[should]] gain experience as **employees** [[before]] they become **entrepreneurs**." },
+      ] },
+    ]
+  },
 ];

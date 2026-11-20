@@ -3,7 +3,7 @@
 One line per finished task: number | type | category | title. A task is listed only after its HTML source is committed and pushed.
 Category order — Email: Apology / Absence; Request; Complaint / Problem; Inquiry / Information; Invitation / Reply; Advice / Suggestion; Application / Job; Thanks / Follow-up. Discussion: Education; Technology & AI; Social media & influencers; Environment; Government & society; Work & economy; Health & lifestyle; Ethics & culture.
 
-## Email (53)
+## Email (54)
 01 | Email | Apology / Absence | Missing a Club Meeting 無法出席社團會議 (to Alex, club president — medical appointment, poster for recycling campaign) | toefl-master/email-apology-absence.html
 02 | Email | Request | Requesting a Recommendation Letter 請教授寫推薦信 (to Professor Wang — exchange program in Canada, deadline + résumé/transcript) | toefl-master/email-request.html
 03 | Email | Complaint / Problem | Complaining About Noise in the Library 投訴圖書館自習區太吵 (to Ms. Lin, library manager — noisy quiet study area before final exams, suggest signs / staff patrol) | toefl-master/email-complaint-problem.html
@@ -57,8 +57,9 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 51 | Email | Complaint / Problem | Complaining About a Neglected Neighborhood Park 投訴社區公園年久失修 (to Mr. Reynolds, officer at the City Parks Department — Maple Park near your home: two broken swings, overflowing trash cans, lights along the walking path not working for two months, phone report three weeks ago ignored; describe the problems, how they affect residents (children unsafe / residents afraid to exercise in the dark), what you want: repair swings and lights + collect trash more often) | toefl-master/email-complaint-problem.html
 52 | Email | Inquiry / Information | Asking About Swimming Lessons 詢問游泳課程資訊 (to Mr. Kim, manager of Riverside Sports Center — swimming lessons for adult beginners seen on a poster, family beach trip next summer; why you want to take lessons, the lesson schedule + the fee, what to bring (goggles) + how to register) | toefl-master/email-inquiry-information.html
 53 | Email | Invitation / Reply | Asking to Reschedule a Neighbor's Dinner Invitation 回覆鄰居的晚餐邀請並請求改期 (to Mrs. Lin, a neighbor — invited you and your parents to dinner this Saturday 6:30 p.m. to thank you for looking after her cat and plants; school choir has a regional competition in another city; thank her + how you feel, why you cannot come, suggest another time (next Saturday) + offer to bring a dessert) | toefl-master/email-invitation-reply.html
+54 | Email | Advice / Suggestion | Suggesting a New After-school Coding Club 建議成立課後程式設計社 (to Mr. Hughes, the student activities coordinator — no technology club at school, he invited ideas for new clubs next semester, Ms. Chang (computer science teacher) willing to help; describe the club, explain how it benefits students, say how it could be organized (computer lab, Wednesdays)) | toefl-master/email-advice-suggestion.html
 
-## Discussion (53)
+## Discussion (54)
 01 | Discussion | Education | Should STEAM courses be mandatory for all university students? 大學應該把 STEAM 課程列為全體學生的必修嗎？ | toefl-master/discussion-education.html
 02 | Discussion | Technology & AI | Will AI-generated images and videos have a positive or a negative influence on society? AI 生成的圖片與影片對社會的影響是正面還是負面？ | toefl-master/discussion-technology-ai.html
 03 | Discussion | Social media & influencers | Do social media influencers have a mainly positive or a mainly negative influence on young people? 社群媒體網紅對年輕人的影響主要是正面還是負面？ | toefl-master/discussion-social-media-influencers.html
@@ -112,6 +113,7 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 51 | Discussion | Social media & influencers | Is becoming a social media influencer a good career choice for young people? 成為社群媒體網紅對年輕人來說是好的職業選擇嗎？ | toefl-master/discussion-social-media-influencers.html
 52 | Discussion | Environment | Should the number of tourists at popular natural sites be strictly limited? 應該嚴格限制熱門自然景點的遊客人數嗎？ | toefl-master/discussion-environment.html
 53 | Discussion | Government & society | Should governments give generous financial support to unemployed people? 政府應該提供失業者優渥的經濟補助嗎？ | toefl-master/discussion-government-society.html
+54 | Discussion | Work & economy | Is it better for young people to start their own business than to work for a company? 年輕人自己創業比受僱於公司更好嗎？ | toefl-master/discussion-work-economy.html
 
 ## Notes for the next run
 - Sample markup in the HTML sources: `<span style="background-color:#fff2a8">` = universal pattern, `<b>` = theme word.
