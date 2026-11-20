@@ -1851,4 +1851,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 55, cat: "Health & lifestyle",
+    title: "Banning Junk Food Advertising Aimed at Children", zh: "禁止針對兒童的垃圾食物廣告",
+    question: "Should advertising fast food and junk food to children be banned?", questionZh: "應該禁止向兒童行銷速食與垃圾食物的廣告嗎？",
+    professor: "This week we are looking at how marketing shapes eating habits. Fast-food and snack companies spend billions of dollars every year on advertisements aimed at children, using cartoon characters, free toys and online games. At the same time, the number of overweight children has risen in many countries. Some governments have therefore banned advertisements for unhealthy food during children's television programs and on websites for children. In your opinion, should advertising fast food and junk food to children be banned? Why or why not?",
+    david: "I think these advertisements should be banned. Young children cannot tell the difference between an advertisement and a program, so they believe whatever a friendly cartoon character tells them. Then they ask their parents for burgers and sweets again and again. A ban would make it much easier for families to choose healthy food.",
+    mary: "I don't support a ban. It is parents, not advertisements, who decide what children eat, because parents are the ones who pay. Fast food is also fine as an occasional treat, and companies have the right to promote legal products. Instead of banning advertising, we should teach children about nutrition at school and at home.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "支持禁止針對兒童的垃圾食物廣告", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my opinion 依我之見 / advertise A to B 向 B 行銷 A / junk food 垃圾食物 / ban 禁止 / I agree with David that 我同意 David 所說的 / be easily persuaded 容易被說服",
+          sample: "[[In my opinion,]] **advertising** fast food and **junk food** to children [[should]] be **banned**, [[and I agree with David that]] young children are too easily persuaded." },
+        { role: "New reason", zh: "補充新理由", hints: "Beyond the point he made, I would add that 除了他提出的觀點之外，我想補充 / eating habits 飲食習慣 / last a lifetime 持續一輩子 / connect A with B 把 A 和 B 聯想在一起 / sugary snack 含糖零食 / be likely to + V 很可能… / face a higher risk of 面臨更高的…風險 / obesity 肥胖",
+          sample: "[[Beyond the point he made, I would add that]] **eating habits** formed in childhood often last a lifetime. If children learn to connect burgers and **sugary snacks** with fun and prizes, they [[are likely to]] prefer these foods as adults and [[face a higher risk of]] **obesity**." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / nephew 外甥、姪子 / refuse to + V 拒絕… / commercial 電視廣告 / offer a free toy 贈送免費玩具 / children's meal 兒童餐 / every time 每次 / until 直到 / give in 讓步",
+          sample: "[[For instance,]] my six-year-old nephew refused to eat vegetables for weeks after he saw a **commercial** offering a free toy with a children's meal. He cried every time the family passed that restaurant until my sister gave in." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… claims that …聲稱 / make the final decision 做最後的決定 / While this is true 雖然這是事實 / turn A into B 把 A 變成 B / shopping trip 購物行程 / argument 爭吵 / eventually 最後",
+          sample: "[[Mary claims that]] parents make the final decision. [[While this is true,]] **advertisements** turn every shopping trip into an argument, and many tired parents eventually say yes." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I am convinced that 基於這些理由，我深信 / a ban 禁令 / be necessary to + V 為了…是必要的 / protect children's health 保護兒童的健康",
+          sample: "[[For these reasons, I am convinced that]] a **ban** [[is necessary to]] protect children's **health**." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "反對禁令，應以營養教育取代", rows: [
+        { role: "Position", zh: "表明立場", hints: "Personally, I do not think 我個人不認為 / advertise A to B 向 B 行銷 A / ban 禁止 / I agree with Mary that 我同意 Mary 所說的 / be responsible for 對…負責",
+          sample: "[[Personally, I do not think]] **advertising** fast food to children [[should]] be **banned**, [[and I agree with Mary that]] parents are responsible for what their children eat." },
+        { role: "New reason", zh: "補充新理由", hints: "Another reason she did not mention is that 她沒有提到的另一個理由是 / almost impossible to enforce 幾乎不可能執行 / follow influencers 追蹤網紅 / even if 即使 / television commercial 電視廣告 / disappear 消失",
+          sample: "[[Another reason she did not mention is that]] a ban would be almost impossible to **enforce**. Children today watch videos on phones and follow **influencers**, so they would still see burgers and sweets online [[even if]] television **commercials** disappeared." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / rarely 很少 / yet 然而 / video creator 影片創作者 / on camera 在鏡頭前 / What actually changed … was 真正改變…的是 / diet 飲食 / nutrition lesson 營養課 / contain 含有 / soft drink 汽水、軟性飲料",
+          sample: "[[Take]] my little cousin [[as an example.]] She rarely watches television, yet she knows every new snack because her favorite video creators eat them on camera. [[What actually changed]] her **diet** [[was]] a **nutrition** lesson at school, where she learned how much sugar a **soft drink** contains." },
+        { role: "Respond to David", zh: "回應對方", hints: "… is right that …說得對 / trust 信任 / cartoon character 卡通角色 / However, this is exactly why 然而，這正是為什麼 / explain how … works 解釋…如何運作",
+          sample: "[[David is right that]] young children trust cartoon characters. [[However, this is exactly why]] adults [[should]] watch with them and explain how **advertising** works." },
+        { role: "Conclusion", zh: "結論", hints: "To sum up, I believe that 總而言之，我認為 / education 教育 / rather than 而不是 / the best way to + V …的最佳方式 / eat well 吃得健康",
+          sample: "[[To sum up, I believe that]] **education**, [[rather than]] a ban, [[is the best way to]] help children eat well." },
+      ] },
+    ]
+  },
 ];
