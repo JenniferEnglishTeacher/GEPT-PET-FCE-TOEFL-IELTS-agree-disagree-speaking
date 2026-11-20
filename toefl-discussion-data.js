@@ -1783,4 +1783,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 53, cat: "Government & society",
+    title: "Generous Unemployment Benefits", zh: "優渥的失業救濟金",
+    question: "Should governments give generous financial support to unemployed people?", questionZh: "政府應該提供失業者優渥的經濟補助嗎？",
+    professor: "This week we are discussing the welfare state. When people lose their jobs, most governments give them some money for a limited time, but the amount differs greatly from country to country. In some countries, unemployed workers receive most of their former salary for up to two years, while in others they receive very little. Supporters of generous benefits say that they protect families from poverty, whereas critics say that they make people less motivated to work. In your opinion, should governments give generous financial support to unemployed people? Why or why not?",
+    david: "I think they should. Losing a job is usually not the worker's fault. Factories close and companies cut staff when the economy is bad. Without enough support, a family may not be able to pay the rent or buy food within a few weeks. Generous benefits give people time to find a suitable job instead of taking the first one they see.",
+    mary: "I disagree. If people can receive almost as much money at home as they can at work, some of them will stop looking for a job. That is unfair to the taxpayers who work hard every day to pay for these benefits. I think support should be small and short, so that people have a strong reason to return to work quickly.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "應該提供優渥的失業補助", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / generous 優渥的 / financial support 經濟補助 / lose one's job 失業",
+          sample: "[[I agree with David that]] governments [[should]] give generous **financial support** to people who have lost their jobs." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to … that David mentioned, I would add that 除了 David 提到的…之外，我想補充 / poverty 貧窮 / benefits 救濟金、津貼 / income 收入 / keep + V-ing 持續… / which prevents A from + V-ing 這能防止 A…",
+          sample: "[[In addition to]] the protection from **poverty** [[that David mentioned, I would add that]] generous **benefits** help the whole economy. People who still have an **income** keep spending money in local shops, [[which prevents]] other businesses [[from]] closing." },
+        { role: "Example", zh: "舉例", hints: "A good example is 一個很好的例子是 / unemployment system 失業救濟制度 / as well as 以及 / employment rate 就業率 / The reason is that 原因是 / come with 附帶 / job training 職業訓練 / career advice 職涯諮詢",
+          sample: "[[A good example is]] Denmark, which has one of the most generous **unemployment** systems in the world [[as well as]] one of the highest **employment rates**. [[The reason is that]] the money comes with **job training** and career advice." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary claims that Mary 聲稱 / However, I believe that 然而我認為 / pride 自尊、成就感 / provide 提供 / be made conditional on 以…為條件 / apply for 應徵 / regularly 定期地",
+          sample: "[[Mary claims that]] people will stop looking for work. [[However, I believe that]] most people want the pride and social life that a job provides, and **benefits** can be made conditional on applying for jobs regularly." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons 基於這些理由 / not A but B 不是 A 而是 B / a waste of 浪費 / taxpayer 納稅人 / investment 投資 / workforce 勞動力",
+          sample: "[[For these reasons,]] generous support [[is not]] a waste of **taxpayers'** money [[but]] an investment in a stronger **workforce**." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "失業補助應該適度且有期限", rows: [
+        { role: "Position", zh: "表明立場", hints: "While I understand why … 雖然我理解為什麼… / in difficulty 處於困境 / I agree with Mary that 我同意 Mary 所說的 / unemployment benefits 失業救濟金 / modest 適度的 / limited in time 有期限的",
+          sample: "[[While I understand why]] people worry about families in difficulty, [[I agree with Mary that]] **unemployment benefits** [[should]] be modest and limited in time." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that has not been raised is that 還沒有人提出的一點是 / the longer …, the harder … 越久…，就越難… / stay out of work 沒有工作 / outdated 過時的 / employer 雇主 / be unwilling to + V 不願意… / hire 雇用 / long-lasting 長期的 / benefits 救濟金 / therefore 因此 / the very people 正是那些人 / be meant to + V 本意是要…",
+          sample: "[[One point that has not been raised is that]] [[the longer]] people stay out of work, [[the harder]] it becomes for them to return. Their skills become outdated, and **employers** are often unwilling to **hire** someone who has not worked for a year. Long-lasting **benefits** can [[therefore]] hurt the very people they are meant to help." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / factory job 工廠的工作 / Because 因為 / savings 存款 / delivery job 送貨工作 / within a month 一個月內 / be promoted to 升職為",
+          sample: "[[For instance,]] my uncle lost his factory job three years ago. [[Because]] his savings were small, he took a delivery job within a month and was later promoted to manager." },
+        { role: "Respond to David", zh: "回應對方", hints: "David argues that David 主張 / suitable 合適的 / This is true to some extent, but 這在某種程度上是對的，但 / a few months 幾個月 / enough 足夠的",
+          sample: "[[David argues that]] people need time to find a suitable job. [[This is true to some extent, but]] a few months is usually enough." },
+        { role: "Conclusion", zh: "結論", hints: "Therefore 因此 / spend more on A and less on B 多把錢花在 A、少花在 B / job training 職業訓練 / long-term payment 長期給付",
+          sample: "[[Therefore,]] governments [[should]] spend more on **job training** and less on long-term payments." },
+      ] },
+    ]
+  },
 ];
