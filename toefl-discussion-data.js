@@ -1647,4 +1647,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 49, cat: "Education",
+    title: "Projects Instead of Exams", zh: "以專題取代考試",
+    question: "Should schools replace traditional exams with project-based assessments?", questionZh: "學校應該用專題式評量取代傳統考試嗎？",
+    professor: "This week we are looking at how schools measure what students have learned. For more than a century, written exams have been the main way to decide grades. However, a growing number of schools are now replacing some exams with long projects, in which students research a real problem, build something or give a presentation. Supporters say that projects develop the skills needed in modern workplaces, while critics argue that exams are fairer and more reliable. In your opinion, should schools replace traditional exams with project-based assessments? Why or why not?",
+    david: "I think schools should replace exams with projects. For an exam, students memorize facts the night before and forget most of them a week later. A project is different because students have to use what they learn to solve a real problem. They also practise skills such as teamwork and public speaking, which a written test can never measure.",
+    mary: "I disagree. An exam is the same for everyone: the same questions, the same time limit and the same rules, so the results are fair. With projects, it is hard to know who really did the work. Some students get a lot of help from parents or tutors, and in group projects one or two hard-working members often do everything while the others get the same grade.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "支持以專題式評量取代傳統考試", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my opinion 依我之見 / replace A with B 用 B 取代 A / traditional exam 傳統考試 / project-based assessment 專題式評量 / I agree with David that 我同意 David 所說的 / knowledge 知識",
+          sample: "[[In my opinion,]] schools [[should]] replace most **traditional exams** with **project-based assessments**, [[and I agree with David that]] projects teach students to use their knowledge." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides the reasons … gave, I think that 除了…提出的理由之外，我認為 / reduce 減少 / exam pressure 考試壓力 / semester 學期 / be spread over 分散在… / ruin 毀掉",
+          sample: "[[Besides the reasons David gave, I think that]] projects reduce **exam pressure**. When one test decides a whole semester's grade, many students cannot sleep or think clearly. A project is spread over several weeks, so one bad day does not ruin everything." },
+        { role: "Example", zh: "舉例", hints: "Take my own experience as an example 以我自己的經驗為例 / final exam 期末考 / water pollution 水污染 / local 當地的 / anxious 焦慮的 / far less 少得多",
+          sample: "[[Take my own experience as an example.]] In ninth grade, our science teacher replaced the final exam with a project on water **pollution** in a local river. I was far less **anxious**, and I still remember what I learned." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… is concerned that …擔心 / do little work 幾乎沒做事 / This is a fair point, but 這個說法有道理，但 / solve 解決 / work log 工作紀錄",
+          sample: "[[Mary is concerned that]] some students get help or do little work in groups. [[This is a fair point, but]] teachers can solve it by asking each student to keep a **work log**." },
+        { role: "Conclusion", zh: "結論", hints: "To sum up 總結來說 / healthier 更健康的 / assess 評量 / learning 學習成果",
+          sample: "[[To sum up,]] projects are a healthier and more useful way to **assess** learning." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "反對以專題式評量取代傳統考試", rows: [
+        { role: "Position", zh: "表明立場", hints: "I see things differently from … 我的看法和…不同 / I do not think that 我不認為 / replace A with B 用 B 取代 A / like Mary, I believe 和 Mary 一樣，我認為 / fairer 更公平的",
+          sample: "[[I see things differently from David.]] [[I do not think that]] schools [[should]] replace **traditional exams** with **project-based assessments**, [[and like Mary, I believe]] exams are fairer." },
+        { role: "New reason", zh: "補充新理由", hints: "What … did not mention is that …沒有提到的是 / cost … time and money 花費…時間與金錢 / material 材料 / afford 負擔得起 / As a result 結果 / reflect 反映 / income 收入 / rather than 而不是 / ability 能力",
+          sample: "[[What Mary did not mention is that]] projects cost families time and money. Students may need materials, printing, or transport to visit places, and not every family can **afford** these. [[As a result,]] grades may reflect a family's **income** [[rather than]] a student's ability." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / build a model 做模型 / geography 地理 / kit 材料包 / cardboard 紙板 / while 而 / receive higher grades 得到較高的成績",
+          sample: "[[For example,]] my younger brother had to build a model house for a geography project. Some classmates bought expensive kits online, [[while]] he used old **cardboard** boxes. Their models looked better, and they received higher grades." },
+        { role: "Respond to David", zh: "回應對方", hints: "… claims that …聲稱 / However, this depends on 然而，這取決於 / be designed 被設計 / apply A to B 把 A 應用到 B / situation 情境 / memorize 背誦 / alone 僅靠",
+          sample: "[[David claims that]] students forget everything after an exam. [[However, this depends on]] how the exam is designed. Questions that ask students to **apply** ideas to new situations cannot be answered by **memorizing** alone." },
+        { role: "Conclusion", zh: "結論", hints: "Overall 整體而言 / improve 改善 / instead of + V-ing 而不是…",
+          sample: "[[Overall,]] schools [[should]] improve their exams [[instead of]] replacing them." },
+      ] },
+    ]
+  },
 ];
