@@ -1885,4 +1885,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 56, cat: "Ethics & culture",
+    title: "Returning Museum Artifacts to Their Countries of Origin", zh: "將博物館文物歸還原屬國",
+    question: "Should museums return cultural artifacts to their countries of origin?", questionZh: "博物館應該把文物歸還給原屬國嗎？",
+    professor: "This week we are discussing who owns the past. Many famous museums in Europe and North America display statues, jewelry and other treasures that were taken from Africa, Asia and other regions during the colonial period, often without permission. In recent years, several countries have asked for these objects back, and a few museums have agreed. Others refuse, saying that the objects are safer and seen by more visitors where they are now. In your opinion, should museums return cultural artifacts to their countries of origin? Why or why not?",
+    david: "I think museums should return these artifacts. Many of them were stolen or taken by force during wars and colonial rule, so keeping them is like keeping stolen property. It doesn't matter how long ago it happened. Giving them back is simply the right thing to do, and it shows respect for the people who made them.",
+    mary: "I don't think everything should be sent back. Big international museums have the money, experts and technology to protect fragile objects, and millions of visitors from all over the world can see them in one place. Some countries of origin do not have safe museums yet. If a treasure were damaged or lost after it was returned, everyone would lose.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "支持將文物歸還原屬國", rows: [
+        { role: "Position", zh: "表明立場", hints: "From my point of view 就我的觀點而言 / return A to B 把 A 歸還給 B / cultural artifact 文物 / country of origin 原屬國 / I agree with David that 我同意 David 所說的 / take … by force 以武力奪取 / unfair 不公平的",
+          sample: "[[From my point of view,]] museums [[should]] return cultural **artifacts** to their **countries of origin**, [[and I agree with David that]] keeping objects taken by force is unfair." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to the … argument he made, I would add that 除了他提出的…論點之外，我想補充 / moral 道德的 / a key part of 很重要的一部分 / identity 認同 / heritage 文化遺產 / only … when 只有在…時才 / distant 遙遠的",
+          sample: "[[In addition to]] the moral argument [[he made, I would add that]] these objects are a key part of a nation's **identity**. Young people can only fully understand their own **heritage** when they can see it at home, not in a distant foreign city." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / bronze sculpture 青銅雕塑 / be displayed 被展出 / present-day 現今的 / ancestor 祖先 / have to + V 必須… / plane ticket 機票 / apply for a visa 申請簽證",
+          sample: "[[For example,]] the famous **bronze sculptures** from Benin, in present-day Nigeria, have long been displayed in London. A Nigerian student who wants to see the art of her **ancestors** [[has to]] buy an expensive plane ticket and apply for a visa." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… argues that …主張 / fragile 易碎的、脆弱的 / This may be true in some cases, but 在某些情況下或許如此，但 / the solution is to + V 解決辦法是… / build modern museums 興建現代化博物館 / treasure 珍寶 / forever 永遠",
+          sample: "[[Mary argues that]] big museums protect fragile objects better. [[This may be true in some cases, but the solution is to]] help these countries build modern museums, not to keep their **treasures** forever." },
+        { role: "Conclusion", zh: "結論", hints: "In short, I firmly believe that 簡而言之，我堅信 / a matter of …的問題 / justice 正義",
+          sample: "[[In short, I firmly believe that]] returning artifacts [[is a matter of]] **justice**." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "反對全數歸還，應以借展與合作取代", rows: [
+        { role: "Position", zh: "表明立場", hints: "As far as I am concerned 就我而言 / should not have to + V 不應該非得… / artifact 文物 / I share Mary's view that 我和 Mary 看法相同，認為 / safety 安全 / come first 擺在第一位",
+          sample: "[[As far as I am concerned,]] museums [[should not have to]] return every **artifact**, [[and I share Mary's view that]] the safety of these objects must come first." },
+        { role: "New reason", zh: "補充新理由", hints: "What she did not mention is that 她沒有提到的是 / belong to 屬於 / civilization 文明 / no longer exist 不復存在 / it is hard to decide + wh- 很難判定… / owner 擁有者 / border 國界 / differ from 與…不同 / ancient 古代的 / claim 聲稱擁有",
+          sample: "[[What she did not mention is that]] many artifacts belong to **civilizations** that no longer exist, so [[it is hard to decide]] who the real **owner** is. Modern borders differ from ancient ones, so several countries may claim the same object." },
+        { role: "Example", zh: "舉例", hints: "Consider … 想想看… / statue 雕像 / empire 帝國 / cover 涵蓋 / present-day 現今的 / If + 過去式, … could + V（假設語氣）/ reasonably 合理地 / complain 抱怨",
+          sample: "[[Consider]] a **statue** made two thousand years ago in an ancient **empire** that covered parts of five present-day countries. [[If]] a museum returned it to one of them, the other four [[could]] reasonably complain." },
+        { role: "Respond to David", zh: "回應對方", hints: "… says that …說 / stolen property 贓物 / I understand his point, but 我理解他的觀點，但 / legally 合法地 / be given as a gift 被當作禮物贈送 / each case 每個個案 / examine 審視 / separately 個別地",
+          sample: "[[David says that]] keeping these objects is like keeping **stolen property**. [[I understand his point, but]] not all of them were stolen; many were bought legally or given as gifts, so each case must be examined separately." },
+        { role: "Conclusion", zh: "結論", hints: "Overall, I believe that 整體而言，我認為 / long-term loan 長期借展 / joint exhibition 聯合展覽 / a better solution than 比…更好的解決辦法 / send … back 送回",
+          sample: "[[Overall, I believe that]] sharing artifacts through long-term **loans** and joint **exhibitions** [[is a better solution than]] sending everything back." },
+      ] },
+    ]
+  },
 ];
