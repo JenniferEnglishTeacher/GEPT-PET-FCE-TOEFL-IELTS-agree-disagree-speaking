@@ -1375,4 +1375,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 41, cat: "Education",
+    title: "Online Learning vs. the Classroom", zh: "線上學習與傳統課堂",
+    question: "Can online learning replace traditional classroom education?", questionZh: "線上學習能取代傳統的課堂教學嗎？",
+    professor: "This week we are looking at how technology is changing the way people study. During the pandemic, millions of students attended lessons from home, and today many universities offer complete degree programs on the internet. Some experts predict that online courses will soon take the place of physical classrooms because they are cheaper and more flexible. Others insist that students learn best when they are in the same room as their teachers and classmates. In your opinion, can online learning replace traditional classroom education? Why or why not?",
+    david: "I believe online learning can replace the traditional classroom. Students can study anywhere and at any time, so they save hours of travelling to school every week. They can also pause a recorded lesson and watch a difficult part again until they understand it. In a normal classroom, the teacher explains something once and then moves on.",
+    mary: "I don't think so. School is not only about lessons; it is also where students make friends and learn to work with other people. It is hard to build those relationships through a screen. Besides, many students are easily distracted at home. Without a teacher in the room, they start playing games or checking their phones instead of paying attention.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "支持線上學習可以取代傳統課堂", rows: [
+        { role: "Position", zh: "表明立場", hints: "From my perspective 就我的看法 / replace 取代 / traditional classroom 傳統課堂 / I agree with David that 我同意 David 所說的 / flexibility 彈性",
+          sample: "[[From my perspective,]] online learning can **replace** the **traditional classroom**, [[and I agree with David that]] it gives students far more **flexibility**." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to …'s points, I would add that 除了…的論點之外，我想補充 / access to 接觸、取得…的機會 / however 然而 / village 村莊 / take a course 修課",
+          sample: "[[In addition to David's points, I would add that]] online learning gives everyone **access** to excellent teachers. In a traditional school, students can only learn from the teachers who work there. On the internet, [[however,]] a village student can take the same **course** as someone in a big city." },
+        { role: "Example", zh: "舉例", hints: "… is a good example …就是個好例子 / programming 程式設計 / online course 線上課程 / win a contest 贏得比賽 / national coding contest 全國程式競賽",
+          sample: "[[My cousin is a good example.]] She lives in a small town in Taitung with no programming teacher, so she took a free **online course** from a famous university. Last year, she won a national coding contest." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… argues that …主張 / That may be true in some cases, but 在某些情況下或許如此，但 / through a screen 透過螢幕 / group project 小組專題 / discussion forum 討論區",
+          sample: "[[Mary argues that]] students cannot make friends through a screen. [[That may be true in some cases, but]] online classes now include **group projects** and **discussion forums**, where students work together every week." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我相信 / the main way to + V 主要的…方式",
+          sample: "[[For these reasons, I believe that]] online learning will soon become the main way to study." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "反對線上學習可以取代傳統課堂", rows: [
+        { role: "Position", zh: "表明立場", hints: "I share …'s view 我和…看法相同 / I do not believe that 我不認為 / replace 取代 / although 雖然 / a useful tool 有用的工具",
+          sample: "[[I share Mary's view.]] [[I do not believe that]] online learning can **replace** the **traditional classroom**, [[although]] it is a useful tool." },
+        { role: "New reason", zh: "補充新理由", hints: "Another point worth mentioning is that 另一個值得一提的重點是 / hands-on practice 實作練習 / experiment 實驗 / orchestra 管弦樂團 / equipment 器材 / correct mistakes 糾正錯誤 / on the spot 當場",
+          sample: "[[Another point worth mentioning is that]] many subjects require **hands-on practice**. Students cannot do a chemistry **experiment** or play in an orchestra in front of a computer. These skills [[can only be]] learned with real **equipment** and a teacher who can correct mistakes on the spot." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / pandemic 疫情 / move … online 把…改到線上 / return to 回到 / laboratory 實驗室 / safely 安全地",
+          sample: "[[For instance,]] during the **pandemic** my school moved all lessons online for two months. In science, we could only watch videos of experiments, and when we returned to the **laboratory**, most of us had forgotten how to use the equipment safely." },
+        { role: "Respond to David", zh: "回應對方", hints: "… points out that …指出 / replay 重播 / recorded lesson 錄播課程 / This is certainly convenient; however, 這確實很方便；然而 / while 而 / notice 注意到 / confused 困惑的 / in another way 用另一種方式",
+          sample: "[[David points out that]] students can replay **recorded lessons** at any time. [[This is certainly convenient; however,]] a video cannot answer questions, [[while]] a classroom teacher can notice **confused** faces and explain the idea in another way." },
+        { role: "Conclusion", zh: "結論", hints: "All in all 總而言之 / support 輔助 / A, not B 是 A 而不是 B",
+          sample: "[[All in all,]] online learning should **support** classroom teaching, not replace it." },
+      ] },
+    ]
+  },
 ];
