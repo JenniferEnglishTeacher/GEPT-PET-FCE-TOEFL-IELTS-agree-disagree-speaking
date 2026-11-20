@@ -1749,4 +1749,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 52, cat: "Environment",
+    title: "Limiting Tourist Numbers at Natural Sites", zh: "限制自然景點的遊客人數",
+    question: "Should the number of tourists at popular natural sites be strictly limited?", questionZh: "應該嚴格限制熱門自然景點的遊客人數嗎？",
+    professor: "This week we are looking at the impact of tourism on the natural environment. Every year, millions of visitors travel to beaches, mountains and national parks, and the crowds often leave behind litter, damaged trails and polluted water. In response, some places now limit the number of visitors allowed each day or even close for part of the year. However, tourism is also a major source of income for local communities. In your opinion, should the number of tourists at popular natural sites be strictly limited? Why or why not?",
+    david: "I think it should. Nature needs time to recover. When too many people visit a beach or a mountain, they leave rubbish everywhere and scare away the wildlife. A famous beach in Thailand had to close for several years because tourists had destroyed most of its coral. If we do not set limits now, there will be nothing beautiful left for future visitors to see.",
+    mary: "I disagree. Many families near these sites depend on tourists for their living. They run small hotels, restaurants and souvenir shops, and strict limits would take away their income. Besides, natural places belong to everyone, so it is unfair to stop people from visiting them. I think it is better to teach visitors to behave responsibly than to keep them out.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "應該嚴格限制遊客人數", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / tourist 遊客 / natural site 自然景點 / strictly limit 嚴格限制",
+          sample: "[[I agree with David that]] the number of **tourists** at popular **natural sites** [[should be]] strictly **limited**." },
+        { role: "New reason", zh: "補充新理由", hints: "One point David did not mention is that David 沒有提到的一點是 / improve the experience 提升體驗 / peace 寧靜 / fresh air 新鮮空氣 / overcrowded 過度擁擠的 / trail 步道 / queue 排隊隊伍 / make … impossible 使…不可能",
+          sample: "[[One point David did not mention is that]] limits also improve the experience of visitors themselves. People travel to **natural sites** to enjoy peace and fresh air, but **overcrowded trails** and long queues [[make this impossible]]." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / national park 國家公園 / a fixed number of 固定數量的 / hiker 登山客 / Although 雖然 / apply for a permit 申請許可證 / in advance 事先 / wild deer 野生的鹿",
+          sample: "[[For example,]] my family once visited a **national park** in Taiwan that accepts only a fixed number of **hikers** each day. [[Although]] we had to apply for a **permit** a month in advance, the **trail** was clean and quiet, and we even saw wild deer." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / take away 奪走 / income 收入 / This is a fair point; however, 這個觀點有道理；然而 / destroy 破壞 / disappear 消失",
+          sample: "[[Mary argues that]] limits would take away local people's **income**. [[This is a fair point; however,]] if the environment is destroyed, **tourists** will stop coming, and the **income** will disappear completely." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / visitor numbers 遊客人數 / protect both A and B 同時保護 A 與 B / tourism industry 觀光產業 / in the long run 長遠來看",
+          sample: "[[For these reasons, I believe that]] limiting visitor numbers protects [[both]] nature [[and]] the **tourism industry** [[in the long run]]." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "嚴格限制遊客人數不是最好的方法", rows: [
+        { role: "Position", zh: "表明立場", hints: "I share …'s view that 我和…看法相同，認為 / strictly limit 嚴格限制 / tourist 遊客 / the best way to 做…的最佳方式 / natural site 自然景點",
+          sample: "[[I share Mary's view that]] strictly **limiting** the number of **tourists** [[is not the best way to]] protect **natural sites**." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides … that Mary mentioned, I would add that 除了 Mary 提到的…之外，我想補充 / loss of local income 當地收入的損失 / not A but B 不是 A 而是 B / behave 表現、行為 / careless 粗心的 / do damage 造成破壞 / follow the rules 遵守規定",
+          sample: "[[Besides]] the loss of local **income** [[that Mary mentioned, I would add that]] the real problem is [[not]] how many people visit [[but]] how they **behave**. A small group of careless visitors can do more **damage** than a large crowd that follows the rules." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / require + O + to V 要求…做… / marked trail 有標示的步道 / rubbish 垃圾 / entrance fee 入場費 / which is then used to 這筆錢接著被用來 / ranger 巡山員 / repair 修復",
+          sample: "[[For instance,]] some **national parks** [[require]] visitors [[to]] stay on **marked trails**, carry their rubbish home and pay an **entrance fee**, [[which is then used to]] hire **rangers** and repair **damage**." },
+        { role: "Respond to David", zh: "回應對方", hints: "… points out that …指出 / recover 恢復 / I understand his point, but 我理解他的觀點，但 / achieve 達成 / damaged area 受損區域 / for a short period 短期內 / instead of + V-ing 而不是… / keep … away from 讓…遠離",
+          sample: "[[David points out that]] nature needs time to **recover**. [[I understand his point, but]] this can be achieved by closing only the most **damaged** areas for a short period [[instead of]] keeping people away from the whole site." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / invest in 投資於 / education 教育 / management 管理 / rather than 而不是 / shut the door on 把…拒於門外",
+          sample: "[[In conclusion,]] governments [[should]] invest in education and **management** [[rather than]] shut the door on visitors." },
+      ] },
+    ]
+  },
 ];
