@@ -1987,4 +1987,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 59, cat: "Social media & influencers",
+    title: "Teachers and Students on Social Media", zh: "師生用社群媒體聯絡",
+    question: "Should teachers use social media to communicate with their students?", questionZh: "老師應該用社群媒體和學生聯絡嗎？",
+    professor: "This week we are discussing how social media is changing the relationship between schools and students. Many teachers now create class group chats on apps such as LINE or WhatsApp, or even post lesson tips on Instagram, so that students can receive reminders and ask questions outside school hours. Supporters say this makes communication faster and more convenient. Critics worry that it blurs the line between school life and private life for both teachers and students. In your opinion, should teachers use social media to communicate with their students? Why or why not?",
+    david: "I think they should. Students check their phones far more often than the school website or their email, so a message in a class group chat actually gets read. My math teacher shares notes and answers questions in our LINE group in the evening, and during exam week this is extremely helpful. Nobody has to wait until the next class to solve a problem.",
+    mary: "I don't think it's a good idea. Teachers and students both need time to rest, but a group chat never stops. If a teacher sends a message at 10 p.m., students feel that they have to reply at once. Also, important information gets lost among hundreds of stickers and jokes. Schools already have official websites and email for announcements, and those are enough.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "老師應該用社群媒體和學生聯絡", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / social media 社群媒體 / communicate with 與…溝通、聯絡",
+          sample: "[[I agree with David that]] teachers should use **social media** to **communicate** with their students." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides … that David mentioned, I would add that 除了 David 提到的…之外，我想補充 / class group chat 班級群組 / encourage + O + to V 鼓勵…去… / shy 害羞的 / be afraid of + V-ing 害怕… / look foolish 顯得很笨 / in front of 在…面前 / stressful 有壓力的",
+          sample: "[[Besides]] the speed [[that David mentioned, I would add that]] a class **group chat** encourages shy students to ask questions. Many students [[are afraid of]] looking foolish in front of the whole class, but typing a question on a phone feels much less stressful." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / raise one's hand 舉手 / semester 學期 / however 然而 / class group 班級群組 / explain 解釋 / step 步驟 / As a result 結果 / improve 進步 / a great deal 大幅地",
+          sample: "[[For example,]] my classmate Kevin almost never raises his hand in science class. Last semester, [[however,]] he often asked about the homework in our **class group**, and our teacher explained each step with photos. [[As a result,]] his grades improved a great deal." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / This is a fair point; however, 這個觀點有道理；然而 / solve 解決 / by + V-ing 藉由… / set clear rules 訂立明確的規則 / such as 例如",
+          sample: "[[Mary argues that]] a group chat never stops. [[This is a fair point; however,]] the problem can be solved [[by]] setting clear **rules**, [[such as]] no messages after 9 p.m." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / a valuable tool for …的寶貴工具 / as long as 只要 / boundary 界線",
+          sample: "[[For these reasons, I believe that]] social media [[is a valuable tool for]] learning [[as long as]] it is used with clear **boundaries**." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "老師不應該用社群媒體和學生聯絡", rows: [
+        { role: "Position", zh: "表明立場", hints: "I share Mary's view that 我和 Mary 看法相同，認為 / social media 社群媒體 / communicate with 與…溝通、聯絡",
+          sample: "[[I share Mary's view that]] teachers should not use **social media** to **communicate** with their students." },
+        { role: "New reason", zh: "補充新理由", hints: "Apart from … that she described, another issue is that 除了她描述的…之外，另一個問題是 / lack of rest 缺乏休息 / unfair 不公平的 / Not every … 並非每個…都 / allow + O + to V 允許…做… / app 應用程式 / own 擁有 / smartphone 智慧型手機 / miss 錯過",
+          sample: "[[Apart from]] the lack of rest [[that she described, another issue is that]] social media is **unfair** to some students. [[Not every]] family allows teenagers to use these **apps**, and some students do not own a **smartphone**, so they may miss information that their classmates receive." },
+        { role: "Example", zh: "舉例", hints: "… is a good example …就是個好例子 / take away 拿走、沒收 / on weekdays 平日 / miss a message 漏看訊息 / test date 考試日期 / chapter 章節 / poor grade 很差的成績",
+          sample: "A friend of mine [[is a good example.]] Her parents take away her phone on weekdays, so she missed a **message** in the class group about a new test date. She studied the wrong chapters and got a poor grade." },
+        { role: "Respond to David", zh: "回應對方", hints: "… points out that …指出 / actually 確實、真的 / I understand his point, but 我理解他的觀點，但 / official school platform 學校官方平台 / notification 通知 / as well 也 / without + V-ing 而不… / mix A with B 把 A 和 B 混在一起 / private account 私人帳號",
+          sample: "[[David points out that]] students actually read messages in a group chat. [[I understand his point, but]] an **official** school **platform** can send **notifications** to phones as well, [[without]] mixing schoolwork with students' **private accounts**." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / keep A on B 讓 A 留在 B 上 / official channel 官方管道 / rather than 而不是 / rely on 依賴",
+          sample: "[[In conclusion,]] schools [[should]] keep communication on **official channels** [[rather than]] rely on social media." },
+      ] },
+    ]
+  },
 ];

@@ -3,7 +3,7 @@
 One line per finished task: number | type | category | title. A task is listed only after its HTML source is committed and pushed.
 Category order — Email: Apology / Absence; Request; Complaint / Problem; Inquiry / Information; Invitation / Reply; Advice / Suggestion; Application / Job; Thanks / Follow-up. Discussion: Education; Technology & AI; Social media & influencers; Environment; Government & society; Work & economy; Health & lifestyle; Ethics & culture.
 
-## Email (58)
+## Email (59)
 01 | Email | Apology / Absence | Missing a Club Meeting 無法出席社團會議 (to Alex, club president — medical appointment, poster for recycling campaign) | toefl-master/email-apology-absence.html
 02 | Email | Request | Requesting a Recommendation Letter 請教授寫推薦信 (to Professor Wang — exchange program in Canada, deadline + résumé/transcript) | toefl-master/email-request.html
 03 | Email | Complaint / Problem | Complaining About Noise in the Library 投訴圖書館自習區太吵 (to Ms. Lin, library manager — noisy quiet study area before final exams, suggest signs / staff patrol) | toefl-master/email-complaint-problem.html
@@ -62,8 +62,9 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 56 | Email | Thanks / Follow-up | Thanking a Guest Speaker After Career Day 感謝職涯日的演講來賓 (to Dr. Lin, marine biologist who studies sea turtles — gave a Career Day talk at your school and invited students to email her; thank her + most interesting part (tagging turtles at night), how the talk influenced your plans (biology / marine science), follow-up question about preparing for a career in the field) | toefl-master/email-thanks-follow-up.html
 57 | Email | Apology / Absence | Missing Sports Day Because of an Injury 因受傷缺席運動會 (to Mr. Parker, your PE teacher who organized Sports Day — twisted your ankle at the final relay practice the evening before, doctor ordered three days' rest, team had to find a substitute at the last minute and the class finished last; apologize + explain why you were absent, show you understand how your absence affected the team, say how you will make up for it (equipment room / apologize to teammates / medical certificate)) | toefl-master/email-apology-absence.html
 58 | Email | Request | Asking a Neighbor to Look After Your Cat 請鄰居幫忙照顧貓 (to Mrs. Chen, your next-door neighbor — family trip to Tainan for a cousin's wedding, away five days, pet hotel fully booked; why you will be away, ask her to look after your cat Mochi + what needs to be done, how you will make the job easy (key, cat food, instructions, contact)) | toefl-master/email-request.html
+59 | Email | Complaint / Problem | Complaining About Poor Facilities at a Sports Center 投訴運動中心設施不佳 (to Ms. Foster, manager of the City Sports Center — member for three months, swims three times a week: dirty changing rooms, broken lockers, showers with only cold water for two weeks, front desk told but nothing changed; describe the problems, how they have affected you, what you want — repairs, more cleaning / partial refund) | toefl-master/email-complaint-problem.html
 
-## Discussion (58)
+## Discussion (59)
 01 | Discussion | Education | Should STEAM courses be mandatory for all university students? 大學應該把 STEAM 課程列為全體學生的必修嗎？ | toefl-master/discussion-education.html
 02 | Discussion | Technology & AI | Will AI-generated images and videos have a positive or a negative influence on society? AI 生成的圖片與影片對社會的影響是正面還是負面？ | toefl-master/discussion-technology-ai.html
 03 | Discussion | Social media & influencers | Do social media influencers have a mainly positive or a mainly negative influence on young people? 社群媒體網紅對年輕人的影響主要是正面還是負面？ | toefl-master/discussion-social-media-influencers.html
@@ -122,6 +123,7 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 56 | Discussion | Ethics & culture | Should museums return cultural artifacts to their countries of origin? 博物館應該把文物歸還給原屬國嗎？ | toefl-master/discussion-ethics-culture.html
 57 | Discussion | Education | Should students help make decisions about how their school is run? 學生應該參與學校事務的決策嗎？ | toefl-master/discussion-education.html
 58 | Discussion | Technology & AI | Do video games benefit young people, or are they mostly a waste of time? 電玩對年輕人有益，還是多半在浪費時間？ | toefl-master/discussion-technology-ai.html
+59 | Discussion | Social media & influencers | Should teachers use social media to communicate with their students? 老師應該用社群媒體和學生聯絡嗎？ | toefl-master/discussion-social-media-influencers.html
 
 ## Notes for the next run
 - Sample markup in the HTML sources: `<span style="background-color:#fff2a8">` = universal pattern, `<b>` = theme word.
