@@ -1681,4 +1681,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 50, cat: "Technology & AI",
+    title: "Government Regulation of AI", zh: "政府監管 AI",
+    question: "Should governments strictly regulate artificial intelligence?", questionZh: "政府應該嚴格監管人工智慧嗎？",
+    professor: "This week we are discussing who should control powerful new technologies. Artificial intelligence is now used to approve bank loans, screen job applicants and even help doctors diagnose diseases. Some experts argue that governments must pass strict laws to control how AI is developed and used, just as they do for medicines and cars. Others warn that heavy regulation would slow down innovation and that technology companies understand their own products best. In your opinion, should governments strictly regulate artificial intelligence? Why or why not?",
+    david: "I believe they should. AI systems can make unfair decisions because they learn from biased data. For example, facial recognition software has misidentified innocent people, and some of them were arrested by mistake. Companies care mainly about profit, so they will not fix these problems unless the law forces them to.",
+    mary: "I see it differently. Technology changes much faster than laws do, so strict rules would be out of date by the time they were passed. Heavy regulation would also discourage small start-ups, which cannot afford teams of lawyers. I think companies should follow voluntary guidelines and compete to build safer products.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "政府應該嚴格監管 AI", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / regulate 監管 / artificial intelligence 人工智慧",
+          sample: "[[I agree with David that]] governments [[should]] strictly **regulate** **artificial intelligence**." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides … that David mentioned, I would add that 除了 David 提到的…之外，我想補充 / bias 偏見 / accountability 問責、責任歸屬 / cause harm 造成傷害 / it is unclear who… 不清楚是誰… / responsible 該負責的 / Only … can … 只有…才能… / victim 受害者 / compensation 賠償",
+          sample: "[[Besides]] the problem of **bias** [[that David mentioned, I would add that]] regulation is needed for **accountability**. When an AI system causes harm, it is often unclear who is **responsible**: the company, the programmer or the user. [[Only]] clear laws [[can]] make sure that victims receive **compensation**." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / self-driving car 自動駕駛車 / pedestrian 行人 / spend years in court 打好幾年官司 / whom to blame 該怪誰 / Just as …, … 正如…，…也… / insurance 保險 / be legally required to + V 依法必須… / answer for 為…負責",
+          sample: "[[For example,]] if a **self-driving car** hits a pedestrian, the family should not have to spend years in court finding out whom to blame. [[Just as]] every driver must have insurance, every AI company should be **legally required** to answer for its products." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / keep up with 跟上 / While this may be true to some extent, 雖然這在某種程度上可能是對的 / safety standards 安全標準 / transparency 透明度 / remain useful 仍然有用",
+          sample: "[[Mary argues that]] laws cannot keep up with technology. [[While this may be true to some extent,]] governments can set general **safety standards**, such as testing and **transparency**, which remain useful as technology changes." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I firmly believe that 基於這些理由，我堅信 / regulation 監管、法規 / be essential to + V 對…不可或缺",
+          sample: "[[For these reasons, I firmly believe that]] strict **regulation** [[is essential to]] make AI safe and fair for everyone." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "政府不應該嚴格監管 AI", rows: [
+        { role: "Position", zh: "表明立場", hints: "I side with Mary on this issue 在這個議題上我站在 Mary 這邊 / impose regulations on 對…施加規範 / artificial intelligence 人工智慧",
+          sample: "[[I side with Mary on this issue:]] governments [[should not]] impose strict **regulations** on **artificial intelligence**." },
+        { role: "New reason", zh: "補充新理由", hints: "Another point worth considering is that 另一個值得考慮的重點是 / globally 在全球 / pass a law 通過法律 / researcher 研究人員 / move abroad 移往國外 / As a result 結果 / talent 人才 / risky 有風險的 / elsewhere 在別處",
+          sample: "[[Another point worth considering is that]] AI is developed globally. If one country passes very strict laws, its best **researchers** will simply move abroad. [[As a result,]] that country will lose **talent**, while risky AI will still be built elsewhere." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / start-up 新創公司 / detect 偵測 / eye disease 眼疾 / approval 核准 / run out of money 把錢用完 / patient 病人 / sight 視力",
+          sample: "[[Take]] medical AI [[as an example.]] Imagine a small **start-up** that has designed a program to help doctors detect eye disease early. If it had to wait years for government **approval**, it might run out of money, and patients would lose a tool that could save their sight." },
+        { role: "Respond to David", zh: "回應對方", hints: "David is right to point out that David 指出…是對的 / biased 有偏見的 / Nevertheless 儘管如此 / existing laws 現行法律 / discrimination 歧視 / apply to 適用於 / enforcement 執法 / rather than 而不是",
+          sample: "[[David is right to point out that]] AI can be **biased**. [[Nevertheless,]] existing laws against **discrimination** already apply to companies, [[so]] we need better **enforcement** [[rather than]] a new set of rules." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / flexible guidelines 有彈性的準則 / competition 競爭 / the best way to + V …最好的方法 / innovation 創新",
+          sample: "[[In conclusion,]] flexible **guidelines** and open competition, not heavy regulation, [[are the best way to]] encourage safe **innovation**." },
+      ] },
+    ]
+  },
 ];
