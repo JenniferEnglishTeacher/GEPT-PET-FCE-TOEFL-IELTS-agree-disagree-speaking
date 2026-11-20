@@ -1545,4 +1545,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 46, cat: "Work & economy",
+    title: "University Degrees and Career Success", zh: "大學學位與事業成功",
+    question: "Is a university degree still necessary for a successful career?", questionZh: "大學學位仍然是事業成功的必要條件嗎？",
+    professor: "This week we are discussing education and employment. For much of the last century, a university degree was seen as the safest path to a well-paid job. Today, however, tuition fees are rising, many graduates struggle to find work in their field, and some large technology companies no longer ask applicants for a degree at all. At the same time, online courses and AI tools allow people to learn valuable skills cheaply. In your opinion, is a university degree still necessary for a successful career? Why or why not?",
+    david: "I think a degree is still necessary. Most professional jobs, such as engineer, accountant or teacher, list a degree as a basic requirement, so applicants without one are often rejected before the interview. Statistics in many countries also show that graduates earn more and are less likely to be unemployed than people who only finished high school.",
+    mary: "I disagree. Employers care about what you can do, not about a piece of paper. Many skills, such as programming, design and video editing, can be learned through online courses and real projects in a few months. Meanwhile, four years at university cost a great deal of money, and many graduates leave with heavy debts and no practical experience.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "認為學位仍然必要", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / university degree 大學學位 / be still necessary for 對…仍然是必要的 / especially in 尤其在 / competitive 競爭激烈的 / job market 就業市場",
+          sample: "[[I agree with David that]] a **university degree** [[is still necessary for]] a successful career, [[especially in]] a competitive **job market**." },
+        { role: "New reason", zh: "補充新理由", hints: "Apart from … that David mentioned 除了 David 提到的…之外 / job requirements 職缺條件 / professional network 專業人脈 / alumni 校友 / job openings 職缺 / recommendation 推薦信 / which can 這能 / open doors 開啟機會",
+          sample: "[[Apart from]] the job requirements [[that David mentioned,]] university gives students something that online courses cannot: a professional **network**. Professors, classmates and **alumni** often share job openings and write **recommendations**, [[which can]] open many doors." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / accounting 會計 / national university 國立大學 / recommend … for 推薦…去 / internship 實習 / firm 事務所、公司 / be offered a full-time position 獲得正職 / graduate 畢業",
+          sample: "[[For instance,]] my older sister studied accounting at a national university. In her final year, one of her professors recommended her for an **internship** at a well-known firm, and she was offered a **full-time position** before she graduated." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary claims that Mary 聲稱 / However, this is not always the case, because 然而情況並非總是如此，因為 / application 求職申請 / Moreover 此外 / self-discipline 自律 / complete 完成",
+          sample: "[[Mary claims that]] employers only care about skills. [[However, this is not always the case, because]] a company that receives hundreds of **applications** often checks degrees first. [[Moreover,]] few people have the **self-discipline** to complete online courses alone." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / remain 仍然是 / reliable 可靠的 / investment 投資 / future 未來",
+          sample: "[[For these reasons, I believe that]] a degree [[remains]] the most reliable **investment** in a young person's future." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "認為學位不再必要", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my opinion 依我之見 / university degree 大學學位 / be no longer necessary for 對…不再是必要的 / so I agree with Mary 所以我同意 Mary",
+          sample: "[[In my opinion,]] a **university degree** [[is no longer necessary for]] a successful career, [[so I agree with Mary.]]" },
+        { role: "New reason", zh: "補充新理由", hints: "Besides … that Mary mentioned 除了 Mary 提到的…之外 / out of date 過時的 / by the time 到…的時候 / In contrast 相較之下 / practical experience 實務經驗",
+          sample: "[[Besides]] the cost [[that Mary mentioned,]] technology is changing so quickly that what students learn in their first year may be **out of date** by the time they graduate. [[In contrast,]] people who start working early gain **practical experience** every day." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / Instead of + V-ing 不…而是 / online course 線上課程 / web design 網頁設計 / portfolio 作品集 / be hired by 被…錄用 / earn 賺取 / graduate 大學畢業生",
+          sample: "[[Take]] my cousin [[as an example.]] [[Instead of]] going to university, he completed a six-month online course in web design and built a **portfolio** of websites. Two years later, he was hired by a software company, and he now earns more than many **graduates**." },
+        { role: "Respond to David", zh: "回應對方", hints: "It is true, as David says, that 誠如 David 所說，…是事實 / job advertisement 徵才廣告 / Nevertheless 儘管如此 / employer 雇主 / test … directly 直接測驗 / applicant 應徵者 / ability 能力",
+          sample: "[[It is true, as David says, that]] many job advertisements ask for a degree. [[Nevertheless,]] this is changing, as more **employers** now test applicants' abilities directly through tasks and interviews." },
+        { role: "Conclusion", zh: "結論", hints: "To sum up 總而言之 / real skills 真正的技能 / rather than 而不是 / diploma 文憑 / lead to success 帶來成功",
+          sample: "[[To sum up,]] real **skills** and experience, [[rather than]] a **diploma**, [[are what]] lead to success today." },
+      ] },
+    ]
+  },
 ];
