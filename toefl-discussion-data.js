@@ -1953,4 +1953,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 58, cat: "Technology & AI",
+    title: "Video Games: Useful or a Waste of Time?", zh: "電玩：有益還是浪費時間？",
+    question: "Do video games benefit young people, or are they mostly a waste of time?", questionZh: "電玩對年輕人有益，還是多半在浪費時間？",
+    professor: "This week we are looking at how digital entertainment affects young people. Video games are now one of the most popular hobbies in the world, and many teenagers spend more than ten hours a week playing them. Some researchers argue that games train useful skills such as problem-solving, teamwork and quick decision-making. Others believe that gaming takes time away from study, sleep and exercise and teaches very little that matters in real life. In your opinion, do video games benefit young people, or are they mostly a waste of time? Why?",
+    david: "I think games are more useful than most adults realize. In team games, players have to talk to each other, make a plan and change it quickly when something goes wrong. Those are exactly the skills that companies look for. My friend also learned a lot of English words from an online game because he had to chat with players from other countries.",
+    mary: "I'm not convinced. Once people start playing, they often can't stop, and one more game easily turns into three hours. My brother played online games every night last summer and didn't finish his homework. Sitting in front of a screen for hours also hurts our eyes and backs. Real sports teach teamwork too, and they are much healthier.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "電玩對年輕人有益", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my opinion 依我之見 / benefit 對…有益 / I agree with David that 我同意 David 所說的 / train 訓練 / useful skills 有用的能力",
+          sample: "[[In my opinion,]] **video games** **benefit** young people, [[and I agree with David that]] team games train useful **skills**." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to … he mentioned, I would argue that 除了他提到的…之外，我認為 / deal with failure 面對失敗 / again and again 一次又一次 / succeed 成功 / analyze 分析 / strategy 策略 / instead of + V-ing 而不是… / give up 放棄",
+          sample: "[[In addition to]] the skills [[he mentioned, I would argue that]] games teach players how to deal with **failure**. In most games, players lose again and again before they succeed, so they learn to analyze their mistakes and try a different **strategy** [[instead of]] giving up." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / used to + V 以前總是… / whenever 每當 / puzzle game 益智遊戲 / dozens of attempts 幾十次嘗試 / patient 有耐心的 / get … wrong 把…做錯 / try another way 試另一種方法",
+          sample: "[[For example,]] my younger cousin [[used to]] cry whenever he got a bad grade. After he played a **puzzle game** that took him dozens of **attempts** to finish, he became much more patient. Now, when he gets a math problem wrong, he simply tries another way." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… points out that …指出 / take up 佔用 / That is a fair concern, but 這是合理的擔憂，但 / the real problem is A, not B 真正的問題是 A，不是 B / a lack of 缺乏 / self-control 自制力",
+          sample: "[[Mary points out that]] gaming can take up too much time. [[That is a fair concern, but the real problem is]] a lack of **self-control**, [[not]] the games themselves." },
+        { role: "Conclusion", zh: "結論", hints: "To sum up 總而言之 / in moderation 適度地 / a valuable way to + V …的寶貴方式 / build skills 培養能力 / resilience 韌性、抗壓力",
+          sample: "[[To sum up,]] when played **in moderation**, video games [[are a valuable way to]] build skills and **resilience**." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "電玩多半是浪費時間", rows: [
+        { role: "Position", zh: "表明立場", hints: "I share Mary's view that 我和 Mary 看法相同，認為 / video game 電玩 / a waste of time 浪費時間",
+          sample: "[[I share Mary's view that]] **video games** are mostly a **waste of time** for young people." },
+        { role: "New reason", zh: "補充新理由", hints: "Apart from … she described, another issue is that 除了她描述的…之外，另一個問題是 / be designed to + V 被設計來… / reward 獎勵 / daily task 每日任務 / limited-time offer 限時優惠 / log in 登入 / virtual item 虛擬道具",
+          sample: "[[Apart from]] the health problems [[she described, another issue is that]] many games [[are designed to]] keep players spending money as well as time. Game companies use **rewards**, daily tasks and limited-time offers to make players log in every day and buy **virtual items**." },
+        { role: "Example", zh: "舉例", hints: "… is a good example …就是個好例子 / nearly all of 幾乎全部的 / Lunar New Year money 壓歲錢 / costume 服裝、造型 / mobile game 手機遊戲 / lose interest in 對…失去興趣 / worthless 毫無價值的",
+          sample: "A classmate of mine [[is a good example.]] Last year, he spent nearly all of his Lunar New Year money on character costumes for a **mobile game**. A few months later, he lost interest in the game, and everything he had bought became **worthless**." },
+        { role: "Respond to David", zh: "回應對方", hints: "… claims that …聲稱 / teamwork 團隊合作 / However 然而 / more effectively 更有效地 / by + V-ing 藉由… / debate club 辯論社 / build real friendships 建立真正的友誼",
+          sample: "[[David claims that]] games teach **teamwork** and even English. [[However,]] the same skills can be learned more effectively [[by]] joining a sports team or a debate club, where students also build real friendships." },
+        { role: "Conclusion", zh: "結論", hints: "Overall, I am convinced that 整體而言，我深信 / gain far more 收穫多得多 / free time 空閒時間 / real-world activities 現實世界的活動",
+          sample: "[[Overall, I am convinced that]] young people would gain far more by spending their free time on **real-world activities**." },
+      ] },
+    ]
+  },
 ];
