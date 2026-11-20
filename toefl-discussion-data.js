@@ -1919,4 +1919,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 57, cat: "Education",
+    title: "Students Helping to Run Their School", zh: "學生參與學校決策",
+    question: "Should students help make decisions about how their school is run?", questionZh: "學生應該參與學校事務的決策嗎？",
+    professor: "This week we are looking at who should run a school. Traditionally, principals and teachers make almost all the decisions, from the timetable and the lunch menu to the rules on mobile phones. However, some schools now have student councils whose members vote on real policies, and a few even invite students to sit on the committees that set school rules. Supporters say that this teaches responsibility, while critics think that teenagers lack the experience to make such choices. In your opinion, should students help make decisions about how their school is run? Why or why not?",
+    david: "I think students should definitely have a say. They are the ones who use the phones, eat the lunches and follow the timetable every day, so they know what works and what doesn't. Also, people respect rules more when they have helped to make them. At my cousin's school, students suggested a phone zone instead of a total ban, and there were fewer problems in class afterwards.",
+    mary: "I don't agree. Most teenagers think about what they want right now, not what is good for them in the long run. If students could vote, they would probably choose less homework, longer breaks and fried chicken every day. Principals and teachers have years of training and experience, so they should be the ones who decide.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "支持讓學生參與學校決策", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my view 依我看 / make decisions about 對…做決定 / be run 被經營、運作 / I agree with David that 我同意 David 所說的 / respect rules 尊重規定 / create 制定",
+          sample: "[[In my view,]] students [[should]] help make **decisions** about how their school is run, [[and I agree with David that]] people respect rules they have helped to create." },
+        { role: "New reason", zh: "補充新理由", hints: "Another reason he did not mention is that 他沒有提到的另一個理由是 / take part in 參與 / prepare A for B 讓 A 為 B 做好準備 / democracy 民主（社會）/ vote 投票 / disagree politely 有禮貌地表達不同意 / accept a result 接受結果",
+          sample: "[[Another reason he did not mention is that]] taking part in school decisions prepares young people for life in a **democracy**. When students discuss a problem, listen to different opinions and **vote**, they learn how to disagree politely and accept a result they do not like." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / student council 學生會 / budget 預算 / hold a survey 進行問卷調查 / debate 辯論 / water dispenser 飲水機 / even 即使是",
+          sample: "[[For instance,]] my school's **student council** was asked to decide how to spend a small **budget** last year. The members held a survey, debated three ideas and finally chose new water dispensers. Even students whose ideas lost accepted the result." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… worries that …擔心 / I see her point, but 我明白她的意思，但 / the final word 最終決定權 / reject 否決 / unreasonable 不合理的 / proposal 提案",
+          sample: "[[Mary worries that]] students would only vote for less homework. [[I see her point, but]] students do not need the final word; teachers can still reject unreasonable **proposals**." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / give … a voice 讓…有發聲的機會 / fairer 更公平的 / responsible 負責任的",
+          sample: "[[In conclusion,]] giving students a **voice** makes schools fairer and students more responsible." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "反對讓學生參與學校決策", rows: [
+        { role: "Position", zh: "表明立場", hints: "Personally, I do not think that 我個人不認為 / make decisions about 對…做決定 / be run 被經營、運作 / I agree with Mary that 我同意 Mary 所說的 / focus on 只著眼於",
+          sample: "[[Personally, I do not think that]] students [[should]] make important **decisions** about how their school is run, [[and I agree with Mary that]] teenagers often focus on what they want right now." },
+        { role: "New reason", zh: "補充新理由", hints: "Beyond the point she made, I believe that 除了她提出的論點之外，我認為 / be responsible for 對…負責 / policy 政策 / fail 失敗 / it is A who … 是 A 才…（強調句）/ answer to 向…交代 / it is only reasonable that …是合情合理的",
+          sample: "[[Beyond the point she made, I believe that]] students are not **responsible** for the results of these decisions. If a new **policy** fails, [[it is]] the principal and the teachers [[who]] must answer to parents, so [[it is only reasonable that]] they make the choice." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / vote to + V 投票決定… / shorten 縮短 / lunch break 午休時間 / Within a month 不到一個月 / skip lunch 不吃午餐 / deal with 處理 / complaint 抱怨、投訴",
+          sample: "[[For example,]] the students at my friend's school **voted** to shorten the lunch break to go home earlier. Within a month, many were skipping lunch, and teachers had to deal with parents' **complaints**." },
+        { role: "Respond to David", zh: "回應對方", hints: "… says that …說 / what works 什麼行得通 / While this is partly true 雖然這有一部分是對的 / collect opinions 蒐集意見 / survey 問卷調查 / without + V-ing 而不必… / the power to decide 決定權",
+          sample: "[[David says that]] students know best what works at school. [[While this is partly true,]] their opinions can be collected through **surveys** [[without]] giving them the power to decide." },
+        { role: "Conclusion", zh: "結論", hints: "All in all 總而言之 / listen to 傾聽 / leave A to B 把 A 留給 B / final decision 最終決定 / adult 成年人",
+          sample: "[[All in all,]] schools [[should]] listen to students but leave the final decisions to adults." },
+      ] },
+    ]
+  },
 ];

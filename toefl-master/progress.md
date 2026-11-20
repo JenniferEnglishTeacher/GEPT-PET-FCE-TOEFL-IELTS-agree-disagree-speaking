@@ -3,7 +3,7 @@
 One line per finished task: number | type | category | title. A task is listed only after its HTML source is committed and pushed.
 Category order — Email: Apology / Absence; Request; Complaint / Problem; Inquiry / Information; Invitation / Reply; Advice / Suggestion; Application / Job; Thanks / Follow-up. Discussion: Education; Technology & AI; Social media & influencers; Environment; Government & society; Work & economy; Health & lifestyle; Ethics & culture.
 
-## Email (56)
+## Email (57)
 01 | Email | Apology / Absence | Missing a Club Meeting 無法出席社團會議 (to Alex, club president — medical appointment, poster for recycling campaign) | toefl-master/email-apology-absence.html
 02 | Email | Request | Requesting a Recommendation Letter 請教授寫推薦信 (to Professor Wang — exchange program in Canada, deadline + résumé/transcript) | toefl-master/email-request.html
 03 | Email | Complaint / Problem | Complaining About Noise in the Library 投訴圖書館自習區太吵 (to Ms. Lin, library manager — noisy quiet study area before final exams, suggest signs / staff patrol) | toefl-master/email-complaint-problem.html
@@ -60,8 +60,9 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 54 | Email | Advice / Suggestion | Suggesting a New After-school Coding Club 建議成立課後程式設計社 (to Mr. Hughes, the student activities coordinator — no technology club at school, he invited ideas for new clubs next semester, Ms. Chang (computer science teacher) willing to help; describe the club, explain how it benefits students, say how it could be organized (computer lab, Wednesdays)) | toefl-master/email-advice-suggestion.html
 55 | Email | Application / Job | Applying to Be a Research Assistant for a Professor's Study 應徵教授研究計畫的研究助理 (to Professor Bennett, Department of Psychology — student research assistant for a three-month study of university students' sleep habits: hand out questionnaires, enter answers, prepare charts about 8 hours a week; why you are interested in the project, your skills and experience (psychology major, statistics course, good at spreadsheets), ask about working hours + say when you could come for an interview) | toefl-master/email-application-job.html
 56 | Email | Thanks / Follow-up | Thanking a Guest Speaker After Career Day 感謝職涯日的演講來賓 (to Dr. Lin, marine biologist who studies sea turtles — gave a Career Day talk at your school and invited students to email her; thank her + most interesting part (tagging turtles at night), how the talk influenced your plans (biology / marine science), follow-up question about preparing for a career in the field) | toefl-master/email-thanks-follow-up.html
+57 | Email | Apology / Absence | Missing Sports Day Because of an Injury 因受傷缺席運動會 (to Mr. Parker, your PE teacher who organized Sports Day — twisted your ankle at the final relay practice the evening before, doctor ordered three days' rest, team had to find a substitute at the last minute and the class finished last; apologize + explain why you were absent, show you understand how your absence affected the team, say how you will make up for it (equipment room / apologize to teammates / medical certificate)) | toefl-master/email-apology-absence.html
 
-## Discussion (56)
+## Discussion (57)
 01 | Discussion | Education | Should STEAM courses be mandatory for all university students? 大學應該把 STEAM 課程列為全體學生的必修嗎？ | toefl-master/discussion-education.html
 02 | Discussion | Technology & AI | Will AI-generated images and videos have a positive or a negative influence on society? AI 生成的圖片與影片對社會的影響是正面還是負面？ | toefl-master/discussion-technology-ai.html
 03 | Discussion | Social media & influencers | Do social media influencers have a mainly positive or a mainly negative influence on young people? 社群媒體網紅對年輕人的影響主要是正面還是負面？ | toefl-master/discussion-social-media-influencers.html
@@ -118,6 +119,7 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 54 | Discussion | Work & economy | Is it better for young people to start their own business than to work for a company? 年輕人自己創業比受僱於公司更好嗎？ | toefl-master/discussion-work-economy.html
 55 | Discussion | Health & lifestyle | Should advertising fast food and junk food to children be banned? 應該禁止向兒童行銷速食與垃圾食物的廣告嗎？ | toefl-master/discussion-health-lifestyle.html
 56 | Discussion | Ethics & culture | Should museums return cultural artifacts to their countries of origin? 博物館應該把文物歸還給原屬國嗎？ | toefl-master/discussion-ethics-culture.html
+57 | Discussion | Education | Should students help make decisions about how their school is run? 學生應該參與學校事務的決策嗎？ | toefl-master/discussion-education.html
 
 ## Notes for the next run
 - Sample markup in the HTML sources: `<span style="background-color:#fff2a8">` = universal pattern, `<b>` = theme word.
