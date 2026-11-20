@@ -1715,4 +1715,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 51, cat: "Social media & influencers",
+    title: "Influencer as a Career", zh: "以網紅為職業",
+    question: "Is becoming a social media influencer a good career choice for young people?", questionZh: "成為社群媒體網紅對年輕人來說是好的職業選擇嗎？",
+    professor: "This week we are looking at new kinds of work created by the internet. In recent surveys, a large number of teenagers say that they would like to become YouTubers or social media influencers when they grow up, and a few successful creators do earn more than doctors or engineers. Some people see content creation as a real profession with a bright future, while others regard it as a risky dream that distracts young people from more reliable paths. In your opinion, is becoming a social media influencer a good career choice for young people? Why or why not?",
+    david: "I think it is. Influencers can earn money by doing what they love, such as gaming, cooking or travelling, and they can choose their own working hours. A YouTuber from my city started by filming food reviews in his bedroom, and now he has over a million followers and works with famous brands. Why should young people give up such an opportunity?",
+    mary: "I disagree. For every famous influencer, there are thousands who earn almost nothing. The income is not stable, because people can stop watching your videos at any time. There is also a lot of pressure to post new content every day, and many influencers receive mean comments online. I think it is much wiser to choose a traditional job with a regular salary.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "當網紅是好的職業選擇", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / influencer 網紅 / career choice 職業選擇",
+          sample: "[[I agree with David that]] becoming a social media **influencer** can be a good **career choice** for young people." },
+        { role: "New reason", zh: "補充新理由", hints: "One point David did not mention is that David 沒有提到的一點是 / content creator 內容創作者 / valuable skills 寶貴的技能 / run a channel 經營頻道 / video editing 影片剪輯 / public speaking 公開演說 / marketing 行銷 / In other words 換句話說 / run a business 經營事業",
+          sample: "[[One point David did not mention is that]] **content creators** develop valuable **skills**. To run a successful **channel**, they have to learn **video editing**, public speaking and **marketing**. [[In other words,]] an influencer is running a small business." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / baking 烘焙 / Although 雖然 / follower 追蹤者 / so … that … 如此…以致於… / be impressed by 對…印象深刻 / hire 僱用 / online advertising 網路廣告",
+          sample: "[[For example,]] my cousin started a channel about baking when she was in high school. [[Although]] she has only about twenty thousand **followers**, a local bakery was [[so]] impressed by her videos [[that]] it hired her to manage its **online advertising**." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / income 收入 / stable 穩定的 / This is a fair point; however, 這個觀點有道理；然而 / secure 有保障的 / gain 獲得 / industry 產業",
+          sample: "[[Mary argues that]] the **income** is not **stable**. [[This is a fair point; however,]] few jobs are completely secure today, and the skills that creators gain can easily be used in other industries." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / creative 有創意的 / hard-working 勤奮的 / be encouraged to + V 受到鼓勵去… / give … a try 試試看",
+          sample: "[[For these reasons, I believe that]] young people who are **creative** and hard-working [[should be encouraged to]] give this career a try." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "當網紅不是明智的職業選擇", rows: [
+        { role: "Position", zh: "表明立場", hints: "I share …'s view that 我和…看法相同，認為 / influencer 網紅 / wise 明智的 / career choice 職業選擇",
+          sample: "[[I share Mary's view that]] becoming a social media **influencer** is not a wise **career choice** for most young people." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides … that Mary mentioned, I would add that 除了 Mary 提到的…之外，我想補充 / unstable income 不穩定的收入 / depend on 依賴 / platform 平台 / algorithm 演算法 / account 帳號 / without warning 毫無預警地 / audience 觀眾 / disappear 消失",
+          sample: "[[Besides]] the unstable **income** [[that Mary mentioned, I would add that]] influencers depend completely on **platforms** they do not control. A company can change its **algorithm** or close an **account** without warning, and a creator's **audience** may disappear with it." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / ban 禁止 / creator 創作者 / overnight 一夜之間 / Unlike + N 不像… / contract 合約 / protect 保障",
+          sample: "[[For instance,]] when a popular video app was suddenly banned in one country, thousands of **creators** lost their **followers** and their income overnight. [[Unlike]] teachers or nurses, they had no **contract** to protect them." },
+        { role: "Respond to David", zh: "回應對方", hints: "… points out that …指出 / get paid for + V-ing 做…而獲得報酬 / I understand his point, but 我理解他的觀點，但 / stop + V-ing 不再… / once 一旦 / deadline 截止期限 / public criticism 公眾的批評",
+          sample: "[[David points out that]] influencers get paid for doing what they love. [[I understand his point, but]] a hobby often stops being fun [[once]] it becomes a job with daily deadlines and **public criticism**." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / treat A as B 把 A 當作 B / content creation 內容創作 / backup plan 備案 / rather than 而不是 / rely on … for a living 靠…維生",
+          sample: "[[In conclusion,]] young people [[should]] treat **content creation** as a hobby and keep studying as a **backup plan** [[rather than]] rely on it for a living." },
+      ] },
+    ]
+  },
 ];
