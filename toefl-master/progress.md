@@ -3,7 +3,7 @@
 One line per finished task: number | type | category | title. A task is listed only after its HTML source is committed and pushed.
 Category order — Email: Apology / Absence; Request; Complaint / Problem; Inquiry / Information; Invitation / Reply; Advice / Suggestion; Application / Job; Thanks / Follow-up. Discussion: Education; Technology & AI; Social media & influencers; Environment; Government & society; Work & economy; Health & lifestyle; Ethics & culture.
 
-## Email (41)
+## Email (42)
 01 | Email | Apology / Absence | Missing a Club Meeting 無法出席社團會議 (to Alex, club president — medical appointment, poster for recycling campaign) | toefl-master/email-apology-absence.html
 02 | Email | Request | Requesting a Recommendation Letter 請教授寫推薦信 (to Professor Wang — exchange program in Canada, deadline + résumé/transcript) | toefl-master/email-request.html
 03 | Email | Complaint / Problem | Complaining About Noise in the Library 投訴圖書館自習區太吵 (to Ms. Lin, library manager — noisy quiet study area before final exams, suggest signs / staff patrol) | toefl-master/email-complaint-problem.html
@@ -45,8 +45,9 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 39 | Email | Application / Job | Applying for a Summer Internship at a Travel Company 應徵旅行社暑期實習 (to Mr. Grant, human resources manager of Blue Sky Travel — six-week summer internship answering customers' questions, preparing tour information and updating social media; why you are interested (career in tourism), skills or experience (English + some Japanese, planned the class graduation trip), ask about the working hours + how to apply) | toefl-master/email-application-job.html
 40 | Email | Thanks / Follow-up | Following Up on a Scholarship Application 追蹤獎學金申請進度 (to Ms. Turner, scholarship coordinator — Global Leaders Scholarship for a two-week summer program at a university in Singapore, results promised within two weeks but no news after three; remind her of your application + when you submitted it (form / essay / recommendation letter, May 2), ask politely about the status, offer to provide further information or documents) | toefl-master/email-thanks-follow-up.html
 41 | Email | Apology / Absence | Apologizing to a Neighbor for a Noisy Party 為派對太吵向鄰居道歉 (to Mrs. Johnson, your elderly downstairs neighbor — end-of-exams party at your apartment with music and laughter until after midnight, she left a note on your door; apologize + explain what happened, show you understand how the noise affected her (kept awake, had to get up early), what you will do to prevent it (music off / gatherings end by ten, tell her in advance / phone number)) | toefl-master/email-apology-absence.html
+42 | Email | Request | Requesting a Change to a Work Shift 請主管調整打工班表 (to Ms. Flores, manager of Page One Bookstore where you work part-time on Saturday mornings — school English speaking test on Saturday the 14th from 9 a.m. to noon clashes with your shift; why you cannot work your usual shift, ask to change the shift + suggest another time (Sunday morning / Saturday afternoon), how the store will not be affected (co-worker Amy covers / swaps shifts)) | toefl-master/email-request.html
 
-## Discussion (41)
+## Discussion (42)
 01 | Discussion | Education | Should STEAM courses be mandatory for all university students? 大學應該把 STEAM 課程列為全體學生的必修嗎？ | toefl-master/discussion-education.html
 02 | Discussion | Technology & AI | Will AI-generated images and videos have a positive or a negative influence on society? AI 生成的圖片與影片對社會的影響是正面還是負面？ | toefl-master/discussion-technology-ai.html
 03 | Discussion | Social media & influencers | Do social media influencers have a mainly positive or a mainly negative influence on young people? 社群媒體網紅對年輕人的影響主要是正面還是負面？ | toefl-master/discussion-social-media-influencers.html
@@ -88,6 +89,7 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 39 | Discussion | Health & lifestyle | Should smoking be banned in all public places, including outdoor ones? 所有公共場所（包括戶外）都應該禁菸嗎？ | toefl-master/discussion-health-lifestyle.html
 40 | Discussion | Ethics & culture | Is globalization a threat to local cultures and traditions? 全球化對在地文化與傳統是一種威脅嗎？ | toefl-master/discussion-ethics-culture.html
 41 | Discussion | Education | Can online learning replace traditional classroom education? 線上學習能取代傳統的課堂教學嗎？ | toefl-master/discussion-education.html
+42 | Discussion | Technology & AI | Is our dependence on technology making people less intelligent? 對科技的依賴正在讓人們變笨嗎？ | toefl-master/discussion-technology-ai.html
 
 ## Notes for the next run
 - Sample markup in the HTML sources: `<span style="background-color:#fff2a8">` = universal pattern, `<b>` = theme word.

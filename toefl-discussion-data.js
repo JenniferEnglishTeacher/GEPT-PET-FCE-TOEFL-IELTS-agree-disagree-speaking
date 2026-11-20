@@ -1409,4 +1409,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 42, cat: "Technology & AI",
+    title: "Technology and Intelligence", zh: "科技與智力",
+    question: "Is our dependence on technology making people less intelligent?", questionZh: "對科技的依賴正在讓人們變笨嗎？",
+    professor: "This week we are examining how digital tools affect the human mind. Today, people use search engines to find facts, navigation apps to find their way and calculators to do even simple sums. Some researchers warn that, because we no longer need to remember things or work them out for ourselves, our mental abilities are getting weaker. Others argue that these tools free our minds for more complex and creative thinking. In your opinion, is our dependence on technology making people less intelligent? Why or why not?",
+    david: "I think it is. We hardly use our memory anymore. A few years ago, people knew their friends' phone numbers by heart, but now most of us cannot even remember our own. When every answer is one click away, we stop making an effort to learn things, and a brain that is not used becomes weaker, just like a muscle.",
+    mary: "I disagree. Technology does not make us less intelligent; it makes us more capable. Because we do not have to memorize facts, we have more time and energy for understanding ideas and solving problems. Thanks to the internet, an ordinary student today can learn about almost any subject, which was impossible for earlier generations.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "認為依賴科技讓人變笨", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / dependence on 對…的依賴 / less intelligent 比較不聰明",
+          sample: "[[I agree with David that]] our **dependence** on technology is making people less **intelligent**." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides … that David mentioned, I would add that 除了 David 提到的…之外，我想補充 / memory 記憶力 / damage 損害 / concentrate 專心 / train … to + V 訓練…去… / jump from A to B 從 A 跳到 B / As a result 結果 / find it hard to + V 覺得…很困難 / think deeply 深入思考",
+          sample: "[[Besides]] the loss of **memory** [[that David mentioned, I would add that]] technology is damaging our ability to **concentrate**. Smartphones train us to jump from one short video or message to the next every few seconds. [[As a result,]] many people [[find it hard to]] read a long article or **think deeply** about one problem." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / used to + V 以前習慣… / novel 小說 / Since… 自從… / however 然而 / can hardly + V 幾乎無法… / reach for 伸手去拿",
+          sample: "[[For example,]] I [[used to]] finish a novel in a week. Since I started watching short videos every evening, [[however,]] I can hardly read ten pages without reaching for my phone." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… claims that …聲稱 / free our minds 解放我們的頭腦 / This sounds reasonable; however, 這聽起來很合理；然而 / complex 複雜的 / knowledge 知識 / depend on 取決於、依賴",
+          sample: "[[Mary claims that]] technology frees our minds for understanding ideas. [[This sounds reasonable; however,]] we cannot understand **complex** ideas without **knowledge** in our heads, [[because]] thinking depends on what we already remember." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I am convinced that 基於這些理由，我確信 / rely on 依賴 / devices 裝置 / exercise our brains 鍛鍊大腦",
+          sample: "[[For these reasons, I am convinced that]] we [[should]] **rely** less on our **devices** and exercise our brains more." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "認為科技不會讓人變笨", rows: [
+        { role: "Position", zh: "表明立場", hints: "I share …'s view that 我和…看法相同，認為 / less intelligent 比較不聰明",
+          sample: "[[I share Mary's view that]] technology is not making people less **intelligent**." },
+        { role: "New reason", zh: "補充新理由", hints: "Another point worth considering is that 另一個值得考慮的重點是 / intelligence 智力 / memory 記憶力 / A is not the same as B A 不等於 B / judge 判斷 / reliable 可靠的 / digital tools 數位工具 / compare sources 比較資料來源",
+          sample: "[[Another point worth considering is that]] **intelligence** [[is not the same as]] **memory**. Being intelligent means knowing how to find information, judge whether it is **reliable** and use it to solve problems. **Digital tools** actually train these skills, [[because]] users must compare different **sources** every day." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / earthquake 地震 / check A against B 拿 A 和 B 核對 / data 數據 / government report 政府報告 / model 模型 / far more than 遠多於 / memorize 背誦",
+          sample: "[[Take my younger brother as an example.]] For a science project on earthquakes, he searched several websites, checked the **data** against a government report and built a simple model on his laptop. He learned [[far more than]] he would have learned by **memorizing** a textbook chapter." },
+        { role: "Respond to David", zh: "回應對方", hints: "… points out that …指出 / no longer 不再 / I understand his concern, but 我理解他的顧慮，但 / details 細節 / a sign of …的跡象 / leave room for 為…留出空間 / valuable 有價值的",
+          sample: "[[David points out that]] people no longer remember phone numbers. [[I understand his concern, but]] forgetting unimportant details is not a sign of a weaker brain; it simply leaves room for more valuable thinking." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / the way we think 我們思考的方式 / rather than + V-ing 而不是 / reduce 降低 / ability 能力",
+          sample: "[[In conclusion,]] technology changes the way we think [[rather than]] reducing our **ability** to think." },
+      ] },
+    ]
+  },
 ];
