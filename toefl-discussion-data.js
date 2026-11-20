@@ -1443,4 +1443,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 43, cat: "Social media & influencers",
+    title: "Online Friendships", zh: "網路友誼",
+    question: "Can online friendships be as meaningful as face-to-face friendships?", questionZh: "網路上的友誼能和面對面的友誼一樣有意義嗎？",
+    professor: "This week we are discussing how the internet has changed human relationships. Today, many people get to know others through social media, online games and interest-based communities, and some of these people become close friends even though they have never met in person. Some psychologists believe that such friendships are just as real as traditional ones, while others doubt that a true friendship can exist only on a screen. In your opinion, can online friendships be as meaningful as face-to-face friendships? Why or why not?",
+    david: "I believe they can. What makes a friendship meaningful is shared interests and honest conversation, not physical distance. Online, I can find people who love exactly the same music and books as I do, which is difficult in my small town. I talk to some of my online friends every day, and they know me better than most of my classmates do.",
+    mary: "I don't think so. Real friendship is built by spending time together and sharing experiences, such as eating together, travelling or playing sports. Typing messages on a screen cannot replace that. We also miss facial expressions and tone of voice online, so misunderstandings happen easily. Online friends are fine for chatting, but they are not the same as friends you can actually meet.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "認為網路友誼可以一樣有意義", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / online friendship 網路友誼 / just as meaningful as 和…一樣有意義 / face-to-face 面對面的",
+          sample: "[[I agree with David that]] **online friendships** can be just as **meaningful** as **face-to-face** ones." },
+        { role: "New reason", zh: "補充新理由", hints: "One point David did not mention is that David 沒有提到的一點是 / find it easier to + V 覺得…比較容易 / open up 敞開心房 / be judged 被評斷 / As a result 因此 / shy 害羞的 / share worries with 向…傾訴煩惱 / mention 提起",
+          sample: "[[One point David did not mention is that]] many people [[find it easier to]] **open up** online. When we write messages, we have time to think, and we are less afraid of being **judged**. [[As a result,]] shy people often share worries with online friends that they would never mention at school." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / be under great pressure 承受很大的壓力 / entrance exam 入學考試 / anxious 焦慮的 / encouraging 鼓勵的",
+          sample: "[[For example,]] when I was under great pressure before my entrance exam last year, I told an online friend how **anxious** I felt. She had taken the same exam, so she sent me **encouraging** messages every night." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary claims that Mary 聲稱 / replace 取代 / shared experiences 共同的經歷 / While this may be true to some extent 雖然這在某種程度上或許是對的 / video call 視訊通話",
+          sample: "[[Mary claims that]] messages cannot replace **shared experiences**. [[While this may be true to some extent,]] online friends can now play games, watch films and even study together through **video calls**." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / be judged by 以…來評斷 / trust 信任 / support 支持 / rather than 而不是 / distance 距離",
+          sample: "[[For these reasons, I believe that]] a friendship [[should be judged by]] **trust** and **support** [[rather than]] by distance." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "認為網路友誼比不上面對面的友誼", rows: [
+        { role: "Position", zh: "表明立場", hints: "I share …'s view that 我和…看法相同，認為 / rarely 很少 / as meaningful as 和…一樣有意義",
+          sample: "[[I share Mary's view that]] **online friendships** are rarely as **meaningful** as **face-to-face** ones." },
+        { role: "New reason", zh: "補充新理由", hints: "Another point worth considering is that 另一個值得考慮的重點是 / can never be sure 永遠無法確定 / show the best side of oneself 展現自己最好的一面 / invent 捏造 / false identity 假身分 / Without + V-ing 如果沒有… / in person 親自、當面 / deep trust 深厚的信任",
+          sample: "[[Another point worth considering is that]] we can never be sure who an online friend really is. On the internet, people show only the best side of themselves, and some invent a **false identity**. [[Without]] meeting someone **in person**, [[it is difficult to]] build deep **trust**." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / chat with 和…聊天 / think of A as B 把 A 視為 B / However 然而 / block 封鎖",
+          sample: "[[For instance,]] my cousin chatted with an online \"friend\" for a year and thought of him as her best friend. [[However,]] when she asked to meet him, he suddenly **blocked** her." },
+        { role: "Respond to David", zh: "回應對方", hints: "… points out that …指出 / share the same interests 有相同的興趣 / I understand his point, but 我理解他的觀點，但 / A is not the same as B A 不等於 B / be there for sb 在某人需要時陪伴在旁 / Only … can … 只有…才能… / move house 搬家",
+          sample: "[[David points out that]] online friends often share the same **interests**. [[I understand his point, but]] sharing a hobby [[is not the same as]] being there for someone. Only a nearby friend can visit you in hospital or help you move house." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / good company 好的陪伴、好夥伴 / take the place of 取代 / in real life 在現實生活中",
+          sample: "[[In conclusion,]] online friends can be good **company**, but they [[cannot take the place of]] friends we meet **in real life**." },
+      ] },
+    ]
+  },
 ];
