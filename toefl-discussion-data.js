@@ -1613,4 +1613,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 48, cat: "Ethics & culture",
+    title: "Banning Animal Testing for Medical Research", zh: "禁止醫學研究的動物實驗",
+    question: "Should animal testing for medical research be banned?", questionZh: "應該禁止為了醫學研究而進行動物實驗嗎？",
+    professor: "This week we are discussing the ethics of scientific research. Every year, millions of animals, such as mice, rabbits and monkeys, are used in laboratories to test new medicines and vaccines before they are given to people. Animal rights groups say that this practice is cruel and should be stopped, while many scientists argue that it is still necessary to keep patients safe. In your opinion, should animal testing for medical research be banned? Why or why not?",
+    david: "I think animal testing should be banned. Animals feel pain and fear just as we do, yet they are kept in small cages and made sick on purpose. They cannot agree to take part in these experiments. I don't believe that humans have the right to make other living creatures suffer for our own benefit.",
+    mary: "I disagree with a ban. Almost every important medicine and vaccine we have today was developed with the help of animal tests. If we banned them, research into diseases such as cancer would slow down, and many patients would die while waiting for new treatments. Human lives have to come first.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "支持禁止動物實驗", rows: [
+        { role: "Position", zh: "表明立場", hints: "From my perspective 從我的角度來看 / animal testing 動物實驗 / medical research 醫學研究 / be banned 被禁止 / I side with David because 我支持 David，因為 / cause suffering 造成痛苦",
+          sample: "[[From my perspective,]] **animal testing** for medical research [[should be]] **banned**, [[and I side with David because]] it causes animals great **suffering**." },
+        { role: "New reason", zh: "補充新理由", hints: "Apart from … he mentioned, I would add that 除了他提到的…之外，我想補充 / cruelty 殘忍 / alternative 替代方法 / unnecessary 不必要的 / human cell 人體細胞 / laboratory 實驗室 / computer model 電腦模型 / accurate 準確的",
+          sample: "[[Apart from]] the **cruelty** [[he mentioned, I would add that]] modern **alternatives** make these experiments unnecessary. Scientists can now test new drugs on human cells grown in a **laboratory** or on computer models, which are faster, cheaper and often more accurate." },
+        { role: "Example", zh: "舉例", hints: "A good example is 一個很好的例子是 / organ-on-a-chip 器官晶片 / device 裝置 / organ 器官 / react to 對…產生反應 / no longer have to + V 不再需要… / rely on 依賴",
+          sample: "[[A good example is]] organ-on-a-chip technology. These tiny devices contain living human cells and show how a real human **organ** reacts to a medicine, so researchers [[no longer have to]] rely on mice or rabbits." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… points out that …指出 / vaccine 疫苗 / That was true in the past, but 過去確實如此，但 / it does not mean (that) 這並不表示 / method 方法 / exist 存在",
+          sample: "[[Mary points out that]] animal tests helped to develop many **vaccines**. [[That was true in the past, but it does not mean]] we must keep using the same methods when better ones exist." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion, I strongly believe that 總之，我堅信 / ban 禁止 / invest in 投資 / humane 人道的 / instead 作為替代",
+          sample: "[[In conclusion, I strongly believe that]] governments [[should]] ban animal testing and invest in **humane** alternatives [[instead.]]" },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "認為動物實驗目前仍有必要", rows: [
+        { role: "Position", zh: "表明立場", hints: "I am not convinced that 我不認為、我並不相信 / animal testing 動物實驗 / be banned 被禁止 / yet 目前還（不） / I agree with Mary that 我同意 Mary 所說的 / save human lives 拯救人命",
+          sample: "[[I am not convinced that]] **animal testing** for medical research [[should be]] **banned** yet, [[and I agree with Mary that]] it still saves human lives." },
+        { role: "New reason", zh: "補充新理由", hints: "One more thing to consider is that 還有一點要考慮的是 / alternative 替代方法 / replace 取代 / completely 完全地 / cell 細胞 / affect 影響 / a whole living body 完整的活體 / immune system 免疫系統",
+          sample: "[[One more thing to consider is that]] the **alternatives** are not ready to replace animals completely. Cells in a dish and computer models cannot show how a new drug affects a whole living body, including the heart, the brain and the **immune system** together." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / cancer treatment 癌症治療 / patient 病患 / a safe dose 安全的劑量 / Without + N 如果沒有… / volunteer 自願受試者 / face risks 面臨風險",
+          sample: "[[Take]] **cancer treatment** [[as an example.]] Before a new medicine is given to patients, it must be tested on animals to find a safe **dose**. [[Without]] this step, the first human volunteers would face serious and unknown risks." },
+        { role: "Respond to David", zh: "回應對方", hints: "… is right that …說得對 / feel pain 感受到疼痛 / suffering 痛苦 / matter 很重要 / Nevertheless 儘管如此 / strict law 嚴格的法律 / reduce 減少 / limit the number of 限制…的數量 / painkiller 止痛藥",
+          sample: "[[David is right that]] animals feel pain, and their **suffering** matters. [[Nevertheless,]] strict laws can reduce it by limiting the number of animals used and requiring **painkillers**." },
+        { role: "Conclusion", zh: "結論", hints: "All in all, I believe that 整體來說，我認為 / replace 取代 / step by step 逐步地 / rather than + V 而不是 / ban … overnight 一夕之間禁止",
+          sample: "[[All in all, I believe that]] we [[should]] replace animal testing step by step [[rather than]] ban it overnight." },
+      ] },
+    ]
+  },
 ];
