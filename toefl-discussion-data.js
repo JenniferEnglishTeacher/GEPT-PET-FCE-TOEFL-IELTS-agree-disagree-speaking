@@ -1579,4 +1579,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 47, cat: "Health & lifestyle",
+    title: "Strict Limits on Teenagers' Screen Time", zh: "嚴格限制青少年的螢幕使用時間",
+    question: "Should parents set a strict daily limit on teenagers' screen time?", questionZh: "父母應該嚴格限制青少年每天的螢幕使用時間嗎？",
+    professor: "This week we are discussing how technology affects young people's health. Teenagers today spend many hours a day on phones, tablets and computers, and doctors warn that too much screen time can harm their sleep, eyesight and physical fitness. As a result, some parents set a strict daily limit, such as one or two hours of screen time outside schoolwork. Others think teenagers should learn to manage their own time. In your opinion, should parents set a strict daily limit on teenagers' screen time? Why or why not?",
+    david: "I think parents should set a strict daily limit. Most teenagers find it very hard to put their phones down, because apps and games are designed to keep them watching. Without a clear rule, they stay up late, sleep too little and feel tired at school. A fixed limit protects their sleep and their eyes.",
+    mary: "I don't agree with a strict limit. Not all screen time is the same: an hour spent learning to code or talking with relatives abroad is very different from an hour of scrolling through short videos. Counting minutes ignores what teenagers are actually doing. Parents should pay attention to the content, not the clock.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "支持嚴格限制螢幕時間", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my opinion 依我之見 / set a strict daily limit on 對…設下嚴格的每日限制 / screen time 螢幕使用時間 / I agree with David that 我同意 David 所說的 / a clear rule 明確的規定 / protect 保護",
+          sample: "[[In my opinion,]] parents [[should]] set a strict daily **limit** on teenagers' **screen time**, [[and I agree with David that]] a clear rule protects their sleep." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to … he mentioned, I would argue that 除了他提到的…之外，我會主張 / healthier activities 更健康的活動 / device 裝置 / switch off 關掉 / be more likely to + V 比較可能…",
+          sample: "[[In addition to]] the sleep problems [[he mentioned, I would argue that]] a limit gives teenagers time for healthier activities. When the **devices** are switched off, young people [[are more likely to]] exercise, read or talk with their families." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / used to + V 以前常… / mobile game 手機遊戲 / hardly ever 幾乎從不 / After + S + V 在…之後 / introduce a limit 開始實施限制 / join a club 加入社團 / fitter 體能更好的",
+          sample: "[[For example,]] my younger brother [[used to]] play **mobile games** for four hours every evening and hardly ever left his room. [[After]] my parents introduced a ninety-minute limit, he joined a badminton club, and now he is much fitter." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… argues that …主張 / However 然而 / educational content 教育性內容 / strain the eyes 使眼睛疲勞 / still leave enough time for 仍然留下足夠的時間給 / online activities 線上活動",
+          sample: "[[Mary argues that]] not all screen time is the same. [[However,]] even educational content **strains the eyes** and keeps teenagers sitting, and a daily limit still leaves enough time for useful **online** activities." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I firmly believe that 基於這些理由，我堅信 / a strict limit 嚴格的限制 / the best way to + V …的最佳方式 / build healthy habits 養成健康的習慣",
+          sample: "[[For these reasons, I firmly believe that]] a strict limit [[is the best way to]] help teenagers build **healthy habits**." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "應重視內容與自律而非限時", rows: [
+        { role: "Position", zh: "表明立場", hints: "Personally, I do not think 我個人不認為 / set a strict daily limit on 對…設下嚴格的每日限制 / screen time 螢幕使用時間 / I share Mary's view that 我和 Mary 的看法一致 / content 內容 / matter more than 比…更重要 / the clock 時鐘（時間長短）",
+          sample: "[[Personally, I do not think]] parents [[should]] set a strict daily **limit** on teenagers' **screen time**, [[and I share Mary's view that]] the content matters more than the clock." },
+        { role: "New reason", zh: "補充新理由", hints: "Another point worth considering is that 另一個值得考慮的點是 / prevent … from + V-ing 使…無法… / self-control 自制力 / decide for 替…做決定 / manage one's own time 管理自己的時間 / lose control 失控 / leave home 離家",
+          sample: "[[Another point worth considering is that]] strict limits prevent teenagers from learning **self-control**. If parents always decide for them, they never practice managing their own time and may lose control once they leave home." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / allow 允許 / secretly 偷偷地 / under the blanket 在棉被裡 / By contrast 相較之下 / agree on rules 一起訂下規則 / switch off 關機、放下（裝置） / by myself 靠自己",
+          sample: "[[Take]] my classmate [[as an example.]] Her parents allowed only one hour a day, so she secretly used her **phone** under the blanket. [[By contrast,]] my parents and I agreed on simple rules, such as no phones at dinner, and I have learned to **switch off** by myself." },
+        { role: "Respond to David", zh: "回應對方", hints: "… is right that …說得對 / app 應用程式 / be designed to + V 被設計來… / Nevertheless 儘管如此 / protect 保護 / without + V-ing 而不必 / damage trust 破壞信任",
+          sample: "[[David is right that]] many **apps** are designed to keep users watching. [[Nevertheless,]] parents can protect teenagers by teaching them how these apps work [[without]] damaging trust at home." },
+        { role: "Conclusion", zh: "結論", hints: "To sum up, I believe that 總而言之，我認為 / guide 引導 / screen habits 螢幕使用習慣 / rather than + V 而不是 / simply 只是 / count the minutes 計算分鐘數",
+          sample: "[[To sum up, I believe that]] parents [[should]] guide their children's **screen habits** [[rather than]] simply count the minutes." },
+      ] },
+    ]
+  },
 ];

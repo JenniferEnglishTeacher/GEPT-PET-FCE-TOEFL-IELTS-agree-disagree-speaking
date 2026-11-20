@@ -3,7 +3,7 @@
 One line per finished task: number | type | category | title. A task is listed only after its HTML source is committed and pushed.
 Category order — Email: Apology / Absence; Request; Complaint / Problem; Inquiry / Information; Invitation / Reply; Advice / Suggestion; Application / Job; Thanks / Follow-up. Discussion: Education; Technology & AI; Social media & influencers; Environment; Government & society; Work & economy; Health & lifestyle; Ethics & culture.
 
-## Email (46)
+## Email (47)
 01 | Email | Apology / Absence | Missing a Club Meeting 無法出席社團會議 (to Alex, club president — medical appointment, poster for recycling campaign) | toefl-master/email-apology-absence.html
 02 | Email | Request | Requesting a Recommendation Letter 請教授寫推薦信 (to Professor Wang — exchange program in Canada, deadline + résumé/transcript) | toefl-master/email-request.html
 03 | Email | Complaint / Problem | Complaining About Noise in the Library 投訴圖書館自習區太吵 (to Ms. Lin, library manager — noisy quiet study area before final exams, suggest signs / staff patrol) | toefl-master/email-complaint-problem.html
@@ -50,8 +50,9 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 44 | Email | Inquiry / Information | Asking About an Apartment for Rent 詢問租屋資訊 (to Mr. Lopez, the landlord — furnished studio apartment a five-minute walk from your university in Taichung, seen in an online advertisement; introduce yourself + why you are interested, the monthly rent + what it includes (utilities / deposit), when you can view it + when it is available) | toefl-master/email-inquiry-information.html
 45 | Email | Invitation / Reply | Inviting a Graduate to Speak at Career Day 邀請校友擔任職涯日講者 (to Dr. Hsu, a veterinarian who graduated from your school — student council's annual Career Day; invite her + why (many students want to work with animals), event details (Friday, December 18, 2–4 p.m., auditorium, twenty-minute talk), ask her to reply by November 30 + what equipment she needs) | toefl-master/email-invitation-reply.html
 46 | Email | Advice / Suggestion | Suggesting an Alternative to a Winter Beach Clean-up 建議以其他活動取代冬季淨灘 (to Ms. Wright, teacher who leads the Environmental Club — annual beach clean-up planned for late December, cold and windy coast, only six members came last winter; explain your concern, suggest an alternative activity (indoor recycling / upcycling workshop) + why, offer to help organize) | toefl-master/email-advice-suggestion.html
+47 | Email | Application / Job | Applying to Be a Peer Tutor at the University Writing Center 應徵大學寫作中心同儕輔導員 (to Dr. Coleman, director of the university Writing Center — peer tutors help students plan, organize and revise essays 4–6 hours a week; why you want to be a peer tutor, your qualifications (second-year student, A in Academic Writing, helped classmates edit reports), when you are available + ask about training for new tutors) | toefl-master/email-application-job.html
 
-## Discussion (46)
+## Discussion (47)
 01 | Discussion | Education | Should STEAM courses be mandatory for all university students? 大學應該把 STEAM 課程列為全體學生的必修嗎？ | toefl-master/discussion-education.html
 02 | Discussion | Technology & AI | Will AI-generated images and videos have a positive or a negative influence on society? AI 生成的圖片與影片對社會的影響是正面還是負面？ | toefl-master/discussion-technology-ai.html
 03 | Discussion | Social media & influencers | Do social media influencers have a mainly positive or a mainly negative influence on young people? 社群媒體網紅對年輕人的影響主要是正面還是負面？ | toefl-master/discussion-social-media-influencers.html
@@ -98,6 +99,7 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 44 | Discussion | Environment | Should wealthy nations pay to help poorer nations deal with climate change? 富裕國家應該出錢幫助較貧窮的國家因應氣候變遷嗎？ | toefl-master/discussion-environment.html
 45 | Discussion | Government & society | Should voting in national elections be compulsory? 全國性選舉應該強制人民投票嗎？ | toefl-master/discussion-government-society.html
 46 | Discussion | Work & economy | Is a university degree still necessary for a successful career? 大學學位仍然是事業成功的必要條件嗎？ | toefl-master/discussion-work-economy.html
+47 | Discussion | Health & lifestyle | Should parents set a strict daily limit on teenagers' screen time? 父母應該嚴格限制青少年每天的螢幕使用時間嗎？ | toefl-master/discussion-health-lifestyle.html
 
 ## Notes for the next run
 - Sample markup in the HTML sources: `<span style="background-color:#fff2a8">` = universal pattern, `<b>` = theme word.
