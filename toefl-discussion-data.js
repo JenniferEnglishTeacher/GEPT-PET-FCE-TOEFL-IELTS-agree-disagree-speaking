@@ -1477,4 +1477,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 44, cat: "Environment",
+    title: "Paying for Climate Change", zh: "誰來為氣候變遷買單",
+    question: "Should wealthy nations pay to help poorer nations deal with climate change?", questionZh: "富裕國家應該出錢幫助較貧窮的國家因應氣候變遷嗎？",
+    professor: "This week we are discussing who should pay for climate change. Poorer countries have produced only a small share of the world's greenhouse gases, yet they often suffer the most from floods, droughts and rising sea levels, and they have little money to protect themselves. At recent international climate conferences, wealthy nations have been asked to provide billions of dollars to help them, but not everyone agrees. In your opinion, should wealthy nations pay to help poorer nations deal with climate change? Why or why not?",
+    david: "I think they should. Rich countries became wealthy by burning coal and oil for more than a century, so they caused most of the problem. It is unfair that people in poor countries, who did very little to cause climate change, are losing their homes and farms. Those who created the damage should help pay for it.",
+    mary: "I don't think so. Today's taxpayers should not be punished for what earlier generations did before anyone understood climate change. Wealthy nations also have their own problems, such as expensive housing and health care for ageing populations. Besides, some of the biggest polluters today are developing countries. Every nation should be responsible for reducing its own emissions.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "認為富裕國家應該出錢", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / wealthy nations 富裕國家 / have a responsibility to 有責任 / deal with 因應、處理 / climate change 氣候變遷",
+          sample: "[[I agree with David that]] **wealthy nations** [[have a responsibility to]] help poorer nations deal with **climate change**." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides … that David raised 除了 David 提出的…之外 / fairness 公平 / I would add that 我想補充 / in one's own interest 符合自身利益 / greenhouse gases 溫室氣體 / border 國界 / emissions 排放 / afford 負擔得起 / clean energy 潔淨能源 / coal 煤",
+          sample: "[[Besides]] the question of fairness [[that David raised, I would add that]] helping poorer nations is also in rich countries' own interest. **Greenhouse gases** do not stop at borders, so **emissions** produced anywhere warm the whole planet. If developing countries cannot afford **clean energy**, they will keep burning cheap coal, and everyone will suffer." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / solar power plant 太陽能發電廠 / foreign funding 外國資金 / cut 減少 / just as much as 和…一樣多",
+          sample: "[[For example,]] a **solar power** plant built in Africa or South Asia with foreign funding cuts global **emissions** just as much as one built in Europe." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / taxpayer 納稅人 / earlier generations 前幾代人 / However, she overlooks the fact that 然而她忽略了…這個事實 / wealth 財富 / fossil fuels 化石燃料",
+          sample: "[[Mary argues that]] today's taxpayers should not pay for the mistakes of earlier generations. [[However, she overlooks the fact that]] these taxpayers still enjoy the roads, factories and wealth that were built with **fossil fuels**." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / global problem 全球性問題 / can only be solved if 只有…才能解決 / share both A and B 同時分享 A 與 B / technology 技術",
+          sample: "[[In conclusion,]] **climate change** is a global problem, and it [[can only be solved if]] rich countries share [[both]] their money [[and]] their technology." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "認為富裕國家不應該只是出錢", rows: [
+        { role: "Position", zh: "表明立場", hints: "Although 雖然 / global problem 全球性問題 / I agree with Mary that 我同意 Mary 所說的 / wealthy nations 富裕國家 / simply 只是、僅僅 / deal with 因應",
+          sample: "[[Although]] **climate change** is a serious global problem, [[I agree with Mary that]] **wealthy nations** [[should not]] simply pay poorer nations to deal with it." },
+        { role: "New reason", zh: "補充新理由", hints: "What neither student mentioned is that 兩位同學都沒提到的是 / guarantee results 保證成效 / corruption 貪腐 / foreign aid 外國援助 / be wasted or stolen 被浪費或侵吞 / Moreover 此外 / it is hard for … to …很難… / donor 捐助者（國）",
+          sample: "[[What neither student mentioned is that]] sending money does not guarantee results. In countries where **corruption** is common, **foreign aid** is often wasted or stolen before it reaches the people who need it. [[Moreover, it is hard for]] **donors** [[to]] check how the money is actually spent." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / news report 新聞報導 / flood-protection project 防洪工程 / be funded by 由…出資 / be completed 完工 / disappear 消失、不翼而飛",
+          sample: "[[For instance,]] I once read a news report about a **flood-protection** project that was funded by **foreign aid** but was never completed because much of the money had disappeared." },
+        { role: "Respond to David", zh: "回應對方", hints: "David points out that David 指出 / I understand his point, but 我理解他的觀點，但 / it would be more effective to … than to … 比起…，…會更有效 / clean technology 潔淨技術 / train 培訓 / engineer 工程師 / hand over cash 直接給錢",
+          sample: "[[David points out that]] rich countries caused most of the problem. [[I understand his point, but it would be more effective]] for them [[to]] share **clean technology** and train local engineers [[than to]] hand over cash." },
+        { role: "Conclusion", zh: "結論", hints: "Therefore, I believe that 因此我認為 / take responsibility for 為…負責 / emissions 排放 / while 而、同時 / offer 提供 / rather than 而不是",
+          sample: "[[Therefore, I believe that]] every nation [[should take responsibility for]] its own **emissions**, while **wealthy nations** offer knowledge [[rather than]] money." },
+      ] },
+    ]
+  },
 ];
