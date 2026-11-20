@@ -2021,4 +2021,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 60, cat: "Environment",
+    title: "Banning the Sale of New Petrol Cars", zh: "禁售新的汽油車",
+    question: "Should governments ban the sale of new petrol cars?", questionZh: "政府應該禁售新的汽油車嗎？",
+    professor: "This week we are discussing how transport affects the climate. Cars that burn petrol or diesel produce a large share of the world's carbon emissions and much of the air pollution in our cities. For this reason, several governments have announced that they will ban the sale of new petrol and diesel cars within the next ten or fifteen years, so that drivers will have to choose electric vehicles instead. Others believe that such a ban is unrealistic and unfair. In your opinion, should governments ban the sale of new petrol cars? Why or why not?",
+    david: "I support the ban. Petrol cars are one of the main causes of dirty air in cities, while electric cars produce no exhaust fumes at all. Without a clear deadline, car companies will keep selling petrol cars because they are profitable. Norway set a firm target years ago, and now most new cars sold there are electric. A ban gives everyone time to prepare while pushing the change forward.",
+    mary: "I'm against a ban. Electric cars are still much more expensive than petrol cars, so many ordinary families simply cannot afford one. In addition, there are not enough charging stations, especially in the countryside, and charging takes a long time. I think governments should let people choose freely and make electric cars more attractive instead of forcing everyone to buy them.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "政府應該禁售新的汽油車", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / ban the sale of 禁止販售 / petrol car 汽油車",
+          sample: "[[I agree with David that]] governments [[should]] **ban** the sale of new **petrol cars**." },
+        { role: "New reason", zh: "補充新理由", hints: "One point David did not mention is that David 沒有提到的一點是 / encourage + O + to V 鼓勵…去… / invest in 投資於 / manufacturer 製造商 / have no future 沒有未來 / battery 電池 / charging station 充電站 / which will make … cheaper 這會讓…更便宜 / electric vehicle 電動車",
+          sample: "[[One point David did not mention is that]] a **ban** would [[encourage]] companies [[to]] invest in better technology. When **manufacturers** know that **petrol cars** have no future, they will spend their money on improving **batteries** and building **charging stations**, [[which will make]] **electric vehicles** cheaper for everyone." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / set a target of + V-ing 訂下…的目標 / replace A with B 用 B 取代 A / diesel bus 柴油公車 / develop a new model 研發新車款 / noticeably 明顯地",
+          sample: "[[For example,]] after the government in Taiwan set a target of replacing **diesel** buses with **electric** ones, local companies quickly developed new models. Today, many buses in my city are **electric**, and the streets are noticeably quieter and cleaner." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / ordinary family 一般家庭 / This is a fair point; however, 這個觀點有道理；然而 / apply to 適用於 / second-hand 二手的 / until prices fall 直到價格下降",
+          sample: "[[Mary argues that]] **electric cars** are too expensive for ordinary families. [[This is a fair point; however,]] the **ban** only applies to new cars, so people can still buy second-hand **petrol cars** until prices fall." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / the fastest way to 做…最快的方法 / cut emissions 減少排放 / clean up the air 淨化空氣",
+          sample: "[[For these reasons, I believe that]] a clear **ban** [[is the fastest way to]] cut **emissions** and clean up the air in our cities." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "政府不應該禁售新的汽油車", rows: [
+        { role: "Position", zh: "表明立場", hints: "I share …'s view that 我和…看法相同，認為 / ban the sale of 禁止販售 / petrol car 汽油車",
+          sample: "[[I share Mary's view that]] governments [[should not]] **ban** the sale of new **petrol cars**." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides … that Mary mentioned, I would add that 除了 Mary 提到的…之外，我想補充 / electric vehicle 電動車 / not always as … as they seem 不一定像看起來那麼… / green 環保的 / electricity 電力 / come from 來自 / burn coal 燃燒煤炭 / charge 充電 / move A from B to C 把 A 從 B 轉移到 C / power plant 發電廠",
+          sample: "[[Besides]] the high prices [[that Mary mentioned, I would add that]] **electric vehicles** [[are not always as]] green [[as they seem]]. In many countries, most **electricity** still comes from burning **coal** or gas, so **charging** millions of cars would simply move the **pollution** from the roads to the **power plants**." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / require 需要 / large amounts of 大量的 / metal 金屬 / such as 例如 / lithium 鋰 / mine 開採 / damage 破壞 / a great deal of 大量的",
+          sample: "[[For instance,]] making a car **battery** requires [[large amounts of]] metals [[such as]] **lithium**, and **mining** them damages the land and uses a great deal of water." },
+        { role: "Respond to David", zh: "回應對方", hints: "… points out that …指出 / firm target 明確的目標 / work well 成效良好 / I understand his point, but 我理解他的觀點，但 / wealthy 富裕的 / plenty of 充足的 / hydropower 水力發電 / copy 複製、仿效 / elsewhere 在其他地方",
+          sample: "[[David points out that]] Norway's firm target has worked well. [[I understand his point, but]] Norway is a wealthy country with plenty of clean **hydropower**, so its success cannot easily be copied elsewhere." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / invest in 投資於 / clean energy 潔淨能源 / public transport 大眾運輸 / rather than 而不是 / force + O + to V 強迫…去… / give up 放棄",
+          sample: "[[In conclusion,]] governments [[should]] invest in **clean energy** and **public transport** [[rather than]] force drivers to give up **petrol cars**." },
+      ] },
+    ]
+  },
 ];
