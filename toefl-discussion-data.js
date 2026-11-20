@@ -1511,4 +1511,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 45, cat: "Government & society",
+    title: "Compulsory Voting", zh: "強制投票",
+    question: "Should voting in national elections be compulsory?", questionZh: "全國性選舉應該強制人民投票嗎？",
+    professor: "This week we are discussing participation in democracy. In many countries, fewer and fewer people vote, and in some elections less than half of the citizens take part. A few countries, such as Australia and Belgium, have responded by making voting compulsory: citizens who do not vote without a good reason have to pay a small fine. Supporters say that this makes governments more representative, while critics say that it violates personal freedom. In your opinion, should voting in national elections be compulsory? Why or why not?",
+    david: "I think voting should be compulsory. When only half of the citizens vote, the government represents only half of the country, and it is usually the older and wealthier half. If everyone has to vote, politicians must listen to all groups, including young people and the poor. Voting is a duty, just like paying taxes.",
+    mary: "I disagree. The right to vote includes the right not to vote. Some people stay at home because none of the candidates represents their views, and that is a political choice too. Besides, forcing people who do not follow politics to vote will not improve democracy. They may simply choose a name at random to avoid the fine.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "認為應該強制投票", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / national election 全國性選舉 / compulsory 強制的 / democracy 民主 / citizen 公民 / take part 參與",
+          sample: "[[I agree with David that]] voting in national elections [[should be]] **compulsory**, [[because]] a **democracy** works best when every **citizen** takes part." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to … that David mentioned, I would add that 除了 David 提到的…之外，我想補充 / representation 代表性 / extreme 極端的 / turnout 投票率 / loyal supporter 死忠支持者 / candidate 候選人 / appeal to 爭取…的支持 / moderate 溫和的",
+          sample: "[[In addition to]] the fairer representation [[that David mentioned, I would add that]] compulsory voting makes politics less extreme. When **turnout** is low, parties can win by exciting their most loyal supporters. When everyone votes, **candidates** [[have to]] appeal to moderate voters instead." },
+        { role: "Example", zh: "舉例", hints: "A good example is 一個很好的例子是 / for about a century 大約一世紀 / above ninety percent 超過九成 / compete for 爭取 / the middle ground 中間立場 / rather than 而不是",
+          sample: "[[A good example is]] Australia, where voting has been compulsory for about a century. **Turnout** is above ninety percent, and major parties compete for the middle ground [[rather than]] the extremes." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary claims that Mary 聲稱 / at random 隨便地 / However, I believe that 然而我認為 / pay attention to 關注 / once 一旦 / hand in a blank ballot 投空白票",
+          sample: "[[Mary claims that]] uninterested people will choose a name at random. [[However, I believe that]] most people will pay more attention to the news once they know they must vote, and those who dislike every candidate can hand in a **blank ballot**." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons 基於這些理由 / fine 罰款 / a reasonable price to pay for 為…付出的合理代價 / represent 代表",
+          sample: "[[For these reasons,]] a small **fine** [[is a reasonable price to pay for]] a government that represents everyone." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "認為不應該強制投票", rows: [
+        { role: "Position", zh: "表明立場", hints: "While I understand why … 雖然我理解為什麼… / turnout 投票率 / worry 使擔憂 / I agree with Mary that 我同意 Mary 所說的 / remain 維持 / a right, not a legal duty 是權利而非法律義務",
+          sample: "[[While I understand why]] low **turnout** worries people, [[I agree with Mary that]] voting [[should]] remain a right, not a legal duty." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that has not been raised is that 還沒有人提出的一點是 / treat the symptom rather than the cause 治標不治本 / distrust 不信任 / politician 政治人物 / fine 罰款 / rebuild 重建 / hide A behind B 把 A 藏在 B 後面 / figure 數字",
+          sample: "[[One point that has not been raised is that]] compulsory voting treats the symptom [[rather than]] the cause. Many people stay at home because they distrust **politicians** or feel that nothing will change. A **fine** does not rebuild that trust; it only hides the problem behind a high **turnout** figure." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / election 選舉 / fine (v.) 對…罰款 / would not have + p.p. 當時也不會…（與過去事實相反） / let + 人 + V 讓某人… / campus 校園 / would have + p.p. 當時就會…",
+          sample: "[[For instance,]] my older brother missed the last **election** because he could not travel home from university. Fining him [[would not have]] made him care about politics, but letting him vote near his campus [[would have]] helped." },
+        { role: "Respond to David", zh: "回應對方", hints: "David argues that David 主張 / duty 義務 / However, the comparison is not convincing, because 然而這個類比並不令人信服，因為 / function 運作 / whereas 然而、相對地 / citizen 公民",
+          sample: "[[David argues that]] voting is a duty like paying taxes. [[However, the comparison is not convincing, because]] a government cannot function without taxes, [[whereas]] it can still work when some **citizens** choose not to vote." },
+        { role: "Conclusion", zh: "結論", hints: "Therefore 因此 / make + N + easier 讓…更容易 / civic education 公民教育 / instead of + V-ing 而不是 / punish 懲罰 / non-voter 未投票者",
+          sample: "[[Therefore,]] governments [[should]] make voting easier and teach **civic education** [[instead of]] punishing non-voters." },
+      ] },
+    ]
+  },
 ];
