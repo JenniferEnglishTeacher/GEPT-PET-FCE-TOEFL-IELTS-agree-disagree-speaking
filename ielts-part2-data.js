@@ -14279,6 +14279,516 @@ window.IELTS_PART2 = [
     "a": "**Well,** fans invest a lot of time and emotion, **so** they feel they deserve a certain ending. **For instance,** some fans spend years making theories online. **When** the ending is different, they feel disappointed. **Having said that,** I believe writers should follow their own vision instead of trying to please everyone."
    }
   ]
+ },
+ {
+  "id": "time-1",
+  "theme": "Time & Daily Life",
+  "themeZh": "時間與日常",
+  "setLabel": "Set 1",
+  "title": "Describe your favourite time of day.",
+  "cues": [
+   "what time of day it is",
+   "what you usually do at that time",
+   "who you are usually with",
+   "and explain why you like this time of day so much."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "early morning 6–7 a.m. → before family wakes up; flat in Banqiao, New Taipei"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "quiet + cool air; pour-over coffee on tiny balcony; sound of scooters slowly starting; breakfast shop downstairs opening"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "started in exam yr → only quiet time at home; once saw sunrise over Guanyin Mtn → took photo, still my phone wallpaper"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "1 hr just for me → plan day, read, no messages; calmer + more patient all day; weekends = sleep in though!"
+   }
+  ],
+  "sample": [
+   "**Okay, so** my favourite time of day is definitely the early morning, roughly between six and seven o’clock. I live with my parents and my younger brother in a small flat in Banqiao, **and** that hour is the only time when the whole place is completely quiet. **To be honest,** it feels like I have the flat all to myself.",
+   "**Usually,** the first thing I do is make a cup of pour-over coffee and take it out to our tiny balcony. **At that time,** the air is still cool, even in summer, **and** you can hear the city slowly waking up, **like** the first scooters starting their engines and the breakfast shop downstairs pulling up its metal shutter. **After that,** I read a few pages of a novel or write a to-do list for the day. **Most of the time,** I’m on my own, **although** sometimes my dad joins me with his newspaper.",
+   "**I actually got into this habit** in my last year of high school, **because** I was preparing for the university entrance exam and the evenings at home were too noisy. **I remember one morning** the sky over Guanyin Mountain suddenly turned bright orange and pink. **So** I grabbed my phone and took a photo, **and** it’s still my phone wallpaper today.",
+   "**The main reason I love it** is that it’s one hour that belongs only to me. There are no messages, no meetings and nobody asking me for anything. **As a result,** I feel much calmer and more patient for the rest of the day. **Having said that,** I don’t get up that early at weekends – **after all,** everyone needs a lie-in now and then."
+  ],
+  "followUps": [
+   {
+    "q": "Why do some people prefer working early in the morning while others prefer the evening?",
+    "a": "**I think** it’s partly about our body clocks. **For example,** some people naturally feel sleepy at ten p.m., **while** others only start to concentrate after dark. **On top of that,** lifestyle matters. **For instance,** parents with young children often have to work late at night, because that’s the only quiet time they get."
+   },
+   {
+    "q": "Do people in your country have enough free time?",
+    "a": "**Generally speaking,** not really, especially in big cities. **For example,** many office workers in Taipei finish late and then spend an hour commuting home. **Students also** go to cram school after their normal classes. **As a result,** free time is often squeezed into the weekend, **and** even then people are busy with chores and family visits."
+   },
+   {
+    "q": "Is it important to have a daily routine?",
+    "a": "**In my opinion,** yes, a routine makes life less stressful. **First of all,** you don’t waste energy deciding what to do next. **Besides that,** regular sleep and meal times are good for your health. **That said,** I think a routine shouldn’t be too strict, **because** small surprises are what make life interesting."
+   }
+  ]
+ },
+ {
+  "id": "time-2",
+  "theme": "Time & Daily Life",
+  "themeZh": "時間與日常",
+  "setLabel": "Set 2",
+  "title": "Describe a typical weekend in your life.",
+  "cues": [
+   "what you usually do on Saturday",
+   "what you usually do on Sunday",
+   "who you spend the weekend with",
+   "and explain how you feel about your weekends."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "weekdays = office + MRT; weekend = slower pace, half rest, half family"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "Sat: sleep till 9 → brunch w/ friends in Zhongshan → afternoon errands; Sun: lunch at grandma’s in Sanchong → laundry + meal prep"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "last month → tried to fit in too much (hike + movie + party) → exhausted on Mon; learned to leave Sun evening free"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "weekend = recharge battery; grandma visit most important part; want 1 lazy day w/o plans"
+   }
+  ],
+  "sample": [
+   "**Alright, so** during the week my life is pretty predictable: I take the MRT to my office, work until about six, **and then** squeeze back onto a crowded train home. **So for me,** the weekend is all about slowing down. **Basically,** I spend half of it resting and the other half with my family.",
+   "**On Saturdays,** I let myself sleep until about nine, which feels like a real luxury. **Then** I usually meet two or three friends for brunch somewhere in the Zhongshan area, **because** there are loads of small cafés there with big windows and good eggs Benedict. **After that,** I deal with boring errands, **like** going to the post office or buying things at Costco with my mum. **Sundays are different.** **At around noon,** the whole family goes to my grandma’s place in Sanchong for lunch, **and** she always cooks far too much food. **In the evening,** I do my laundry and prepare a few lunch boxes for the week.",
+   "**Last month, though,** I made a big mistake. I tried to fit in a morning hike, a movie and a friend’s birthday party all on the same Saturday, **and then** I still went to my grandma’s on Sunday. **By Monday morning,** I was so exhausted that I nearly fell asleep in a meeting. **Since then,** I’ve made a rule to keep Sunday evening completely free.",
+   "**Overall,** I see the weekend as a chance to recharge my battery. **Without a doubt,** the part I value most is lunch at my grandma’s, since I know those meals won’t last for ever. **Ideally,** I’d like at least one totally lazy day with no plans at all."
+  ],
+  "followUps": [
+   {
+    "q": "How do people in your country usually spend their weekends?",
+    "a": "**It really depends on** their age. **For example,** young people often go shopping, eat out or travel around Taiwan. **Families with children,** on the other hand, usually take their kids to classes or parks. **In addition,** many people simply stay at home to rest, **because** their working week is so tiring."
+   },
+   {
+    "q": "Should people work at the weekend if they want to earn more money?",
+    "a": "**Personally,** I don’t think it’s a good idea in the long run. **Of course,** earning extra money can help in the short term. **However,** if you never take a break, you’ll eventually burn out. **So ideally,** people should protect at least one day a week **for** rest and family."
+   },
+   {
+    "q": "Do you think a four-day working week is a good idea?",
+    "a": "**In theory,** it sounds wonderful. **For one thing,** people would have more time for family and hobbies. **For another,** some studies suggest well-rested workers are more productive. **On the other hand,** it might not work for every job, **like** hospitals or restaurants, which need staff every day."
+   }
+  ]
+ },
+ {
+  "id": "time-3",
+  "theme": "Time & Daily Life",
+  "themeZh": "時間與日常",
+  "setLabel": "Set 3",
+  "title": "Describe a time when you were late for something important.",
+  "cues": [
+   "what the event was",
+   "why you were late",
+   "what happened when you arrived",
+   "and explain how you felt about being late."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "best friend Amy’s wedding banquet, last Oct; my job = reception table → collect red envelopes 紅包 + guest book"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "hotel in Xinyi; had to be there 5 p.m., guests 6 p.m.; left home late → wrong MRT direction + sudden rain"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "arrived 5:50, soaked; queue of guests at empty table; Amy’s cousin covering → apologised, worked nonstop; Amy only laughed"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "guilty + embarrassed; lesson → leave 30 min early + check route; now always first to arrive"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the time I want to talk about was last October, **when** I was late for my best friend Amy’s wedding banquet. **To make it worse,** I wasn’t just a normal guest. Amy had asked me to help at the reception table, **which** in Taiwan is a really important job, **because** you collect the red envelopes with money from the guests and make sure everyone signs the guest book.",
+   "**The banquet** was at a hotel in the Xinyi District, **and** I was supposed to be there by five o’clock, an hour before the guests. **Unfortunately,** I spent too long doing my hair and left home about twenty minutes late. **Then,** because I was rushing, I got on the MRT going in the wrong direction and only noticed two stops later. **On top of that,** when I finally came out of the station, it suddenly started pouring with rain, **and** of course I hadn’t brought an umbrella.",
+   "**By the time I arrived,** it was ten to six and I was completely soaked. **Even worse,** there was already a queue of guests standing in front of the reception table. **Luckily,** Amy’s cousin had stepped in to cover for me. I apologised about ten times **and then** worked nonstop for the next hour. **Later that night,** I said sorry to Amy as well, **but** she just laughed and said she hadn’t even noticed.",
+   "**Looking back,** I felt really guilty and embarrassed, since I’d let down someone I care about on such a special day. **The lesson I learned** was simple: always leave at least thirty minutes early and check the route before you go. **In fact,** these days I’m usually the first person to arrive anywhere."
+  ],
+  "followUps": [
+   {
+    "q": "Why are some people always late?",
+    "a": "**I think** there are a few reasons. **For example,** some people are simply too optimistic about how long things take. **Others** try to do one more thing before they leave home. **In addition,** a few people just don’t think being late is a big deal, **so** they never really change their habits."
+   },
+   {
+    "q": "Is being on time more important in some situations than others?",
+    "a": "**Definitely.** **For instance,** being late for a job interview or a flight can have serious consequences. **On the other hand,** arriving ten minutes late to a casual dinner with close friends usually isn’t a problem. **So** I’d say it depends on how formal the situation is **and** who is waiting for you."
+   },
+   {
+    "q": "How do people in your country feel about punctuality?",
+    "a": "**Generally speaking,** people in Taiwan value punctuality at work and school. **For example,** trains and the MRT are usually very punctual, **so** people expect others to be on time too. **Having said that,** in social situations, being a few minutes late is quite common, **especially** when traffic is bad."
+   }
+  ]
+ },
+ {
+  "id": "time-4",
+  "theme": "Time & Daily Life",
+  "themeZh": "時間與日常",
+  "setLabel": "Set 4",
+  "title": "Describe a time when you waited a long time for something.",
+  "cues": [
+   "what you were waiting for",
+   "where you waited",
+   "how long you waited",
+   "and explain how you felt while you were waiting."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "waiting for older sister → back from 2 yrs in Australia; arrivals hall, Taoyuan Airport T2"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "me + parents + homemade banner; flight delayed → technical problem → ~3 hrs extra; whole wait almost 4 hrs"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "kept checking arrivals board; Dad fell asleep on bench; Mum went to buy bubble tea twice; finally saw her pushing huge suitcase → Mum cried"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "bored + anxious → then pure joy; waiting made reunion sweeter; lesson → bring a book!"
+   }
+  ],
+  "sample": [
+   "**Alright, so** the longest wait I can remember was at Taoyuan Airport about a year ago. My older sister had been on a working holiday in Australia for two whole years, **and** we were finally picking her up. **To be honest,** we’d only seen her on video calls during that time, **so** the whole family was incredibly excited.",
+   "**On that day,** my parents and I arrived at the arrivals hall in Terminal 2 early, carrying a big homemade banner that said “Welcome home”. **However,** as soon as we looked at the board, we saw that her flight was delayed. **Apparently,** there was a technical problem with the plane before it took off. **In the end,** it landed about three hours late, **so** altogether we waited for almost four hours.",
+   "**At first,** we tried to stay positive. **But after a while,** I kept staring at the arrivals board as if that would make the plane come faster. **Meanwhile,** my dad fell asleep on a bench with his mouth open, **and** my mum went to buy bubble tea twice just to have something to do. **Finally,** the doors slid open and I saw my sister pushing a gigantic suitcase. **The moment** my mum saw her, she burst into tears, **and** to be fair, I did too.",
+   "**Looking back,** I felt bored and a bit anxious during the wait, **because** we didn’t know exactly when she’d land. **Funnily enough, though,** the long wait made the reunion feel even sweeter. **If there’s one practical lesson,** it’s this: always bring a book to the airport."
+  ],
+  "followUps": [
+   {
+    "q": "Why do some people find it hard to wait patiently?",
+    "a": "**I’d say** modern technology has made us less patient. **For example,** we’re used to videos loading in seconds and food arriving in thirty minutes. **As a result,** waiting feels like wasted time. **In addition,** when people don’t know how long they’ll have to wait, they feel out of control, **which** makes them even more stressed."
+   },
+   {
+    "q": "What can businesses do to make waiting less unpleasant?",
+    "a": "**Well,** one simple idea is to show how long the wait will be, **like** the countdown screens at many bus stops in Taipei. **Another option** is to give people something to do, **such as** free Wi-Fi or magazines. **Also,** a polite apology from staff can make a big difference when there’s a delay."
+   },
+   {
+    "q": "Is it ever worth queuing for a long time for something?",
+    "a": "**Sometimes,** I think it is. **For instance,** queuing for a concert ticket or a famous dish can become part of the experience. **However,** I don’t think it’s worth waiting hours for a trendy dessert **just because** it’s popular online. **So** it depends on whether the thing actually matters to you."
+   }
+  ]
+ },
+ {
+  "id": "time-5",
+  "theme": "Time & Daily Life",
+  "themeZh": "時間與日常",
+  "setLabel": "Set 5",
+  "title": "Describe a day you spent without your phone.",
+  "cues": [
+   "when it happened",
+   "why you didn’t have your phone",
+   "what you did during the day",
+   "and explain how you felt about the experience."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "phone screen smashed → dropped on MRT escalator; repair shop kept it 1 whole day"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "a Sat last spring; repair shop in Taipei Main Station underground mall; no backup phone"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "meeting friend in Dadaocheng → no map, no messages; asked an old shop owner for directions; paid cash; friend worried, came looking for me"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "first anxious, then relaxed; noticed details (old buildings, smells of dried goods); now leave phone in bag at meals"
+   }
+  ],
+  "sample": [
+   "**Okay, so** I’d like to talk about a Saturday last spring **when** I had to survive a whole day without my phone. **It wasn’t my choice, by the way.** I dropped it on the escalator at Taipei Main Station, **and** the screen smashed into what looked like a spider’s web.",
+   "**Right away,** I took it to a small repair shop in the underground mall near the station. **Unfortunately,** the staff told me they had to order a new screen, **so** I couldn’t pick it up until the next morning. **To make things more difficult,** I didn’t have a backup phone, **and** I’d already promised to meet a friend in Dadaocheng that afternoon. **Basically,** I had no map, no messages and no mobile payment.",
+   "**The funny thing was** I suddenly felt like I’d travelled back in time. **First,** I had to find an ATM to get some cash. **Then,** since I couldn’t check the map, I asked an elderly man in a dried-goods shop for directions, **and** he drew me a little map on the back of a receipt. **Meanwhile,** my friend was getting worried, **because** I wasn’t answering any of her messages. **In the end,** she walked around the area and found me admiring the old red-brick buildings.",
+   "**At first,** I felt really anxious, as if I’d lost part of my body. **But after an hour or so,** I started to relax and notice things I usually miss, like the smell of dried mushrooms and the old shop signs. **Since then,** I’ve started leaving my phone in my bag whenever I’m having a meal with friends."
+  ],
+  "followUps": [
+   {
+    "q": "Why do so many people feel they can’t live without their phones?",
+    "a": "**I think** it’s because phones now do almost everything. **For example,** we use them to pay, to take the MRT and to talk to our families. **On top of that,** apps are designed to keep us scrolling. **As a result,** many people feel nervous **when** their phone isn’t in their pocket."
+   },
+   {
+    "q": "Should children be allowed to have smartphones?",
+    "a": "**It depends on** their age, **in my opinion.** **For younger children,** a basic phone for emergencies is probably enough. **For teenagers,** however, a smartphone can be useful for school and keeping in touch. **The key thing is that** parents set clear rules, like no phones at the dinner table."
+   },
+   {
+    "q": "How can people reduce the time they spend on their phones?",
+    "a": "**Well,** one practical way is to turn off unnecessary notifications. **Another idea** is to keep your phone outside the bedroom at night. **Some people also** use screen-time apps that show how many hours they spend each day. **Personally,** I find that simply leaving my phone in another room **helps** a lot."
+   }
+  ]
+ },
+ {
+  "id": "time-6",
+  "theme": "Time & Daily Life",
+  "themeZh": "時間與日常",
+  "setLabel": "Set 6",
+  "title": "Describe a person you know who is very good at managing time.",
+  "cues": [
+   "who this person is",
+   "how you know him or her",
+   "what he or she does to manage time well",
+   "and explain what you have learned from this person."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "my aunt → nurse at a hospital in Taichung + mum of 2 + part-time master’s degree"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "shift work, early + night shifts; colour-coded wall calendar in kitchen; Sun night = family planning meeting; batch cooking"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "stayed w/ her one summer → she finished thesis chapter + kids’ homework + dinner before 9 p.m.; I couldn’t even finish 1 essay"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "secret: plan ahead + say no + use small gaps; I copied: Sun planning + 2-min rule"
+   }
+  ],
+  "sample": [
+   "**Right, so** the person I think of immediately is my aunt, my mum’s younger sister. She works as a nurse at a big hospital in Taichung, she has two young sons, **and** a few years ago she even decided to do a part-time master’s degree. **To be honest,** I have no idea how she fits everything into one day.",
+   "**I got to know her habits** because we’re very close, **and** I often stay at her house during the summer holidays. **The first thing you notice** is the huge colour-coded calendar on her kitchen wall, with a different colour for each family member. **In addition,** every Sunday evening the whole family has a short planning meeting about the coming week. **On top of that,** she cooks several dishes on Sunday afternoon and keeps them in the fridge, **so** dinner on busy weekdays only takes about fifteen minutes.",
+   "**I realised how good she was** when I stayed with her two summers ago. **One evening,** after a long early shift, she helped both boys with their homework, cooked dinner **and then** wrote several pages of her thesis, all before nine o’clock. **Meanwhile,** I’d spent the whole afternoon trying to finish one university essay, **and** I still hadn’t done it. **Naturally,** I felt quite embarrassed.",
+   "**From watching her,** I learned that time management isn’t really about working faster. **Instead,** it’s about planning ahead, saying no to unimportant things and using small gaps in the day. **So now,** I do my own planning on Sunday nights, **and** I try to do any task that takes less than two minutes immediately."
+  ],
+  "followUps": [
+   {
+    "q": "Why do some people find it difficult to manage their time?",
+    "a": "**I think** one big reason is distraction. **For example,** it’s very easy to pick up your phone for a minute and lose half an hour. **In addition,** some people find it hard to say no, **so** they take on too many tasks. **Finally,** a lot of people simply underestimate how long things take."
+   },
+   {
+    "q": "Should schools teach students how to manage their time?",
+    "a": "**Yes, I think** it would be really useful. **At the moment,** many students in Taiwan have their whole day planned by teachers and parents. **As a result,** when they start university, they suddenly have lots of free time **and** don’t know how to organise it. **So** a few simple lessons on planning could help a lot."
+   },
+   {
+    "q": "Is it better to plan every hour of the day or to be flexible?",
+    "a": "**Personally,** I prefer a balance between the two. **On the one hand,** a detailed plan helps you get important things done. **On the other hand,** life is unpredictable, **so** if every minute is planned, one small delay can ruin your whole day. **Ideally,** you should plan the big tasks and leave some free space."
+   }
+  ]
+ },
+ {
+  "id": "time-7",
+  "theme": "Time & Daily Life",
+  "themeZh": "時間與日常",
+  "setLabel": "Set 7",
+  "title": "Describe an object that helps you manage your time.",
+  "cues": [
+   "what the object is",
+   "where you got it",
+   "how you use it",
+   "and explain why it is useful to you."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "paper planner 手帳 → A5, one page per day, dark green cover"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "bought every Nov at stationery shop near Taipei Main Station (Chongqing S. Rd book street); stickers, highlighters, monthly + daily pages"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "tried phone apps → notifications ignored; 1st yr at work → missed client deadline → switched to paper; every night 10 min plan tomorrow"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "writing by hand → remember better; crossing off tasks = satisfying; old planners = diary of my life"
+   }
+  ],
+  "sample": [
+   "**Okay, so** the object I want to describe is my paper planner. It’s an A5-sized notebook with a dark green cover, **and** it has a monthly calendar at the front and one page for every single day. **I know** it sounds old-fashioned in the age of smartphones, **but** I really couldn’t organise my life without it.",
+   "**As for where I got it,** I buy a new one every November from a stationery shop on Chongqing South Road, near Taipei Main Station, **which** is an area full of bookshops and stationery stores. **Every year,** I spend ages choosing the cover and a few packs of stickers. **Then** I use different highlighters for different things, **for example,** pink for work deadlines, blue for family events and green for exercise.",
+   "**I actually switched to paper** after a bad experience in my first year at work. **Back then,** I used a to-do app on my phone, **but** I got so many notifications that I started ignoring all of them. **As a result,** I completely forgot a deadline for an important client, **and** my boss was not happy at all. **Since then,** I’ve spent about ten minutes every night writing tomorrow’s plan in my planner before I go to bed.",
+   "**For me,** it’s useful for a few reasons. **First,** writing things down by hand helps me remember them much better. **Second,** crossing off a finished task is incredibly satisfying. **Best of all,** my old planners have become a kind of diary, **so** when I flip through them, I can see what I was doing on any day of the past five years."
+  ],
+  "followUps": [
+   {
+    "q": "Do you think paper planners will disappear in the future?",
+    "a": "**I don’t think so,** at least not completely. **For one thing,** many people, especially students, enjoy decorating their planners as a hobby. **For another,** some research suggests that writing by hand helps memory. **Having said that,** digital calendars are clearly more convenient for sharing plans, **so** paper may become more of a niche product."
+   },
+   {
+    "q": "What are the advantages of using apps to organise your time?",
+    "a": "**Well,** the biggest advantage is convenience. **For example,** you can set reminders, share calendars with colleagues and check your schedule anywhere. **In addition,** apps can sync across your phone and computer. **However,** the downside is that your phone is also full of distractions, **so** it’s easy to get sidetracked."
+   },
+   {
+    "q": "Why do some people enjoy buying stationery so much?",
+    "a": "**I think** stationery is a small, affordable luxury. **For instance,** a nice pen or notebook only costs a few hundred NT dollars, **but** it can make studying or working feel more enjoyable. **On top of that,** shops in Taiwan and Japan design really cute products, **which** makes people want to collect them."
+   }
+  ]
+ },
+ {
+  "id": "time-8",
+  "theme": "Time & Daily Life",
+  "themeZh": "時間與日常",
+  "setLabel": "Set 8",
+  "title": "Describe a time when you got up very early to do something.",
+  "cues": [
+   "when it was",
+   "where you were",
+   "what you got up early to do",
+   "and explain whether it was worth getting up so early."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "Alishan, Chiayi → woke up ~3:30 a.m. to catch the sunrise train; trip w/ uni roommates, winter"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "stayed in hotel near Alishan Station; freezing, ~5°C; sunrise train → short ride up to viewing area; hundreds of people w/ cameras + thick coats"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "nearly overslept → roommate’s alarm; sea of clouds below; sun appeared behind Jade Mountain range → crowd cheered; hot ginger tea"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "tired + cold but 100% worth it; photos can’t show it; nature > sleep sometimes"
+   }
+  ],
+  "sample": [
+   "**Alright, so** the earliest I’ve ever got up was during a trip to Alishan in Chiayi with my university roommates, **a couple of winters ago.** Alishan is famous for its sunrise and its sea of clouds, **so** almost every visitor gets up in the middle of the night to see it. **In our case,** the alarm went off at half past three in the morning.",
+   "**The night before,** we stayed in a small hotel near Alishan Station. **To be honest,** I didn’t expect it to be so cold. **Even though** it was Taiwan, the temperature was only about five degrees, **so** we put on every piece of clothing we had brought. **Then** we took the sunrise train, a little forest train that runs before dawn, up to the viewing area. **When we got there,** there were already hundreds of people waiting with cameras and thick coats.",
+   "**Funnily enough,** I almost missed the whole thing, **because** I turned my alarm off in my sleep. **Luckily,** my roommate’s alarm was louder. **As we waited,** the sky slowly changed from black to dark blue, **and** below us there was a white sea of clouds that looked solid enough to walk on. **Suddenly,** the sun appeared from behind the mountains, and the whole crowd cheered as if it were a concert. **Afterwards,** we warmed our hands on cups of hot ginger tea.",
+   "**Looking back,** I was exhausted and freezing, but it was completely worth it. **In fact,** none of my photos really show how beautiful it was. **I suppose** the experience taught me that, every now and then, nature is more important than sleep."
+  ],
+  "followUps": [
+   {
+    "q": "Why do people like watching sunrises and sunsets?",
+    "a": "**I think** it’s partly because they’re beautiful **and** partly because they feel special. **For example,** a sunrise marks a new beginning, **so** many people watch it on New Year’s Day. **On top of that,** watching the sky change colour slowly makes people stop and relax, which is rare in our busy lives."
+   },
+   {
+    "q": "Is it better to be an early bird or a night owl?",
+    "a": "**It depends on** the person, **in my view.** **On the one hand,** early birds fit better into normal school and office hours. **On the other hand,** some night owls are more creative late at night. **The most important thing,** I think, is to get enough sleep and keep a regular schedule."
+   },
+   {
+    "q": "Should tourist attractions limit the number of visitors?",
+    "a": "**For popular natural sites,** I think it’s sometimes necessary, **especially** at weekends and during holidays. **For instance,** if too many people crowd a mountain viewpoint, it can damage the environment **and** spoil the experience. **However,** limits should be fair, so a simple online booking system might be the best solution."
+   }
+  ]
+ },
+ {
+  "id": "time-9",
+  "theme": "Time & Daily Life",
+  "themeZh": "時間與日常",
+  "setLabel": "Set 9",
+  "title": "Describe a reason why many young people in your country go to bed very late.",
+  "cues": [
+   "what young people do late at night",
+   "when you first noticed this habit",
+   "how it affects their daily lives",
+   "and explain why you think this habit has become so common."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "“revenge bedtime procrastination” 報復性熬夜 → stay up late to get “me time” after long day"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "scroll short videos, binge dramas, online games till 1–2 a.m.; office workers + students"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "me in 1st job → home 8:30 p.m. → felt day belonged to boss → stayed up till 2 a.m. watching YouTube → coffee x3 next day"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "causes: long hours, commute, cram school, phones; effects: tired, poor focus, health; solution → protect evening time + phone out of bedroom"
+   }
+  ],
+  "sample": [
+   "**Okay, so** a habit that’s really common among young people in Taiwan is going to bed extremely late, often after one or two in the morning. **There’s actually a name for it:** “revenge bedtime procrastination”. **Basically,** after a long day of work or study, people feel they haven’t had any time for themselves, **so** they stay up late to take some of that time back.",
+   "**In terms of what they do,** it’s mostly screen-based. **For example,** people scroll through short videos, binge-watch dramas or play online games with friends. **It’s not only office workers, either.** **In fact,** many high-school students finish cram school at around nine or ten, **so** by the time they’ve showered and done their homework, it’s already midnight.",
+   "**I first noticed this habit** in myself during my first job. **Back then,** I usually got home at about half past eight, **and** I felt as if the whole day had belonged to my boss. **So** I’d lie in bed watching YouTube until two in the morning, even though I knew it was a bad idea. **Naturally,** the next day I needed three cups of coffee just to stay awake. **Eventually,** my mum told me I looked like a panda because of my dark circles.",
+   "**In my opinion,** the main causes are long working hours, long commutes, cram school and, **of course,** smartphones. **As a result,** many young people are tired all the time and find it hard to concentrate. **For me,** the solution was to protect a little free time in the evening **and** to charge my phone outside the bedroom."
+  ],
+  "followUps": [
+   {
+    "q": "Why is getting enough sleep important for students?",
+    "a": "**Well,** sleep is when the brain stores what we’ve learned during the day. **So** if students don’t sleep enough, they forget things more easily. **In addition,** tired students find it hard to pay attention in class. **Over time,** a lack of sleep can also affect their mood **and** their health."
+   },
+   {
+    "q": "Should employers do more to help workers have a better work-life balance?",
+    "a": "**Definitely, in my view.** **For example,** companies could avoid sending messages to staff late at night. **They could also** offer flexible working hours, **so** people can avoid the worst rush hour. **In the long run,** this would benefit companies too, because well-rested employees usually work more efficiently."
+   },
+   {
+    "q": "Do you think technology makes people busier or gives them more free time?",
+    "a": "**In theory,** technology should save us time, **like** online banking or food delivery. **In reality, though,** it often makes us busier, **because** we can be contacted anywhere and at any time. **On top of that,** much of the time we save is spent on our phones, so we don’t actually feel more relaxed."
+   }
+  ]
+ },
+ {
+  "id": "time-10",
+  "theme": "Time & Daily Life",
+  "themeZh": "時間與日常",
+  "setLabel": "Set 10",
+  "title": "Describe a time when you arrived much too early for something.",
+  "cues": [
+   "where you were going",
+   "how early you arrived",
+   "what you did while you were waiting",
+   "and explain how you felt about the situation."
+  ],
+  "notes": [
+   {
+    "label": "Intro (0–15 s)",
+    "text": "friend Kevin’s b-day dinner, hot pot restaurant in Gongguan → arrived 1 whole week early!"
+   },
+   {
+    "label": "Context & description (15–45 s)",
+    "text": "wrote wrong date in calendar → Fri 15th not 22nd; dressed up, brought gift; staff: no booking under Kevin"
+   },
+   {
+    "label": "Story (45–75 s)",
+    "text": "texted group chat → everyone confused → Kevin: “next Friday!”; ate a small hot pot alone; friends joked; next week they gave me a cake candle “early bird”"
+   },
+   {
+    "label": "Reflection (75–120 s)",
+    "text": "embarrassed → then funny; lesson: double-check dates; story now a running joke"
+   }
+  ],
+  "sample": [
+   "**Alright, so** the time I arrived far too early for something was last year, **and** it’s still a running joke among my friends. My friend Kevin was having a birthday dinner at a hot pot restaurant in Gongguan, **and** I turned up not ten minutes early, **not even an hour early,** but a whole week early!",
+   "**What happened was** I’d written the wrong date in my planner. The dinner was on Friday the twenty-second, **but** I’d put it down for Friday the fifteenth. **So that evening,** I left work on time, changed into a nice shirt **and** even picked up the gift I’d bought, a bottle of Kavalan whisky. **When I got to the restaurant,** I told the staff I was with Kevin’s group. **However,** the waiter checked the list twice and said there was no booking under that name.",
+   "**At first,** I thought the restaurant had made a mistake, **so** I sent a message to our group chat asking where everyone was. **A few minutes later,** Kevin replied with lots of laughing emojis and said, “It’s next Friday!” **By then,** I was starving, so I just sat down and ordered a small hot pot for one. **Meanwhile,** my friends kept sending jokes. **The following week,** they brought a little cake for me with a candle that said “Early Bird”.",
+   "**To be honest,** I felt pretty embarrassed while I was eating on my own. **But looking back,** it’s one of the funniest things that has ever happened to me. **The main lesson** is to always double-check dates, especially when you’re busy. **Now,** whenever we plan anything, Kevin sends me a personal reminder."
+  ],
+  "followUps": [
+   {
+    "q": "Is it better to arrive early or exactly on time?",
+    "a": "**Personally,** I think it’s better to arrive a little early. **For example,** arriving ten minutes before a job interview gives you time to calm down. **However,** arriving too early can be awkward, **especially** at someone’s home, because the host might still be getting ready. **So** a few minutes early is usually ideal."
+   },
+   {
+    "q": "Why do people forget appointments?",
+    "a": "**I think** the main reason is that our lives are so busy. **For instance,** people may have work meetings, family events and social plans all in the same week. **On top of that,** many people rely on memory **instead of** writing things down. **As a result,** dates and times easily get mixed up."
+   },
+   {
+    "q": "How do people in your country usually remind each other about plans?",
+    "a": "**Nowadays,** most people use LINE, **which** is by far the most popular messaging app in Taiwan. **For example,** friends usually create a group chat for each event **and** send a reminder the day before. **In addition,** many clinics and restaurants send automatic text messages, so fewer people forget their appointments."
+   }
+  ]
  }
 ]
 ;
