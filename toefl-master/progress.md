@@ -3,7 +3,7 @@
 One line per finished task: number | type | category | title. A task is listed only after its HTML source is committed and pushed.
 Category order — Email: Apology / Absence; Request; Complaint / Problem; Inquiry / Information; Invitation / Reply; Advice / Suggestion; Application / Job; Thanks / Follow-up. Discussion: Education; Technology & AI; Social media & influencers; Environment; Government & society; Work & economy; Health & lifestyle; Ethics & culture.
 
-## Email (68)
+## Email (69)
 01 | Email | Apology / Absence | Missing a Club Meeting 無法出席社團會議 (to Alex, club president — medical appointment, poster for recycling campaign) | toefl-master/email-apology-absence.html
 02 | Email | Request | Requesting a Recommendation Letter 請教授寫推薦信 (to Professor Wang — exchange program in Canada, deadline + résumé/transcript) | toefl-master/email-request.html
 03 | Email | Complaint / Problem | Complaining About Noise in the Library 投訴圖書館自習區太吵 (to Ms. Lin, library manager — noisy quiet study area before final exams, suggest signs / staff patrol) | toefl-master/email-complaint-problem.html
@@ -72,8 +72,9 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 66 | Email | Request | Requesting an Interview with a Local Bakery Owner 請在地麵包店老闆接受訪問 (to Mr. Lin, owner of Sunrise Bakery, whom you have never met — social studies project "Local Businesses in Our Community", interview a local shop owner + five-minute presentation in two weeks; introduce yourself and explain the project, ask for an interview + suggest a time, what you would like to ask + how you will use his answers) | toefl-master/email-request.html
 67 | Email | Complaint / Problem | Complaining About an Unreliable Bus Service 投訴公車經常誤點脫班 (to Mr. Carter, customer service manager of CityLink Bus Company — Route 25 bus to university: 7:30 a.m. bus often 20+ minutes late, did not come at all twice last week, late for first class, paid for a taxi to an exam; describe the problem, how it has affected you, what you want: buses follow the timetable + delay updates on the app) | toefl-master/email-complaint-problem.html
 68 | Email | Inquiry / Information | Asking About Volunteering at an Animal Shelter 詢問動物收容所志工服務 (to Ms. Morgan, volunteer coordinator of Happy Paws Animal Shelter — shelter looking for volunteers seen on social media, cannot keep a pet at home, student free only on weekends, no experience with animals; why you want to volunteer, what volunteers do + when they are needed, training + how to apply) | toefl-master/email-inquiry-information.html
+69 | Email | Invitation / Reply | Inviting an Exchange Student to a New Year's Eve Dinner 邀請交換學生來家裡吃年夜飯 (to Hannah, an exchange student from Germany in your class — she has no plans for Lunar New Year; invite her to the family's New Year's Eve dinner + why, details (Friday, February 5, 6 p.m., at home) + what to expect (dumplings, fish, red envelope), ask about food she cannot eat + reply by Monday) | toefl-master/email-invitation-reply.html
 
-## Discussion (68)
+## Discussion (69)
 01 | Discussion | Education | Should STEAM courses be mandatory for all university students? 大學應該把 STEAM 課程列為全體學生的必修嗎？ | toefl-master/discussion-education.html
 02 | Discussion | Technology & AI | Will AI-generated images and videos have a positive or a negative influence on society? AI 生成的圖片與影片對社會的影響是正面還是負面？ | toefl-master/discussion-technology-ai.html
 03 | Discussion | Social media & influencers | Do social media influencers have a mainly positive or a mainly negative influence on young people? 社群媒體網紅對年輕人的影響主要是正面還是負面？ | toefl-master/discussion-social-media-influencers.html
@@ -142,6 +143,7 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 66 | Discussion | Technology & AI | Should schools replace printed textbooks with e-books? 學校應該用電子書取代紙本教科書嗎？ | toefl-master/discussion-technology-ai.html
 67 | Discussion | Social media & influencers | Should parents monitor their teenagers' social media accounts? 父母應該監看青少年子女的社群媒體帳號嗎？ | toefl-master/discussion-social-media-influencers.html
 68 | Discussion | Environment | Should governments tax fast fashion in order to protect the environment? 政府應該為了保護環境而對快時尚課稅嗎？ | toefl-master/discussion-environment.html
+69 | Discussion | Government & society | Should governments install surveillance cameras in all public places? 政府應該在所有公共場所裝設監視器嗎？ | toefl-master/discussion-government-society.html
 
 ## Notes for the next run
 - Sample markup in the HTML sources: `<span style="background-color:#fff2a8">` = universal pattern, `<b>` = theme word.

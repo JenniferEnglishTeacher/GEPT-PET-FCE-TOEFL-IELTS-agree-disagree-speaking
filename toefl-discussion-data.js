@@ -2327,4 +2327,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 69, cat: "Government & society",
+    title: "Surveillance Cameras in Public Places", zh: "公共場所全面裝設監視器",
+    question: "Should governments install surveillance cameras in all public places?", questionZh: "政府應該在所有公共場所裝設監視器嗎？",
+    professor: "This week we are discussing the balance between safety and privacy. In many cities, surveillance cameras now watch streets, parks, stations and shopping areas twenty-four hours a day, and some governments plan to install them in every public place. Supporters say that cameras prevent crime and help the police find criminals quickly. Critics worry that constant watching takes away people's privacy and that the recordings could be misused. In your opinion, should governments install surveillance cameras in all public places? Why or why not?",
+    david: "I think they should. Cameras make people think twice before breaking the law, because they know they might be recorded. And when a crime does happen, the police can check the video and catch the criminal much faster. I feel much safer walking home at night on a street with cameras. Honest people have nothing to hide, so I don't see why anyone would object.",
+    mary: "I disagree. I don't want the government to know where I go and who I meet every day. Being watched all the time makes people feel uncomfortable, even if they have done nothing wrong. Besides, cameras are expensive to install and maintain, and criminals can simply move to places without them. That money would be better spent on more police officers and better street lighting.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "公共場所應該全面裝設監視器", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / install 裝設 / surveillance camera 監視器 / public place 公共場所",
+          sample: "[[I agree with David that]] governments [[should]] install **surveillance cameras** in all public places." },
+        { role: "New reason", zh: "補充新理由", hints: "Apart from …, which David mentioned, I would add that 除了 David 提到的…之外，我想補充 / fight crime 打擊犯罪 / emergency 緊急狀況 / footage 影像畫面 / cause an accident 造成事故 / missing 失蹤的 / lose one's way 迷路",
+          sample: "[[Apart from]] fighting **crime**, [[which David mentioned, I would add that]] cameras are extremely useful in accidents and emergencies. **Footage** can show exactly who caused a traffic accident, and it can help the police find missing children or elderly people who have lost their way." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / memory problem 記憶力問題 / check 調閱、查看 / within + 時間 在…之內",
+          sample: "[[For example,]] when my grandfather, who has memory problems, did not come home one evening last year, the police checked the street **cameras** near our home and found him in a park within two hours." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / take away 奪走 / privacy 隱私 / However, I believe that 然而我認為 / strict law 嚴格的法律 / limit 限制 / recording 錄影紀錄 / be kept 被保存",
+          sample: "[[Mary argues that]] cameras take away people's **privacy**. [[However, I believe that]] nobody expects complete **privacy** on a public street, and strict laws can limit who is allowed to watch the **recordings** and how long they are kept." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / safety 安全 / provide 提供 / be well worth + N 非常值得…",
+          sample: "[[For these reasons, I believe that]] the **safety** that cameras provide [[is well worth]] the cost." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "公共場所不應該全面裝設監視器", rows: [
+        { role: "Position", zh: "表明立場", hints: "Although … is important 雖然…很重要 / I agree with Mary that 我同意 Mary 所說的 / surveillance camera 監視器",
+          sample: "[[Although]] safety [[is important,]] [[I agree with Mary that]] governments [[should not]] install **surveillance cameras** in all public places." },
+        { role: "New reason", zh: "補充新理由", hints: "One point Mary did not mention is that Mary 沒有提到的一點是 / recording 錄影紀錄 / Once … 一旦… / store 儲存 / hacker 駭客 / misuse 濫用 / official 官員 / facial recognition 人臉辨識 / make it easy to + V 使…變得容易 / track 追蹤",
+          sample: "[[One point Mary did not mention is that]] the **recordings** themselves can be dangerous. [[Once]] millions of hours of video are stored, they can be stolen by **hackers** or misused by officials, and modern **facial recognition** [[makes it easy to]] **track** exactly where a particular person goes." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / there have been news reports of 曾有…的新聞報導 / officer 員警 / former partner 前任伴侶 / footage 影像畫面 / put … online 把…放上網路",
+          sample: "[[For instance,]] [[there have been news reports of]] officers who used police **cameras** to follow their former partners, and of **hackers** who put private **footage** online." },
+        { role: "Respond to David", zh: "回應對方", hints: "David points out that David 指出 / have nothing to hide 沒有什麼好隱瞞的 / I understand his point, but 我理解他的觀點，但 / privacy 隱私 / behave 表現、舉止 / freely 自在地",
+          sample: "[[David points out that]] honest people have nothing to hide. [[I understand his point, but]] **privacy** is not about hiding crimes. Most people simply behave less freely when they know that someone may be watching them." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / be limited to 僅限於 / high-risk 高風險的 / such as 例如 / rather than 而不是 / cover 涵蓋",
+          sample: "[[In conclusion,]] cameras [[should be limited to]] **high-risk** places [[such as]] stations and banks [[rather than]] cover every street and park." },
+      ] },
+    ]
+  },
 ];
