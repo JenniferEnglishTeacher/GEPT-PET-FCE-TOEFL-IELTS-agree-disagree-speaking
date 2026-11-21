@@ -2157,4 +2157,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 64, cat: "Ethics & culture",
+    title: "Telling White Lies", zh: "善意的謊言",
+    question: "Is it acceptable to tell white lies?", questionZh: "說善意的謊言是可以接受的嗎？",
+    professor: "This week we are discussing honesty in everyday life. Most of us are taught as children that lying is wrong. Yet many people regularly tell “white lies”, small untruths that are meant to be polite or to protect someone's feelings, such as saying that you love a gift you actually dislike. Some philosophers argue that any lie damages trust, while others see white lies as a normal and even kind part of social life. In your opinion, is it acceptable to tell white lies? Why or why not?",
+    david: "I think white lies are perfectly acceptable. If my grandmother spends weeks knitting me a sweater, telling her that I don't like it would only hurt her and change nothing. A small lie in that situation is an act of kindness. Being polite sometimes matters more than being completely accurate.",
+    mary: "I don't think white lies are harmless. Once you get used to telling small lies, it becomes easier to tell bigger ones. Also, when people find out that you lied to them, even about something small, they start to wonder what else you have hidden. I would rather hear an uncomfortable truth than a comfortable lie.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "認為善意的謊言可以接受", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my opinion 依我之見 / white lie 善意的謊言 / acceptable 可以接受的 / I agree with David that 我同意 David 所說的 / kindness 善意 / matter more than 比…更重要 / honesty 誠實",
+          sample: "[[In my opinion,]] telling **white lies** is acceptable in everyday life, [[and I agree with David that]] kindness sometimes [[matters more than]] complete **honesty**." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides the point he made about …, I would add that 除了他提到關於…的論點之外，我想補充 / protect someone's feelings 顧及某人的感受 / relationship 人際關係 / run smoothly 順利運作 / Nobody could + V … if + 過去式（假設語氣）",
+          sample: "[[Besides the point he made about]] protecting people's feelings, [[I would add that]] white lies help to keep **relationships** and teamwork running smoothly. [[Nobody could]] work or live together for long [[if]] everyone said exactly what they thought all the time." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / nervous 緊張的 / speech contest 演講比賽 / confidence 信心 / V-ing … would only make + O + V 做…只會讓… / perform 表現",
+          sample: "[[For instance,]] when a nervous classmate asks how her first speech went just before the final round of a **speech contest**, saying “You did well” gives her **confidence**. Listing every mistake at that moment [[would only make]] her perform worse." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… claims that …聲稱 / lead to 導致 / I see her point, but 我明白她的意思，但 / tell the difference between A and B 分辨 A 和 B 的不同 / comfort 安慰 / cheat 欺騙 / for personal gain 為了個人利益",
+          sample: "[[Mary claims that]] small lies lead to bigger ones. [[I see her point, but]] most people can easily [[tell the difference between]] **comforting** a friend [[and]] **cheating** someone for personal gain." },
+        { role: "Conclusion", zh: "結論", hints: "To sum up, I believe that 總而言之，我認為 / out of kindness 出於善意 / do more good than harm 利大於弊",
+          sample: "[[To sum up, I believe that]] a white lie told out of kindness [[does more good than harm.]]" },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "認為即使是善意的謊言也不可取", rows: [
+        { role: "Position", zh: "表明立場", hints: "Personally, I do not think that 就我個人而言，我不認為 / white lie 善意的謊言 / acceptable 可以接受的 / I share Mary's view that 我和 Mary 看法相同，認為 / damage 破壞 / trust 信任",
+          sample: "[[Personally, I do not think that]] telling **white lies** is acceptable, [[and I share Mary's view that]] even small lies slowly damage **trust**." },
+        { role: "New reason", zh: "補充新理由", hints: "Another point worth considering is that 另一個值得考慮的重點是 / take away 奪走 / chance to improve 進步的機會 / honest feedback 誠實的回饋 / a form of respect 一種尊重",
+          sample: "[[Another point worth considering is that]] white lies take away people's chance to improve. If we always hear that our work is wonderful, we never learn what is wrong with it, so **honest feedback** is actually [[a form of]] **respect**." },
+        { role: "Example", zh: "舉例", hints: "Suppose (that) + S + V 假設… / application essay 申請文章 / call … perfect 說…很完美 / although 雖然 / argument 論點 / She would …, but she might + V（假設語氣）/ dream university 夢想中的大學",
+          sample: "[[Suppose]] a friend asks me to check her university **application essay**, and I call it perfect although its **arguments** are weak. She [[would]] feel happy for a day, [[but]] she [[might]] lose her place at her dream university." },
+        { role: "Respond to David", zh: "回應對方", hints: "… says that …說 / That is understandable; however 這可以理解；然而 / we do not have to choose between A and B 我們不必在 A 和 B 之間二選一 / cruel 殘忍的 / sincerely 真誠地 / the time and love behind … 在…背後付出的時間與愛",
+          sample: "[[David says that]] the truth would only hurt his grandmother. [[That is understandable; however, we do not have to choose between]] lying [[and]] being cruel. He could **sincerely** thank her for the time and love behind the sweater." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion, I am convinced that 總之，我深信 / gentle honesty 溫和的誠實 / be better than 比…好 / a comfortable lie 讓人舒服的謊言",
+          sample: "[[In conclusion, I am convinced that]] **gentle honesty** [[is always better than]] a comfortable lie." },
+      ] },
+    ]
+  },
 ];
