@@ -2225,4 +2225,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 66, cat: "Technology & AI",
+    title: "Replacing Printed Textbooks with E-books", zh: "以電子書取代紙本教科書",
+    question: "Should schools replace printed textbooks with e-books?", questionZh: "學校應該用電子書取代紙本教科書嗎？",
+    professor: "This week we are discussing how digital tools are changing the classroom. A growing number of schools are giving every student a tablet and replacing printed textbooks with e-books. Supporters say that digital textbooks are lighter, cheaper in the long run and easy to update, and that they can include videos and interactive exercises. Critics argue that students read less carefully on screens and that tablets bring distractions into every lesson. In your opinion, should schools replace printed textbooks with e-books? Why or why not?",
+    david: "I think schools should switch to e-books. My backpack weighs almost eight kilograms because I carry five thick textbooks every day, and a tablet could hold all of them. E-books can also be updated right away when information changes, so students never have to study from an old edition. Besides, we can search for a key word in seconds instead of turning hundreds of pages.",
+    mary: "I don't agree. When I read on a screen, I get tired quickly and I remember much less than when I read on paper. With a printed book, I can underline sentences and write notes in the margins, which helps me think. Also, a tablet is full of games and messages. If every student has one on the desk, many of them will not be listening to the teacher.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "支持以電子書取代紙本教科書", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my opinion 依我之見 / replace A with B 用 B 取代 A / printed textbook 紙本教科書 / e-book 電子書 / I agree with David that 我同意 David 所說的 / tablet 平板電腦 / convenient 方便的",
+          sample: "[[In my opinion,]] schools [[should]] replace **printed textbooks** with **e-books**, [[and I agree with David that]] a single tablet is far more convenient than a heavy bag of books." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides the advantages he mentioned, I would argue that 除了他提到的優點之外，我還認為 / make it possible for sb. to + V 讓某人能夠… / digital textbook 數位教科書 / interactive 互動式的 / instead of + V-ing 而不是…",
+          sample: "[[Besides the advantages he mentioned, I would argue that]] e-books [[make it possible for]] students [[to]] learn in ways that paper cannot offer. A **digital textbook** can include videos and **interactive** quizzes, so students can hear, see and practice new material [[instead of]] only reading about it." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / tap 輕點 / native speaker 母語人士 / used to + V 以前總是… / guess 猜 / pronounce 發音（動詞）/ pronunciation 發音（名詞）/ improve 進步",
+          sample: "[[For example,]] my English e-book lets me tap any sentence to hear a native speaker read it. I [[used to]] guess how new words were pronounced, but now I listen and repeat, and my **pronunciation** has improved a lot." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… worries that …擔心 / distract 使分心 / That is a reasonable concern, but 這是合理的擔憂，但 / block 封鎖 / messaging app 通訊軟體 / device 裝置",
+          sample: "[[Mary worries that]] tablets will distract students. [[That is a reasonable concern, but]] schools can block games and messaging apps on school **devices**." },
+        { role: "Conclusion", zh: "結論", hints: "To sum up 總而言之 / up to date 最新的 / adopt 採用",
+          sample: "[[To sum up,]] e-books make learning lighter, richer and more up to date, [[so]] schools should adopt them." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "反對以電子書取代紙本教科書", rows: [
+        { role: "Position", zh: "表明立場", hints: "Personally, I do not think that 就我個人而言，我不認為 / replace A with B 用 B 取代 A / printed textbook 紙本教科書 / e-book 電子書 / I share Mary's view that 我和 Mary 看法相同，認為",
+          sample: "[[Personally, I do not think that]] schools [[should]] replace **printed textbooks** with **e-books**, [[and I share Mary's view that]] students learn better from paper." },
+        { role: "New reason", zh: "補充新理由", hints: "Apart from the problems she described, another issue is that 除了她描述的問題之外，另一個問題是 / depend on 依賴 / device 裝置 / fail 故障 / afford 負擔得起 / run out of battery 沒電 / internet connection 網路連線 / have no way to + V 沒有辦法…",
+          sample: "[[Apart from the problems she described, another issue is that]] e-books depend on **devices** that can fail and that not every family can afford. A tablet may run out of **battery**, break or lose its internet connection, and then the student [[has no way to]] study." },
+        { role: "Example", zh: "舉例", hints: "A good example is 一個很好的例子是 / semester 學期 / screen 螢幕 / crack 裂開 / repair 維修 / whereas 然而、反觀 / let sb. down 讓某人失望",
+          sample: "[[A good example is]] my cousin's school, which uses tablets. Last semester, her **screen** cracked a week before the final exams, and the repair took ten days. She had to borrow a classmate's tablet, [[whereas]] a printed book would never have let her down." },
+        { role: "Respond to David", zh: "回應對方", hints: "… points out that …指出 / That is true; however 這是事實；然而 / … can be solved by + V-ing …可以藉由…來解決 / provide 提供 / locker 置物櫃 / rather than 而不是 / remove 拿掉 / altogether 完全地",
+          sample: "[[David points out that]] textbooks are heavy. [[That is true; however,]] this problem [[can be solved by]] providing lockers at school [[rather than]] removing books altogether." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / reliable 可靠的 / fair 公平的 / tool 工具",
+          sample: "[[In conclusion,]] printed textbooks are still the most **reliable** and fair tool for learning." },
+      ] },
+    ]
+  },
 ];

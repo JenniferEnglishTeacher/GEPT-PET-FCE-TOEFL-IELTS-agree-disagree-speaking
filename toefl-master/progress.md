@@ -3,7 +3,7 @@
 One line per finished task: number | type | category | title. A task is listed only after its HTML source is committed and pushed.
 Category order — Email: Apology / Absence; Request; Complaint / Problem; Inquiry / Information; Invitation / Reply; Advice / Suggestion; Application / Job; Thanks / Follow-up. Discussion: Education; Technology & AI; Social media & influencers; Environment; Government & society; Work & economy; Health & lifestyle; Ethics & culture.
 
-## Email (65)
+## Email (66)
 01 | Email | Apology / Absence | Missing a Club Meeting 無法出席社團會議 (to Alex, club president — medical appointment, poster for recycling campaign) | toefl-master/email-apology-absence.html
 02 | Email | Request | Requesting a Recommendation Letter 請教授寫推薦信 (to Professor Wang — exchange program in Canada, deadline + résumé/transcript) | toefl-master/email-request.html
 03 | Email | Complaint / Problem | Complaining About Noise in the Library 投訴圖書館自習區太吵 (to Ms. Lin, library manager — noisy quiet study area before final exams, suggest signs / staff patrol) | toefl-master/email-complaint-problem.html
@@ -69,8 +69,9 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 63 | Email | Application / Job | Applying to Be an Orientation Leader for International Students 應徵國際新生訓練輔導員 (to Ms. Novak, coordinator at the International Student Office — orientation leaders welcome a group of about ten new international students, show them around campus and answer questions in the week before the fall semester; why you would be suitable (second-year student, English + Chinese, remember feeling lost), one welcome activity you would organize (campus treasure hunt / night-market evening), ask a question about the training) | toefl-master/email-application-job.html
 64 | Email | Thanks / Follow-up | Thanking a Stranger Who Returned Your Lost Backpack 感謝拾獲並歸還背包的陌生人 (to Mr. Garcia, a train passenger who found your backpack and handed it in at the station office — laptop, student ID and final-exam notes inside, nothing missing; thank him + why the backpack mattered, what happened when you got it back, offer to treat him to coffee) | toefl-master/email-thanks-follow-up.html
 65 | Email | Apology / Absence | Apologizing for an Overdue Library Book 為逾期未還圖書館的書道歉 (to Ms. Hall, the school librarian — borrowed “The Story of Modern Art” for an art report, left it at your grandparents' house over the mid-term break, a week overdue, another student has reserved it; apologize + explain why it is overdue, show you understand how the delay affected others, say what you will do (grandmother posts it / return Thursday / pay the fine / help shelve books)) | toefl-master/email-apology-absence.html
+66 | Email | Request | Requesting an Interview with a Local Bakery Owner 請在地麵包店老闆接受訪問 (to Mr. Lin, owner of Sunrise Bakery, whom you have never met — social studies project "Local Businesses in Our Community", interview a local shop owner + five-minute presentation in two weeks; introduce yourself and explain the project, ask for an interview + suggest a time, what you would like to ask + how you will use his answers) | toefl-master/email-request.html
 
-## Discussion (65)
+## Discussion (66)
 01 | Discussion | Education | Should STEAM courses be mandatory for all university students? 大學應該把 STEAM 課程列為全體學生的必修嗎？ | toefl-master/discussion-education.html
 02 | Discussion | Technology & AI | Will AI-generated images and videos have a positive or a negative influence on society? AI 生成的圖片與影片對社會的影響是正面還是負面？ | toefl-master/discussion-technology-ai.html
 03 | Discussion | Social media & influencers | Do social media influencers have a mainly positive or a mainly negative influence on young people? 社群媒體網紅對年輕人的影響主要是正面還是負面？ | toefl-master/discussion-social-media-influencers.html
@@ -136,6 +137,7 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 63 | Discussion | Health & lifestyle | Should people with unhealthy lifestyles pay more for health care? 生活習慣不健康的人應該負擔較高的醫療費用嗎？ | toefl-master/discussion-health-lifestyle.html
 64 | Discussion | Ethics & culture | Is it acceptable to tell white lies? 說善意的謊言是可以接受的嗎？ | toefl-master/discussion-ethics-culture.html
 65 | Discussion | Education | Should schools group students into classes according to their academic ability? 學校應該依照學業能力為學生分班嗎？ | toefl-master/discussion-education.html
+66 | Discussion | Technology & AI | Should schools replace printed textbooks with e-books? 學校應該用電子書取代紙本教科書嗎？ | toefl-master/discussion-technology-ai.html
 
 ## Notes for the next run
 - Sample markup in the HTML sources: `<span style="background-color:#fff2a8">` = universal pattern, `<b>` = theme word.
