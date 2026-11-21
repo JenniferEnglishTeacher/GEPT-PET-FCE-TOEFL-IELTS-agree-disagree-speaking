@@ -2259,4 +2259,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 67, cat: "Social media & influencers",
+    title: "Parents Monitoring Teenagers' Social Media", zh: "父母監看青少年的社群媒體",
+    question: "Should parents monitor their teenagers' social media accounts?", questionZh: "父母應該監看青少年子女的社群媒體帳號嗎？",
+    professor: "This week we are looking at how families deal with social media. Most teenagers now have accounts on Instagram, TikTok or other platforms, and many parents feel anxious about what their children see and who they talk to online. Some parents check their teenagers' posts and messages, or install apps that track their online activity. Others believe that this destroys trust and that teenagers have a right to privacy. In your opinion, should parents monitor their teenagers' social media accounts? Why or why not?",
+    david: "I think parents should. There are real dangers online, such as scams, cyberbullying and strangers who pretend to be teenagers. A fifteen-year-old may not recognize these risks until it is too late. My parents can see who I follow and who follows me, and honestly, I feel safer because of it. Parents are responsible for their children's safety, and that includes the online world.",
+    mary: "I disagree. Reading a teenager's private messages is like reading a diary. If I found out that my parents were secretly checking my account, I would stop trusting them. Besides, monitoring doesn't really work, because teenagers can easily open a second account that their parents don't know about. Parents should talk to their children instead of spying on them.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "父母應該監看青少年的社群媒體帳號", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / monitor 監看、監督 / social media account 社群媒體帳號",
+          sample: "[[I agree with David that]] parents [[should]] **monitor** their teenagers' **social media accounts**." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to … he mentioned, I believe that 除了他提到的…之外，我認為 / safety risk 安全風險 / notice 察覺 / emotional problem 情緒問題 / hide one's feelings 隱藏情緒 / post 貼文 / comment 留言 / whether 是否 / bully 霸凌 / lonely 孤單的",
+          sample: "[[In addition to]] the safety risks [[he mentioned, I believe that]] monitoring helps parents notice emotional problems early. Teenagers often hide their feelings at home, but their **posts** and comments can show [[whether]] they are being **bullied** or feeling lonely." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / leave a comment 留言 / cruel 殘忍的、惡毒的 / never say a word about 對…隻字未提 / Thanks to 多虧了 / contact 聯絡 / bullying 霸凌（名詞）/ within 在…之內",
+          sample: "[[For instance,]] my aunt noticed that my cousin's classmates were leaving cruel **comments** under her photos every day. My cousin had never said a word about it. [[Thanks to]] what she saw, my aunt contacted the school, and the **bullying** stopped within two weeks." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… claims that …聲稱 / destroy trust 破壞信任 / I see her point, but 我明白她的意思，但 / secretly 偷偷地 / If …, … will … 如果…就會… / openly 公開地",
+          sample: "[[Mary claims that]] monitoring destroys **trust**. [[I see her point, but]] this only happens when parents do it secretly. [[If]] they explain the rules openly, most teenagers will understand." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I am convinced that 基於這些理由，我深信 / reasonable 合理的 / protect 保護 / without + V-ing 而不… / harm 傷害 / family relationship 家庭關係",
+          sample: "[[For these reasons, I am convinced that]] open and reasonable monitoring protects teenagers [[without]] harming the family relationship." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "父母不應該監看青少年的社群媒體帳號", rows: [
+        { role: "Position", zh: "表明立場", hints: "I side with Mary and believe that 我支持 Mary 的看法，並認為 / monitor 監看、監督 / social media account 社群媒體帳號",
+          sample: "[[I side with Mary and believe that]] parents [[should not]] **monitor** their teenagers' **social media accounts**." },
+        { role: "New reason", zh: "補充新理由", hints: "Apart from … that she described, another problem is that 除了她描述的…之外，另一個問題是 / loss of trust 失去信任 / constant 持續不斷的 / prevent + O + from + V-ing 使…無法… / watch over 看管、照看 / judge 判斷 / unprepared 毫無準備的 / leave home 離家",
+          sample: "[[Apart from]] the loss of trust [[that she described, another problem is that]] constant monitoring [[prevents]] teenagers [[from]] learning to protect themselves. [[If]] parents always watch over them, they never practice judging what is safe to post or whom to trust, and they will be unprepared when they leave home." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / scam 詐騙 / stranger 陌生人 / part-time job 打工 / bank details 銀行帳戶資料 / recognize the trick 識破騙局 / block 封鎖 / at once 立刻",
+          sample: "[[Take]] my older brother [[as an example.]] Our parents never checked his phone, but they often discussed online **scams** with him at dinner. When a stranger offered him an easy part-time job online and asked for his bank details, he recognized the trick and **blocked** the account at once." },
+        { role: "Respond to David", zh: "回應對方", hints: "… argues that …主張 / recognize 辨識 / online danger 網路上的危險 / That may be true; however 這或許是事實；然而 / solution 解決辦法 / not to + V 而不是去…",
+          sample: "[[David argues that]] teenagers cannot recognize online dangers. [[That may be true; however,]] the solution is to teach them, not to watch them." },
+        { role: "Conclusion", zh: "結論", hints: "In short 簡言之 / guidance 引導 / honest conversation 坦誠的對話 / far more effective than 遠比…有效 / surveillance 監視",
+          sample: "[[In short,]] guidance and honest conversation [[are far more effective than]] **surveillance**." },
+      ] },
+    ]
+  },
 ];
