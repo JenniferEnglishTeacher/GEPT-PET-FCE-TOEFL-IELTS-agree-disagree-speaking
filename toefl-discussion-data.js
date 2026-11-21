@@ -2123,4 +2123,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 63, cat: "Health & lifestyle",
+    title: "Higher Healthcare Costs for Unhealthy Lifestyles", zh: "生活習慣不健康的人多付醫療費",
+    question: "Should people with unhealthy lifestyles pay more for health care?", questionZh: "生活習慣不健康的人應該負擔較高的醫療費用嗎？",
+    professor: "This week we are looking at who should pay for health care. In many countries, health care is paid for mainly through taxes or public insurance, so everyone shares the cost. However, a large part of medical spending goes to treating diseases that are linked to lifestyle choices, such as smoking, heavy drinking, a poor diet and lack of exercise. Some people therefore suggest that those who choose to live in an unhealthy way should pay higher insurance fees or a larger share of their medical bills. In your opinion, should people with unhealthy lifestyles pay more for health care? Why or why not?",
+    david: "I think they should. Smoking or drinking heavily is a choice, and it is unfair that people who look after their health have to pay for the results of other people's bad habits. Car insurance already works this way: careless drivers pay more. Higher fees would also give people a strong reason to quit smoking and start exercising.",
+    mary: "I disagree. Health is not only a matter of choice. Genes, stress, income and working conditions all affect how people live, and it is very hard to judge whose illness is really their own fault. If we make health care more expensive for certain people, they will avoid seeing a doctor until their problems become serious.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "生活習慣不健康的人應該多付醫療費用", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / unhealthy lifestyle 不健康的生活方式 / somewhat 稍微、多少 / health care 醫療照護",
+          sample: "[[I agree with David that]] people who choose **unhealthy lifestyles** [[should]] pay somewhat more for **health care**." },
+        { role: "New reason", zh: "補充新理由", hints: "Apart from … that David mentioned, I would add that 除了 David 提到的…之外，我想補充 / fairness 公平 / public health 公共衛生 / prevention program 預防計畫 / such as 例如 / check-up 健康檢查 / quit smoking 戒菸",
+          sample: "[[Apart from]] the fairness [[that David mentioned, I would add that]] the extra money could improve **public health**. Governments could spend it on **prevention** programs, [[such as]] free check-ups and courses that help people quit smoking." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / discount 折扣 / health insurance 健康保險 / employee 員工 / persuade … to + V 說服… / quit 戒掉",
+          sample: "[[For example,]] my uncle's company gives a discount on **health insurance** to employees who do not smoke. He had smoked for twenty years, but the discount finally persuaded him to quit." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / judge 判斷 / one's own fault 自己的過錯 / While this is true of …, 雖然…確實如此 / habit 習慣 / easy to check 容易檢驗 / be limited to 僅限於 / clear case 明確的情況",
+          sample: "[[Mary argues that]] it is hard to judge whose illness is their own fault. [[While this is true of]] many diseases, some **habits** are easy to check. A simple test shows whether a person smokes, so the rule could [[be limited to]] such clear cases." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / risky choice 有風險的選擇 / both fair and effective 既公平又有效",
+          sample: "[[For these reasons, I believe that]] asking people to pay for risky choices is [[both]] fair [[and]] effective." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "生活習慣不健康的人不應該多付醫療費用", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my opinion 依我之見 / be charged more for 被收取較高的…費用 / I agree with Mary that 我同意 Mary 所說的 / not simply a choice 不單純是一種選擇",
+          sample: "[[In my opinion,]] people with **unhealthy lifestyles** [[should not]] be charged more for **health care**, and [[I agree with Mary that]] health is not simply a choice." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that Mary did not mention is that Mary 沒有提到的一點是 / policy 政策 / hurt the poor the most 對窮人傷害最大 / fresh food 新鮮食物 / work long hours 工時很長 / so 所以 / be punished for 因…而受罰 / conditions 處境、條件",
+          sample: "[[One point that Mary did not mention is that]] such a **policy** would hurt the poor the most. Fresh food is expensive, and people who work long hours have little time to cook or exercise, [[so]] they would [[be punished for]] conditions they cannot easily change." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / neighbor 鄰居 / drive a taxi 開計程車 / fast food 速食 / overweight 過重的 / lazy 懶惰的",
+          sample: "[[Take]] my neighbor [[as an example.]] He drives a taxi twelve hours a day and usually eats cheap fast food in his car. He is **overweight**, but not because he is lazy." },
+        { role: "Respond to David", zh: "回應對方", hints: "David compares A to B David 把 A 比作 B / car insurance 汽車保險 / However, this comparison is misleading because 然而，這個比較有誤導性，因為 / whereas 然而、相對地 / nobody can choose not to + V 沒有人能選擇不…",
+          sample: "[[David compares]] health care [[to]] car **insurance**. [[However, this comparison is misleading because]] people can choose not to drive, [[whereas]] nobody can choose not to have a body." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / make … easier and cheaper 讓…更容易、更便宜 / healthy living 健康生活 / instead of + V-ing 而不是 / punish 懲罰 / struggle 掙扎、過得辛苦",
+          sample: "[[In conclusion,]] governments should make **healthy living** easier and cheaper [[instead of]] punishing those who are already struggling." },
+      ] },
+    ]
+  },
 ];

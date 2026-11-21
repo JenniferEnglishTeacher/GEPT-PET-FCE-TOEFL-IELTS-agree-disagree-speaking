@@ -3,7 +3,7 @@
 One line per finished task: number | type | category | title. A task is listed only after its HTML source is committed and pushed.
 Category order — Email: Apology / Absence; Request; Complaint / Problem; Inquiry / Information; Invitation / Reply; Advice / Suggestion; Application / Job; Thanks / Follow-up. Discussion: Education; Technology & AI; Social media & influencers; Environment; Government & society; Work & economy; Health & lifestyle; Ethics & culture.
 
-## Email (62)
+## Email (63)
 01 | Email | Apology / Absence | Missing a Club Meeting 無法出席社團會議 (to Alex, club president — medical appointment, poster for recycling campaign) | toefl-master/email-apology-absence.html
 02 | Email | Request | Requesting a Recommendation Letter 請教授寫推薦信 (to Professor Wang — exchange program in Canada, deadline + résumé/transcript) | toefl-master/email-request.html
 03 | Email | Complaint / Problem | Complaining About Noise in the Library 投訴圖書館自習區太吵 (to Ms. Lin, library manager — noisy quiet study area before final exams, suggest signs / staff patrol) | toefl-master/email-complaint-problem.html
@@ -66,8 +66,9 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 60 | Email | Inquiry / Information | Asking About a University Open Day 詢問大學校園開放日 (to Ms. Hayes, admissions officer of Lakeside University — high school senior interested in environmental science, open day for future students next month seen on the website; why you are interested in the university, the schedule for the day + whether you need to register, visiting the dormitories + talking to current students) | toefl-master/email-inquiry-information.html
 61 | Email | Invitation / Reply | Inviting a Former Teacher to a Class Reunion 邀請以前的導師參加同學會 (to Ms. Baker, your retired junior high homeroom teacher — first class reunion three years after graduation; invite her + why the class wants her there, date/time/place (Saturday, December 19, 12 noon, Garden Kitchen near the old school), ask her to reply by December 10 + offer a ride) | toefl-master/email-invitation-reply.html
 62 | Email | Advice / Suggestion | Giving Advice on Managing a Monthly Allowance 給生活費總是不夠用的朋友理財建議 (to Ryan, a friend who started university in another city two months ago — runs out of his monthly allowance early because he eats out and orders drinks with new friends, does not want to ask his parents for more; show understanding, two ways to control spending (write down spending / weekly budget + app, eat in the cafeteria), what to do with the money he saves (bank account / emergency fund)) | toefl-master/email-advice-suggestion.html
+63 | Email | Application / Job | Applying to Be an Orientation Leader for International Students 應徵國際新生訓練輔導員 (to Ms. Novak, coordinator at the International Student Office — orientation leaders welcome a group of about ten new international students, show them around campus and answer questions in the week before the fall semester; why you would be suitable (second-year student, English + Chinese, remember feeling lost), one welcome activity you would organize (campus treasure hunt / night-market evening), ask a question about the training) | toefl-master/email-application-job.html
 
-## Discussion (62)
+## Discussion (63)
 01 | Discussion | Education | Should STEAM courses be mandatory for all university students? 大學應該把 STEAM 課程列為全體學生的必修嗎？ | toefl-master/discussion-education.html
 02 | Discussion | Technology & AI | Will AI-generated images and videos have a positive or a negative influence on society? AI 生成的圖片與影片對社會的影響是正面還是負面？ | toefl-master/discussion-technology-ai.html
 03 | Discussion | Social media & influencers | Do social media influencers have a mainly positive or a mainly negative influence on young people? 社群媒體網紅對年輕人的影響主要是正面還是負面？ | toefl-master/discussion-social-media-influencers.html
@@ -130,6 +131,7 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 60 | Discussion | Environment | Should governments ban the sale of new petrol cars? 政府應該禁售新的汽油車嗎？ | toefl-master/discussion-environment.html
 61 | Discussion | Government & society | Should governments make public transportation free for everyone? 政府應該讓所有人免費搭乘大眾運輸嗎？ | toefl-master/discussion-government-society.html
 62 | Discussion | Work & economy | Should governments raise the retirement age? 政府應該提高退休年齡嗎？ | toefl-master/discussion-work-economy.html
+63 | Discussion | Health & lifestyle | Should people with unhealthy lifestyles pay more for health care? 生活習慣不健康的人應該負擔較高的醫療費用嗎？ | toefl-master/discussion-health-lifestyle.html
 
 ## Notes for the next run
 - Sample markup in the HTML sources: `<span style="background-color:#fff2a8">` = universal pattern, `<b>` = theme word.
