@@ -2055,4 +2055,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 61, cat: "Government & society",
+    title: "Free Public Transportation", zh: "大眾運輸全面免費",
+    question: "Should governments make public transportation free for everyone?", questionZh: "政府應該讓所有人免費搭乘大眾運輸嗎？",
+    professor: "This week we are looking at how cities pay for public services. In most places, passengers buy a ticket every time they take a bus or a train, and these fares cover part of the cost of running the system. However, a few cities and countries, such as Luxembourg, have made all public transportation free and now pay for it entirely with tax money. Supporters say that this helps low-income residents and reduces traffic, while critics say that it is expensive and changes very little. In your opinion, should governments make public transportation free for everyone? Why or why not?",
+    david: "I think they should. For people with low incomes, bus and train fares are a heavy cost, especially if they travel a long way to work every day. Free transportation would give everyone the same chance to reach jobs, schools and hospitals. It would also persuade some drivers to leave their cars at home, so there would be fewer traffic jams and cleaner air in our cities.",
+    mary: "I don't agree. Nothing is really free. If passengers stop paying, taxpayers have to cover the full cost, including people who never use buses or trains. Besides, most drivers choose cars because they are faster and more convenient, not because tickets are expensive. I think the money would be better spent on making public transportation faster and more reliable.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "大眾運輸應該全面免費", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / public transportation 大眾運輸 / free 免費的",
+          sample: "[[I agree with David that]] governments [[should]] make **public transportation** free for everyone." },
+        { role: "New reason", zh: "補充新理由", hints: "Apart from … that David mentioned, I would add that 除了 David 提到的…之外，我想補充 / equal opportunity 平等的機會 / fare 車資 / work smoothly 運作順暢 / ticket 車票 / passenger 乘客 / board 上車 / so 因此 / stop 站",
+          sample: "[[Apart from]] the equal opportunities [[that David mentioned, I would add that]] free **fares** make the whole system work more smoothly. When nobody has to buy or show a **ticket**, **passengers** can board through every door, [[so]] buses spend less time at each stop." },
+        { role: "Example", zh: "舉例", hints: "A good example is 一個很好的例子是 / capital 首都 / tram 路面電車 / resident 居民 / Since then 從那時起 / low-income 低收入的 / unemployed 失業的 / travel 出行",
+          sample: "[[A good example is]] Tallinn, the capital of Estonia, which made its buses and trams free for **residents** in 2013. [[Since then,]] low-income and unemployed people have been able to travel around the city more often." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / taxpayer 納稅人 / However, I believe that 然而我認為 / benefit 受益 / one less car 少一輛車 / in front of 在…前面",
+          sample: "[[Mary argues that]] it is unfair for **taxpayers** who never use buses to pay for them. [[However, I believe that]] they benefit too, because every **passenger** on a bus means one less car on the road in front of them." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / a wise use of 明智地運用… / public money 公帑",
+          sample: "[[For these reasons, I believe that]] free **public transportation** [[is a wise use of]] public money." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "大眾運輸不應該全面免費", rows: [
+        { role: "Position", zh: "表明立場", hints: "Although … sounds attractive 雖然…聽起來很吸引人 / I agree with Mary that 我同意 Mary 所說的 / public transportation 大眾運輸",
+          sample: "[[Although]] free travel [[sounds attractive,]] [[I agree with Mary that]] governments [[should not]] make **public transportation** free for everyone." },
+        { role: "New reason", zh: "補充新理由", hints: "One point Mary did not mention is that Mary 沒有提到的一點是 / fare 車資 / attract 吸引 / Instead of 而不是 / it is mainly A that … 主要是 A… / used to + V 以前習慣… / cycle 騎自行車 / As a result 結果 / crowded 擁擠的 / hardly 幾乎不",
+          sample: "[[One point Mary did not mention is that]] free **fares** often attract the wrong people. [[Instead of]] drivers, [[it is mainly]] people who used to walk or cycle [[that]] start taking the bus for short trips. [[As a result,]] buses become more **crowded**, while the number of cars on the road hardly changes." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / passenger 乘客 / rise 上升 / studies found that 研究發現 / car traffic 汽車車流 / fall only slightly 只略微下降",
+          sample: "[[For instance,]] after Tallinn made its buses free, the number of **passengers** rose, but [[studies found that]] car **traffic** fell only slightly and that people walked much less." },
+        { role: "Respond to David", zh: "回應對方", hints: "David points out that David 指出 / a heavy cost 沉重的負擔 / low-income family 低收入家庭 / This is a fair point; however, 這個觀點有道理；然而 / pass 定期票、乘車證 / the elderly 年長者 / without + V-ing 而不必…",
+          sample: "[[David points out that]] **fares** are a heavy cost for low-income families. [[This is a fair point; however,]] governments can give free or cheap **passes** to students, the elderly and the poor [[without]] paying for everyone else." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / should be spent on A rather than on B 應該花在 A 而不是 B / route 路線 / frequent 班次密集的 / service 班次、服務",
+          sample: "[[In conclusion,]] public money [[should be spent on]] more **routes** and more frequent **services** [[rather than on]] free tickets." },
+      ] },
+    ]
+  },
 ];
