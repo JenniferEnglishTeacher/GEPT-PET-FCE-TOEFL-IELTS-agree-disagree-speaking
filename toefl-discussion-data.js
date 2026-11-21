@@ -2293,4 +2293,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 68, cat: "Environment",
+    title: "Taxing Fast Fashion", zh: "對快時尚課稅",
+    question: "Should governments tax fast fashion in order to protect the environment?", questionZh: "政府應該為了保護環境而對快時尚課稅嗎？",
+    professor: "This week we are looking at the environmental cost of what we wear. Fast fashion brands sell trendy clothes at very low prices, so many people buy new items every month and throw them away after wearing them only a few times. As a result, the clothing industry produces huge amounts of waste and carbon emissions and uses enormous quantities of water. Some experts therefore suggest that governments should put a special tax on fast fashion to make cheap clothes more expensive. Others think this would be unfair and ineffective. In your opinion, should governments tax fast fashion in order to protect the environment? Why or why not?",
+    david: "I think a tax is a good idea. Clothes are so cheap now that people treat them as disposable. When a T-shirt costs less than a cup of coffee, nobody thinks twice before buying it or throwing it away. If prices went up a little, shoppers would buy fewer items and choose ones that last longer. We already tax plastic bags in many places, and people quickly changed their habits.",
+    mary: "I don't agree. A tax on cheap clothes would hurt low-income families and students the most, because they depend on affordable clothing. Rich people would simply keep shopping as before. Also, the real problem is how companies produce clothes, not how much customers pay. Governments should set strict rules for factories and encourage recycling instead of making ordinary people pay more.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "政府應該對快時尚課稅", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / put a tax on 對…課稅 / fast fashion 快時尚",
+          sample: "[[I agree with David that]] governments [[should]] put a **tax** on **fast fashion**." },
+        { role: "New reason", zh: "補充新理由", hints: "One point David did not mention is that David 沒有提到的一點是 / could be used to 可以用來 / repair the damage 修復損害 / clothing industry 服飾產業 / textile recycling 紡織品回收 / second-hand shop 二手店 / repair service 修補服務 / so that 以便、如此一來 / alternative to …的替代選擇",
+          sample: "[[One point David did not mention is that]] the money from the **tax** [[could be used to]] repair the damage that the **clothing industry** causes. Governments could spend it on **textile recycling** plants and on support for **second-hand** shops and repair services, [[so that]] people have real alternatives to buying new clothes." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / discount 折扣 / have + O + p.p. 請人把…（做好）/ instead of + V-ing 而不是 / throw away 丟棄 / fee 費用",
+          sample: "[[For example,]] France now gives people a small discount when they have their clothes or shoes repaired [[instead of]] **throwing them away**. The money comes from a fee paid by clothing companies." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / low-income family 低收入家庭 / This is a fair point; however, 這個觀點有道理；然而 / wear out 穿壞、磨損 / in the long run 長遠來看",
+          sample: "[[Mary argues that]] a **tax** would hurt low-income families. [[This is a fair point; however,]] cheap clothes often **wear out** after a few washes, so buying fewer but better items actually saves money [[in the long run]]." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / an effective way to 做…的有效方法 / reduce waste 減少廢棄物 / shopping habit 購物習慣",
+          sample: "[[For these reasons, I believe that]] a **tax** on **fast fashion** [[is an effective way to]] reduce **waste** and change our shopping habits." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "政府不應該對快時尚課稅", rows: [
+        { role: "Position", zh: "表明立場", hints: "I share …'s view that 我和…看法相同，認為 / tax 對…課稅 / fast fashion 快時尚",
+          sample: "[[I share Mary's view that]] governments [[should not]] **tax** **fast fashion**." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides … that Mary mentioned, I would add that 除了 Mary 提到的…之外，我想補充 / unfairness 不公平 / be unlikely to 不太可能 / brand 品牌 / so … that 如此…以致於 / add A to B 讓 B 增加 A / shopper 購物者 / hardly notice 幾乎不會注意到",
+          sample: "[[Besides]] the unfairness [[that Mary mentioned, I would add that]] such a **tax** [[is unlikely to]] change how people shop. Clothes from these **brands** are [[so]] cheap [[that]] even a twenty percent **tax** would add only a few dollars to the price, and most **shoppers** would hardly notice the difference." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / raise prices 調漲價格 / slightly 稍微 / complain 抱怨 / keep + V-ing 持續… / as often as before 和以前一樣頻繁",
+          sample: "[[For instance,]] when my favourite clothing store raised its prices slightly last year, my friends and I complained for a few days, but we kept shopping there as often as before." },
+        { role: "Respond to David", zh: "回應對方", hints: "… points out that …指出 / plastic bag 塑膠袋 / I understand his point, but 我理解他的觀點，但 / reusable 可重複使用的 / whereas 然而、而 / substitute for …的替代品 / affordable 負擔得起的",
+          sample: "[[David points out that]] taxing plastic bags changed people's habits. [[I understand his point, but]] it is easy to bring a **reusable** bag, [[whereas]] there is no simple substitute for **affordable** clothing." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / set strict rules for 為…訂定嚴格規範 / manufacturer 製造商 / promote recycling 推廣回收 / rather than 而不是 / consumer 消費者",
+          sample: "[[In conclusion,]] governments [[should]] set strict rules for clothing **manufacturers** and promote **recycling** [[rather than]] make **consumers** pay more." },
+      ] },
+    ]
+  },
 ];
