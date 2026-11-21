@@ -2191,4 +2191,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 65, cat: "Education",
+    title: "Grouping Students by Ability", zh: "能力分班",
+    question: "Should schools group students into classes according to their academic ability?", questionZh: "學校應該依照學業能力為學生分班嗎？",
+    professor: "This week we are looking at how schools organize their classes. In some schools, students are placed in different classes according to their academic ability, so that top students study together and weaker students are taught at a slower pace. This is often called ability grouping. In other schools, students of all levels learn in the same classroom. Supporters say that grouping lets everyone learn at the right speed, while critics argue that it labels children and widens the gap between them. In your opinion, should schools group students into classes according to their academic ability? Why or why not?",
+    david: "I support ability grouping. In a mixed class, the teacher has to aim at the middle, so fast learners get bored and slower ones get lost. When students of a similar level study together, the teacher can choose the right pace and materials for them. In my math class, a few of us finish every exercise in ten minutes and then just wait while the teacher explains the same thing again.",
+    mary: "I disagree. Being put in the “low” class tells children that the school does not expect much from them, and many simply stop trying. Besides, one test at the age of twelve cannot show a person's real ability. In a mixed class, stronger students can help weaker ones, and everyone learns to work with different kinds of people.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "支持依學業能力分班", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my opinion 依我之見 / group A into B 把 A 分成 B / according to 依照 / academic ability 學業能力 / I agree with David that 我同意 David 所說的 / mixed class 混合能力的班級 / teach to the middle 以中等程度為準來教",
+          sample: "[[In my opinion,]] schools [[should]] group students into classes according to their **academic ability**, [[and I agree with David that]] a teacher in a **mixed class** can only teach to the middle." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to his point, I would argue that 除了他的論點之外，我還認為 / ability grouping 能力分班 / protect 保護 / confidence 自信 / compare A with B 拿 A 和 B 比較 / be afraid to + V 不敢… / speak up 開口發言",
+          sample: "[[In addition to his point, I would argue that]] **ability grouping** protects the **confidence** of weaker students. In a mixed class, they compare themselves with the top students and [[are often afraid to]] ask questions. Among classmates of a similar level, they feel safe to speak up." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / rarely 很少 / raise one's hand 舉手 / move A to B 把 A 調到 B / basic-level group 基礎班 / rise by … points 進步…分",
+          sample: "[[For example,]] my younger brother rarely raised his hand in English class. After his school moved him to a **basic-level** group, he started asking questions, and his score rose by fifteen points." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "… argues that …主張 / stop trying 不再努力 / I understand her concern, but 我理解她的顧慮，但 / this problem can be solved if 只要…這個問題就能解決 / review 重新檢視 / move up 升到較高的班級",
+          sample: "[[Mary argues that]] students in the low class stop trying. [[I understand her concern, but this problem can be solved if]] schools review the groups every term and let students move up." },
+        { role: "Conclusion", zh: "結論", hints: "To sum up 總而言之 / flexible 有彈性的 / at the right pace 以適合的步調",
+          sample: "[[To sum up,]] **flexible** ability grouping helps every student learn [[at the right pace.]]" },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "反對依學業能力分班", rows: [
+        { role: "Position", zh: "表明立場", hints: "Personally, I do not think that 就我個人而言，我不認為 / group A into B 把 A 分成 B / academic ability 學業能力 / I share Mary's view that 我和 Mary 看法相同，認為 / destroy 摧毀 / motivation 學習動機",
+          sample: "[[Personally, I do not think that]] schools [[should]] group students into classes according to their **academic ability**, [[and I share Mary's view that]] being placed in a low class destroys students' **motivation**." },
+        { role: "New reason", zh: "補充新理由", hints: "Another point worth considering is that 另一個值得考慮的重點是 / ability grouping 能力分班 / unfair 不公平的 / wealthy 富裕的 / afford 負擔得起 / private tutoring 私人補習、家教 / be more likely to + V 更有可能… / As a result 結果 / gap 差距 / grow wider 擴大",
+          sample: "[[Another point worth considering is that]] **ability grouping** is often unfair. Students from wealthier families can afford **private tutoring**, so they [[are more likely to]] enter the top classes. [[As a result,]] the **gap** between rich and poor students grows wider." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / junior high school 國中 / cram school 補習班 / ordinary class 普通班 / lose interest in 對…失去興趣",
+          sample: "[[For instance,]] at my cousin's junior high school, almost everyone in the top class attended a **cram school**. My cousin, whose family could not afford one, was placed in an ordinary class and soon [[lost interest in]] science." },
+        { role: "Respond to David", zh: "回應對方", hints: "… says that …說 / fast learner 學得快的學生 / get bored 覺得無聊 / That may be true; however 這也許是真的；然而 / extra challenge 額外的挑戰 / explain ideas to 向…解釋觀念 / deepen 加深 / understanding 理解",
+          sample: "[[David says that]] fast learners get bored in mixed classes. [[That may be true; however,]] teachers can give them extra challenges or ask them to explain ideas to classmates, [[which]] deepens their own understanding." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / mixed-ability class 混合能力的班級 / a fair chance to + V 公平的…機會 / succeed 成功",
+          sample: "[[In conclusion,]] **mixed-ability** classes give every student [[a fair chance to]] succeed." },
+      ] },
+    ]
+  },
 ];
