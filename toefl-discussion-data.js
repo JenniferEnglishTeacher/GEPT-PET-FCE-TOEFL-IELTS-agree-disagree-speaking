@@ -2089,4 +2089,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 62, cat: "Work & economy",
+    title: "Raising the Retirement Age", zh: "提高退休年齡",
+    question: "Should governments raise the retirement age?", questionZh: "政府應該提高退休年齡嗎？",
+    professor: "This week we are looking at ageing populations. People in many countries are living much longer than they did fifty years ago, while fewer babies are being born. As a result, a shrinking number of workers has to support a growing number of retired people. To deal with this problem, several governments in Europe and Asia have raised, or plan to raise, the age at which people can retire and receive a pension, and these reforms have often led to angry protests. In your opinion, should governments raise the retirement age? Why or why not?",
+    david: "I think they should. When pension systems were designed, most people lived only a few years after they stopped working. Now many people live for twenty or thirty years after they retire, and there are not enough young workers to pay for all of them. If everyone works a little longer, the system will stay healthy. Besides, many people in their sixties are still fit and have valuable experience.",
+    mary: "I disagree. People who have worked for forty years have earned their rest. Many jobs, such as construction work or nursing, are physically hard, and it is unfair to ask those workers to continue until they are nearly seventy. Also, if older employees stay in their jobs longer, there will be fewer positions and promotions for young people.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "政府應該提高退休年齡", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / gradually 逐步地 / raise 提高 / retirement age 退休年齡",
+          sample: "[[I agree with David that]] governments [[should]] gradually raise the **retirement age**." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides … that David mentioned, I would add that 除了 David 提到的…之外，我想補充 / financial pressure 財務壓力 / pension system 退休金制度 / daily routine 日常規律 / social contact 人際互動 / a sense of purpose 目標感 / so 所以 / be less likely to + V 比較不會 / inactive 缺乏活動的",
+          sample: "[[Besides]] the financial pressure on **pension** systems [[that David mentioned, I would add that]] working longer is often good for older people themselves. A job gives them a daily routine, social contact and a sense of purpose, [[so]] they [[are less likely to]] feel lonely or become inactive." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / have to + V 不得不 / retire 退休 / useless 沒有用的 / part-time job 兼職工作 / museum guide 博物館導覽員 / keep one's mind sharp 讓頭腦保持靈活",
+          sample: "[[For example,]] my grandfather had to **retire** from his bank at sixty. He felt bored and useless at home, so he found a part-time job as a museum guide. Now seventy-one, he says that working keeps his mind sharp." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / unfair 不公平的 / physically hard 耗費體力的 / This is a fair point; however, 這個觀點有道理；然而 / allow … to + V 允許… / lighter duties 較輕鬆的職務 / without + V-ing 而不必…",
+          sample: "[[Mary argues that]] a higher age is unfair to workers with physically hard jobs. [[This is a fair point; however,]] governments can allow these workers to **retire** earlier or move to lighter duties [[without]] keeping the same low age for everyone." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / benefit both A and B 對 A 和 B 都有益 / society 社會 / older worker 年長勞工",
+          sample: "[[For these reasons, I believe that]] a higher **retirement age** [[benefits both]] society [[and]] older workers." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "政府不應該提高退休年齡", rows: [
+        { role: "Position", zh: "表明立場", hints: "Although 雖然 / live longer 活得更久 / I agree with Mary that 我同意 Mary 所說的 / retirement age 退休年齡",
+          sample: "[[Although]] people are living longer, [[I agree with Mary that]] governments [[should not]] raise the **retirement age**." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that Mary did not mention is that Mary 沒有提到的一點是 / not always 不一定 / suffer from 罹患、受…之苦 / chronic illness 慢性病 / such as 例如 / back pain 背痛 / high blood pressure 高血壓 / so 所以 / force … to + V 強迫… / damage 損害",
+          sample: "[[One point that Mary did not mention is that]] living longer does not always mean staying healthy longer. Many people in their sixties [[suffer from]] chronic illnesses [[such as]] back pain or high blood pressure, [[so]] forcing them to keep working may damage their health." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / nurse 護理師 / night shift 夜班 / lift patients 搬動病人 / knee 膝蓋 / could not possibly + V 根本不可能",
+          sample: "[[Take]] my aunt [[as an example.]] She has worked as a nurse for thirty-five years, and after years of **night shifts** and lifting patients, her knees hurt every day. She could not possibly do this job until sixty-seven." },
+        { role: "Respond to David", zh: "回應對方", hints: "It is true, as David says, that 誠如 David 所說，…是事實 / pension system 退休金制度 / be under pressure 承受壓力 / Nevertheless 儘管如此 / in other ways 用其他方式 / for instance 例如 / encourage … to + V 鼓勵… / voluntarily 自願地",
+          sample: "[[It is true, as David says, that]] **pension** systems are under pressure. [[Nevertheless,]] governments can solve this problem in other ways, [[for instance]] by encouraging people to save more or by letting those who wish to work longer do so **voluntarily**." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / retirement 退休 / reasonable 合理的 / a right 權利 / earn 贏得、應得",
+          sample: "[[In conclusion,]] **retirement** at a reasonable age [[is a right that]] workers have earned." },
+      ] },
+    ]
+  },
 ];
