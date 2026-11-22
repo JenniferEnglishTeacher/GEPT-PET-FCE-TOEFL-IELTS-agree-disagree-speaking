@@ -45,6 +45,13 @@ function check(input, answer) {
   }
   return { ok: false };
 }
+/* other accepted answers (set.alts, original question only) */
+function checkAny(input, answer, alts) {
+  const r = check(input, answer);
+  if (r.ok || r.empty) return r;
+  for (const a of alts || []) { const x = check(input, a); if (x.ok) return { ok: true, note: x.note, alt: a }; }
+  return r;
+}
 /* word-level diff: what to remove (red) / what to add (green) */
 function diff(user, model) {
   const A = norm(user, false).split(" "), B = norm(model, false).split(" ");
@@ -68,7 +75,7 @@ function buildSections() {
   (DATA[part]?.blocks || []).forEach((b, bi) => b.subs.forEach(s => sections.push({ block: b.name, bi, name: s.name, sets: s.sets })));
 }
 const secDone = sec => sec.sets.reduce((n, set) => n + qids(set).filter(q => getS(q)).length, 0);
-const secTotal = sec => sec.sets.length * 4;
+const secTotal = sec => sec.sets.reduce((n, set) => n + qids(set).length, 0);
 
 function sidebar() {
   const term = $("searchInput").value.trim().toLowerCase();
@@ -88,7 +95,7 @@ function sidebar() {
     b.addEventListener("click", () => { secIndex = i; render(); window.scrollTo({ top: 0, behavior: "smooth" }); });
     box.appendChild(b); shown++;
   });
-  $("countPill").textContent = sections.reduce((n, s) => n + s.sets.length * 4, 0);
+  $("countPill").textContent = sections.reduce((n, s) => n + secTotal(s), 0);
   if (!shown) box.innerHTML = `<p class="bs-note" style="padding:8px">No match.</p>`;
 }
 
@@ -133,13 +140,13 @@ function card(set, qid, q, ans, label, isVar) {
   const grow = t => { t.style.height = "auto"; t.style.height = Math.max(44, t.scrollHeight + 2) + "px"; };
   [input, retryInput].forEach(t => t.addEventListener("input", () => grow(t)));
   const see = () => {
-    const r = check(input.value, ans);
+    const r = checkAny(input.value, ans, isVar ? null : set.alts);
     if (r.empty) { input.focus(); input.placeholder = "Please write your answer first 請先作答"; return; }
     result.hidden = false; expl.hidden = false;
     input.classList.toggle("ok", r.ok); input.classList.toggle("bad", !r.ok);
     if (r.ok) {
       result.className = "bs-result ok";
-      result.innerHTML = `<span class="verdict">✓ Correct! 答對了</span>${r.note ? ` <span class="bs-note">(注意 ${esc(r.note)})</span>` : ""}<span class="bs-model">${bold(ans)}</span>`;
+      result.innerHTML = `<span class="verdict">✓ Correct! 答對了</span>${r.note ? ` <span class="bs-note">(注意 ${esc(r.note)})</span>` : ""}${r.alt ? ` <span class="bs-note">(你的寫法也正確 Also correct)</span>` : ""}<span class="bs-model">${bold(ans)}</span>`;
       retry.hidden = true;
       if (getS(qid) !== "fixed") { setS(qid, "ok"); showStatus("ok"); }
     } else {
@@ -155,7 +162,7 @@ function card(set, qid, q, ans, label, isVar) {
   el.querySelector(".see").addEventListener("click", see);
   input.addEventListener("keydown", e => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); see(); } });
   const again = () => {
-    const r = check(retryInput.value, ans);
+    const r = checkAny(retryInput.value, ans, isVar ? null : set.alts);
     if (r.empty) return;
     retryInput.classList.toggle("ok", r.ok); retryInput.classList.toggle("bad", !r.ok);
     if (r.ok) { setS(qid, "fixed"); showStatus("fixed"); retry.querySelector("label").textContent = "✓ 訂正完成！Well done."; retry.querySelector("label").style.color = "var(--good)"; refresh(); }
