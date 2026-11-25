@@ -37,6 +37,7 @@ let answerRec = null, readRec = null, stopListen = null, readAlongMode = false, 
 
 const nounMap = K.properNouns(prompts.flatMap(p => [p.title, p.prompt, p.model]));
 const cleanText = K.cleaner(nounMap);
+K.overtimeBox(els.transcript);
 
 function setStatus(node, msg, kind = "") {
   node.innerHTML = msg;
@@ -250,7 +251,12 @@ async function startRecording() {
     els.timer.classList.toggle("warn", remaining <= 10);
     els.timerFill.style.width = `${Math.min(100, (elapsed / total) * 100)}%`;
     updateStats();
-    if (remaining <= 0) { K.beep(); stopRecording("⏰ Time's up! Now press <b>Clean Up Transcript</b>, check it, and copy it."); }
+    if (remaining <= 0) {
+      if (answerRec && answerRec.markOvertime) { // keep transcribing: overtime speech shows in red
+        if (remaining === 0) { K.beep(); answerRec.markOvertime(); setStatus(els.speechStatus, K.OVERTIME_MSG, "active"); }
+        els.timer.textContent = `+${K.fmt(-remaining)}`;
+      } else { K.beep(); stopRecording("⏰ Time's up! Now press <b>Clean Up Transcript</b>, check it, and copy it."); }
+    }
   }, 1000);
 
   let audioOn = false;
@@ -301,7 +307,7 @@ function stopRecording(msg = "Stopped. Press <b>Clean Up Transcript</b>, check i
 }
 
 function updateStats() {
-  const words = els.transcript.value.trim().split(/\s+/).filter(Boolean).length;
+  const words = K.stripOT(els.transcript.value).trim().split(/\s+/).filter(Boolean).length;
   els.stats.textContent = words ? `${words} words${elapsed ? ` in ${K.fmt(elapsed)}` : ""}` : "";
 }
 

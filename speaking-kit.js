@@ -127,6 +127,7 @@ window.SpeakingKit = (() => {
   }
 
   async function copyText(text) {
+    text = exportText(text);
     try { if (navigator.clipboard && window.isSecureContext) { await navigator.clipboard.writeText(text); return true; } } catch {}
     const box = document.createElement("textarea");
     box.value = text; box.style.position = "fixed"; box.style.left = "-9999px";
@@ -137,6 +138,94 @@ window.SpeakingKit = (() => {
   }
 
   const escapeHtml = text => String(text).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+
+  /* ---------- overtime: speech after the timer ends ----------
+     The speech recognizer keeps running after time is up (it is practice, so students can finish).
+     An invisible marker (U+2063) is placed in the transcript where time ran out; overtimeBox() shows
+     everything after it in red, cleaner() keeps it, copyText()/feedbackPrompt() turn it into a label. */
+  const OT = "⁣";
+  const OT_RE = /⁣/g;
+  const OT_LABEL = "[⏰ TIME'S UP — everything below was said after the time limit]";
+  const OVERTIME_MSG = "⏰ Time's up! Keep talking if you have more to say — everything you say now appears in red. Press Stop when you finish.";
+  const stripOT = t => String(t).replace(OT_RE, "");
+  const hasOvertime = t => { const s = String(t), i = s.indexOf(OT); return i >= 0 && stripOT(s.slice(i + 1)).trim().length > 0; };
+  function exportText(t) {
+    const s = String(t), i = s.indexOf(OT);
+    if (i < 0) return s;
+    const a = s.slice(0, i).trim(), b = stripOT(s.slice(i + 1)).trim();
+    return b ? `${a}\n\n${OT_LABEL}\n${b}` : a;
+  }
+
+  // Red highlighting for the overtime part of a <textarea>. A backdrop with identical text sits behind
+  // the textarea; the textarea's own text is made transparent only while an overtime marker exists.
+  function overtimeBox(ta) {
+    if (!ta) return null;
+    if (ta.__overtime) return ta.__overtime;
+    if (!document.getElementById("ot-style")) {
+      const st = document.createElement("style"); st.id = "ot-style";
+      st.textContent = ".ot-backdrop{position:absolute;pointer-events:none;overflow:hidden;white-space:pre-wrap;box-sizing:border-box;border-style:solid;border-color:transparent;margin:0;z-index:0}"
+        + ".ot-backdrop .ot-text{color:#d32f2f;background:rgba(229,57,53,.13);border-radius:2px}";
+      document.head.append(st);
+    }
+    const back = document.createElement("div");
+    back.className = "ot-backdrop"; back.setAttribute("aria-hidden", "true"); back.style.display = "none";
+    ta.insertAdjacentElement("beforebegin", back);
+    const desc = Object.getOwnPropertyDescriptor(HTMLTextAreaElement.prototype, "value");
+    const COPY = ["fontFamily", "fontSize", "fontWeight", "fontStyle", "fontVariant", "fontStretch", "letterSpacing", "wordSpacing", "lineHeight",
+      "textAlign", "textIndent", "textTransform", "tabSize", "direction", "whiteSpace", "overflowWrap", "wordBreak",
+      "paddingTop", "paddingRight", "paddingBottom", "paddingLeft", "borderTopWidth", "borderRightWidth", "borderBottomWidth", "borderLeftWidth",
+      "borderTopLeftRadius", "borderTopRightRadius", "borderBottomLeftRadius", "borderBottomRightRadius", "backgroundColor", "backgroundImage"];
+    const SAVE = ["color", "caretColor", "webkitTextFillColor", "background", "position", "zIndex"];
+    let on = false, saved = null, textColor = "";
+    function layout() {
+      if (!on) return;
+      const cs = getComputedStyle(ta);
+      COPY.forEach(p => { back.style[p] = cs[p]; });
+      if (cs.whiteSpace === "normal") back.style.whiteSpace = "pre-wrap";
+      back.style.color = textColor;
+      const bl = parseFloat(cs.borderLeftWidth) || 0, br = parseFloat(cs.borderRightWidth) || 0;
+      const gutter = Math.max(0, ta.offsetWidth - ta.clientWidth - bl - br); // vertical scrollbar
+      back.style.paddingRight = `${(parseFloat(cs.paddingRight) || 0) + gutter}px`;
+      back.style.width = `${ta.offsetWidth}px`; back.style.height = `${ta.offsetHeight}px`;
+      back.style.top = "0px"; back.style.left = "0px";
+      const b = back.getBoundingClientRect(), r = ta.getBoundingClientRect();
+      back.style.top = `${r.top - b.top}px`; back.style.left = `${r.left - b.left}px`;
+      back.scrollTop = ta.scrollTop; back.scrollLeft = ta.scrollLeft;
+    }
+    function enable() {
+      const cs = getComputedStyle(ta);
+      textColor = cs.color;
+      saved = {}; SAVE.forEach(p => { saved[p] = ta.style[p]; });
+      ta.style.background = "transparent";
+      ta.style.color = "transparent"; ta.style.webkitTextFillColor = "transparent"; ta.style.caretColor = textColor;
+      if (cs.position === "static") ta.style.position = "relative";
+      ta.style.zIndex = "1";
+      back.style.display = "block"; on = true;
+    }
+    function disable() {
+      if (saved) SAVE.forEach(p => { ta.style[p] = saved[p]; });
+      back.style.display = "none"; back.textContent = ""; on = false;
+    }
+    function render() {
+      const v = desc.get.call(ta), i = v.indexOf(OT);
+      if (i < 0) { if (on) disable(); return; }
+      if (!on) enable();
+      back.innerHTML = `${escapeHtml(v.slice(0, i))}${OT}<span class="ot-text">${escapeHtml(v.slice(i + 1))}</span> `;
+      layout();
+    }
+    Object.defineProperty(ta, "value", {
+      configurable: true,
+      get() { return desc.get.call(this); },
+      set(v) { desc.set.call(this, v); render(); }
+    });
+    ta.addEventListener("input", render);
+    ta.addEventListener("scroll", () => { back.scrollTop = ta.scrollTop; back.scrollLeft = ta.scrollLeft; });
+    if (window.ResizeObserver) new ResizeObserver(layout).observe(ta);
+    window.addEventListener("resize", layout);
+    render();
+    ta.__overtime = { render, layout };
+    return ta.__overtime;
+  }
 
   /* ---------- word normalisation for read-along matching ---------- */
   const ONES = "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split(" ");
@@ -273,12 +362,26 @@ window.SpeakingKit = (() => {
     if (!SR) return null;
     const r = new SR();
     r.lang = "en-US"; r.continuous = true; r.interimResults = true; r.maxAlternatives = 1;
-    const api = { finals: [], running: false };
+    const api = { finals: [], running: false, ot: null };
+    // Adds a final result; once time is up, inserts the overtime marker after the words that were
+    // already being spoken (still "interim") when the timer ended.
+    function pushFinal(t) {
+      t = t.trim(); if (!t) return;
+      const ot = api.ot;
+      if (ot && !ot.done) {
+        const w = t.split(/\s+/);
+        if (w.length < ot.left) { ot.left -= w.length; api.finals.push(t); return; }
+        api.finals.push([w.slice(0, ot.left).join(" "), OT, w.slice(ot.left).join(" ")].join(" ").trim());
+        ot.done = true;
+        return;
+      }
+      api.finals.push(t);
+    }
     r.onresult = e => {
       let interim = "";
       for (let i = e.resultIndex; i < e.results.length; i++) {
         const t = e.results[i][0].transcript;
-        if (e.results[i].isFinal) { if (t.trim()) api.finals.push(t.trim()); } else interim += t;
+        if (e.results[i].isFinal) pushFinal(t); else interim += t;
       }
       api.lastInterim = interim.trim();
       onUpdate && onUpdate(api.finals, api.lastInterim);
@@ -290,11 +393,18 @@ window.SpeakingKit = (() => {
       }
     };
     r.onend = () => { if (api.running) { try { r.start(); } catch {} } };
-    api.start = () => { api.finals = []; api.lastInterim = ""; api.running = true; try { r.start(); } catch { return false; } return true; };
+    api.start = () => { api.finals = []; api.lastInterim = ""; api.ot = null; api.running = true; try { r.start(); } catch { return false; } return true; };
+    // Call when the timer ends: recording continues, and later speech is marked as overtime.
+    api.markOvertime = () => {
+      if (api.ot) return;
+      const left = (api.lastInterim || "").split(/\s+/).filter(Boolean).length;
+      api.ot = { left, done: false };
+      if (!left) { api.finals.push(OT); api.ot.done = true; onUpdate && onUpdate(api.finals, api.lastInterim || ""); }
+    };
     api.stop = () => {
       api.running = false;
       if (api.lastInterim) {
-        api.finals.push(api.lastInterim);
+        pushFinal(api.lastInterim);
         api.lastInterim = "";
         onUpdate && onUpdate(api.finals, "");
       }
@@ -330,6 +440,7 @@ window.SpeakingKit = (() => {
     function cleanSentence(s) {
       s = s.replace(FILLERS, "").replace(/\s+/g, " ").trim();
       if (!s) return "";
+      if (s.toLowerCase().startsWith(TOK + " ")) return `${TOK} ${cleanSentence(s.slice(TOK.length + 1))}`; // overtime marker
       s = s.replace(/\b(\w+)(?:\s+\1\b)+/gi, "$1"); // the the → the
       s = s.replace(/\b[a-z]+\b/gi, w => {
         const lw = w.toLowerCase();
@@ -354,7 +465,43 @@ window.SpeakingKit = (() => {
       return s;
     }
     // segments: optional array of speech-recognition result chunks (pause-based sentence hints)
-    return function clean(text, segments = null) {
+    // Overtime marker: swapped for a placeholder word while cleaning (so no full stop is forced at the
+    // time-up point), then put back. Only the first marker counts.
+    const TOK = "otmarkzq";
+    function cleanSplit(text, segments) {
+      const current = String(text).trim();
+      if (!current.includes(OT)) return cleanPart(current, segments);
+      const useSegs = segments && segments.length && current === segments.join(" ").trim();
+      let seen = false, pending = false;
+      const mark = t => {
+        if (!t.includes(OT)) return t;
+        if (seen) return stripOT(t);
+        seen = true; const i = t.indexOf(OT);
+        return `${t.slice(0, i)} ${TOK} ${stripOT(t.slice(i + 1))}`;
+      };
+      let segs = null, txt;
+      if (useSegs) {
+        segs = [];
+        segments.forEach(seg => {
+          let x = mark(seg).replace(/\s+/g, " ").trim();
+          if (x === TOK) { pending = true; return; } // marker on its own: attach to the next segment
+          if (!x) return;
+          if (pending) { x = `${TOK} ${x}`; pending = false; }
+          segs.push(x);
+        });
+        txt = segs.join(" ");
+      } else txt = mark(current).replace(/\s+/g, " ").trim();
+      if (new RegExp(`\\b${TOK}$`).test(txt)) { // nothing said after time ran out: drop the marker
+        const strip = x => x.replace(new RegExp(`\\s*\\b${TOK}\\b`, "g"), "").trim();
+        return cleanPart(strip(txt), segs && segs.map(strip).filter(Boolean));
+      }
+      let out = cleanPart(txt, segs);
+      out = out.replace(new RegExp(`\\s*\\b${TOK}\\b([,.!?]*)\\s*`, "i"), (m, p) => `${p} ${OT}`).trim();
+      out = out.replace(new RegExp(`(^|[.!?]\\s*)${OT}([a-z])`), (m, a, c) => `${a}${OT}${c.toUpperCase()}`);
+      return out;
+    }
+    return cleanSplit;
+    function cleanPart(text, segments = null) {
       const current = String(text).trim();
       if (!current) return "";
       const pieces = segments && segments.length && current === segments.join(" ").trim()
@@ -475,6 +622,7 @@ window.SpeakingKit = (() => {
       ? mm.map(e => `- ${e.clue}${realHint(e.hint) ? ` (clue: ${e.hint})` : ""}: ${e.text || "(left blank)"}`).join("\n")
       : "(no mind map on this page)";
     const testName = /speaking/i.test(o.test || "") ? o.test : `${o.test || "English"} speaking`;
+    const over = hasOvertime(o.transcript || "");
     return `Here is my oral response to the ${testName} question prompt, my mind map text for my response, and the clean transcription of my speech to text. Please provide a clear improved revision, highlighting in **bold** every revision you made.
 
 === 1. ${testName} question prompt ===
@@ -484,14 +632,15 @@ ${o.question || ""}${context.length ? `\n${context.join("\n")}` : ""}${o.seconds
 ${typed.length ? mmLines : `${mmLines}\n(I did not type any mind map notes this time.)`}
 
 === 3. Clean transcription of my speech-to-text response ===
-${o.transcript || ""}
+${exportText(o.transcript || "")}
 
 === What I need ===
 1. An improved revision of my response. Keep my own ideas, structure and voice. Fix grammar, word choice and transitions, and add a missing example or conclusion if needed. Put **every change or addition in bold** so I can see exactly what was revised.
 2. A short list of the main corrections (my words → revised words), each with a one-line reason.
-3. One tip comparing my mind map plan with what I actually said (anything I planned but forgot to say).
+3. One tip comparing my mind map plan with what I actually said (anything I planned but forgot to say).${over ? `
+4. I kept talking after the time limit (the part after the TIME'S UP line). Tell me how to fit my main ideas into the time next time.` : ""}
 Keep the language natural for a ${o.level || "CEFR B1"} learner. Use "First" and "Second", not "Firstly" or "Secondly".`;
   }
 
-  return { SR, store, fmt, beep, copyText, escapeHtml, normParts, stem, wordSpans, align, accuracySummary, pickVoice, speak, listenAlong, stopSpeech, recognizer, properNouns, cleaner, grammarPolish, feedbackPrompt, diffHtml, wordsFrom, normalizeWord };
+  return { SR, OT, OT_RE, OVERTIME_MSG, stripOT, hasOvertime, exportText, overtimeBox, store, fmt, beep, copyText, escapeHtml, normParts, stem, wordSpans, align, accuracySummary, pickVoice, speak, listenAlong, stopSpeech, recognizer, properNouns, cleaner, grammarPolish, feedbackPrompt, diffHtml, wordsFrom, normalizeWord };
 })();

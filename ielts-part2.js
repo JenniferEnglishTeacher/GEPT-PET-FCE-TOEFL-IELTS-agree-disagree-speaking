@@ -322,6 +322,7 @@
   /* ---------- read-along accuracy check ---------- */
   let alignQueued = false, lastSpoken = "";
   function readAlong() {
+    if (speakRec) stopSpeaking();
     if (!SR) { setStatus(el.sampleStatus, "Live speech checking needs Chrome or Edge (desktop or Android).", "warning"); return; }
     stopSample();
     scopedSpans().forEach(w => w.el.classList.remove("ok", "miss", "speaking"));
@@ -406,7 +407,9 @@
 
   /* ---------- speaking: timer + recording + live transcript ---------- */
   let timer = null, remaining = 120, elapsed = 0, mediaRecorder = null, chunks = [];
-  let segments = [], baseText = "", lastAutoValue = null, rawBeforeClean = null, lastInterim = "";
+  let segments = [], baseText = "", lastAutoValue = null, rawBeforeClean = null, lastInterim = "", speakRec = null;
+  const K = window.SpeakingKit;
+  K.overtimeBox(el.transcript); // overtime speech (after time is up) shows in red
 
   function resetTimer() {
     clearInterval(timer); timer = null;
@@ -428,11 +431,15 @@
     const total = remaining;
     timer = setInterval(() => {
       remaining--; elapsed++;
-      el.timer.textContent = fmt(Math.max(remaining, 0));
+      el.timer.textContent = remaining < 0 ? `+${fmt(-remaining)}` : fmt(remaining);
       el.timer.classList.toggle("warn", remaining <= 10);
       el.timerFill.style.width = `${Math.min(100, (elapsed / total) * 100)}%`;
       updateStats();
-      if (remaining <= 0) { beep(); stopSpeaking("⏰ Time's up! Now press <b>Clean Up Transcript</b>, check it, and copy it."); }
+      if (remaining === 0) {
+        beep();
+        if (speakRec && speakRec.markOvertime) { speakRec.markOvertime(); setStatus(el.speechStatus, K.OVERTIME_MSG, "active"); } // keep transcribing in red
+        else stopSpeaking("⏰ Time's up! Now press <b>Clean Up Transcript</b>, check it, and copy it.");
+      }
     }, 1000);
 
     let audioOn = false;
@@ -450,20 +457,25 @@
     } catch (err) { setStatus(el.speechStatus, `Microphone blocked: ${err.message}. You can still type.`, "warning"); }
     if (!timer) return; // stopped while waiting for permission
 
-    const live = startRecognition("speak", (finals, interim) => {
-      lastInterim = interim;
-      segments = (baseText ? [baseText] : []).concat(finals);
-      const v = `${segments.join(" ")} ${interim}`.trim();
-      el.transcript.value = v; lastAutoValue = segments.join(" ");
-      el.transcript.scrollTop = el.transcript.scrollHeight;
-      updateStats();
+    if (rec.inst) stopRecognition();
+    speakRec = K.recognizer({
+      onUpdate(finals, interim) {
+        lastInterim = interim;
+        segments = (baseText ? [baseText] : []).concat(finals);
+        const v = `${segments.join(" ")} ${interim}`.trim();
+        el.transcript.value = v; lastAutoValue = segments.join(" ");
+        el.transcript.scrollTop = el.transcript.scrollHeight;
+        updateStats();
+      },
+      onBlocked(msg) { stopSpeaking(msg, "warning"); }
     });
+    const live = speakRec ? speakRec.start() : false;
     setStatus(el.speechStatus, live ? (audioOn ? "🎙 Recording and typing your speech live…" : "🎙 Typing your speech live (audio playback not available).")
       : audioOn ? "Recording audio. Live typing is not supported in this browser — type your answer after speaking." : "Type your answer in the box below.", live ? "active" : "warning");
   }
   function stopSpeaking(msg = "Stopped. Press <b>Clean Up Transcript</b>, check it, then copy it.", kind = "") {
     clearInterval(timer); timer = null;
-    if (rec.mode === "speak") stopRecognition();
+    if (speakRec) { const r = speakRec; speakRec = null; r.stop(); }
     if (lastInterim) { segments.push(lastInterim); lastInterim = ""; }
     if (mediaRecorder && mediaRecorder.state !== "inactive") mediaRecorder.stop();
     mediaRecorder = null;
@@ -473,7 +485,7 @@
     saveDraft(); updateStats();
   }
   function updateStats() {
-    const words = el.transcript.value.trim().split(/\s+/).filter(Boolean).length;
+    const words = K.stripOT(el.transcript.value).trim().split(/\s+/).filter(Boolean).length;
     const wpm = elapsed >= 10 ? ` · ${Math.round(words / (elapsed / 60))} words/min` : "";
     el.stats.textContent = words ? `${words} words${elapsed ? ` in ${fmt(elapsed)}` : ""}${wpm}` : "";
   }
@@ -517,17 +529,14 @@
     if (!current) { setStatus(el.transcriptStatus, "Record or type your answer first.", "warning"); return; }
     rawBeforeClean = current;
     // Use the pause-based segments from speech recognition when the text hasn't been edited; otherwise split on punctuation.
-    const pieces = lastAutoValue && current === lastAutoValue.trim() && segments.length
-      ? segments.flatMap(seg => seg.split(/(?<=[.!?])\s+/))
-      : current.split(/(?<=[.!?])\s+|\n+/);
-    const cleaned = pieces.map(cleanSentence).filter(Boolean).join(" ")
-      .replace(/\s+([,.!?])/g, "$1").replace(/([.!?])\s*([a-z])/g, (m, p, c) => `${p} ${c.toUpperCase()}`);
+    const cleaned = K.cleaner(properNouns)(current, lastAutoValue && current === lastAutoValue.trim() && segments.length ? segments : null);
     el.transcript.value = cleaned;
     lastAutoValue = null; el.restoreBtn.hidden = false; saveDraft(); updateStats();
     setStatus(el.transcriptStatus, "✨ Cleaned. Computers are not perfect — read it once, fix any wrong words, then press <b>Copy</b>.", "active");
   }
 
   async function copyText(text) {
+    text = K.exportText(text);
     try { if (navigator.clipboard && window.isSecureContext) { await navigator.clipboard.writeText(text); return true; } } catch {}
     const box = document.createElement("textarea"); box.value = text; box.style.position = "fixed"; box.style.left = "-9999px";
     document.body.append(box); box.select(); const ok = document.execCommand("copy"); box.remove(); return ok;

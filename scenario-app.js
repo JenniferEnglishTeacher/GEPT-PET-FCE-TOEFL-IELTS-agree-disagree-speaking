@@ -40,6 +40,7 @@ const els = {};
 
 const nounMap = K.properNouns(items.flatMap(x => [x.question, x.answer, ...x.patterns.map(p => p.example)]));
 const cleanText = K.cleaner(nounMap);
+K.overtimeBox(els.transcriptBox);
 let answerRec = null, readRec = null;
 
 const current = () => items.find(x => x.n === state.n) || items[0];
@@ -140,11 +141,16 @@ function tick() {
   state.remaining = Math.max(0, Math.ceil((state.timerEndsAt - Date.now()) / 1000));
   els.timerDisplay.textContent = state.remaining;
   els.timerDisplay.classList.toggle("warning", state.remaining <= 5);
-  if (state.remaining <= 0) { K.beep(); stopRecording(); els.statusLine.textContent = "Time is up. Clean your transcription, then copy it for feedback."; }
+  if (state.remaining <= 0) { if (state.recording && answerRec && answerRec.markOvertime) {
+      if (!state.overtime) { state.overtime = true; K.beep(); answerRec.markOvertime(); els.statusLine.textContent = K.OVERTIME_MSG; }
+      els.timerDisplay.textContent = `+${Math.floor((Date.now() - state.timerEndsAt) / 1000)}`;
+      return;
+    }
+    K.beep(); stopRecording(); els.statusLine.textContent = "Time is up. Clean your transcription, then copy it for feedback."; }
 }
 function startTimer() {
   clearInterval(state.timerId);
-  state.remaining = state.duration; state.timerEndsAt = Date.now() + state.duration * 1000;
+  state.remaining = state.duration; state.timerEndsAt = Date.now() + state.duration * 1000; state.overtime = false;
   els.timerDisplay.textContent = state.remaining; els.timerDisplay.classList.remove("warning");
   state.timerId = setInterval(tick, 250);
 }
