@@ -77,7 +77,7 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 71 | Email | Application / Job | Applying to Be a Volunteer at an International Film Festival 應徵國際影展志工 (to Ms. Delgado, volunteer manager of the Harbor City International Film Festival — student volunteers check tickets, help the audience find seats and welcome foreign directors and guests for ten days in October; why you want to volunteer (love foreign films, see a big event behind the scenes), a useful skill or experience (fluent English, information desk at the school open day), ask a question about the volunteers' schedule / shifts) | toefl-master/email-application-job.html
 72 | Email | Thanks / Follow-up | Thanking a Bookshop Owner for Donating Books 感謝書店老闆捐書給班級閱讀角 (to Mr. Reed, owner of Corner Bookshop — donated forty English novels and magazines to your class's English reading corner, you write as class representative; thank him + what the class thought of the books, how the books are being used (15-minute morning reading, 30+ books borrowed), invite him to visit the class next Friday) | toefl-master/email-thanks-follow-up.html
 
-## Discussion (77)
+## Discussion (78)
 01 | Discussion | Education | Should STEAM courses be mandatory for all university students? 大學應該把 STEAM 課程列為全體學生的必修嗎？ | toefl-master/discussion-education.html
 02 | Discussion | Technology & AI | Will AI-generated images and videos have a positive or a negative influence on society? AI 生成的圖片與影片對社會的影響是正面還是負面？ | toefl-master/discussion-technology-ai.html
 03 | Discussion | Social media & influencers | Do social media influencers have a mainly positive or a mainly negative influence on young people? 社群媒體網紅對年輕人的影響主要是正面還是負面？ | toefl-master/discussion-social-media-influencers.html
@@ -155,6 +155,7 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 75 | Discussion | Technology & AI | Should phone companies be required to limit teenagers' screen time, or is it the family's responsibility? 應該要求手機業者限制青少年的螢幕時間，還是這是家庭的責任？ (學測講義 Unit 03) | toefl-master/discussion-technology-ai.html
 76 | Discussion | Technology & AI | Should high schools restrict students' use of AI until they master the basics, or fully integrate AI into lessons? 高中應該在學生打好基礎前限制使用 AI，還是把 AI 全面融入課堂？ (學測講義 Unit 04) | toefl-master/discussion-technology-ai.html
 77 | Discussion | Education | Should students take a gap year between high school and university? 學生應該在高中畢業後、上大學前先休一年空檔年嗎？ | toefl-master/discussion-education.html
+78 | Discussion | Technology & AI | Should coding be a required subject for all school students? 程式設計應該列為所有學生的必修科目嗎？ | toefl-master/discussion-technology-ai.html
 
 ## Notes for the next run
 - Sample markup in the HTML sources: `<span style="background-color:#fff2a8">` = universal pattern, `<b>` = theme word.

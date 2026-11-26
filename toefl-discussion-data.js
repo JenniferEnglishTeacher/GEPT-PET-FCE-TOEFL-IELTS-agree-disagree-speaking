@@ -2637,4 +2637,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 78, cat: "Technology & AI",
+    title: "Coding as a Required School Subject", zh: "程式設計該列為學校必修嗎？",
+    question: "Should coding be a required subject for all school students?", questionZh: "程式設計應該列為所有學生的必修科目嗎？",
+    professor: "This week we are discussing digital skills in the school curriculum. Several countries, such as Estonia, now teach computer programming to all children from primary school, arguing that coding is as basic as reading and math. Critics reply that the timetable is already full and that most students will never write software for a living. Should coding be a required subject for all school students? Why or why not?",
+    david: "Yes, I think it should. Almost every industry now depends on software, so understanding how programs work is a basic skill, like reading. If coding stays optional, only students whose families can afford private classes will learn it, and that is unfair.",
+    mary: "I disagree. Making coding compulsory means cutting hours from other subjects such as art, music or PE. Most people use apps without ever needing to write code, just as we drive cars without being mechanics. It should be an elective for students who are genuinely interested.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "支持把程式設計列為必修", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / coding 程式設計 / required subject 必修科目 / basic skill 基本能力 / digital world 數位世界",
+          sample: "[[I agree with David that]] **coding** [[should be]] a **required subject**, because it is a basic skill in a **digital** world." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to …, I would add that 除了…之外，我想補充 / programming 程式設計 / logical thinking 邏輯思考 / break … into small steps 把…拆成小步驟 / bug 程式錯誤 / This habit of … is useful in 這種…的習慣在…很有用",
+          sample: "[[In addition to]] fairness, [[I would add that]] **programming** trains **logical thinking**. Students must break a big problem into small steps and, when the code fails, find the **bug** patiently. [[This habit of]] careful problem-solving [[is useful in]] every subject." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / junior high school 國中 / build a simple game 做一個簡單的遊戲 / fix 修正 / no longer afraid of 不再害怕",
+          sample: "[[For example,]] at my junior high school, every student built a simple game in **coding** class. One classmate had always hated math, but she spent hours fixing her game until it worked. Afterwards, she said she was [[no longer]] afraid of difficult problems." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / While that is true 雖然這是事實 / software 軟體 / historian 歷史學家 / train the mind 訓練思維 / not just to + V 不只是為了…",
+          sample: "[[Mary argues that]] most people will never write **software**. [[While that is true,]] we do not study history to become historians either. School subjects are meant to train the mind, [[not just to]] prepare us for one job." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / deserve the chance to + V 值得擁有…的機會 / learn to code 學寫程式",
+          sample: "[[For these reasons, I believe that]] every student [[deserves the chance to]] learn to **code**." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "程式設計應該是選修", rows: [
+        { role: "Position", zh: "表明立場", hints: "I share Mary's view that 我和 Mary 看法相同，認為 / coding 程式設計 / elective 選修課 / rather than 而不是 / compulsory 必修的",
+          sample: "[[I share Mary's view that]] **coding** [[should be]] an **elective** [[rather than]] a **compulsory** subject." },
+        { role: "New reason", zh: "補充新理由", hints: "Another point worth considering is that 另一個值得考慮的重點是 / qualified teacher 合格的老師 / programmer 程式設計師 / tech industry 科技業 / overnight 一夕之間 / training course 培訓課程",
+          sample: "[[Another point worth considering is that]] schools do not have enough **qualified teachers**. Skilled **programmers** can earn far more in the **tech industry**, so few of them choose to teach. If coding became compulsory overnight, many classes would be led by teachers with only a short training course." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / PE teacher 體育老師 / play online videos 播放線上影片 / copy the code 照抄程式碼 / lose interest 失去興趣 / within a month 一個月內",
+          sample: "[[Take]] my cousin's school [[as an example.]] Its coding lessons were given by a PE teacher who simply played online videos. The students copied the **code** from the screen without understanding it, and most lost interest within a month." },
+        { role: "Respond to David", zh: "回應對方", hints: "David is right that …, but David 說…是對的，但 / AI tool AI 工具 / in seconds 幾秒內 / What students really need is 學生真正需要的是 / think critically 批判思考 / communicate clearly 清楚表達",
+          sample: "[[David is right that]] software is everywhere, [[but]] **AI tools** can now write simple code in seconds. [[What students really need is]] the ability to think critically and communicate clearly, which subjects like languages and art already develop." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / offer 提供 / those who want them 想修的人 / instead of + V-ing 而不是… / force … on everyone 強迫所有人接受",
+          sample: "[[In conclusion,]] schools [[should]] offer good coding courses to those who want them [[instead of]] forcing them on everyone." },
+      ] },
+    ]
+  },
 ];
