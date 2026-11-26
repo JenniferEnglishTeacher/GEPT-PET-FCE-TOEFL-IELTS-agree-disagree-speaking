@@ -89,9 +89,15 @@ def main():
         add(head, style="HEADING_2")
         zh_of = dict(cats)
         for no, cat, rest in rows:
-            # titles only: the full scenario lives in the category doc
+            # title only (the full scenario lives in the category doc), hyperlinked to it
             title = rest.split(" (", 1)[0] if " (" in rest else rest
-            add(f"{no}｜{cat} {zh_of.get(cat, '')}｜{title}")
+            line = f"{no}｜{cat} {zh_of.get(cat, '')}｜{title}"
+            url = cat_url(kind, cat)
+            sp = []
+            if url:
+                off = u16(line) - u16(title)
+                sp = [(off, off + u16(title), url)]
+            add(line, link_spans=sp)
 
     text = "".join(parts)[:-1]  # drop the final newline
     reqs = []
@@ -108,13 +114,22 @@ def main():
                      "fields": "link,underline,foregroundColor"}})
 
     os.makedirs(outdir, exist_ok=True)
-    CHUNK = 120
-    n = 0
-    while reqs:
-        n += 1
-        with open(os.path.join(outdir, f"requests-{n}.json"), "w", encoding="utf-8") as f:
-            json.dump(reqs[:CHUNK], f, ensure_ascii=False)
-        reqs = reqs[CHUNK:]
+    # split by serialized size so each requests file stays small enough to paste
+    LIMIT = 34000
+    n, batch, size = 0, [], 2
+    def flush():
+        nonlocal n, batch, size
+        if batch:
+            n += 1
+            with open(os.path.join(outdir, f"requests-{n}.json"), "w", encoding="utf-8") as f:
+                json.dump(batch, f, ensure_ascii=False)
+            batch, size = [], 2
+    for r in reqs:
+        j = len(json.dumps(r, ensure_ascii=False)) + 2
+        if batch and size + j > LIMIT:
+            flush()
+        batch.append(r); size += j
+    flush()
     print(f"{len(emails)} emails, {len(discs)} discussions, {n} request file(s), "
           f"insert {u16(text)} utf-16 units")
 
