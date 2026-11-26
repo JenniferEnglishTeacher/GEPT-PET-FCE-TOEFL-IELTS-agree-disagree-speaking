@@ -1,0 +1,87 @@
+{
+ "category": "Education",
+ "title": "Student Food Stalls at School Fairs",
+ "zh": "學生在校慶園遊會擺攤賣飲食",
+ "question": "Should high school students be allowed to sell food at school events?",
+ "questionZh": "高中生應該被允許在學校活動中販賣飲食嗎？",
+ "professor": "This week we have been discussing experiential learning, which means learning by doing rather than by listening to lectures. Many high schools let students run food stalls at school fairs, arguing that it teaches budgeting, teamwork and responsibility. Other educators argue that the health risks and the time involved outweigh the benefits, so students should be limited to non-food activities such as games or handicrafts. What do you think? Should high school students be allowed to sell food at school events? Why or why not?",
+ "david": "I think they should. Running a food stall is one of the few school activities that feels like a real job. Students have to calculate costs, attract customers and solve problems on the spot. As long as a teacher checks the kitchen, the risk is small compared with what students learn.",
+ "mary": "I disagree. Most teenagers have never been trained in food hygiene, and one mistake could make dozens of people sick. Besides, the same skills can be learned by running a game booth or selling handmade crafts, which carries no health risk at all.",
+ "essays": [
+  {
+   "side": "David",
+   "label": "Essay A — Agree with David",
+   "zh": "贊成學生擺攤賣飲食",
+   "rows": [
+    {
+     "role": "Position",
+     "zh": "表明立場",
+     "hints": "I agree with David that 我同意 David 所說的 / be allowed to + V 被允許… / food stall 食物攤位 / as long as 只要 / supervise 監督",
+     "sample": "[[I agree with David that]] high school students should **be allowed to** run **food stalls**, [[as long as]] teachers **supervise** them carefully."
+    },
+    {
+     "role": "New reason",
+     "zh": "補充新理由",
+     "hints": "In addition to the point he made about …, I would add that 除了他提到…之外，我想補充 / real customers 真正的顧客 / feedback 回饋 / adjust 調整 / unlike 不像",
+     "sample": "[[In addition to the point he made about]] calculating costs, [[I would add that]] selling food gives students honest **feedback** from **real customers**. [[Unlike]] a game booth, a food stall fails immediately if the product is bad, so students learn to **adjust** quickly."
+    },
+    {
+     "role": "Example",
+     "zh": "舉例",
+     "hints": "For instance 例如 / sandwich 三明治 / the price of eggs 蛋價 / recalculate 重新計算 / profit 利潤 / donate 捐出",
+     "sample": "[[For instance,]] when my class sold sandwiches last year, the price of eggs suddenly went up, so we had to **recalculate** our prices the night before. We still made a **profit** and **donated** half of it to a children's home."
+    },
+    {
+     "role": "Respond to Mary",
+     "zh": "回應對方",
+     "hints": "Mary raises a valid concern about …, but 雖然 Mary 對…的擔心有道理，但 / hygiene 衛生 / the answer is … rather than … 解方是…而非… / training 訓練 / ban 禁止",
+     "sample": "[[Mary raises a valid concern about]] **hygiene**, [[but]] [[the answer is]] **training** [[rather than]] a complete **ban**. A short food-safety workshop and a simple menu would remove most of the risk."
+    },
+    {
+     "role": "Conclusion",
+     "zh": "結論",
+     "hints": "For these reasons, I believe that 基於這些理由，我認為 / hands-on 實作的 / valuable 寶貴的 / experience 經驗",
+     "sample": "[[For these reasons, I believe that]] food stalls offer a **hands-on** and **valuable** learning experience that schools should keep."
+    }
+   ]
+  },
+  {
+   "side": "Mary",
+   "label": "Essay B — Agree with Mary",
+   "zh": "反對學生擺攤賣飲食",
+   "rows": [
+    {
+     "role": "Position",
+     "zh": "表明立場",
+     "hints": "I side with Mary because 我站在 Mary 這邊，因為 / health risk 健康風險 / outweigh 大於 / benefit 好處",
+     "sample": "[[I side with Mary because]] the **health risks** of letting teenagers sell food [[clearly outweigh]] the **benefits**."
+    },
+    {
+     "role": "New reason",
+     "zh": "補充新理由",
+     "hints": "Another point worth mentioning is that 另一個值得一提的是 / workload 工作量 / exam period 考試期間 / exhausted 精疲力盡 / at the expense of 以…為代價",
+     "sample": "[[Another point worth mentioning is that]] preparing food creates a heavy **workload**. Students spend weeks shopping, cooking and washing dishes, often during the **exam period**, so the activity comes [[at the expense of]] their studies and sleep."
+    },
+    {
+     "role": "Example",
+     "zh": "舉例",
+     "hints": "Take … as an example 以…為例 / milk tea 奶茶 / leave in the sun 放在太陽下 / stomachache 胃痛 / go bad 變質",
+     "sample": "[[Take]] my own class [[as an example.]] Last year we sold homemade **milk tea**, and a few cups were left in the sun for hours. Two younger students later complained of **stomachaches**, which made us realize how easily food can **go bad**."
+    },
+    {
+     "role": "Respond to David",
+     "zh": "回應對方",
+     "hints": "Although David is right that …, he overlooks the fact that 雖然 David 說得對…，但他忽略了… / real job 真正的工作 / professional 專業的 / licence 執照",
+     "sample": "[[Although David is right that]] a stall feels like a **real job**, [[he overlooks the fact that]] real food businesses need trained staff and a **licence**. Teachers cannot check every kitchen in the school."
+    },
+    {
+     "role": "Conclusion",
+     "zh": "結論",
+     "hints": "Therefore, schools should … instead 因此，學校應改為… / game booth 遊戲攤位 / handicraft 手作 / safer 更安全的",
+     "sample": "[[Therefore, schools should]] choose game booths or **handicraft** stalls [[instead,]] which teach the same skills in a much **safer** way."
+    }
+   ]
+  }
+ ],
+ "source": "學測英文作文講義 Unit 01 — 112年第二次北模｜單圖描述＋同意／反對｜校慶園遊會：學生該不該擺攤賣飲食"
+}

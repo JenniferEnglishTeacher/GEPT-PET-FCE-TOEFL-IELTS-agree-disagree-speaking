@@ -1,0 +1,87 @@
+{
+ "category": "Technology & AI",
+ "title": "Restrict AI or Integrate It in High School?",
+ "zh": "高中該限制 AI 還是全面融入教學？",
+ "question": "Should high schools restrict students' use of AI until they master the basics, or fully integrate AI into lessons?",
+ "questionZh": "高中應該在學生打好基礎前限制使用 AI，還是把 AI 全面融入課堂？",
+ "professor": "In our unit on technology and learning, we have seen survey data showing that most students use AI chatbots mainly to obtain homework answers, while only half use them to understand difficult concepts. Some educators argue that high schools should restrict AI use until students have mastered the basics of each subject. Others believe schools should fully integrate AI into lessons so that students learn to use it wisely. Which approach do you think is better for high school students, and why?",
+ "david": "I think schools should fully integrate AI. Restrictions just push students to use AI secretly, without any guidance. If teachers show us how to use it properly in class, we will form good habits instead of bad ones, and we will be ready for university.",
+ "mary": "I think schools should restrict AI at first. If students rely on chatbots before they can solve problems on their own, they will never develop strong reasoning skills. Once they have mastered the basics, AI can be introduced as a tool.",
+ "essays": [
+  {
+   "side": "David",
+   "label": "Essay A — Agree with David",
+   "zh": "把 AI 全面融入課堂",
+   "rows": [
+    {
+     "role": "Position",
+     "zh": "表明立場",
+     "hints": "I agree with David that 我同意 David 所說的 / integrate 融入 / curriculum 課程 / guided practice 有引導的練習",
+     "sample": "[[I agree with David that]] schools should **integrate** AI into the **curriculum** through **guided practice**."
+    },
+    {
+     "role": "New reason",
+     "zh": "補充新理由",
+     "hints": "In addition to …, I would add that 除了…之外，我想補充 / critical thinking 批判思考 / question 質疑 / flaw 缺陷 / trust blindly 盲目相信",
+     "sample": "[[In addition to]] forming good habits, [[I would add that]] working with AI in class trains **critical thinking**. When students compare their own answers with a chatbot's, they learn to **question** it and spot its **flaws** instead of **trusting** it **blindly**."
+    },
+    {
+     "role": "Example",
+     "zh": "舉例",
+     "hints": "For example, 例如 / chemistry teacher 化學老師 / solve … independently 獨立解題 / compare 比較 / reasoning 推理",
+     "sample": "[[For example,]] my chemistry teacher asks us to **solve** each problem **independently** first and then **compare** our **reasoning** with the AI's. Last month the chatbot made an error, and the whole class found it together. That lesson taught us more than a ban ever could."
+    },
+    {
+     "role": "Respond to Mary",
+     "zh": "回應對方",
+     "hints": "Mary is concerned that …, but 雖然 Mary 擔心…，但 / basic skills 基本能力 / at the same time 同時 / enforce 執行",
+     "sample": "[[Mary is concerned that]] students will skip the **basic skills**, [[but]] guided lessons can build both [[at the same time]]. Bans are also almost impossible to **enforce**. Students who are forbidden to use AI simply use it at home without any guidance."
+    },
+    {
+     "role": "Conclusion",
+     "zh": "結論",
+     "hints": "Ultimately, 最終 / responsible users 負責任的使用者 / prohibition 禁止",
+     "sample": "[[Ultimately,]] guided use will produce more **responsible users** than **prohibition** ever could."
+    }
+   ]
+  },
+  {
+   "side": "Mary",
+   "label": "Essay B — Agree with Mary",
+   "zh": "打好基礎前應限制 AI",
+   "rows": [
+    {
+     "role": "Position",
+     "zh": "表明立場",
+     "hints": "I share Mary's view that 我和 Mary 看法相同 / foundation 基礎 / come first 優先",
+     "sample": "[[I share Mary's view that]] a solid **foundation** must **come first**, so AI should be limited in the early years of high school."
+    },
+    {
+     "role": "New reason",
+     "zh": "補充新理由",
+     "hints": "Another point worth considering is that 另一個值得考慮的點是 / exam 考試 / without technology 沒有科技輔助 / depend on 依賴 / helpless 無助的",
+     "sample": "[[Another point worth considering is that]] students still take important **exams** **without technology**. If they **depend on** chatbots for every step, they will feel **helpless** in the exam room."
+    },
+    {
+     "role": "Example",
+     "zh": "舉例",
+     "hints": "Take … for instance 以…為例 / copy 抄 / mock exam 模擬考 / score dropped 分數下滑 / realize 意識到",
+     "sample": "[[Take]] my classmate [[for instance.]] She **copied** AI answers for months, and her **mock-exam** **score dropped** sharply. Only then did she **realize** she had never learned the methods herself. She is now relearning the basics, which takes much longer than learning them properly the first time."
+    },
+    {
+     "role": "Respond to David",
+     "zh": "回應對方",
+     "hints": "Although David is right that …, he overlooks 雖然 David 說…沒錯，但他忽略了 / secretly 偷偷地 / calculator 計算機 / arithmetic 算術",
+     "sample": "[[Although David is right that]] some students use AI **secretly**, [[he overlooks]] how we treat **calculators**: children learn **arithmetic** first and only later use machines. Strong basic skills are what allow us to judge whether an AI answer is correct."
+    },
+    {
+     "role": "Conclusion",
+     "zh": "結論",
+     "hints": "For these reasons, 基於這些理由 / step by step 循序漸進 / introduce 引進",
+     "sample": "[[For these reasons,]] schools should **introduce** AI **step by step**, only after students can think on their own."
+    }
+   ]
+  }
+ ],
+ "source": "學測英文作文講義 Unit 04 — 111年北模改寫｜長條圖（百分比）描述＋個人反思｜學生使用AI的用途"
+}

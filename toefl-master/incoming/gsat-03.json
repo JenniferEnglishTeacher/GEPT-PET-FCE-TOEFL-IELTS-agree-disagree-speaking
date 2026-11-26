@@ -1,0 +1,87 @@
+{
+ "category": "Technology & AI",
+ "title": "Who Should Control Teenagers' Phone Use?",
+ "zh": "誰該管理青少年的手機使用？",
+ "question": "Should phone companies be required to limit teenagers' screen time, or is it the family's responsibility?",
+ "questionZh": "應該要求手機業者限制青少年的螢幕時間，還是這是家庭的責任？",
+ "professor": "This week we are looking at technology and adolescent development. A recent survey found that teenagers spend most of their phone time on social media, video streaming and games, and only about twelve percent on learning. Some researchers believe governments should require phone makers to build stronger screen-time limits into devices used by people under eighteen. Others think the responsibility lies with families and teenagers themselves. Who should be mainly responsible for managing teenagers' phone use, and why?",
+ "david": "The companies should be responsible. Their apps are deliberately designed to be addictive, with endless feeds and constant notifications. Expecting a fifteen-year-old to resist that design alone is unrealistic, so built-in limits are necessary.",
+ "mary": "It's up to families. Every teenager is different, and a one-size-fits-all rule from the government would be clumsy. Parents know their children best and can set rules that fit their family's needs, and teenagers learn more when they help make those rules.",
+ "essays": [
+  {
+   "side": "David",
+   "label": "Essay A — Agree with David",
+   "zh": "手機業者應負主要責任",
+   "rows": [
+    {
+     "role": "Position",
+     "zh": "表明立場",
+     "hints": "I agree with David that 我同意 David 所說的 / tech companies 科技公司 / main responsibility 主要責任 / addictive design 成癮設計",
+     "sample": "[[I agree with David that]] **tech companies** should take the **main responsibility**, since they created the **addictive design** in the first place."
+    },
+    {
+     "role": "New reason",
+     "zh": "補充新理由",
+     "hints": "Another reason is that 另一個理由是 / not all parents 並非所有父母 / tech-savvy 懂科技的 / long working hours 長工時 / built-in 內建的",
+     "sample": "[[Another reason is that]] not all parents are **tech-savvy** or have time to monitor their children. Many work **long hours**, so a **built-in** limit would protect teenagers whose families cannot supervise them closely."
+    },
+    {
+     "role": "Example",
+     "zh": "舉例",
+     "hints": "A good example is 一個很好的例子是 / seat belt 安全帶 / required by law 法律規定 / safety feature 安全功能 / nobody expects 沒有人期待",
+     "sample": "[[A good example is]] the **seat belt**. Car makers are **required by law** to install them, and nobody expects drivers to build their own. Screen-time limits are simply a **safety feature** for a different kind of danger."
+    },
+    {
+     "role": "Respond to Mary",
+     "zh": "回應對方",
+     "hints": "While Mary is right that …, 雖然 Mary 說…沒錯 / default setting 預設設定 / adjust 調整 / flexible 有彈性的",
+     "sample": "[[While Mary is right that]] every family is different, a **default setting** can still be **flexible**. Parents could **adjust** it to fit their own rules. In this way, families keep control while every child still gets basic protection."
+    },
+    {
+     "role": "Conclusion",
+     "zh": "結論",
+     "hints": "Overall, 整體而言 / share the burden 分擔負擔 / protect 保護",
+     "sample": "[[Overall,]] making companies **share the burden** would **protect** far more teenagers than leaving it to families alone."
+    }
+   ]
+  },
+  {
+   "side": "Mary",
+   "label": "Essay B — Agree with Mary",
+   "zh": "家庭應負主要責任",
+   "rows": [
+    {
+     "role": "Position",
+     "zh": "表明立場",
+     "hints": "I side with Mary because 我站在 Mary 這邊，因為 / healthy habits 健康習慣 / built at home 在家養成",
+     "sample": "[[I side with Mary because]] **healthy habits** are **built at home**, not imposed by phone companies. Parents know their children's needs far better than any company does."
+    },
+    {
+     "role": "New reason",
+     "zh": "補充新理由",
+     "hints": "What is more, 此外 / easy to bypass 容易規避 / borrow 借用 / account 帳號 / ineffective 無效的",
+     "sample": "[[What is more,]] government limits are **easy to bypass**. Many of my classmates simply **borrow** their parents' **accounts** or phones, so a rule written for everyone would be largely **ineffective**."
+    },
+    {
+     "role": "Example",
+     "zh": "舉例",
+     "hints": "In my family, for example, 以我家為例 / basket 籃子 / during dinner 晚餐時 / set an example 以身作則 / unfair 不公平",
+     "sample": "[[In my family, for example,]] everyone puts their phone in a **basket** **during dinner**, and my parents follow the rule too. Because they **set an example**, I never felt the rule was **unfair**."
+    },
+    {
+     "role": "Respond to David",
+     "zh": "回應對方",
+     "hints": "David has a point about …; nevertheless, David 對…的觀點有道理；然而 / notifications 通知 / self-control 自制力 / learn 學會",
+     "sample": "[[David has a point about]] addictive **notifications**; [[nevertheless,]] teenagers will face them all their lives, so they must **learn self-control** while their parents can still guide them. A limit that switches off at eighteen teaches them nothing about managing their own time."
+    },
+    {
+     "role": "Conclusion",
+     "zh": "結論",
+     "hints": "To sum up, 總結來說 / guidance 引導 / last 持久 / rules imposed from outside 外加的規定",
+     "sample": "[[To sum up,]] family **guidance** creates habits that **last**, while **rules imposed from outside** are quickly forgotten."
+    }
+   ]
+  }
+ ],
+ "source": "學測英文作文講義 Unit 03 — 111年北模改寫｜圓餅圖描述＋個人習慣與影響｜青少年手機使用時間"
+}
