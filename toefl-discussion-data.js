@@ -2705,4 +2705,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 80, cat: "Environment",
+    title: "Spending Public Money on Endangered Species", zh: "花公帑拯救瀕危物種",
+    question: "Should governments spend large amounts of public money to save endangered species?", questionZh: "政府應該花大筆公帑拯救瀕危物種嗎？",
+    professor: "This week we are discussing biodiversity. Scientists warn that thousands of animal species, from tigers and pangolins to bees and frogs, are in danger of disappearing because of habitat loss, pollution and climate change. Protecting them, however, can be extremely expensive: governments must set aside land, pay rangers and fund breeding programmes. Some people believe we should do everything we can to save these animals, whatever the cost. Others feel that public money should be spent on more urgent human needs. In your opinion, should governments spend large amounts of public money to save endangered species? Why or why not?",
+    david: "I think governments should spend whatever it takes. Most species are in danger because of human activities such as cutting down forests and polluting rivers, so we have a responsibility to repair the damage. Besides, it would be a shame if our grandchildren could see tigers and whales only in books.",
+    mary: "I see it differently. Public money is limited, and many people still lack decent health care, housing and education. Spending millions on a handful of animals is hard to justify when families are struggling. Also, extinction is a natural process: species were disappearing long before humans existed.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "政府應該花大筆公帑拯救瀕危物種", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / spend A on B 把 A 花在 B 上 / generously 大方地 / endangered species 瀕危物種",
+          sample: "[[I agree with David that]] governments [[should]] spend generously on saving **endangered species**." },
+        { role: "New reason", zh: "補充新理由", hints: "One point David did not mention is that David 沒有提到的一點是 / human beings 人類 / play a role in 在…中扮演角色 / ecosystem 生態系 / food chain 食物鏈 / affect 影響 / pollinate 為…授粉 / crop 農作物 / harvest 收成",
+          sample: "[[One point David did not mention is that]] protecting these animals also protects human beings. Every **species** [[plays a role in]] the **ecosystem**, so when one disappears, the whole **food chain** can be affected. If we lose the insects that **pollinate** our crops, for instance, farmers will harvest far less food." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / Formosan black bear 臺灣黑熊 / mountain forest 山區森林 / By + V-ing 藉由… / habitat 棲息地 / prevent landslides 防止土石流",
+          sample: "[[For example,]] the Formosan black bear in Taiwan needs large areas of mountain forest. [[By]] protecting its **habitat**, the government also protects the forests that keep our rivers clean and prevent landslides." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / This is a fair point; however, 這個觀點有道理；然而 / conservation 保育 / a tiny share of 極小的一部分 / national budget 國家預算 / whereas 然而、而 / extinction 滅絕 / permanent 永久的 / reverse 逆轉",
+          sample: "[[Mary argues that]] the money should go to hospitals and schools instead. [[This is a fair point; however,]] **conservation** usually takes only a tiny share of the national budget, [[whereas]] **extinction** is permanent and can never be reversed." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / a wise investment in 對…的明智投資 / our own future 我們自己的未來",
+          sample: "[[For these reasons, I believe that]] saving **endangered species** [[is a wise investment in]] our own future." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "政府不應該花大筆公帑拯救瀕危物種", rows: [
+        { role: "Position", zh: "表明立場", hints: "I share Mary's view that 我和 Mary 看法相同，認為 / huge sums of 鉅額的 / public money 公帑 / endangered species 瀕危物種",
+          sample: "[[I share Mary's view that]] governments [[should not]] spend huge sums of **public money** on saving **endangered species**." },
+        { role: "New reason", zh: "補充新理由", hints: "Another point worth considering is that 另一個值得考慮的重點是 / conservation programme 保育計畫 / breed 繁殖 / rare 稀有的 / release 野放 / habitat 棲息地 / destroy 破壞 / In other words 換句話說 / treat the symptom rather than the cause 治標不治本",
+          sample: "[[Another point worth considering is that]] many expensive **conservation** programmes simply do not work. **Breeding** rare animals in special centres costs millions, yet few of them can ever be released, because their natural **habitat** has already been destroyed. [[In other words,]] the money treats the symptom [[rather than]] the cause." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / giant panda 大貓熊 / enormous amounts 龐大的金額 / breeding centre 繁殖中心 / for decades 數十年來 / return to the wild 回到野外",
+          sample: "[[Take]] the giant panda [[as an example.]] China has spent enormous amounts on **breeding** centres for decades, but only a small number of pandas have successfully returned to the **wild**." },
+        { role: "Respond to David", zh: "回應對方", hints: "David is right that …, but David 說…是對的，但 / cause damage 造成損害 / that is exactly why 這正是為什麼 / cut pollution 減少污染 / wildlife 野生動物 / at the same time 同時",
+          sample: "[[David is right that]] humans have caused much of the damage, [[but]] [[that is exactly why]] the money should go to cutting **pollution** and protecting forests, which helps people and **wildlife** at the same time." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / invest in 投資於 / rather than 而不是 / pour money into 把錢大量投入 / rescue 拯救 / a few famous species 少數知名物種",
+          sample: "[[In conclusion,]] governments [[should]] invest in a cleaner environment for everyone [[rather than]] pour money into rescuing a few famous species." },
+      ] },
+    ]
+  },
 ];
