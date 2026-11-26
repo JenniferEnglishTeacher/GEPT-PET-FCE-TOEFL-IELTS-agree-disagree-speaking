@@ -2395,4 +2395,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 71, cat: "Health & lifestyle",
+    title: "Paid Exercise Time at Work", zh: "上班時間帶薪運動",
+    question: "Should companies give employees paid time to exercise during the working day?", questionZh: "公司應該讓員工在上班時間帶薪運動嗎？",
+    professor: "This week we are looking at health in the workplace. Many office workers sit at a desk for eight hours or more a day, and research links long periods of sitting to heart disease, back pain and stress. In response, some companies now give their employees paid time during the working day to exercise, for example an hour at the gym or a group walk after lunch, and a few even make it compulsory. Supporters say that healthier workers are more productive, while critics see it as a waste of working time. In your opinion, should companies give employees paid time to exercise during the working day? Why or why not?",
+    david: "I think they should. Most people are too tired to exercise after work, especially if they have a long commute or children to look after. If the company builds exercise into the day, everyone actually does it. Workers who exercise get sick less often, so the company saves money on sick leave. An hour of exercise is not lost time; it is an investment.",
+    mary: "I see it differently. Employees are paid to work, and exercise is a personal matter that people should arrange in their own time. If everyone leaves their desk for an hour, customers have to wait and the unfinished work is simply pushed into the evening. Besides, not everyone enjoys sport, and people with health problems may feel embarrassed exercising in front of their colleagues.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "公司應提供帶薪運動時間", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / employee 員工 / paid time 帶薪時間 / exercise 運動 / working day 上班日",
+          sample: "[[I agree with David that]] companies [[should]] give employees **paid time** to **exercise** during the working day." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides … that David mentioned, I would add that 除了 David 提到的…之外，我想補充 / sick leave 病假 / quality 品質 / physical activity 身體活動 / so 所以 / concentrate 專心 / come up with 想出 / whereas 然而、相對地 / slow down 變遲鈍",
+          sample: "[[Besides]] the lower **sick leave** [[that David mentioned, I would add that]] exercise improves the quality of work itself. After **physical activity**, more blood reaches the brain, [[so]] people **concentrate** better and come up with fresher ideas, [[whereas]] those who sit all day slow down in the afternoon." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / software company 軟體公司 / introduce 引進、推行 / group walk 團體健走 / make fewer mistakes 較少出錯 / because 因為 / awake 清醒的",
+          sample: "[[For instance,]] my aunt's software company introduced a thirty-minute group walk after lunch. Her team now makes fewer mistakes in the afternoon, and meetings have become shorter [[because]] everyone feels more awake." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary is worried that Mary 擔心 / be pushed into 被推到 / However, this problem can be solved if 然而，只要…這個問題就能解決 / at different times 在不同時段 / productive 有生產力的 / task 工作任務",
+          sample: "[[Mary is worried that]] work will be pushed into the evening. [[However, this problem can be solved if]] teams exercise at different times, and employees who are more **productive** can finish the same tasks in fewer hours." },
+        { role: "Conclusion", zh: "結論", hints: "Therefore, I am convinced that 因此，我深信 / not A but B 不是 A 而是 B / cost 成本 / investment 投資 / efficient 有效率的 / workforce 全體員工、勞動力",
+          sample: "[[Therefore, I am convinced that]] exercise time is [[not]] a cost [[but]] an **investment** in a healthier and more efficient **workforce**." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "公司不應提供帶薪運動時間", rows: [
+        { role: "Position", zh: "表明立場", hints: "From my point of view 就我看來 / paid time 帶薪時間 / I share Mary's view that 我和 Mary 看法相同 / fitness 體能、健身 / personal matter 個人的事",
+          sample: "[[From my point of view,]] companies [[should not]] give employees paid time to **exercise**, and [[I share Mary's view that]] **fitness** is a **personal matter**." },
+        { role: "New reason", zh: "補充新理由", hints: "Another reason, which Mary did not mention, is that 另一個 Mary 沒提到的理由是 / policy 政策 / unfair to 對…不公平 / office staff 辦公室職員 / but 但是 / nurse 護理師 / factory worker 工廠工人 / simply 就這樣、輕易地",
+          sample: "[[Another reason, which Mary did not mention, is that]] such a **policy** is unfair to many workers. Office staff can easily leave their desks, [[but]] nurses and factory workers cannot simply stop working for an hour." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / lunch break 午休 / impossible 不可能的 / If … were …, she would + V（假設語氣）如果…，她會 / be valued less 較不受重視",
+          sample: "[[Take]] my mother [[as an example.]] She works in a hospital, where even a **lunch break** is sometimes impossible. [[If]] the office staff there [[were]] paid to go to the gym, she [[would]] feel that her work was valued less." },
+        { role: "Respond to David", zh: "回應對方", hints: "David claims that David 聲稱 / If that is the case, 如果真是這樣 / the real problem is 真正的問題是 / working hours 工時 / a better solution would be to + V 更好的解決方法是 / go home earlier 早點下班",
+          sample: "[[David claims that]] people are too tired to exercise after work. [[If that is the case,]] [[the real problem is]] long **working hours**, and [[a better solution would be to]] let employees go home earlier." },
+        { role: "Conclusion", zh: "結論", hints: "To sum up 總而言之 / free time 自由時間 / let … decide how to + V 讓…自己決定如何 / stay healthy 保持健康",
+          sample: "[[To sum up,]] companies should give workers more free time and let them decide how to stay **healthy**." },
+      ] },
+    ]
+  },
 ];
