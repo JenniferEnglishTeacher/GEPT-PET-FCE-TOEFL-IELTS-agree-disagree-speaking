@@ -153,3 +153,4 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 - Sample markup in the HTML sources: `<span style="background-color:#fff2a8">` = universal pattern, `<b>` = theme word.
 - Website data: `toefl-discussion-data.js` (append one entry to TOEFL_DISCUSSIONS; `[[...]]` = pattern, `**...**` = theme word). Update the count on the "TOEFL Academic Discussion Essay" card in `dashboard.html`.
 - Open-ended since 2026-11-20: no upper limit; each run adds Email N+1 and Discussion N+1 in category (N mod 8) + 1.
+- Index Google Doc 總目錄 (id 1oO2F8gRTOCgtO3S67bP6Boq-RKj_g0nkXSZXqTMm7lg): regenerated in place every run with toefl-master/build_index.py — see the scheduled task's step 7b. Never trash or recreate it.
