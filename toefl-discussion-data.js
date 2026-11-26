@@ -2429,4 +2429,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 72, cat: "Ethics & culture",
+    title: "A Moral Duty to Help Strangers", zh: "幫助陌生人的道德義務",
+    question: "Do people have a moral obligation to help strangers in need?", questionZh: "人們有道德義務幫助有困難的陌生人嗎？",
+    professor: "This week we are examining our responsibilities to other people. Every day we hear about strangers who need help: a homeless person on the street, victims of an earthquake in another country, or a family that cannot pay its hospital bills. Some philosophers argue that if we can prevent suffering without giving up anything important, we are morally required to do so. Others reply that helping strangers is admirable, but that it should be a free choice rather than a duty. In your opinion, do people have a moral obligation to help strangers in need? Why or why not?",
+    david: "I believe we do. If I walked past a child who was drowning in a shallow pond, everyone would say I was wrong not to save her, even if it ruined my shoes. I don't see why distance should change anything. Most of us spend money on things we don't really need, so giving a little of it to people in real need costs us almost nothing.",
+    mary: "I admire people who help strangers, but I wouldn't call it an obligation. Our first duty is to our own family and to the people who depend on us, and most people's time and money are limited. Besides, if helping is treated as a duty, it stops being generosity. People will give out of guilt or social pressure, not because they really care.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "認為人有道德義務幫助陌生人", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / moral obligation 道德義務 / stranger 陌生人 / in need 有困難的 / as long as 只要 / cost 代價 / reasonable 合理的",
+          sample: "[[I agree with David that]] people have a **moral obligation** to help **strangers** in need, [[as long as]] the cost to themselves is reasonable." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to the point he made about …, I would add that 除了他提到關於…的論點之外，我想補充 / hold … together 維繫… / Any of us could + V 我們任何人都可能… / disaster 災難 / so 所以 / responsible for 對…有責任",
+          sample: "[[In addition to the point he made about]] distance, [[I would add that]] helping strangers is what holds a society together. [[Any of us could]] lose a job or be caught in a **disaster** one day, [[so]] a community where people feel **responsible** for one another is safer for everyone." },
+        { role: "Example", zh: "舉例", hints: "A good example is 一個很好的例子是 / earthquake 地震 / Within a day 一天之內 / volunteer 志工 / blanket 毯子 / donate 捐（款） / had never met 素未謀面",
+          sample: "[[A good example is]] the earthquake that hit Hualien in 2024. [[Within a day,]] **volunteers** from all over Taiwan arrived with food and blankets, and ordinary people **donated** money to families they had never met." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / replace 取代 / generosity 慷慨 / However 然而 / out of duty 出於義務 / come to + V 漸漸變得… / sincerely 真誠地",
+          sample: "[[Mary argues that]] duty would replace real **generosity**. [[However,]] a hungry family does not care why the food arrives, and people who start helping out of duty often come to care **sincerely**." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / not only A but also B 不只 A 而且 B / responsibility 責任",
+          sample: "[[For these reasons, I believe that]] helping strangers is [[not only]] kind [[but also]] our **responsibility**." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "認為幫助陌生人應是個人選擇", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my view 依我看 / admirable 值得敬佩的 / but I agree with Mary that 但我同意 Mary 所說的 / personal choice 個人選擇 / rather than 而不是 / moral obligation 道德義務",
+          sample: "[[In my view,]] helping **strangers** in need is admirable, [[but I agree with Mary that]] it should remain a personal choice [[rather than]] a **moral obligation**." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that Mary did not mention is that Mary 沒提到的一點是 / limit 界限 / millions of 數百萬的 / If we were required to …, we could never + V（假設語氣）/ without + V-ing 而不… / guilty 內疚的",
+          sample: "[[One point that Mary did not mention is that]] such an obligation would have no clear **limit**. There are millions of people in need, so [[if we were]] required to help them all, [[we could never]] spend anything on ourselves [[without]] feeling **guilty**." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / pressure 壓力 / donation appeal 募款呼籲 / give away 捐出、送出 / savings 存款 / Later 後來 / afford 負擔得起 / tuition 學費 / regret 後悔",
+          sample: "[[For example,]] my cousin once felt so much **pressure** from online **donation** appeals that she gave away most of her savings. [[Later,]] she could not afford her own tuition and regretted it." },
+        { role: "Respond to David", zh: "回應對方", hints: "David compares A to B David 把 A 比作 B / drowning 溺水的 / I do not think the comparison works, because 我認為這個比喻不成立，因為 / emergency 緊急狀況 / while 而 / global poverty 全球的貧窮問題 / endless 無止盡的 / charity 慈善機構",
+          sample: "[[David compares]] this [[to]] saving a drowning child. [[I do not think the comparison works, because]] that is one rare **emergency** right in front of us, [[while]] global **poverty** is endless and needs governments and **charities** to solve it." },
+        { role: "Conclusion", zh: "結論", hints: "In short 簡而言之 / encourage 鼓勵 / praise 讚揚 / generosity 慷慨 / turn A into B 把 A 變成 B / rule 規定",
+          sample: "[[In short,]] we should encourage and praise **generosity**, [[but]] we should not turn it into a rule." },
+      ] },
+    ]
+  },
 ];

@@ -3,7 +3,7 @@
 One line per finished task: number | type | category | title. A task is listed only after its HTML source is committed and pushed.
 Category order — Email: Apology / Absence; Request; Complaint / Problem; Inquiry / Information; Invitation / Reply; Advice / Suggestion; Application / Job; Thanks / Follow-up. Discussion: Education; Technology & AI; Social media & influencers; Environment; Government & society; Work & economy; Health & lifestyle; Ethics & culture.
 
-## Email (71)
+## Email (72)
 01 | Email | Apology / Absence | Missing a Club Meeting 無法出席社團會議 (to Alex, club president — medical appointment, poster for recycling campaign) | toefl-master/email-apology-absence.html
 02 | Email | Request | Requesting a Recommendation Letter 請教授寫推薦信 (to Professor Wang — exchange program in Canada, deadline + résumé/transcript) | toefl-master/email-request.html
 03 | Email | Complaint / Problem | Complaining About Noise in the Library 投訴圖書館自習區太吵 (to Ms. Lin, library manager — noisy quiet study area before final exams, suggest signs / staff patrol) | toefl-master/email-complaint-problem.html
@@ -75,8 +75,9 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 69 | Email | Invitation / Reply | Inviting an Exchange Student to a New Year's Eve Dinner 邀請交換學生來家裡吃年夜飯 (to Hannah, an exchange student from Germany in your class — she has no plans for Lunar New Year; invite her to the family's New Year's Eve dinner + why, details (Friday, February 5, 6 p.m., at home) + what to expect (dumplings, fish, red envelope), ask about food she cannot eat + reply by Monday) | toefl-master/email-invitation-reply.html
 70 | Email | Advice / Suggestion | Giving Suggestions to a Neighbor Who Is Opening a Café Near Your School 給要在學校附近開咖啡店的鄰居建議 (to Mr. Bennett, your neighbor — opening a small café next to your school next month, most customers will be students, competes with convenience stores and chain coffee shops; say what you think of his plan, two things that would attract students (cheap set meals / after-school set, free Wi-Fi and large tables), a way to let students know (discount coupons at the school gate / Instagram account + free drink for first fifty followers)) | toefl-master/email-advice-suggestion.html
 71 | Email | Application / Job | Applying to Be a Volunteer at an International Film Festival 應徵國際影展志工 (to Ms. Delgado, volunteer manager of the Harbor City International Film Festival — student volunteers check tickets, help the audience find seats and welcome foreign directors and guests for ten days in October; why you want to volunteer (love foreign films, see a big event behind the scenes), a useful skill or experience (fluent English, information desk at the school open day), ask a question about the volunteers' schedule / shifts) | toefl-master/email-application-job.html
+72 | Email | Thanks / Follow-up | Thanking a Bookshop Owner for Donating Books 感謝書店老闆捐書給班級閱讀角 (to Mr. Reed, owner of Corner Bookshop — donated forty English novels and magazines to your class's English reading corner, you write as class representative; thank him + what the class thought of the books, how the books are being used (15-minute morning reading, 30+ books borrowed), invite him to visit the class next Friday) | toefl-master/email-thanks-follow-up.html
 
-## Discussion (71)
+## Discussion (72)
 01 | Discussion | Education | Should STEAM courses be mandatory for all university students? 大學應該把 STEAM 課程列為全體學生的必修嗎？ | toefl-master/discussion-education.html
 02 | Discussion | Technology & AI | Will AI-generated images and videos have a positive or a negative influence on society? AI 生成的圖片與影片對社會的影響是正面還是負面？ | toefl-master/discussion-technology-ai.html
 03 | Discussion | Social media & influencers | Do social media influencers have a mainly positive or a mainly negative influence on young people? 社群媒體網紅對年輕人的影響主要是正面還是負面？ | toefl-master/discussion-social-media-influencers.html
@@ -148,6 +149,7 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 69 | Discussion | Government & society | Should governments install surveillance cameras in all public places? 政府應該在所有公共場所裝設監視器嗎？ | toefl-master/discussion-government-society.html
 70 | Discussion | Work & economy | Do generous welfare benefits make people less motivated to work? 優渥的社會福利會讓人們比較不想工作嗎？ | toefl-master/discussion-work-economy.html
 71 | Discussion | Health & lifestyle | Should companies give employees paid time to exercise during the working day? 公司應該讓員工在上班時間帶薪運動嗎？ | toefl-master/discussion-health-lifestyle.html
+72 | Discussion | Ethics & culture | Do people have a moral obligation to help strangers in need? 人們有道德義務幫助有困難的陌生人嗎？ | toefl-master/discussion-ethics-culture.html
 
 ## Notes for the next run
 - Sample markup in the HTML sources: `<span style="background-color:#fff2a8">` = universal pattern, `<b>` = theme word.
