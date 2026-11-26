@@ -2739,4 +2739,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 81, cat: "Government & society",
+    title: "Government Control of Social Media Content", zh: "政府管制社群媒體內容",
+    question: "Should governments control what content is available on social media?", questionZh: "政府應該管制社群媒體上能出現哪些內容嗎？",
+    professor: "This week we are discussing the role of government in the online world. Billions of people now get their news and share their opinions on social media, but these platforms also spread fake news, scams and hateful messages. Some countries have passed laws that allow the government to decide which posts must be removed and to fine companies that do not obey. Supporters say these laws protect the public. Critics warn that they give officials too much power over what citizens can say and read. In your opinion, should governments control what content is available on social media? Why or why not?",
+    david: "I believe they should. Fake news spreads much faster than the truth, and it can cause real harm, for example when false health advice goes viral during an epidemic. Social media companies care mainly about clicks, so they will not clean up their platforms unless the law forces them to. We accept rules for television and newspapers, so I don't see why social media should be different.",
+    mary: "I don't think so. Once a government has the power to remove posts, it can easily use that power to silence criticism of itself. And who decides what counts as harmful or false? Opinions that seem wrong today sometimes turn out to be right later. I would rather let users report bad content and let the platforms deal with it under their own rules.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "政府應該管制社群媒體上的內容", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / control 管制 / content 內容 / available 可取得的 / social media 社群媒體",
+          sample: "[[I agree with David that]] governments [[should]] control what **content** is available on **social media**." },
+        { role: "New reason", zh: "補充新理由", hints: "Apart from …, which David mentioned, I would add that 除了 David 提到的…之外，我想補充 / fake news 假新聞 / regulation 法規管制 / online scam 網路詐騙 / advertisement 廣告 / have little reason to + V 沒什麼理由去… / force sb. to + V 迫使某人…",
+          sample: "[[Apart from]] stopping **fake news**, [[which David mentioned, I would add that]] **regulation** is needed to protect users from online **scams**. Social media companies earn money from advertisements, so they [[have little reason to]] remove fake investment advertisements. Only the law can force them to act quickly." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / cheat sb. out of sth. 騙走某人的… / savings 積蓄 / require sb. to + V 要求某人… / platform 平台 / remove 移除",
+          sample: "[[For example,]] in Taiwan, fake advertisements using photos of famous people have cheated many victims out of their savings. A new law now requires **platforms** to check who pays for each advertisement and to remove **scams**." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / threaten 威脅 / free speech 言論自由 / This is a fair point; however, 這個觀點有道理；然而 / freedom of speech 言論自由 / independent court 獨立的法院 / prevent sb. from + V-ing 防止某人… / abuse one's power 濫用權力",
+          sample: "[[Mary argues that]] government control threatens **free speech**. [[This is a fair point; however,]] **freedom of speech** has never included the freedom to cheat or threaten others, and clear laws applied by independent courts can [[prevent]] officials [[from]] abusing their power." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / sensible 合理的、明智的 / make + O + adj. 使…變得…",
+          sample: "[[For these reasons, I believe that]] sensible government control makes **social media** safer for everyone." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "政府不應該管制社群媒體上的內容", rows: [
+        { role: "Position", zh: "表明立場", hints: "I share Mary's view that 我和 Mary 看法相同，認為 / control 管制 / content 內容 / social media 社群媒體",
+          sample: "[[I share Mary's view that]] governments [[should not]] control what **content** is available on **social media**." },
+        { role: "New reason", zh: "補充新理由", hints: "One point Mary did not mention is that Mary 沒有提到的一點是 / too … to + V 太…而無法… / broad 範圍過廣的 / cannot possibly + V 根本不可能… / As a result 結果 / heavy fine 高額罰款 / tend to + V 往往會… / delete 刪除 / risky 有風險的",
+          sample: "[[One point Mary did not mention is that]] government control is often [[too]] slow and [[too]] broad [[to]] work. Millions of posts appear every minute, so officials cannot possibly check them all. [[As a result,]] **platforms** that fear heavy fines [[tend to]] delete anything that looks risky, including jokes, news reports and honest opinions." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / street protest 街頭抗議 / remove 移除 / within hours 幾小時內 / even though 即使、雖然 / break a rule 違反規定",
+          sample: "[[For instance,]] my classmate had a video about a street protest removed within hours, [[even though]] it showed what was happening and broke no rules." },
+        { role: "Respond to David", zh: "回應對方", hints: "David is right that …, but David 說…是對的，但 / fake news 假新聞 / scam 詐騙 / a better solution is to + V 更好的解決方法是… / media literacy 媒體識讀 / check sources 查證來源 / spot lies 識破謊言 / fact-checking label 事實查核標示 / silence 使…噤聲",
+          sample: "[[David is right that]] **fake news** and **scams** are serious problems, [[but]] [[a better solution is to]] teach **media literacy** at school, so that people learn to check sources and spot lies. **Fact-checking** labels can also warn users without silencing anyone." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / educate 教育 / punish 懲罰 / real crime 真正的犯罪 / rather than 而不是 / be allowed to + V 被允許…",
+          sample: "[[In conclusion,]] governments [[should]] educate users and punish real crimes [[rather than]] decide what everyone is allowed to read." },
+      ] },
+    ]
+  },
 ];
