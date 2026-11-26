@@ -2671,4 +2671,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 79, cat: "Social media & influencers",
+    title: "Cyberbullying vs. Traditional Bullying", zh: "網路霸凌與傳統霸凌",
+    question: "Is cyberbullying more harmful than traditional bullying?", questionZh: "網路霸凌比傳統霸凌更有害嗎？",
+    professor: "This week we are discussing bullying in the digital age. In the past, bullying mostly happened face to face, in classrooms and on playgrounds. Today, a great deal of it takes place on social media, in group chats and in comment sections. Some experts argue that online bullying is even more damaging than the traditional kind, while others say that face-to-face bullying remains the more serious problem. In your opinion, is cyberbullying more harmful than traditional bullying? Why or why not?",
+    david: "I think cyberbullying is worse. In the past, a bullied student was at least safe at home, but now the insults follow him or her everywhere through the phone, even at midnight. Also, bullies can hide behind anonymous accounts, so they say much crueler things than they would ever dare to say in person.",
+    mary: "I don't agree. Face-to-face bullying can involve physical violence, and the victim has to see the bully at school every single day. Online, you can at least block an account or report a comment, and screenshots give you evidence. You can't block someone who is standing in front of your locker.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "網路霸凌比傳統霸凌更有害", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / cyberbullying 網路霸凌 / be more harmful than 比…更有害 / traditional bullying 傳統霸凌",
+          sample: "[[I agree with David that]] **cyberbullying** [[is more harmful than]] **traditional bullying**." },
+        { role: "New reason", zh: "補充新理由", hints: "Beyond the points he raised, I would add that 除了他提出的論點之外，我想補充 / reach 觸及 / audience 觀眾、受眾 / disappear 消失 / cruel remark 惡毒的話 / hallway 走廊 / In contrast 相較之下 / embarrassing 令人難堪的 / share 分享、轉傳 / within hours 幾小時之內",
+          sample: "[[Beyond]] the points [[he raised, I would add that]] online bullying reaches a much larger **audience** and never really disappears. A cruel remark in a hallway is heard by a few people and soon forgotten. [[In contrast,]] an embarrassing photo can be **shared** hundreds of times within hours, and it may stay online for years." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / secretly film 偷拍 / speech contest 演講比賽 / post 張貼、發文 / mocking caption 嘲諷的文字說明 / leave comments 留言 / laugh at 嘲笑 / refuse to + V 拒絕…",
+          sample: "[[For example,]] a girl at my junior high school was secretly filmed when she fell on stage during a speech contest. A classmate **posted** the video with a mocking caption, and students from three other schools left **comments** laughing at her. She refused to come to school for two weeks." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary points out that Mary 指出 / victim 受害者 / block 封鎖 / However 然而 / account 帳號 / delete 刪除 / simply 只要、乾脆 / create 建立",
+          sample: "[[Mary points out that]] **victims** can **block** bullies online. [[However,]] blocking one **account** does not delete the post, and the bully can simply create another account." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / do more lasting damage than 比…造成更長久的傷害 / in person 當面",
+          sample: "[[For these reasons, I believe that]] cyberbullying [[does more lasting damage than]] bullying in person." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "傳統霸凌仍然比網路霸凌更有害", rows: [
+        { role: "Position", zh: "表明立場", hints: "I share Mary's view that 我和 Mary 看法相同，認為 / traditional bullying 傳統霸凌 / be still more harmful than 仍然比…更有害 / cyberbullying 網路霸凌",
+          sample: "[[I share Mary's view that]] **traditional bullying** [[is still more harmful than]] **cyberbullying**." },
+        { role: "New reason", zh: "補充新理由", hints: "Another point worth considering is that 另一個值得考慮的重點是 / face-to-face 面對面的 / prove 證明 / corridor 走廊 / whispered threat 低聲的威脅 / leave no record 不留紀錄 / victim 受害者 / Without … 沒有… / evidence 證據 / continue 持續",
+          sample: "[[Another point worth considering is that]] face-to-face bullying is much harder to prove. A push in an empty corridor or a whispered **threat** leaves no record, so teachers often do not believe the **victim**. [[Without]] **evidence**, the bullying can continue for months." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / elementary school 國小 / lunch money 午餐錢 / kick 踢 / deny 否認 / nothing was done 沒有任何處理 / dread 害怕、畏懼 / beg + O + to + V 懇求… / change schools 轉學",
+          sample: "[[Take]] my cousin [[as an example.]] In elementary school, two older boys took his lunch money and kicked his schoolbag almost every day. When he finally told his teacher, the boys denied everything, and nothing was done. He dreaded every morning and begged his parents to let him change schools." },
+        { role: "Respond to David", zh: "回應對方", hints: "David is right that …, but David 說…是對的，但 / insult 侮辱、辱罵 / follow … home 跟著…回家 / turn off 關掉 / block 封鎖 / screenshot 螢幕截圖 / adult 大人",
+          sample: "[[David is right that]] online **insults** follow students home, [[but]] a student can turn off the phone, **block** the account and show the **screenshots** to an adult." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / in person 當面 / leave + O + with … 讓…只剩下… / protect oneself 保護自己 / treat A as B 把 A 視為 B / serious 嚴重的",
+          sample: "[[In conclusion,]] bullying in person leaves victims with fewer ways to protect themselves, so schools [[should]] treat it as the more serious problem." },
+      ] },
+    ]
+  },
 ];
