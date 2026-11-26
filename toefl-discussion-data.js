@@ -2807,4 +2807,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 83, cat: "Health & lifestyle",
+    title: "Country Life vs. City Life for Health", zh: "鄉村與都市哪個更健康",
+    question: "Is life in the countryside healthier than life in a big city?", questionZh: "住在鄉下比住在大城市更健康嗎？",
+    professor: "This week we are talking about how the place where we live affects our health. More than half of the world's population now lives in cities, and the number keeps rising. At the same time, some families are moving in the opposite direction: they leave the city for a small town or a village because they believe that life there is better for the body and the mind. Others reply that modern cities actually help people live longer. In your opinion, is life in the countryside healthier than life in a big city? Why or why not?",
+    david: "I think the countryside is healthier. The air is clean because there are few cars and factories, and at night it is quiet enough to sleep deeply. In a big city, people breathe traffic fumes on the way to work and hear noise at all hours. The food is fresher too, because vegetables and eggs often come straight from nearby farms.",
+    mary: "I see it differently. Good health depends on good medical care, and the best hospitals and specialists are in cities. In a rural area, the nearest emergency room may be an hour away, which can be the difference between life and death after a heart attack. Besides, an ambulance takes much longer to arrive, and small clinics often lack modern equipment.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "鄉村生活比較健康", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / countryside 鄉下、鄉村 / A is healthier than B A 比 B 更健康 / big city 大城市",
+          sample: "[[I agree with David that]] life in the **countryside** [[is healthier than]] life in a big city." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides … that David mentioned, I would add that 除了 David 提到的…之外，我想補充 / rural 鄉村的 / mental health 心理健康 / villager 村民 / neighbour 鄰居 / so 所以 / lonely 寂寞的 / stressed 有壓力的 / whereas 然而、相對地 / resident 居民 / stranger 陌生人 / concrete 水泥",
+          sample: "[[Besides]] the clean air [[that David mentioned, I would add that]] **rural** life is better for **mental health**. Villagers know their neighbours and see green fields every day, [[so]] they feel less lonely and less **stressed**, [[whereas]] many city **residents** live among strangers and concrete." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / farming village 農村 / grow vegetables 種菜 / chat with 和…聊天 / in one's late seventies 快八十歲 / cycle to 騎腳踏車去 / market 市場",
+          sample: "[[For example,]] my grandparents live in a farming village in Yunlin. They grow their own vegetables, chat with neighbours every evening and, in their late seventies, still cycle to the market." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary points out that Mary 指出 / rural area 鄉村地區 / That may be true; however, 這或許沒錯；然而 / online consultation 線上看診 / mobile clinic 行動診所、巡迴醫療 / close the gap 縮小差距 / stay active 保持活動 / in the first place 從一開始、根本上",
+          sample: "[[Mary points out that]] hospitals are far away in **rural areas**. [[That may be true; however,]] **online consultations** and **mobile clinics** are closing this gap, and people who stay active and eat fresh food need to see doctors less often in the first place." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / offer 提供 / a healthier way of life 更健康的生活方式",
+          sample: "[[For these reasons, I believe that]] the countryside offers a healthier **way of life**." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "鄉村生活不一定比較健康", rows: [
+        { role: "Position", zh: "表明立場", hints: "Although … is understandable 雖然…可以理解 / I agree with Mary that 我同意 Mary 所說的 / countryside 鄉下 / not necessarily 不一定 / healthier 更健康的",
+          sample: "[[Although]] David's view [[is understandable,]] [[I agree with Mary that]] living in the **countryside** [[is not necessarily]] healthier than living in a big city." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that Mary did not mention is that Mary 沒有提到的一點是 / healthy habit 健康的習慣 / convenient 方便的 / metro 捷運 / gym 健身房 / so 所以 / routine 日常作息 / whereas 然而、相對地 / rural 鄉村的 / drive everywhere 到哪裡都得開車",
+          sample: "[[One point that Mary did not mention is that]] cities make **healthy habits** more convenient. City residents walk to the metro and have **gyms**, swimming pools and parks nearby, [[so]] exercise becomes part of their **routine**, [[whereas]] **rural** residents usually have to drive everywhere." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / move from A to B 從 A 搬到 B / stop + V-ing 不再… / gain … kilograms 胖了…公斤 / within a year 一年內 / because 因為 / sports centre 運動中心",
+          sample: "[[Take]] my cousin [[as an example.]] After moving from Taipei to a small town, she stopped walking to work and gained five kilograms within a year [[because]] the nearest **sports centre** was forty minutes away." },
+        { role: "Respond to David", zh: "回應對方", hints: "David claims that David 聲稱 / polluted 受汙染的 / I understand his point, but 我理解他的觀點，但 / pesticide 農藥 / burn waste 焚燒廢棄物 / electric bus 電動公車 / strict 嚴格的 / emission rule 排放規定",
+          sample: "[[David claims that]] city air is **polluted**. [[I understand his point, but]] farms also use **pesticides** and burn waste, and many cities are now cleaning their air with electric buses and stricter **emission** rules." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / depend on 取決於 / daily habit 日常習慣 / rather than 而不是 / make + O + adj. 使…變得… / keep a habit 維持習慣",
+          sample: "[[In conclusion,]] health [[depends on]] our **daily habits** [[rather than]] on where we live, and cities make good habits easier to keep." },
+      ] },
+    ]
+  },
 ];
