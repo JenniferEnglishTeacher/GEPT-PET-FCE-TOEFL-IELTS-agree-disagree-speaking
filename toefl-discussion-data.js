@@ -2773,4 +2773,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 82, cat: "Work & economy",
+    title: "Staying with One Employer vs. Changing Jobs", zh: "久任一職與頻繁跳槽",
+    question: "Is it better to stay with one employer for many years than to change jobs frequently?", questionZh: "長期待在同一家公司比經常換工作更好嗎？",
+    professor: "This week we are discussing career paths. A generation ago, many people joined a company after graduation and stayed there until they retired. Today, surveys show that young workers often change employers every two or three years, a habit often called job-hopping. Some people see this as a smart way to get ahead, while others think it harms both workers and companies. In your opinion, is it better to stay with one employer for many years than to change jobs frequently? Why or why not?",
+    david: "I think staying is better. When you work in one company for a long time, you understand its products and its customers deeply, and your managers learn to trust you with bigger responsibilities. People who leave every two years are always beginners. Employers also notice a résumé full of short jobs and may wonder whether the candidate will leave them as well.",
+    mary: "I see it differently. Companies no longer promise lifelong jobs; they lay off staff whenever profits fall, so why should workers be loyal? Changing jobs is also the fastest way to earn more, because a new employer usually offers a much bigger pay rise than your current boss ever will. I would rather move on than wait years for a promotion.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "長期待在同一家公司比較好", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / employer 雇主 / A is better than B A 比 B 好 / frequently 頻繁地",
+          sample: "[[I agree with David that]] staying with one **employer** for many years [[is better than]] changing jobs frequently." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides … that David mentioned, I would add that 除了 David 提到的…之外，我想補充 / long-term employee 資深（長期）員工 / stability 穩定 / be more likely to + V 比較可能… / pension 退休金 / since 因為 / invest in 投資於 / job security 工作保障 / make it easier to + V 使…更容易 / plan for the future 規劃未來",
+          sample: "[[Besides]] the trust [[that David mentioned, I would add that]] **long-term employees** enjoy greater stability. They [[are more likely to]] receive a **pension** and training, [[since]] companies prefer to invest in people who will stay. This **job security** [[makes it easier to]] plan for the future." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / electronics company 電子公司 / master's degree 碩士學位 / promote sb. to 把某人升為 / department manager 部門經理 / whereas 然而、相對地 / start over 從頭開始",
+          sample: "[[For example,]] my uncle has worked for the same electronics company for eighteen years. The company paid for his master's degree and **promoted** him to department manager, [[whereas]] friends who kept changing jobs are still starting over." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / That may be true in the short term; however, 短期來看或許沒錯；然而 / probation period 試用期 / impress 讓…留下好印象 / job-hopper 經常跳槽的人 / be laid off 被裁員",
+          sample: "[[Mary argues that]] changing jobs is the fastest way to earn more. [[That may be true in the short term; however,]] every move means a new **probation period** and new colleagues to impress, and **job-hoppers** are often the first to be **laid off**." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / loyalty 忠誠 / pay off 有回報 / in the long run 長遠來看",
+          sample: "[[For these reasons, I believe that]] **loyalty** [[pays off in the long run]]." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "適時換工作比久待同一家公司好", rows: [
+        { role: "Position", zh: "表明立場", hints: "Although … is understandable 雖然…可以理解 / I agree with Mary that 我同意 Mary 所說的 / regularly 定期地 / for life 一輩子 / employer 雇主",
+          sample: "[[Although]] David's view [[is understandable,]] [[I agree with Mary that]] changing jobs regularly [[is better than]] staying with one **employer** for life." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that Mary did not mention is that Mary 沒有提到的一點是 / workplace 職場 / culture 文化 / so 所以 / a wide range of 各式各樣的 / skill 技能 / professional network 職場人脈 / make + O + adj. 使…變得… / adaptable 適應力強的",
+          sample: "[[One point that Mary did not mention is that]] working in different companies helps people learn faster. Each workplace has its own tools and culture, [[so]] people who move build a wider range of **skills** and a larger **professional network**, which [[makes]] them more **adaptable**." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / start-up 新創公司 / software 軟體 / write code 寫程式 / manage a budget 管理預算 / lead a meeting 主持會議 / recruiter 招募人員、獵頭",
+          sample: "[[Take]] my cousin [[as an example.]] In six years, she has worked at a start-up, a bank and a software company. She can write code, manage budgets and lead meetings, and **recruiters** contact her every month." },
+        { role: "Respond to David", zh: "回應對方", hints: "David points out that David 指出 / distrust 不信任 / résumé 履歷 / I understand his point, but 我理解他的觀點，但 / attitude 態度 / as long as 只要 / candidate 應徵者 / achieve 達成 / position 職位 / variety 多樣性 / strength 優勢",
+          sample: "[[David points out that]] employers distrust a **résumé** full of short jobs. [[I understand his point, but]] this attitude is changing: [[as long as]] candidates can explain what they achieved in each **position**, most managers see variety as a strength." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / be loyal to 忠於 / career growth 職涯成長 / rather than 而不是 / a single company 單一公司",
+          sample: "[[In conclusion,]] workers [[should]] be loyal to their **career growth** [[rather than]] to a single company." },
+      ] },
+    ]
+  },
 ];
