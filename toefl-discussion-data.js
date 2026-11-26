@@ -2361,4 +2361,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 70, cat: "Work & economy",
+    title: "Welfare Benefits and Motivation to Work", zh: "社會福利與工作意願",
+    question: "Do generous welfare benefits make people less motivated to work?", questionZh: "優渥的社會福利會讓人們比較不想工作嗎？",
+    professor: "This week we are discussing the welfare state. In many countries, the government gives money to people who have lost their jobs or who earn very little, so that they can still pay for food and housing. Some economists argue that when these benefits are generous, people have less reason to look for work, and taxpayers end up supporting them for years. Others believe that benefits give people the security they need to find a suitable job. In your opinion, do generous welfare benefits make people less motivated to work? Why or why not?",
+    david: "I think they do. If someone can receive almost as much money by staying at home as by working full-time, why would they get up early and work hard? I have read about people who turn down job offers because the salary is only slightly higher than their benefits. That is unfair to taxpayers who work hard every day. Benefits should be low and should last only a few months.",
+    mary: "I don't agree. Most people want to work, because a job gives them not only money but also self-respect and friends. Hardly anyone enjoys living on benefits. Besides, people usually lose their jobs because a factory closes or the economy is bad, not because they are lazy. Without support, they would have to accept the first job they find, even if it does not match their skills.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "優渥的社會福利會讓人們比較不想工作", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / generous 優渥的 / welfare benefits 社會福利津貼 / motivated 有動力的",
+          sample: "[[I agree with David that]] generous **welfare benefits** can make people less **motivated** to work." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to … that David mentioned, I would add that 除了 David 提到的…之外，我想補充 / unfairness 不公平 / taxpayer 納稅人 / the longer …, the harder … 越久…就越難… / stay out of work 沒有工作 / outdated 過時的 / confidence 自信 / so 所以 / harm 傷害",
+          sample: "[[In addition to]] the unfairness to **taxpayers** [[that David mentioned, I would add that]] [[the longer]] people stay out of work, [[the harder]] it becomes for them to return. Their skills become outdated and they lose confidence, [[so]] **benefits** that let people wait for years may actually harm them." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / relative 親戚 / receive benefits 領取津貼 / apply for 應徵 / gradually 漸漸地 / reject 拒絕 / gap 空白期 / résumé 履歷",
+          sample: "[[For example,]] a relative of mine lost his factory job and received **benefits** for nearly two years. At first he applied for jobs every week, but he gradually stopped trying, and employers later rejected him because of the long gap in his résumé." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / That may be true; however, 這或許沒錯；然而 / good intentions 良好的意願 / fade 消退 / pressure 壓力 / , which is why 這就是為什麼 / be linked to 與…掛鉤 / job training 職業訓練",
+          sample: "[[Mary argues that]] most people want to work. [[That may be true; however,]] good intentions fade when there is no pressure to act, [[which is why]] **benefits** should be linked to **job training**." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / short-term 短期的 / bridge 橋樑 / rather than 而不是 / long-term 長期的 / lifestyle 生活方式",
+          sample: "[[For these reasons, I believe that]] **benefits** [[should be]] a short-term bridge [[rather than]] a long-term lifestyle." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "優渥的社會福利不會讓人們比較不想工作", rows: [
+        { role: "Position", zh: "表明立場", hints: "Although … is understandable 雖然…可以理解 / concern 擔憂 / I agree with Mary that 我同意 Mary 所說的 / welfare benefits 社會福利津貼 / motivated 有動力的",
+          sample: "[[Although]] David's concern [[is understandable,]] [[I agree with Mary that]] generous **welfare benefits** do not make people less **motivated** to work." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that Mary did not mention is that Mary 沒有提到的一點是 / financial security 經濟保障 / encourage … to + V 鼓勵… / take risks 冒險 / be willing to + V 願意 / retrain 接受再訓練 / change careers 轉換職涯 / instead of 而不是 / unsuitable 不適合的",
+          sample: "[[One point that Mary did not mention is that]] **financial security** actually encourages people to take risks. When people know that they will not lose their homes, they [[are more willing to]] **retrain** or change careers [[instead of]] staying in an unsuitable job." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / Denmark 丹麥 / unemployment system 失業救濟制度 / yet 然而 / employment rate 就業率 / among the highest 名列前茅 / come together with 與…搭配 / career counselling 職涯諮商",
+          sample: "[[Take]] Denmark [[as an example.]] It has one of the most generous **unemployment** systems in the world, [[yet]] its **employment rate** is also among the highest, [[because]] **benefits** come together with **job training** and career counselling." },
+        { role: "Respond to David", zh: "回應對方", hints: "David points out that David 指出 / turn down 拒絕 / job offer 工作機會 / I understand his point, but 我理解他的觀點，但 / rare 罕見的 / prevent 防止 / require … to + V 要求… / rather than 而不是 / cut support 削減補助",
+          sample: "[[David points out that]] some people turn down job offers. [[I understand his point, but]] these cases are rare, and they can be prevented by requiring people to attend training [[rather than]] by cutting support for everyone." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / well-designed 設計完善的 / welfare system 社會福利制度 / not A but B 不是 A 而是 B / hammock 吊床 / trampoline 彈跳床 / bounce back 重新振作、彈回",
+          sample: "[[In conclusion,]] a well-designed **welfare system** is [[not]] a hammock [[but]] a trampoline that helps people bounce back into work." },
+      ] },
+    ]
+  },
 ];
