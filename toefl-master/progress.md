@@ -77,7 +77,7 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 71 | Email | Application / Job | Applying to Be a Volunteer at an International Film Festival 應徵國際影展志工 (to Ms. Delgado, volunteer manager of the Harbor City International Film Festival — student volunteers check tickets, help the audience find seats and welcome foreign directors and guests for ten days in October; why you want to volunteer (love foreign films, see a big event behind the scenes), a useful skill or experience (fluent English, information desk at the school open day), ask a question about the volunteers' schedule / shifts) | toefl-master/email-application-job.html
 72 | Email | Thanks / Follow-up | Thanking a Bookshop Owner for Donating Books 感謝書店老闆捐書給班級閱讀角 (to Mr. Reed, owner of Corner Bookshop — donated forty English novels and magazines to your class's English reading corner, you write as class representative; thank him + what the class thought of the books, how the books are being used (15-minute morning reading, 30+ books borrowed), invite him to visit the class next Friday) | toefl-master/email-thanks-follow-up.html
 
-## Discussion (72)
+## Discussion (77)
 01 | Discussion | Education | Should STEAM courses be mandatory for all university students? 大學應該把 STEAM 課程列為全體學生的必修嗎？ | toefl-master/discussion-education.html
 02 | Discussion | Technology & AI | Will AI-generated images and videos have a positive or a negative influence on society? AI 生成的圖片與影片對社會的影響是正面還是負面？ | toefl-master/discussion-technology-ai.html
 03 | Discussion | Social media & influencers | Do social media influencers have a mainly positive or a mainly negative influence on young people? 社群媒體網紅對年輕人的影響主要是正面還是負面？ | toefl-master/discussion-social-media-influencers.html
@@ -150,9 +150,14 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 70 | Discussion | Work & economy | Do generous welfare benefits make people less motivated to work? 優渥的社會福利會讓人們比較不想工作嗎？ | toefl-master/discussion-work-economy.html
 71 | Discussion | Health & lifestyle | Should companies give employees paid time to exercise during the working day? 公司應該讓員工在上班時間帶薪運動嗎？ | toefl-master/discussion-health-lifestyle.html
 72 | Discussion | Ethics & culture | Do people have a moral obligation to help strangers in need? 人們有道德義務幫助有困難的陌生人嗎？ | toefl-master/discussion-ethics-culture.html
+73 | Discussion | Education | Should high school students be allowed to sell food at school events? 高中生應該被允許在學校活動中販賣飲食嗎？ (學測講義 Unit 01) | toefl-master/discussion-education.html
+74 | Discussion | Work & economy | Should schools teach teenagers to save money, or let them learn by spending freely? 學校應該教青少年存錢，還是讓他們從自由花錢中學習？ (學測講義 Unit 02) | toefl-master/discussion-work-economy.html
+75 | Discussion | Technology & AI | Should phone companies be required to limit teenagers' screen time, or is it the family's responsibility? 應該要求手機業者限制青少年的螢幕時間，還是這是家庭的責任？ (學測講義 Unit 03) | toefl-master/discussion-technology-ai.html
+76 | Discussion | Technology & AI | Should high schools restrict students' use of AI until they master the basics, or fully integrate AI into lessons? 高中應該在學生打好基礎前限制使用 AI，還是把 AI 全面融入課堂？ (學測講義 Unit 04) | toefl-master/discussion-technology-ai.html
+77 | Discussion | Education | Should students take a gap year between high school and university? 學生應該在高中畢業後、上大學前先休一年空檔年嗎？ | toefl-master/discussion-education.html
 
 ## Notes for the next run
 - Sample markup in the HTML sources: `<span style="background-color:#fff2a8">` = universal pattern, `<b>` = theme word.
 - Website data: `toefl-discussion-data.js` (append one entry to TOEFL_DISCUSSIONS; `[[...]]` = pattern, `**...**` = theme word). Update the count on the "TOEFL Academic Discussion Essay" card in `dashboard.html`.
-- Open-ended since 2026-11-20: no upper limit; each run adds Email N+1 and Discussion N+1 in category (N mod 8) + 1.
+- Open-ended since 2026-11-20: no upper limit. Emails were paused on 2026-11-27 (72 is enough; leave the email files, docs and list as they are); runs now add discussions only: first up to 4 hand-offs from toefl-master/incoming/ (title ends with "(學測講義 Unit NN)"), then one own Discussion D+1 in category (O mod 8) + 1, where D = all discussions and O = those that are not 學測講義 hand-offs.
 - Index Google Doc 總目錄 (id 1oO2F8gRTOCgtO3S67bP6Boq-RKj_g0nkXSZXqTMm7lg): regenerated in place every run with toefl-master/build_index.py — see the scheduled task's step 7b. Never trash or recreate it.
