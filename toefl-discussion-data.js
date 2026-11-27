@@ -3385,4 +3385,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 100, cat: "Ethics & culture",
+    title: "Can Tradition and Modern Life Coexist?", zh: "傳統與現代生活能並存嗎？",
+    question: "Can traditional values and modern lifestyles coexist?", questionZh: "傳統價值與現代生活方式能並存嗎？",
+    professor: "This week we are looking at how societies change. In many countries, young people now live very differently from their grandparents: they move to cities for work, marry later, live alone and spend much of their day online. Some people believe that traditional values, such as respect for elders and close family ties, can survive alongside this modern way of life. Others believe that the two inevitably clash, so one must give way to the other. In your opinion, can traditional values and modern lifestyles coexist? Why or why not?",
+    david: "I believe they can. Traditional values are about what we care about, while a modern lifestyle is about how we live, so the two do not have to compete. Taiwan is a good example: it is a high-tech society, yet families still gather for dinner on Lunar New Year's Eve and people still visit temples. We simply express old values in new ways.",
+    mary: "I'm not so sure. Modern life rewards independence and speed, whereas tradition asks for duty and patience. When young people work long hours in a distant city, they cannot look after their parents or take part in family rituals, however much they would like to. Keeping a festival once a year is not the same as living by traditional values.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "認為傳統價值與現代生活方式能並存", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / traditional values 傳統價值 / modern lifestyle 現代生活方式 / coexist 並存",
+          sample: "[[I agree with David that]] **traditional values** and **modern lifestyles** [[can]] **coexist**." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to the point he made about …, I would add that 除了他提到關於…的論點之外，我想補充 / festival 節慶 / keep traditions alive 讓傳統延續下去 / Thanks to 多虧了 / video call 視訊通話 / relative 親戚 / live far apart 分隔兩地 / stay in touch 保持聯絡 / , which … 而這… / a generation ago 上一代的時候",
+          sample: "[[In addition to the point he made about]] festivals, [[I would add that]] modern technology helps people **keep traditions alive**. [[Thanks to]] video calls, relatives who live far apart can stay in touch every day, [[which]] was impossible a generation ago." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / yet 然而 / fly home 搭機返鄉 / Tomb Sweeping Day 清明節 / offerings 祭品 / ancestor 祖先 / ceremony 儀式",
+          sample: "[[For example,]] my cousin works in Singapore, [[yet]] she calls our grandmother every Sunday. When she could not fly home for Tomb Sweeping Day, she paid for the **offerings** and watched the **ceremony** online." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / distant 遙遠的 / look after 照顧 / That may be true; however, 這或許沒錯；然而 / filial piety 孝道 / live under the same roof 同住一個屋簷下 / medical care 醫療照護 / respect 尊敬",
+          sample: "[[Mary argues that]] young people in distant cities cannot look after their parents. [[That may be true; however,]] **filial piety** has never meant only living under the same roof. Paying for a parent's medical care and coming home for the holidays are modern ways of showing the same **respect**." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / survive 存續 / as long as 只要 / be willing to + V 願意… / adapt 調整、適應 / practise 實踐",
+          sample: "[[For these reasons, I believe that]] values survive [[as long as]] people are willing to **adapt** the way they practise them." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "認為傳統價值與現代生活方式難以並存", rows: [
+        { role: "Position", zh: "表明立場", hints: "Although I understand David's point 雖然我理解 David 的觀點 / I agree with Mary that 我同意 Mary 所說的 / traditional values 傳統價值 / modern lifestyle 現代生活方式 / clash 衝突",
+          sample: "[[Although I understand David's point,]] [[I agree with Mary that]] **traditional values** and **modern lifestyles** often **clash**." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that Mary did not mention is that Mary 沒有提到的一點是 / be built around 以…為核心 / individual freedom 個人自由 / expect to + V 期待… / whereas 然而、相對地 / obey 服從 / elders 長輩",
+          sample: "[[One point that Mary did not mention is that]] modern life is built around **individual freedom**. Young people expect to choose their own career and partner, [[whereas]] tradition expects them to **obey** their elders." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / the eldest son 長子 / be expected to + V 被期待… / take over 接手 / tea farm 茶園 / engineer 工程師 / When …, … 當…時 / not speak to sb. 不跟某人說話",
+          sample: "[[Take]] my uncle [[as an example.]] As the eldest son, he was expected to **take over** the family tea farm, but he wanted to be an engineer. When he chose his own career, my grandfather did not speak to him for two years." },
+        { role: "Respond to David", zh: "回應對方", hints: "David claims that David 聲稱 / express 表達 / I understand his point, but 我理解他的觀點，但 / hardly 幾乎不 / respect for elders 敬老、尊敬長輩 / shrink to 縮減成 / custom 習俗 / remain 留存 / meaning 意義",
+          sample: "[[David claims that]] we express old values in new ways. [[I understand his point, but]] a value that asks for nothing is hardly a value. If **respect for elders** shrinks to one dinner a year, the **custom** remains while its meaning is lost." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / force sb. to + V 迫使某人… / so 所以 / decide 決定 / be worth … 值得… / sacrifice 犧牲",
+          sample: "[[In conclusion,]] modern life forces us to choose, so we [[should]] decide which **traditions** are worth the **sacrifice**." },
+      ] },
+    ]
+  },
 ];
