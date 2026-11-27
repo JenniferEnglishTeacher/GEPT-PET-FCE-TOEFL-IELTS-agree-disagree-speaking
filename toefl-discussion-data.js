@@ -3147,4 +3147,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 93, cat: "Education",
+    title: "Should Learning a Musical Instrument Be Compulsory?", zh: "學樂器應該列為必修嗎？",
+    question: "Should all teenagers be required to learn a musical instrument at school?", questionZh: "學校應該規定所有青少年都學一種樂器嗎？",
+    professor: "This week we are looking at the place of the arts in the school curriculum. Research suggests that learning to play a musical instrument can improve memory, concentration and self-discipline, and some schools now require every student to learn one. Others say that music should remain a choice, because instruments and lessons are expensive and not every teenager has the interest or the talent. In your opinion, should all teenagers be required to learn a musical instrument at school? Why or why not?",
+    david: "I think they should. Playing an instrument trains the brain in a way that few other subjects do: you have to read the notes, count the beat and move your fingers at the same time. It also teaches patience, because nobody plays well without weeks of practice. If lessons were part of the timetable, children from poorer families would finally get a chance that only wealthy children have now.",
+    mary: "I don't think it should be compulsory. Students already have a heavy workload, and forcing an uninterested teenager to practise the violin will only make him hate music. Schools would also need to buy hundreds of instruments and hire specialist teachers. I would rather see music offered as an elective for those who really want it.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "認為所有青少年都應該在學校學樂器", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my view 依我之見 / musical instrument 樂器 / I agree with David that 我同意 David 所說的 / train 訓練 / character 品格",
+          sample: "[[In my view,]] all teenagers should learn a **musical instrument** at school, [[and I agree with David that]] it trains both the brain and the **character**." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides the benefits David mentioned, I would add that 除了 David 提到的好處之外，我想補充 / a healthy way to + V 一種健康的…方式 / relieve stress 紓解壓力 / face constant pressure 面臨持續不斷的壓力 / turn to 求助於、轉向 / instead of 而不是",
+          sample: "[[Besides the benefits David mentioned, I would add that]] playing music is [[a healthy way to]] **relieve stress**. Teenagers face constant **pressure** from exams, and an instrument gives them something to turn to [[instead of]] a screen." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / ukulele 烏克麗麗 / junior high 國中 / at first 起初 / not … at first, but now … 起初不…，但現在… / clear one's mind 讓頭腦清醒 / better than … does 比…更好",
+          sample: "[[For example,]] my cousin had to learn the **ukulele** in junior high. She did [[not]] enjoy it [[at first, but now]] she plays for twenty minutes every evening before studying, and she says it **clears her mind** better than her phone does." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / uninterested 沒興趣的 / However 然而 / not … until … 直到…才… / choose from 從…中挑選 / several 好幾種",
+          sample: "[[Mary argues that]] forcing **uninterested** students will make them hate music. [[However,]] many teenagers do [[not]] know what they like [[until]] they try it, and schools can let them choose from several instruments." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / should be part of 應該成為…的一部分 / education 教育",
+          sample: "[[For these reasons, I believe that]] learning an instrument [[should be part of]] every teenager's **education**." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "認為學樂器不應該列為必修", rows: [
+        { role: "Position", zh: "表明立場", hints: "Personally, I do not think that 就我個人而言，我不認為 / compulsory 必修的、強制的 / I share Mary's view that 我和 Mary 看法相同，認為 / work best as 最適合當作 / elective 選修課",
+          sample: "[[Personally, I do not think that]] learning an instrument should be **compulsory**, [[and I share Mary's view that]] music works best as an **elective**." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that Mary did not mention is that Mary 沒有提到的一點是 / talent 天分 / express oneself through 透過…表達自己 / rather than 而不是 / If …, … 如果… / lose time 失去時間 / be good at 擅長",
+          sample: "[[One point that Mary did not mention is that]] teenagers have different **talents**. Some **express themselves** through painting, drama or sport [[rather than]] music. [[If]] schools make an instrument compulsory, these students lose time for what they are really good at." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / make sb. + V 要求某人做… / practise 練習 / only because 只是因為 / give up 放棄 / as soon as 一…就… / In contrast 相較之下 / by choice 出於自願 / without being told 不用別人叮嚀",
+          sample: "[[Take]] my own experience [[as an example.]] My parents made me take piano lessons for four years. I **practised** only because I had to and **gave up** [[as soon as]] I could. [[In contrast,]] when I joined the school art club by choice, I worked hard without being told." },
+        { role: "Respond to David", zh: "回應對方", hints: "David says that David 說 / patience 耐心 / That may be true; however 這也許是真的；然而 / so do … …也是如此 / chess 西洋棋 / coding 程式設計 / be free to + V 可以自由地…",
+          sample: "[[David says that]] music lessons teach **patience**. [[That may be true; however,]] so do chess, coding and team sports, [[so]] students should be free to choose how they develop these skills." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / available to everyone 人人都能接觸到 / compulsory for no one 不強迫任何人",
+          sample: "[[In conclusion,]] schools [[should]] make music **available** to everyone but compulsory for no one." },
+      ] },
+    ]
+  },
 ];
