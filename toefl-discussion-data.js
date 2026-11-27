@@ -3249,4 +3249,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 96, cat: "Environment",
+    title: "Is Climate Change Our Most Urgent Problem?", zh: "氣候變遷是最迫切的問題嗎？",
+    question: "Is climate change the most pressing issue facing humanity today?", questionZh: "氣候變遷是人類當前面臨最迫切的問題嗎？",
+    professor: "This week we are discussing global priorities. Governments and international organizations have limited money and attention, so they must decide which problems to deal with first. Many scientists and activists say that climate change should come before everything else. Others point out that the world also faces poverty, hunger, disease and war, and that these problems deserve at least as much attention. In your opinion, is climate change the most pressing issue facing humanity today? Why or why not?",
+    david: "I believe it is. Climate change affects every country on Earth, rich or poor, and nobody can escape it. Sea levels are rising, storms are getting stronger and summers are getting hotter every year. Scientists keep warning us that we have only a short time left to act, so we cannot afford to put this problem second.",
+    mary: "I see it differently. Climate change is a slow, long-term problem, but millions of people are suffering right now from hunger, dirty water and diseases that are cheap to prevent. If I had to choose where to spend money first, I would help the people who may not survive this year.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "氣候變遷是最迫切的問題", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / climate change 氣候變遷 / pressing 迫切的 / issue 議題 / face 面臨 / humanity 人類",
+          sample: "[[I agree with David that]] **climate change** [[is]] the most pressing issue facing humanity today." },
+        { role: "New reason", zh: "補充新理由", hints: "One point David did not mention is that David 沒有提到的一點是 / drought 乾旱 / flood 洪水 / crop 農作物 / push up 推高 / drive … into poverty 使…陷入貧窮 / be forced to + V 被迫… / which often leads to 這往往導致 / conflict 衝突",
+          sample: "[[One point David did not mention is that]] **climate change** makes almost every other problem worse. **Droughts** and **floods** destroy crops, which pushes up food prices and drives poor families deeper into poverty. When land becomes too hot or too dry to live on, millions of people are forced to leave their homes, [[which often leads to]] conflict." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / flood 洪水 / force … to leave 迫使…離開 / destroy 摧毀 / huge areas of 大片的 / farmland 農地",
+          sample: "[[For example,]] in 2022, **floods** in Pakistan forced millions of people to leave their homes and destroyed huge areas of **farmland**." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / urgent 緊急的 / This is a fair point; however, 這個觀點有道理；然而 / at any time 隨時 / whereas 然而、相對地 / global warming 全球暖化 / reverse 逆轉 / ice 冰 / melt 融化",
+          sample: "[[Mary argues that]] hunger and disease are more urgent. [[This is a fair point; however,]] those problems can be solved at any time if we find the money, [[whereas]] **global warming** cannot be reversed once the ice has melted." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / cut 減少 / carbon emissions 碳排放 / first priority 第一優先",
+          sample: "[[For these reasons, I believe that]] cutting **carbon emissions** [[must be]] the world's first priority." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "氣候變遷不是最迫切的問題", rows: [
+        { role: "Position", zh: "表明立場", hints: "I share Mary's view that 我和 Mary 看法相同，認為 / climate change 氣候變遷 / though serious 雖然嚴重 / pressing 迫切的 / humanity 人類",
+          sample: "[[I share Mary's view that]] **climate change**, though serious, [[is not]] the most pressing issue facing humanity today." },
+        { role: "New reason", zh: "補充新理由", hints: "Another point worth considering is that 另一個值得考慮的重點是 / basic needs 基本需求 / be met 得到滿足 / electricity 電力 / coal 煤 / survive 生存 / Only when … can ~ 唯有…才能～ / escape poverty 脫離貧窮 / afford 負擔得起 / solar panel 太陽能板 / In other words 換句話說",
+          sample: "[[Another point worth considering is that]] poor countries cannot protect the environment until their basic needs are met. A family with no clean water or electricity will burn wood and **coal** to survive. [[Only when]] people escape poverty [[can]] they afford **solar panels** and cleaner factories. [[In other words,]] fighting poverty is also a way of fighting **global warming**." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / malaria 瘧疾 / hundreds of thousands of 數十萬 / yet 然而 / bed net 蚊帳 / save a life 救一條命",
+          sample: "[[Take]] malaria [[as an example.]] It still kills hundreds of thousands of children every year, yet a bed net that costs a few dollars can save a life today, not in fifty years." },
+        { role: "Respond to David", zh: "回應對方", hints: "David is right that …, but David 說…是對的，但 / rising temperatures 上升的氣溫 / threaten 威脅 / Besides 此外 / be prepared for 為…做好準備 / extreme weather 極端天氣",
+          sample: "[[David is right that]] rising temperatures threaten every country, [[but]] people who are dying now cannot wait. Besides, richer societies will be better prepared for **extreme weather**." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / deal with 處理 / hunger 飢餓 / disease 疾病 / rather than 而不是 / treat A as B 把 A 當作 B / emergency 緊急事件",
+          sample: "[[In conclusion,]] the world [[should]] deal with hunger and disease first [[rather than]] treat **climate change** as the only emergency." },
+      ] },
+    ]
+  },
 ];
