@@ -2943,4 +2943,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 87, cat: "Social media & influencers",
+    title: "Social Media as a News Source", zh: "社群媒體是好的新聞來源嗎？",
+    question: "Is social media a good source of news?", questionZh: "社群媒體是好的新聞來源嗎？",
+    professor: "This week we are discussing how people get their news. Surveys show that a growing number of young adults now get most of their news from platforms such as Instagram, YouTube and TikTok instead of newspapers or television. Some people welcome this change, saying that it makes news faster and more open, while others worry that it spreads misinformation. In your opinion, is social media a good source of news? Why or why not?",
+    david: "Yes, I think it is. News on social media arrives within minutes, long before the evening TV programme, and it costs nothing. You can also follow reporters, experts and ordinary eyewitnesses directly, so you hear many different voices instead of just one editor's choice.",
+    mary: "I don't think so. Anyone can post anything, and false stories often spread faster than true ones because they are more shocking. Besides, the algorithm only shows you what you already like, so you end up in a bubble. Professional newsrooms check their facts before they publish; most people online don't.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "認為社群媒體是好的新聞來源", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / social media 社群媒體 / source of news 新聞來源 / especially 尤其",
+          sample: "[[I agree with David that]] **social media** [[is]] a good **source of news**, especially for young people." },
+        { role: "New reason", zh: "補充新理由", hints: "Beyond the points he raised, I would add that 除了他提出的論點之外，我想補充 / interactive 互動的 / post 貼文 / compare 比較 / source 消息來源 / react 反應 / As a result 因此 / ignore 忽視",
+          sample: "[[Beyond]] the points [[he raised, I would add that]] social media makes the news interactive. Readers can ask questions under a **post**, compare several **sources** in seconds, and see how people in other countries react. [[As a result,]] teenagers who used to ignore the news now discuss it every day." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / earthquake 地震 / hit 侵襲 / local resident 當地居民 / upload 上傳 / damaged 受損的 / official account 官方帳號 / safety advice 安全須知 / news report 新聞報導",
+          sample: "[[For example,]] when a strong earthquake hit Hualien in 2024, I learned about it from a friend's post within two minutes. Local residents **uploaded** videos of damaged roads, and the government's official **account** shared safety advice long before the television **news report** began." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary points out that Mary 指出 / false story 假消息 / spread 散播 / However 然而 / solution 解決辦法 / check sources 查證來源 / avoid 避開 / tool 工具",
+          sample: "[[Mary points out that]] false stories **spread** quickly online. [[However,]] the solution is to teach students to check their sources, not to avoid a useful tool." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / used carefully 謹慎使用的話 / stay informed 掌握時事",
+          sample: "[[For these reasons, I believe that]] social media, used carefully, [[is]] an excellent way to stay **informed**." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "認為社群媒體不是可靠的新聞來源", rows: [
+        { role: "Position", zh: "表明立場", hints: "I share Mary's view that 我和 Mary 看法相同，認為 / social media 社群媒體 / reliable 可靠的 / source of news 新聞來源",
+          sample: "[[I share Mary's view that]] **social media** [[is not]] a reliable **source of news**." },
+        { role: "New reason", zh: "補充新理由", hints: "Another point worth considering is that 另一個值得考慮的重點是 / platform 平台 / attention 注意力 / accuracy 正確性 / algorithm 演算法 / push 推送 / keep + O + V-ing 讓…持續… / scroll 滑（手機）/ headline 標題 / be buried 被埋沒 / Consequently 結果 / complicated 複雜的",
+          sample: "[[Another point worth considering is that]] **platforms** earn money from attention, not from **accuracy**. Their **algorithms** push whatever keeps users scrolling, so angry **headlines** and short clips appear first, while careful reports are buried. [[Consequently,]] people feel informed although they have only watched fifteen seconds of a complicated story." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / forward 轉傳 / family group 家族群組 / claim 聲稱 / instant noodles 泡麵 / cause cancer 致癌 / rumour 謠言 / deny 否認 / health authorities 衛生主管機關 / yet 然而 / throw away 丟掉",
+          sample: "[[Take]] my aunt [[as an example.]] Last year she **forwarded** a message to our family group claiming that a popular brand of instant noodles caused cancer. It was only a **rumour** that the health authorities had already denied, yet three relatives threw away their food before anyone checked." },
+        { role: "Respond to David", zh: "回應對方", hints: "David is right that …, but David 說…是對的，但 / speed 速度 / useless 沒有用的 / fact-checked 經過事實查核的 / be worth far more 有價值得多",
+          sample: "[[David is right that]] social media is fast, [[but]] speed is useless if the information is wrong. A **fact-checked** report that arrives an hour later is worth far more." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / treat A as B 把 A 當作 B / starting point 起點 / turn to 求助於 / professional journalist 專業記者 / the facts 事實",
+          sample: "[[In conclusion,]] people [[should]] treat social media only as a starting point and turn to professional **journalists** for the facts." },
+      ] },
+    ]
+  },
 ];
