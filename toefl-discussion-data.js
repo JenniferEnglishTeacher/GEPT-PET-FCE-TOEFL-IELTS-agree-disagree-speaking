@@ -3317,4 +3317,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 98, cat: "Work & economy",
+    title: "Tourism: More Good than Harm?", zh: "觀光業：利大於弊？",
+    question: "Does tourism do more good than harm to local communities?", questionZh: "觀光業對當地社區是利大於弊嗎？",
+    professor: "This week we are looking at tourism, one of the largest industries in the world. Every year, millions of visitors spend money in hotels, restaurants and shops, and many towns depend on them for their income. At the same time, residents of popular destinations such as Venice and Kyoto have started to complain about the number of tourists. In your opinion, does tourism do more good than harm to local communities? Why or why not?",
+    david: "I believe it does more good. Tourism creates a huge number of jobs, from hotel staff and tour guides to taxi drivers and the farmers who supply restaurants. Many of these jobs do not require a university degree, so they are open to almost everyone. Without visitors, a lot of small towns would have very little income, and their young people would have to leave.",
+    mary: "I see it differently. When too many tourists arrive, daily life becomes difficult for the people who actually live there. Streets and buses are crowded, there is more rubbish and noise, and prices in shops and restaurants go up. Most of the profit goes to big hotel chains and airlines, while ordinary residents pay the costs.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "觀光業對當地社區利大於弊", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / tourism 觀光業 / do more good than harm 利大於弊 / local community 當地社區",
+          sample: "[[I agree with David that]] **tourism** [[does more good than harm]] to **local communities**." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides … that David mentioned, I would add that 除了 David 提到的…之外，我想補充 / keep … alive 讓…延續下去 / craft 工藝 / festival 節慶 / maintain 維護 / lose interest in 對…失去興趣 / be willing to + V 願意… / however 然而 / heritage 文化遺產",
+          sample: "[[Besides]] the jobs [[that David mentioned, I would add that]] tourism keeps local culture alive. Traditional crafts and festivals are expensive to maintain, and young people lose interest in them. When visitors [[are willing to]] pay to see them, [[however,]] a community has both the money and a reason to protect its **heritage**." },
+        { role: "Example", zh: "舉例", hints: "A good example is 一個很好的例子是 / mining town 礦業小鎮 / mine 礦坑 / bring … back to life 讓…重現生機 / preserve 保存 / run a shop 開店",
+          sample: "[[A good example is]] Jiufen, an old mining town in northern Taiwan. After the mines closed, it was almost empty, but tourism brought it back to life. Today its old streets are carefully preserved, and hundreds of families run shops there." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / crowd 人潮 / This is a real problem; however, 這確實是個問題；然而 / manage 管理 / visitor limit 遊客人數上限 / tourist tax 觀光稅 / can be used to + V 可以用來… / service 服務 / resident 居民",
+          sample: "[[Mary argues that]] tourists bring crowds and higher prices. [[This is a real problem; however,]] it can be managed with **visitor limits** and a **tourist tax**, and the money [[can be used to]] improve services for **residents**." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / benefit 好處 / clearly outweigh 明顯超過 / cost 代價",
+          sample: "[[For these reasons, I believe that]] the benefits of **tourism** [[clearly outweigh]] its costs." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "觀光業對當地社區弊大於利", rows: [
+        { role: "Position", zh: "表明立場", hints: "Although … 雖然… / bring in money 帶來收入 / I agree with Mary that 我同意 Mary 所說的 / do more harm than good 弊大於利 / local community 當地社區",
+          sample: "[[Although]] tourism brings in money, [[I agree with Mary that]] it [[does more harm than good]] to **local communities**." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that Mary did not mention is that Mary 沒有提到的一點是 / push up 推高 / housing 住房 / landlord 房東 / rent A to B 把 A 租給 B / As a result 結果 / rent 房租 / rise sharply 急遽上漲 / be forced to + V 被迫… / neighbourhood 街區、社區",
+          sample: "[[One point that Mary did not mention is that]] tourism pushes up the cost of **housing**. Landlords can earn far more by renting a flat to tourists for a few nights than to a local family for a year. [[As a result,]] rents rise sharply, and young **residents** [[are forced to]] leave the neighbourhoods where they grew up." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / flat 公寓 / turn A into B 把 A 變成 B / holiday rental 短期度假出租 / march 遊行 / in protest 以示抗議 / plan to + V 計畫… / ban 禁止",
+          sample: "[[Take]] Barcelona [[as an example.]] Thousands of flats there have been turned into **holiday rentals**, and rents have risen so fast that residents have marched in protest. The city now plans to ban such rentals." },
+        { role: "Respond to David", zh: "回應對方", hints: "David points out that David 指出 / That is true, but 這沒錯，但 / low-paid 低薪的 / seasonal 季節性的 / earn 賺取 / off season 淡季",
+          sample: "[[David points out that]] tourism creates many jobs. [[That is true, but]] most of them are **low-paid** and **seasonal**, so workers earn little in the off season." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / depend on 依賴 / risk + V-ing 冒著…的風險 / the very + N 正是那些… / special 特別的",
+          sample: "[[In conclusion,]] a town that depends too heavily on **tourism** [[risks]] losing the very people who make it special." },
+      ] },
+    ]
+  },
 ];
