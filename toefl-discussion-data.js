@@ -3521,4 +3521,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 104, cat: "Environment",
+    title: "Can Individual Choices Save the Environment?", zh: "個人的選擇能拯救環境嗎？",
+    question: "Can the everyday choices of individuals make a real difference to the environment?", questionZh: "個人的日常選擇能對環境產生真正的影響嗎？",
+    professor: "This week we are discussing who is responsible for protecting the environment. We are often told to recycle, carry reusable bags, take shorter showers and turn off the lights. Some people believe that such everyday choices, repeated by millions of people, can make a real difference. Others argue that these habits are far too small to matter and that only governments and large companies have the power to solve environmental problems. In your opinion, can the everyday choices of individuals make a real difference to the environment? Why or why not?",
+    david: "I think they can. One person's choices may look small, but there are eight billion of us. If every family wasted less food, used less electricity and bought fewer things they don't need, the total effect would be enormous. Besides, good habits spread: when my neighbors see me cycling to work, some of them start to do the same.",
+    mary: "I'm not convinced. Most pollution comes from power plants, factories and transport systems, and ordinary people have no control over those. I can refuse a plastic bag every day of my life, and it will not change how my country produces its electricity. Only governments and big corporations can make changes on that scale.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "贊成個人的日常選擇能真正改善環境", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / everyday choices 日常選擇 / ordinary people 一般人 / make a real difference to 對…產生真正的影響 / environment 環境",
+          sample: "[[I agree with David that]] the **everyday choices** of ordinary people [[can make a real difference to]] the **environment**." },
+        { role: "New reason", zh: "補充新理由", hints: "One point David did not mention is that David 沒有提到的一點是 / shape 影響、塑造 / whatever sells 任何賣得出去的東西 / refuse 拒絕 / wasteful 浪費的 / firm 公司 / In other words 換句話說 / purchase 購買 / vote 選票 / transform 徹底改變 / industry 產業",
+          sample: "[[One point David did not mention is that]] individual choices shape what companies produce. Businesses make whatever sells, so when enough shoppers refuse **wasteful** products, firms change quickly. [[In other words,]] every purchase is a kind of vote, and millions of small votes can transform a whole industry." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / as more and more … 隨著越來越多… / packaging 包裝 / loose 散裝的 / refill station 補充站（裸裝補充區） / although 雖然 / force … to + V 強迫…去…",
+          sample: "[[For example,]] [[as more and more]] shoppers asked for products with less **packaging**, many supermarkets began to sell loose fruit and vegetables and to open **refill stations**, [[although]] no law forced them to." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / corporation 大企業 / cut pollution 減少污染 / This is a fair point; however, 這個觀點有道理；然而 / politician 政治人物 / voter 選民 / neither … unless ~ 除非～，否則兩者都不會… / care 在乎",
+          sample: "[[Mary argues that]] only governments and large corporations have the power to cut **pollution**. [[This is a fair point; however,]] politicians follow voters and companies follow customers, so neither will act [[unless]] ordinary people show that they care." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / protect the planet 保護地球 / start with 從…開始 / each of us 我們每一個人 / not with … 而不是從…",
+          sample: "[[For these reasons, I believe that]] **protecting the planet** starts with each of us, not with someone else." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "認為只有政府與大企業才能真正解決環境問題", rows: [
+        { role: "Position", zh: "表明立場", hints: "I share Mary's view that 我和 Mary 看法相同，認為 / individual choices 個人的選擇 / however well-meant 無論多麼出於善意 / solve 解決 / environmental problems 環境問題 / without 如果沒有",
+          sample: "[[I share Mary's view that]] individual choices, [[however]] well-meant, cannot solve **environmental problems** [[without]] action from governments and large companies." },
+        { role: "New reason", zh: "補充新理由", hints: "Another point worth considering is that 另一個值得考慮的重點是 / green lifestyle 環保的生活方式 / unless 除非 / system 制度、體系 / clean electricity 乾淨的電力 / power company 電力公司 / burn coal 燒煤 / Only when … can ~ 唯有…才能～ / infrastructure 基礎建設",
+          sample: "[[Another point worth considering is that]] most people cannot choose a **green lifestyle** [[unless]] the system allows it. A worker in a town with no trains has to drive, and a family cannot buy **clean electricity** if the power company only burns **coal**. [[Only when]] governments build the right **infrastructure** [[can]] individuals make greener choices." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / ozone layer 臭氧層 / recover 復原 / not mainly because …, but because ~ 主要不是因為…，而是因為～ / give up 放棄 / hairspray 噴霧髮膠 / international agreement 國際協定 / ban 禁止 / chemical 化學物質",
+          sample: "[[Take]] the **ozone layer** [[as an example.]] It began to recover [[not mainly because]] shoppers gave up hairspray, [[but because]] an international agreement in 1987 banned the **chemicals** that were destroying it." },
+        { role: "Respond to David", zh: "回應對方", hints: "David is right that …, but David 說…是對的，但 / add up 積少成多 / far too slowly 實在太慢 / Besides 此外 / focus on 著重於 / personal guilt 個人的罪惡感 / polluter 污染者 / avoid responsibility 逃避責任",
+          sample: "[[David is right that]] small actions add up, [[but]] they add up far too slowly. [[Besides,]] focusing on personal guilt lets the biggest **polluters** avoid responsibility." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / keep + V-ing 持續… / recycle 回收 / real change 真正的改變 / come from 來自 / strict law 嚴格的法律 / clean energy 潔淨能源 / rather than 而不是 / habit 習慣",
+          sample: "[[In conclusion,]] we [[should]] keep **recycling**, but real change will come from strict laws and **clean energy** [[rather than]] from individual habits." },
+      ] },
+    ]
+  },
 ];
