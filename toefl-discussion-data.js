@@ -2977,4 +2977,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 88, cat: "Environment",
+    title: "Compulsory Recycling with Fines", zh: "立法強制回收並開罰",
+    question: "Should recycling be made compulsory by law, with fines for households that do not sort their waste?", questionZh: "應該立法強制回收，並對不做垃圾分類的家庭開罰嗎？",
+    professor: "This week we are discussing waste management. The average household throws away hundreds of kilograms of rubbish every year, and much of it, such as paper, glass, metal and plastic, could be recycled. In many places recycling is voluntary, and a large share of recyclable material still ends up in landfills or incinerators. Some cities have therefore made recycling compulsory and fine households that do not sort their waste correctly. Others prefer to rely on education and convenience. In your opinion, should recycling be made compulsory by law, with fines for households that do not sort their waste? Why or why not?",
+    david: "I think it should. Voluntary schemes depend on people's goodwill, and experience shows that goodwill is not enough: many people simply can't be bothered. We already fine drivers who speed and people who litter, so fining those who refuse to recycle is perfectly reasonable. A law also sends a clear message that protecting the environment is everyone's duty.",
+    mary: "I disagree. People recycle more when they understand why it matters and when it is convenient, not when they are afraid of punishment. Fines would hit poor families hardest, and they would make people resent environmental policies. I'd rather see governments put more recycling bins on the streets and teach children about waste at school.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "應該立法強制回收並開罰", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / recycling 資源回收 / be required by law 由法律規定 / fine 罰款 / household 家戶 / sort waste 垃圾分類",
+          sample: "[[I agree with David that]] **recycling** [[should]] be required by law, with **fines** for households that refuse to sort their **waste**." },
+        { role: "New reason", zh: "補充新理由", hints: "One point David did not mention is that David 沒有提到的一點是 / as well as 以及 / bury 掩埋 / rubbish 垃圾 / run out of 用完 / landfill 垃圾掩埋場 / raw material 原料 / instead of 而不是 / taxpayer 納稅人",
+          sample: "[[One point David did not mention is that]] compulsory recycling saves money as well as nature. Burying or burning **rubbish** is expensive, and many cities are running out of space for **landfills**. When glass, paper and metal are **recycled**, they become valuable **raw materials** [[instead of]] a cost to taxpayers." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / resident 居民 / official rubbish bag 專用垃圾袋 / the amount of …的量 / household rubbish 家庭垃圾 / fall by more than half 減少一半以上",
+          sample: "[[For example,]] after Taipei required residents to **sort** their **waste** and pay for official rubbish bags, the amount of household **rubbish** fell by more than half." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / punishment 懲罰 / This is a fair point; however, 這個觀點有道理；然而 / campaign 宣導活動 / for decades 數十年來 / bin 垃圾桶 / unless 除非 / penalty 罰則",
+          sample: "[[Mary argues that]] education works better than punishment. [[This is a fair point; however,]] campaigns alone have been tried for decades, and many people still throw everything into one bin [[unless]] there is a real **penalty**." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / backed by 以…為後盾 / modest 適度的 / the most effective way to 最有效的方法 / turn A into B 把 A 變成 B / daily habit 日常習慣",
+          sample: "[[For these reasons, I believe that]] a clear law backed by modest **fines** [[is the most effective way to]] turn **recycling** into a daily habit." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "不應該對未做回收的家庭開罰", rows: [
+        { role: "Position", zh: "表明立場", hints: "I share Mary's view that 我和 Mary 看法相同，認為 / fine 對…罰款 / household 家戶 / fail to 未能 / recycle 回收",
+          sample: "[[I share Mary's view that]] governments [[should not]] **fine** households for failing to **recycle**." },
+        { role: "New reason", zh: "補充新理由", hints: "Another point worth considering is that 另一個值得考慮的重點是 / enforce 執行（法律） / fairly 公平地 / official 官員 / rubbish bag 垃圾袋 / apartment building 公寓大樓 / share bins 共用垃圾桶 / innocent 無辜的 / end up + V-ing 最後落得…",
+          sample: "[[Another point worth considering is that]] such a law is almost impossible to **enforce** fairly. Officials cannot check every **rubbish** bag, so only a few unlucky families would be punished. In apartment buildings where residents share **bins**, nobody can tell who made the mistake, and innocent neighbours might [[end up]] paying." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / rule 規定 / plastic 塑膠 / packaging 包裝材料 / confuse 使困惑 / elderly people 年長者 / unfair 不公平的 / resentment 反感、怨恨",
+          sample: "[[Take]] my grandmother [[as an example.]] She wants to recycle, but the rules about different kinds of **plastic** and **packaging** confuse her. Fining elderly people like her would be unfair and would only create resentment." },
+        { role: "Respond to David", zh: "回應對方", hints: "David is right that …, but David 說…是對的，但 / voluntary 自願的 / reward 獎勵 / punishment 懲罰 / deposit scheme 押金制度 / return 退回 / return rate 回收率",
+          sample: "[[David is right that]] voluntary recycling is often too slow, [[but]] rewards work better than punishment. **Deposit** schemes that give money back for returned bottles achieve very high return rates without fining anyone." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / rewarding 有回報的 / rather than 而不是 / treat A as B 把 A 當作 B / ordinary 普通的 / criminal 罪犯",
+          sample: "[[In conclusion,]] governments [[should]] make **recycling** easy and rewarding [[rather than]] treat ordinary families as criminals." },
+      ] },
+    ]
+  },
 ];
