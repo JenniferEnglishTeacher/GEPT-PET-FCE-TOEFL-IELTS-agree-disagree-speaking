@@ -3181,4 +3181,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 94, cat: "Technology & AI",
+    title: "Should Robots Care for the Elderly?", zh: "機器人該照顧長者嗎？",
+    question: "Should robots be used to care for elderly people?", questionZh: "應該用機器人來照顧年長者嗎？",
+    professor: "This week we are looking at technology and ageing. In Japan and several European countries, care homes have begun to use robots that lift residents out of bed, remind them to take their medicine and even chat with them. Supporters say that robots can ease the shortage of care workers, while critics worry that machines cannot give older people the human contact they need. Should robots be used to care for elderly people? Why or why not?",
+    david: "Yes, I think they should. Many countries are ageing quickly, and there are simply not enough nurses and carers. Robots can do the heavy, repetitive work, such as lifting patients and delivering meals, and they can watch over a person all night without getting tired. This leaves human staff more time to talk to residents.",
+    mary: "I disagree. Older people need warmth and understanding, and a machine can only pretend to care. If families and care homes start relying on robots, elderly people may be left alone with a screen for most of the day. Robots are also expensive and can break down, which could be dangerous for someone who is weak.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "支持用機器人照顧長者", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / robot 機器人 / the elderly 年長者 / as long as 只要 / support 協助 / carer 照顧者、照服員",
+          sample: "[[I agree with David that]] **robots** [[should be]] used to care for **elderly** people, [[as long as]] they support human **carers**." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to …, I would add that 除了…之外，我想補充 / save labour 節省人力 / independent 獨立自主的 / senior 長者 / embarrassed 難為情的 / ask … for help with 請…幫忙 / dress 穿衣 / allow … to + V 讓…能夠 / by themselves 靠自己",
+          sample: "[[In addition to]] saving labour, [[I would add that]] robots help older people stay **independent**. Many **seniors** feel embarrassed to ask someone for help with washing or dressing. A machine [[allows]] them [[to]] do these things by themselves." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / live alone 獨居 / take one's medicine 吃藥 / companion robot 陪伴型機器人 / remind 提醒 / have not … since then 從那時起就沒有… / miss a dose 漏吃一次藥 / far less 少得多",
+          sample: "[[For example,]] my grandmother lives alone and often forgot to take her **medicine**. Last year my aunt bought her a **companion robot** that reminds her every morning. She [[has not]] missed a dose [[since then]], and we worry far less." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / pretend 假裝 / While that is true 雖然這是事實 / handle 處理 / routine task 例行工作 / so that 以便、好讓 / conversation 交談",
+          sample: "[[Mary argues that]] a machine can only pretend to care. [[While that is true,]] nobody expects a robot to love anyone. Its job is to handle **routine tasks** [[so that]] nurses have more energy for real conversation." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / care robot 照護機器人 / welcome 歡迎、接納 / helper 幫手 / ageing society 高齡化社會",
+          sample: "[[For these reasons, I believe that]] **care robots** [[should be]] welcomed as helpers in an **ageing society**." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "反對用機器人照顧長者", rows: [
+        { role: "Position", zh: "表明立場", hints: "Personally, I do not think that 就我個人而言，我不認為 / robot 機器人 / the elderly 年長者 / I share Mary's view that 我和 Mary 看法相同，認為 / replace 取代 / human warmth 人的溫暖",
+          sample: "[[Personally, I do not think that]] **robots** should care for **elderly** people, [[and I share Mary's view that]] machines cannot replace human **warmth**." },
+        { role: "New reason", zh: "補充新理由", hints: "Another point worth considering is that 另一個值得考慮的重點是 / threaten 威脅 / privacy 隱私 / dignity 尊嚴 / microphone 麥克風 / record 錄下 / private moment 私密時刻 / be hardly + adj. 實在稱不上… / respectful 尊重人的",
+          sample: "[[Another point worth considering is that]] care robots threaten **privacy** and **dignity**. To do their job, they use cameras and microphones that record a person's most private moments. Being watched all day by a machine [[is hardly]] respectful." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / install 安裝 / monitoring robot 監看型機器人 / instead of 而不是 / app 應用程式 / fine 沒事的 / lonely 孤單的",
+          sample: "[[Take]] my neighbour, Mr. Lin, [[as an example.]] His son installed a **monitoring** robot and now visits once a month [[instead of]] every weekend, because the app says that his father is fine. Mr. Lin says he has never felt so **lonely**." },
+        { role: "Respond to David", zh: "回應對方", hints: "David says that David 說 / staff 員工 / resident 住民 / That may be true in theory; however 理論上也許如此；然而 / be more likely to + V 更有可能… / cut staff 裁減人力 / end up with 最後落得 / human contact 與人的接觸",
+          sample: "[[David says that]] robots will give **staff** more time to talk to residents. [[That may be true in theory; however,]] care homes [[are more likely to]] cut staff to save money, so residents may end up with less **human contact**." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / invest in 投資於 / train 培訓 / carer 照顧者、照服員 / instead of + V-ing 而不是…",
+          sample: "[[In conclusion,]] governments [[should]] invest in training and paying human **carers** [[instead of]] buying robots." },
+      ] },
+    ]
+  },
 ];
