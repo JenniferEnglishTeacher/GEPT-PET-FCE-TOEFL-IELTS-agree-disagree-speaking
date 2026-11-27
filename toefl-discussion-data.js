@@ -3555,4 +3555,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 105, cat: "Government & society",
+    title: "Should the Law Protect Celebrities' Privacy?", zh: "法律應該保護名人的隱私嗎？",
+    question: "Should the law stop the media from reporting on the private lives of famous people?", questionZh: "法律應該禁止媒體報導名人的私生活嗎？",
+    professor: "This week we are discussing privacy and the media. These days, celebrities can hardly leave their homes without being photographed, and gossip websites report every detail of their lives, from their relationships to their health problems. Some countries have passed strict privacy laws that allow famous people to stop such stories from being published. Others believe that these laws limit the freedom of the press. In your opinion, should the law stop the media from reporting on the private lives of famous people? Why or why not?",
+    david: "Yes, I think it should. Being curious about a star does not give anyone the right to invade that person's privacy. Some paparazzi even follow actors' children to school, which frightens the children. These innocent family members never chose to be famous, yet they suffer the most, and only a clear law can protect them.",
+    mary: "I disagree. Famous people are role models for the young, and they earn a lot of money from public attention, so the public has a right to know how they really behave. If a law stopped journalists from reporting on their private lives, stars could easily hide bad behaviour behind a perfect image.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "贊成法律應該禁止媒體報導名人的私生活", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / the law 法律 / the media 媒體 / report on 報導 / private life 私生活 / famous people 名人",
+          sample: "[[I agree with David that]] the law [[should]] stop the media from reporting on the **private lives** of famous people." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides …, which David mentioned, I would add that 除了 David 提到的…之外，我想補充 / innocent 無辜的 / constant 持續不斷的 / media attention 媒體關注 / mental health 心理健康 / gossip website 八卦網站 / judge 評斷 / suffer from anxiety 受焦慮之苦 / Without … 如果沒有… / scandal 醜聞 / sell 賣座、有銷路",
+          sample: "[[Besides]] the harm to innocent family members, [[which David mentioned, I would add that]] constant **media attention** damages celebrities' **mental health**. When photographers wait outside their homes and **gossip** websites judge every detail of their lives, even the strongest person suffers from anxiety. [[Without]] a clear law, the media have no reason to stop, because **scandals** sell." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / speak openly about 公開談論 / depression 憂鬱 / caused by 由…造成的 / endless 沒完沒了的 / give up one's career 放棄事業",
+          sample: "[[For example,]] many singers have spoken openly about depression caused by endless **gossip**, and some have even given up their careers." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / the public 大眾 / have a right to know 有知的權利 / role model 榜樣 / This is a fair point; however, 這個觀點有道理；然而 / affect 影響 / such as 例如 / drink-driving 酒駕 / while + V-ing 同時…",
+          sample: "[[Mary argues that]] the public has a right to know how **role models** behave. [[This is a fair point; however,]] the law could still allow reports on behaviour that affects the public, [[such as]] drink-driving, [[while]] protecting family life and health." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / deserve 應得 / legal protection 法律保障 / privacy 隱私 / the same … as ~ 和～一樣的…",
+          sample: "[[For these reasons, I believe that]] famous people deserve [[the same]] legal protection of **privacy** [[as]] everyone else." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "反對用法律禁止媒體報導名人的私生活", rows: [
+        { role: "Position", zh: "表明立場", hints: "I share Mary's view that 我和 Mary 看法相同，認為 / the law 法律 / the media 媒體 / report on 報導 / private life 私生活",
+          sample: "[[I share Mary's view that]] the law [[should not]] stop the media from reporting on the **private lives** of famous people." },
+        { role: "New reason", zh: "補充新理由", hints: "One point Mary did not mention is that Mary 沒有提到的一點是 / abuse 濫用 / It is difficult to decide … 很難判定… / public interest 公共利益 / As a result 結果 / powerful 有權勢的 / politician 政治人物 / hide 隱瞞 / threaten 威脅 / journalist 記者",
+          sample: "[[One point Mary did not mention is that]] such a law would be easy to abuse. [[It is]] very [[difficult to decide]] where private life ends and **public interest** begins. [[As a result,]] powerful people, including politicians, could use the law to hide their mistakes and threaten **journalists**." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / minister 部長 / secretly 暗中地 / accept a gift 收受禮物 / voter 選民 / clearly 顯然",
+          sample: "[[Take]] politicians [[as an example.]] If a minister secretly accepts expensive gifts, he may call it his private life, but voters clearly need to know." },
+        { role: "Respond to David", zh: "回應對方", hints: "David is right that …, but David 說…是對的，但 / paparazzi 狗仔隊 / existing law 現行法律 / harassment 騷擾 / deal with 處理 / Moreover 此外 / attract fans 吸引粉絲 / demand 要求 / when it suits them 只在對自己有利時",
+          sample: "[[David is right that]] **paparazzi** should not follow children to school, [[but]] existing laws against **harassment** already deal with this. [[Moreover,]] many celebrities share their private lives online to attract fans, so they cannot demand attention only when it suits them." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / rely on 依靠 / press ethics 新聞倫理 / existing law 現行法律 / rather than 而不是 / ban 禁令 / weaken 削弱 / press freedom 新聞自由",
+          sample: "[[In conclusion,]] we [[should]] rely on press ethics and existing laws [[rather than]] on a new ban that would weaken **press freedom**." },
+      ] },
+    ]
+  },
 ];
