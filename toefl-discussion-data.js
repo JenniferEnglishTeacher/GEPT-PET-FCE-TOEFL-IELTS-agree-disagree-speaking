@@ -3623,4 +3623,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 107, cat: "Health & lifestyle",
+    title: "Do Competitive Sports Teach More Than Study?", zh: "競技運動比讀書教得更多嗎？",
+    question: "Do competitive sports teach young people more valuable life lessons than academic study?", questionZh: "競技運動教給年輕人的人生課題比讀書更寶貴嗎？",
+    professor: "This week we are looking at how young people spend their time outside lessons. Many schools encourage students to join competitive sports teams, and coaches often say that the playing field is the best classroom for life. Other educators reply that the most important lessons, such as how to think and how to keep learning, still come from academic study. In your opinion, do competitive sports teach young people more valuable life lessons than academic study? Why or why not?",
+    david: "I think they do. In team sports, students learn to cooperate with people they did not choose, follow a coach's instructions and put the team before themselves. No textbook can teach teamwork like that. Athletes also learn to work towards a goal every single day, even when they are tired.",
+    mary: "I disagree. Academic study trains the mind. Students learn to think critically, solve difficult problems and concentrate for long periods. Besides, only a few students are good enough to play on a school team, so the others spend most of the season on the bench, while everybody can learn in the classroom.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "競技運動教的人生課題比讀書更寶貴", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / competitive sports 競技運動 / valuable 寶貴的 / life lesson 人生課題 / academic study 學業、讀書",
+          sample: "[[I agree with David that]] **competitive sports** teach young people more valuable **life lessons** than academic study." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides … that David mentioned, I would add that 除了 David 提到的…之外，我想補充 / teamwork 團隊合作 / deal with failure 面對失敗 / a poor grade 不好的成績 / be hidden 被隱藏 / athlete 運動員 / in front of 在…面前 / return to training 回去訓練 / resilience 韌性 / which is essential for 這對…不可或缺",
+          sample: "[[Besides]] the teamwork [[that David mentioned, I would add that]] sports teach us how to **deal with failure**. In the classroom, a poor grade can be hidden, but **athletes** lose in front of everyone and must return to training the next day. This experience builds **resilience**, [[which is essential for]] adult life." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / season 球季 / Instead of + V-ing 不但沒有…反而 / give up 放棄 / practise 練習 / reach the final 打進決賽 / stay calm 保持冷靜 / job interview 工作面試",
+          sample: "[[For example,]] my cousin's basketball team lost every game in its first season. [[Instead of]] giving up, the players practised harder, and two years later they reached the city **final**. He says this taught him to stay calm after failing a job interview." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / train the mind 訓練頭腦 / That may be true; however, 也許沒錯；然而 / knowledge 知識 / at any age 在任何年紀 / whereas 然而、相對地 / courage 勇氣 / discipline 紀律 / be best learned through 最好透過…學會 / competition 競爭、比賽",
+          sample: "[[Mary argues that]] academic study trains the mind. [[That may be true; however,]] knowledge can be learned from books at any age, [[whereas]] courage and **discipline** [[are best learned through]] **competition**." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / prepare A for B 讓 A 為 B 做好準備 / textbook 教科書",
+          sample: "[[For these reasons, I believe that]] **competitive sports** [[prepare]] young people [[for]] life better than textbooks do." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "讀書教的人生課題比競技運動更寶貴", rows: [
+        { role: "Position", zh: "表明立場", hints: "Although … is understandable 雖然…可以理解 / I agree with Mary that 我同意 Mary 所說的 / academic study 學業、讀書 / valuable 寶貴的 / life lesson 人生課題 / competitive sports 競技運動",
+          sample: "[[Although]] David's view [[is understandable,]] [[I agree with Mary that]] **academic study** teaches more valuable **life lessons** than competitive sports." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that Mary did not mention is that Mary 沒有提到的一點是 / patience 耐心 / long-term planning 長期規劃 / pass an exam 通過考試 / set goals 設定目標 / manage one's time 管理時間 / applause 掌聲 / habit 習慣 / not just 不只是 / career 職業",
+          sample: "[[One point that Mary did not mention is that]] academic study teaches **patience** and **long-term planning**. To pass an important exam, students have to set goals, manage their time and keep working for months without any applause. These habits are useful in every career, [[not just]] in sport." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / spend + time + V-ing 花時間… / prepare for 準備 / entrance exam 入學考試 / Thanks to 多虧 / self-discipline 自律 / develop 培養 / manage 兼顧、應付 / at the same time 同時",
+          sample: "[[Take]] my sister [[as an example.]] She spent a whole year preparing for the university entrance exam. [[Thanks to]] the **self-discipline** she developed, she now manages a busy job and a part-time degree [[at the same time]]." },
+        { role: "Respond to David", zh: "回應對方", hints: "David claims that David 聲稱 / teamwork 團隊合作 / I understand his point, but 我理解他的觀點，但 / cooperate 合作 / group project 小組專題 / Moreover 此外 / teach the wrong lesson 教錯觀念 / namely that 也就是 / winning 贏 / matter 重要",
+          sample: "[[David claims that]] sports teach teamwork. [[I understand his point, but]] students also learn to **cooperate** through **group projects**. [[Moreover,]] competitive sports sometimes teach the wrong lesson, namely that winning matters more than anything else." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / A, rather than B, A 而不是 B / playing field 運動場 / last a lifetime 受用一生",
+          sample: "[[In conclusion,]] the classroom, [[rather than]] the playing field, is where we learn the lessons that [[last a lifetime]]." },
+      ] },
+    ]
+  },
 ];
