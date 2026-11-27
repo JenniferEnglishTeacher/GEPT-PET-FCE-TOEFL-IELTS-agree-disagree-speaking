@@ -3283,4 +3283,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 97, cat: "Government & society",
+    title: "Social Enterprises or the Government?", zh: "社會企業還是政府？",
+    question: "Can social enterprises solve social problems more effectively than the government?", questionZh: "社會企業能比政府更有效地解決社會問題嗎？",
+    professor: "This week we are looking at who should solve social problems such as poverty, homelessness and unemployment. Traditionally, people have expected the government to deal with them through taxes and public programmes. In recent years, however, more and more social enterprises have appeared. These are businesses that earn money by selling products or services but use their profits to help people in need instead of making their owners rich. In your opinion, can social enterprises solve social problems more effectively than the government? Why or why not?",
+    david: "I think they can. Government programmes are often slow because every decision has to pass through many offices. A social enterprise is small and flexible, so it can try a new idea quickly and change it if it does not work. Because it earns its own income, it also does not have to wait for next year's budget.",
+    mary: "I don't think so. Social enterprises do good work, but most of them are tiny and help only a few hundred people. Problems like poverty affect millions, and only the government has the money and the power to reach everyone. Besides, many small businesses close after a few years, so people cannot depend on them.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "社會企業能比政府更有效地解決社會問題", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / social enterprise 社會企業 / solve 解決 / social problem 社會問題 / effectively 有效地",
+          sample: "[[I agree with David that]] **social enterprises** [[can]] solve social problems more effectively than the government." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides …, which David mentioned, I would add that 除了 David 提到的…之外，我想補充 / flexible 有彈性的 / dignity 尊嚴 / as well as 以及 / hand out 發放 / whereas 然而、相對地 / training 職業訓練 / In this way 如此一來 / support oneself 自力更生 / instead of + V-ing 而不是… / depend on 依賴 / welfare 社會福利",
+          sample: "[[Besides]] being fast and flexible, [[which David mentioned, I would add that]] **social enterprises** give people **dignity** as well as help. A government programme usually hands out money, [[whereas]] a social enterprise offers training and a real job. [[In this way,]] people in need learn to support themselves [[instead of]] depending on **welfare**." },
+        { role: "Example", zh: "舉例", hints: "A good example is 一個很好的例子是 / magazine 雜誌 / homeless 無家可歸的 / seller 販售員 / copy （書報的）一本 / earn an income 賺取收入 / regain confidence 重拾自信",
+          sample: "[[A good example is]] The Big Issue, a magazine sold on the streets by **homeless** people in Britain and Taiwan. The sellers keep about half the price of every copy, so they earn an income and regain confidence." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary is worried that Mary 擔心 / make a difference 產生影響 / I understand her concern, but 我理解她的擔憂，但 / successful model 成功的模式 / copy 複製 / from city to city 一個城市接一個城市",
+          sample: "[[Mary is worried that]] social enterprises are too small to make a difference. [[I understand her concern, but]] a successful model can be copied from city to city." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / effective 有效的 / tackle 處理、對付 / poverty 貧窮 / unemployment 失業",
+          sample: "[[For these reasons, I believe that]] **social enterprises** [[are]] a more effective way to tackle **poverty** and **unemployment**." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "社會企業無法比政府更有效地解決社會問題", rows: [
+        { role: "Position", zh: "表明立場", hints: "I share Mary's view that 我和 Mary 看法相同，認為 / social enterprise 社會企業 / solve 解決 / effectively 有效地 / government 政府",
+          sample: "[[I share Mary's view that]] **social enterprises** [[cannot]] solve social problems more effectively than the government." },
+        { role: "New reason", zh: "補充新理由", hints: "One point Mary did not mention is that Mary 沒有提到的一點是 / survive 生存 / As a result 結果 / tend to + V 傾向於… / turn A into B 把 A 變成 B / disabled 身心障礙的 / profit 利潤 / care for 照顧 / abused 受虐的 / mental illness 精神疾病 / be left to 被留給…處理",
+          sample: "[[One point Mary did not mention is that]] a **social enterprise** must make money to survive. [[As a result,]] it tends to choose problems that can be turned into a product, such as selling coffee made by disabled workers. Problems that bring no **profit**, like caring for abused children or people with serious mental illness, are left to the government." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / National Health Insurance 全民健保 / cover 涵蓋 / at a low cost 以低廉的費用 / no single business 沒有任何一家企業",
+          sample: "[[Take]] Taiwan's National Health Insurance [[as an example.]] It covers almost everyone in the country at a low cost, which no single business could ever do." },
+        { role: "Respond to David", zh: "回應對方", hints: "David is right that …, but David 說…是對的，但 / public programme 公共計畫 / a better solution is to + V 更好的解決方法是… / efficient 有效率的 / Moreover 此外 / official 官員 / vote out 用選票淘汰 / whereas 然而、相對地 / elect 選出",
+          sample: "[[David is right that]] **public programmes** can be slow, [[but]] [[a better solution is to]] make the government more efficient. [[Moreover,]] officials can be voted out if they fail, [[whereas]] nobody elects the owner of a business." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / treat A as B 把 A 當作 B / partner 夥伴 / rather than 而不是 / replacement 替代品",
+          sample: "[[In conclusion,]] we [[should]] treat **social enterprises** as useful partners [[rather than]] as a replacement for the government." },
+      ] },
+    ]
+  },
 ];
