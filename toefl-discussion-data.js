@@ -3113,4 +3113,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 92, cat: "Ethics & culture",
+    title: "Does Wealth Bring Happiness?", zh: "財富能帶來幸福嗎？",
+    question: "Does material wealth bring happiness?", questionZh: "物質財富能帶來幸福嗎？",
+    professor: "This week we are discussing an old question about values. In almost every culture, proverbs warn that money cannot buy happiness, yet most people work hard for a higher income, a bigger home and the latest products. Surveys show that people in rich countries are generally more satisfied with their lives than people in poor ones, but they also show that many wealthy people feel stressed and lonely. In your opinion, does material wealth bring happiness? Why or why not?",
+    david: "I think it does. Money removes the worries that make people miserable, such as unpaid bills, debt and the fear of losing their home. With enough wealth, a person can afford good health care, a safe neighbourhood and a comfortable house. It is hard to feel happy when you cannot pay the rent.",
+    mary: "I don't agree. Once people have enough for their basic needs, more money adds very little. People quickly get used to a new car or phone and then want something better. What really makes people happy is close relationships with family and friends, and those cannot be bought.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "認為物質財富能帶來幸福", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / material wealth 物質財富 / bring happiness 帶來幸福",
+          sample: "[[I agree with David that]] **material wealth** [[does]] bring **happiness**." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to the point he made about …, I would add that 除了他提到關於…的論點之外，我想補充 / security 安全感、保障 / freedom of choice 選擇的自由 / When …, … 當…時 / savings 存款 / whereas 然而、相對地 / accept whatever work 接受任何找得到的工作",
+          sample: "[[In addition to the point he made about]] security, [[I would add that]] wealth gives people **freedom of choice**. [[When]] people have **savings**, they can leave a job they hate or spend more time with their children, [[whereas]] those without money must accept whatever work they can find." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / accountant 會計師 / afford to + V 負擔得起… / quit 辭職 / bakery 麵包店 / dream of 夢想 / cheerful 開朗的、快樂的",
+          sample: "[[For example,]] my aunt saved for years while working as an accountant. At forty-five, she could **afford** to quit and open the bakery she had always dreamed of, and I have never seen her so cheerful." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / relationship 人際關係 / That may be true; however, 這或許沒錯；然而 / financial stress 經濟壓力 / damage 損害 / argue about bills 為帳單爭吵 / so 所以 / bond 情感連結 / value 重視",
+          sample: "[[Mary argues that]] relationships, not money, make people happy. [[That may be true; however,]] **financial stress** often damages relationships. Couples argue about bills, and parents who work two jobs have little time for their children, [[so]] wealth actually protects the **bonds** that she values." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / used wisely 善加運用的話 / one of the foundations of …的基礎之一",
+          sample: "[[For these reasons, I believe that]] wealth, used wisely, is [[one of the foundations of]] a happy life." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "認為物質財富無法帶來持久的幸福", rows: [
+        { role: "Position", zh: "表明立場", hints: "Although I understand David's point 雖然我理解 David 的觀點 / I agree with Mary that 我同意 Mary 所說的 / material wealth 物質財富 / lasting happiness 持久的幸福",
+          sample: "[[Although I understand David's point,]] [[I agree with Mary that]] **material wealth** [[does not]] bring lasting **happiness**." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that Mary did not mention is that Mary 沒有提到的一點是 / the pursuit of wealth 對財富的追求 / cost sb. sth. 使某人失去某物 / In order to + V 為了… / work long hours 長時間工作 / give up 放棄 / so 所以",
+          sample: "[[One point that Mary did not mention is that]] **the pursuit of wealth** often costs people the things they enjoy. [[In order to]] earn more, many people work long hours and give up their hobbies, [[so]] they have money but no time to enjoy it." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / successful lawyer 成功的律師 / luxury apartment 豪華公寓 / yet 然而 / until midnight 直到半夜 / envy 羨慕",
+          sample: "[[Take]] my neighbour [[as an example.]] He is a successful lawyer with a **luxury** apartment, [[yet]] he works until midnight and **envies** his brother, a teacher who has dinner with his family every evening." },
+        { role: "Respond to David", zh: "回應對方", hints: "David claims that David 聲稱 / miserable 痛苦的 / I understand his point, but 我理解他的觀點，但 / true only up to a point 只在某個程度內成立 / decent income 還不錯的收入 / fortune 鉅額財富 / false friend 虛情假意的朋友",
+          sample: "[[David claims that]] money removes the worries that make people miserable. [[I understand his point, but]] this is true only up to a point. A **decent income** pays the rent and the bills, but a **fortune** brings new worries about taxes and false friends." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / live in comfort 過舒適的生活 / invest one's time in 把時間投注在 / possessions 財物",
+          sample: "[[In conclusion,]] we [[should]] seek enough money to live in comfort and then invest our time in people, not **possessions**." },
+      ] },
+    ]
+  },
 ];
