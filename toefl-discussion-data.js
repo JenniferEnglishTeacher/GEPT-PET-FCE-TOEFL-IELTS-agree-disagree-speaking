@@ -3419,4 +3419,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 101, cat: "Education",
+    title: "Should Foreign Languages Be Compulsory?", zh: "外語應該列為必修嗎？",
+    question: "Should every student be required to study a foreign language at school?", questionZh: "學校應該規定每個學生都學外語嗎？",
+    professor: "This week we are discussing what belongs in the school curriculum. In many countries, every student must study a foreign language for years, and supporters say that this opens doors to other cultures and to better jobs. However, translation apps and AI tools can now turn speech and text into another language in seconds, and some people argue that the time would be better spent on other subjects. In your opinion, should every student be required to study a foreign language at school? Why or why not?",
+    david: "I think they should. Language is the key to another culture, and a translation app can give you the words but not the humour or the feelings behind them. Speaking a second language also makes you more competitive, because international companies want staff who can talk to clients directly. If languages became optional, many students would drop them and regret it later.",
+    mary: "I'm not convinced. Most students study a foreign language for years and still cannot hold a simple conversation, so a lot of class time is wasted. Translation tools are improving every month, and they are already good enough for travel and for most jobs. I would let students who love languages choose them and let the others spend those hours on science, coding or art.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "認為每個學生都應該在學校學外語", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my opinion 依我之見 / foreign language 外語 / I agree with David that 我同意 David 所說的 / translation app 翻譯應用程式 / replace 取代 / communication 溝通",
+          sample: "[[In my opinion,]] every student should study a **foreign language** at school, [[and I agree with David that]] a **translation app** cannot replace real **communication**." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides the benefits David mentioned, I would add that 除了 David 提到的好處之外，我想補充 / train the brain 訓練大腦 / memorise vocabulary 背單字 / guess meaning from context 從上下文猜意思 / help sb. + V 幫助某人…",
+          sample: "[[Besides the benefits David mentioned, I would add that]] learning a language **trains the brain**. Students must **memorise vocabulary** and guess meaning from **context**, and these habits [[help them]] learn other subjects." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / exchange programme 交換計畫 / host family 寄宿家庭 / joke with 和…說笑 / , who … 而他們…（補充說明） / rely on 依賴 / make close friends 交到知心朋友",
+          sample: "[[For example,]] my sister studied Japanese in high school. When she joined an **exchange programme** in Osaka, she could joke with her **host family** at dinner. Her classmates, [[who]] relied on an app, got the information they needed but never made close friends." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / hold a conversation 進行對話 / However 然而 / be a reason to + V, not to + V 是…的理由，而不是…的理由 / teaching method 教學方法 / give up 放棄 / drop 停開、放棄（科目）",
+          sample: "[[Mary argues that]] many students still cannot **hold a conversation** after years of lessons. [[However,]] this [[is a reason to]] improve **teaching methods**, [[not to]] give up the subject. Nobody suggests dropping maths because some students fail it." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / should remain 應該維持 / compulsory subject 必修科目",
+          sample: "[[For these reasons, I believe that]] a foreign language [[should remain]] a **compulsory** subject for every student." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "認為外語不應該列為每個學生的必修", rows: [
+        { role: "Position", zh: "表明立場", hints: "Personally, I do not think that 就我個人而言，我不認為 / foreign language 外語 / compulsory 必修的、強制的 / I share Mary's view that 我和 Mary 看法相同，認為 / elective 選修課",
+          sample: "[[Personally, I do not think that]] a **foreign language** should be **compulsory**, [[and I share Mary's view that]] it works better as an **elective**." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that Mary did not mention is that Mary 沒有提到的一點是 / motivation 動機 / matter 重要 / be forced to + V 被迫… / memorise 背誦 / whereas 然而、相對地 / in one's own time 利用自己的時間",
+          sample: "[[One point that Mary did not mention is that]] **motivation** matters most in language learning. Students who are forced to study **memorise** words for the test and soon forget them, [[whereas]] those who choose the subject practise in their own time." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / yet 然而 / fluently 流利地 / because they wanted to 因為他們自己想要 / the rest of us 我們其他人 / would have + p.p. 原本會…（與過去事實相反） / gain 獲益",
+          sample: "[[Take]] my own class [[as an example.]] We all studied English for nine years, [[yet]] only a few can speak it **fluently**. Those few watched films in English because they wanted to. The rest of us [[would have]] gained more from extra science or art." },
+        { role: "Respond to David", zh: "回應對方", hints: "David says that David 說 / competitive 有競爭力的 / That may be true; however 這也許是真的；然而 / career 職業 / require 需要 / so 所以 / while 而 / translation 翻譯",
+          sample: "[[David says that]] a second language makes people more **competitive**. [[That may be true; however,]] only some **careers** require it, [[so]] those students can choose it while AI **translation** helps the others." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / offer … to 提供…給 / force … on 把…強加於 / no one 沒有任何人",
+          sample: "[[In conclusion,]] schools [[should]] offer foreign languages to all students but force them on no one." },
+      ] },
+    ]
+  },
 ];
