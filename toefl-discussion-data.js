@@ -3079,4 +3079,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 91, cat: "Health & lifestyle",
+    title: "Prevention vs. Treatment in Health Spending", zh: "預防與治療的經費之爭",
+    question: "Should governments spend more money on preventing illness than on treating it?", questionZh: "政府花在預防疾病上的錢應該比治療疾病更多嗎？",
+    professor: "This week we are discussing how governments should divide their health budgets. Most countries spend by far the largest share of the money on hospitals, medicines and operations for people who are already ill. Only a small part goes to prevention, such as vaccination programmes, free health check-ups and campaigns that encourage people to exercise and eat well. Some experts say that this balance is wrong. In your opinion, should governments spend more money on preventing illness than on treating it? Why or why not?",
+    david: "I think prevention should come first. It is far cheaper to stop a disease than to cure it. A vaccine costs a few dollars, but several weeks in hospital can cost thousands. If more people had regular check-ups, doctors would find problems such as high blood pressure early, before they turned into heart attacks.",
+    mary: "I disagree. People who are sick right now cannot wait. If money is moved from hospitals to health campaigns, waiting lists for operations will grow longer and patients will suffer. Besides, many health problems, such as injuries from accidents and inherited diseases, cannot be prevented, however much a government spends on advice.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "預防應該比治療獲得更多經費", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / spend A on B 把 A 花在 B 上 / prevent illness 預防疾病 / treat 治療",
+          sample: "[[I agree with David that]] governments [[should]] spend more on **preventing illness** than on **treating** it." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides … that David mentioned, I would add that 除了 David 提到的…之外，我想補充 / prevention 預防 / quality of life 生活品質 / treatment 治療 / patient 病人 / side effect 副作用 / whereas 然而、相對地",
+          sample: "[[Besides]] the lower cost [[that David mentioned, I would add that]] **prevention** protects people's **quality of life**. Even when **treatment** succeeds, patients often lose months of work and live with pain or **side effects**, [[whereas]] a person who never becomes ill loses nothing." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / health check-up 健康檢查 / turn forty 滿四十歲 / blood sugar 血糖 / so 所以 / change one's diet 改變飲食 / jog 慢跑 / medicine 藥物",
+          sample: "[[For example,]] my uncle had a free government **health check-up** when he turned forty. The doctor found that his **blood sugar** was rising, [[so]] he changed his diet and started jogging. Ten years later, he still needs no medicine." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / That may be true; however, 這或許沒錯；然而 / crowded 擁擠的 / precisely because 正是因為 / develop a disease 罹患疾病 / chronic disease 慢性病",
+          sample: "[[Mary argues that]] patients who are sick now cannot wait. [[That may be true; however,]] hospitals are crowded [[precisely because]] so many diseases were not prevented. If fewer people develop **chronic diseases**, doctors will have more time for those who really need them." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / the wisest use of … 對…最明智的運用 / health budget 醫療衛生預算",
+          sample: "[[For these reasons, I believe that]] prevention is [[the wisest use of]] a **health budget**." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "預防的經費不應該超過治療", rows: [
+        { role: "Position", zh: "表明立場", hints: "Although … is understandable 雖然…可以理解 / I agree with Mary that 我同意 Mary 所說的 / prevention 預防 / treatment 治療",
+          sample: "[[Although]] David's view [[is understandable,]] [[I agree with Mary that]] governments [[should not]] spend more on **prevention** than on **treatment**." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that Mary did not mention is that Mary 沒有提到的一點是 / depend on 取決於 / campaign 宣導活動 / check-up 健康檢查 / force sb. to + V 強迫某人… / so 所以 / be wasted 被浪費",
+          sample: "[[One point that Mary did not mention is that]] prevention [[depends on]] people's choices. A government can pay for **campaigns** and free **check-ups**, but it cannot force anyone to stop smoking or to exercise, [[so]] much of the money may be wasted." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / be invited to 受邀參加 / yet 然而 / feel healthy 覺得自己很健康 / break one's leg 摔斷腿 / surgery 手術 / public hospital 公立醫院 / within weeks 幾週之內",
+          sample: "[[Take]] my father [[as an example.]] Every year he is invited to a free check-up, [[yet]] he has never gone because he feels healthy. However, when he broke his leg, **surgery** at a **public hospital** helped him walk again within weeks." },
+        { role: "Respond to David", zh: "回應對方", hints: "David claims that David 聲稱 / cure 治癒 / I understand his point, but 我理解他的觀點，但 / avoid an illness 避開一種疾病 / care 照護 / old age 老年 / savings 省下的錢 / than they appear 比看起來的…",
+          sample: "[[David claims that]] preventing a disease is cheaper than **curing** it. [[I understand his point, but]] people who avoid one illness live longer and still need **care** in old age, [[so]] the savings are smaller than they appear." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / make sure that 確保 / well funded 經費充足的 / before 在…之前",
+          sample: "[[In conclusion,]] governments [[should make sure that]] hospitals are **well funded** before they spend more on prevention." },
+      ] },
+    ]
+  },
 ];

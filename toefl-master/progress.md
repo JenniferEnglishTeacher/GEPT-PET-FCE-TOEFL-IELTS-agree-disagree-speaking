@@ -77,7 +77,7 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 71 | Email | Application / Job | Applying to Be a Volunteer at an International Film Festival 應徵國際影展志工 (to Ms. Delgado, volunteer manager of the Harbor City International Film Festival — student volunteers check tickets, help the audience find seats and welcome foreign directors and guests for ten days in October; why you want to volunteer (love foreign films, see a big event behind the scenes), a useful skill or experience (fluent English, information desk at the school open day), ask a question about the volunteers' schedule / shifts) | toefl-master/email-application-job.html
 72 | Email | Thanks / Follow-up | Thanking a Bookshop Owner for Donating Books 感謝書店老闆捐書給班級閱讀角 (to Mr. Reed, owner of Corner Bookshop — donated forty English novels and magazines to your class's English reading corner, you write as class representative; thank him + what the class thought of the books, how the books are being used (15-minute morning reading, 30+ books borrowed), invite him to visit the class next Friday) | toefl-master/email-thanks-follow-up.html
 
-## Discussion (90)
+## Discussion (91)
 01 | Discussion | Education | Should STEAM courses be mandatory for all university students? 大學應該把 STEAM 課程列為全體學生的必修嗎？ | toefl-master/discussion-education.html
 02 | Discussion | Technology & AI | Will AI-generated images and videos have a positive or a negative influence on society? AI 生成的圖片與影片對社會的影響是正面還是負面？ | toefl-master/discussion-technology-ai.html
 03 | Discussion | Social media & influencers | Do social media influencers have a mainly positive or a mainly negative influence on young people? 社群媒體網紅對年輕人的影響主要是正面還是負面？ | toefl-master/discussion-social-media-influencers.html
@@ -168,6 +168,7 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 88 | Discussion | Environment | Should recycling be made compulsory by law, with fines for households that do not sort their waste? 應該立法強制回收，並對不做垃圾分類的家庭開罰嗎？ | toefl-master/discussion-environment.html
 89 | Discussion | Government & society | Should countries with ageing populations welcome more immigrants? 人口老化的國家應該接納更多移民嗎？ | toefl-master/discussion-government-society.html
 90 | Discussion | Work & economy | Should unpaid internships be banned? 應該禁止無薪實習嗎？ | toefl-master/discussion-work-economy.html
+91 | Discussion | Health & lifestyle | Should governments spend more money on preventing illness than on treating it? 政府花在預防疾病上的錢應該比治療疾病更多嗎？ | toefl-master/discussion-health-lifestyle.html
 
 ## Notes for the next run
 - Sample markup in the HTML sources: `<span style="background-color:#fff2a8">` = universal pattern, `<b>` = theme word.
