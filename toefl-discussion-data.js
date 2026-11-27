@@ -2841,4 +2841,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 84, cat: "Ethics & culture",
+    title: "Star Salaries vs. Teachers and Nurses", zh: "明星高薪與教師、護理師的薪水",
+    question: "Are sports stars and entertainers paid too much compared with teachers and nurses?", questionZh: "和老師、護理師相比，運動明星與藝人的收入過高嗎？",
+    professor: "This week we are looking at fairness and pay. A top footballer or pop singer can earn more in a single week than a teacher or a nurse earns in ten years, even though schools and hospitals are essential to every community. Some people see this gap as proof that modern societies have the wrong values. Others argue that pay is simply decided by supply and demand, and that stars earn what millions of fans are willing to pay. In your opinion, are sports stars and entertainers paid too much compared with teachers and nurses? Why or why not?",
+    david: "I think they are. A nurse who works night shifts saves lives, and a good teacher shapes hundreds of young people, yet both struggle to pay the rent in big cities. Meanwhile, a player gets millions for kicking a ball. Pay should reflect how much a job contributes to society, and by that standard the gap is impossible to justify.",
+    mary: "I don't think stars are overpaid. Nobody is forced to buy concert tickets or watch matches; the money comes from fans who choose to spend it. Besides, only a tiny number of athletes and singers ever reach the top, and their careers are often short. If teachers and nurses are underpaid, that is a separate problem that governments should fix.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "認為明星的收入過高", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / sports star 運動明星 / entertainer 藝人 / be paid far too much 收入高得太多 / compared with 和…相比",
+          sample: "[[I agree with David that]] top **sports stars** and **entertainers** are paid far too much [[compared with]] teachers and nurses." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to the point he made about …, I would add that 除了他提到關於…的論點之外，我想補充 / pay gap 薪資差距 / send the wrong message to 向…傳達錯誤的訊息 / When …, … conclude that 當…時，…就會認定 / fame 名氣 / service 服務、奉獻 / so 所以 / essential profession 不可或缺的職業",
+          sample: "[[In addition to the point he made about]] contribution, [[I would add that]] this **pay gap** sends the wrong message to young people. [[When]] a singer earns more in one night than a nurse earns in a lifetime, teenagers [[conclude that]] **fame** matters more than service, [[so]] fewer of them enter **essential professions**." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / ward 病房 / because 因為 / while 而 / talent show 選秀節目 / attract 吸引 / applicant 報名者",
+          sample: "[[For instance,]] several hospitals in Taiwan have had to close **wards** [[because]] they could not find enough nurses, [[while]] **talent shows** attract thousands of applicants." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / freely 自願地 / However 然而 / sponsorship 贊助 / broadcasting deal 轉播合約 / pass … on to 把…轉嫁給 / consumer 消費者 / stadium 體育場 / public money 公帑",
+          sample: "[[Mary argues that]] the money comes freely from fans. [[However,]] much of it comes from **sponsorship** and broadcasting deals, whose costs are passed on to consumers, and many stadiums are built with **public money**." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / not only A but also B 不只 A 而且 B / tax 課稅 / income 收入 / heavily 重重地 / raise the salary 提高薪水",
+          sample: "[[For these reasons, I believe that]] societies should [[not only]] tax huge **incomes** more heavily [[but also]] raise the **salaries** of teachers and nurses." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "認為明星的收入並不過高", rows: [
+        { role: "Position", zh: "表明立場", hints: "Although I understand David's concern 雖然我理解 David 的擔憂 / I agree with Mary that 我同意 Mary 所說的 / sports star 運動明星 / entertainer 藝人 / overpaid 收入過高的",
+          sample: "[[Although I understand David's concern,]] [[I agree with Mary that]] **sports stars** and **entertainers** are not **overpaid**." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that Mary did not mention is that Mary 沒有提到的一點是 / create income for 為…創造收入 / tour 巡迴演出 / technician 技術人員 / tax 稅 / earnings 收入、所得 / help to + V 有助於…",
+          sample: "[[One point that Mary did not mention is that]] stars create **income** for many other people. A famous singer's tour gives work to drivers, technicians and hotel staff, and the **taxes** on a star's **earnings** [[help to]] pay for public schools and hospitals." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / pop star 流行歌手 / fly in from 從…搭機前來 / earn 賺進 / hundreds of millions of 數億的",
+          sample: "[[Take]] the six concerts that one American **pop star** gave in Singapore in 2024 [[as an example.]] Fans flew in from all over Asia, and local hotels, restaurants and shops earned hundreds of millions of dollars." },
+        { role: "Respond to David", zh: "回應對方", hints: "David claims that David 聲稱 / reflect 反映 / contribution 貢獻 / I understand his point, but 我理解他的觀點，但 / measure 衡量 / fairly 公平地 / cut a salary 減薪 / would not add a single dollar to 不會讓…多出一塊錢 / club owner 球團老闆",
+          sample: "[[David claims that]] pay should reflect a job's **contribution** to society. [[I understand his point, but]] nobody can measure contribution fairly, and cutting a footballer's **salary** would not add a single dollar to a nurse's pay; the money would simply stay with club owners." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / instead of + V-ing 與其…、而不是… / blame 責怪 / deserve 應得",
+          sample: "[[In conclusion,]] [[instead of]] blaming stars, we should ask governments to pay teachers and nurses what they **deserve**." },
+      ] },
+    ]
+  },
 ];
