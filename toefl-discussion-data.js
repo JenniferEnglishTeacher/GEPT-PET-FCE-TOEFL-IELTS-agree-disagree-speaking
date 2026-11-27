@@ -2909,4 +2909,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 86, cat: "Technology & AI",
+    title: "Self-Driving Cars on Public Roads", zh: "自駕車該上路嗎？",
+    question: "Should self-driving cars be allowed on public roads?", questionZh: "應該允許自駕車在公共道路上行駛嗎？",
+    professor: "This week we are looking at automation in transport. Driverless taxis already carry passengers in several American and Chinese cities, and car makers promise that fully autonomous vehicles will soon be common everywhere. Supporters say that these cars will cut the number of accidents, while critics argue that an unfinished technology is being tested on the public. Should self-driving cars be allowed on public roads? Why or why not?",
+    david: "Yes, I think they should. Most road accidents are caused by human error, such as speeding, drink-driving or looking at a phone. A computer never gets tired, angry or distracted, so self-driving cars could save thousands of lives every year. They would also keep traffic moving more smoothly.",
+    mary: "I disagree. The technology is not reliable enough yet: sensors can fail in heavy rain or fog, and there have already been serious crashes during tests. It is also unclear who is responsible when something goes wrong — the passenger, the car maker or the programmer. Public roads should not be a laboratory.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "支持開放自駕車上路", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / self-driving car 自駕車 / public road 公共道路 / be allowed 被允許 / traffic 交通",
+          sample: "[[I agree with David that]] **self-driving cars** [[should be]] allowed on public roads, because they can make **traffic** much safer." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to …, I would add that 除了…之外，我想補充 / driverless vehicle 無人駕駛車輛 / the elderly 年長者 / disability 身心障礙 / depend on 依賴 / autonomous 自動駕駛的 / whenever they wish 隨時想要就能",
+          sample: "[[In addition to]] safety, [[I would add that]] **driverless vehicles** give freedom to people who cannot drive. Elderly people and those with **disabilities** often [[depend on]] relatives or expensive taxis. With an **autonomous** car, they could visit a doctor whenever they wish." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / stop driving 不再開車 / poor eyesight 視力不佳 / rarely 很少 / allow … to + V 讓…能夠",
+          sample: "[[For example,]] my grandfather stopped driving two years ago because of poor eyesight. He lives in a small town with only four buses a day, so he rarely leaves home. A self-driving car [[would allow]] him [[to]] see his friends again." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / While that is true 雖然這是事實 / struggle 吃力 / heavy rain 大雨 / software 軟體 / update 更新 / whereas 而（對比）/ make the same mistakes 犯同樣的錯",
+          sample: "[[Mary argues that]] the technology is not ready for bad weather. [[While that is true,]] human drivers also struggle in heavy rain, and **software** can be improved with every **update**, [[whereas]] careless drivers keep making the same mistakes." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / welcome 歡迎、接納 / rather than 而不是 / ban 禁止",
+          sample: "[[For these reasons, I believe that]] governments [[should]] welcome self-driving cars [[rather than]] ban them." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "認為自駕車還不該上路", rows: [
+        { role: "Position", zh: "表明立場", hints: "I share Mary's view that 我和 Mary 看法相同，認為 / self-driving car 自駕車 / public road 公共道路 / until 直到 / technology 技術 / proven safe 證實安全",
+          sample: "[[I share Mary's view that]] **self-driving cars** [[should not be]] allowed on public roads until the **technology** is proven safe." },
+        { role: "New reason", zh: "補充新理由", hints: "Another point worth considering is that 另一個值得考慮的重點是 / hack 駭入 / autonomous vehicle 自動駕駛車輛 / be connected to 連上 / break into 侵入 / highway 高速公路 / location data 位置資料",
+          sample: "[[Another point worth considering is that]] these cars can be **hacked**. An **autonomous vehicle** is basically a computer on wheels, always connected to the internet. If criminals broke into the system, they could stop cars on a highway or steal passengers' location **data**." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / lane-keeping system 車道維持系統 / mistake A for B 把 A 誤認為 B / road marking 道路標線 / roadworks 道路施工 / grab the wheel 抓住方向盤 / in time 及時",
+          sample: "[[Take]] my uncle's car [[as an example.]] During roadworks, its **lane-keeping system** [[mistook]] an old road marking [[for]] a real one and pulled the car towards a wall. He grabbed the wheel in time, but a **driverless** car would have no one to do so." },
+        { role: "Respond to David", zh: "回應對方", hints: "David is right that …, but David 說…是對的，但 / human error 人為疏失 / What we really need is 我們真正需要的是 / assist 輔助 / automatic braking 自動煞車 / replace 取代",
+          sample: "[[David is right that]] **human error** causes most accidents, [[but]] computers make errors too. [[What we really need is]] technology that assists drivers, such as **automatic braking**, not technology that replaces them." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / test track 測試場 / instead of + V-ing 而不是… / share our roads 共用我們的道路",
+          sample: "[[In conclusion,]] self-driving cars [[should]] stay on test tracks [[instead of]] sharing our roads." },
+      ] },
+    ]
+  },
 ];
