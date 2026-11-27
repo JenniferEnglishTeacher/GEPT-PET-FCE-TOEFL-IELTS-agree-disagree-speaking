@@ -3453,4 +3453,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 102, cat: "Technology & AI",
+    title: "Can We Still Protect Our Privacy?", zh: "我們還能保護自己的隱私嗎？",
+    question: "Can people still protect their privacy in the digital age?", questionZh: "在數位時代，人們還能保護自己的隱私嗎？",
+    professor: "This week we are looking at personal data. Every time we search online, use a map app or pay with a phone, companies collect information about where we go, what we buy and who we talk to. Some experts say that privacy is already dead, while others believe that new laws and smarter habits can still keep our information safe. In your opinion, can people still protect their privacy in the digital age? Why or why not?",
+    david: "Yes, I believe they can. Data protection laws now force companies to ask for permission before they collect our information, and they can be fined heavily if they misuse it. Users also have more tools than before: we can turn off location tracking, refuse cookies and choose apps that encrypt our messages. Privacy takes effort, but it is not lost.",
+    mary: "I don't think so. Almost nobody reads the terms of service, so we give away our data with one click. Even if you are careful, your phone can work out where you live and work from your daily movements, and your friends may post photos of you without asking. Once information is online, it can be copied and sold forever.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "認為數位時代仍然能保護隱私", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my opinion 依我之見 / protect 保護 / privacy 隱私 / digital age 數位時代 / I agree with David that 我同意 David 所說的 / make a real difference 帶來實質的改變",
+          sample: "[[In my opinion,]] people can still protect their **privacy** in the **digital age**, [[and I agree with David that]] laws and simple tools make a real difference." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides the points David made, I would add that 除了 David 提出的論點之外，我想補充 / digital literacy 數位素養 / so 因此 / strong password 高強度密碼 / spot 識破、看出 / phishing message 釣魚訊息 / think twice before 三思而後… / personal details 個人資料",
+          sample: "[[Besides the points David made, I would add that]] education is making users smarter. Schools now teach **digital literacy**, [[so]] young people learn to use strong **passwords**, spot **phishing** messages and think twice before they share **personal details**." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / online safety 網路安全 / privacy settings 隱私設定 / track 追蹤 / location 位置 / switch off 關掉 / within + 時間 在…之內",
+          sample: "[[For example,]] after a lesson on online safety, I checked the **privacy settings** on my phone. Twelve apps were **tracking** my **location**, and I switched off ten of them [[within]] five minutes." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / terms of service 服務條款 / While that is true 雖然這是事實 / no longer need to + V 不再需要… / pop-up 彈出視窗 / ask whether 詢問是否",
+          sample: "[[Mary argues that]] nobody reads the **terms of service**. [[While that is true,]] we [[no longer need to]] read them, because many phones now show a clear **pop-up** asking whether an app may track us." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / dead 已死的、消失的 / simply 只不過 / require 需要 / careful habit 謹慎的習慣",
+          sample: "[[For these reasons, I believe that]] privacy is not dead; it simply requires good **laws** and careful **habits**." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "認為數位時代已無法完全保護隱私", rows: [
+        { role: "Position", zh: "表明立場", hints: "Personally, I do not think that 就我個人而言，我不認為 / fully 完全地 / privacy 隱私 / I share Mary's view that 我和 Mary 看法相同，認為 / collect data 蒐集資料 / control 掌控",
+          sample: "[[Personally, I do not think that]] people can fully protect their **privacy** today, [[and I share Mary's view that]] our **data** is collected faster than we can control it." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that Mary did not mention is that Mary 沒有提到的一點是 / organisation 機構 / avoid 避開 / store records 儲存紀錄 / data breach 資料外洩 / expose 使曝光 / however careful we are 無論我們多麼小心",
+          sample: "[[One point that Mary did not mention is that]] our information is also held by organisations we cannot avoid. Hospitals, banks and schools store our **records** online, and a single **data breach** can expose everything, [[however]] careful we are." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / However 然而 / hacker 駭客 / break into 侵入 / database 資料庫 / scam call 詐騙電話 / have + p.p. … ever since 從那之後一直…",
+          sample: "[[Take]] my uncle [[as an example.]] He never uses social media. [[However,]] **hackers** broke into an online shop's **database** last year, and he [[has]] received **scam calls** from strangers who know his address [[ever since.]]" },
+        { role: "Respond to David", zh: "回應對方", hints: "David says that David 說 / force … to + V 迫使…去 / permission 許可 / That may be true in theory; however 理論上也許如此；然而 / be designed so that 被設計成… / accept 接受 / refuse 拒絕",
+          sample: "[[David says that]] new laws force companies to ask for **permission**. [[That may be true in theory; however,]] most websites are designed [[so that]] accepting is much easier than **refusing**, so the law changes very little." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / complete 完全的 / no longer 不再 / realistic 實際可行的 / punish 懲罰 / leak 洩漏 / severely 嚴厲地",
+          sample: "[[In conclusion,]] complete privacy is no longer realistic, so governments [[should]] punish companies that **leak** data severely." },
+      ] },
+    ]
+  },
 ];
