@@ -3351,4 +3351,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 99, cat: "Health & lifestyle",
+    title: "Has Technology Made Life More Stressful?", zh: "科技讓生活壓力更大了嗎？",
+    question: "Has technology made modern life more stressful rather than less?", questionZh: "科技讓現代生活的壓力變得更大，而不是更小嗎？",
+    professor: "This week we are looking at stress in modern life. Smartphones, email and countless apps were designed to save us time and make everyday tasks easier: we can now pay bills, shop and contact anyone within seconds. Yet surveys in many countries report that people feel more tired, anxious and rushed than their parents did. Some researchers blame the very devices that were supposed to help us. In your opinion, has technology made modern life more stressful rather than less? Why or why not?",
+    david: "I think it has. Because of smartphones, people can never really switch off. Messages from bosses and teachers arrive late at night, and we feel that we must answer at once. In the past, work ended when people left the office, but now it follows them home and even on holiday.",
+    mary: "I see it differently. Technology has removed many of the things that used to cause stress. We no longer queue at the bank, get lost in a strange city or wait weeks for a letter. When I feel stressed, the problem is usually too much work, not my phone, and I can always turn it off.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "科技讓現代生活壓力更大", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / technology 科技 / stressful 壓力大的 / rather than 而不是",
+          sample: "[[I agree with David that]] **technology** has made modern life more **stressful** [[rather than]] less." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides … that David mentioned, I would add that 除了 David 提到的…之外，我想補充 / information overload 資訊過量 / advertisement 廣告 / which makes it hard to + V 這讓人很難… / relax 放鬆 / satisfied with 對…感到滿足",
+          sample: "[[Besides]] the endless messages [[that David mentioned, I would add that]] technology causes **information overload**. Every day we see hundreds of news stories, advertisements and photos of other people's perfect lives, [[which makes it hard to]] **relax** or feel **satisfied** with our own." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / used to + V 過去習慣… / as soon as 一…就… / compare oneself with 拿自己和…比較 / anxious 焦慮的 / calm 平靜的 / once 一旦",
+          sample: "[[For example,]] my sister [[used to]] check her phone [[as soon as]] she woke up. Reading bad news and comparing herself with her classmates made her **anxious** before breakfast. Once she stopped using it in the morning, she felt much **calmer**." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / turn off 關掉 / device 裝置 / That may be true in theory; however, 理論上或許沒錯；然而 / in practice 實際上 / expect quick replies 期待迅速回覆 / ignore 忽略、不理會",
+          sample: "[[Mary argues that]] we can always turn our **devices** off. [[That may be true in theory; however,]] few people can do so in practice, [[because]] schools and companies expect quick replies, and **ignoring** a message can cause trouble." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / save time 節省時間 / at the cost of 以…為代價 / peace of mind 內心的平靜",
+          sample: "[[For these reasons, I believe that]] technology saves us time [[at the cost of]] our **peace of mind**." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "科技讓現代生活壓力更小", rows: [
+        { role: "Position", zh: "表明立場", hints: "Although … is understandable 雖然…可以理解 / I agree with Mary that 我同意 Mary 所說的 / technology 科技 / stressful 壓力大的",
+          sample: "[[Although]] David's view [[is understandable,]] [[I agree with Mary that]] **technology** has made modern life less **stressful**, not more." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that Mary did not mention is that Mary 沒有提到的一點是 / help sb. + V 幫助某人… / cope with stress 紓解、應付壓力 / under pressure 有壓力 / meditation 冥想 / video-call 視訊通話 / without + V-ing 不必…",
+          sample: "[[One point that Mary did not mention is that]] technology [[helps people]] **cope with stress**. When we feel **under pressure**, we can listen to music, follow a **meditation** app or video-call a friend, all [[without]] leaving home." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / worry about 擔心 / constantly 不斷地 / live alone 獨居 / smartwatch 智慧手錶 / warn 警示 / so 所以",
+          sample: "[[Take]] my mother [[as an example.]] She used to worry constantly about my grandmother, who lives alone in the countryside. Now they talk on video every evening, and a **smartwatch** warns us if Grandma falls, [[so]] my mother sleeps much better." },
+        { role: "Respond to David", zh: "回應對方", hints: "David claims that David 聲稱 / I understand his point, but 我理解他的觀點，但 / the real cause is … 真正的原因是… / the device itself 裝置本身 / mute notifications 關閉通知 / ban 禁止",
+          sample: "[[David claims that]] smartphones let work follow people home. [[I understand his point, but]] [[the real cause is]] bosses who expect replies at midnight, not the device itself. People can **mute notifications**, and some companies now ban emails after work." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / tool 工具 / when used wisely 只要善加使用 / reduce stress 減輕壓力 / far more than 遠多於",
+          sample: "[[In conclusion,]] technology is only a tool, and [[when used wisely,]] it **reduces stress** far more than it creates it." },
+      ] },
+    ]
+  },
 ];
