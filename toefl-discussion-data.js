@@ -2875,4 +2875,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 85, cat: "Education",
+    title: "Are Cram Schools Necessary?", zh: "補習班是必要的嗎？",
+    question: "Are cram schools necessary for students to do well at school?", questionZh: "補習班是學生把書讀好所必需的嗎？",
+    professor: "This week we are discussing private tutoring. In many East Asian countries, including Taiwan, South Korea and Japan, a large number of students attend cram schools in the evenings or at weekends, and their families spend a great deal of money on them. Supporters say that these schools give students the extra help and exam practice that crowded classrooms cannot offer. Critics argue that they take away students' free time, put pressure on family budgets and make education less fair. In your opinion, are cram schools necessary for students to do well at school? Why or why not?",
+    david: "I think they are necessary for many students. In a class of thirty-five, a teacher simply cannot stop and explain a point again for everyone who is lost. At a cram school, classes are smaller and you can ask as many questions as you like. The teachers also know exactly what kinds of questions appear on entrance exams, so students walk into the exam hall feeling prepared.",
+    mary: "I disagree. Students already spend eight hours a day at school; adding three more hours of lessons in the evening leaves them too tired to learn anything. Cram schools also cost thousands of dollars a month, which many parents cannot afford. With free online videos, school teachers and study groups, a motivated student can do well without them.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "認為補習班有其必要", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my opinion 依我之見 / cram school 補習班 / necessary 必要的 / I agree with David that 我同意 David 所說的 / extra help 額外的幫助 / large class 大班級",
+          sample: "[[In my opinion,]] **cram schools** are necessary for many students, [[and I agree with David that]] large school classes cannot offer enough **extra help**." },
+        { role: "New reason", zh: "補充新理由", hints: "Beyond what David said, I would add that 除了 David 所說的之外，我想補充 / structure 規律、架構 / find it hard to + V 覺得…很難 / within reach 伸手可及 / fixed timetable 固定的課表 / quiz 小考 / keep … on track 讓…不偏離進度 / even when 即使在…的時候 / motivation 動力",
+          sample: "[[Beyond what David said, I would add that]] cram schools give students structure. Many teenagers [[find it hard to]] study alone at home, where phones are always within reach. A fixed **timetable** and weekly quizzes keep them **on track** [[even when]] their **motivation** is low." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / be weak at 不擅長 / seventh grade 七年級 / hand in 繳交 / exercise 練習題 / go up from A to B 從 A 進步到 B / within one semester 一學期之內",
+          sample: "[[For example,]] I was weak at math in seventh grade. After my parents sent me to a cram school, I had to hand in exercises twice a week, and my grade went up from sixty to eighty-five within one **semester**." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary points out that Mary 指出 / available 可取得的 / However 然而 / whereas 而（對比）/ tutor 補習班老師、家教 / in three different ways 用三種不同的方式",
+          sample: "[[Mary points out that]] free online videos are available. [[However,]] a video cannot answer your questions, [[whereas]] a **tutor** can explain the same idea in three different ways." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / not A but B 不是 A 而是 B / a waste of money 浪費錢 / valuable support 寶貴的支援",
+          sample: "[[For these reasons, I believe that]] cram schools are [[not]] a waste of money [[but]] a valuable **support**." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "認為補習班並非必要", rows: [
+        { role: "Position", zh: "表明立場", hints: "Personally, I do not think that 就我個人而言，我不認為 / cram school 補習班 / I share Mary's view that 我和 Mary 看法相同，認為 / exhausted 精疲力盡的 / too … to + V 太…而無法…",
+          sample: "[[Personally, I do not think that]] **cram schools** are necessary, [[and I share Mary's view that]] they leave students [[too]] exhausted [[to]] learn well." },
+        { role: "New reason", zh: "補充新理由", hints: "Another point worth considering is that 另一個值得考慮的重點是 / dependent 依賴的 / summarize 整理重點 / revision 複習 / As a result 結果 / struggle 吃力、陷入困難 / independent learning 自主學習",
+          sample: "[[Another point worth considering is that]] cram schools make students **dependent**. When a tutor summarizes every chapter, students never learn to plan their own **revision**. [[As a result,]] many of them struggle at university, where **independent learning** is expected." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / attend 上（課）、參加 / ninth grade 九年級 / entrance exam 入學考試 / senior high 高中 / admit 承認 / memorize 背誦",
+          sample: "[[Take]] my classmate [[as an example.]] She attended three cram schools in ninth grade and scored well on the **entrance exam**, but in senior high she admitted that she did not know how to study without someone telling her what to **memorize**." },
+        { role: "Respond to David", zh: "回應對方", hints: "David says that David 說 / That may be true; however 這也許是真的；然而 / after-school tutoring 課後輔導 / help each other 互相幫忙 / study group 讀書會",
+          sample: "[[David says that]] school teachers have no time for every student. [[That may be true; however,]] most schools offer free **after-school tutoring**, and classmates can help each other in **study groups**." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / it is better to + V 最好… / build good study habits 養成良好的讀書習慣 / pay someone else to + V 付錢請別人… / organize 安排、規劃",
+          sample: "[[In conclusion,]] [[it is better to]] build good **study habits** than to pay someone else to organize your learning." },
+      ] },
+    ]
+  },
 ];
