@@ -3589,4 +3589,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 106, cat: "Work & economy",
+    title: "Is Online Shopping Good for Society?", zh: "網路購物對社會是好事嗎？",
+    question: "Is the rapid growth of online shopping a positive development for society?", questionZh: "網路購物的快速成長對社會是正面的發展嗎？",
+    professor: "This week we are looking at changes in the way people shop. Twenty years ago, almost everything was bought in physical stores. Today, people order clothes, books, groceries and even furniture on their phones, and the goods arrive at their door within a day or two. Online sales are growing every year, while many traditional shops are struggling. In your opinion, is the rapid growth of online shopping a positive development for society? Why or why not?",
+    david: "I think it is. Online shopping is extremely convenient. People can shop at any time, even at midnight, without leaving home or waiting in line. It is also easy to compare prices and read reviews from other buyers, so shoppers usually get a better product for less money. For busy families, this saves hours every week.",
+    mary: "I disagree. Every time we order from a huge online platform, a local shop loses a customer. In many towns, bookshops and clothing stores have already closed, and the main streets are full of empty buildings. The people who worked there have lost their jobs, and the town centre has lost its life.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "網路購物的成長對社會是正面的發展", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / growth 成長 / online shopping 網路購物 / a positive development for 對…是正面的發展 / society 社會",
+          sample: "[[I agree with David that]] the growth of **online shopping** [[is a positive development for]] society." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides … that David mentioned, I would add that 除了 David 提到的…之外，我想補充 / convenience 便利 / small business 小型企業 / give … a chance to + V 給…機會去… / require 需要 / rent 店租 / staff 員工 / anyone with … can ~ 任何有…的人都能～ / reach 接觸到 / customer 顧客 / at a very low cost 以很低的成本",
+          sample: "[[Besides]] the convenience [[that David mentioned, I would add that]] online shopping [[gives]] **small businesses** [[a chance to]] grow. In the past, opening a shop required a lot of money for rent and staff. Today, [[anyone with]] a good product [[can]] reach **customers** all over the country [[at a very low cost]]." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / farmer 農夫 / used to + V 以前都… / local market 當地市場 / since 自從 / order 訂單 / double 加倍 / employ 僱用 / pack 包裝",
+          sample: "[[For instance,]] a farmer in my hometown [[used to]] sell his mangoes only at the local market. Since he started selling them online, his **orders** have doubled, and he now employs three neighbours to pack the fruit." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary is worried that Mary 擔心 / I understand her concern, but 我理解她的擔憂，但 / survive 生存下去 / as well 也 / e-commerce 電子商務 / create new jobs 創造新的工作 / delivery 配送 / customer service 客戶服務",
+          sample: "[[Mary is worried that]] local shops are closing. [[I understand her concern, but]] many of them can survive by selling online as well, and **e-commerce** creates new jobs in **delivery** and customer service." },
+        { role: "Conclusion", zh: "結論", hints: "All in all 總而言之 / offer 提供 / opportunity 機會 / take away 奪走",
+          sample: "[[All in all,]] **online shopping** [[offers far more]] opportunities [[than]] it takes away." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "網路購物的成長對社會不是正面的發展", rows: [
+        { role: "Position", zh: "表明立場", hints: "Although … 雖然… / convenient 方便的 / I agree with Mary that 我同意 Mary 所說的 / rapid growth 快速成長 / a positive development for 對…是正面的發展",
+          sample: "[[Although]] **online shopping** is convenient, [[I agree with Mary that]] its rapid growth [[is not a positive development for]] society." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that Mary did not mention is that Mary 沒有提到的一點是 / encourage + O + to V 促使… / click 點擊 / free delivery 免運費 / unreal 不真實的 / As a result 結果 / waste A on B 把 A 浪費在 B 上 / impulse purchase 衝動購物 / packaging 包裝 / end up as 最後變成 / rubbish 垃圾",
+          sample: "[[One point that Mary did not mention is that]] online shopping [[encourages]] people [[to]] buy more than they need. With one click and free delivery, spending money feels almost unreal. [[As a result,]] many shoppers waste money on **impulse purchases**, and every order arrives in **packaging** that [[ends up as]] rubbish." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / Double Eleven sales 雙十一購物節 / billions of dollars' worth of 價值數十億美元的 / goods 商品 / item 品項 / return 退貨 / pile up 堆積如山",
+          sample: "[[Take]] the Double Eleven sales [[as an example.]] Every November, shoppers in Asia order billions of dollars' worth of goods in a single day. Many items are returned or never used, while the boxes pile up." },
+        { role: "Respond to David", zh: "回應對方", hints: "David claims that David 聲稱 / That may be true, but 也許沒錯，但 / come at a cost 是有代價的 / local shop 在地商店 / neighbour 鄰居、街坊 / a place to meet 見面聚會的地方",
+          sample: "[[David claims that]] online shopping saves money. [[That may be true, but]] low prices [[come at a cost]]: when **local shops** close, neighbours lose both jobs and places to meet." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / convenience 便利 / be not worth + N 不值得… / damage 損害 / wallet 錢包 / town centre 市中心",
+          sample: "[[In conclusion,]] the convenience of online shopping [[is not worth]] the damage it does to our wallets and our **town centres**." },
+      ] },
+    ]
+  },
 ];
