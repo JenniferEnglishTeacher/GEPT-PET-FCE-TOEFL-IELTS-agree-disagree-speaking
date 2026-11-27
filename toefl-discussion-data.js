@@ -3487,4 +3487,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 103, cat: "Social media & influencers",
+    title: "Should Parents Post Their Children's Photos Online?", zh: "父母該把孩子的照片貼上網嗎？",
+    question: "Should parents post photos and videos of their children on social media?", questionZh: "父母應該把孩子的照片和影片貼到社群媒體上嗎？",
+    professor: "This week we are discussing family life in the digital age. Many parents now share photos and videos of their children online, from a baby's first steps to a teenager's graduation, a habit sometimes called \"sharenting.\" Some families even run popular accounts built around their children. Supporters see this as a modern family album, while critics worry about children's privacy and safety. In your opinion, should parents post photos and videos of their children on social media? Why or why not?",
+    david: "I think it's fine. Sharing photos is simply the modern way of keeping a family album. Grandparents and relatives who live far away can watch the children grow up, and parents can get advice and support from other parents. As long as the pictures are not embarrassing, I don't see any harm in it.",
+    mary: "I disagree. Young children cannot give permission, yet their faces, names and schools are shown to the world. A photo that seems cute today may embarrass them when they are teenagers, and once it is online, it can never be completely removed. Parents should wait until their children are old enough to decide for themselves.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "贊成父母在社群媒體分享孩子的照片", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my view 依我之見 / be free to + V 可以自由地… / post 張貼 / social media 社群媒體 / I agree with David that 我同意 David 所說的 / family album 家庭相簿",
+          sample: "[[In my view,]] parents should be free to post photos of their **children** on **social media**, [[and I agree with David that]] it is simply a modern **family album**." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides the points David made, I would add that 除了 David 提出的論點之外，我想補充 / platform 平台 / control 掌控權 / privacy settings 隱私設定 / relative 親戚 / so that 如此一來、以便 / stranger 陌生人",
+          sample: "[[Besides the points David made, I would add that]] platforms now give parents real control. With **privacy settings**, they can share photos only with relatives and close friends, [[so that]] strangers never see them." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / private account 不公開的帳號 / follow 追蹤 / who lives in … 住在…的 / feel part of 覺得自己參與了… / childhood 童年",
+          sample: "[[For example,]] my aunt posts photos of my cousin on a **private account** that only twenty relatives can follow. My grandmother, [[who]] lives in another city, looks at them every night and feels part of his **childhood**." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / give permission 表示同意 / While that is true 雖然這是事實 / make a decision for 替…做決定 / memory 回憶 / far less risky than 風險遠低於",
+          sample: "[[Mary argues that]] young children cannot give **permission**. [[While that is true,]] parents make every important decision for small children, and sharing a happy **memory** carefully is [[far less]] risky [[than]] many of those choices." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / not A but B 不是 A 而是 B / sensibly 明智地 / with … in mind 把…放在心上 / privacy 隱私",
+          sample: "[[For these reasons, I believe that]] the answer is [[not]] to stop sharing [[but]] to share sensibly, with **privacy** in mind." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "反對父母在社群媒體分享孩子的照片", rows: [
+        { role: "Position", zh: "表明立場", hints: "Although … is understandable 雖然…可以理解 / I agree with Mary that 我同意 Mary 所說的 / post 張貼 / social media 社群媒體",
+          sample: "[[Although]] David's view [[is understandable,]] [[I agree with Mary that]] parents should not post photos of their **children** on **social media**." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that Mary did not mention is that Mary 沒有提到的一點是 / put … in danger 使…陷入危險 / school uniform 學校制服 / reveal 洩露、透露 / which makes it easy for … to + V 這讓…很容易… / criminal 罪犯 / identity theft 身分盜用",
+          sample: "[[One point that Mary did not mention is that]] these posts can put children in danger. A photo in a school uniform **reveals** a child's name and school, [[which makes it easy for]] criminals to find the child or commit **identity theft**." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / family vlogger 家庭影音部落客 / film 拍攝 / earn money 賺錢 / unpaid actor 沒有酬勞的演員 / even 甚至 / pass a law 通過法律 / child influencer 兒童網紅 / earnings 收入",
+          sample: "[[Take]] family **vloggers** [[as an example.]] Some parents film their children daily to earn money. Some of these children later said that they had felt like unpaid actors, and France has [[even]] passed laws to protect child influencers' **earnings**." },
+        { role: "Respond to David", zh: "回應對方", hints: "David says that David 說 / harmless 無害的 / as long as 只要 / I understand his point, but 我理解他的觀點，但 / embarrassing 令人尷尬的 / screenshot 螢幕截圖 / last 持續存在 / long after 在…之後很久 / delete 刪除",
+          sample: "[[David says that]] posting is harmless [[as long as]] the pictures are not embarrassing. [[I understand his point, but]] parents cannot know what a teenager will find **embarrassing**, and a **screenshot** lasts long after a post is deleted." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / belong to 屬於 / privacy 隱私 / keep … offline 讓…不上網 / private message 私人訊息",
+          sample: "[[In conclusion,]] a child's **privacy** belongs to the child, so parents [[should]] keep family photos offline or in **private messages**." },
+      ] },
+    ]
+  },
 ];
