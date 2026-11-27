@@ -3045,4 +3045,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 90, cat: "Work & economy",
+    title: "Should Unpaid Internships Be Banned?", zh: "無薪實習該不該禁止",
+    question: "Should unpaid internships be banned?", questionZh: "應該禁止無薪實習嗎？",
+    professor: "This week we are looking at how young people enter the job market. Many university students now complete at least one internship before they graduate, and a large number of these positions are unpaid. Supporters say that interns are paid in experience, while critics call it free labour. Some countries have already made most unpaid internships illegal. In your opinion, should unpaid internships be banned? Why or why not?",
+    david: "I think they should be banned. Interns often do real work, such as answering emails, entering data and even serving customers, so the company makes money from them. If someone creates value, they deserve at least the minimum wage. Paying nothing also tells young people that their time is worthless, which is a terrible lesson to learn at the start of a career.",
+    mary: "I disagree. An internship is mainly a chance to learn, and training a beginner costs a company time and money. If every intern had to be paid, many small businesses and charities would simply stop offering places. Then students would lose the opportunity to try out a career and to put some real experience on their résumés.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "應該禁止無薪實習", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / unpaid 無薪的 / internship 實習 / should be banned 應該被禁止",
+          sample: "[[I agree with David that]] unpaid **internships** [[should be banned]]." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides … that David mentioned, I would add that 除了 David 提到的…之外，我想補充 / fairness 公平 / widen the gap between A and B 擴大 A 與 B 的差距 / rent 房租 / can afford to + V 負擔得起… / work for free 無償工作 / so 所以 / low-income family 低收入家庭 / lead to 通往、帶來",
+          sample: "[[Besides]] the fairness [[that David mentioned, I would add that]] unpaid internships [[widen the gap between]] rich and poor students. Only those whose parents can pay their rent [[can afford to]] work for free, [[so]] students from **low-income families** miss the positions that lead to the best jobs." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / be offered 得到（機會） / magazine 雜誌社 / because 因為 / turn down 婉拒 / convenience store 便利商店 / while 而 / wealthy 富裕的 / take the place 得到那個名額",
+          sample: "[[For example,]] my classmate was offered an unpaid summer internship at a magazine in Taipei. [[Because]] she could not pay for a room there, she turned it down and worked in a convenience store, [[while]] a wealthier classmate took the place." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / That may be true for some; however, 對某些情況或許沒錯；然而 / firm 公司 / talent 人才 / employer 雇主 / minimum wage 基本工資 / properly 妥善地",
+          sample: "[[Mary argues that]] companies would stop offering internships if they had to pay. [[That may be true for some; however,]] firms still need to find and test young **talent**, and an **employer** that cannot afford the **minimum wage** probably cannot train anyone properly." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / intern 實習生 / deserve to + V 應得、值得…",
+          sample: "[[For these reasons, I believe that]] every **intern** [[deserves to]] be paid." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "不應該禁止無薪實習", rows: [
+        { role: "Position", zh: "表明立場", hints: "Although … is understandable 雖然…可以理解 / I agree with Mary that 我同意 Mary 所說的 / internship 實習 / should not be banned 不應該被禁止",
+          sample: "[[Although]] David's view [[is understandable,]] [[I agree with Mary that]] unpaid **internships** [[should not be banned]]." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that Mary did not mention is that Mary 沒有提到的一點是 / be designed for 為…而設計 / observe 觀察 / professional 專業人士 / feedback 回饋 / mentor 指導者 / course credit 學分 / In this sense 就這一點而言 / be more like A than B 比較像 A 而不像 B",
+          sample: "[[One point that Mary did not mention is that]] many unpaid internships are short and designed for learning. Students observe professionals and receive **feedback** from a **mentor**, and some even earn **course credit**. [[In this sense,]] an internship [[is more like]] a class [[than]] a job, and nobody is paid for attending class." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / animal hospital 動物醫院 / treat 治療 / vet 獸醫 / help sb. decide to + V 幫助某人決定… / veterinary medicine 獸醫學",
+          sample: "[[Take]] my brother [[as an example.]] He spent six weeks as an unpaid intern at an animal hospital. He could not treat animals yet, but watching the vets [[helped him decide to]] study veterinary medicine." },
+        { role: "Respond to David", zh: "回應對方", hints: "David points out that David 指出 / for free 免費地 / I understand his point, but 我理解他的觀點，但 / solution 解決辦法 / strict rule 嚴格的規定 / ban 禁令 / limit A to B 把 A 限制在 B / require 要求 / training plan 訓練計畫",
+          sample: "[[David points out that]] interns often do real work for free. [[I understand his point, but]] the solution is stricter rules, not a ban: governments [[could]] limit unpaid internships to two months and require a written **training plan**." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / improve 改善 / rather than 而不是 / remove 移除 / valuable 寶貴的 / first step 第一步 / workplace 職場",
+          sample: "[[In conclusion,]] we [[should]] improve unpaid internships [[rather than]] remove a valuable first step into the **workplace**." },
+      ] },
+    ]
+  },
 ];
