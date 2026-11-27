@@ -3215,4 +3215,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 95, cat: "Social media & influencers",
+    title: "Real Names on Social Media", zh: "社群媒體該實名制嗎？",
+    question: "Should social media users be required to use their real identity?", questionZh: "應該規定社群媒體使用者以真實身分註冊嗎？",
+    professor: "This week we are discussing identity and responsibility online. On most social media platforms, anyone can open an account under a made-up name, and some countries are now considering laws that would require users to verify their real identity before they can post. Supporters say this would reduce abuse and fraud, while opponents argue that anonymity protects free expression. Should social media users be required to use their real identity? Why or why not?",
+    david: "Yes, they should. People behave far worse when nobody knows who they are. Anonymous accounts are behind most of the insults, threats and scams I see online. If every account were linked to a real person, users would think twice before posting something cruel, and the police could find criminals much more easily.",
+    mary: "I disagree. Anonymity lets people speak honestly about sensitive things, such as problems at work or at home, without fear of being punished. A real-name rule would silence them. Besides, platforms would have to store millions of ID documents, and if that data were stolen, everyone's privacy would be at risk.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "支持社群媒體實名制", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / user 使用者 / be required to + V 被要求… / verify 驗證 / identity 身分 / post 發文",
+          sample: "[[I agree with David that]] social media **users** [[should be]] required to **verify** their real **identity** before posting." },
+        { role: "New reason", zh: "補充新理由", hints: "Beyond the points he raised, I would add that 除了他提出的論點之外，我想補充 / trustworthy 值得信賴的 / fake account 假帳號 / bot 機器人帳號 / verified 經過驗證的 / it would be much harder to + V 要…會困難得多 / mislead the public 誤導大眾",
+          sample: "[[Beyond]] the points [[he raised, I would add that]] real identities would make online information more **trustworthy**. Today, thousands of **fake accounts** and bots post the same opinion to make it look popular. If each person could hold only one **verified** account, [[it would be much harder to]] mislead the public." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / election 選舉 / dozens of 數十個 / attack 攻擊 / candidate 候選人 / be behind 在背後操作 / real-name registration 實名註冊 / campaign（有組織的）行動",
+          sample: "[[For example,]] before our last city election, dozens of **accounts** with no photos attacked one candidate in almost the same words. Nobody could tell who was behind them. With **real-name registration**, such a campaign would have been impossible." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary worries that Mary 擔心 / sensitive 敏感的 / be silenced 被迫噤聲 / However 然而 / nickname 暱稱 / on screen 在畫面上 / lose nothing 毫無損失",
+          sample: "[[Mary worries that]] people with sensitive problems would be silenced. [[However,]] users could still show a **nickname** on screen; only the platform would know who they are. Honest people would lose nothing." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / identity verification 身分驗證 / safe 安全的 / honest 誠實的",
+          sample: "[[For these reasons, I believe that]] **identity verification** [[would make]] social media safer and more honest." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "反對社群媒體實名制", rows: [
+        { role: "Position", zh: "表明立場", hints: "I share Mary's view that 我和 Mary 看法相同，認為 / user 使用者 / be forced to + V 被迫… / reveal 透露 / identity 身分",
+          sample: "[[I share Mary's view that]] social media **users** [[should not be]] forced to reveal their real **identity**." },
+        { role: "New reason", zh: "補充新理由", hints: "Another point worth considering is that 另一個值得考慮的重點是 / online abuse 網路謾罵 / plenty of 許多 / rude comment 無禮的留言 / What … is ~ 真正…的是～ / moderator 版主、內容審核員 / In other words 換句話說 / anonymity 匿名（權）/ solve 解決",
+          sample: "[[Another point worth considering is that]] a real-name rule would not stop **online abuse**. Plenty of people already post rude comments under their own names. [[What]] reduces abuse [[is]] quick action by **moderators**, not a list of ID numbers. [[In other words,]] the rule would cost everyone their **anonymity** without solving the problem." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / be unfairly treated 受到不公平對待 / manager 主管 / anonymous forum 匿名論壇 / legal advice 法律建議 / stranger 陌生人 / If + S + had p.p., S + would never have p.p. 要是當初…，就絕不會… / dare to + V 敢…",
+          sample: "[[Take]] my cousin [[as an example.]] She was unfairly treated by her manager and described the situation on an **anonymous** forum. Within a day, she received legal advice from strangers. [[If]] she [[had]] had to use her real name, she [[would never have]] dared to post." },
+        { role: "Respond to David", zh: "回應對方", hints: "David is right that …, but David 說…是對的，但 / criminal 罪犯 / IP address IP 位址 / serious crime 重大犯罪 / report 報案、檢舉",
+          sample: "[[David is right that]] the police need to find criminals, [[but]] they can already ask platforms for **IP addresses** when a serious crime is reported." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / punish 懲罰 / harmful behaviour 有害的行為 / rather than 而不是 / take … away from 從…身上奪走",
+          sample: "[[In conclusion,]] governments [[should]] punish harmful behaviour itself [[rather than]] take **anonymity** away from everyone." },
+      ] },
+    ]
+  },
 ];
