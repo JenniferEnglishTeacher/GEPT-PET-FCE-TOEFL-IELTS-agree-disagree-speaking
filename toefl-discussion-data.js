@@ -3011,4 +3011,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 89, cat: "Government & society",
+    title: "Immigration and Ageing Populations", zh: "移民與人口老化",
+    question: "Should countries with ageing populations welcome more immigrants?", questionZh: "人口老化的國家應該接納更多移民嗎？",
+    professor: "This week we are looking at population change. In many developed countries, people are living longer and having fewer children, so the workforce is shrinking while the number of retired people keeps rising. Some governments have responded by opening their doors to more immigrants, hoping that workers from abroad will fill empty jobs and pay taxes. Others worry about the effects on local workers and communities and prefer to look for different solutions. In your opinion, should countries with ageing populations welcome more immigrants? Why or why not?",
+    david: "I think they should. Hospitals, care homes, farms and factories in my country cannot find enough staff, and the situation is getting worse every year. Immigrants are usually young and ready to work, so they can fill these jobs immediately. They also pay taxes, which help to pay for the pensions and health care of older people.",
+    mary: "I disagree. When a large number of newcomers arrive in a short time, wages for ordinary workers can fall, and rents go up because there are not enough homes. It is also hard for people to fit in if they do not speak the language. I think governments should look after their own workers first.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "人口老化的國家應該接納更多移民", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / ageing population 人口老化 / welcome 歡迎、接納 / immigrant 移民",
+          sample: "[[I agree with David that]] countries with **ageing populations** [[should]] welcome more **immigrants**." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides …, which David mentioned, I would add that 除了 David 提到的…之外，我想補充 / fill a job 填補職缺 / start a business 創業 / be + adj. + enough to + V 夠…而能… / move abroad 移居國外 / diverse workforce 多元的勞動力 / foreign market 海外市場 / In this way 如此一來 / instead of + V-ing 而不是…",
+          sample: "[[Besides]] filling empty jobs, [[which David mentioned, I would add that]] **immigrants** bring new ideas and start new businesses. People who are brave [[enough to]] move abroad are often hard-working and creative, and a **diverse workforce** helps companies understand foreign markets. [[In this way,]] immigrants create jobs [[instead of]] simply taking them." },
+        { role: "Example", zh: "舉例", hints: "A good example is 一個很好的例子是 / a large share of 很大比例的 / found (founded) 創立 / engineer 工程師 / from overseas 來自海外 / technology industry 科技產業",
+          sample: "[[A good example is]] the United States, where a large share of the biggest companies were founded by **immigrants** or their children. In Taiwan, too, many engineers from overseas now work in the technology industry." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary is worried that Mary 擔心 / newcomer 新來的人 / lower wages 壓低薪資 / housing 住房 / I understand her concern, but 我理解她的擔憂，但 / minimum wage 最低工資 / shrink 萎縮 / far more 遠遠更…",
+          sample: "[[Mary is worried that]] newcomers will lower **wages** and put pressure on housing. [[I understand her concern, but]] governments can set a fair **minimum wage** and build more homes. Without enough workers, the economy would shrink, which would hurt local people far more." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / wise 明智的 / investment 投資 / future 未來",
+          sample: "[[For these reasons, I believe that]] welcoming **immigrants** is a wise investment in a country's future." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "接納更多移民不是人口老化的最佳解方", rows: [
+        { role: "Position", zh: "表明立場", hints: "I share Mary's view that 我和 Mary 看法相同，認為 / bring in 引進 / immigrant 移民 / the best answer to …的最佳解方 / ageing population 人口老化",
+          sample: "[[I share Mary's view that]] bringing in more **immigrants** is not the best answer to an **ageing population**." },
+        { role: "New reason", zh: "補充新理由", hints: "One point Mary did not mention is that Mary 沒有提到的一點是 / immigration 移民（現象） / delay 延後 / grow old 變老 / pension 退休金 / health care 醫療照護 / As a result 結果 / depend on 依賴 / low birth rate 低生育率 / remain unsolved 仍未解決",
+          sample: "[[One point Mary did not mention is that]] **immigration** only delays the problem. Immigrants grow old too, and they will need **pensions** and health care. [[As a result,]] a country that depends on immigration has to keep bringing in more people, while the causes of the low **birth rate** remain unsolved." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / instead of + V-ing 而不是… / rely on 依賴 / foreign labour 外籍勞工 / invest heavily in 大量投資於 / encourage sb. to + V 鼓勵某人… / operate 運作",
+          sample: "[[Take]] Japan [[as an example.]] [[Instead of]] relying mainly on **foreign labour**, it has invested heavily in robots and encouraged older people to keep working, so many factories can still operate with fewer workers." },
+        { role: "Respond to David", zh: "回應對方", hints: "David is right that …, but David 說…是對的，但 / a better solution is to + V 更好的解決方法是… / raise wages 提高薪資 / working conditions 工作條件 / be willing to + V 願意… / young couple 年輕夫妻 / afford 負擔得起",
+          sample: "[[David is right that]] hospitals and factories need staff now, [[but]] [[a better solution is to]] raise **wages** and improve working conditions so that local people are willing to take these jobs. Governments should also help young couples afford children." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / solve the root of the problem 從根本解決問題 / rather than 而不是 / depend on 依賴 / from abroad 來自國外",
+          sample: "[[In conclusion,]] countries [[should]] solve the root of the problem [[rather than]] depend on workers from abroad." },
+      ] },
+    ]
+  },
 ];
