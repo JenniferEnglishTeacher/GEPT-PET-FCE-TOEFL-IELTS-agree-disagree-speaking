@@ -4031,4 +4031,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 119, cat: "Social media & influencers",
+    title: "Is Comparing Yourself with Others Online Harmful?", zh: "在社群媒體上和別人比較有害嗎？",
+    question: "Is comparing yourself with others on social media harmful?", questionZh: "在社群媒體上拿自己和別人比較是有害的嗎？",
+    professor: "This week we are looking at how social media affects the way people see themselves. On Instagram or TikTok, users constantly see the holidays, exam results, bodies and achievements of friends and strangers, and it is almost impossible not to compare. Some psychologists warn that this habit damages self-esteem, while others argue that comparing ourselves with others is natural and can even push us to improve. In your opinion, is comparing yourself with others on social media harmful? Why or why not?",
+    david: "I think it is clearly harmful. People only post their best moments, so we end up comparing our ordinary days with someone else's highlight reel. That comparison is unfair from the start, and it leaves many users feeling envious and dissatisfied with their own lives. The more we scroll, the worse we feel.",
+    mary: "I don't think comparison is the real problem. Humans have always compared themselves with neighbours and classmates; social media just makes it more visible. Seeing what others achieve can inspire us to set goals and work harder. What matters is how we use these platforms and whom we choose to follow, not comparison itself.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "認為在社群媒體上和別人比較有害", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my opinion 依我之見 / compare A with B 拿 A 和 B 比較 / social media 社群媒體 / do more harm than good 弊大於利 / I agree with David that 我同意 David 所說的 / measure A against B 拿 A 和 B 衡量 / highlight reel 精華片段",
+          sample: "[[In my opinion,]] comparing ourselves with others on **social media** does more harm than good, [[and I agree with David that]] we are measuring our ordinary lives against other people's **highlight reels**." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides the points David made, I would add that 除了 David 提出的論點之外，我想補充 / comparison 比較 / never end 永無止境 / algorithm 演算法 / fit 健美的 / stranger 陌生人 / so 因此 / failure 失敗者",
+          sample: "[[Besides the points David made, I would add that]] online **comparison** never ends. In the past, we compared ourselves with a few classmates. Now an **algorithm** shows us thousands of richer, fitter and more successful strangers, [[so]] someone always makes us feel like a failure." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / used to + V 以前常… / follow 追蹤 / talented 有才華的 / worthless 毫無價值的 / As a result 結果 / post 貼文、張貼",
+          sample: "[[For example,]] my younger sister used to enjoy drawing. After she started **following** talented young artists online, she felt that her own work was worthless. [[As a result,]] she stopped **posting** her pictures." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / achievement 成就 / inspire 激勵 / While this may be true for 雖然就…而言也許如此 / confident 有自信的 / envious 羨慕、嫉妒的 / especially when 尤其是當 / edit 修圖、剪輯",
+          sample: "[[Mary argues that]] seeing others' achievements can inspire us. [[While this may be true for]] a few confident people, most users simply feel **envious**, especially when the \"success\" they see is carefully **edited**." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / constant 不斷的 / damage 損害 / self-esteem 自尊、自我價值感",
+          sample: "[[For these reasons, I believe that]] constant comparison online damages our **self-esteem**." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "認為比較本身無害，關鍵在於如何使用", rows: [
+        { role: "Position", zh: "表明立場", hints: "Although … makes a reasonable point 雖然…說得有道理 / I agree with Mary that 我同意 Mary 所說的 / social media 社群媒體 / harmful in itself 本身有害 / it depends on 取決於",
+          sample: "[[Although]] David [[makes a reasonable point,]] [[I agree with Mary that]] comparing ourselves with others on **social media** is not harmful in itself; [[it depends on]] how we use it." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that Mary did not mention is that Mary 沒有提到的一點是 / comparison 比較 / useful information 有用的資訊 / people our age 同齡的人 / save money 存錢 / method 方法 / so 因此 / realistic goal 實際可行的目標",
+          sample: "[[One point that Mary did not mention is that]] **comparison** gives us useful information. When we see how people our age study or save money, we learn which methods work, [[so]] we can set **realistic goals**." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / follow 追蹤 / study routine 讀書作息 / make + O + V 使…（做） / realise 意識到 / copy 仿效 / schedule 時間表 / improve 進步",
+          sample: "[[Take]] my own experience [[as an example.]] Last year, I **followed** a student who posted her daily English **study routine**. Comparing my habits with hers made me realise how little I practised. I copied her schedule, and my speaking improved quickly." },
+        { role: "Respond to David", zh: "回應對方", hints: "David says that David 說 / best moments 最美好的時刻 / I understand his point, but 我理解他的觀點，但 / media literacy 媒體素養 / so that 以便 / view … critically 以批判的眼光看待",
+          sample: "[[David says that]] people only post their best moments. [[I understand his point, but]] most teenagers already know this, and schools can teach **media literacy** [[so that]] students view such posts critically." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / natural 自然的 / tool 工具 / motivation 動力 / rather than 而不是 / envy 羨慕、嫉妒",
+          sample: "[[In conclusion,]] comparison is a natural tool, and we [[should]] learn to use it for **motivation** [[rather than]] envy." },
+      ] },
+    ]
+  },
 ];
