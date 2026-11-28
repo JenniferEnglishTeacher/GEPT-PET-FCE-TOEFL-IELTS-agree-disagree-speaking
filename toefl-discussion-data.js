@@ -3861,4 +3861,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 114, cat: "Work & economy",
+    title: "Teamwork or Working Alone?", zh: "團隊合作還是獨立作業？",
+    question: "Do employees achieve more when they work in teams than when they work alone?", questionZh: "員工團隊合作時的成就比獨立作業時更多嗎？",
+    professor: "This week we are discussing how work is organised. Modern companies love teamwork: offices are open-plan, projects are assigned to groups, and job advertisements almost always ask for a “team player”. However, some researchers point out that many great ideas, from novels to scientific theories, were produced by individuals working quietly on their own. In your opinion, do employees achieve more when they work in teams than when they work alone? Why or why not?",
+    david: "I think they do. No single person is good at everything. In a team, one member may be creative, another careful with numbers, and a third good at talking to customers. When these skills are combined, the team can finish complex projects that no individual could manage alone.",
+    mary: "I disagree. Teamwork means meetings, and meetings eat up time. People spend hours discussing, waiting for others to reply and trying to reach an agreement. A person working alone can simply make a decision and get on with the job. For tasks that need deep concentration, such as writing or programming, other people are mostly a distraction.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "員工團隊合作時成就更多", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / employee 員工 / achieve 達成、有成就 / work in teams 團隊合作 / work alone 獨自工作",
+          sample: "[[I agree with David that]] employees [[achieve more when they]] work in **teams** [[than when they]] work alone." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides … that David mentioned, I would add that 除了 David 提到的…之外，我想補充 / a mix of skills 多種技能的組合 / teamwork 團隊合作 / allow + O + to be p.p. 讓…得以被… / catch a mistake 抓出錯誤 / colleague 同事 / question 質疑 / so … before they become ~ 所以…在變得～之前就… / expensive 代價高昂的",
+          sample: "[[Besides]] the mix of skills [[that David mentioned, I would add that]] **teamwork** [[allows]] mistakes [[to be]] caught early. When people work alone, nobody checks their ideas until the job is finished. In a team, **colleagues** question each other's plans, [[so]] problems are solved [[before they become]] expensive." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / design 設計 / mobile app 手機應用程式 / sales department 業務部門 / notice 注意到 / payment page 付款頁面 / confusing 令人困惑的 / If … had p.p., … would have p.p. 要是當初…，就會…（與過去事實相反）",
+          sample: "[[For instance,]] when my cousin's company designed a new mobile app, a colleague from the **sales department** noticed that the payment page was confusing. [[If]] the designer [[had]] worked alone, customers [[would have]] found the problem first." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / This is a fair point, but 這個論點有道理，但 / the solution is to + V, not to + V 解決之道是…，而不是… / hold a meeting 開會 / cooperate 合作 / discussion 討論",
+          sample: "[[Mary argues that]] meetings waste time. [[This is a fair point, but the solution is to]] hold fewer and shorter meetings, [[not to]] stop **cooperating**. A short discussion can save a week of work." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / well-organised 組織良好的 / separately 各自分開地",
+          sample: "[[For these reasons, I believe that]] a well-organised **team** [[will always]] achieve more [[than]] the same people working separately." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "員工獨立作業時往往成就更多", rows: [
+        { role: "Position", zh: "表明立場", hints: "Although … 雖然… / sound attractive 聽起來很吸引人 / I agree with Mary that 我同意 Mary 所說的 / independently 獨立地",
+          sample: "[[Although]] **teamwork** sounds attractive, [[I agree with Mary that]] employees often achieve more when they work **independently**." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that Mary did not mention is that Mary 沒有提到的一點是 / it is easy for + O + to V …很容易… / hide behind 躲在…後面 / share a task 共同負責一項任務 / responsible for 對…負責 / By contrast 相較之下 / depend entirely on 完全取決於 / effort 努力 / a powerful source of …的強大來源 / motivation 動力",
+          sample: "[[One point that Mary did not mention is that]] in a team, [[it is easy for]] some members [[to]] hide behind others. When five people share one task, nobody feels **responsible** for the result. [[By contrast,]] a person who works alone knows that the result depends entirely on his or her own effort, [[which is a powerful source of]] **motivation**." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / group project 小組報告 / contribute 貢獻 / yet 然而 / receive the same mark 拿到相同的分數",
+          sample: "[[Take]] group projects at my school [[as an example.]] In every group, one or two students write most of the report, while the others **contribute** very little. Yet everyone receives the same mark." },
+        { role: "Respond to David", zh: "回應對方", hints: "David believes that David 認為 / bring … together 把…結合在一起 / That may be true, but 也許沒錯，但 / independent worker 獨立作業的人 / expert 專家 / sit through 耐著性子坐到…結束",
+          sample: "[[David believes that]] teams bring different skills together. [[That may be true, but]] an **independent** worker can still ask an expert for advice, without sitting through hours of meetings." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / should + V … instead of + V-ing 應該…而不是… / concentrate on 專注於 / force A into B 把 A 硬塞進 B",
+          sample: "[[In conclusion,]] companies [[should]] give employees more time to **concentrate** on their own work [[instead of]] forcing everything into teams." },
+      ] },
+    ]
+  },
 ];
