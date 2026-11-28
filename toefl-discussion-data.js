@@ -3963,4 +3963,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 117, cat: "Education",
+    title: "Should University Be Free?", zh: "大學應該免學費嗎？",
+    question: "Should university education be free for all students?", questionZh: "大學教育應該對所有學生免費嗎？",
+    professor: "This week we are discussing how higher education should be paid for. In some countries, such as Germany and Finland, public universities charge local students little or no tuition, and the cost is covered by taxes. In others, students pay high fees and often graduate with large loans. Supporters of free tuition say that it gives everyone an equal chance, while critics ask who will pay the bill. In your opinion, should university education be free for all students? Why or why not?",
+    david: "I think it should. Tuition fees stop many bright students from poor families from going to university, or force them to work long hours while they study. If higher education were free, places would go to those with ability rather than those with money, and the whole country would benefit from a better-educated workforce.",
+    mary: "I disagree. Nothing is really free: taxpayers would have to pay, including people who never went to university and who earn less than graduates do. Besides, students tend to take their studies more seriously when they are paying for them. I would keep tuition fees and help only those who cannot afford them.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "認為大學教育應該對所有學生免費", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my opinion 依我之見 / higher education 高等教育 / earn a place 取得入學資格 / I agree with David that 我同意 David 所說的 / talent 才能 / matter more than 比…更重要 / family income 家庭收入",
+          sample: "[[In my opinion,]] **higher education** should be free for every student who earns a place, [[and I agree with David that]] talent should matter more than family **income**." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides the benefits David mentioned, I would add that 除了 David 提到的好處之外，我想補充 / free tuition 免學費 / graduate 畢業生 / debt 債務 / can afford to + V 有餘裕去… / instead of 而不是 / chase 追逐 / salary 薪水",
+          sample: "[[Besides the benefits David mentioned, I would add that]] **free tuition** allows graduates to choose the careers that society needs. When young people finish their degrees without **debt**, they can afford to become teachers, nurses or researchers [[instead of]] chasing the highest salary." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / rural school 偏鄉學校 / However 然而 / borrow 借（入） / student loan 學生貸款 / better-paid 薪水較高的 / give up one's dream 放棄夢想",
+          sample: "[[For example,]] my cousin wanted to teach in a rural school. [[However,]] she had borrowed a large **student loan**, [[so]] she took a better-paid job at a bank and gave up her dream." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / unfair 不公平的 / taxpayer 納稅人 / That may be true; however 這也許是真的；然而 / earn 賺（錢） / therefore 因此 / pay tax 繳稅 / get one's money back 把錢拿回來",
+          sample: "[[Mary argues that]] it is unfair for **taxpayers** to pay for other people's degrees. [[That may be true; however,]] graduates usually earn more and [[therefore]] pay more **tax**, [[so]] the public gets its money back." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / investment 投資 / rather than 而不是 / cost 成本、花費",
+          sample: "[[For these reasons, I believe that]] free higher education is an **investment** [[rather than]] a cost." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "認為大學不應該對所有人免費", rows: [
+        { role: "Position", zh: "表明立場", hints: "Personally, I do not think that 就我個人而言，我不認為 / I share Mary's view that 我和 Mary 看法相同，認為 / benefit from 從…受益 / degree 學位 / part of the cost 一部分的費用",
+          sample: "[[Personally, I do not think that]] university should be free for everyone, [[and I share Mary's view that]] students who benefit from a **degree** should pay part of the cost." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that Mary did not mention is that Mary 沒有提到的一點是 / lower 降低 / quality 品質 / depend entirely on 完全依賴 / limited 有限的 / government budget 政府預算 / equipment 設備",
+          sample: "[[One point that Mary did not mention is that]] free tuition often lowers **quality**. When universities depend entirely on a limited government **budget**, they have to accept more students with less money, [[so]] classes become larger and equipment gets older." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / pen pal 筆友 / public university 公立大學 / yet 然而 / lecture 講授課、大班課 / in person 當面、親自",
+          sample: "[[Take]] my pen pal in Europe [[as an example.]] She studies at a free **public university**, [[yet]] her **lectures** have over four hundred students, and she has never spoken to a professor in person." },
+        { role: "Respond to David", zh: "回應對方", hints: "David says that David 說 / tuition fees 學費 / keep … out of 把…擋在…之外 / I understand his point, but 我理解他的觀點，但 / scholarship 獎學金 / low-interest loan 低利貸款 / wealthy 富裕的",
+          sample: "[[David says that]] **tuition fees** keep poor students out of university. [[I understand his point, but]] **scholarships** and low-interest **loans** can help those students without giving free places to wealthy families who can easily pay." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / support 支持、資助 / truly 真正地 / rather than 而不是 / free for all 對所有人免費",
+          sample: "[[In conclusion,]] governments [[should]] support the students who truly need help [[rather than]] make university free for all." },
+      ] },
+    ]
+  },
 ];
