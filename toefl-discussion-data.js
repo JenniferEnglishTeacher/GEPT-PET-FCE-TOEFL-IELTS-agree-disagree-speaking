@@ -3827,4 +3827,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 113, cat: "Government & society",
+    title: "Should the Death Penalty Be Abolished?", zh: "應該廢除死刑嗎？",
+    question: "Should the death penalty be abolished?", questionZh: "應該廢除死刑嗎？",
+    professor: "This week we are discussing crime and punishment. More than two-thirds of the world's countries have now abolished the death penalty in law or in practice, but others, including the United States, Japan and Taiwan, still keep it for the most serious crimes, and opinion polls there often show strong public support for it. Supporters say that it delivers justice, while opponents call it cruel and risky. In your opinion, should the death penalty be abolished? Why or why not?",
+    david: "Yes, it should. No justice system is perfect, and judges and juries sometimes make mistakes. In the United States alone, more than 190 people who had been sentenced to death were later found innocent. A prisoner who is wrongly jailed can be released and compensated, but an execution can never be undone.",
+    mary: "I disagree. Some crimes, such as the murder of a child, are so terrible that no other punishment is enough. The victims' families have lost someone forever, and they deserve to see justice done. If the worst criminals only go to prison, the law seems to value their lives more than the lives of their victims.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "贊成廢除死刑", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / the death penalty 死刑 / abolish 廢除",
+          sample: "[[I agree with David that]] the **death penalty** [[should]] be **abolished**." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides …, which David mentioned, I would add that 除了 David 提到的…之外，我想補充 / execute 處決 / innocent 無辜的 / commit a murder 犯下謀殺案 / in a moment of anger 一時氣憤之下 / be caught 被抓到 / threat 威脅 / In fact 事實上 / no clear evidence 沒有明確證據 / deter crime 嚇阻犯罪 / more effectively than 比…更有效 / life imprisonment 無期徒刑",
+          sample: "[[Besides]] the risk of **executing** innocent people, [[which David mentioned, I would add that]] the death penalty does not make society safer. Most murders are committed in a moment of anger or by people who believe they will never be caught, so the threat of **execution** rarely stops them. [[In fact,]] researchers have found no clear evidence that it **deters crime** [[more effectively than]] **life imprisonment**." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / decades ago 數十年前 / yet 然而 / murder rate 謀殺率 / remain 仍然是 / among the lowest in the world 名列全球最低",
+          sample: "[[For example,]] European countries abolished the death penalty decades ago, yet their **murder rates** remain [[among the]] lowest [[in the world]]." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / victim 受害者 / deserve justice 應該得到正義 / This is a fair point; however, 這個觀點有道理；然而 / life sentence without parole 不得假釋的無期徒刑 / severe punishment 嚴厲的懲罰 / spare sb sth 使某人免受… / appeal 上訴",
+          sample: "[[Mary argues that]] **victims'** families deserve **justice**. [[This is a fair point; however,]] a **life sentence** without **parole** is also a severe punishment, and it spares families the long years of **appeals** that come before an execution." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / replace A with B 用 B 取代 A / life imprisonment 無期徒刑",
+          sample: "[[For these reasons, I believe that]] governments [[should]] [[replace]] the death penalty [[with]] **life imprisonment**." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "反對廢除死刑", rows: [
+        { role: "Position", zh: "表明立場", hints: "I share Mary's view that 我和 Mary 看法相同，認為 / the death penalty 死刑 / abolish 廢除",
+          sample: "[[I share Mary's view that]] the **death penalty** [[should not]] be **abolished**." },
+        { role: "New reason", zh: "補充新理由", hints: "One point Mary did not mention is that Mary 沒有提到的一點是 / protect society 保護社會 / in a way that no other … can 以其他…做不到的方式 / murderer 殺人犯 / execute 處決 / whereas 然而、相對地 / serve a life sentence 服無期徒刑 / attack 攻擊 / guard 獄警 / escape 逃獄 / be released early 提早獲釋 / As a result 結果 / put … at risk 使…陷入危險",
+          sample: "[[One point Mary did not mention is that]] the death penalty protects society [[in a way that no other]] punishment [[can]]. A **murderer** who has been **executed** can never harm anyone again, [[whereas]] a prisoner serving a **life sentence** may still attack guards or other prisoners, escape, or be released early. [[As a result,]] keeping the most dangerous **criminals** alive [[puts]] innocent people [[at risk]]." },
+        { role: "Example", zh: "舉例", hints: "For instance 例如 / there have been cases in which 曾有…的案例 / killer 殺人犯 / on parole 假釋 / go on to V 接著又… / commit another murder 再犯下一起謀殺案",
+          sample: "[[For instance, there have been cases in which]] killers were released on **parole** and went on to commit another murder." },
+        { role: "Respond to David", zh: "回應對方", hints: "David is right that …, but David 說…是對的，但 / court 法院 / make a mistake 犯錯 / the solution is to V 解決之道是… / rather than 而不是 / DNA evidence DNA 證據 / level of appeal 上訴審級 / be limited to 僅限於 / guilt 罪行、有罪 / beyond doubt 毫無疑問",
+          sample: "[[David is right that]] **courts** sometimes make mistakes, [[but the solution is to]] improve the system [[rather than]] to abolish the punishment. With DNA **evidence** and several levels of **appeal**, executions can be limited to cases in which **guilt** is [[beyond doubt]]." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / remain 保留、維持 / as a last resort 作為最後手段 / the most serious crimes 最嚴重的罪行",
+          sample: "[[In conclusion,]] the death penalty [[should]] remain [[as a last resort]] for the most serious **crimes**." },
+      ] },
+    ]
+  },
 ];
