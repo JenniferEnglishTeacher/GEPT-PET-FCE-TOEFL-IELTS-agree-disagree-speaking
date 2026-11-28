@@ -3657,4 +3657,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 108, cat: "Ethics & culture",
+    title: "Should Visitors Follow Local Customs?", zh: "出國應該入境隨俗嗎？",
+    question: "Should visitors to another country be expected to follow local customs and behaviour?", questionZh: "到另一個國家的訪客應該入境隨俗、遵守當地的習俗與行為規範嗎？",
+    professor: "This week we are discussing culture and travel. More people than ever now travel, study and work abroad, and they bring their own habits with them. Some people believe that visitors should adopt the customs and behaviour of the country they are in. As the saying goes, \"When in Rome, do as the Romans do.\" Others believe that a host country should welcome cultural differences rather than expect visitors to change. In your opinion, should visitors to another country be expected to follow local customs and behaviour? Why or why not?",
+    david: "I believe they should. Following local customs is a basic way of showing respect to the people who live there. If visitors ignore the rules, for example by wearing shorts in a temple or talking loudly on a quiet train, they offend their hosts and give their own country a bad name.",
+    mary: "I see it differently. Customs take years to learn, so it is unfair to expect a visitor to know them all after a few days. Besides, a host country benefits from cultural differences: foreign food, festivals and ideas make a society more interesting. If everyone simply copies the locals, that diversity disappears.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "認為訪客應該入境隨俗", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / visitor 訪客、遊客 / follow 遵守 / local customs 當地習俗",
+          sample: "[[I agree with David that]] visitors to another country [[should]] follow **local customs**." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to the point he made about …, I would add that 除了他提到關於…的論點之外，我想補充 / respect 尊重 / understand a culture 了解一個文化 / from the inside 從內部、親身 / whereas 然而、相對地 / take part 參與 / behave 表現、行為舉止",
+          sample: "[[In addition to the point he made about]] respect, [[I would add that]] following local customs helps visitors **understand a culture** from the inside. Tourists who only watch see a country like a film, [[whereas]] those who **take part** learn why people behave as they do." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / take off one's shoes 脫鞋 / queue 排隊 / bow 鞠躬 / As a result 結果、因此 / guesthouse 民宿 / tea ceremony 茶道 / highlight 最精彩的部分",
+          sample: "[[For example,]] when my family visited Japan, we took off our shoes at the door, queued quietly and **bowed** to say thank you. [[As a result,]] our guesthouse owner invited us to a tea **ceremony**, the highlight of our trip." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / unfair 不公平的 / That may be true; however, 這或許沒錯；然而 / perfection 完美 / etiquette 禮儀 / forgive 原諒 / honest mistake 無心之過",
+          sample: "[[Mary argues that]] it is unfair to expect visitors to know every custom. [[That may be true; however,]] nobody expects perfection. Reading about basic **etiquette** takes an hour, and locals forgive honest mistakes when a visitor is clearly trying." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / not only A but also B 不只 A 而且 B / polite 有禮貌的 / enjoy 享受、好好體驗",
+          sample: "[[For these reasons, I believe that]] following local customs [[is not only]] polite [[but also]] the best way to enjoy a country." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "認為不應該要求訪客凡事入境隨俗", rows: [
+        { role: "Position", zh: "表明立場", hints: "Although I understand David's point 雖然我理解 David 的觀點 / I agree with Mary that 我同意 Mary 所說的 / be expected to + V 被要求、被期待… / local custom 當地習俗",
+          sample: "[[Although I understand David's point,]] [[I agree with Mary that]] visitors [[should not be expected to]] follow every **local custom**." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that Mary did not mention is that Mary 沒有提到的一點是 / conflict with 與…衝突 / religion 宗教 / personal beliefs 個人信念 / does not mean 並不代表 / give up 放棄 / identity 身分認同 / as long as 只要 / obey the law 守法 / harm 傷害",
+          sample: "[[One point that Mary did not mention is that]] some customs conflict with a visitor's **religion**, health or **personal beliefs**. Respecting a culture [[does not mean]] giving up one's **identity**, [[as long as]] the visitor obeys the law and harms no one." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / Muslim 穆斯林 / host 主人 / pork 豬肉 / alcohol 酒 / politely refuse 婉拒 / be offended 覺得被冒犯 / instead 反而 / curious 好奇的 / halal food 清真食物",
+          sample: "[[Take]] my Muslim classmate from Indonesia [[as an example.]] Taiwanese hosts often offer guests pork dishes and alcohol, yet she politely refuses both. Her friends were not offended; [[instead,]] they became curious about **halal food**." },
+        { role: "Respond to David", zh: "回應對方", hints: "David claims that David 聲稱 / ignore 無視 / offend 冒犯 / I understand his point, but 我理解他的觀點，但 / there is a difference between A and B A 和 B 是有差別的 / rude 無禮的 / bad manners 沒禮貌 / whereas 然而、相對地 / differently 以不同的方式",
+          sample: "[[David claims that]] visitors who ignore local rules offend their hosts. [[I understand his point, but]] [[there is a difference between]] being rude [[and]] being different. Talking loudly on a quiet train is **bad manners** anywhere, [[whereas]] dressing or eating differently hurts nobody." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / polite 有禮貌的 / confident 有自信的 / welcome differences 歡迎差異 / rather than 而不是 / demand that + S + V（原形） 要求… / alike 一樣地",
+          sample: "[[In conclusion,]] visitors should be polite, but a confident society [[should]] **welcome differences** [[rather than]] demand that everyone behave alike." },
+      ] },
+    ]
+  },
 ];
