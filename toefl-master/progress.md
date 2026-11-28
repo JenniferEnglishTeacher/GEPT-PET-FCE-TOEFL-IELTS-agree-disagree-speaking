@@ -77,7 +77,7 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 71 | Email | Application / Job | Applying to Be a Volunteer at an International Film Festival 應徵國際影展志工 (to Ms. Delgado, volunteer manager of the Harbor City International Film Festival — student volunteers check tickets, help the audience find seats and welcome foreign directors and guests for ten days in October; why you want to volunteer (love foreign films, see a big event behind the scenes), a useful skill or experience (fluent English, information desk at the school open day), ask a question about the volunteers' schedule / shifts) | toefl-master/email-application-job.html
 72 | Email | Thanks / Follow-up | Thanking a Bookshop Owner for Donating Books 感謝書店老闆捐書給班級閱讀角 (to Mr. Reed, owner of Corner Bookshop — donated forty English novels and magazines to your class's English reading corner, you write as class representative; thank him + what the class thought of the books, how the books are being used (15-minute morning reading, 30+ books borrowed), invite him to visit the class next Friday) | toefl-master/email-thanks-follow-up.html
 
-## Discussion (110)
+## Discussion (111)
 01 | Discussion | Education | Should STEAM courses be mandatory for all university students? 大學應該把 STEAM 課程列為全體學生的必修嗎？ | toefl-master/discussion-education.html
 02 | Discussion | Technology & AI | Will AI-generated images and videos have a positive or a negative influence on society? AI 生成的圖片與影片對社會的影響是正面還是負面？ | toefl-master/discussion-technology-ai.html
 03 | Discussion | Social media & influencers | Do social media influencers have a mainly positive or a mainly negative influence on young people? 社群媒體網紅對年輕人的影響主要是正面還是負面？ | toefl-master/discussion-social-media-influencers.html
@@ -188,6 +188,7 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 108 | Discussion | Ethics & culture | Should visitors to another country be expected to follow local customs and behaviour? 到另一個國家的訪客應該入境隨俗、遵守當地的習俗與行為規範嗎？ | toefl-master/discussion-ethics-culture.html
 109 | Discussion | Education | Should every university degree include a compulsory period of study abroad or a work placement? 每個大學學位都應該把一段海外研習或企業實習列為必修嗎？ | toefl-master/discussion-education.html
 110 | Discussion | Technology & AI | Should societies stop using cash and move completely to digital payments? 社會應該全面停用現金、完全改用數位支付嗎？ | toefl-master/discussion-technology-ai.html
+111 | Discussion | Social media & influencers | Should employers check job applicants' social media accounts before hiring them? 雇主在錄用前應該查看求職者的社群媒體帳號嗎？ | toefl-master/discussion-social-media-influencers.html
 
 ## Notes for the next run
 - Sample markup in the HTML sources: `<span style="background-color:#fff2a8">` = universal pattern, `<b>` = theme word.

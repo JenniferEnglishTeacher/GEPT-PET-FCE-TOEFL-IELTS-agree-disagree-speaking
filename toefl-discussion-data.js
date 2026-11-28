@@ -3759,4 +3759,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 111, cat: "Social media & influencers",
+    title: "Should Employers Check Applicants' Social Media?", zh: "雇主該查看求職者的社群帳號嗎？",
+    question: "Should employers check job applicants' social media accounts before hiring them?", questionZh: "雇主在錄用前應該查看求職者的社群媒體帳號嗎？",
+    professor: "This week we are discussing social media and the workplace. Surveys suggest that many employers now look at job applicants' social media accounts before deciding whom to hire. A careless photo or an angry comment posted years ago can cost someone a job offer. Some people think this is a sensible way to learn about a candidate, while others see it as unfair and intrusive. In your opinion, should employers check job applicants' social media accounts before hiring them? Why or why not?",
+    david: "I think employers have every right to do this. A résumé and a thirty-minute interview show only a person's best side, but public posts reveal how someone really behaves. If an applicant insults others or shares offensive jokes online, the company should know before hiring. Besides, anything posted publicly is no longer private.",
+    mary: "I disagree. What people do in their free time has nothing to do with how well they work. Photos from a party or opinions about politics may lead to unfair judgments, and employers may even discriminate because of someone's religion or relationships. People should be hired for their skills and experience, not for their online lives.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "贊成雇主查看求職者的社群媒體", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my opinion 依我之見 / be allowed to + V 獲准… / public 公開的 / social media 社群媒體 / applicant 求職者 / I agree with David that 我同意 David 所說的 / behave 表現、行為",
+          sample: "[[In my opinion,]] employers should be allowed to check the public **social media** accounts of job **applicants**, [[and I agree with David that]] public posts show how a person really behaves." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides the points David made, I would add that 除了 David 提出的論點之外，我想補充 / represent 代表 / rude 無禮的 / discover 發現 / blame 責怪 / employer 雇主 / in advance 事先 / reputation 名譽、商譽",
+          sample: "[[Besides the points David made, I would add that]] employees represent their company. If a new worker's rude posts are discovered later, customers may blame the **employer**, [[so]] checking in advance protects the company's **reputation**." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / hire 僱用 / part-time 兼職的 / who had + p.p. 曾經…的 / mock 嘲笑 / spread 流傳 / bad review 負評 / lose business 生意流失",
+          sample: "[[For instance,]] a café near my home once hired a **part-time** worker [[who]] had mocked customers online. When his old posts spread, angry customers left bad reviews, and the owner lost business for weeks." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / have nothing to do with 與…無關 / While this may be true for 雖然就…而言也許如此 / hate speech 仇恨言論 / bullying 霸凌 / … is a different matter, because …是另一回事，因為 / treat 對待 / colleague 同事",
+          sample: "[[Mary argues that]] free-time activities have nothing to do with work. [[While this may be true for]] party photos, **hate speech** or bullying online [[is a different matter, because]] it shows how someone may treat **colleagues**." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / a quick look at 快速看一下 / fair 公平合理的 / hiring process 徵才流程",
+          sample: "[[For these reasons, I believe that]] a quick look at public posts is a fair part of the **hiring** process." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "反對雇主查看求職者的社群媒體", rows: [
+        { role: "Position", zh: "表明立場", hints: "Although … makes a reasonable point 雖然…說得有道理 / I agree with Mary that 我同意 Mary 所說的 / applicant 求職者 / social media 社群媒體 / hire 錄用",
+          sample: "[[Although]] David [[makes a reasonable point,]] [[I agree with Mary that]] employers should not check job **applicants'** **social media** accounts before hiring them." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that Mary did not mention is that Mary 沒有提到的一點是 / unreliable 不可靠的 / share the same name 同名同姓 / out of context 斷章取義、脫離原本情境 / misjudge 誤判 / candidate 應徵者",
+          sample: "[[One point that Mary did not mention is that]] online information is often unreliable. Many people share the same name, and old posts may be jokes taken out of **context**, [[so]] employers can easily **misjudge** an honest candidate." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / reject 拒絕、不錄取 / go well 進行得很順利 / later learned that 後來才得知 / stranger 陌生人 / account 帳號 / full of 充滿",
+          sample: "[[Take]] my cousin [[as an example.]] She was once rejected after an interview that had gone well. She later learned that the manager had found a stranger's account with the same name, full of rude comments, and believed it was hers." },
+        { role: "Respond to David", zh: "回應對方", hints: "David says that David 說 / no longer 不再 / I understand his point, but 我理解他的觀點，但 / A does not mean B A 不代表 B / visible 看得見的 / relevant 相關的 / recruiter 招募人員 / religion 宗教信仰 / discriminate 歧視 / without even noticing 甚至沒有察覺",
+          sample: "[[David says that]] anything posted publicly is no longer private. [[I understand his point, but]] being visible [[does not mean]] being relevant; a **recruiter** who sees an applicant's religion or family plans may **discriminate** without even noticing." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / judge … by 以…來評斷 / skill 技能 / reference 推薦信、推薦人 / interview 面試 / online life 網路生活",
+          sample: "[[In conclusion,]] companies [[should]] judge candidates by their **skills**, references and interviews, not by their online lives." },
+      ] },
+    ]
+  },
 ];
