@@ -3997,4 +3997,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 118, cat: "Technology & AI",
+    title: "Will AI Translation Replace Language Learning?", zh: "AI 翻譯會取代外語學習嗎？",
+    question: "Will AI translation tools make learning foreign languages unnecessary?", questionZh: "AI 翻譯工具會讓學外語變得沒有必要嗎？",
+    professor: "This week we are looking at how artificial intelligence is changing communication. Translation apps and earbuds can now turn speech and text into another language almost instantly, and their quality improves every year. Some people predict that spending years studying a foreign language will soon be a waste of time, while others insist that machines can never replace real language ability. In your opinion, will AI translation tools make learning foreign languages unnecessary? Why or why not?",
+    david: "I think they will, at least for most people. Learning a language well takes thousands of hours, yet a free app can already translate a menu, an email or a conversation in seconds. Most people only need a foreign language for travel or simple business, and machines handle those tasks well. That time could be spent on other skills.",
+    mary: "I disagree. Translation tools often miss humour, tone and cultural meaning, so serious misunderstandings can happen. Also, people trust you far more when you speak to them directly rather than through a screen. Learning a language is how we really get to know another culture, and no app can do that for us.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "認為 AI 翻譯會讓學外語變得沒有必要", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my opinion 依我之見 / AI translation AI 翻譯 / unnecessary 沒有必要的 / I agree with David that 我同意 David 所說的 / be better spent on 更值得花在…",
+          sample: "[[In my opinion,]] **AI translation** will soon make learning foreign languages unnecessary for most people, [[and I agree with David that]] the time could be better spent on other skills." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides the points David made, I would add that 除了 David 提出的論點之外，我想補充 / fair 公平的 / afford 負擔得起 / private tutor 家教 / cram school 補習班 / so 因此 / at a disadvantage 處於劣勢 / With + N 有了… / overseas 在海外",
+          sample: "[[Besides the points David made, I would add that]] translation tools make communication fairer. Not everyone can afford **private tutors** or **cram school**, [[so]] poorer families have always been at a disadvantage. [[With]] a free app, anyone can talk to people overseas." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / bicycle parts 自行車零件 / translation app 翻譯應用程式 / translation earbuds 翻譯耳機 / video call 視訊通話 / As a result 結果 / win a customer 爭取到客戶",
+          sample: "[[For example,]] my uncle, who sells bicycle parts, never learned English well. Last year, he wrote emails with a **translation app** and wore **translation earbuds** during video calls. [[As a result,]] he won two new **customers** in Germany." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / miss humour and tone 抓不到幽默與語氣 / While that is true 雖然這是事實 / so … that 如此…以致於 / improve 進步 / rare 罕見的",
+          sample: "[[Mary argues that]] machines often miss humour and tone. [[While that is true]] today, the technology is improving [[so]] quickly [[that]] such mistakes will become rare within a few years." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / hobby 嗜好 / rather than 而不是 / necessity 必需品",
+          sample: "[[For these reasons, I believe that]] foreign languages will become a hobby [[rather than]] a necessity." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "認為 AI 翻譯無法取代外語學習", rows: [
+        { role: "Position", zh: "表明立場", hints: "Personally, I do not think that 就我個人而言，我不認為 / AI translation AI 翻譯 / unnecessary 沒有必要的 / I share Mary's view that 我和 Mary 看法相同，認為 / replace 取代 / language ability 語言能力",
+          sample: "[[Personally, I do not think that]] **AI translation** will make learning foreign languages unnecessary, [[and I share Mary's view that]] no app can replace real language ability." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that Mary did not mention is that Mary 沒有提到的一點是 / train the brain 訓練大腦 / Studies suggest that 研究顯示 / bilingual 雙語的 / concentrate 專注 / solve problems 解決問題 / translation tool 翻譯工具",
+          sample: "[[One point that Mary did not mention is that]] learning a language trains the brain. [[Studies suggest that]] **bilingual** people are better at concentrating and solving problems. A **translation tool** gives us the answer, but it does not make us smarter." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / exchange student 交換學生 / Because + S + V 因為 / host family 寄宿家庭 / share one's worries 分享煩惱 / rely on 依賴 / get beyond 超越、不只停留在 / small talk 寒暄",
+          sample: "[[Take]] my cousin [[as an example.]] She spent a year in Japan as an **exchange student**. [[Because]] she could speak Japanese, her **host family** shared jokes and worries with her. Classmates who relied on their phones never got beyond **small talk**." },
+        { role: "Respond to David", zh: "回應對方", hints: "David says that David 說 / simple business 簡單的商務 / That may be true; however 這也許是真的；然而 / internet connection 網路連線 / hold a phone 拿著手機 / conversation 對話",
+          sample: "[[David says that]] most people only need a language for travel or simple business. [[That may be true; however,]] apps need an **internet connection**, and nobody wants to hold a phone during every conversation." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / helper 幫手 / cannot replace 無法取代 / yourself 親自",
+          sample: "[[In conclusion,]] translation tools are useful helpers, but they [[cannot]] replace speaking another language yourself." },
+      ] },
+    ]
+  },
 ];
