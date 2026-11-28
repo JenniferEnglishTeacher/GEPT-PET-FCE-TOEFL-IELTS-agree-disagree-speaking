@@ -3691,4 +3691,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 109, cat: "Education",
+    title: "Should Every Degree Include Study Abroad or a Work Placement?", zh: "大學學位應該必修海外研習或企業實習嗎？",
+    question: "Should every university degree include a compulsory period of study abroad or a work placement?", questionZh: "每個大學學位都應該把一段海外研習或企業實習列為必修嗎？",
+    professor: "This week we are discussing how universities can prepare students for life after graduation. Some universities now require every undergraduate to spend one term studying abroad or doing a work placement in a company before they can graduate. Supporters say that this experience gives students skills that lectures cannot, while critics point to the cost and to the time it takes away from academic study. In your opinion, should every university degree include a compulsory period of study abroad or a work placement? Why or why not?",
+    david: "I think it should. Students who spend time in a real workplace learn to apply theory, communicate professionally and meet deadlines, and those who study abroad gain independence and a second language. Employers say again and again that graduates have knowledge but no experience, and a compulsory term would close that gap.",
+    mary: "I disagree. Studying abroad is extremely expensive once you add flights, rent and living costs, so a compulsory term would be a heavy burden on low-income families. Good placements are also hard to find, especially outside big cities, and some students end up doing unpaid work that is little more than photocopying. I would keep these programmes optional.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "認為每個學位都應該必修海外研習或企業實習", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my opinion 依我之見 / degree 學位 / term abroad 一學期的海外研習 / work placement 企業實習 / I agree with David that 我同意 David 所說的 / close the gap between A and B 縮小 A 與 B 之間的落差",
+          sample: "[[In my opinion,]] every **degree** should include a term abroad or a **work placement**, [[and I agree with David that]] this experience closes the gap between knowledge and real work." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides the benefits David mentioned, I would add that 除了 David 提到的好處之外，我想補充 / career 職業 / undergraduate 大學生 / in the field 在業界、在實際工作現場 / whether 是否 / suit 適合",
+          sample: "[[Besides the benefits David mentioned, I would add that]] such a term helps students choose the right **career**. Many **undergraduates** have never seen the job they are studying for, [[so]] a few months in the field shows them [[whether]] it suits them." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / accounting 會計 / firm 事務所、公司 / advise clients 為客戶提供建議 / far more than 遠比…更 / check figures 核對數字 / As a result 結果、因此 / final year 大四、最後一年",
+          sample: "[[For example,]] my cousin studied **accounting** before her placement at a small **firm**. There she discovered that she enjoyed advising **clients** far more than checking figures. [[As a result,]] she chose different courses in her final year." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / burden 負擔 / That may be true; however 這也許是真的；然而 / scholarship 獎學金 / arrange 安排 / paid placement 有薪實習 / be left out 被排除在外",
+          sample: "[[Mary argues that]] a compulsory term would be a **burden** on poorer families. [[That may be true; however,]] universities can offer **scholarships** or arrange **paid placements** near home, [[so]] nobody needs to be left out." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / practical experience 實務經驗 / required part 必修的一部分",
+          sample: "[[For these reasons, I believe that]] **practical experience** [[should be]] a required part of every degree." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "認為海外研習或企業實習不應該列為必修", rows: [
+        { role: "Position", zh: "表明立場", hints: "Personally, I do not think that 就我個人而言，我不認為 / work placement 企業實習 / compulsory 必修的、強制的 / I share Mary's view that 我和 Mary 看法相同，認為 / option 選項",
+          sample: "[[Personally, I do not think that]] a term abroad or a **work placement** should be **compulsory**, [[and I share Mary's view that]] these programmes work better as an option." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that Mary did not mention is that Mary 沒有提到的一點是 / philosophy 哲學 / literature 文學 / mainly 主要地 / discussion 討論 / simply 只會 / delay 延後 / graduation 畢業",
+          sample: "[[One point that Mary did not mention is that]] not every degree needs this kind of experience. Students of mathematics, **philosophy** or **literature** learn mainly through reading and discussion, [[so]] a term away would simply delay their **graduation**." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / require 要求 / yet 然而 / position 職缺 / answer phones 接電話 / have nothing to do with 與…毫無關係 / physics 物理",
+          sample: "[[Take]] my brother [[as an example.]] His university required a **placement**, [[yet]] there were not enough good **positions** for everyone. He spent four months answering phones in an office that [[had nothing to do with]] his physics degree." },
+        { role: "Respond to David", zh: "回應對方", hints: "David says that David 說 / employer 雇主 / complain about 抱怨 / I understand his point, but 我理解他的觀點，但 / gain experience 累積經驗 / summer job 暑期打工 / voluntary work 志工服務 / force sb. to + V 強迫某人…",
+          sample: "[[David says that]] **employers** complain about graduates who have no experience. [[I understand his point, but]] students can gain experience through **summer jobs** or **voluntary work** without a rule that forces everyone to do the same thing." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / encourage 鼓勵 / support … with funding 以經費支持… / rather than 而不是 / make … compulsory 把…列為必修",
+          sample: "[[In conclusion,]] universities [[should]] encourage these programmes and support them with **funding** [[rather than]] make them compulsory." },
+      ] },
+    ]
+  },
 ];
