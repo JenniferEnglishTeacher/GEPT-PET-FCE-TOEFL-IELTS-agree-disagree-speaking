@@ -3929,4 +3929,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 116, cat: "Ethics & culture",
+    title: "Are Young People Less Resilient?", zh: "年輕人是「草莓族」嗎？",
+    question: "Are young people today less resilient than previous generations?", questionZh: "現在的年輕人比上一代更禁不起挫折嗎？",
+    professor: "This week we are discussing generations and values. Older people often complain that today's young people give up too easily and cannot handle pressure. In Taiwan, they are even nicknamed the \"strawberry generation\" because they are said to bruise easily. Others argue that this is an unfair stereotype and that young people are simply dealing with different challenges in a different way. In your opinion, are young people today less resilient than previous generations? Why or why not?",
+    david: "I think they are. Many young people today grow up in comfort, with parents who solve every problem for them, so they seldom learn to deal with failure. As a result, a poor grade or a strict boss is enough to make them quit. Earlier generations faced poverty and hard physical work, and they simply kept going.",
+    mary: "I disagree. Young people face different challenges, not fewer ones: fierce academic competition, high housing prices and an uncertain job market. They only seem fragile because they talk openly about stress, whereas their grandparents were taught to hide their feelings. Being honest about emotions is not weakness.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "認為現在的年輕人抗壓性較低", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / generally 一般而言 / resilient 有韌性的、抗壓性高的 / earlier generations 上幾代人",
+          sample: "[[I agree with David that]] young people today are generally less **resilient** than earlier generations." },
+        { role: "New reason", zh: "補充新理由", hints: "In addition to the point he made about …, I would add that 除了他提到關於…的論點之外，我想補充 / protective parents 過度保護的父母 / remove the need to + V 使人不再需要… / patient 有耐心的 / The more …, the fewer … 越…，…就越少 / convenient 便利的 / perseverance 毅力",
+          sample: "[[In addition to the point he made about]] protective parents, [[I would add that]] technology has removed the need to be patient. Food, entertainment and answers now arrive within seconds. [[The more]] **convenient** life becomes, [[the fewer]] chances young people have to practise **perseverance**." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / By contrast 相較之下 / stop working 故障 / helpless 無助的",
+          sample: "[[For example,]] my grandfather walked an hour to school every day. [[By contrast,]] when my Wi-Fi stopped working for one evening last month, I felt completely **helpless**." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / fragile 脆弱的 / That may be true to some extent; however, 這在某種程度上或許沒錯；然而 / A is not the same as B A 不等於 B / setback 挫折 / drop a course 退選一門課 / as soon as 一…就…",
+          sample: "[[Mary argues that]] young people only seem fragile because they talk openly about stress. [[That may be true to some extent; however,]] talking about a problem [[is not the same as]] solving it. Many of my classmates drop a club or a course as soon as they meet a **setback**." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / struggle 奮鬥、掙扎 / fail 失敗 / truly 真正地",
+          sample: "[[For these reasons, I believe that]] my generation needs more chances to **struggle** and fail before it can become truly strong." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "認為年輕人的抗壓性並不比上一代差", rows: [
+        { role: "Position", zh: "表明立場", hints: "Although I understand David's point 雖然我理解 David 的觀點 / I agree with Mary that 我同意 Mary 所說的 / resilient 有韌性的、抗壓性高的 / previous generations 上幾代人",
+          sample: "[[Although I understand David's point,]] [[I agree with Mary that]] young people today are not less **resilient** than previous generations." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that Mary did not mention is that Mary 沒有提到的一點是 / adapt to change 適應變化 / far more quickly 快得多 / keep one job for life 一份工作做一輩子 / whereas 然而、相對地 / be expected to + V 被要求、被期待…",
+          sample: "[[One point that Mary did not mention is that]] today's young people have to **adapt** to change far more quickly than their grandparents did. Earlier generations could keep one job for life, [[whereas]] we [[are expected to]] learn new skills every few years." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / pandemic 疫情、大流行 / switch to 改成、轉換到 / video call 視訊通話 / predict 預料 / adaptability 適應力",
+          sample: "[[Take]] the COVID-19 **pandemic** [[as an example.]] Within a few weeks, students around the world switched to online classes and taught their grandparents to make video calls. Few adults had predicted such **adaptability**." },
+        { role: "Respond to David", zh: "回應對方", hints: "David claims that David 聲稱 / quit 辭職、放棄 / I understand his point, but 我理解他的觀點，但 / a sign of weakness 軟弱的表現 / It takes courage to + V …需要勇氣 / unfair treatment 不公平的對待 / silently 默默地 / put up with 忍受",
+          sample: "[[David claims that]] young people quit as soon as they meet a strict boss. [[I understand his point, but]] leaving a harmful workplace is not a sign of weakness. [[It takes]] **courage** [[to]] refuse unfair treatment that earlier generations silently **put up with**." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / be tested 受到考驗 / in its own way 以各自的方式 / prove 證明 / bounce back 重新振作、恢復",
+          sample: "[[In conclusion,]] every generation is tested in its own way, and mine is proving that it can **bounce back**." },
+      ] },
+    ]
+  },
 ];
