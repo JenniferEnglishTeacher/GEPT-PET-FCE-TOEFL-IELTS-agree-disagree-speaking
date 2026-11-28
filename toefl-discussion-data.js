@@ -3895,4 +3895,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 115, cat: "Health & lifestyle",
+    title: "Is Humour Essential to a Healthy Life?", zh: "幽默是健康生活不可或缺的嗎？",
+    question: "Is a sense of humour an essential part of a healthy life?", questionZh: "幽默感是健康生活不可或缺的一部分嗎？",
+    professor: "This week we are discussing what people need in order to stay healthy. Doctors usually talk about diet, exercise and sleep. However, some psychologists argue that a sense of humour belongs on that list, and a few hospitals even invite clowns to visit their patients. Others reply that laughter is pleasant but has little to do with real health. In your opinion, is a sense of humour an essential part of a healthy life? Why or why not?",
+    david: "I think it is. Laughter is a natural way to reduce stress. When we laugh, our muscles relax and we forget our worries for a while. People who can see the funny side of a bad day recover from problems faster, and less stress means a lower risk of many illnesses.",
+    mary: "I disagree. Humour is enjoyable, but it is not essential. Health depends on basic habits such as a balanced diet, regular exercise and enough sleep. A serious person who looks after his or her body will be far healthier than a funny person who smokes and never exercises. Laughter cannot cure a disease.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "幽默感是健康生活不可或缺的一部分", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / a sense of humour 幽默感 / be an essential part of 是…不可或缺的一部分 / a healthy life 健康的生活",
+          sample: "[[I agree with David that]] a **sense of humour** [[is an essential part of]] a healthy life." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides … that David mentioned, I would add that 除了 David 提到的…之外，我想補充 / humour 幽默 / relationship 人際關係 / laugh together 一起笑 / feel closer 感覺更親近 / humorous 幽默的 / lonely 孤單的 / Research has shown that 研究顯示 / loneliness 孤單 / harm 傷害 / which means that 這意味著 / protect 保護",
+          sample: "[[Besides]] the lower stress [[that David mentioned, I would add that]] **humour** keeps our relationships strong. People who laugh together feel closer, so humorous people rarely feel lonely. [[Research has shown that]] **loneliness** can harm our health as much as smoking does, [[which means that]] laughing with friends protects us." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / be in hospital 住院 / operation 手術 / tell a joke 說笑話 / nurse 護理師 / complain about 抱怨 / pain 疼痛 / recover 康復 / than they had expected 比他們原先預期的",
+          sample: "[[For example,]] when my grandfather was in hospital after an operation, my uncle told him jokes every evening. The nurses said that he complained less about **pain** and **recovered** faster [[than they had expected]]." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / depend on 取決於 / diet 飲食 / This is a fair point, but 這個論點有道理，但 / cheerful 開朗的 / be far more likely to + V 更有可能… / habit 習慣 / whereas 然而、相對地 / give up 放棄",
+          sample: "[[Mary argues that]] health depends on diet, exercise and sleep. [[This is a fair point, but]] people who feel **cheerful** [[are far more likely to]] keep these good habits, [[whereas]] unhappy people often give them up." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / laughter 笑、笑聲 / deserve a place 值得占有一席之地 / beside 在…旁邊、與…並列",
+          sample: "[[For these reasons, I believe that]] **laughter** [[deserves a place]] beside diet and exercise in a healthy life." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "幽默感並非健康生活不可或缺的一部分", rows: [
+        { role: "Position", zh: "表明立場", hints: "Although … 雖然… / feel good 感覺很好 / I agree with Mary that 我同意 Mary 所說的 / a sense of humour 幽默感 / essential 不可或缺的",
+          sample: "[[Although]] laughing feels good, [[I agree with Mary that]] a **sense of humour** [[is not an essential part of]] a healthy life." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that Mary did not mention is that Mary 沒有提到的一點是 / hide 掩蓋 / joke about 拿…開玩笑 / stress 壓力 / instead of + V-ing 而不是… / deal with 處理 / realise 察覺 / As a result 結果 / go untreated 一直沒有得到治療",
+          sample: "[[One point that Mary did not mention is that]] humour can hide health problems. Some people joke about their **stress** [[instead of]] dealing with it, so their friends never realise that anything is wrong. [[As a result,]] a serious problem may go **untreated** for years." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / the funniest 最好笑的 / because of 因為 / anxiety 焦慮 / Nobody noticed until … 直到…才有人發現 / faint 昏倒 / during a lesson 上課時",
+          sample: "[[Take]] my classmate [[as an example.]] He was the funniest boy in our class, but he was sleeping only four hours a night because of **anxiety**. [[Nobody noticed until]] he fainted during a lesson." },
+        { role: "Respond to David", zh: "回應對方", hints: "David claims that David 聲稱 / reduce stress 減輕壓力 / That may be true, but 也許沒錯，但 / effect 效果 / last 持續 / while 而 / cause 原因 / remain 依然存在 / relieve 紓解 / reliably 可靠地",
+          sample: "[[David claims that]] laughter reduces stress. [[That may be true, but]] the effect lasts only a few minutes, [[while]] the causes of the stress remain. Regular exercise and enough sleep **relieve** stress far more reliably than jokes do." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / pleasant 愉快的 / it is A, not B, that … 是 A 而不是 B…（強調句）/ healthy habits 健康的習慣 / keep us well 讓我們保持健康",
+          sample: "[[In conclusion,]] humour makes life more pleasant, but [[it is]] healthy **habits**, [[not]] jokes, [[that]] keep us well." },
+      ] },
+    ]
+  },
 ];
