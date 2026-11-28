@@ -4065,4 +4065,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 120, cat: "Environment",
+    title: "Should Empty City Land Become Parks or Housing?", zh: "市區空地該闢建公園還是蓋住宅？",
+    question: "When land becomes available in a crowded city, should it be turned into a park rather than used for new housing?", questionZh: "擁擠的城市有空地釋出時，應該闢建公園而不是興建新住宅嗎？",
+    professor: "This week we are looking at how cities use their land. Many cities are growing quickly, and empty land is becoming rare. When an old factory or parking lot closes, the city has to decide what to do with the site. Environmentalists argue that it should become a park, because green spaces cool the city and clean the air. Others point out that housing is expensive and that young people badly need affordable homes. In your opinion, when land becomes available in a crowded city, should it be turned into a park rather than used for new housing? Why or why not?",
+    david: "I think the land should become a park. Trees and grass absorb heat and clean the air, so green spaces make summers in the city much easier to bear. Parks also give people who live in small apartments a free place to exercise and relax. Once land is covered with buildings, we can never get it back, so we should protect it while we can.",
+    mary: "I believe housing should come first. In many cities, rents are so high that young workers and families cannot afford to live near their jobs. Building apartments on empty land increases supply and helps bring prices down. A park is pleasant, but it is a luxury compared with a home. Besides, people can always travel to the countryside when they want to enjoy nature.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "空地應該闢建為公園", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / empty land 空地 / crowded 擁擠的 / turn A into B 把 A 變成 B / rather than 而不是 / housing 住宅",
+          sample: "[[I agree with David that]] empty land in a crowded city [[should]] be turned into a **park** [[rather than]] used for new **housing**." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides …, which David mentioned, I would add that 除了 David 提到的…之外，我想補充 / flooding 淹水 / soil 土壤 / soak up 吸收 / rainwater 雨水 / whereas 然而、相對地 / concrete 混凝土 / green space 綠地 / act like 作用就像 / sponge 海綿",
+          sample: "[[Besides]] cooling the city, [[which David mentioned, I would add that]] parks protect cities from **flooding**. Soil and grass **soak up** rainwater, [[whereas]] **concrete** sends it into the streets. As climate change brings heavier storms, every **green space** acts like a giant **sponge**." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / be once + N 曾經是… / pond 池塘 / absorb 吸收 / resident 居民 / jog 慢跑 / replace A with B 用 B 取代 A / apartment block 公寓大樓",
+          sample: "[[For example,]] Daan Forest Park in Taipei was once a crowded area of old houses. Its trees and ponds **absorb** heavy rain, and thousands of **residents** jog there daily. Few people would want it replaced with apartment blocks." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / bring prices down 使價格下降 / This is a fair point; however, 這個觀點有道理；然而 / low-rise 低矮的（建築） / recover 收回、恢復",
+          sample: "[[Mary argues that]] new apartments bring prices down. [[This is a fair point; however,]] cities can add homes by replacing old **low-rise** buildings with taller ones, while a lost park can never be recovered." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / not A but B 不是 A 而是 B / luxury 奢侈品 / necessity 必需品",
+          sample: "[[For these reasons, I believe that]] **green space** is [[not]] a luxury [[but]] a **necessity** for a healthy city." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "空地應該優先興建住宅", rows: [
+        { role: "Position", zh: "表明立場", hints: "Although … 雖然… / pleasant 宜人的 / I agree with Mary that 我同意 Mary 所說的 / empty land 空地 / housing 住宅",
+          sample: "[[Although]] parks make a city more pleasant, [[I agree with Mary that]] empty land [[should]] be used for new **housing** first." },
+        { role: "New reason", zh: "補充新理由", hints: "One point Mary did not mention is that Mary 沒有提到的一點是 / afford to + V 負擔得起… / suburb 郊區 / distant 遙遠的 / As a result 結果 / farmland 農地 / destroy 破壞 / carbon emissions 碳排放",
+          sample: "[[One point Mary did not mention is that]] building homes inside the city is actually better for the environment. When people cannot **afford** to live downtown, they move to distant **suburbs** and drive to work. [[As a result,]] **farmland** and forests are destroyed, and **carbon emissions** rise." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / affordable 負擔得起的 / spend + 時間 + V-ing 花時間做… / commute 通勤 / If + 過去式, S + could + V（與現在事實相反的假設）",
+          sample: "[[For instance,]] my cousin works in Taipei but could only find an **affordable** apartment in Taoyuan. She [[spends]] two hours **commuting** every day. If more apartments were built near her office, she could walk to work." },
+        { role: "Respond to David", zh: "回應對方", hints: "David says that David 說 / I understand his point, but 我理解他的觀點，但 / housing project 住宅建案 / rooftop garden 屋頂花園 / so 因此 / choose between A and B 在 A 和 B 之間做選擇",
+          sample: "[[David says that]] parks give people a free place to relax. [[I understand his point, but]] new housing projects can include **rooftop gardens**, [[so]] residents do not have to choose between a home and nature." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / house (v.) 為…提供住處 / creative 有創意的 / green space 綠地",
+          sample: "[[In conclusion,]] a city [[should]] **house** its people first and then find creative ways to add **green space**." },
+      ] },
+    ]
+  },
 ];
