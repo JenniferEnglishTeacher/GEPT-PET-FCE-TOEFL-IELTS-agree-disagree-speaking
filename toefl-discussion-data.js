@@ -3793,4 +3793,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 112, cat: "Environment",
+    title: "Should Short Flights Be Banned Where Trains Are Available?", zh: "有高鐵可搭的短程航線該禁飛嗎？",
+    question: "Should governments ban short flights on routes where a fast train is available?", questionZh: "有快速鐵路可搭的路線，政府應該禁止短程航班嗎？",
+    professor: "This week we are looking at transport and climate policy. Flying produces far more carbon dioxide per passenger than traveling by train, and many flights cover only short distances. France has already banned some domestic flights on routes where the same journey can be made by train in under two and a half hours, and other countries are considering similar rules. Supporters say this is an easy way to cut emissions, while critics say it limits people's freedom and achieves very little. In your opinion, should governments ban short flights on routes where a fast train is available? Why or why not?",
+    david: "I support the ban. A short flight produces several times more carbon dioxide per passenger than the same trip by train, so this is one of the easiest ways to cut emissions. Travelers hardly lose anything, either. Once you add the trip to the airport, check-in and security, a high-speed train from city center to city center is often just as fast.",
+    mary: "I don't think a ban is the answer. Short flights are only a tiny share of aviation emissions, so the effect on the climate would be very small. Meanwhile, train tickets are often more expensive than budget flights, and people should be free to choose how they travel. If trains were really cheaper and more convenient, passengers would switch without being forced.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "有快速鐵路的路線應該禁止短程航班", rows: [
+        { role: "Position", zh: "表明立場", hints: "I agree with David that 我同意 David 所說的 / ban 禁止 / short flight 短程航班 / route 路線 / fast train 快速列車 / available 可利用的",
+          sample: "[[I agree with David that]] governments [[should]] ban **short flights** on **routes** where a fast train is available." },
+        { role: "New reason", zh: "補充新理由", hints: "Apart from …, which David mentioned, I would add that 除了 David 提到的…之外，我想補充 / carbon emissions 碳排放 / take off 起飛 / land 降落 / suffer from 受…之苦 / constant noise 持續不斷的噪音 / electric train 電力列車 / neighborhood 社區、鄰里",
+          sample: "[[Apart from]] cutting **carbon emissions**, [[which David mentioned, I would add that]] a ban would improve life for people who live near airports. Short flights **take off** and **land** all day, so thousands of families [[suffer from]] constant **noise** and dirty air. **Electric trains** would make these neighborhoods quieter and healthier." },
+        { role: "Example", zh: "舉例", hints: "For example 舉例來說 / since + 過去時間點 自從… / high-speed rail 高速鐵路 / disappear 消失 / hardly anyone 幾乎沒有人 / miss 懷念",
+          sample: "[[For example,]] since Taiwan's **high-speed rail** opened in 2007, flights between Taipei and Kaohsiung have disappeared, and hardly anyone misses them because the train takes only about ninety minutes." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / be free to + V 可以自由地… / This is a fair point; however, 這個觀點有道理；然而 / cost 代價 / prevent … from + V-ing 阻止…做… / serve 行駛於、服務（路線）",
+          sample: "[[Mary argues that]] people should be free to choose how they travel. [[This is a fair point; however,]] that freedom has a cost that everyone else pays, and nobody [[is prevented from]] traveling when a fast train serves the same **route**." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / unnecessary 不必要的 / sacrifice 犧牲 / be well worth + V-ing 非常值得…",
+          sample: "[[For these reasons, I believe that]] banning unnecessary **short flights** is a small sacrifice that [[is well worth]] making." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "不應該禁止短程航班", rows: [
+        { role: "Position", zh: "表明立場", hints: "Although … is important 雖然…很重要 / cut emissions 減少排放 / I agree with Mary that 我同意 Mary 所說的 / ban 禁止 / short flight 短程航班",
+          sample: "[[Although]] cutting **emissions** [[is important,]] [[I agree with Mary that]] governments [[should not]] ban **short flights**." },
+        { role: "New reason", zh: "補充新理由", hints: "One point Mary did not mention is that Mary 沒有提到的一點是 / be part of 是…的一部分 / major airport 大型機場 / international connection 國際轉機航班 / drag 拖著 / luggage 行李 / delay 誤點 / miss 錯過",
+          sample: "[[One point Mary did not mention is that]] many short flights [[are part of]] longer journeys. Passengers from smaller cities fly to a major airport to catch an **international connection**. If the short flight were banned, they would have to drag **luggage** through stations, and one **delay** could make them miss their next flight." },
+        { role: "Example", zh: "舉例", hints: "For instance 舉例來說 / regional 地區性的 / relative 親戚 / overseas 在海外 / check in 辦理報到 / under a ban 在禁令之下 / several extra hours 多出好幾個小時",
+          sample: "[[For instance,]] a family from a **regional** city visiting relatives overseas can now **check in** once at their local airport. Under a ban, they would need a train, a bus and several extra hours." },
+        { role: "Respond to David", zh: "回應對方", hints: "David points out that David 指出 / city center 市中心 / I understand his point, but 我理解他的觀點，但 / be true only for 只適用於 / main station 主要車站 / suburb 郊區",
+          sample: "[[David points out that]] trains between city centers are often just as fast. [[I understand his point, but]] this [[is true only for]] people who live near the main station, not for those in the **suburbs** or smaller towns." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / frequent 班次密集的 / rather than 而不是 / take away 奪走 / choice 選擇",
+          sample: "[[In conclusion,]] governments [[should]] make trains cheaper and more **frequent** [[rather than]] take away people's choices." },
+      ] },
+    ]
+  },
 ];
