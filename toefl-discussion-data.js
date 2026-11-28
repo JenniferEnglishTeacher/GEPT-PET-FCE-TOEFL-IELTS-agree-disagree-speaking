@@ -3725,4 +3725,38 @@ window.TOEFL_DISCUSSIONS = [
       ] },
     ]
   },
+  {
+    no: 110, cat: "Technology & AI",
+    title: "Should We Go Completely Cashless?", zh: "我們應該走向完全無現金的社會嗎？",
+    question: "Should societies stop using cash and move completely to digital payments?", questionZh: "社會應該全面停用現金、完全改用數位支付嗎？",
+    professor: "This week we are discussing how technology is changing money. In some countries, most people now pay with cards or mobile phones, and a growing number of shops and cafés refuse to accept cash at all. Supporters say that digital payments are faster, safer and cheaper to manage, while critics worry about the people and situations that still depend on notes and coins. In your opinion, should societies stop using cash and move completely to digital payments? Why or why not?",
+    david: "Yes, I think they should. Paying with a phone takes two seconds, and nobody has to queue at a cash machine or count coins. Digital payments are also safer: a stolen wallet is gone forever, but a lost card can be blocked immediately. Besides, printing, transporting and guarding cash costs banks and shops a great deal of money.",
+    mary: "I don't agree. Many elderly people, as well as those without a smartphone or a bank account, would struggle to buy even basic things. Digital systems also fail: when the power or the network goes down, nobody can pay for anything. Cash always works, so I believe that it should remain an option.",
+    essays: [
+      { side: "David", label: "Essay A — Agree with David", zh: "認為社會應該完全改用數位支付", rows: [
+        { role: "Position", zh: "表明立場", hints: "In my opinion 依我之見 / digital payment 數位支付 / cash 現金 / I agree with David that 我同意 David 所說的 / move completely to 完全改用",
+          sample: "[[In my opinion,]] societies should move completely to **digital payments**, [[and I agree with David that]] they are faster and safer than **cash**." },
+        { role: "New reason", zh: "補充新理由", hints: "Besides the points David made, I would add that 除了 David 提出的論點之外，我想補充 / transaction 交易 / leave a record 留下紀錄 / so 因此 / avoid tax 逃稅 / bribe 賄賂 / illegal goods 非法物品 / banknote 紙鈔",
+          sample: "[[Besides the points David made, I would add that]] digital payments make crime more difficult. Every **transaction** leaves a record, [[so]] it is much harder for people to avoid **tax**, accept **bribes** or sell illegal goods [[when]] they cannot use banknotes." },
+        { role: "Example", zh: "舉例", hints: "For example 例如 / run a shop 經營一家店 / fake banknote 偽鈔 / income 收入 / thief 小偷 / Since + S + V, S + have p.p. 自從…以來 / switch to 改用 / QR code payment 掃碼支付 / bank account 銀行帳戶",
+          sample: "[[For example,]] my aunt runs a small breakfast shop. When customers paid in cash, she worried about **fake banknotes** and once lost a day's income to a thief. [[Since]] she switched to **QR code** payments, the money has gone straight into her **bank account**." },
+        { role: "Respond to Mary", zh: "回應對方", hints: "Mary argues that Mary 主張 / struggle 陷入困難 / While that is true 雖然這是事實 / solve 解決 / prepaid card 儲值卡 / free training 免費的教學 / so 因此",
+          sample: "[[Mary argues that]] elderly people would struggle without cash. [[While that is true,]] this problem can be solved: governments can offer simple **prepaid cards** and free training, [[so]] nobody needs a smartphone to pay." },
+        { role: "Conclusion", zh: "結論", hints: "For these reasons, I believe that 基於這些理由，我認為 / cashless society 無現金社會 / fair 公平的 / efficient 有效率的",
+          sample: "[[For these reasons, I believe that]] a **cashless society** [[would be]] safer, fairer and more efficient." },
+      ] },
+      { side: "Mary", label: "Essay B — Agree with Mary", zh: "認為社會不應該完全停用現金", rows: [
+        { role: "Position", zh: "表明立場", hints: "Personally, I do not think that 就我個人而言，我不認為 / give up 放棄 / cash 現金 / completely 完全地 / I share Mary's view that 我和 Mary 看法相同，認為 / remain an option 保留為一種選項",
+          sample: "[[Personally, I do not think that]] societies should give up **cash** completely, [[and I share Mary's view that]] it must remain an option." },
+        { role: "New reason", zh: "補充新理由", hints: "One point that Mary did not mention is that Mary 沒有提到的一點是 / privacy 隱私 / control spending 控制開銷 / digital payment 數位支付 / record 記錄 / spend freely 花錢不手軟 / tap a card 感應刷卡 / instead of + V-ing 而不是 / hand over 交出",
+          sample: "[[One point that Mary did not mention is that]] cash protects our **privacy** and helps us control our **spending**. Every **digital payment** is recorded by banks, and many people spend more freely [[when]] they only tap a card [[instead of]] handing over real money." },
+        { role: "Example", zh: "舉例", hints: "Take … as an example 以…為例 / traditional market 傳統市場 / banknote 紙鈔 / coin 硬幣 / stall 攤位 / If + S + V-ed, S + would + V 假如…就會（與現在事實相反） / relative 親戚 / just to + V 光是為了…",
+          sample: "[[Take]] my grandmother [[as an example.]] She has no smartphone and pays for everything at the **traditional market** with **banknotes** and coins. [[If]] the stalls stopped accepting cash, she [[would]] need a relative's help just to buy vegetables." },
+        { role: "Respond to David", zh: "回應對方", hints: "David says that David 說 / block a card 停卡 / That may be true; however 這也許是真的；然而 / online fraud 網路詐騙 / scammer 詐騙者 / empty an account 把帳戶提領一空 / far worse than 遠比…更糟",
+          sample: "[[David says that]] a lost card can be blocked immediately. [[That may be true; however,]] **online fraud** is growing fast, and a **scammer** can empty a **bank account** in seconds, which is [[far worse than]] losing one wallet." },
+        { role: "Conclusion", zh: "結論", hints: "In conclusion 總之 / convenient 方便的 / be required to + V 被要求必須… / accept cash 收現金",
+          sample: "[[In conclusion,]] digital payments are convenient, but shops [[should]] still be required to accept **cash**." },
+      ] },
+    ]
+  },
 ];
