@@ -77,7 +77,7 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 71 | Email | Application / Job | Applying to Be a Volunteer at an International Film Festival 應徵國際影展志工 (to Ms. Delgado, volunteer manager of the Harbor City International Film Festival — student volunteers check tickets, help the audience find seats and welcome foreign directors and guests for ten days in October; why you want to volunteer (love foreign films, see a big event behind the scenes), a useful skill or experience (fluent English, information desk at the school open day), ask a question about the volunteers' schedule / shifts) | toefl-master/email-application-job.html
 72 | Email | Thanks / Follow-up | Thanking a Bookshop Owner for Donating Books 感謝書店老闆捐書給班級閱讀角 (to Mr. Reed, owner of Corner Bookshop — donated forty English novels and magazines to your class's English reading corner, you write as class representative; thank him + what the class thought of the books, how the books are being used (15-minute morning reading, 30+ books borrowed), invite him to visit the class next Friday) | toefl-master/email-thanks-follow-up.html
 
-## Discussion (114)
+## Discussion (115)
 01 | Discussion | Education | Should STEAM courses be mandatory for all university students? 大學應該把 STEAM 課程列為全體學生的必修嗎？ | toefl-master/discussion-education.html
 02 | Discussion | Technology & AI | Will AI-generated images and videos have a positive or a negative influence on society? AI 生成的圖片與影片對社會的影響是正面還是負面？ | toefl-master/discussion-technology-ai.html
 03 | Discussion | Social media & influencers | Do social media influencers have a mainly positive or a mainly negative influence on young people? 社群媒體網紅對年輕人的影響主要是正面還是負面？ | toefl-master/discussion-social-media-influencers.html
@@ -192,6 +192,7 @@ Category order — Email: Apology / Absence; Request; Complaint / Problem; Inqui
 112 | Discussion | Environment | Should governments ban short flights on routes where a fast train is available? 有快速鐵路可搭的路線，政府應該禁止短程航班嗎？ | toefl-master/discussion-environment.html
 113 | Discussion | Government & society | Should the death penalty be abolished? 應該廢除死刑嗎？ | toefl-master/discussion-government-society.html
 114 | Discussion | Work & economy | Do employees achieve more when they work in teams than when they work alone? 員工團隊合作時的成就比獨立作業時更多嗎？ | toefl-master/discussion-work-economy.html
+115 | Discussion | Health & lifestyle | Is a sense of humour an essential part of a healthy life? 幽默感是健康生活不可或缺的一部分嗎？ | toefl-master/discussion-health-lifestyle.html
 
 ## Notes for the next run
 - Sample markup in the HTML sources: `<span style="background-color:#fff2a8">` = universal pattern, `<b>` = theme word.
